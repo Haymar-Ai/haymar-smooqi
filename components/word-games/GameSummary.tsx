@@ -9,6 +9,7 @@ type GameSummaryProps = {
   score: number
   totalRounds: number
   gameName: string
+  correctRounds?: number
   onPlayAgain: () => void
   onBack: () => void
 }
@@ -17,6 +18,7 @@ export function GameSummary({
   score,
   totalRounds,
   gameName,
+  correctRounds,
   onPlayAgain,
   onBack,
 }: GameSummaryProps) {
@@ -46,6 +48,12 @@ export function GameSummary({
       <p className="text-5xl font-bold text-gray-900 mb-2">
         {score} / {totalRounds}
       </p>
+
+      {correctRounds !== undefined && (
+        <p className="text-sm text-gray-500 mt-1">
+          {correctRounds} / {totalRounds} rounds fully correct
+        </p>
+      )}
 
       <p className="text-lg text-gray-600 mb-4">
         {percentage >= 80
