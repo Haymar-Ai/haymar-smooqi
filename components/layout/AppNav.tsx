@@ -25,7 +25,7 @@ export function AppNav({ userName, userImage }: AppNavProps) {
   const pathname = usePathname()
 
   return (
-    <nav className="flex h-full flex-col bg-white shadow-sm border-r border-gray-100">
+    <nav className="flex h-full flex-col shadow-sm" style={{ background: 'var(--sidebar-bg)', borderRight: '1px solid var(--sidebar-border)', backdropFilter: 'blur(12px)' }}>
       {/* Logo */}
       <div className="flex h-16 items-center px-6">
         <Link href="/home" className="text-2xl font-bold text-[var(--color-primary)]">

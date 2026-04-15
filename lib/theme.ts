@@ -69,6 +69,9 @@ export function getThemeCSSVars(): string {
       --color-primary-light: #EDE9FE;
       --color-primary-foreground: #FFFFFF;
       --color-background: transparent;
+      --app-background: transparent;
+      --sidebar-bg: rgba(255,255,255,0.85);
+      --sidebar-border: rgba(124,58,237,0.08);
       --card-radius: 16px;
       --button-radius: 24px;
       --font-heading: 'Inter', sans-serif;
@@ -79,6 +82,9 @@ export function getThemeCSSVars(): string {
     --color-primary-light: #FFF7ED;
     --color-primary-foreground: #FFFFFF;
     --color-background: #FAFAF7;
+    --app-background: #FAFAF7;
+    --sidebar-bg: #FFFFFF;
+    --sidebar-border: #E7E5E4;
     --card-radius: 12px;
     --button-radius: 20px;
     --font-heading: 'Nunito', sans-serif;

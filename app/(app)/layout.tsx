@@ -20,7 +20,7 @@ export default async function AppLayout({
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen" style={{ background: 'var(--app-background, transparent)' }}>
       {/* Desktop sidebar */}
       <aside className="hidden md:fixed md:inset-y-0 md:flex md:w-60 md:flex-col">
         <AppNav userName={user.name} userImage={user.image} />
