@@ -59,37 +59,58 @@ export function LearningPath({ topicSelections }: LearningPathProps) {
         const remainingCount = ts.topic.courses.length - 3
 
         return (
-          <div key={ts.topicId} className="rounded-[var(--card-radius)] bg-white p-4 shadow-sm">
-            <Link href={`/topics/${ts.topic.slug}`} className="flex items-center gap-2">
+          <div
+            key={ts.topicId}
+            className="overflow-hidden rounded-[var(--card-radius)] bg-white shadow-sm"
+            style={{ borderLeft: `4px solid ${colors.text}` }}
+          >
+            {/* Topic header band */}
+            <div
+              className="flex items-center gap-3 px-4 py-3"
+              style={{ backgroundColor: colors.bg }}
+            >
+              <span className="text-xl">{ts.topic.icon}</span>
+              <span className="text-sm font-bold" style={{ color: colors.text }}>{ts.topic.name}</span>
               <span
-                className="flex h-8 w-8 items-center justify-center rounded-full text-base"
-                style={{ backgroundColor: colors.bg }}
+                className="ml-auto rounded-full px-2 py-0.5 text-xs font-medium"
+                style={{ backgroundColor: colors.text + '18', color: colors.text }}
               >
-                {ts.topic.icon}
+                {ts.topic.courses.length} courses
               </span>
-              <span className="text-sm font-semibold text-gray-900">{ts.topic.name}</span>
-              <span className="ml-auto text-xs text-gray-400">{ts.topic.courses.length} courses</span>
-            </Link>
+            </div>
 
-            <div className="mt-2 space-y-1 pl-10">
-              {visibleCourses.map((course) => (
+            {/* Course list */}
+            <div className="divide-y divide-gray-50 px-4">
+              {visibleCourses.map((course, idx) => (
                 <Link
                   key={course.id}
                   href={`/learn/${course.slug}`}
-                  className="block text-xs text-gray-600 hover:text-[var(--color-primary)]"
+                  className="flex items-center gap-3 py-2.5 hover:text-[var(--color-primary)] transition-colors"
                 >
-                  {course.title}
+                  <span
+                    className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white"
+                    style={{ backgroundColor: colors.text }}
+                  >
+                    {idx + 1}
+                  </span>
+                  <span className="text-sm text-gray-700">{course.title}</span>
+                  <span className="ml-auto text-xs text-gray-400">→</span>
                 </Link>
               ))}
-              {remainingCount > 0 && (
+            </div>
+
+            {/* See all link */}
+            {remainingCount > 0 && (
+              <div className="border-t border-gray-50 px-4 py-2.5">
                 <Link
                   href={`/topics/${ts.topic.slug}`}
-                  className="block text-xs font-medium text-[var(--color-primary)]"
+                  className="text-xs font-semibold"
+                  style={{ color: colors.text }}
                 >
-                  See all {ts.topic.courses.length} courses &rarr;
+                  See all {ts.topic.courses.length} courses →
                 </Link>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         )
       })}
