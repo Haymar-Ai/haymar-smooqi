@@ -1,0 +1,67 @@
+{
+  "slug": "active-listening",
+  "title": "The Art of Active Listening",
+  "sortOrder": 3,
+  "estimatedMinutes": 10,
+  "slides": [
+    {
+      "slideOrder": 1,
+      "slideType": "lesson",
+      "title": "Why Listening Is a Superpower",
+      "content": "Most people listen to respond rather than to understand. Active listening flips this pattern by making the speaker feel deeply heard and valued. Studies show that people rate conversations as more enjoyable and meaningful when the other person demonstrates genuine listening. Ironically, the best conversationalists are often those who speak the least but listen the most. Active listening is the fastest way to build trust, defuse conflict, and make others feel important."
+    },
+    {
+      "slideOrder": 2,
+      "slideType": "lesson",
+      "title": "The HEAR Framework",
+      "content": "Use the HEAR framework to structure your active listening practice. H stands for Halt: stop whatever else you are doing and give your full attention. E stands for Empathize: try to understand the speaker's emotional state, not just their words. A stands for Anticipate: stay curious about where the conversation is heading rather than jumping ahead. R stands for Review: mentally summarize what was said before responding. This framework prevents the common trap of rehearsing your reply while the other person is still talking."
+    },
+    {
+      "slideOrder": 3,
+      "slideType": "lesson",
+      "title": "Verbal and Non-Verbal Listening Signals",
+      "content": "Active listening requires both verbal and non-verbal signals to be effective. Non-verbally, maintain comfortable eye contact, nod occasionally, lean slightly forward, and keep an open posture. Verbally, use brief acknowledgments like 'I see' or 'That makes sense' to show you are tracking. Avoid the temptation to one-up the speaker with your own similar story. When you do speak, paraphrase what they said in your own words to confirm understanding, which makes the speaker feel truly heard."
+    },
+    {
+      "slideOrder": 4,
+      "slideType": "lesson",
+      "title": "The Power of Great Questions",
+      "content": "Charismatic listeners ask questions that go deeper than surface-level small talk. Open-ended questions that begin with 'What' or 'How' invite the speaker to elaborate and share more of their perspective. Follow-up questions are especially powerful because they signal that you were genuinely paying attention. Avoid questions that are thinly disguised opinions or that redirect the conversation back to yourself. The goal is to create space for the other person to feel explored and understood, not interrogated."
+    },
+    {
+      "slideOrder": 5,
+      "slideType": "lesson",
+      "title": "Overcoming Common Listening Barriers",
+      "content": "Several habits sabotage active listening even among well-intentioned communicators. Internal distractions like planning your response, judging the speaker, or daydreaming pull your attention away. External distractions like phone notifications and background noise fragment your focus. The fix-it impulse, the urge to immediately solve someone's problem rather than simply hearing them out, is another common barrier. Practice tolerating the discomfort of silence and resist the reflex to fill every pause with advice or your own experience."
+    }
+  ],
+  "quizQuestions": [
+    {
+      "question": "What does the 'E' in the HEAR framework stand for?",
+      "optionA": "Evaluate the speaker's argument for logical flaws",
+      "optionB": "Empathize with the speaker's emotional state",
+      "optionC": "Elaborate on your own related experiences",
+      "optionD": "Encourage the speaker to finish quickly",
+      "correctAnswer": "B",
+      "explanation": "The E in HEAR stands for Empathize, which means trying to understand the speaker's emotional state and perspective rather than just processing their words at face value."
+    },
+    {
+      "question": "Which type of question is most effective for deeper conversations?",
+      "optionA": "Yes-or-no questions that get quick answers",
+      "optionB": "Leading questions that guide the speaker toward your opinion",
+      "optionC": "Open-ended follow-up questions that show genuine attention",
+      "optionD": "Rhetorical questions that make a point",
+      "correctAnswer": "C",
+      "explanation": "Open-ended follow-up questions demonstrate that you were truly listening and invite the speaker to go deeper. They create space for richer conversation and stronger connection."
+    },
+    {
+      "question": "What is the 'fix-it impulse' and why is it a barrier to listening?",
+      "optionA": "The desire to correct grammar mistakes, which distracts from meaning",
+      "optionB": "The urge to immediately solve someone's problem rather than fully hearing them out",
+      "optionC": "The habit of fixing your posture during conversation",
+      "optionD": "The tendency to fact-check everything the speaker says",
+      "correctAnswer": "B",
+      "explanation": "The fix-it impulse is the reflex to jump to problem-solving before the speaker has fully shared their experience. Often people need to feel heard before they want solutions, and premature advice can feel dismissive."
+    }
+  ]
+}

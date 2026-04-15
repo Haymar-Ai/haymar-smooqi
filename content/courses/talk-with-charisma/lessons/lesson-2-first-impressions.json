@@ -1,0 +1,67 @@
+{
+  "slug": "first-impressions",
+  "title": "First Impressions That Last",
+  "sortOrder": 2,
+  "estimatedMinutes": 10,
+  "slides": [
+    {
+      "slideOrder": 1,
+      "slideType": "lesson",
+      "title": "The 7-Second Window",
+      "content": "Research in social psychology has consistently shown that people form lasting judgments about you within the first seven seconds of meeting. In that brief window, others assess your trustworthiness, competence, likability, and social status. These snap judgments are driven by evolutionary instinct and are remarkably resistant to change once formed. Understanding this window gives you the power to be intentional about the signals you send from the very first moment of contact."
+    },
+    {
+      "slideOrder": 2,
+      "slideType": "lesson",
+      "title": "The Science Behind Snap Judgments",
+      "content": "First impressions are processed primarily by the amygdala, the brain's threat-detection center, before conscious thought kicks in. This means people evaluate you emotionally before they evaluate you rationally. Studies by Princeton psychologist Alexander Todorov found that exposure times as short as one-tenth of a second are enough for people to form judgments about your face. This is why your resting facial expression, posture, and initial energy matter so much before you even speak a word."
+    },
+    {
+      "slideOrder": 3,
+      "slideType": "lesson",
+      "title": "Your Visual Introduction",
+      "content": "Before you say hello, your appearance and body language are already communicating volumes. Stand with your shoulders back and your weight evenly distributed to project stability and confidence. Offer a genuine smile that reaches your eyes, known as a Duchenne smile, which signals warmth and approachability. Make sure your grooming and attire match the context of the interaction, as congruence between your appearance and the setting builds credibility. Avoid crossed arms, fidgeting, or looking at your phone, all of which signal disinterest or anxiety."
+    },
+    {
+      "slideOrder": 4,
+      "slideType": "lesson",
+      "title": "The Power of Your Opening Words",
+      "content": "Your first sentence sets the emotional tone for the entire conversation. Avoid generic openers like 'How are you?' which signal social autopilot. Instead, use context-specific openers that demonstrate awareness and genuine interest, such as referencing something in the shared environment or asking a thoughtful question. Speak with a warm, steady voice at a moderate pace. Rushing signals nervousness, while speaking too slowly can seem condescending. The goal is to sound confident yet approachable in your first few words."
+    },
+    {
+      "slideOrder": 5,
+      "slideType": "lesson",
+      "title": "Recovering from a Poor First Impression",
+      "content": "Even when a first impression goes wrong, recovery is possible with consistent effort. The key is acknowledging the gap between how you came across and who you actually are, either directly or through repeated positive interactions. Research shows that while negative first impressions are sticky, they can be overwritten with enough contradictory evidence over time. Focus on demonstrating reliability, warmth, and competence in subsequent encounters. One powerful strategy is to find common ground early in a follow-up conversation, which activates the brain's similarity-attraction bias."
+    }
+  ],
+  "quizQuestions": [
+    {
+      "question": "How quickly do people typically form first impressions?",
+      "optionA": "Within the first 30 seconds",
+      "optionB": "Within the first 7 seconds",
+      "optionC": "Within the first 2 minutes",
+      "optionD": "Only after a full conversation",
+      "correctAnswer": "B",
+      "explanation": "Research shows that people form lasting judgments about trustworthiness, competence, and likability within approximately seven seconds of meeting someone, before any meaningful conversation occurs."
+    },
+    {
+      "question": "Which part of the brain primarily processes first impressions?",
+      "optionA": "The prefrontal cortex, responsible for logical reasoning",
+      "optionB": "The hippocampus, responsible for memory storage",
+      "optionC": "The amygdala, the brain's threat-detection center",
+      "optionD": "The cerebellum, responsible for motor coordination",
+      "correctAnswer": "C",
+      "explanation": "The amygdala processes first impressions emotionally before conscious, rational thought engages. This is why emotional signals like facial expressions and body language carry so much weight in initial encounters."
+    },
+    {
+      "question": "What is the most effective strategy for making a strong verbal first impression?",
+      "optionA": "Use generic greetings like 'How are you?' to keep things safe",
+      "optionB": "Speak as quickly as possible to show enthusiasm",
+      "optionC": "Use context-specific openers that show awareness and genuine interest",
+      "optionD": "Immediately talk about your accomplishments to establish credibility",
+      "correctAnswer": "C",
+      "explanation": "Context-specific openers demonstrate that you are present and genuinely engaged, which sets a positive emotional tone. Generic greetings signal social autopilot and miss the opportunity to make a memorable connection."
+    }
+  ]
+}

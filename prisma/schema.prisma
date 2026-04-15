@@ -1,0 +1,294 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String    @id @default(cuid())
+  email               String    @unique
+  name                String?
+  image               String?
+  passwordHash        String?
+  provider            String    @default("email")
+
+  stripeCustomerId    String?   @unique
+  subscriptionStatus  String    @default("free")
+  subscriptionPlan    String?
+  trialEndsAt         DateTime?
+  subscriptionEndsAt  DateTime?
+
+  referralCode        String    @unique @default(cuid())
+  referredById        String?
+  referredBy          User?     @relation("referrals", fields: [referredById], references: [id])
+  referrals           User[]    @relation("referrals")
+
+  level               Int       @default(1)
+  xp                  Int       @default(0)
+  currentStreak       Int       @default(0)
+  bestStreak          Int       @default(0)
+  lastActiveDate      DateTime?
+  totalMinutes        Int       @default(0)
+  totalLessonsDone    Int       @default(0)
+
+  notificationsEnabled Boolean  @default(false)
+  themeMode           String    @default("light")
+  themeColor          String    @default("purple")
+  backgroundPattern   String    @default("solid")
+
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  topicSelections     UserTopicSelection[]
+  progress            UserProgress[]
+  achievements        UserAchievement[]
+  savedCourses        UserSavedCourse[]
+  dailyChallenges     UserDailyChallenge[]
+  xpLogs              UserXPLog[]
+  reviews             UserReview[]
+  supportRequests     SupportRequest[]
+}
+
+model Topic {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String
+  icon        String
+  colorHex    String
+  colorName   String
+  sortOrder   Int      @default(0)
+  courses     Course[]
+  topicSelections UserTopicSelection[]
+}
+
+model Course {
+  id              String   @id @default(cuid())
+  topicId         String
+  topic           Topic    @relation(fields: [topicId], references: [id])
+  slug            String   @unique
+  title           String
+  description     String   @db.Text
+  level           String
+  lessonCount     Int      @default(5)
+  estimatedMinutes Int
+  isFree          Boolean  @default(false)
+  sortOrder       Int      @default(0)
+  imageUrl        String?
+  lessons         Lesson[]
+  quizQuestions   QuizQuestion[] @relation("courseQuiz")
+  userProgress    UserProgress[]
+  savedBy         UserSavedCourse[]
+}
+
+model Lesson {
+  id              String   @id @default(cuid())
+  courseId         String
+  course          Course   @relation(fields: [courseId], references: [id])
+  slug            String
+  title           String
+  sortOrder       Int
+  estimatedMinutes Int     @default(10)
+  slides          Slide[]
+  quizQuestions   QuizQuestion[] @relation("lessonQuiz")
+  userProgress    UserProgress[]
+  reviews         UserReview[]
+}
+
+model Slide {
+  id          String   @id @default(cuid())
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id])
+  slideOrder  Int
+  slideType   String   @default("lesson")
+  title       String?
+  content     String   @db.Text
+  imageUrl    String?
+  imageAlt    String?
+}
+
+model QuizQuestion {
+  id              String   @id @default(cuid())
+  lessonId        String?
+  lesson          Lesson?  @relation("lessonQuiz", fields: [lessonId], references: [id])
+  courseId         String?
+  course          Course?  @relation("courseQuiz", fields: [courseId], references: [id])
+  type            String
+  question        String   @db.Text
+  optionA         String
+  optionB         String
+  optionC         String
+  optionD         String
+  correctAnswer   String
+  explanation     String?  @db.Text
+  sortOrder       Int      @default(0)
+  dailyChallenges DailyChallenge[]
+}
+
+model DailyChallenge {
+  id          String       @id @default(cuid())
+  date        DateTime     @unique @db.Date
+  questionId  String
+  question    QuizQuestion @relation(fields: [questionId], references: [id])
+  userAttempts UserDailyChallenge[]
+}
+
+model UserDailyChallenge {
+  id          String         @id @default(cuid())
+  userId      String
+  user        User           @relation(fields: [userId], references: [id])
+  challengeId String
+  challenge   DailyChallenge @relation(fields: [challengeId], references: [id])
+  selectedAnswer String
+  isCorrect   Boolean
+  completedAt DateTime       @default(now())
+
+  @@unique([userId, challengeId])
+}
+
+model UserProgress {
+  id              String    @id @default(cuid())
+  userId          String
+  user            User      @relation(fields: [userId], references: [id])
+  courseId         String
+  course          Course    @relation(fields: [courseId], references: [id])
+  lessonId        String?
+  lesson          Lesson?   @relation(fields: [lessonId], references: [id])
+  slidesCompleted Int       @default(0)
+  lessonCompleted Boolean   @default(false)
+  lessonCompletedAt DateTime?
+  quizAttempted   Boolean   @default(false)
+  quizPassed      Boolean   @default(false)
+  quizScore       Int?
+  courseCompleted Boolean   @default(false)
+  courseCompletedAt DateTime?
+  courseQuizPassed Boolean  @default(false)
+  minutesSpent    Int       @default(0)
+  updatedAt       DateTime  @updatedAt
+
+  @@unique([userId, courseId, lessonId])
+}
+
+model UserXPLog {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  amount    Int
+  source    String
+  sourceId  String?
+  createdAt DateTime @default(now())
+}
+
+model Achievement {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String
+  category    String
+  tier        String
+  icon        String
+  requirement Json
+  sortOrder   Int      @default(0)
+  users       UserAchievement[]
+}
+
+model UserAchievement {
+  id            String      @id @default(cuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id])
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id])
+  unlockedAt    DateTime    @default(now())
+
+  @@unique([userId, achievementId])
+}
+
+model UserTopicSelection {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  topicId   String
+  topic     Topic    @relation(fields: [topicId], references: [id])
+  position  Int
+  selectedAt DateTime @default(now())
+
+  @@unique([userId, topicId])
+}
+
+model UserSavedCourse {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  courseId   String
+  course    Course   @relation(fields: [courseId], references: [id])
+  savedAt   DateTime @default(now())
+
+  @@unique([userId, courseId])
+}
+
+model UserReview {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+  lessonId      String
+  lesson        Lesson   @relation(fields: [lessonId], references: [id])
+  nextReviewAt  DateTime
+  easeFactor    Float    @default(2.5)
+  interval      Int      @default(1)
+  repetitions   Int      @default(0)
+  updatedAt     DateTime @updatedAt
+
+  @@unique([userId, lessonId])
+}
+
+model WordGame {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  description String
+  iconEmoji String
+  rounds    WordGameRound[]
+}
+
+model WordGameRound {
+  id        String   @id @default(cuid())
+  gameId    String
+  game      WordGame @relation(fields: [gameId], references: [id])
+  content   Json
+  difficulty String  @default("medium")
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  excerpt     String   @db.Text
+  content     String   @db.Text
+  topic       String
+  imageUrl    String?
+  readingTime Int
+  publishedAt DateTime
+  featured    Boolean  @default(false)
+}
+
+model SupportRequest {
+  id          String   @id @default(cuid())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id])
+  email       String
+  issueType   String
+  subject     String
+  description String   @db.Text
+  createdAt   DateTime @default(now())
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  email     String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}

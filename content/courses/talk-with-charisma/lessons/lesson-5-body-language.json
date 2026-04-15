@@ -1,0 +1,67 @@
+{
+  "slug": "body-language",
+  "title": "Body Language Mastery",
+  "sortOrder": 5,
+  "estimatedMinutes": 10,
+  "slides": [
+    {
+      "slideOrder": 1,
+      "slideType": "lesson",
+      "title": "The Silent Conversation",
+      "content": "Communication researchers estimate that 55 to 70 percent of the meaning in face-to-face interaction comes from non-verbal cues rather than spoken words. Your body is constantly broadcasting signals about your confidence, emotional state, and intentions whether you are aware of it or not. Charismatic individuals have learned to align their body language with their spoken message so that everything they communicate feels congruent and trustworthy. When your words say one thing but your body says another, people instinctively trust the body."
+    },
+    {
+      "slideOrder": 2,
+      "slideType": "lesson",
+      "title": "Posture and Spatial Presence",
+      "content": "Your posture is the foundation of your non-verbal presence. Stand and sit with your spine straight, shoulders relaxed and slightly back, and your chin parallel to the ground. Avoid making yourself physically smaller by hunching, crossing your arms, or tucking your chin. Research by social psychologist Amy Cuddy showed that expansive postures not only change how others perceive you but also shift your own internal hormonal balance, increasing testosterone and decreasing cortisol. Claim the space you occupy without being aggressive about it."
+    },
+    {
+      "slideOrder": 3,
+      "slideType": "lesson",
+      "title": "Eye Contact and Facial Expressions",
+      "content": "Eye contact is one of the most powerful tools in your non-verbal toolkit. Aim for maintaining eye contact about 60 to 70 percent of the time during conversation, which signals engagement without feeling invasive. When you break eye contact, look to the side rather than down, as looking downward can signal submission or discomfort. Your facial expressions should match the emotional content of the conversation. Practice a relaxed, open resting face and use genuine smiles that involve the muscles around your eyes, not just your mouth."
+    },
+    {
+      "slideOrder": 4,
+      "slideType": "lesson",
+      "title": "Gestures and Hand Movement",
+      "content": "Purposeful hand gestures make your communication more dynamic and help listeners process your message. Keep your gestures in the zone between your waist and shoulders for maximum impact. Open palms signal honesty and openness, while pointing or chopping gestures can feel aggressive. Avoid self-soothing gestures like touching your face, playing with your hair, or fidgeting with objects, as these signal anxiety and undermine your credibility. The key is to let your hands move naturally to emphasize points rather than keeping them rigidly at your sides or stuffed in your pockets."
+    },
+    {
+      "slideOrder": 5,
+      "slideType": "lesson",
+      "title": "Mirroring and Rapport Building",
+      "content": "Mirroring is the subtle practice of matching another person's body language, tone, and energy level to build unconscious rapport. When done naturally, it signals to the other person that you are on the same wavelength, activating the brain's mirror neuron system. Start by matching their general posture and energy level, then gradually sync your speaking pace and volume. The key word is subtle: overt mimicry feels mocking and breaks trust. Effective mirroring should be delayed by a few seconds and applied to general patterns rather than specific movements."
+    }
+  ],
+  "quizQuestions": [
+    {
+      "question": "What percentage of face-to-face communication meaning comes from non-verbal cues?",
+      "optionA": "About 10 to 20 percent",
+      "optionB": "About 30 to 40 percent",
+      "optionC": "About 55 to 70 percent",
+      "optionD": "About 90 to 95 percent",
+      "correctAnswer": "C",
+      "explanation": "Research consistently shows that 55 to 70 percent of meaning in face-to-face communication comes from non-verbal signals like body language, facial expressions, and tone of voice, far outweighing the impact of words alone."
+    },
+    {
+      "question": "What is the recommended amount of eye contact during conversation?",
+      "optionA": "100 percent of the time to show maximum engagement",
+      "optionB": "About 60 to 70 percent, breaking contact to the side periodically",
+      "optionC": "As little as possible to avoid making others uncomfortable",
+      "optionD": "Only when the other person is speaking, never when you are",
+      "correctAnswer": "B",
+      "explanation": "Maintaining eye contact about 60 to 70 percent of the time strikes the right balance between engagement and comfort. Breaking contact by looking to the side rather than down maintains confidence while giving both parties natural visual breaks."
+    },
+    {
+      "question": "What is the key principle for effective mirroring?",
+      "optionA": "Copy every specific gesture the other person makes immediately",
+      "optionB": "Only mirror people who are in positions of authority",
+      "optionC": "Subtly match general patterns with a slight delay to build unconscious rapport",
+      "optionD": "Mirror only facial expressions, never body posture",
+      "correctAnswer": "C",
+      "explanation": "Effective mirroring should be subtle and slightly delayed, matching general patterns of posture, energy, and pace rather than copying specific movements. Overt or immediate mimicry feels mocking and destroys rapport instead of building it."
+    }
+  ]
+}
