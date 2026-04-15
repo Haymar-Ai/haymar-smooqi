@@ -4,6 +4,7 @@ import { prisma } from '@/lib/db'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 import { BlogContent } from './BlogContent'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -25,15 +26,7 @@ export default async function BlogPostPage({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-16">
-      <Link
-        href="/blog"
-        className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-gray-900 transition-colors"
-      >
-        <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-        </svg>
-        Back to Blog
-      </Link>
+      <BackButton href="/blog" label="Back to Blog" />
 
       <div className="mt-6 flex items-center gap-3">
         <Badge variant="secondary">{post.topic}</Badge>

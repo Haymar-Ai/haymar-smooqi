@@ -3,6 +3,7 @@ import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { themeConfig } from '@/lib/theme'
 import { ReportsTabs } from './ReportsTabs'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -170,6 +171,7 @@ export default async function ReportsPage({
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Reports</h1>
 
       <ReportsTabs activeTab={tab} />

@@ -3,6 +3,7 @@ import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { Card, CardContent } from '@/components/ui/card'
 import { CopyReferralLink } from './CopyReferralLink'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -32,6 +33,7 @@ export default async function InvitePage() {
 
   return (
     <div className="mx-auto max-w-2xl">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Invite Friends, Learn Together</h1>
       <p className="mt-1 text-gray-500">
         Share Smooqi with friends and both of you get rewarded.

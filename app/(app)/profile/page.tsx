@@ -5,6 +5,7 @@ import { themeConfig } from '@/lib/theme'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { ProfileEditForm } from './ProfileEditForm'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -87,6 +88,7 @@ export default async function ProfilePage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Profile</h1>
 
       {/* Profile card */}

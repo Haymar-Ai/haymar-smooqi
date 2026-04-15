@@ -2,6 +2,7 @@ import { redirect } from 'next/navigation'
 import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { ReviewCards } from './ReviewCards'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -31,6 +32,7 @@ export default async function ReviewPage() {
 
   return (
     <div className="mx-auto max-w-2xl">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Spaced Repetition Review</h1>
       <p className="mt-1 text-gray-500">
         {dueReviews.length > 0

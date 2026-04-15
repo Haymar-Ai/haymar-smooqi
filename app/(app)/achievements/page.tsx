@@ -4,6 +4,7 @@ import { prisma } from '@/lib/db'
 import { themeConfig } from '@/lib/theme'
 import { Badge } from '@/components/ui/badge'
 import { AchievementFilterTabs } from './AchievementFilterTabs'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -97,6 +98,7 @@ export default async function AchievementsPage({
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      <BackButton href="/home" />
       {/* Header */}
       <div>
         <div className="flex items-center justify-between">

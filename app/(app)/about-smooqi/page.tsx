@@ -2,10 +2,12 @@ import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
+import { BackButton } from '@/components/ui/BackButton'
 
 export default function AboutSmooqiPage() {
   return (
     <div className="mx-auto max-w-2xl">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">About Smooqi</h1>
 
       <Card className="mt-6">

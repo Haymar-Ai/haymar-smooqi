@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
+import { BackButton } from '@/components/ui/BackButton'
 
 const ISSUE_TYPES = [
   'Bug Report',
@@ -75,6 +76,7 @@ export default function SupportPage() {
 
   return (
     <div className="mx-auto max-w-xl">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Support</h1>
       <p className="mt-1 text-gray-500">
         Need help? Fill out the form below and we&apos;ll assist you.

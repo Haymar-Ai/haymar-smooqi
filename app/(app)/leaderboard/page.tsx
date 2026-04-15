@@ -4,6 +4,7 @@ import { prisma } from '@/lib/db'
 import { getLevelFromXp } from '@/lib/xp'
 import { themeConfig } from '@/lib/theme'
 import { LeaderboardTabs } from './LeaderboardTabs'
+import { BackButton } from '@/components/ui/BackButton'
 
 export const dynamic = 'force-dynamic'
 
@@ -97,6 +98,7 @@ export default async function LeaderboardPage({
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Leaderboard</h1>
 
       <LeaderboardTabs activeTab={tab} />
