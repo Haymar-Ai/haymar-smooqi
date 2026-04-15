@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { prisma } from '@/lib/db'
+import { BackButton } from '@/components/ui/BackButton'
 import { WordHunter } from '@/components/word-games/WordHunter'
 import { CommSense } from '@/components/word-games/CommSense'
 import { WordSearch } from '@/components/word-games/WordSearch'
@@ -50,6 +51,7 @@ export default async function GamePage({ params }: Props) {
 
     return (
       <div className="max-w-2xl mx-auto py-4">
+        <BackButton href="/word-games" />
         <WordHunter rounds={mapped} />
       </div>
     )
@@ -73,6 +75,7 @@ export default async function GamePage({ params }: Props) {
 
     return (
       <div className="max-w-2xl mx-auto py-4">
+        <BackButton href="/word-games" />
         <CommSense rounds={mapped} />
       </div>
     )
@@ -94,6 +97,7 @@ export default async function GamePage({ params }: Props) {
 
     return (
       <div className="max-w-2xl mx-auto py-4">
+        <BackButton href="/word-games" />
         <WordSearch rounds={mapped} />
       </div>
     )

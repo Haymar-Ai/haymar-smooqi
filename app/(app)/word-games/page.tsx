@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import { BackButton } from '@/components/ui/BackButton'
 
 const GAMES = [
   {
@@ -29,6 +30,7 @@ const GAMES = [
 export default function WordGamesPage() {
   return (
     <div className="max-w-2xl mx-auto">
+      <BackButton href="/home" />
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Word Games</h1>
         <p className="mt-1 text-sm text-gray-500">

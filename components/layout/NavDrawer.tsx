@@ -103,6 +103,34 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
                   </Link>
                 )
               })}
+
+              {/* Divider */}
+              <div className="mx-4 my-2 border-t border-gray-100" />
+              <p className="px-4 py-1 text-[10px] font-semibold uppercase tracking-widest text-gray-400">
+                More
+              </p>
+
+              {/* Secondary items */}
+              {[
+                { label: 'Blog', href: '/blog', icon: '📝' },
+                { label: 'Support', href: '/support', icon: '🆘' },
+                { label: 'About', href: '/about-smooqi', icon: 'ℹ️' },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={onClose}
+                  className={cn(
+                    'flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors mx-2',
+                    pathname.startsWith(item.href)
+                      ? 'text-[var(--color-primary)]'
+                      : 'text-gray-500 hover:bg-gray-100 hover:text-gray-900'
+                  )}
+                >
+                  <span className="text-base">{item.icon}</span>
+                  {item.label}
+                </Link>
+              ))}
             </nav>
 
             {/* Sign out */}

@@ -8,6 +8,7 @@ import { Label } from '@/components/ui/label'
 import { Separator } from '@/components/ui/separator'
 import { themeConfig } from '@/lib/theme'
 import { cn } from '@/lib/utils'
+import { BackButton } from '@/components/ui/BackButton'
 
 type UserSettings = {
   provider: string
@@ -150,6 +151,7 @@ export default function SettingsPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      <BackButton href="/home" />
       <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
 
       {/* Appearance */}

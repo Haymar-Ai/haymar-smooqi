@@ -37,17 +37,35 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
   callbacks: {
-    async jwt({ token, user, account }) {
-      if (user) {
-        token.id = user.id
-      }
-      if (account?.provider === 'google' && token.email) {
-        const dbUser = await prisma.user.findUnique({
-          where: { email: token.email as string },
-          select: { id: true },
+    async jwt({ token, user, account, profile }) {
+      // Debug logging — helps diagnose OAuth issues in Railway logs
+      if (account) {
+        console.log('[JWT]', {
+          provider: account.provider,
+          tokenEmail: token.email,
+          profileEmail: (profile as { email?: string })?.email,
+          hasUser: !!user,
         })
-        if (dbUser) token.id = dbUser.id
       }
+
+      // Credentials login — user.id is set directly by authorize()
+      if (user?.id) {
+        token.id = user.id
+        return token
+      }
+
+      // Google OAuth — look up our DB user ID by email
+      if (account?.provider === 'google') {
+        const email = (token.email ?? (profile as { email?: string })?.email) as string | undefined
+        if (email) {
+          const dbUser = await prisma.user.findUnique({
+            where: { email },
+            select: { id: true },
+          })
+          if (dbUser) token.id = dbUser.id
+        }
+      }
+
       return token
     },
     async session({ session, token }) {
@@ -55,21 +73,26 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return session
     },
     async signIn({ user, account }) {
-      if (account?.provider === 'google' && user.email) {
-        const existing = await prisma.user.findUnique({ where: { email: user.email } })
-        if (!existing) {
-          await prisma.user.create({
-            data: {
-              email: user.email,
-              name: user.name,
-              image: user.image,
-              provider: 'google',
-              referralCode: generateReferralCode(),
-            },
-          })
+      try {
+        if (account?.provider === 'google' && user.email) {
+          const existing = await prisma.user.findUnique({ where: { email: user.email } })
+          if (!existing) {
+            await prisma.user.create({
+              data: {
+                email: user.email,
+                name: user.name,
+                image: user.image,
+                provider: 'google',
+                referralCode: generateReferralCode(),
+              },
+            })
+          }
         }
+        return true
+      } catch (error) {
+        console.error('[Auth] signIn error:', error)
+        return true
       }
-      return true
     },
   },
   pages: {
