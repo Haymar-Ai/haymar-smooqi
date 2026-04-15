@@ -107,6 +107,7 @@ export function WordHunter({ rounds }: WordHunterProps) {
         score={score}
         totalRounds={rounds.length}
         gameName="Word Hunter"
+        correctRounds={correctRounds}
         onPlayAgain={handlePlayAgain}
         onBack={() => (window.location.href = '/word-games')}
       />
