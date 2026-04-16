@@ -72,7 +72,7 @@ export function QuizSummary({
               {hasNextLesson && (
                 <button
                   onClick={onNextLesson}
-                  className="w-full py-3 text-sm font-semibold"
+                  className="vb-btn-press w-full py-3 text-sm font-semibold"
                   style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
                 >
                   Next lesson →
@@ -80,7 +80,7 @@ export function QuizSummary({
               )}
               <button
                 onClick={onBackToCourse}
-                className="w-full py-3 text-sm"
+                className="vb-btn-press w-full py-3 text-sm"
                 style={{ color: '#57534E' }}
               >
                 Back to course
@@ -90,14 +90,14 @@ export function QuizSummary({
             <>
               <button
                 onClick={onTryAgain}
-                className="w-full py-3 text-sm font-semibold"
+                className="vb-btn-press w-full py-3 text-sm font-semibold"
                 style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
               >
                 Try again
               </button>
               <button
                 onClick={onBackToCourse}
-                className="w-full py-3 text-sm"
+                className="vb-btn-press w-full py-3 text-sm"
                 style={{ color: '#57534E' }}
               >
                 Continue anyway

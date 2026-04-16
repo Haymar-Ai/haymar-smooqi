@@ -120,7 +120,7 @@ export function VbCourseOverview({ course, progress, isUserFree = true }: VbCour
         {ctaTarget && (
           <button
             onClick={() => router.push(`/learn/${course.slug}/${ctaTarget.slug}`)}
-            className="w-full py-3 rounded-[var(--button-radius)] text-sm font-semibold text-white mt-3 transition-opacity hover:opacity-90"
+            className="vb-btn-press w-full py-3 rounded-[var(--button-radius)] text-sm font-semibold text-white mt-3 transition-opacity hover:opacity-90"
             style={{ background: '#1A6B4A' }}
           >
             {ctaLabel}

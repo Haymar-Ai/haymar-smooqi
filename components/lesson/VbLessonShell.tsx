@@ -460,7 +460,7 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
             <button
               onClick={prevSlide}
               disabled={state.currentSlide === 0}
-              className="flex items-center gap-1.5 text-sm transition-colors disabled:opacity-30"
+              className="vb-btn-press flex items-center gap-1.5 text-sm transition-colors disabled:opacity-30"
               style={{ color: '#57534E' }}
             >
               <svg
@@ -483,7 +483,7 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
             >
               <button
                 onClick={() => setMode('read')}
-                className="px-3 py-1.5 text-xs font-medium transition-colors"
+                className="vb-btn-press px-3 py-1.5 text-xs font-medium transition-colors"
                 style={
                   state.mode === 'read'
                     ? { background: '#1A6B4A', color: '#FFFFFF' }
@@ -494,7 +494,7 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
               </button>
               <button
                 onClick={() => setMode('audio')}
-                className="px-3 py-1.5 text-xs font-medium transition-colors"
+                className="vb-btn-press px-3 py-1.5 text-xs font-medium transition-colors"
                 style={
                   state.mode === 'audio'
                     ? { background: '#1A6B4A', color: '#FFFFFF' }
@@ -508,7 +508,7 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
             {/* Next / Done */}
             <button
               onClick={nextSlide}
-              className="flex items-center gap-1.5 text-sm font-semibold transition-colors"
+              className="vb-btn-press flex items-center gap-1.5 text-sm font-semibold transition-colors"
               style={{ color: '#1A6B4A' }}
             >
               {state.currentSlide === totalSlides - 1 ? 'Done' : 'Next'}

@@ -40,10 +40,21 @@ export function CourseCard({ course, isSaved, progress }: CourseCardProps) {
     return (
       <Link href={`/learn/${course.slug}`} className="block h-full">
         <div
-          className="rounded-[var(--card-radius)] flex flex-col h-full overflow-hidden border transition-shadow hover:shadow-md"
+          className="rounded-[var(--card-radius)] flex flex-col h-full overflow-hidden border"
           style={{
             borderColor: '#E8E4DC',
             boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)',
+            transition: 'box-shadow 200ms ease, transform 200ms ease',
+          }}
+          onMouseEnter={(e) => {
+            const el = e.currentTarget as HTMLDivElement
+            el.style.boxShadow = '0 4px 20px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06)'
+            el.style.transform = 'translateY(-2px)'
+          }}
+          onMouseLeave={(e) => {
+            const el = e.currentTarget as HTMLDivElement
+            el.style.boxShadow = '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)'
+            el.style.transform = 'translateY(0)'
           }}
         >
           {/* Topic header band */}

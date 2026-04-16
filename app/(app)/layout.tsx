@@ -7,6 +7,7 @@ import { LevelUpToast } from '@/components/ui/LevelUpToast'
 import { AchievementToast } from '@/components/ui/AchievementToast'
 import type { NotificationItem } from '@/components/ui/NotificationDrawer'
 import { themeConfig } from '@/lib/theme'
+import { VbPageTransition } from '@/components/layout/VbPageTransition'
 
 export default async function AppLayout({
   children,
@@ -98,7 +99,11 @@ export default async function AppLayout({
       {/* Main content */}
       <main className="relative z-10">
         <div className="pt-20 px-4 py-6 md:px-8 md:pt-20 md:pb-8 pb-8">
-          {children}
+          {themeConfig.isVB ? (
+            <VbPageTransition>{children}</VbPageTransition>
+          ) : (
+            children
+          )}
         </div>
       </main>
 

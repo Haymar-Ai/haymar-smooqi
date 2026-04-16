@@ -103,7 +103,7 @@ export function QuizQuestion({
                 key={key}
                 onClick={() => handleSelect(key)}
                 disabled={showFeedback}
-                className="w-full text-left flex items-center gap-4 px-4 py-3.5 rounded-lg border transition-all"
+                className="vb-btn-press w-full text-left flex items-center gap-4 px-4 py-3.5 rounded-lg border transition-all"
                 style={{ background: bg, borderColor: border }}
               >
                 <span
@@ -141,7 +141,7 @@ export function QuizQuestion({
           <div className="mt-8 flex justify-end">
             <button
               onClick={handleNext}
-              className="px-6 py-2.5 text-sm font-semibold"
+              className="vb-btn-press px-6 py-2.5 text-sm font-semibold"
               style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
             >
               {questionNumber === totalQuestions ? 'See results' : 'Next →'}

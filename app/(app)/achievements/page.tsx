@@ -169,7 +169,9 @@ export default async function AchievementsPage({
                   }`}
                 >
                   <div className="flex items-start gap-3">
-                    <span className="text-3xl">{a.icon}</span>
+                    <span className={themeConfig.isVB ? 'text-3xl vb-stamp' : 'text-3xl'}>
+                      {a.icon}
+                    </span>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2">
                         <p className="font-bold text-gray-900">{a.name}</p>

@@ -54,7 +54,7 @@ export function AchievementToast() {
                 : undefined
             }
           >
-            <span className="text-3xl">{achievement.icon}</span>
+            <span className={isVB ? 'text-3xl vb-stamp' : 'text-3xl'}>{achievement.icon}</span>
             <div>
               <p
                 className="text-sm font-bold"

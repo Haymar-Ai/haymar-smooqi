@@ -86,7 +86,7 @@ export function LessonComplete({ lessonTitle, onTakeQuiz }: LessonCompleteProps)
 
         <button
           onClick={onTakeQuiz}
-          className="px-8 py-3 text-sm font-semibold transition-colors"
+          className="vb-btn-press px-8 py-3 text-sm font-semibold transition-colors"
           style={{
             background: '#1A6B4A',
             color: '#FFFFFF',
@@ -98,7 +98,7 @@ export function LessonComplete({ lessonTitle, onTakeQuiz }: LessonCompleteProps)
 
         <button
           onClick={onTakeQuiz}
-          className="mt-3 text-sm transition-colors"
+          className="vb-btn-press mt-3 text-sm transition-colors"
           style={{ color: '#A8A29E' }}
         >
           Skip for now
