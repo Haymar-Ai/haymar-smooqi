@@ -67,7 +67,7 @@ export function QuizQuestion({
   }
 
   return (
-    <div className="max-w-[680px] mx-auto">
+    <div className="max-w-[680px] mx-auto bg-white/85 backdrop-blur-sm rounded-2xl p-6 shadow-sm">
       <p className="text-sm text-gray-500 mb-2">
         Question {questionNumber} of {totalQuestions}
       </p>
