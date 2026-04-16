@@ -50,7 +50,7 @@ export default async function RootLayout({
         dots: { style: 'radial-gradient(circle, rgba(124,58,237,0.35) 1.5px, transparent 1.5px)', size: '24px 24px' },
         grid: { style: 'linear-gradient(rgba(124,58,237,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(124,58,237,0.10) 1px, transparent 1px)', size: '40px 40px' },
         diagonals: { style: 'repeating-linear-gradient(45deg, rgba(124,58,237,0.08) 0px, rgba(124,58,237,0.08) 2px, transparent 2px, transparent 12px)', size: '14px 14px' },
-        waves: { style: 'repeating-radial-gradient(circle at 0 50%, transparent 8px, rgba(124,58,237,0.10) 9px, transparent 10px)', size: '20px 20px' },
+        waves: { style: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='20'%3E%3Cpath d='M0 10 Q25 0 50 10 Q75 20 100 10' fill='none' stroke='rgba(124%2C58%2C237%2C0.25)' stroke-width='1.5'/%3E%3C/svg%3E\")", size: '100px 20px' },
       }
       const pm = patternMap[prefs.backgroundPattern]
       if (pm) {
