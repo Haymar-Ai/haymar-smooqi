@@ -47,9 +47,10 @@ export default async function RootLayout({
     }
     if (prefs?.backgroundPattern && prefs.backgroundPattern !== 'solid') {
       const patternMap: Record<string, { style: string; size: string }> = {
-        dots: { style: 'radial-gradient(circle, rgba(124,58,237,0.15) 1px, transparent 1px)', size: '20px 20px' },
-        grid: { style: 'linear-gradient(rgba(124,58,237,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(124,58,237,0.08) 1px, transparent 1px)', size: '40px 40px' },
-        waves: { style: 'repeating-linear-gradient(45deg, rgba(124,58,237,0.05) 0px, rgba(124,58,237,0.05) 2px, transparent 2px, transparent 10px)', size: '14px 14px' },
+        dots: { style: 'radial-gradient(circle, rgba(124,58,237,0.35) 1.5px, transparent 1.5px)', size: '24px 24px' },
+        grid: { style: 'linear-gradient(rgba(124,58,237,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(124,58,237,0.10) 1px, transparent 1px)', size: '40px 40px' },
+        diagonals: { style: 'repeating-linear-gradient(45deg, rgba(124,58,237,0.08) 0px, rgba(124,58,237,0.08) 2px, transparent 2px, transparent 12px)', size: '14px 14px' },
+        waves: { style: 'repeating-radial-gradient(circle at 0 50%, transparent 8px, rgba(124,58,237,0.10) 9px, transparent 10px)', size: '20px 20px' },
       }
       const pm = patternMap[prefs.backgroundPattern]
       if (pm) {
