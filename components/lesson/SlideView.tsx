@@ -172,7 +172,7 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
         <p
           className={cn(
             'uppercase font-semibold tracking-wide mb-2',
-            isFirst ? 'text-base' : 'text-sm'
+            isFirst ? 'text-base text-center' : 'text-sm'
           )}
           style={{ color: 'var(--color-primary)' }}
         >
@@ -183,7 +183,7 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
       {mode === 'audio' ? (
         <HighlightedText text={slide.content} currentWordIndex={currentWordIndex} />
       ) : (
-        <div className={cn(isLast && 'text-lg')}>
+        <div className={cn(isLast && 'text-lg', isFirst && 'text-center')}>
           {formatSlideContent(slide.content)}
         </div>
       )}

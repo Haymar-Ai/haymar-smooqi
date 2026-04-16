@@ -65,7 +65,7 @@ type LessonState =
 
 // ─── Component ───────────────────────────────────────────────────────
 
-export function LessonPlayer({ lesson, userId }: LessonPlayerProps) {
+export function LessonPlayer({ lesson }: LessonPlayerProps) {
   const router = useRouter()
   const [state, setState] = useState<LessonState>({
     phase: 'slides',
@@ -96,26 +96,41 @@ export function LessonPlayer({ lesson, userId }: LessonPlayerProps) {
             type: 'lesson_complete',
             lessonId: lesson.id,
             courseId: lesson.course.id,
-            userId,
           }),
-        }),
+        }).then(r => r.json()),
         fetch('/api/xp', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             amount: 10,
             source: 'lesson_complete',
-            userId,
           }),
-        }),
+        }).then(r => r.json()),
         fetch('/api/streak', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userId }),
-        }),
-      ]).catch(console.error)
+        }).then(r => r.json()),
+      ])
+      .then(([progressRes, xpRes, streakRes]) => {
+        const allNew = [
+          ...(progressRes?.newAchievements ?? []),
+          ...(xpRes?.newAchievements ?? []),
+          ...(streakRes?.newAchievements ?? []),
+        ]
+        const seen = new Set<string>()
+        const unique = allNew.filter((a: { id: string }) => {
+          if (seen.has(a.id)) return false
+          seen.add(a.id)
+          return true
+        })
+        unique.forEach((achievement: { id: string }, i: number) => {
+          setTimeout(() => {
+            window.dispatchEvent(new CustomEvent('achievement-unlock', { detail: achievement }))
+          }, i * 1200)
+        })
+      })
+      .catch(console.error)
     }
-  }, [state.phase, lesson.id, lesson.course.id, userId])
+  }, [state.phase, lesson.id, lesson.course.id])
 
   useEffect(() => {
     if (state.phase === 'quiz-summary' && !quizFiredRef.current) {
@@ -131,23 +146,40 @@ export function LessonPlayer({ lesson, userId }: LessonPlayerProps) {
               type: 'quiz_result',
               lessonId: lesson.id,
               courseId: lesson.course.id,
-              userId,
-              score,
+              quizScore: score,
+              quizPassed: score >= 2,
             }),
-          }),
+          }).then(r => r.json()),
           fetch('/api/xp', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              amount: 15,
+              amount: score >= 2 ? 15 : 5,
               source: 'quiz_pass',
-              userId,
             }),
-          }),
-        ]).catch(console.error)
+          }).then(r => r.json()),
+        ])
+        .then(([progressRes, xpRes]) => {
+          const allNew = [
+            ...(progressRes?.newAchievements ?? []),
+            ...(xpRes?.newAchievements ?? []),
+          ]
+          const seen = new Set<string>()
+          const unique = allNew.filter((a: { id: string }) => {
+            if (seen.has(a.id)) return false
+            seen.add(a.id)
+            return true
+          })
+          unique.forEach((achievement: { id: string }, i: number) => {
+            setTimeout(() => {
+              window.dispatchEvent(new CustomEvent('achievement-unlock', { detail: achievement }))
+            }, i * 1200)
+          })
+        })
+        .catch(console.error)
       }
     }
-  }, [state, lesson.id, lesson.course.id, userId])
+  }, [state, lesson.id, lesson.course.id])
 
   // ─── Navigation helpers ──────────────────────────────────────────
 
