@@ -42,7 +42,7 @@ export function QuizSummary({
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-      className="flex flex-col items-center text-center py-12 px-6"
+      className="flex flex-col items-center justify-center text-center min-h-[calc(100vh-120px)] px-6"
     >
       <p className="text-5xl font-bold text-gray-900 mb-2">
         {score} / {totalQuestions}
