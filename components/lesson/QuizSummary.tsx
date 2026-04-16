@@ -6,6 +6,7 @@ import confetti from 'canvas-confetti'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { useXpCounter } from '@/hooks/useXpCounter'
+import { themeConfig } from '@/lib/theme'
 
 type QuizSummaryProps = {
   score: number
@@ -28,6 +29,7 @@ export function QuizSummary({
   const xp = useXpCounter(passed ? 15 : 0)
 
   useEffect(() => {
+    if (themeConfig.isVB) return // vB: no confetti
     if (passed) {
       confetti({
         particleCount: 50,
@@ -37,6 +39,74 @@ export function QuizSummary({
     }
   }, [passed])
 
+  // ── vB: quiet summary ──
+  if (themeConfig.isVB) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-80px)] px-6 text-center">
+        <p
+          className="text-6xl font-bold mb-2"
+          style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+        >
+          {score}
+          <span className="text-3xl" style={{ color: '#A8A29E' }}>
+            /{totalQuestions}
+          </span>
+        </p>
+
+        <p className="text-base mb-8" style={{ color: passed ? '#1A6B4A' : '#57534E' }}>
+          {passed ? 'Excellent.' : 'Good effort.'}
+        </p>
+
+        {passed && (
+          <p className="text-sm mb-8" style={{ color: '#A8A29E' }}>
+            +15 XP added to your library
+          </p>
+        )}
+
+        <div className="flex flex-col gap-3 w-full max-w-xs">
+          {passed ? (
+            <>
+              {hasNextLesson && (
+                <button
+                  onClick={onNextLesson}
+                  className="w-full py-3 text-sm font-semibold"
+                  style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
+                >
+                  Next lesson →
+                </button>
+              )}
+              <button
+                onClick={onBackToCourse}
+                className="w-full py-3 text-sm"
+                style={{ color: '#57534E' }}
+              >
+                Back to course
+              </button>
+            </>
+          ) : (
+            <>
+              <button
+                onClick={onTryAgain}
+                className="w-full py-3 text-sm font-semibold"
+                style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
+              >
+                Try again
+              </button>
+              <button
+                onClick={onBackToCourse}
+                className="w-full py-3 text-sm"
+                style={{ color: '#57534E' }}
+              >
+                Continue anyway
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  // ── vA: existing confetti + spring — unchanged ──
   return (
     <motion.div
       initial={{ scale: 0.8, opacity: 0 }}

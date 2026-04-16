@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { themeConfig } from '@/lib/theme'
 
 type QuizQuestionProps = {
   question: {
@@ -50,6 +51,108 @@ export function QuizQuestion({
     onAnswer(isCorrect)
   }
 
+  // ── vB: editorial, card-free quiz layout ──
+  if (themeConfig.isVB) {
+    return (
+      <div className="max-w-[640px] mx-auto px-4 py-8">
+        <p
+          className="text-xs font-semibold uppercase tracking-widest mb-6"
+          style={{ color: '#A8A29E' }}
+        >
+          Question {questionNumber} of {totalQuestions}
+        </p>
+
+        <h2
+          className="text-xl font-bold mb-8 leading-snug"
+          style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+        >
+          {question.question}
+        </h2>
+
+        <div className="space-y-3">
+          {OPTION_KEYS.map((key) => {
+            let bg = '#FFFFFF'
+            let border = '#E8E4DC'
+            let textColor = '#1C1917'
+            let labelColor = '#A8A29E'
+
+            if (showFeedback) {
+              if (key === question.correctAnswer) {
+                bg = '#EAF4EF'
+                border = '#1A6B4A'
+                textColor = '#1A6B4A'
+                labelColor = '#1A6B4A'
+              } else if (key === selected && !isCorrect) {
+                bg = '#FEF2F2'
+                border = '#DC2626'
+                textColor = '#991B1B'
+                labelColor = '#991B1B'
+              } else {
+                textColor = '#A8A29E'
+                labelColor = '#D1CDC7'
+              }
+            } else if (key === selected) {
+              border = '#1A6B4A'
+              bg = '#EAF4EF'
+              textColor = '#1A6B4A'
+              labelColor = '#1A6B4A'
+            }
+
+            return (
+              <button
+                key={key}
+                onClick={() => handleSelect(key)}
+                disabled={showFeedback}
+                className="w-full text-left flex items-center gap-4 px-4 py-3.5 rounded-lg border transition-all"
+                style={{ background: bg, borderColor: border }}
+              >
+                <span
+                  className="text-xs font-semibold w-5 flex-shrink-0"
+                  style={{ color: labelColor }}
+                >
+                  {key}
+                </span>
+                <span className="text-sm flex-1" style={{ color: textColor }}>
+                  {options[key]}
+                </span>
+              </button>
+            )
+          })}
+        </div>
+
+        {showFeedback && question.explanation && (
+          <div
+            className="mt-6 p-4 rounded-lg border"
+            style={{ background: '#F5F0E8', borderColor: '#E8E4DC' }}
+          >
+            <p
+              className="text-xs font-semibold uppercase tracking-widest mb-1.5"
+              style={{ color: '#A8A29E' }}
+            >
+              Explanation
+            </p>
+            <p className="text-sm leading-relaxed" style={{ color: '#57534E' }}>
+              {question.explanation}
+            </p>
+          </div>
+        )}
+
+        {showFeedback && (
+          <div className="mt-8 flex justify-end">
+            <button
+              onClick={handleNext}
+              className="px-6 py-2.5 text-sm font-semibold"
+              style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
+            >
+              {questionNumber === totalQuestions ? 'See results' : 'Next →'}
+            </button>
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  // ── vA: existing glass-card layout — unchanged ──
   const getOptionStyles = (key: string) => {
     if (!showFeedback) {
       return 'bg-white border border-gray-200 hover:border-gray-300 hover:bg-gray-50 cursor-pointer'

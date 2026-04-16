@@ -3,6 +3,8 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { redirect } from 'next/navigation'
 import { LessonPlayer } from '@/components/lesson/LessonPlayer'
+import { VbLessonShell } from '@/components/lesson/VbLessonShell'
+import { themeConfig } from '@/lib/theme'
 
 export default async function LessonPage({ params }: { params: { courseSlug: string; lessonSlug: string } }) {
   const session = await getServerSession(authOptions)
@@ -36,7 +38,13 @@ export default async function LessonPage({ params }: { params: { courseSlug: str
     select: { lessonCompleted: true, quizPassed: true, quizScore: true },
   })
 
-  return (
+  return themeConfig.isVB ? (
+    <VbLessonShell
+      lesson={lesson}
+      initialProgress={progress}
+      userId={session.user.id}
+    />
+  ) : (
     <LessonPlayer
       lesson={lesson}
       initialProgress={progress}

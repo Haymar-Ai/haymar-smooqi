@@ -34,3 +34,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ─── vB full-screen lesson reader ────────────────────────────────
+   When VbLessonShell is mounted it adds .vb-reader-active to <body>.
+   Hide the app header and background dots, and neutralize the
+   app-layout padding so the reader truly fills the viewport. */
+body.vb-reader-active header.app-header-root {
+  display: none !important;
+}
+body.vb-reader-active .bg-dots {
+  display: none !important;
+}
+body.vb-reader-active main {
+  padding: 0 !important;
+}
+body.vb-reader-active main > div {
+  padding: 0 !important;
+}

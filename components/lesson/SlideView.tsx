@@ -169,64 +169,102 @@ function formatSlideContent(content: string) {
   return elements
 }
 
-export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topicIcon, lessonTitle, slideIndex, totalSlides, onBack }: SlideViewProps) {
+export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topicIcon, lessonTitle, slideIndex: _slideIndex, totalSlides: _totalSlides, onBack }: SlideViewProps) {
   const icon = topicIcon || '💡'
   const isVB = themeConfig.isVB
 
+  // ── vB: full-screen reader — no card wrapper, no LessonHeader (VbLessonShell handles its own chrome)
+  if (isVB) {
+    return (
+      <div className="max-w-[640px] mx-auto px-4 py-8">
+        {isFirst && (
+          <div className="mb-6 flex items-center gap-3">
+            <span className="text-2xl">{icon}</span>
+            {lessonTitle && (
+              <span className="text-sm font-medium" style={{ color: '#A8A29E' }}>
+                {lessonTitle}
+              </span>
+            )}
+          </div>
+        )}
+
+        {isLast && (
+          <p
+            className="text-xs font-semibold uppercase tracking-widest mb-4"
+            style={{ color: '#A8A29E' }}
+          >
+            Key Takeaway
+          </p>
+        )}
+
+        {slide.imageUrl && (
+          <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-6">
+            <Image
+              src={slide.imageUrl}
+              alt={slide.imageAlt || ''}
+              fill
+              className="object-cover"
+            />
+          </div>
+        )}
+
+        {slide.title && (
+          <h2
+            className="text-2xl font-bold mb-5"
+            style={{
+              color: '#1A6B4A',
+              fontFamily: 'var(--font-playfair)',
+              lineHeight: 1.3,
+            }}
+          >
+            {slide.title}
+          </h2>
+        )}
+
+        {mode === 'audio' ? (
+          <HighlightedText text={slide.content} currentWordIndex={currentWordIndex} />
+        ) : (
+          <div>{formatSlideContent(slide.content)}</div>
+        )}
+      </div>
+    )
+  }
+
+  // ── vA: existing card-based layout, unchanged
   return (
     <Card
       className={cn(
         'max-w-[680px] mx-auto bg-white',
-        isVB ? 'p-6 md:p-10 rounded-[10px] border' : 'p-8',
+        'p-8',
         themeConfig.isVA
           ? 'rounded-[16px] shadow-lg border-0'
-          : !isVB && 'rounded-[12px] border'
+          : 'rounded-[12px] border'
       )}
-      style={
-        isVB
-          ? { borderColor: '#E8E4DC', boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)' }
-          : undefined
-      }
     >
       {lessonTitle && onBack && (
         <LessonHeader
           lessonTitle={lessonTitle}
-          slideIndex={slideIndex ?? 0}
-          totalSlides={totalSlides ?? 1}
+          slideIndex={_slideIndex ?? 0}
+          totalSlides={_totalSlides ?? 1}
           onBack={onBack}
         />
       )}
 
       {/* First slide: topic emoji */}
       {isFirst && (
-        isVB ? (
-          <div className="mb-6 flex justify-start">
-            <span className="text-2xl">{icon}</span>
-          </div>
-        ) : (
-          <div className="mb-4 text-center">
-            <span className="text-4xl">{icon}</span>
-          </div>
-        )
+        <div className="mb-4 text-center">
+          <span className="text-4xl">{icon}</span>
+        </div>
       )}
 
       {/* Last slide: Key Takeaway label */}
       {isLast && (
-        isVB ? (
-          <p
-            className="text-xs font-semibold uppercase tracking-widest mb-3"
-            style={{ color: '#A8A29E' }}
-          >
-            Key Takeaway
-          </p>
-        ) : (
-          <p
-            className="text-xs font-bold uppercase tracking-widest mb-3"
-            style={{ color: 'var(--color-primary)' }}
-          >
-            Key Takeaway
-          </p>
-        )
+        <p
+          className="text-xs font-bold uppercase tracking-widest mb-3"
+          style={{ color: 'var(--color-primary)' }}
+        >
+          Key Takeaway
+        </p>
       )}
 
       {slide.imageUrl && (
@@ -241,30 +279,21 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
       )}
 
       {slide.title && (
-        isVB ? (
-          <p
-            className="text-base font-bold mb-3"
-            style={{ color: '#1A6B4A', fontFamily: 'var(--font-playfair)' }}
-          >
-            {slide.title}
-          </p>
-        ) : (
-          <p
-            className={cn(
-              'uppercase font-semibold tracking-wide mb-2',
-              isFirst ? 'text-base text-center' : 'text-sm'
-            )}
-            style={{ color: 'var(--color-primary)' }}
-          >
-            {slide.title}
-          </p>
-        )
+        <p
+          className={cn(
+            'uppercase font-semibold tracking-wide mb-2',
+            isFirst ? 'text-base text-center' : 'text-sm'
+          )}
+          style={{ color: 'var(--color-primary)' }}
+        >
+          {slide.title}
+        </p>
       )}
 
       {mode === 'audio' ? (
         <HighlightedText text={slide.content} currentWordIndex={currentWordIndex} />
       ) : (
-        <div className={cn(isLast && !isVB && 'text-lg', isFirst && !isVB && 'text-center')}>
+        <div className={cn(isLast && 'text-lg', isFirst && 'text-center')}>
           {formatSlideContent(slide.content)}
         </div>
       )}
