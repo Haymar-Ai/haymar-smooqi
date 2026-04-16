@@ -54,3 +54,12 @@ body.vb-reader-active main {
 body.vb-reader-active main > div {
   padding: 0 !important;
 }
+
+/* Hide scrollbars on horizontal scroll containers (vB pill rows, etc.) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

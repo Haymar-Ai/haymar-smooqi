@@ -5,6 +5,7 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { CourseCard } from '@/components/course/CourseCard'
 import { FilterButton } from '@/components/explore/FilterButton'
+import { themeConfig } from '@/lib/theme'
 
 export const dynamic = 'force-dynamic'
 
@@ -87,10 +88,33 @@ export default async function ExplorePage({ searchParams }: ExplorePageProps) {
 
   return (
     <div className="mx-auto max-w-5xl">
-      <h1 className="text-xl font-bold text-gray-900">Explore Courses</h1>
-      <p className="mt-1 text-sm text-gray-500">
-        Discover new topics and grow your skills.
-      </p>
+      {themeConfig.isVB ? (
+        <div className="mb-6">
+          <p
+            className="text-xs font-semibold uppercase tracking-widest mb-1"
+            style={{ color: '#A8A29E', fontFamily: 'var(--font-inter)' }}
+          >
+            Library
+          </p>
+          <h1
+            className="text-2xl font-bold leading-tight"
+            style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+          >
+            Explore Courses
+          </h1>
+          <p className="mt-1 text-sm" style={{ color: '#57534E' }}>
+            {totalCount} course{totalCount !== 1 ? 's' : ''} across {topics.length} topic
+            {topics.length !== 1 ? 's' : ''}
+          </p>
+        </div>
+      ) : (
+        <>
+          <h1 className="text-xl font-bold text-gray-900">Explore Courses</h1>
+          <p className="mt-1 text-sm text-gray-500">
+            Discover new topics and grow your skills.
+          </p>
+        </>
+      )}
 
       {/* Search bar + filter button */}
       <div className="mt-4 flex items-center gap-3">
@@ -125,6 +149,37 @@ export default async function ExplorePage({ searchParams }: ExplorePageProps) {
         />
       </div>
 
+      {/* Topic pill row (vB only) */}
+      {themeConfig.isVB && (
+        <div className="flex gap-2 overflow-x-auto pb-1 mt-3 -mx-4 px-4 scrollbar-hide">
+          <Link
+            href={filterUrl({ topic: '' })}
+            className="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors"
+            style={
+              !topicFilter
+                ? { background: '#1A6B4A', color: '#FFFFFF', borderColor: '#1A6B4A' }
+                : { background: '#FFFFFF', color: '#57534E', borderColor: '#E8E4DC' }
+            }
+          >
+            All
+          </Link>
+          {topics.map((t) => (
+            <Link
+              key={t.slug}
+              href={filterUrl({ topic: t.slug })}
+              className="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors whitespace-nowrap"
+              style={
+                topicFilter === t.slug
+                  ? { background: '#1A6B4A', color: '#FFFFFF', borderColor: '#1A6B4A' }
+                  : { background: '#FFFFFF', color: '#57534E', borderColor: '#E8E4DC' }
+              }
+            >
+              {t.icon} {t.name}
+            </Link>
+          ))}
+        </div>
+      )}
+
       {/* Course grid */}
       <div className="mt-5">
         {courses.length === 0 ? (
@@ -145,9 +200,11 @@ export default async function ExplorePage({ searchParams }: ExplorePageProps) {
           </div>
         ) : (
           <>
-            <p className="mb-3 text-xs text-gray-400">
-              {totalCount} course{totalCount !== 1 ? 's' : ''}
-            </p>
+            {!themeConfig.isVB && (
+              <p className="mb-3 text-xs text-gray-400">
+                {totalCount} course{totalCount !== 1 ? 's' : ''}
+              </p>
+            )}
             <div className="grid gap-3 grid-cols-1 sm:grid-cols-2">
               {courses.map((course) => (
                 <CourseCard
@@ -175,12 +232,27 @@ export default async function ExplorePage({ searchParams }: ExplorePageProps) {
             {/* Load more */}
             {hasMore && (
               <div className="mt-6 text-center">
-                <Link
-                  href={filterUrl({ page: String(page + 1) })}
-                  className="inline-block rounded-[var(--button-radius)] border border-gray-200 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50"
-                >
-                  Load More
-                </Link>
+                {themeConfig.isVB ? (
+                  <Link
+                    href={filterUrl({ page: String(page + 1) })}
+                    className="inline-block px-6 py-2.5 text-sm font-medium border transition-colors"
+                    style={{
+                      borderColor: '#1A6B4A',
+                      color: '#1A6B4A',
+                      borderRadius: '8px',
+                      background: '#FFFFFF',
+                    }}
+                  >
+                    Load more
+                  </Link>
+                ) : (
+                  <Link
+                    href={filterUrl({ page: String(page + 1) })}
+                    className="inline-block rounded-[var(--button-radius)] border border-gray-200 bg-white px-6 py-2.5 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50"
+                  >
+                    Load More
+                  </Link>
+                )}
               </div>
             )}
           </>
