@@ -5,6 +5,7 @@ import { Card } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { themeConfig } from '@/lib/theme'
 import { HighlightedText } from './HighlightedText'
+import { LessonHeader } from './LessonHeader'
 
 type SlideViewProps = {
   slide: {
@@ -18,6 +19,12 @@ type SlideViewProps = {
   isFirst?: boolean
   isLast?: boolean
   topicIcon?: string
+  lessonTitle?: string
+  slideIndex?: number
+  totalSlides?: number
+  currentMode?: 'read' | 'audio'
+  onBack?: () => void
+  onToggleMode?: (mode: 'read' | 'audio') => void
 }
 
 function formatSlideContent(content: string) {
@@ -128,7 +135,7 @@ function formatSlideContent(content: string) {
   return elements
 }
 
-export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topicIcon }: SlideViewProps) {
+export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topicIcon, lessonTitle, slideIndex, totalSlides, currentMode, onBack, onToggleMode }: SlideViewProps) {
   const icon = topicIcon || '💡'
 
   return (
@@ -140,6 +147,17 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
           : 'rounded-[12px] border'
       )}
     >
+      {lessonTitle && onBack && (
+        <LessonHeader
+          lessonTitle={lessonTitle}
+          slideIndex={slideIndex ?? 0}
+          totalSlides={totalSlides ?? 1}
+          currentMode={currentMode ?? 'read'}
+          onBack={onBack}
+          onToggleMode={onToggleMode ?? (() => {})}
+        />
+      )}
+
       {/* First slide: large topic emoji at top */}
       {isFirst && (
         <div className="mb-4 text-center">
