@@ -1,18 +1,25 @@
 import { prisma } from '@/lib/db'
 import { generateReferralCode } from '@/lib/utils'
+import { rateLimit } from '@/lib/rateLimit'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
 
 const signupSchema = z.object({
-  name: z.string().min(1, 'Name is required'),
-  email: z.string().email('Invalid email'),
-  password: z.string().min(8, 'Password must be at least 8 characters'),
-  ref: z.string().optional(),
+  name: z.string().min(1, 'Name is required').max(100, 'Name too long'),
+  email: z.string().email('Invalid email').max(255, 'Email too long'),
+  password: z.string().min(8, 'Password must be at least 8 characters').max(128, 'Password too long'),
+  ref: z.string().max(50).optional(),
 })
 
 export async function POST(req: Request) {
   try {
+    const ip = req.headers.get('x-forwarded-for') ?? 'unknown'
+    const { allowed } = rateLimit(`signup:${ip}`, 5, 60 * 60 * 1000)
+    if (!allowed) {
+      return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
+    }
+
     const body = await req.json()
     const parsed = signupSchema.safeParse(body)
     if (!parsed.success) {

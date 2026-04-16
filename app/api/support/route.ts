@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     const { issueType, email, subject, description } = parsed.data
 
-    const supportRequest = await prisma.supportRequest.create({
+    await prisma.supportRequest.create({
       data: {
         userId: session?.user?.id ?? null,
         email,
@@ -34,7 +34,6 @@ export async function POST(req: Request) {
     })
 
     // TODO: Send confirmation email via Resend
-    console.log(`[Support] New request ${supportRequest.id}: ${issueType} - ${subject}`)
 
     return NextResponse.json({ success: true })
   } catch {
