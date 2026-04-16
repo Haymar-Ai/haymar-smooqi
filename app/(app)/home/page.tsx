@@ -4,6 +4,7 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { getXpForLevel } from '@/lib/xp'
 import { themeConfig } from '@/lib/theme'
+import { getTodayPacificMidnightUTC } from '@/lib/dateUtils'
 import {
   NotificationPrompts,
   ContinueLearningCard,
@@ -25,8 +26,7 @@ export default async function HomePage() {
   if (!session?.user?.id) redirect('/login')
   const userId = session.user.id
 
-  const today = new Date()
-  today.setHours(0, 0, 0, 0)
+  const today = getTodayPacificMidnightUTC()
   const sevenDaysAgo = new Date(today)
   sevenDaysAgo.setDate(today.getDate() - 6)
 

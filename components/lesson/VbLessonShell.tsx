@@ -74,11 +74,6 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
   const completeFiredRef = useRef(false)
   const quizFiredRef = useRef(false)
 
-  // Auto-hiding top chrome
-  const [chromeVisible, setChromeVisible] = useState(true)
-  const [isTouchDevice, setIsTouchDevice] = useState(false)
-  const chromeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
-
   const slides = lesson.slides.sort((a, b) => a.slideOrder - b.slideOrder)
   const totalSlides = slides.length
   const courseSlug = lesson.course.slug
@@ -89,37 +84,6 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
     document.body.classList.add('vb-reader-active')
     return () => {
       document.body.classList.remove('vb-reader-active')
-    }
-  }, [])
-
-  // ─── Auto-hiding chrome ──────────────────────────────────────────
-
-  useEffect(() => {
-    // Detect touch device — if touch, keep chrome visible always
-    const hasTouch =
-      typeof window !== 'undefined' &&
-      ('ontouchstart' in window || navigator.maxTouchPoints > 0)
-    setIsTouchDevice(hasTouch)
-    if (hasTouch) return
-
-    const reveal = () => {
-      setChromeVisible(true)
-      if (chromeTimerRef.current) clearTimeout(chromeTimerRef.current)
-      chromeTimerRef.current = setTimeout(() => setChromeVisible(false), 3000)
-    }
-
-    // Initial timer — hide after 3s if no interaction
-    chromeTimerRef.current = setTimeout(() => setChromeVisible(false), 3000)
-
-    window.addEventListener('mousemove', reveal)
-    window.addEventListener('scroll', reveal, { passive: true })
-    window.addEventListener('touchstart', reveal, { passive: true })
-
-    return () => {
-      if (chromeTimerRef.current) clearTimeout(chromeTimerRef.current)
-      window.removeEventListener('mousemove', reveal)
-      window.removeEventListener('scroll', reveal)
-      window.removeEventListener('touchstart', reveal)
     }
   }, [])
 
@@ -357,9 +321,6 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
     exit: { opacity: 0 },
   }
 
-  // Chrome always visible on mobile/touch devices
-  const effectiveChromeVisible = isTouchDevice ? true : chromeVisible
-
   // ─── Render ──────────────────────────────────────────────────────
 
   return (
@@ -380,44 +341,33 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
         />
       </div>
 
-      {/* Auto-hiding top chrome (Back + slide counter) — only during slides phase */}
-      {state.phase === 'slides' && (
-        <div
-          className="fixed top-2 left-0 right-0 z-40 flex items-center justify-between px-6 transition-opacity duration-300"
-          style={{
-            opacity: effectiveChromeVisible ? 1 : 0,
-            pointerEvents: effectiveChromeVisible ? 'auto' : 'none',
-          }}
+      {/* Top chrome — Back button always visible in all phases; slide
+          counter only during slides phase. */}
+      <div className="fixed top-2 left-0 right-0 z-40 flex items-center justify-between px-6">
+        <button
+          onClick={handleBackToCourse}
+          className="flex items-center gap-1.5 text-sm"
+          style={{ color: '#57534E' }}
         >
-          <button
-            onClick={handleBackToCourse}
-            className="flex items-center gap-1.5 text-sm transition-colors"
-            style={{ color: '#A8A29E' }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.color = '#57534E'
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.color = '#A8A29E'
-            }}
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
-            Back
-          </button>
+            <path d="M15 18l-6-6 6-6" />
+          </svg>
+          Back
+        </button>
 
-          <span className="text-xs" style={{ color: '#A8A29E' }}>
+        {state.phase === 'slides' && (
+          <span className="text-xs font-medium" style={{ color: '#57534E' }}>
             {state.currentSlide + 1} / {totalSlides}
           </span>
-        </div>
-      )}
+        )}
+      </div>
 
       {/* Main content — bottom padding clears bottom nav + iOS safe area */}
       <main

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { themeConfig } from '@/lib/theme'
+import { formatPacificDate } from '@/lib/dateUtils'
 
 interface DailyChallengeWidgetProps {
   challenge: {
@@ -87,7 +88,7 @@ export function DailyChallengeWidget({
               Today&apos;s Challenge
             </p>
             <p className="text-xs font-medium mt-0.5" style={{ color: '#57534E' }}>
-              {new Date().toLocaleDateString('en-US', {
+              {formatPacificDate(new Date(), {
                 weekday: 'long',
                 month: 'long',
                 day: 'numeric',

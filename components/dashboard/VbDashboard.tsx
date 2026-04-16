@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { themeConfig } from '@/lib/theme'
+import { formatPacificDate } from '@/lib/dateUtils'
 import { CourseCard } from '@/components/course/CourseCard'
 import { DailyChallengeWidget } from './DailyChallengeWidget'
 import { DailyGoalBlock } from './DailyGoalBlock'
@@ -92,8 +93,8 @@ export function VbDashboard({
   weeklyData,
 }: VbDashboardProps) {
   const now = new Date()
-  const weekday = now.toLocaleDateString('en-US', { weekday: 'long' })
-  const fullDate = now.toLocaleDateString('en-US', {
+  const weekday = formatPacificDate(now, { weekday: 'long' })
+  const fullDate = formatPacificDate(now, {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
@@ -110,7 +111,7 @@ export function VbDashboard({
           {weekday}
         </p>
         <h1
-          className="text-3xl font-bold leading-tight"
+          className="text-2xl sm:text-3xl font-bold leading-tight"
           style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
         >
           {fullDate}
@@ -150,7 +151,7 @@ export function VbDashboard({
               {continueLesson.course.title}
             </p>
             <span
-              className="inline-block px-5 py-2.5 text-sm font-semibold"
+              className="inline-block w-full text-center px-5 py-3 text-sm font-semibold sm:w-auto sm:text-left"
               style={{ background: '#1A6B4A', color: '#FFFFFF', borderRadius: '8px' }}
             >
               Pick up where you left off →
@@ -232,14 +233,14 @@ export function VbDashboard({
 
                   {previewLessons.length > 0 && firstCourse && (
                     <div
-                      className="ml-11 border-l-2 pl-4 space-y-1.5"
+                      className="ml-11 border-l-2 pl-4"
                       style={{ borderColor: DIVIDER_COLOR }}
                     >
                       {previewLessons.map((lesson) => (
                         <Link
                           key={lesson.id}
                           href={`/learn/${firstCourse.slug}/${lesson.slug}`}
-                          className="block text-sm transition-colors hover:underline"
+                          className="block text-sm py-1.5 transition-colors hover:underline"
                           style={{ color: '#57534E' }}
                         >
                           {lesson.title}
@@ -309,12 +310,12 @@ export function VbDashboard({
 
       {/* ── Section 7: Quick Links ───────────────────────────── */}
       <div className="py-6 border-b" style={{ borderColor: DIVIDER_COLOR }}>
-        <div className="flex flex-wrap gap-x-6 gap-y-2">
+        <div className="flex flex-wrap gap-x-5 gap-y-0">
           {QUICK_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium transition-colors hover:text-[#1A6B4A] hover:underline"
+              className="text-sm font-medium py-2 transition-colors hover:underline hover:text-[#1A6B4A]"
               style={{ color: '#57534E' }}
             >
               {link.label}
@@ -347,14 +348,14 @@ function VbStreakStrip({
   weeklyData: Array<{ day: string; minutes: number; isToday: boolean }>
 }) {
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-1.5 flex-wrap">
       {weeklyData.map((day, i) => {
         const active = day.minutes > 0
         const isToday = day.isToday
         return (
           <div key={i} className="flex flex-col items-center gap-1">
             <div
-              className="w-7 h-7 rounded flex items-center justify-center"
+              className="w-6 h-6 rounded flex items-center justify-center flex-shrink-0"
               style={{
                 background: active ? '#1A6B4A' : '#F0EDE7',
                 border: isToday ? '2px solid #1A6B4A' : '1px solid #E8E4DC',
@@ -384,8 +385,8 @@ function VbStreakStrip({
       })}
 
       {streak > 0 && (
-        <span className="ml-2 text-sm font-semibold" style={{ color: '#1A6B4A' }}>
-          {streak} day streak
+        <span className="ml-1 text-sm font-semibold" style={{ color: '#1A6B4A' }}>
+          {streak}d streak
         </span>
       )}
     </div>
