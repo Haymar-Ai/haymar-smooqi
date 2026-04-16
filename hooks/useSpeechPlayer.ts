@@ -2,6 +2,40 @@
 
 import { useState, useCallback, useRef, useMemo, useEffect } from 'react'
 
+function getBestVoice(): SpeechSynthesisVoice | null {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return null
+
+  const voices = speechSynthesis.getVoices()
+  if (!voices.length) return null
+
+  // Priority list of high-quality natural voices by name
+  const preferredNames = [
+    'Samantha',           // iOS/macOS — best quality
+    'Karen',              // iOS Australian — also excellent
+    'Google US English',  // Android/Chrome — natural
+    'Microsoft Aria Online (Natural) - English (United States)', // Edge/Windows
+    'Microsoft Jenny Online (Natural) - English (United States)',
+    'Alex',               // macOS legacy — still good
+    'Victoria',           // macOS
+    'Google UK English Female', // Chrome fallback
+  ]
+
+  for (const name of preferredNames) {
+    const match = voices.find((v) => v.name === name)
+    if (match) return match
+  }
+
+  // Fall back: any en-US voice
+  const enUS = voices.find((v) => v.lang === 'en-US')
+  if (enUS) return enUS
+
+  // Fall back: any English voice
+  const en = voices.find((v) => v.lang.startsWith('en'))
+  if (en) return en
+
+  return null
+}
+
 export function useSpeechPlayer(text: string, onComplete: () => void) {
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -35,6 +69,11 @@ export function useSpeechPlayer(text: string, onComplete: () => void) {
     speechSynthesis.cancel()
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.rate = speed
+
+    // Apply best available voice (resolved at play time — iOS loads voices
+    // synchronously after a user gesture, so this runs here, not on mount).
+    const voice = getBestVoice()
+    if (voice) utterance.voice = voice
 
     utterance.onboundary = (event) => {
       if (event.name === 'word') {

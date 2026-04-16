@@ -42,7 +42,10 @@ export function QuizSummary({
   // ── vB: quiet summary ──
   if (themeConfig.isVB) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-80px)] px-6 text-center">
+      <div
+        className="flex flex-col items-center justify-center px-6 text-center"
+        style={{ minHeight: 'calc(100dvh - 80px)', paddingTop: '4rem' }}
+      >
         <p
           className="text-6xl font-bold mb-2"
           style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}

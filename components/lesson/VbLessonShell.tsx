@@ -419,8 +419,11 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
         </div>
       )}
 
-      {/* Main content — generous padding so bottom nav doesn't overlap */}
-      <main className="pt-16 pb-32 px-4">
+      {/* Main content — bottom padding clears bottom nav + iOS safe area */}
+      <main
+        className="pt-16 px-4"
+        style={{ paddingBottom: 'calc(6rem + env(safe-area-inset-bottom, 0px))' }}
+      >
         {/* ── Slides phase ── */}
         {state.phase === 'slides' && (
           <AnimatePresence mode="wait">
@@ -496,7 +499,11 @@ export function VbLessonShell({ lesson }: VbLessonShellProps) {
       {state.phase === 'slides' && (
         <div
           className="fixed bottom-0 left-0 right-0 z-40 border-t"
-          style={{ background: '#FFFFFF', borderColor: '#E8E4DC' }}
+          style={{
+            background: '#FFFFFF',
+            borderColor: '#E8E4DC',
+            paddingBottom: 'env(safe-area-inset-bottom, 0px)',
+          }}
         >
           <div className="max-w-[640px] mx-auto flex items-center justify-between px-6 py-4">
             {/* Previous */}

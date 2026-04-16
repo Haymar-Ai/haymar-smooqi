@@ -28,7 +28,10 @@ export function LessonComplete({ lessonTitle, onTakeQuiz }: LessonCompleteProps)
   // ── vB: quiet, elegant lesson-complete screen ──
   if (themeConfig.isVB) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[calc(100dvh-80px)] px-6 text-center">
+      <div
+        className="flex flex-col items-center justify-center px-6 text-center"
+        style={{ minHeight: 'calc(100dvh - 80px)', paddingTop: '4rem' }}
+      >
         {/* Radial pulse — CSS only */}
         <div className="relative mb-10">
           <div

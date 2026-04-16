@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Nunito, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import { getThemeCSSVars } from '@/lib/theme'
@@ -17,6 +17,12 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Smooqi — Learn Anything, One Lesson at a Time',
   description: 'One lesson a day across 195+ topics. Build real knowledge, one bite at a time.',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
 }
 
 const THEME_COLOR_MAP: Record<string, { primary: string; light: string }> = {

@@ -54,7 +54,7 @@ export function QuizQuestion({
   // ── vB: editorial, card-free quiz layout ──
   if (themeConfig.isVB) {
     return (
-      <div className="max-w-[640px] mx-auto px-4 py-8">
+      <div className="max-w-[640px] mx-auto px-4 pt-14 pb-8">
         <p
           className="text-xs font-semibold uppercase tracking-widest mb-6"
           style={{ color: '#A8A29E' }}
