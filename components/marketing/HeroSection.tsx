@@ -50,8 +50,8 @@ export function HeroSection() {
             className="flex justify-center"
           >
             <div className="relative mx-auto w-64 md:w-72">
-              <svg viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full drop-shadow-2xl">
-                <rect x="10" y="10" width="260" height="540" rx="40" fill="white" stroke="#E5E7EB" strokeWidth="2"/>
+              <svg viewBox="0 0 280 580" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full drop-shadow-2xl">
+                <rect x="10" y="10" width="260" height="560" rx="40" fill="white" stroke="#E5E7EB" strokeWidth="2"/>
                 <rect x="20" y="50" width="240" height="460" rx="8" fill="#F8F7FF"/>
                 <rect x="20" y="50" width="240" height="24" rx="8" fill="white"/>
                 <rect x="110" y="54" width="60" height="14" rx="7" fill="#E5E7EB"/>
@@ -74,11 +74,42 @@ export function HeroSection() {
                 <rect x="140" y="256" width="112" height="64" rx="12" fill="#FFF7ED"/>
                 <text x="156" y="278" fontFamily="Inter, sans-serif" fontSize="9" fill="#C2410C">STREAK</text>
                 <text x="156" y="298" fontFamily="Inter, sans-serif" fontSize="18" fontWeight="700" fill="#C2410C">{'\uD83D\uDD25'} 5</text>
-                <rect x="20" y="470" width="240" height="40" rx="8" fill="white" stroke="#F3F4F6" strokeWidth="1"/>
-                <text x="44" y="495" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83C\uDFE0'}</text>
-                <text x="100" y="495" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83D\uDD0D'}</text>
-                <text x="156" y="495" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83C\uDFC6'}</text>
-                <text x="212" y="495" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83D\uDC64'}</text>
+
+                {/* ── Your Path section ── */}
+                <text x="36" y="346" fontFamily="Inter, sans-serif" fontSize="9" fontWeight="600" fill="#6B7280" letterSpacing="0.5">YOUR PATH</text>
+
+                {/* Course pill 1 — Communication */}
+                <rect x="28" y="354" width="224" height="36" rx="10" fill="white" stroke="#F3F4F6" strokeWidth="1"/>
+                <rect x="38" y="363" width="18" height="18" rx="5" fill="#EDE9FE"/>
+                <text x="41" y="376" fontFamily="Inter, sans-serif" fontSize="11">{'\uD83D\uDCAC'}</text>
+                <text x="64" y="373" fontFamily="Inter, sans-serif" fontSize="10" fontWeight="600" fill="#111827">Communication Skills</text>
+                <text x="64" y="384" fontFamily="Inter, sans-serif" fontSize="8" fill="#9CA3AF">Lesson 2 of 5</text>
+                <rect x="196" y="363" width="44" height="18" rx="9" fill="#7C3AED" opacity="0.1"/>
+                <text x="204" y="376" fontFamily="Inter, sans-serif" fontSize="8" fontWeight="600" fill="#7C3AED">+20 XP</text>
+
+                {/* Course pill 2 — Psychology */}
+                <rect x="28" y="396" width="224" height="36" rx="10" fill="white" stroke="#F3F4F6" strokeWidth="1"/>
+                <rect x="38" y="405" width="18" height="18" rx="5" fill="#F0FDF4"/>
+                <text x="41" y="418" fontFamily="Inter, sans-serif" fontSize="11">{'\uD83E\uDDE0'}</text>
+                <text x="64" y="415" fontFamily="Inter, sans-serif" fontSize="10" fontWeight="600" fill="#111827">Psychology & Mindset</text>
+                <text x="64" y="426" fontFamily="Inter, sans-serif" fontSize="8" fill="#9CA3AF">Lesson 1 of 5</text>
+                <rect x="196" y="405" width="44" height="18" rx="9" fill="#059669" opacity="0.1"/>
+                <text x="204" y="418" fontFamily="Inter, sans-serif" fontSize="8" fontWeight="600" fill="#059669">+20 XP</text>
+
+                {/* Course pill 3 — Finance */}
+                <rect x="28" y="438" width="224" height="36" rx="10" fill="white" stroke="#F3F4F6" strokeWidth="1"/>
+                <rect x="38" y="447" width="18" height="18" rx="5" fill="#FFFBEB"/>
+                <text x="41" y="460" fontFamily="Inter, sans-serif" fontSize="11">{'\uD83D\uDCB0'}</text>
+                <text x="64" y="457" fontFamily="Inter, sans-serif" fontSize="10" fontWeight="600" fill="#111827">Personal Finance</text>
+                <text x="64" y="468" fontFamily="Inter, sans-serif" fontSize="8" fill="#9CA3AF">Not started</text>
+                <rect x="196" y="447" width="44" height="18" rx="9" fill="#D97706" opacity="0.1"/>
+                <text x="204" y="460" fontFamily="Inter, sans-serif" fontSize="8" fontWeight="600" fill="#D97706">Start</text>
+
+                <rect x="20" y="484" width="240" height="40" rx="8" fill="white" stroke="#F3F4F6" strokeWidth="1"/>
+                <text x="44" y="509" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83C\uDFE0'}</text>
+                <text x="100" y="509" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83D\uDD0D'}</text>
+                <text x="156" y="509" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83C\uDFC6'}</text>
+                <text x="212" y="509" fontFamily="Inter, sans-serif" fontSize="18">{'\uD83D\uDC64'}</text>
                 <defs>
                   <filter id="shadow">
                     <feDropShadow dx="0" dy="2" stdDeviation="4" floodOpacity="0.08"/>
