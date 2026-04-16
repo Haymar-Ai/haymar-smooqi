@@ -4,19 +4,22 @@ import { motion } from "framer-motion";
 
 const principles = [
   {
-    icon: "\uD83D\uDD52",
-    title: "One lesson. Every day.",
-    description: "Consistent practice builds permanent knowledge.",
+    icon: "\uD83D\uDCD6",
+    title: "Depth over speed.",
+    description:
+      "One idea, fully explored. Not a bullet list. Not a summary. A lesson worth keeping.",
   },
   {
-    icon: "\uD83D\uDCDA",
-    title: "Depth over velocity.",
-    description: "Every topic is a course, not a bullet list.",
+    icon: "\uD83E\uDDED",
+    title: "Curiosity-led.",
+    description:
+      "No algorithm decides what you read. You choose your path. The library follows.",
   },
   {
     icon: "\uD83C\uDF31",
-    title: "Your mind, your pace.",
-    description: "No pressure. No streaks you dread. Just curiosity.",
+    title: "Compounding knowledge.",
+    description:
+      "Five minutes a day builds a mind. Small and consistent beats big and sporadic.",
   },
 ];
 
@@ -51,7 +54,7 @@ export function VbManifesto() {
           </blockquote>
         </motion.div>
 
-        <div className="mt-16 grid gap-10 md:grid-cols-3">
+        <div className="mt-16 grid max-w-2xl mx-auto gap-8 md:grid-cols-1">
           {principles.map((p, i) => (
             <motion.div
               key={p.title}
@@ -59,18 +62,34 @@ export function VbManifesto() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="text-center"
+              className="flex gap-4 text-left"
             >
-              <div className="text-2xl">{p.icon}</div>
-              <h3
-                className="mt-3 text-lg font-bold"
-                style={{ color: "#1C1917", fontFamily: "var(--font-playfair)" }}
-              >
-                {p.title}
-              </h3>
-              <p className="mt-2 text-sm" style={{ color: "#57534E", lineHeight: 1.6 }}>
-                {p.description}
-              </p>
+              <div className="flex-shrink-0">
+                <div
+                  className="w-10 h-10 rounded-full flex items-center justify-center text-lg"
+                  style={{ background: "#EAF4EF" }}
+                >
+                  {p.icon}
+                </div>
+              </div>
+              <div>
+                <h3
+                  className="font-bold"
+                  style={{
+                    color: "#1C1917",
+                    fontFamily: "var(--font-playfair)",
+                    fontSize: "18px",
+                  }}
+                >
+                  {p.title}
+                </h3>
+                <p
+                  className="mt-1 text-sm"
+                  style={{ color: "#57534E", lineHeight: 1.65 }}
+                >
+                  {p.description}
+                </p>
+              </div>
             </motion.div>
           ))}
         </div>

@@ -3,39 +3,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const previewCards = [
-  {
-    topic: "Philosophy",
-    topicBg: "#F5F0E8",
-    topicText: "#78350F",
-    icon: "\uD83D\uDCDC",
-    title: "The Examined Life",
-    description: "Socrates, self-knowledge, and the habit of questioning your own assumptions.",
-    rotate: -6,
-    offset: { top: 40, left: 0 },
-  },
-  {
-    topic: "Communication",
-    topicBg: "#EAF4EF",
-    topicText: "#1A6B4A",
-    icon: "\uD83D\uDCAC",
-    title: "Difficult Conversations",
-    description: "A three-part framework for disagreements that don't devolve into defensiveness.",
-    rotate: 3,
-    offset: { top: 0, left: 40 },
-  },
-  {
-    topic: "Psychology",
-    topicBg: "#FDF0E8",
-    topicText: "#C2703D",
-    icon: "\uD83E\uDDE0",
-    title: "The Availability Heuristic",
-    description: "Why we overweight what we remember \u2014 and how to correct for it.",
-    rotate: 8,
-    offset: { top: 80, left: 80 },
-  },
-];
-
 export function VbHero() {
   return (
     <section
@@ -93,60 +60,139 @@ export function VbHero() {
           </div>
         </motion.div>
 
-        {/* Right: stacked preview cards */}
+        {/* Right: lesson reader preview */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative hidden md:col-span-2 md:block"
-          style={{ minHeight: 380 }}
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          className="relative hidden md:col-span-2 md:flex md:items-center md:justify-center"
         >
-          {previewCards.map((card, i) => (
-            <div
-              key={card.title}
-              className="absolute w-[280px] overflow-hidden rounded-[10px] border bg-white"
-              style={{
-                top: card.offset.top,
-                left: card.offset.left,
-                transform: `rotate(${card.rotate}deg)`,
-                borderColor: "#E8E4DC",
-                boxShadow: "0 6px 24px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04)",
-                zIndex: i,
-              }}
-            >
-              <div
-                className="flex items-center gap-2 px-4 py-3 border-b"
-                style={{ background: card.topicBg, borderColor: "#E8E4DC" }}
-              >
-                <span className="text-lg">{card.icon}</span>
-                <span className="text-xs font-semibold" style={{ color: card.topicText }}>
-                  {card.topic}
-                </span>
-              </div>
-              <div className="p-4">
-                <h3
-                  className="text-sm font-bold leading-snug"
-                  style={{ color: "#1C1917", fontFamily: "var(--font-playfair)" }}
-                >
-                  {card.title}
-                </h3>
-                <p className="mt-2 text-xs leading-relaxed" style={{ color: "#57534E" }}>
-                  {card.description}
-                </p>
-                <div className="mt-3 flex items-center gap-3">
-                  <span className="text-xs" style={{ color: "#A8A29E" }}>
-                    {"\uD83D\uDCDA"} 6 lessons
-                  </span>
-                  <span
-                    className="ml-auto text-xs font-semibold px-2 py-0.5 rounded"
-                    style={{ background: "#EAF4EF", color: "#1A6B4A" }}
-                  >
-                    FREE
-                  </span>
-                </div>
-              </div>
+          {/* Phone-shaped container */}
+          <div
+            className="w-[260px] overflow-hidden rounded-[24px] border-2"
+            style={{
+              borderColor: "#E8E4DC",
+              boxShadow: "0 8px 40px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06)",
+              background: "#FAFAF6",
+            }}
+          >
+            {/* Top chrome: progress line + back button */}
+            <div style={{ background: "#E8E4DC", height: "2px", width: "100%" }}>
+              <div style={{ height: "100%", width: "60%", background: "#1A6B4A" }} />
             </div>
-          ))}
+            <div className="flex items-center justify-between px-4 py-3">
+              <span className="text-xs flex items-center gap-1" style={{ color: "#57534E" }}>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                >
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+                Back
+              </span>
+              <span className="text-xs" style={{ color: "#A8A29E" }}>
+                3 / 5
+              </span>
+            </div>
+
+            {/* Topic eyebrow */}
+            <div className="px-4 pb-1">
+              <span
+                className="text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "#1A6B4A" }}
+              >
+                {"\uD83D\uDCDA"} Communication
+              </span>
+            </div>
+
+            {/* Lesson title */}
+            <div className="px-4 pb-3">
+              <h3
+                className="font-bold leading-snug"
+                style={{
+                  color: "#1C1917",
+                  fontFamily: "var(--font-playfair)",
+                  fontSize: "17px",
+                }}
+              >
+                The Art of Listening
+              </h3>
+            </div>
+
+            {/* Slide content */}
+            <div className="px-4 pb-4">
+              <p
+                className="text-xs leading-relaxed"
+                style={{ color: "#57534E", lineHeight: 1.8 }}
+              >
+                Most people listen to reply, not to understand. The moment someone starts
+                speaking, we begin forming our response &mdash; filtering their words through
+                our own experience rather than receiving them fully.
+              </p>
+              <p
+                className="mt-3 text-xs leading-relaxed"
+                style={{ color: "#57534E", lineHeight: 1.8 }}
+              >
+                True listening requires suspension of judgment. It is an act of attention, not
+                reaction.
+              </p>
+            </div>
+
+            {/* Bottom nav */}
+            <div
+              className="flex items-center justify-between px-4 py-3 border-t"
+              style={{ borderColor: "#E8E4DC" }}
+            >
+              <button
+                className="rounded-[6px] px-3 py-1.5 text-xs font-medium border"
+                style={{ borderColor: "#E8E4DC", color: "#57534E", background: "#FFFFFF" }}
+              >
+                &larr; Prev
+              </button>
+              <span
+                className="rounded-full px-3 py-1 text-[10px] font-semibold border"
+                style={{ borderColor: "#1A6B4A", color: "#1A6B4A", background: "#EAF4EF" }}
+              >
+                Read
+              </span>
+              <button
+                className="rounded-[6px] px-3 py-1.5 text-xs font-semibold"
+                style={{ background: "#1A6B4A", color: "#FFFFFF" }}
+              >
+                Next &rarr;
+              </button>
+            </div>
+          </div>
+
+          {/* Floating "5 min" badge */}
+          <div
+            className="absolute -right-2 top-8 rounded-full border px-3 py-1 text-xs font-semibold"
+            style={{
+              background: "#FFFFFF",
+              borderColor: "#E8E4DC",
+              color: "#57534E",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+            }}
+          >
+            {"\u23F1"} 5 min
+          </div>
+
+          {/* Floating topic pill */}
+          <div
+            className="absolute -left-4 bottom-10 rounded-full border px-3 py-1 text-xs font-semibold"
+            style={{
+              background: "#EAF4EF",
+              borderColor: "#C6DDD3",
+              color: "#1A6B4A",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+            }}
+          >
+            {"\uD83D\uDCD6"} +10 XP
+          </div>
         </motion.div>
       </div>
     </section>

@@ -78,12 +78,21 @@ export function VbTestimonials({ learnerCount }: VbTestimonialsProps) {
                 }}
                 dangerouslySetInnerHTML={{ __html: `&ldquo;${t.quote}&rdquo;` }}
               />
-              <div className="mt-4 text-xs" style={{ color: "#A8A29E" }}>
-                <span className="font-semibold" style={{ color: "#57534E" }}>
-                  {t.name}
-                </span>
-                <span className="mx-2">&middot;</span>
-                {t.topic}
+              <div className="mt-4 flex items-center gap-2">
+                <div
+                  className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
+                  style={{ background: "#EAF4EF", color: "#1A6B4A" }}
+                >
+                  {t.name.charAt(0)}
+                </div>
+                <div>
+                  <p className="text-xs font-semibold" style={{ color: "#1C1917" }}>
+                    {t.name}
+                  </p>
+                  <p className="text-[10px]" style={{ color: "#A8A29E" }}>
+                    {t.topic}
+                  </p>
+                </div>
               </div>
             </motion.div>
           ))}

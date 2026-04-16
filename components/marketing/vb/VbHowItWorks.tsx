@@ -4,16 +4,17 @@ import { motion } from "framer-motion";
 
 const steps = [
   {
-    title: "Choose your topics",
-    description: "Pick from 195+ subjects. Curated by experts, not algorithms.",
+    title: "Pick your topics.",
+    description:
+      "Choose what genuinely interests you &mdash; from philosophy to personal finance. Your path is yours.",
   },
   {
-    title: "Read one lesson",
-    description: "Five minutes. One idea. Beautiful, focused content.",
+    title: "Read one lesson.",
+    description: "Five focused minutes. Clear prose, real ideas. No noise, no filler.",
   },
   {
-    title: "Build your library",
-    description: "Track what you&rsquo;ve learned. Return when you&rsquo;re ready.",
+    title: "Build your library.",
+    description: "Track what you&rsquo;ve learned. Return when curious. Knowledge compounds.",
   },
 ];
 
@@ -50,7 +51,7 @@ export function VbHowItWorks() {
               <p
                 className="font-bold"
                 style={{
-                  color: "#E8E4DC",
+                  color: "#C6DDD3",
                   fontFamily: "var(--font-playfair)",
                   fontSize: "64px",
                   lineHeight: 1,
@@ -73,6 +74,12 @@ export function VbHowItWorks() {
                 style={{ color: "#57534E", lineHeight: 1.65 }}
                 dangerouslySetInnerHTML={{ __html: step.description }}
               />
+              {i < steps.length - 1 && (
+                <div
+                  className="md:hidden h-px w-12 mx-auto mt-6"
+                  style={{ background: "#E8E4DC" }}
+                />
+              )}
             </motion.div>
           ))}
         </div>
