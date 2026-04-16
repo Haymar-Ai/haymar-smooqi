@@ -36,6 +36,82 @@ export function CourseCard({ course, isSaved, progress }: CourseCardProps) {
     text: '#374151',
   }
 
+  if (themeConfig.isVB) {
+    return (
+      <Link href={`/learn/${course.slug}`} className="block h-full">
+        <div
+          className="rounded-[var(--card-radius)] flex flex-col h-full overflow-hidden border transition-shadow hover:shadow-md"
+          style={{
+            borderColor: '#E8E4DC',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)',
+          }}
+        >
+          {/* Topic header band */}
+          <div
+            className="flex items-center gap-2 px-4 py-3"
+            style={{ backgroundColor: topicColor.bg, borderBottom: '1px solid #E8E4DC' }}
+          >
+            <span className="text-lg">{course.topic.icon}</span>
+            <span className="text-xs font-semibold" style={{ color: topicColor.text }}>
+              {course.topic.name}
+            </span>
+            <div className="ml-auto">
+              <BookmarkButton courseId={course.id} initialSaved={isSaved} />
+            </div>
+          </div>
+
+          {/* Card body */}
+          <div className="flex flex-col gap-2 p-4 bg-white flex-1">
+            <div className="flex items-start gap-2">
+              <LevelBadge level={course.level} />
+            </div>
+            <h3
+              className="text-sm font-bold line-clamp-2 leading-snug flex-1"
+              style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+            >
+              {course.title}
+            </h3>
+            <p className="text-xs line-clamp-2" style={{ color: '#57534E' }}>
+              {course.description}
+            </p>
+
+            {/* Bottom meta */}
+            <div className="flex items-center gap-3 mt-auto pt-2">
+              <span className="text-xs" style={{ color: '#A8A29E' }}>
+                {'\uD83D\uDCDA'} {course.lessonCount} lessons
+              </span>
+              <span className="text-xs" style={{ color: '#A8A29E' }}>
+                {'\u23F1'} {course.estimatedMinutes} min
+              </span>
+              <span className="ml-auto">
+                {course.isFree ? (
+                  <span
+                    className="text-xs font-semibold px-2 py-0.5 rounded"
+                    style={{ background: '#EAF4EF', color: '#1A6B4A' }}
+                  >
+                    FREE
+                  </span>
+                ) : (
+                  <span style={{ color: '#A8A29E', fontSize: '14px' }}>{'\uD83D\uDD12'}</span>
+                )}
+              </span>
+            </div>
+
+            {/* Thin progress line (vB) */}
+            {progress != null && progress > 0 && (
+              <div className="h-[2px] w-full mt-1" style={{ background: '#E8E4DC' }}>
+                <div
+                  className="h-full transition-all"
+                  style={{ width: `${progress}%`, background: '#1A6B4A' }}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+      </Link>
+    )
+  }
+
   return (
     <Link href={`/learn/${course.slug}`} className="block h-full">
       <div

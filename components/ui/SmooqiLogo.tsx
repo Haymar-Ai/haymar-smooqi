@@ -4,8 +4,8 @@ import { themeConfig } from '@/lib/theme'
 export function SmooqiLogo({ size = 'default' }: { size?: 'default' | 'small' | 'large' }) {
   const iconGradient = themeConfig.isVA
     ? 'linear-gradient(135deg, #7C3AED, #6D28D9)'
-    : 'linear-gradient(135deg, #F97316, #EA580C)'
-  const wordmarkColor = themeConfig.isVA ? '#7C3AED' : '#F97316'
+    : 'linear-gradient(135deg, #1A6B4A, #155A3D)'
+  const wordmarkColor = themeConfig.isVA ? '#7C3AED' : '#1A6B4A'
 
   const iconSize = size === 'small' ? 'h-7 w-7' : size === 'large' ? 'h-11 w-11' : 'h-9 w-9'
   const svgSize = size === 'small' ? 'h-4 w-4' : 'h-5 w-5'

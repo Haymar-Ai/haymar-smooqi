@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
+import { themeConfig } from '@/lib/theme'
 
 interface StepNotificationsProps {
   onEnable: () => void
@@ -30,7 +31,12 @@ export function StepNotifications({
   return (
     <div className="flex flex-col items-center gap-6 text-center">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Stay on track</h1>
+        <h1
+          className="text-2xl font-bold tracking-tight"
+          style={themeConfig.isVB ? { fontFamily: 'var(--font-playfair)', color: '#1C1917' } : undefined}
+        >
+          Stay on track
+        </h1>
         <p className="mt-2 text-muted-foreground">
           Enable daily reminders to build your learning habit
         </p>

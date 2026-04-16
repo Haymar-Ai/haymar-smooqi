@@ -2,6 +2,7 @@
 
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
+import { themeConfig } from '@/lib/theme'
 
 const goalOptions = [
   { minutes: 5, label: '5 min', description: 'Quick daily habit' },
@@ -26,7 +27,10 @@ export function StepDailyGoal({
   return (
     <div className="flex flex-col gap-6">
       <div className="text-center">
-        <h1 className="text-2xl font-bold tracking-tight">
+        <h1
+          className="text-2xl font-bold tracking-tight"
+          style={themeConfig.isVB ? { fontFamily: 'var(--font-playfair)', color: '#1C1917' } : undefined}
+        >
           How much time can you commit?
         </h1>
         <p className="mt-2 text-muted-foreground">

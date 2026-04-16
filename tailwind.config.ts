@@ -51,7 +51,8 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],
-        heading: ["var(--font-heading)", "sans-serif"],
+        heading: ["var(--font-playfair)", "var(--font-nunito)", "Georgia", "serif"],
+        serif: ["var(--font-playfair)", "Georgia", "serif"],
       },
       keyframes: {
         "accordion-down": {

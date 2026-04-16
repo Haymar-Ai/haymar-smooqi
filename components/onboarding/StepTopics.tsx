@@ -2,6 +2,7 @@
 
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
+import { themeConfig } from '@/lib/theme'
 
 type TopicItem = {
   id: string
@@ -28,7 +29,10 @@ export function StepTopics({
   return (
     <div className="flex flex-col gap-6">
       <div className="text-center">
-        <h1 className="text-2xl font-bold tracking-tight">
+        <h1
+          className="text-2xl font-bold tracking-tight"
+          style={themeConfig.isVB ? { fontFamily: 'var(--font-playfair)', color: '#1C1917' } : undefined}
+        >
           What do you want to learn?
         </h1>
         <p className="mt-2 text-muted-foreground">
@@ -39,6 +43,9 @@ export function StepTopics({
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         {topics.map((topic) => {
           const isSelected = selectedTopics.includes(topic.id)
+          const vbColors = themeConfig.isVB
+            ? themeConfig.topicColors[topic.slug] ?? { bg: '#F5F0E8', text: '#57534E' }
+            : null
 
           return (
             <button
@@ -50,6 +57,11 @@ export function StepTopics({
                   ? 'border-[var(--color-primary)] bg-[var(--color-primary-light)]'
                   : 'border-transparent bg-card ring-1 ring-foreground/10 hover:ring-foreground/20'
               )}
+              style={
+                vbColors && !isSelected
+                  ? { background: vbColors.bg, color: vbColors.text }
+                  : undefined
+              }
             >
               {/* Checkmark overlay */}
               {isSelected && (

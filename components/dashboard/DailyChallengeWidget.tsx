@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { themeConfig } from '@/lib/theme'
 
 interface DailyChallengeWidgetProps {
   challenge: {
@@ -65,6 +66,112 @@ export function DailyChallengeWidget({
     } finally {
       setLoading(false)
     }
+  }
+
+  if (themeConfig.isVB) {
+    return (
+      <div
+        className="rounded-[var(--card-radius)] overflow-hidden border"
+        style={{ borderColor: '#E8E4DC', background: '#FFFFFF' }}
+      >
+        {/* Header strip — warm cream */}
+        <div
+          className="flex items-center justify-between px-4 py-3 border-b"
+          style={{ borderColor: '#E8E4DC', background: '#F5F0E8' }}
+        >
+          <div>
+            <p
+              className="text-[10px] font-semibold uppercase tracking-widest"
+              style={{ color: '#A8A29E' }}
+            >
+              Today&apos;s Challenge
+            </p>
+            <p className="text-xs font-medium mt-0.5" style={{ color: '#57534E' }}>
+              {new Date().toLocaleDateString('en-US', {
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </p>
+          </div>
+          <span
+            className="rounded px-2 py-0.5 text-xs font-semibold"
+            style={{ background: '#EAF4EF', color: '#1A6B4A' }}
+          >
+            +10 XP
+          </span>
+        </div>
+
+        {/* Question */}
+        <div className="px-4 pt-4 pb-2">
+          <p
+            className="text-sm font-semibold leading-snug"
+            style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+          >
+            {question.question}
+          </p>
+        </div>
+
+        {/* Options */}
+        <div className="px-4 pb-4 space-y-2">
+          {options.map((opt) => {
+            let bg = '#FAFAF6'
+            let border = '#E8E4DC'
+            let textColor = '#1C1917'
+
+            if (submitted) {
+              if (opt.key === question.correctAnswer) {
+                bg = '#EAF4EF'
+                border = '#C6DDD3'
+                textColor = '#1A6B4A'
+              } else if (opt.key === selected && !isCorrect) {
+                bg = '#FEF2F2'
+                border = '#FECACA'
+                textColor = '#991B1B'
+              }
+            } else if (opt.key === selected) {
+              bg = '#EAF4EF'
+              border = '#1A6B4A'
+              textColor = '#1A6B4A'
+            }
+
+            return (
+              <button
+                key={opt.key}
+                disabled={submitted || loading}
+                onClick={() => handleSelect(opt.key)}
+                className="w-full rounded-lg border px-3 py-2.5 text-left text-sm transition-colors disabled:cursor-default"
+                style={{ background: bg, borderColor: border, color: textColor }}
+              >
+                <span className="font-semibold mr-1.5" style={{ color: '#A8A29E' }}>
+                  {opt.key}.
+                </span>
+                {opt.text}
+              </button>
+            )
+          })}
+        </div>
+
+        {/* Result */}
+        {submitted && (
+          <div className="px-4 pb-4 pt-0">
+            <p
+              className="text-sm font-medium"
+              style={{ color: isCorrect ? '#166534' : '#991B1B' }}
+            >
+              {isCorrect
+                ? '\u2713 Correct \u2014 well done.'
+                : 'Not quite. Try again tomorrow.'}
+            </p>
+            {question.explanation && (
+              <p className="mt-1.5 text-xs leading-relaxed" style={{ color: '#57534E' }}>
+                {question.explanation}
+              </p>
+            )}
+          </div>
+        )}
+      </div>
+    )
   }
 
   return (

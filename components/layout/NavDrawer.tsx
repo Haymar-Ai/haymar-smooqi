@@ -31,7 +31,8 @@ const navItems = [
 
 export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDrawerProps) {
   const pathname = usePathname()
-  const drawerBg = themeConfig.isVA ? '#FFFFFF' : '#FAFAF7'
+  const drawerBg = '#FFFFFF'
+  const drawerBorder = themeConfig.isVA ? 'rgb(243 244 246)' : '#E8E4DC'
 
   return (
     <AnimatePresence>
@@ -68,7 +69,7 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
             </div>
 
             {/* User info */}
-            <div className="flex items-center gap-3 px-5 pb-5 border-b border-gray-100">
+            <div className="flex items-center gap-3 px-5 pb-5 border-b" style={{ borderColor: drawerBorder }}>
               <Avatar className="h-10 w-10">
                 <AvatarImage src={userImage} alt={userName} />
                 <AvatarFallback className="bg-[var(--color-primary-light)] text-[var(--color-primary)] text-sm font-semibold">
@@ -95,9 +96,16 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
                     className={cn(
                       'flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors',
                       isActive
-                        ? 'bg-[var(--color-primary)] text-white'
+                        ? themeConfig.isVA
+                          ? 'bg-[var(--color-primary)] text-white'
+                          : ''
                         : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
                     )}
+                    style={
+                      !themeConfig.isVA && isActive
+                        ? { background: '#EAF4EF', color: '#1A6B4A' }
+                        : undefined
+                    }
                   >
                     <span className="text-lg">{item.icon}</span>
                     {item.label}
@@ -106,8 +114,11 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
               })}
 
               {/* Divider */}
-              <div className="mx-4 my-2 border-t border-gray-100" />
-              <p className="px-4 py-1 text-[10px] font-semibold uppercase tracking-widest text-gray-400">
+              <div className="mx-4 my-2 border-t" style={{ borderColor: drawerBorder }} />
+              <p
+                className="px-4 py-1 text-[10px] font-semibold uppercase tracking-widest text-gray-400"
+                style={themeConfig.isVA ? undefined : { fontFamily: 'var(--font-playfair)', letterSpacing: '0.15em' }}
+              >
                 More
               </p>
 
@@ -135,7 +146,7 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
             </nav>
 
             {/* Sign out */}
-            <div className="border-t border-gray-100 p-4">
+            <div className="border-t p-4" style={{ borderColor: drawerBorder }}>
               <button
                 onClick={() => signOut({ callbackUrl: '/login' })}
                 className="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-colors"

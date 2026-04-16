@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { themeConfig } from '@/lib/theme'
 
 interface LevelUpDetail {
   level: number
@@ -26,6 +27,8 @@ export function LevelUpToast() {
     return () => clearTimeout(timer)
   }, [level])
 
+  const isVB = themeConfig.isVB
+
   return (
     <AnimatePresence>
       {level !== null && (
@@ -43,9 +46,21 @@ export function LevelUpToast() {
             transition={{ type: 'spring', damping: 15, stiffness: 300 }}
             className="fixed inset-0 z-[101] flex items-center justify-center"
           >
-            <div className="rounded-2xl bg-[var(--color-primary)] px-8 py-6 text-center text-white shadow-2xl">
+            <div
+              className={
+                isVB
+                  ? 'rounded-[10px] px-8 py-6 text-center text-white shadow-2xl'
+                  : 'rounded-2xl bg-[var(--color-primary)] px-8 py-6 text-center text-white shadow-2xl'
+              }
+              style={isVB ? { background: '#1A6B4A' } : undefined}
+            >
               <p className="text-3xl">&#127881;</p>
-              <p className="mt-2 text-lg font-bold">Level Up!</p>
+              <p
+                className="mt-2 text-lg font-bold"
+                style={isVB ? { fontFamily: 'var(--font-playfair)' } : undefined}
+              >
+                Level Up!
+              </p>
               <p className="text-sm opacity-90">
                 You reached Level {level}
               </p>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Badge } from '@/components/ui/badge'
+import { themeConfig } from '@/lib/theme'
 
 interface AchievementDetail {
   name: string
@@ -29,6 +30,8 @@ export function AchievementToast() {
     return () => clearTimeout(timer)
   }, [achievement])
 
+  const isVB = themeConfig.isVB
+
   return (
     <AnimatePresence>
       {achievement && (
@@ -39,10 +42,30 @@ export function AchievementToast() {
           transition={{ type: 'spring', damping: 20, stiffness: 300 }}
           className="fixed bottom-6 left-1/2 z-[100] -translate-x-1/2"
         >
-          <div className="flex items-center gap-3 rounded-2xl bg-white px-5 py-3 shadow-xl ring-1 ring-gray-200">
+          <div
+            className={
+              isVB
+                ? 'flex items-center gap-3 rounded-[10px] px-5 py-3 shadow-xl border'
+                : 'flex items-center gap-3 rounded-2xl bg-white px-5 py-3 shadow-xl ring-1 ring-gray-200'
+            }
+            style={
+              isVB
+                ? { background: '#EAF4EF', borderColor: '#C6DDD3' }
+                : undefined
+            }
+          >
             <span className="text-3xl">{achievement.icon}</span>
             <div>
-              <p className="text-sm font-bold text-gray-900">{achievement.name}</p>
+              <p
+                className="text-sm font-bold"
+                style={
+                  isVB
+                    ? { color: '#1A6B4A', fontFamily: 'var(--font-playfair)' }
+                    : { color: '#111827' }
+                }
+              >
+                {achievement.name}
+              </p>
               <Badge variant="secondary" className="mt-0.5 text-xs capitalize">
                 {achievement.tier}
               </Badge>

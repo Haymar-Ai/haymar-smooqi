@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
+import { themeConfig } from '@/lib/theme'
 
 type GameHeaderProps = {
   currentRound: number
@@ -28,9 +29,20 @@ export function GameHeader({ currentRound, totalRounds, score }: GameHeaderProps
             className={cn(
               'w-3 h-3 rounded-full border-2 transition-colors',
               i < score
-                ? 'border-green-500 bg-green-500'
-                : 'border-gray-300 bg-white'
+                ? themeConfig.isVB
+                  ? ''
+                  : 'border-green-500 bg-green-500'
+                : themeConfig.isVB
+                  ? ''
+                  : 'border-gray-300 bg-white'
             )}
+            style={
+              themeConfig.isVB
+                ? i < score
+                  ? { background: '#1A6B4A', borderColor: '#1A6B4A' }
+                  : { background: '#FFFFFF', borderColor: '#E8E4DC' }
+                : undefined
+            }
           />
         ))}
       </div>

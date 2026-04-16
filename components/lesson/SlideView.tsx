@@ -31,12 +31,21 @@ function formatSlideContent(content: string) {
   let bulletBuffer: string[] = []
   let orderedBuffer: { num: string; text: string }[] = []
 
+  const isVB = themeConfig.isVB
+  const bodyFontSize = isVB ? '16px' : '15px'
+  const bodyLineHeight = isVB ? 1.85 : 1.7
+  const bodyColor = isVB ? '#57534E' : undefined
+
   function flushBullets() {
     if (bulletBuffer.length === 0) return
     elements.push(
       <ul key={`ul-${elements.length}`} className="my-3 space-y-1.5 pl-5">
         {bulletBuffer.map((item, i) => (
-          <li key={i} className="list-disc text-gray-700" style={{ fontSize: '15px', lineHeight: 1.7 }}>
+          <li
+            key={i}
+            className={cn('list-disc', !isVB && 'text-gray-700')}
+            style={{ fontSize: bodyFontSize, lineHeight: bodyLineHeight, color: bodyColor }}
+          >
             {formatInline(item)}
           </li>
         ))}
@@ -50,7 +59,11 @@ function formatSlideContent(content: string) {
     elements.push(
       <ol key={`ol-${elements.length}`} className="my-3 space-y-1.5 pl-5">
         {orderedBuffer.map((item, i) => (
-          <li key={i} className="list-decimal text-gray-700" style={{ fontSize: '15px', lineHeight: 1.7 }}>
+          <li
+            key={i}
+            className={cn('list-decimal', !isVB && 'text-gray-700')}
+            style={{ fontSize: bodyFontSize, lineHeight: bodyLineHeight, color: bodyColor }}
+          >
             {formatInline(item.text)}
           </li>
         ))}
@@ -97,29 +110,52 @@ function formatSlideContent(content: string) {
     // Split by sentences for lead text treatment
     // Only do sentence splitting for the first text block
     if (elements.length === 0) {
-      // Split on ". " keeping the period
       const sentences = trimmed.split(/(?<=\.)\s+/)
       if (sentences.length > 1) {
         elements.push(
-          <p key={`lead-${elements.length}`} className="text-lg font-medium text-gray-900 mb-2" style={{ lineHeight: 1.6 }}>
+          <p
+            key={`lead-${elements.length}`}
+            className={cn('mb-2', !isVB && 'text-lg font-medium text-gray-900')}
+            style={
+              isVB
+                ? { fontSize: '18px', fontWeight: 500, color: '#1C1917', lineHeight: 1.85 }
+                : { lineHeight: 1.6 }
+            }
+          >
             {formatInline(sentences[0])}
           </p>
         )
         elements.push(
-          <p key={`body-${elements.length}`} className="text-gray-700 mb-2" style={{ fontSize: '15px', lineHeight: 1.7 }}>
+          <p
+            key={`body-${elements.length}`}
+            className={cn('mb-2', !isVB && 'text-gray-700')}
+            style={{ fontSize: bodyFontSize, lineHeight: bodyLineHeight, color: bodyColor }}
+          >
             {formatInline(sentences.slice(1).join(' '))}
           </p>
         )
       } else {
         elements.push(
-          <p key={`lead-${elements.length}`} className="text-lg font-medium text-gray-900 mb-2" style={{ lineHeight: 1.6 }}>
+          <p
+            key={`lead-${elements.length}`}
+            className={cn('mb-2', !isVB && 'text-lg font-medium text-gray-900')}
+            style={
+              isVB
+                ? { fontSize: '18px', fontWeight: 500, color: '#1C1917', lineHeight: 1.85 }
+                : { lineHeight: 1.6 }
+            }
+          >
             {formatInline(trimmed)}
           </p>
         )
       }
     } else {
       elements.push(
-        <p key={`p-${elements.length}`} className="text-gray-700 mb-2" style={{ fontSize: '15px', lineHeight: 1.7 }}>
+        <p
+          key={`p-${elements.length}`}
+          className={cn('mb-2', !isVB && 'text-gray-700')}
+          style={{ fontSize: bodyFontSize, lineHeight: bodyLineHeight, color: bodyColor }}
+        >
           {formatInline(trimmed)}
         </p>
       )
@@ -135,15 +171,22 @@ function formatSlideContent(content: string) {
 
 export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topicIcon, lessonTitle, slideIndex, totalSlides, onBack }: SlideViewProps) {
   const icon = topicIcon || '💡'
+  const isVB = themeConfig.isVB
 
   return (
     <Card
       className={cn(
-        'max-w-[680px] mx-auto p-8 bg-white',
+        'max-w-[680px] mx-auto bg-white',
+        isVB ? 'p-6 md:p-10 rounded-[10px] border' : 'p-8',
         themeConfig.isVA
           ? 'rounded-[16px] shadow-lg border-0'
-          : 'rounded-[12px] border'
+          : !isVB && 'rounded-[12px] border'
       )}
+      style={
+        isVB
+          ? { borderColor: '#E8E4DC', boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)' }
+          : undefined
+      }
     >
       {lessonTitle && onBack && (
         <LessonHeader
@@ -154,21 +197,36 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
         />
       )}
 
-      {/* First slide: large topic emoji at top */}
+      {/* First slide: topic emoji */}
       {isFirst && (
-        <div className="mb-4 text-center">
-          <span className="text-4xl">{icon}</span>
-        </div>
+        isVB ? (
+          <div className="mb-6 flex justify-start">
+            <span className="text-2xl">{icon}</span>
+          </div>
+        ) : (
+          <div className="mb-4 text-center">
+            <span className="text-4xl">{icon}</span>
+          </div>
+        )
       )}
 
       {/* Last slide: Key Takeaway label */}
       {isLast && (
-        <p
-          className="text-xs font-bold uppercase tracking-widest mb-3"
-          style={{ color: 'var(--color-primary)' }}
-        >
-          Key Takeaway
-        </p>
+        isVB ? (
+          <p
+            className="text-xs font-semibold uppercase tracking-widest mb-3"
+            style={{ color: '#A8A29E' }}
+          >
+            Key Takeaway
+          </p>
+        ) : (
+          <p
+            className="text-xs font-bold uppercase tracking-widest mb-3"
+            style={{ color: 'var(--color-primary)' }}
+          >
+            Key Takeaway
+          </p>
+        )
       )}
 
       {slide.imageUrl && (
@@ -183,21 +241,30 @@ export function SlideView({ slide, mode, currentWordIndex, isFirst, isLast, topi
       )}
 
       {slide.title && (
-        <p
-          className={cn(
-            'uppercase font-semibold tracking-wide mb-2',
-            isFirst ? 'text-base text-center' : 'text-sm'
-          )}
-          style={{ color: 'var(--color-primary)' }}
-        >
-          {slide.title}
-        </p>
+        isVB ? (
+          <p
+            className="text-base font-bold mb-3"
+            style={{ color: '#1A6B4A', fontFamily: 'var(--font-playfair)' }}
+          >
+            {slide.title}
+          </p>
+        ) : (
+          <p
+            className={cn(
+              'uppercase font-semibold tracking-wide mb-2',
+              isFirst ? 'text-base text-center' : 'text-sm'
+            )}
+            style={{ color: 'var(--color-primary)' }}
+          >
+            {slide.title}
+          </p>
+        )
       )}
 
       {mode === 'audio' ? (
         <HighlightedText text={slide.content} currentWordIndex={currentWordIndex} />
       ) : (
-        <div className={cn(isLast && 'text-lg', isFirst && 'text-center')}>
+        <div className={cn(isLast && !isVB && 'text-lg', isFirst && !isVB && 'text-center')}>
           {formatSlideContent(slide.content)}
         </div>
       )}

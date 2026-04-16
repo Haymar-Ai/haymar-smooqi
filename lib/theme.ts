@@ -19,21 +19,21 @@ const VA_TOPIC_COLORS: Record<string, { bg: string; text: string }> = {
 }
 
 const VB_TOPIC_COLORS: Record<string, { bg: string; text: string }> = {
-  'communication-skills': { bg: '#F5F0E8', text: '#C2410C' },
-  'psychology-mindset': { bg: '#FDE8E8', text: '#9B1C31' },
-  'personal-finance': { bg: '#E8F5E8', text: '#166534' },
-  'philosophy': { bg: '#FFF8F0', text: '#78350F' },
-  'art-culture': { bg: '#FFF0E0', text: '#9A3412' },
-  'movie-knowledge': { bg: '#F0EDED', text: '#374151' },
-  'biology': { bg: '#E8F0E8', text: '#166534' },
-  'physics': { bg: '#E0F0FF', text: '#1E3A5F' },
-  'literature': { bg: '#F5F0E0', text: '#78350F' },
-  'math-logic': { bg: '#F0E8F5', text: '#475569' },
-  'dog-training': { bg: '#F5EDE0', text: '#78350F' },
-  'style': { bg: '#FDE8F0', text: '#A21CAF' },
-  'voice': { bg: '#F0E8F5', text: '#6B21A8' },
-  'intelligence-training': { bg: '#FFF8E0', text: '#92400E' },
-  'confident-parenting': { bg: '#E0F5E8', text: '#166534' },
+  'communication-skills': { bg: '#EAF4EF', text: '#1A6B4A' },
+  'psychology-mindset':   { bg: '#FDF0E8', text: '#C2703D' },
+  'personal-finance':     { bg: '#EAF4EF', text: '#1A6B4A' },
+  'philosophy':           { bg: '#F5F0E8', text: '#78350F' },
+  'art-culture':          { bg: '#FDF0E8', text: '#C2703D' },
+  'movie-knowledge':      { bg: '#F5F5F0', text: '#374151' },
+  'biology':              { bg: '#EAF4EF', text: '#1A6B4A' },
+  'physics':              { bg: '#EEF6FF', text: '#1E40AF' },
+  'literature':           { bg: '#F5F0E8', text: '#78350F' },
+  'math-logic':           { bg: '#F5F0E8', text: '#57534E' },
+  'dog-training':         { bg: '#FDF0E8', text: '#C2703D' },
+  'style':                { bg: '#FDF2F8', text: '#86198F' },
+  'voice':                { bg: '#EAF4EF', text: '#1A6B4A' },
+  'intelligence-training':{ bg: '#FEFCE8', text: '#92400E' },
+  'confident-parenting':  { bg: '#EAF4EF', text: '#1A6B4A' },
 }
 
 export const themeConfig = {
@@ -50,13 +50,13 @@ export const themeConfig = {
     fontHeading: 'Inter',
     fontBody: 'Inter',
   } : {
-    primary: '#F97316',
-    primaryLight: '#FFF7ED',
-    background: '#FAFAF7',
+    primary: '#1A6B4A',
+    primaryLight: '#EAF4EF',
+    background: '#FAFAF6',
     cardBg: '#FFFFFF',
-    cardRadius: '12px',
-    buttonRadius: '20px',
-    fontHeading: 'Nunito',
+    cardRadius: '10px',
+    buttonRadius: '8px',
+    fontHeading: 'Playfair Display',
     fontBody: 'Inter',
   },
   topicColors: VARIANT === 'vA' ? VA_TOPIC_COLORS : VB_TOPIC_COLORS,
@@ -78,16 +78,16 @@ export function getThemeCSSVars(): string {
     `
   }
   return `
-    --color-primary: #F97316;
-    --color-primary-light: #FFF7ED;
+    --color-primary: #1A6B4A;
+    --color-primary-light: #EAF4EF;
     --color-primary-foreground: #FFFFFF;
-    --color-background: #FAFAF7;
-    --app-background: #FAFAF7;
+    --color-background: #FAFAF6;
+    --app-background: #FAFAF6;
     --sidebar-bg: #FFFFFF;
-    --sidebar-border: #E7E5E4;
-    --card-radius: 12px;
-    --button-radius: 20px;
-    --font-heading: 'Nunito', sans-serif;
+    --sidebar-border: #E8E4DC;
+    --card-radius: 10px;
+    --button-radius: 8px;
+    --font-heading: 'Playfair Display', Georgia, serif;
   `
 }
 
@@ -95,5 +95,5 @@ export function getBodyStyle(): string {
   if (VARIANT === 'vA') {
     return `background: radial-gradient(ellipse at 20% 20%, rgba(167, 139, 250, 0.35) 0%, transparent 50%), radial-gradient(ellipse at 80% 10%, rgba(196, 181, 253, 0.25) 0%, transparent 40%), radial-gradient(ellipse at 60% 80%, rgba(110, 231, 183, 0.2) 0%, transparent 45%), radial-gradient(ellipse at 10% 70%, rgba(251, 207, 232, 0.25) 0%, transparent 40%), radial-gradient(ellipse at 90% 60%, rgba(147, 197, 253, 0.2) 0%, transparent 40%), #F1F0F7; min-height: 100vh;`
   }
-  return 'background-color: #FAFAF7; min-height: 100vh;'
+  return 'background-color: #FAFAF6; min-height: 100vh;'
 }

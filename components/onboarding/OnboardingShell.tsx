@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 import { StepTopics } from './StepTopics'
 import { StepDailyGoal } from './StepDailyGoal'
 import { StepNotifications } from './StepNotifications'
+import { themeConfig } from '@/lib/theme'
 
 type TopicItem = {
   id: string
@@ -77,25 +78,40 @@ export function OnboardingShell({ topics }: OnboardingShellProps) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-background px-4 py-8">
+    <div
+      className="flex min-h-screen flex-col px-4 py-8"
+      style={{ background: themeConfig.isVB ? '#FAFAF6' : undefined }}
+    >
       {/* Header */}
       <div className="mx-auto flex w-full max-w-lg items-center justify-between">
-        {/* Progress dots */}
-        <div className="flex gap-2">
-          {[1, 2, 3].map((step) => (
+        {/* Progress indicator */}
+        {themeConfig.isVB ? (
+          <div className="flex h-[2px] flex-1 max-w-[180px] bg-[#E8E4DC]">
             <div
-              key={step}
-              className={cn(
-                'h-2 w-2 rounded-full transition-colors',
-                step === currentStep
-                  ? 'bg-[var(--color-primary)]'
-                  : step < currentStep
-                    ? 'bg-[var(--color-primary)]/60'
-                    : 'bg-muted-foreground/30'
-              )}
+              className="h-full transition-all duration-300"
+              style={{
+                width: `${(currentStep / 3) * 100}%`,
+                background: '#1A6B4A',
+              }}
             />
-          ))}
-        </div>
+          </div>
+        ) : (
+          <div className="flex gap-2">
+            {[1, 2, 3].map((step) => (
+              <div
+                key={step}
+                className={cn(
+                  'h-2 w-2 rounded-full transition-colors',
+                  step === currentStep
+                    ? 'bg-[var(--color-primary)]'
+                    : step < currentStep
+                      ? 'bg-[var(--color-primary)]/60'
+                      : 'bg-muted-foreground/30'
+                )}
+              />
+            ))}
+          </div>
+        )}
 
         {/* Skip button */}
         <button

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Nunito } from 'next/font/google'
+import { Inter, Nunito, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import { getThemeCSSVars } from '@/lib/theme'
 import { getServerSession } from 'next-auth'
@@ -8,6 +8,11 @@ import { prisma } from '@/lib/db'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito' })
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+  weight: ['400', '600', '700', '800'],
+})
 
 export const metadata: Metadata = {
   title: 'Smooqi — Learn Anything, One Lesson at a Time',
@@ -45,7 +50,8 @@ export default async function RootLayout({
         .replace(/#7C3AED/g, tc.primary)
         .replace(/#EDE9FE/g, tc.light)
     }
-    if (prefs?.backgroundPattern && prefs.backgroundPattern !== 'solid') {
+    // Decorative background patterns are vA-only
+    if (variant === 'vA' && prefs?.backgroundPattern && prefs.backgroundPattern !== 'solid') {
       const patternMap: Record<string, { style: string; size: string }> = {
         dots: { style: 'radial-gradient(circle, rgba(124,58,237,0.35) 1.5px, transparent 1.5px)', size: '24px 24px' },
         grid: { style: 'linear-gradient(rgba(124,58,237,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(124,58,237,0.10) 1px, transparent 1px)', size: '40px 40px' },
@@ -65,7 +71,7 @@ export default async function RootLayout({
        radial-gradient(ellipse at 10% 70%, rgba(251, 207, 232, 0.25) 0%, transparent 40%),
        radial-gradient(ellipse at 90% 60%, rgba(147, 197, 253, 0.2) 0%, transparent 40%),
        #F1F0F7`
-    : '#FAFAF7'
+    : '#FAFAF6'
 
   const glassCardCSS = variant === 'vA' ? `
   .glass-card {
@@ -85,10 +91,10 @@ export default async function RootLayout({
   }` : ''
 
   return (
-    <html lang="en" className={`${inter.variable} ${nunito.variable}`}>
+    <html lang="en" className={`${inter.variable} ${nunito.variable} ${playfair.variable}`}>
       <head>
         <style dangerouslySetInnerHTML={{ __html: `
-  :root { ${themeVars} --bg-pattern: none; --bg-pattern-size: auto; ${bgPatternCSS} }
+  :root { ${themeVars} --bg-pattern: none; --bg-pattern-size: auto; --font-playfair: 'Playfair Display', Georgia, serif; ${bgPatternCSS} }
   body { background: ${bodyBg} !important; min-height: 100vh; position: relative; }
   body::after { content: ''; position: fixed; inset: 0; background-image: var(--bg-pattern); background-size: var(--bg-pattern-size); pointer-events: none; z-index: 0; }
   .app-shell { background: transparent !important; }

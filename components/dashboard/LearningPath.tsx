@@ -35,12 +35,30 @@ interface LearningPathProps {
 }
 
 export function LearningPath({ topicSelections }: LearningPathProps) {
+  const isVB = themeConfig.isVB
+  const cardBorderStyle = isVB
+    ? {
+        borderColor: '#E8E4DC',
+        boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)',
+      }
+    : undefined
+
   if (topicSelections.length === 0) {
     return (
-      <div className={`rounded-[var(--card-radius)] p-6 text-center shadow-sm ${themeConfig.isVA ? 'glass-card' : 'bg-white'}`}>
+      <div
+        className={`rounded-[var(--card-radius)] p-6 text-center shadow-sm ${themeConfig.isVA ? 'glass-card' : 'bg-white'}${isVB ? ' border' : ''}`}
+        style={cardBorderStyle}
+      >
         <p className="text-2xl">&#128218;</p>
-        <p className="mt-2 text-sm font-medium text-gray-900">No topics selected yet</p>
-        <p className="mt-1 text-xs text-gray-500">Choose topics to build your learning path.</p>
+        <p
+          className="mt-2 text-sm font-medium"
+          style={isVB ? { color: '#1C1917', fontFamily: 'var(--font-playfair)' } : { color: '#111827' }}
+        >
+          No topics selected yet
+        </p>
+        <p className="mt-1 text-xs" style={{ color: isVB ? '#57534E' : '#6B7280' }}>
+          Choose topics to build your learning path.
+        </p>
         <Link
           href="/explore"
           className="mt-3 inline-block rounded-[var(--button-radius)] bg-[var(--color-primary)] px-4 py-2 text-sm font-medium text-white"
@@ -61,8 +79,17 @@ export function LearningPath({ topicSelections }: LearningPathProps) {
         return (
           <div
             key={ts.topicId}
-            className={`overflow-hidden rounded-[var(--card-radius)] shadow-sm ${themeConfig.isVA ? 'glass-card' : 'bg-white'}`}
-            style={{ borderLeft: `4px solid ${colors.text}` }}
+            className={`overflow-hidden rounded-[var(--card-radius)] shadow-sm ${themeConfig.isVA ? 'glass-card' : 'bg-white'}${isVB ? ' border' : ''}`}
+            style={
+              isVB
+                ? {
+                    borderLeft: `4px solid ${colors.text}`,
+                    borderColor: '#E8E4DC',
+                    borderLeftColor: colors.text,
+                    boxShadow: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)',
+                  }
+                : { borderLeft: `4px solid ${colors.text}` }
+            }
           >
             {/* Colored header band */}
             <div

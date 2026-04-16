@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { themeConfig } from '@/lib/theme'
 
 type GameSummaryProps = {
   score: number
@@ -45,7 +46,14 @@ export function GameSummary({
       transition={{ type: 'spring', stiffness: 200, damping: 20 }}
       className="flex flex-col items-center text-center py-12 px-6"
     >
-      <p className="text-5xl font-bold text-gray-900 mb-2">
+      <p
+        className="text-5xl font-bold mb-2"
+        style={
+          themeConfig.isVB
+            ? { color: '#1C1917', fontFamily: 'var(--font-playfair)' }
+            : { color: '#111827' }
+        }
+      >
         {score} / {totalRounds}
       </p>
 
@@ -66,11 +74,19 @@ export function GameSummary({
       {xpEarned > 0 && (
         <Badge
           className="text-lg px-4 py-1.5 mb-8"
-          style={{
-            backgroundColor: 'var(--color-primary-light)',
-            color: 'var(--color-primary)',
-            border: 'none',
-          }}
+          style={
+            themeConfig.isVB
+              ? {
+                  backgroundColor: '#EAF4EF',
+                  color: '#1A6B4A',
+                  border: 'none',
+                }
+              : {
+                  backgroundColor: 'var(--color-primary-light)',
+                  color: 'var(--color-primary)',
+                  border: 'none',
+                }
+          }
         >
           +{xpEarned} XP
         </Badge>
