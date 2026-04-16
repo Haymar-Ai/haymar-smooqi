@@ -29,7 +29,7 @@ export const authOptions: NextAuthOptions = {
         }).safeParse(credentials)
         if (!parsed.success) return null
 
-        const user = await prisma.user.findUnique({ where: { email: parsed.data.email } })
+        const user = await prisma.user.findUnique({ where: { email: parsed.data.email.toLowerCase() } })
         if (!user || !user.passwordHash) return null
 
         const valid = await bcrypt.compare(parsed.data.password, user.passwordHash)
@@ -64,12 +64,12 @@ export const authOptions: NextAuthOptions = {
     async signIn({ user, account }) {
       if (account?.provider === 'google' && user.email) {
         try {
-          const existing = await prisma.user.findUnique({ where: { email: user.email } })
+          const existing = await prisma.user.findUnique({ where: { email: user.email.toLowerCase() } })
           if (!existing) {
             // New user — create with referral code
             const newUser = await prisma.user.create({
               data: {
-                email: user.email,
+                email: user.email.toLowerCase(),
                 name: user.name,
                 image: user.image,
                 provider: 'google',

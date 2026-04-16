@@ -2,6 +2,7 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { getLevelFromXp } from '@/lib/xp'
+import { checkAndUnlockAchievements } from '@/lib/achievements'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
 
@@ -49,12 +50,15 @@ export async function POST(req: Request) {
       }),
     ])
 
+    const newAchievements = await checkAndUnlockAchievements(userId)
+
     return NextResponse.json({
       success: true,
       xpEarned: amount,
       newXp,
       newLevel,
       levelUp,
+      newAchievements,
     })
   } catch {
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })

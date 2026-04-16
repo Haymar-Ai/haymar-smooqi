@@ -1,6 +1,7 @@
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
+import { checkAndUnlockAchievements } from '@/lib/achievements'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
 
@@ -62,7 +63,8 @@ export async function POST(req: Request) {
         data: { totalLessonsDone: { increment: 1 } },
       })
 
-      return NextResponse.json({ success: true, progress })
+      const newAchievements = await checkAndUnlockAchievements(userId)
+      return NextResponse.json({ success: true, progress, newAchievements })
     }
 
     if (type === 'quiz_result' && lessonId) {
@@ -83,7 +85,8 @@ export async function POST(req: Request) {
         },
       })
 
-      return NextResponse.json({ success: true, progress })
+      const newAchievements = await checkAndUnlockAchievements(userId)
+      return NextResponse.json({ success: true, progress, newAchievements })
     }
 
     if (type === 'course_complete') {

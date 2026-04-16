@@ -1,6 +1,7 @@
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
+import { checkAndUnlockAchievements } from '@/lib/achievements'
 import { NextResponse } from 'next/server'
 import { toZonedTime, format } from 'date-fns-tz'
 
@@ -64,11 +65,14 @@ export async function POST() {
       },
     })
 
+    const newAchievements = await checkAndUnlockAchievements(session.user.id)
+
     return NextResponse.json({
       success: true,
       currentStreak: newStreak,
       bestStreak: newBest,
       streakIncremented: true,
+      newAchievements,
     })
   } catch {
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
