@@ -7,8 +7,8 @@
  * Voicebox profile_ids can be discovered via its GET /profiles endpoint.
  */
 export const VOICE_MAP: Record<string, string> = {
-  voice_1: 'b9de9585-3f4b-4e1e-be48-0145d8ff1398', // Heart
-  voice_2: '97e3c554-b648-4f6a-aef7-7690a3dd4bf2', // George
+  voice_1: '03b5f30b-3e7c-49f2-9a0c-eaeafaca777a', // Heart (Railway)
+  voice_2: '7f68b0b4-960f-4e5c-9162-29644a947fae', // George (Railway)
 }
 
 /**
