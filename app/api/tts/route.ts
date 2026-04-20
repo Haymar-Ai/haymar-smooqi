@@ -45,25 +45,41 @@ export async function POST(req: Request) {
   const voiceboxUrl = process.env.VOICEBOX_URL || 'http://localhost:17493'
 
   try {
-    const response = await fetch(`${voiceboxUrl}/generate`, {
+    // Step 1: Submit generation job
+    const genResponse = await fetch(`${voiceboxUrl}/generate`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text, profile_id: profileId, language }),
+      headers: { 'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true' },
+      body: JSON.stringify({ text, profile_id: profileId, language, engine: 'kokoro' }),
     })
 
-    if (!response.ok) {
-      throw new Error(`Voicebox error: ${response.status}`)
+    if (!genResponse.ok) {
+      throw new Error(`Voicebox generate error: ${genResponse.status}`)
     }
 
-    const contentType = response.headers.get('content-type') || 'audio/mpeg'
-    const audioBuffer = await response.arrayBuffer()
+    const job = await genResponse.json()
+    const jobId = job?.id
+    if (!jobId) throw new Error('No job ID returned from Voicebox')
 
-    return new Response(audioBuffer, {
-      headers: {
-        'Content-Type': contentType,
-        'Cache-Control': 'no-cache',
-      },
-    })
+    // Step 2: Poll /audio/{id} until ready (max 30s)
+    const maxAttempts = 30
+    for (let i = 0; i < maxAttempts; i++) {
+      await new Promise(r => setTimeout(r, 1000))
+      const audioResponse = await fetch(`${voiceboxUrl}/audio/${jobId}`, {
+        headers: { 'ngrok-skip-browser-warning': 'true' },
+      })
+      if (audioResponse.ok) {
+        const contentType = audioResponse.headers.get('content-type') || 'audio/wav'
+        const audioBuffer = await audioResponse.arrayBuffer()
+        return new Response(audioBuffer, {
+          headers: {
+            'Content-Type': contentType,
+            'Cache-Control': 'no-cache',
+          },
+        })
+      }
+      // 404 = still generating, keep polling
+    }
+    throw new Error('Voicebox generation timed out')
   } catch (error) {
     console.error('Voicebox TTS failed:', error)
     return NextResponse.json(
