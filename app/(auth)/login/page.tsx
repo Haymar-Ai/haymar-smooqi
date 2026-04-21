@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
+import { Suspense, useState } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { signIn } from "next-auth/react"
 import { useForm } from "react-hook-form"
@@ -20,10 +20,19 @@ const loginSchema = z.object({
 
 type LoginValues = z.infer<typeof loginSchema>
 
-export default function LoginPage() {
+function LoginForm() {
   const router = useRouter()
+  const searchParams = useSearchParams()
+  const refCode = searchParams.get("ref") ?? undefined
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
+
+  function handleGoogleSignIn() {
+    if (refCode) {
+      document.cookie = `smooqi_ref=${encodeURIComponent(refCode)}; path=/; max-age=600`
+    }
+    signIn("google", { callbackUrl: "/home" })
+  }
 
   const {
     register,
@@ -132,7 +141,7 @@ export default function LoginPage() {
           type="button"
           variant="outline"
           className="w-full rounded-[var(--button-radius)]"
-          onClick={() => signIn("google", { callbackUrl: "/home" })}
+          onClick={handleGoogleSignIn}
         >
           <svg className="mr-2 size-4" viewBox="0 0 24 24">
             <path
@@ -163,5 +172,13 @@ export default function LoginPage() {
         </p>
       </CardContent>
     </Card>
+  )
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center p-8">Loading...</div>}>
+      <LoginForm />
+    </Suspense>
   )
 }

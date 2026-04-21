@@ -1,6 +1,7 @@
 import { prisma } from '@/lib/db'
 import { generateReferralCode } from '@/lib/utils'
 import { signupRateLimit } from '@/lib/rateLimit'
+import { grantReferralReward } from '@/lib/referrals'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
@@ -38,23 +39,13 @@ export async function POST(req: Request) {
 
     let referredById: string | undefined
     if (ref) {
-      const referrer = await prisma.user.findFirst({ where: { referralCode: ref } })
-      if (referrer) {
-        referredById = referrer.id
-        const newTrialEnd = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
-        // Only grant if referrer is not already on active paid subscription
-        if (referrer.subscriptionStatus !== 'active') {
-          await prisma.user.update({
-            where: { id: referrer.id },
-            data: {
-              subscriptionStatus: 'trialing',
-              // Never shorten an existing trial — take the later date
-              trialEndsAt: referrer.trialEndsAt && referrer.trialEndsAt > newTrialEnd
-                ? referrer.trialEndsAt
-                : newTrialEnd,
-            },
-          })
+      try {
+        const referrer = await prisma.user.findFirst({ where: { referralCode: ref } })
+        if (referrer) {
+          referredById = referrer.id
         }
+      } catch (err) {
+        console.error('[signup] referrer lookup failed:', err)
       }
     }
 
@@ -71,6 +62,10 @@ export async function POST(req: Request) {
         } : {}),
       },
     })
+
+    if (referredById) {
+      await grantReferralReward(referredById)
+    }
 
     return NextResponse.json({ id: user.id, email: user.email })
   } catch {

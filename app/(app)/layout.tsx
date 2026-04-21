@@ -24,7 +24,7 @@ export default async function AppLayout({
   const userStats = userId
     ? await prisma.user.findUnique({
         where: { id: userId },
-        select: { level: true, xp: true, currentStreak: true },
+        select: { level: true, xp: true, currentStreak: true, referralRewardCount: true },
       })
     : null
 
@@ -51,6 +51,18 @@ export default async function AppLayout({
       id: 'level',
       icon: '\u26A1',
       text: `You reached Level ${level}!`,
+      timeAgo: 'Recent',
+    })
+  }
+
+  const referralRewardCount = userStats?.referralRewardCount ?? 0
+  if (referralRewardCount > 0) {
+    notifications.push({
+      id: 'referral',
+      icon: '\u{1F91D}',
+      text: referralRewardCount === 1
+        ? 'A friend joined using your referral link! +500 XP'
+        : `${referralRewardCount} friends joined using your link! +${referralRewardCount * 500} XP`,
       timeAgo: 'Recent',
     })
   }

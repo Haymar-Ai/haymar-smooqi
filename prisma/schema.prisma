@@ -24,6 +24,7 @@ model User {
 
   referralCode        String    @unique @default(cuid())
   referredById        String?
+  referralRewardCount Int       @default(0)
   referredBy          User?     @relation("referrals", fields: [referredById], references: [id])
   referrals           User[]    @relation("referrals")
 

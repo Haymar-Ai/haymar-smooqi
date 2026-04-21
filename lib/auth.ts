@@ -6,6 +6,8 @@ import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { generateReferralCode } from './utils'
 import { loginRateLimit } from './rateLimit'
+import { grantReferralReward } from './referrals'
+import { cookies } from 'next/headers'
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -72,6 +74,19 @@ export const authOptions: NextAuthOptions = {
         try {
           const existing = await prisma.user.findUnique({ where: { email: user.email.toLowerCase() } })
           if (!existing) {
+            // Resolve referral code from cookie (set by login/signup pages before OAuth)
+            let referredById: string | undefined
+            try {
+              const cookieStore = await cookies()
+              const ref = cookieStore.get('smooqi_ref')?.value
+              if (ref) {
+                const referrer = await prisma.user.findFirst({ where: { referralCode: ref } })
+                if (referrer) referredById = referrer.id
+              }
+            } catch (err) {
+              console.error('[signIn] referral cookie read failed:', err)
+            }
+
             // New user — create with referral code
             const newUser = await prisma.user.create({
               data: {
@@ -80,6 +95,11 @@ export const authOptions: NextAuthOptions = {
                 image: user.image,
                 provider: 'google',
                 referralCode: generateReferralCode(),
+                referredById,
+                ...(referredById ? {
+                  subscriptionStatus: 'trialing',
+                  trialEndsAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+                } : {}),
               },
             })
             // Create the Account link for NextAuth
@@ -97,6 +117,14 @@ export const authOptions: NextAuthOptions = {
                 id_token: account.id_token,
               },
             })
+
+            if (referredById) {
+              await grantReferralReward(referredById)
+              try {
+                const cookieStore = await cookies()
+                cookieStore.set('smooqi_ref', '', { path: '/', maxAge: 0 })
+              } catch {}
+            }
           } else {
             // Existing user — check if Google Account link exists
             const existingAccount = await prisma.account.findUnique({

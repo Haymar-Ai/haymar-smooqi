@@ -345,6 +345,9 @@ async function seedAchievements() {
     { sortOrder: 27, slug: 'challenge-streak', name: 'Challenge Streak', description: 'Answer daily challenge 7 days in a row', category: 'explorer', tier: 'silver', icon: '\u{1F517}', requirement: { type: 'daily_challenge_streak', value: 7 } },
     { sortOrder: 28, slug: 'referral-star', name: 'Referral Star', description: 'Invite 1 friend', category: 'explorer', tier: 'bronze', icon: '\u{1F48C}', requirement: { type: 'referrals', value: 1 } },
     { sortOrder: 29, slug: 'community-builder', name: 'Community Builder', description: 'Invite 5 friends', category: 'explorer', tier: 'silver', icon: '\u{1F91D}', requirement: { type: 'referrals', value: 5 } },
+    { sortOrder: 30, slug: 'first-referral', name: 'Connector', description: 'Invite your first friend', category: 'social', tier: 'bronze', icon: '\u{1F91D}', requirement: { type: 'referrals', value: 1 } },
+    { sortOrder: 31, slug: 'super-referrer', name: 'Advocate', description: 'Invite 5 friends', category: 'social', tier: 'silver', icon: '\u{1F4E3}', requirement: { type: 'referrals', value: 5 } },
+    { sortOrder: 32, slug: 'ambassador', name: 'Ambassador', description: 'Invite 10 friends', category: 'social', tier: 'gold', icon: '\u{1F31F}', requirement: { type: 'referrals', value: 10 } },
   ];
 
   for (const achievement of achievements) {

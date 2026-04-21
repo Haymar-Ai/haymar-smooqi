@@ -176,7 +176,12 @@ function SignupForm() {
           type="button"
           variant="outline"
           className="w-full rounded-[var(--button-radius)]"
-          onClick={() => signIn("google")}
+          onClick={() => {
+            if (refCode) {
+              document.cookie = `smooqi_ref=${encodeURIComponent(refCode)}; path=/; max-age=600`
+            }
+            signIn("google")
+          }}
         >
           <svg className="mr-2 size-4" viewBox="0 0 24 24">
             <path

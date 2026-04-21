@@ -23,10 +23,7 @@ export default async function InvitePage() {
   if (!user) redirect('/login')
 
   const rewardedCount = await prisma.user.count({
-    where: {
-      referredById: session.user.id,
-      subscriptionStatus: { not: 'free' },
-    },
+    where: { referredById: session.user.id },
   })
 
   const referralCode = user.referralCode
@@ -45,7 +42,7 @@ export default async function InvitePage() {
         {[
           { step: '1', icon: '\u{1F4E8}', title: 'Share', desc: 'Send your referral link to friends' },
           { step: '2', icon: '\u{1F44B}', title: 'Sign Up', desc: 'They create a free account' },
-          { step: '3', icon: '\u{1F381}', title: 'Both Get Premium', desc: 'You both unlock Premium access' },
+          { step: '3', icon: '\u{1F381}', title: 'You Get 500 XP', desc: 'You earn 500 XP, they get a free trial' },
         ].map((s) => (
           <Card key={s.step} className="text-center">
             <CardContent className="p-5">
@@ -73,7 +70,7 @@ export default async function InvitePage() {
         <Card>
           <CardContent className="p-5 text-center">
             <p className="text-3xl font-bold text-green-600">{rewardedCount}</p>
-            <p className="mt-1 text-sm text-gray-500">Rewards Earned</p>
+            <p className="mt-1 text-sm text-gray-500">Links Used</p>
           </CardContent>
         </Card>
       </div>

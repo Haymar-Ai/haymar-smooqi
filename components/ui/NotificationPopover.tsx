@@ -11,6 +11,7 @@ interface NotificationPopoverProps {
 export function NotificationPopover({ notifications }: NotificationPopoverProps) {
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
+  const hasReferral = notifications.some((n) => n.id === 'referral')
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -21,6 +22,12 @@ export function NotificationPopover({ notifications }: NotificationPopoverProps)
     document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
+
+  useEffect(() => {
+    if (open && hasReferral) {
+      fetch('/api/user/notifications/clear-referral', { method: 'POST' }).catch(() => {})
+    }
+  }, [open, hasReferral])
 
   return (
     <div ref={ref} className="relative">
