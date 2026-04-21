@@ -39,7 +39,7 @@ export default async function ProfilePage() {
   if (!session?.user?.id) redirect('/login')
   const userId = session.user.id
 
-  const [user, recentAchievements, topicSelections, allTopics] = await Promise.all([
+  const [user, recentAchievements, topicSelections, allTopics, coursesCompleted] = await Promise.all([
     prisma.user.findUnique({
       where: { id: userId },
       select: {
@@ -73,6 +73,9 @@ export default async function ProfilePage() {
       orderBy: { sortOrder: 'asc' },
       select: { id: true, slug: true, name: true, icon: true },
     }),
+    prisma.userProgress.count({
+      where: { userId, courseCompleted: true, lessonId: null },
+    }),
   ])
 
   if (!user) redirect('/login')
@@ -88,9 +91,9 @@ export default async function ProfilePage() {
 
   const statItems = [
     { label: 'Lessons', value: user.totalLessonsDone },
+    { label: 'Courses', value: coursesCompleted },
     { label: 'Minutes', value: user.totalMinutes },
     { label: 'Best Streak', value: user.bestStreak },
-    { label: 'Topics', value: topicSelections.length },
   ]
 
   return (

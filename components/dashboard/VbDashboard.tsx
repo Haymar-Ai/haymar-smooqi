@@ -69,6 +69,7 @@ interface VbDashboardProps {
   xpProgress: number
   xpNeeded: number
   xpInLevel: number
+  coursesCompleted: number
 }
 
 const DIVIDER_COLOR = '#E8E4DC'
@@ -91,6 +92,7 @@ export function VbDashboard({
   recommendedCourses,
   savedIds,
   weeklyData,
+  coursesCompleted,
 }: VbDashboardProps) {
   const now = new Date()
   const weekday = formatPacificDate(now, { weekday: 'long' })
@@ -121,6 +123,10 @@ export function VbDashboard({
         <div className="mt-4 flex items-center gap-2">
           <VbStreakStrip streak={user.currentStreak} weeklyData={weeklyData} />
         </div>
+
+        <p className="mt-3 text-xs" style={{ color: '#A8A29E' }}>
+          🏆 {coursesCompleted} {coursesCompleted === 1 ? 'course' : 'courses'} completed
+        </p>
       </div>
 
       {/* ── Section 2: Continue Reading (hero) ───────────────── */}

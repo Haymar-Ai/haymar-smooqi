@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -32,14 +32,31 @@ export function QuizQuestion({
   const [selected, setSelected] = useState<string | null>(null)
   const [showFeedback, setShowFeedback] = useState(false)
 
+  const shuffled = useMemo(() => {
+    const entries = [
+      { key: 'A', text: question.optionA },
+      { key: 'B', text: question.optionB },
+      { key: 'C', text: question.optionC },
+      { key: 'D', text: question.optionD },
+    ]
+    for (let i = entries.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[entries[i], entries[j]] = [entries[j], entries[i]]
+    }
+    const correctText = question[`option${question.correctAnswer}` as keyof typeof question]
+    const newCorrectKey = OPTION_KEYS[entries.findIndex((e) => e.text === correctText)]
+    return { entries, correctKey: newCorrectKey }
+  }, [question])
+
   const options: Record<string, string> = {
-    A: question.optionA,
-    B: question.optionB,
-    C: question.optionC,
-    D: question.optionD,
+    A: shuffled.entries[0].text,
+    B: shuffled.entries[1].text,
+    C: shuffled.entries[2].text,
+    D: shuffled.entries[3].text,
   }
 
-  const isCorrect = selected === question.correctAnswer
+  const correctKey = shuffled.correctKey
+  const isCorrect = selected === correctKey
 
   const handleSelect = (key: string) => {
     if (showFeedback) return
@@ -77,7 +94,7 @@ export function QuizQuestion({
             let labelColor = '#A8A29E'
 
             if (showFeedback) {
-              if (key === question.correctAnswer) {
+              if (key === correctKey) {
                 bg = '#EAF4EF'
                 border = '#1A6B4A'
                 textColor = '#1A6B4A'
@@ -103,7 +120,7 @@ export function QuizQuestion({
                 key={key}
                 onClick={() => handleSelect(key)}
                 disabled={showFeedback}
-                className="vb-btn-press w-full text-left flex items-center gap-4 px-4 py-3.5 rounded-lg border transition-all"
+                className="vb-btn-press w-full text-left flex items-center gap-4 px-4 py-4 rounded-lg border transition-all"
                 style={{ background: bg, borderColor: border }}
               >
                 <span
@@ -158,7 +175,7 @@ export function QuizQuestion({
       return 'bg-white border border-gray-200 hover:border-gray-300 hover:bg-gray-50 cursor-pointer'
     }
 
-    if (key === question.correctAnswer) {
+    if (key === correctKey) {
       return 'bg-[#DCFCE7] border-2 border-green-400'
     }
 
@@ -186,7 +203,7 @@ export function QuizQuestion({
             onClick={() => handleSelect(key)}
             disabled={showFeedback}
             className={cn(
-              'w-full text-left p-4 rounded-xl transition-all flex items-center gap-3',
+              'w-full text-left px-4 py-4 rounded-xl transition-all flex items-center gap-3',
               getOptionStyles(key)
             )}
           >
@@ -194,10 +211,10 @@ export function QuizQuestion({
               {key}
             </span>
             <span className="flex-1 text-gray-800">{options[key]}</span>
-            {showFeedback && key === question.correctAnswer && (
+            {showFeedback && key === correctKey && (
               <span className="text-lg">&#x2705;</span>
             )}
-            {showFeedback && key === selected && !isCorrect && key !== question.correctAnswer && (
+            {showFeedback && key === selected && !isCorrect && key !== correctKey && (
               <span className="text-lg">&#x274C;</span>
             )}
           </button>

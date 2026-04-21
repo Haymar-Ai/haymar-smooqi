@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils'
 import { SlideView } from './SlideView'
 import { AudioPlayer } from './AudioPlayer'
 import { LessonComplete } from './LessonComplete'
+import { CourseComplete } from './CourseComplete'
 import { QuizQuestion } from './QuizQuestion'
 import { QuizSummary } from './QuizSummary'
 
@@ -62,6 +63,7 @@ type LessonState =
   | { phase: 'complete' }
   | { phase: 'quiz'; currentQuestion: number; answers: Record<number, string>; correctCount: number }
   | { phase: 'quiz-summary'; score: number }
+  | { phase: 'courseComplete' }
 
 // ─── Component ───────────────────────────────────────────────────────
 
@@ -81,6 +83,16 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
   const totalSlides = slides.length
   const courseSlug = lesson.course.slug
   void lesson.course.topic.slug // available for future use
+
+  const sortedCourseLessons = [...lesson.course.lessons].sort((a, b) => a.sortOrder - b.sortOrder)
+  const isLastLessonInCourse =
+    sortedCourseLessons.length > 0 &&
+    sortedCourseLessons[sortedCourseLessons.length - 1].id === lesson.id
+
+  const currentSlideIdx = state.phase === 'slides' ? state.currentSlide : -1
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior })
+  }, [state.phase, currentSlideIdx])
 
   // ─── API calls on phase transitions ──────────────────────────────
 
@@ -175,11 +187,55 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
               window.dispatchEvent(new CustomEvent('achievement-unlock', { detail: achievement }))
             }, i * 1200)
           })
+
+          if (isLastLessonInCourse) {
+            Promise.all([
+              fetch('/api/progress', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  type: 'course_complete',
+                  lessonId: lesson.id,
+                  courseId: lesson.course.id,
+                }),
+              }).then(r => r.json()).catch(() => null),
+              fetch('/api/xp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  amount: 50,
+                  source: 'course_complete',
+                  sourceId: lesson.course.id,
+                }),
+              }).then(r => r.json()).catch(() => null),
+            ])
+              .then(([ccProgressRes, ccXpRes]) => {
+                const ccNew = [
+                  ...(ccProgressRes?.newAchievements ?? []),
+                  ...(ccXpRes?.newAchievements ?? []),
+                ]
+                const ccSeen = new Set<string>()
+                const ccUnique = ccNew.filter((a: { id: string }) => {
+                  if (ccSeen.has(a.id)) return false
+                  ccSeen.add(a.id)
+                  return true
+                })
+                ccUnique.forEach((achievement: { id: string }, i: number) => {
+                  setTimeout(() => {
+                    window.dispatchEvent(new CustomEvent('achievement-unlock', { detail: achievement }))
+                  }, i * 1200)
+                })
+                setState({ phase: 'courseComplete' })
+              })
+              .catch(() => {
+                setState({ phase: 'courseComplete' })
+              })
+          }
         })
         .catch(console.error)
       }
     }
-  }, [state, lesson.id, lesson.course.id])
+  }, [state, lesson.id, lesson.course.id, isLastLessonInCourse])
 
   // ─── Navigation helpers ──────────────────────────────────────────
 
@@ -291,70 +347,22 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
   // ─── Slide animation variants ────────────────────────────────────
 
   const slideVariants = {
-    enter: (d: number) => ({ x: d > 0 ? 60 : -60, opacity: 0 }),
+    enter: (d: number) => ({ x: d > 0 ? '100%' : '-100%', opacity: 0 }),
     center: { x: 0, opacity: 1 },
-    exit: (d: number) => ({ x: d > 0 ? -60 : 60, opacity: 0 }),
+    exit: (d: number) => ({ x: d > 0 ? '-30%' : '30%', opacity: 0 }),
   }
 
   // ─── Render ──────────────────────────────────────────────────────
 
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Content */}
-      <main
-        className="flex-1 px-4 py-6"
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
-      >
-        {/* ── Slides phase ── */}
-        {state.phase === 'slides' && (
-          <div className="relative">
-            <AnimatePresence mode="popLayout" custom={direction} initial={false}>
-              <motion.div
-                key={state.currentSlide}
-                custom={direction}
-                variants={slideVariants}
-                initial="enter"
-                animate="center"
-                exit="exit"
-                transition={{
-                  x: { type: 'spring', stiffness: 260, damping: 30, mass: 0.8 },
-                  opacity: { duration: 0.2, ease: 'easeOut' },
-                }}
-              >
-                {state.mode === 'audio' ? (
-                  <AudioPlayer
-                    text={slides[state.currentSlide].content}
-                    slide={slides[state.currentSlide]}
-                    onSlideComplete={nextSlide}
-                    isFirst={state.currentSlide === 0}
-                    isLast={state.currentSlide === slides.length - 1}
-                    topicIcon={lesson.course.topic.icon}
-                    lessonTitle={lesson.title}
-                    slideIndex={state.currentSlide}
-                    totalSlides={totalSlides}
-                    onBack={handleBackToCourse}
-                  />
-                ) : (
-                  <SlideView
-                    slide={slides[state.currentSlide]}
-                    mode="read"
-                    currentWordIndex={-1}
-                    isFirst={state.currentSlide === 0}
-                    isLast={state.currentSlide === slides.length - 1}
-                    topicIcon={lesson.course.topic.icon}
-                    lessonTitle={lesson.title}
-                    slideIndex={state.currentSlide}
-                    totalSlides={totalSlides}
-                    onBack={handleBackToCourse}
-                  />
-                )}
-              </motion.div>
-            </AnimatePresence>
-
-            {/* Progress bar */}
-            <div className="max-w-[680px] mx-auto mt-6">
-              <div className="h-1 bg-gray-100 rounded-full overflow-hidden">
+    <div className="min-h-[100dvh] flex flex-col">
+      {/* ── Slides phase ── fixed top progress + title, scrollable middle, fixed bottom nav */}
+      {state.phase === 'slides' ? (
+        <>
+          {/* Fixed top: progress bar + lesson title */}
+          <div className="sticky top-0 z-10 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+            <div className="max-w-[680px] mx-auto px-4 pt-3 pb-2">
+              <div className="h-1 bg-gray-100 rounded-full overflow-hidden mb-2">
                 <motion.div
                   className="h-full rounded-full"
                   style={{ backgroundColor: 'var(--color-primary)' }}
@@ -365,12 +373,68 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
                   transition={{ duration: 0.3 }}
                 />
               </div>
+              <p className="text-xs font-medium text-gray-500 truncate">
+                {lesson.title}
+              </p>
             </div>
+          </div>
 
-            {/* Toggle + Navigation */}
-            <div className="max-w-[680px] mx-auto mt-6">
-              {/* Toggle — always visible, centered */}
-              <div className="flex justify-center mb-4">
+          {/* Scrollable middle: slide content */}
+          <main
+            className="flex-1 px-4 py-4"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
+            <div className="relative overflow-hidden">
+              <AnimatePresence mode="wait" custom={direction} initial={false}>
+                <motion.div
+                  key={state.currentSlide}
+                  custom={direction}
+                  variants={slideVariants}
+                  initial="enter"
+                  animate="center"
+                  exit="exit"
+                  transition={{
+                    x: { type: 'spring', stiffness: 220, damping: 28, mass: 0.6 },
+                    opacity: { duration: 0.15, ease: 'easeOut' },
+                  }}
+                >
+                  {state.mode === 'audio' ? (
+                    <AudioPlayer
+                      text={slides[state.currentSlide].content}
+                      slide={slides[state.currentSlide]}
+                      onSlideComplete={nextSlide}
+                      isFirst={state.currentSlide === 0}
+                      isLast={state.currentSlide === slides.length - 1}
+                      topicIcon={lesson.course.topic.icon}
+                      lessonTitle={lesson.title}
+                      slideIndex={state.currentSlide}
+                      totalSlides={totalSlides}
+                      onBack={handleBackToCourse}
+                    />
+                  ) : (
+                    <SlideView
+                      slide={slides[state.currentSlide]}
+                      mode="read"
+                      currentWordIndex={-1}
+                      isFirst={state.currentSlide === 0}
+                      isLast={state.currentSlide === slides.length - 1}
+                      topicIcon={lesson.course.topic.icon}
+                      lessonTitle={lesson.title}
+                      slideIndex={state.currentSlide}
+                      totalSlides={totalSlides}
+                      onBack={handleBackToCourse}
+                    />
+                  )}
+                </motion.div>
+              </AnimatePresence>
+            </div>
+          </main>
+
+          {/* Fixed bottom: toggle + prev/next */}
+          <div className="sticky bottom-0 z-10 bg-white/90 backdrop-blur-sm border-t border-gray-100">
+            <div className="max-w-[680px] mx-auto px-4 py-3">
+              <div className="flex justify-center mb-3">
                 <div className="flex bg-gray-100 rounded-full p-0.5">
                   <button
                     onClick={() => toggleMode('read')}
@@ -393,19 +457,19 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
                 </div>
               </div>
 
-              {/* Previous / Next — only in read mode */}
               {state.mode === 'read' && (
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center gap-3">
                   <Button
                     variant="ghost"
                     onClick={prevSlide}
                     disabled={state.currentSlide === 0}
-                    className="text-gray-500"
+                    className="text-gray-500 h-11"
                   >
                     &larr; Previous
                   </Button>
                   <Button
                     onClick={nextSlide}
+                    className="h-11"
                     style={{
                       backgroundColor: 'var(--color-primary)',
                       color: 'var(--color-primary-foreground)',
@@ -418,36 +482,44 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
               )}
             </div>
           </div>
-        )}
+        </>
+      ) : (
+        <main className="flex-1 px-4 py-6">
+          {state.phase === 'complete' && (
+            <LessonComplete lessonTitle={lesson.title} onTakeQuiz={handleTakeQuiz} />
+          )}
 
-        {/* ── Complete phase ── */}
-        {state.phase === 'complete' && (
-          <LessonComplete lessonTitle={lesson.title} onTakeQuiz={handleTakeQuiz} />
-        )}
+          {state.phase === 'quiz' && (
+            <QuizQuestion
+              key={state.currentQuestion}
+              question={lesson.quizQuestions[state.currentQuestion]}
+              questionNumber={state.currentQuestion + 1}
+              totalQuestions={lesson.quizQuestions.length}
+              onAnswer={handleQuizAnswer}
+            />
+          )}
 
-        {/* ── Quiz phase ── */}
-        {state.phase === 'quiz' && (
-          <QuizQuestion
-            key={state.currentQuestion}
-            question={lesson.quizQuestions[state.currentQuestion]}
-            questionNumber={state.currentQuestion + 1}
-            totalQuestions={lesson.quizQuestions.length}
-            onAnswer={handleQuizAnswer}
-          />
-        )}
+          {state.phase === 'quiz-summary' && (
+            <QuizSummary
+              score={state.score}
+              totalQuestions={lesson.quizQuestions.length}
+              onNextLesson={handleNextLesson}
+              onBackToCourse={handleBackToCourse}
+              onTryAgain={handleTryAgain}
+              hasNextLesson={!!nextLesson}
+            />
+          )}
 
-        {/* ── Quiz summary phase ── */}
-        {state.phase === 'quiz-summary' && (
-          <QuizSummary
-            score={state.score}
-            totalQuestions={lesson.quizQuestions.length}
-            onNextLesson={handleNextLesson}
-            onBackToCourse={handleBackToCourse}
-            onTryAgain={handleTryAgain}
-            hasNextLesson={!!nextLesson}
-          />
-        )}
-      </main>
+          {state.phase === 'courseComplete' && (
+            <CourseComplete
+              courseName={lesson.course.title}
+              lessonCount={sortedCourseLessons.length}
+              xpEarned={50}
+              onContinue={handleBackToCourse}
+            />
+          )}
+        </main>
+      )}
     </div>
   )
 }

@@ -106,6 +106,7 @@ export default async function HomePage() {
       select: { courseId: true },
     })
   ).map((p) => p.courseId)
+  const coursesCompleted = completedCourseIds.length
 
   const recommendedCourses = await prisma.course.findMany({
     where: {
@@ -231,6 +232,7 @@ export default async function HomePage() {
         xpProgress={xpProgress}
         xpNeeded={xpNeeded}
         xpInLevel={xpInLevel}
+        coursesCompleted={coursesCompleted}
       />
     )
   }
@@ -244,6 +246,9 @@ export default async function HomePage() {
         </h1>
         <p className="text-sm text-gray-500">
           Level {user.level} &middot; {xpProgress}/{xpNeeded} XP to next level
+        </p>
+        <p className="text-xs text-gray-500 mt-1">
+          🏆 {coursesCompleted} {coursesCompleted === 1 ? 'course' : 'courses'} completed
         </p>
       </div>
 
