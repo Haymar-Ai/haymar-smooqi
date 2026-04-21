@@ -47,6 +47,22 @@ function getOption(q: QuizQuestion, letter: 'A' | 'B' | 'C' | 'D'): string {
   return (q[key] ?? q[typoKey] ?? '') as string
 }
 
+// Content dir slugs that differ from DB slugs
+const SLUG_MAP: Record<string, string> = {
+  'credit-and-debt-mastery': 'credit-debt-mastery',
+  'digital-art-and-design': 'digital-art-design',
+  'ecology-and-evolution': 'ecology-evolution',
+  'energy-and-waves': 'energy-waves',
+  'ethics-and-morality': 'ethics-morality',
+  'genetics-and-dna': 'genetics-dna',
+  'habit-and-behavior-change': 'habit-behavior-change',
+  'logic-and-critical-thinking': 'logic-critical-thinking',
+  'obedience-and-socialization': 'obedience-socialization',
+  'personal-brand-through-style': 'personal-brand-style',
+  'poetry-and-language': 'poetry-language',
+  'storytelling-and-narrative': 'storytelling-narrative',
+}
+
 async function main() {
   const contentDir = path.join(process.cwd(), 'content', 'courses')
   const courseDirs = fs.readdirSync(contentDir).filter(d =>
@@ -63,7 +79,8 @@ async function main() {
     if (!fs.existsSync(filePath)) continue
 
     const raw: CourseFile = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
-    const courseSlug = raw.courseSlug ?? dirName
+    const rawSlug = raw.courseSlug ?? dirName
+    const courseSlug = SLUG_MAP[rawSlug] ?? rawSlug
 
     const course = await prisma.course.findUnique({ where: { slug: courseSlug } })
     if (!course) {
