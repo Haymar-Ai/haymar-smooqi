@@ -1,0 +1,365 @@
+{
+  "courseSlug": "puppy-basics",
+  "lessons": [
+    {
+      "slug": "understanding-your-puppy",
+      "title": "How Puppies Think and Learn",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Bringing a puppy home is one of life's genuinely joyful experiences — and one of its most common sources of frustration. The gap between the puppy you imagined and the one who chews your shoes, pees on your rug, and refuses to sleep through the night can be jarring.\n\nThe gap isn't the puppy's fault. Puppies are not small, misbehaving dogs — they are developmentally immature animals with specific needs, specific learning windows, and behavior driven by instinct rather than malice. Understanding how they think transforms frustration into effective action.\n\nThis course gives you the science-based foundation for raising a puppy who becomes a confident, well-adjusted adult dog."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Critical Development Periods",
+          "content": "Puppy development has specific windows when experiences have outsized effects on adult behavior:\n\n**Neonatal period (0-2 weeks):** Puppies are born unable to regulate temperature or eliminate without help. Sensory development begins.\n\n**Socialization period (3-12 weeks):** The single most important window. Puppies are maximally open to learning that new things are safe. What they are exposed to during this period (people, sounds, surfaces, other animals) they typically accept as normal throughout life. What they miss may become sources of fear.\n\n**3-12 weeks:** Key socialization target. Aim for: 100 different people, dogs, sounds, surfaces, and experiences by 12 weeks.\n\n**Fear periods (8-11 weeks and 6-14 months):** Normal developmental phases where the puppy is more likely to form lasting fears from single negative experiences. During these periods, protect from fright rather than flooding with exposure.\n\n**Juvenile period (3-6 months):** Increasing independence, testing limits. Adolescence begins.\n\nThese windows close. Missing the socialization period is the most common cause of fear and aggression problems in adult dogs."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Dr. John Paul Scott and John Fuller's landmark long-term study at the Jackson Laboratory (1953-1965) tracked dog development over decades and established the scientific foundation for puppy socialization protocols still used today.\n\nThey found that puppies isolated from human contact until 14 weeks showed persistent fear of humans as adults — fear that was largely irreversible even with extensive subsequent handling. Puppies with regular human contact from 3-14 weeks showed dramatically better human-directed social behavior throughout life.\n\nMore surprising: puppies that had difficult or painful experiences during the primary socialization period (3-12 weeks) in an otherwise supportive context were less affected than puppies who had isolated, low-stimulation environments. Resilience — the capacity to recover from difficult experiences — is itself developed through varied, manageable experiences during this window."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Operant Conditioning: How Dogs Actually Learn",
+          "content": "Dogs learn through operant conditioning — the consequences of behavior determine whether that behavior is repeated:\n\n**Positive reinforcement (R+):** Adding something the dog wants after a behavior increases the behavior. Dog sits → receives treat → sits more often. The most powerful and most humane training tool.\n\n**Negative reinforcement (R-):** Removing something the dog dislikes after a behavior increases the behavior. (Note: 'negative' means subtracting, not 'bad.') Pulling on leash → releasing when dog moves forward. Used correctly; overused problematically.\n\n**Positive punishment (P+):** Adding something unpleasant after a behavior decreases it. Shock collar, leash correction. Effective but with significant side effects: fear, aggression, damage to the human-dog relationship.\n\n**Negative punishment (P-):** Removing something the dog wants to decrease behavior. Dog jumps → human turns away (removes attention) → dog jumps less.\n\nModern training uses primarily R+ and P-. Research consistently shows these methods are more effective, faster, and have fewer side effects than punishment-based approaches."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Four Pillars of Puppy Management",
+          "content": "**Management** is the first line of defense in puppy training — preventing problems rather than correcting them after they occur. Well-managed puppies make fewer mistakes, learn faster, and develop less confidence in unwanted behaviors.\n\n**Confinement:** Crates, playpens, and baby gates limit access to areas where the puppy can make mistakes. A puppy in a crate cannot chew the couch.\n\n**Supervision:** Eyes on the puppy at all times when free. The moment before a problem behavior provides the opportunity to redirect.\n\n**Routine:** Puppies who eat, sleep, play, and eliminate on a consistent schedule are far easier to houserain and less stressed than those on random schedules.\n\n**Exercise and enrichment:** A tired puppy is a well-behaved puppy. Mental enrichment (puzzle toys, sniffing opportunities) exhausts puppies more efficiently than physical exercise alone.\n\nManagement is not training — it's the context that makes training possible. Trying to train a puppy without management is like trying to teach a child to spell while they're running around the classroom."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "If you have a puppy, conduct a socialization audit:\n\n**List in two columns:**\n- Column A: Things my puppy has been safely exposed to (people of different ages/appearances, sounds, surfaces, situations)\n- Column B: Things my puppy hasn't encountered yet that they might encounter as an adult\n\n**Column B becomes your socialization to-do list.** Priority items:\n- Different types of people (men, women, children, elderly, uniforms, hats, glasses)\n- Different surfaces (grass, tile, metal grating, gravel)\n- Different sounds (traffic, crowds, appliances, fireworks)\n- Different animals (dogs of various sizes, cats if possible)\n\nFor each new exposure: keep it positive. Let the puppy approach at their own pace. Pair new things with treats. End before the puppy is overwhelmed.\n\nIf your puppy is past 12 weeks: socialization is still valuable; it's just not the same risk-free window. Proceed with positive associations and careful pacing."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is the socialization window (3-12 weeks) the most important developmental period?",
+          "optionA": "It is when puppies learn the fastest due to maximum neurological plasticity",
+          "optionB": "Puppies are maximally open to learning what is safe during this window — experiences here shape what they accept as normal throughout life. What they miss may become sources of persistent fear in adulthood that are difficult to remediate",
+          "optionC": "It is the window when bonding to specific individuals occurs — early socialization creates the primary attachment that shapes all future relationships",
+          "optionD": "Puppies are physically most resilient during this period — vaccines can be given and experiences can be more intense without lasting negative effects",
+          "correctAnswer": "B",
+          "explanation": "The socialization window (3-12 weeks) is when puppies are maximally open to accepting new things as normal. Scott and Fuller's research showed that puppies isolated from humans until 14 weeks showed persistent lifelong fear of humans — largely irreversible. What dogs encounter positively during this window they typically accept as normal; what they miss may become sources of fear."
+        },
+        {
+          "question": "What is positive reinforcement and why is it considered the most effective training tool?",
+          "optionA": "Positive reinforcement is praising dogs for good behavior — the positive relationship it builds makes dogs more willing to try new things",
+          "optionB": "Positive reinforcement (adding something the dog wants after a behavior) increases that behavior — it's most effective because it teaches what TO do rather than only what not to do, has no negative side effects, and strengthens the human-dog relationship",
+          "otionC": "Positive reinforcement uses positive emotions to condition behavior — dogs work harder when they're happy",
+          "otionD": "Positive reinforcement is most effective when combined with negative reinforcement — the combination produces faster learning than either alone",
+          "correctAnswer": "B",
+          "explanation": "Positive reinforcement: behavior → desired consequence → behavior increases. It's most effective because: (1) it teaches what to do, not just what to avoid; (2) it has no negative side effects (unlike punishment, which can cause fear and aggression); (3) it strengthens the human-dog relationship. Research consistently shows R+ produces faster initial learning and more durable behavior than punishment-based methods."
+        },
+        {
+          "question": "What is the role of management in puppy training — and how is it different from training?",
+          "optionA": "Management and training are synonymous — managing a puppy's environment is what training means for young dogs",
+          "optionB": "Management prevents problems from occurring (confinement, supervision, routine, exercise) while training teaches behaviors. Management creates the context where training becomes possible — without it, puppies practice and reinforce unwanted behaviors faster than training can correct them",
+          "otionC": "Management is a short-term substitute for training — it should be phased out as the puppy learns to make better choices independently",
+          "otionD": "Management is primarily about establishing leadership — it signals to the puppy that the human controls resources and space",
+          "correctAnswer": "B",
+          "explanation": "Management (confinement, supervision, routine, exercise) prevents mistakes before they happen. Training teaches what to do instead. Both are necessary: management without training leaves a puppy with no learned behaviors; training without management allows the puppy to constantly practice unwanted behaviors, reinforcing them. Management makes training effective by limiting the opportunities for the wrong behaviors to be reinforced."
+        }
+      ]
+    },
+    {
+      "slug": "house-training",
+      "title": "House Training: The Foundation",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Housetraining is almost always the first training challenge new puppy owners face — and one where confusion, inconsistency, and punishing after the fact are the most common mistakes.\n\nThe good news: housetraining is not difficult if you understand how it works. It is a management and reinforcement challenge, not a training challenge in the traditional sense. A puppy doesn't 'know' that outdoor elimination is correct — they learn it through consistent reward for outdoor elimination and consistent prevention of indoor elimination until the habit is established."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Science of Housetraining",
+          "content": "Young puppies have limited bladder control — they cannot hold elimination indefinitely. A general guideline: puppies can hold bladder control for approximately their age in months plus one hour (a 2-month-old can hold approximately 3 hours; a 4-month-old approximately 5 hours).\n\nThe housetraining protocol:\n\n**Take out frequently:** Every hour when awake and active, immediately after eating, drinking, playing, and waking from sleep. 'Frequently' prevents accidents by predicting when the puppy needs to go.\n\n**Reward immediately:** When the puppy eliminates outside, reward with enthusiastic praise and a high-value treat within 1-2 seconds of completion. The reward must be immediate and predictable.\n\n**Supervise inside:** Eyes on the puppy at all times when not crated. Watch for pre-elimination behaviors: circling, sniffing, squatting, becoming suddenly still.\n\n**Interrupt don't punish:** If you catch the puppy in the act, calmly interrupt and take outside. Never punish after the fact — the puppy cannot connect the punishment to an event that happened minutes ago."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Rubbing a dog's nose in an accident — still practiced by some owners — is completely ineffective at teaching housetraining and causes confusion and fear.\n\nDogs do not associate punishment applied after an accident with the act of eliminating indoors. They associate it with the owner returning home, the presence of urine, or looking guilty — all of which are unrelated to what you want them to learn.\n\nThe 'guilty look' that dogs display when owners come home to an accident is not guilt — it's a fear response to the owner's tone and body language. Studies have confirmed that dogs display this behavior whether or not they actually made the accident — if the owner acts angry, the dog acts 'guilty' regardless of what actually happened.\n\nPunishment after the fact teaches the puppy to avoid punishment when the owner appears, not to avoid indoor elimination. It often makes housetraining harder by making the puppy hide to eliminate rather than learning to go outside."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Crate Training: The Housetraining Tool",
+          "content": "The crate is the single most effective housetraining tool — when used correctly. Dogs instinctively avoid eliminating in their sleeping area (a holdover from den-dwelling ancestors), which makes the crate a powerful preventive.\n\nCrate guidelines:\n- Size: large enough to stand, turn around, and lie down comfortably — not so large that the puppy can eliminate in one corner and sleep in another\n- Introduce positively: feed meals in the crate, toss treats in, build positive association before using it for confinement\n- Maximum time: based on the puppy's capacity (age in months + 1 hour), not convenience\n- Never used for punishment: the crate must be a safe, positive space\n\nA properly crate-trained dog is also safer: they travel safely, are calm during veterinary procedures, and have a stress-relief option during overwhelming situations.\n\nCrate haters: if confinement genuinely distresses a puppy despite positive introduction, consult a professional trainer. Occasional protest is normal; sustained distress is not."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Umbilical Cord Method",
+          "content": "The **umbilical cord method** is a supervision technique where the puppy is attached to the owner via a leash (tethered to the owner's waist or wrist) whenever outside the crate.\n\nThis ensures the puppy is never out of sight — eliminating the possibility of unobserved accidents indoors. When tethered, the puppy must move with the owner, which also increases physical proximity and the human-dog bond.\n\nThe protocol:\n- Puppy is either in the crate, outside eliminating, or tethered to you\n- No unsupervised free roam time until housetraining is reliable\n- The tether also allows the owner to watch for pre-elimination signals and get the puppy outside in time\n\nHousetraining accelerates dramatically with this method — because every accident is either prevented or caught and interrupted rather than discovered after the fact."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Create a housetraining schedule for your puppy based on their age:\n\nAge in months: ___\nMaximum hold time: ___ + 1 = ___ hours\n\nSchedule (adjust to your daily routine):\n- 6am: outside immediately upon waking\n- 7am: outside after breakfast (30 min after eating)\n- 8am: outside\n- 9am: outside\n[Continue every 1-2 hours, with immediate trips after waking, eating, and playing]\n- 10pm: outside last thing before crating overnight\n\nFor the first 2-4 weeks: log every outdoor elimination (reward with treat) and every indoor accident (note time and what you were doing — this reveals the gaps in your schedule).\n\nHousetraining takes 4-6 months of consistency. Most 'housetrained' puppies who have accidents are experiencing schedule failures (insufficient frequency) rather than failures to understand."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is punishing a puppy after finding an indoor accident ineffective?",
+          "otionA": "Punishment is never appropriate for housetraining — it should only be used for behaviors that are intentionally defiant",
+          "optionB": "Dogs cannot connect punishment to an event that happened minutes or hours ago — they associate it with the owner's arrival, their own presence in a space with urine, or the owner's tone, not with the act of indoor elimination",
+          "otionC": "The 'guilty look' a dog displays indicates they understand why they're being punished — but the punishment itself teaches them to be sneakier rather than to go outside",
+          "otionD": "Punishment only works when applied within 3 seconds of the behavior — after that, any association is impossible",
+          "correctAnswer": "B",
+          "explanation": "Dogs cannot retroactively connect punishment to past behavior. The 'guilty look' is a fear response to the owner's tone/body language — not guilt, as studies confirm dogs display it whether or not they caused the accident. After-the-fact punishment teaches avoidance of the punisher's arrival or presence, not avoidance of indoor elimination. It often makes housetraining harder."
+        },
+        {
+          "question": "Why must the crate be sized correctly for effective housetraining?",
+          "otionA": "Too-large crates are harder for dogs to exit quickly in an emergency, increasing accident risk",
+          "optionB": "A crate too large allows the puppy to eliminate in one corner and sleep in another — eliminating the key mechanism (dogs avoid soiling their sleeping area). The crate should be large enough for comfort but not large enough for a separate bathroom area",
+          "otionC": "Correct sizing ensures the puppy's body temperature stays at optimal training levels for learning",
+          "otionD": "Too-small crates cause physical discomfort that increases stress hormones and reduces learning ability",
+          "correctAnswer": "B",
+          "explanation": "Crate sizing is critical for the den-instinct mechanism. Dogs avoid soiling their sleeping space — but only if the sleeping space is the whole crate. A too-large crate allows the puppy to establish a bathroom corner separate from a sleeping area, bypassing the instinct that makes crating effective. Size: large enough to stand, turn, and lie down; not so large that part becomes a bathroom."
+        },
+        {
+          "question": "How does the umbilical cord method prevent housetraining accidents?",
+          "otionA": "The leash provides physical control that prevents the puppy from leaving to find a private spot to eliminate",
+          "optionB": "Tethering the puppy to the owner ensures constant supervision — the puppy is never out of sight, so pre-elimination signals are always visible and the puppy can be taken out before accidents occur. Every accident is either prevented or caught in progress",
+          "otionC": "Physical proximity to the owner through the leash produces a calm state that reduces the frequency of elimination urges",
+          "otionD": "The umbilical cord method helps by keeping the puppy close to the owner who can then take them outside at regular intervals without worrying about supervision",
+          "correctAnswer": "B",
+          "explanation": "The umbilical cord method ensures no unsupervised indoor access — the puppy can't go around the corner and eliminate unobserved. This means pre-elimination signals are always visible (circling, sniffing, squatting) and the puppy can be taken out in time. Every indoor accident either doesn't happen (caught by signal and taken out) or is caught in progress (and redirected outside)."
+        }
+      ]
+    },
+    {
+      "slug": "basic-commands",
+      "title": "Teaching Basic Commands",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Basic obedience commands — sit, down, stay, come, leave it — are not just tricks. They are the vocabulary through which you and your dog communicate. A dog who reliably sits on cue can be safely managed in situations where an out-of-control dog is dangerous. A dog with a reliable recall (come when called) can be given off-leash freedom safely.\n\nTeaching commands well requires understanding what you're actually teaching: a specific behavior on a specific cue, with a specific duration or completion, in all relevant contexts. Each of those elements must be trained separately before they can be combined."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Teaching Sit",
+          "content": "Sit is the easiest behavior to teach and builds the foundation for all other training. The lure-reward method:\n\n**Step 1 — Lure:** Hold a treat at the dog's nose. Move it slowly back over the head. As the nose follows the treat up and back, the rear will naturally go down. The moment the bottom touches the floor, click (or say 'yes') and deliver the treat.\n\n**Step 2 — Repeat:** 5-10 repetitions per session, 2-3 sessions per day. Keep sessions under 5 minutes for puppies — their attention spans are short.\n\n**Step 3 — Add the cue:** Once the dog is reliably doing the behavior with the lure, say 'sit' just before beginning the lure motion. After 10-20 repetitions with the cue, try saying 'sit' before raising the treat — many dogs begin sitting from the word alone.\n\n**Step 4 — Fade the lure:** Gradually make the hand motion smaller until the dog responds to a verbal cue alone.\n\n**Never repeat the cue:** Say 'sit' once. If the dog doesn't respond, don't repeat — prompt or lure instead. Repeating cues teaches the dog to wait for the 5th 'sit.'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Dogs understand human pointing gestures as communicative signals at very high rates — a capacity that even chimpanzees, our closest relatives, largely lack.\n\nBrian Hare's research at Duke University's Canine Cognition Center found that dogs spontaneously follow human pointing gestures to locate hidden food — even without training. Wolves raised in identical conditions with equivalent human exposure cannot do this nearly as reliably.\n\nHare's interpretation: during the ~15,000+ years of domestication, dogs were selected for sensitivity to human social cues and communicative intentions. Dogs have essentially co-evolved with us to understand our communication in ways no other species has. This is why training is possible and why the human-dog relationship is so uniquely productive.\n\nDogs are not just smart — they're specifically smart in ways that facilitate communication and cooperation with humans."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Three Ds: Distance, Duration, and Distraction",
+          "content": "Every behavior a puppy learns must be 'proofed' — practiced under increasingly challenging conditions until it's reliable in all real-world contexts.\n\nThe Three Ds are the dimensions along which you progressively challenge a behavior:\n\n**Distance:** How far away from you can the dog be and still respond to the cue? A dog who sits perfectly next to you may fail to sit from across the room — distance must be trained separately.\n\n**Duration:** How long can the dog hold a behavior before being released? Sitting for 1 second and sitting for 1 minute require different training.\n\n**Distraction:** Can the dog respond while other things are happening — other dogs, people, sounds, smells? Most puppies fail this element first.\n\nThe critical rule: **change only one D at a time.** If you increase distance, reduce duration and distraction first. If you add distraction, start close with short duration.\n\nMost training failures in puppies come from adding all three Ds simultaneously — asking for a sit across the park (distance + distraction) before the dog has mastered it up close."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Marker Training",
+          "content": "**Marker training** uses a specific, brief signal — typically a 'clicker' (a small device that makes a distinct click sound) or the verbal marker 'yes!' — to mark the exact moment a correct behavior occurs.\n\nThe marker bridges the gap between the behavior and the reward, giving the dog precise information about which behavior earned reinforcement.\n\nWithout a marker: sit → several seconds pass → treat arrives. The dog isn't sure what earned the reward — was it the sit? The looking up? The sitting still?\n\nWith a marker: sit → click (the instant the bottom touches the floor) → treat arrives. The click told the dog exactly what behavior was correct, even if the treat takes several seconds to deliver.\n\nThe clicker must be 'charged' first: pair 15-20 clicks with treats in rapid succession until the click itself becomes a reward predictor. After charging, a precise, consistent marker dramatically accelerates learning because it gives the dog unambiguous feedback."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Teach sit using the lure method in one 5-minute session:\n\n**You'll need:** 10-15 small, high-value treats (small pieces of chicken, cheese, or commercial training treats)\n\n**Session:**\n1. With dog standing, hold treat at nose\n2. Slowly move treat back over the head\n3. The moment rear touches floor: 'Yes!' and treat\n4. Repeat 10 times\n5. After 10 repetitions, say 'sit' before starting the lure motion\n6. Try saying 'sit' before moving the treat — see if the dog begins to sit from the word\n\n**After the session:** note how many reps it took before the puppy started sitting quickly in anticipation. Most puppies show the sit-in-anticipation behavior within 2-3 sessions of 5-10 repetitions each.\n\n**Remember:** Always end on a success (even if you have to make it easy). Always keep sessions short and positive."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'three Ds' rule in dog training and why is it critical?",
+          "otionA": "Distance, Duration, and Drive — the three factors that determine how motivated a dog is to perform a behavior",
+          "optionB": "Distance, Duration, and Distraction — the three dimensions of difficulty along which behaviors must be proofed. The critical rule: change only one D at a time, starting from the easiest level of each",
+          "otionC": "Direction, Duration, and Distraction — the three aspects of cue delivery that must be mastered before behaviors are reliable",
+          "otionD": "Distance, Delay, and Distraction — how far, how long after the cue, and amid what competing stimuli the dog must respond",
+          "correctAnswer": "B",
+          "explanation": "The Three Ds (Distance, Duration, Distraction) are dimensions along which behaviors must be progressively challenged. Change only one D at a time — increasing distance requires reducing duration and distraction first. Most training failures occur from adding all three D challenges simultaneously (sitting across a park in a crowd) before the dog has mastered the behavior up close without distraction."
+        },
+        {
+          "question": "Why should you never repeat a training cue multiple times?",
+          "otionA": "Repetition confuses dogs by making them think the repeated word is a different command",
+          "otionB": "Repeating cues teaches the dog that the 5th repetition is the real cue — they learn to wait for the repeated word before responding. Say the cue once; if no response, prompt or lure instead",
+          "otionC": "Multiple repetitions exceed the dog's working memory, causing the cue to lose its meaning",
+          "otionD": "Repeating cues is actually recommended for puppies under 4 months to help them understand what's being asked",
+          "correctAnswer": "B",
+          "explanation": "Repeating cues trains the dog to respond to the repetition pattern, not the first cue. If 'sit sit sit sit' is what consistently precedes the reward, the dog learns that the sequence of four words is the real cue. Say the cue once; if the dog doesn't respond, use a lure or prompt — don't repeat. This maintains the cue's meaning."
+        },
+        {
+          "question": "What does marker training accomplish that plain treat delivery doesn't?",
+          "otionA": "Markers allow training without direct human presence — the marker can be set to trigger automatically",
+          "optionB": "A marker (click or 'yes!') precisely identifies which specific behavior earned reinforcement — the moment between behavior and treat delivery is too long for the dog to clearly understand what they did correctly without the marker bridging the gap",
+          "otionC": "Markers increase the dog's attention to the trainer by providing a novel stimulus that the dog becomes curious about",
+          "otionD": "Markers allow the trainer to communicate from a distance — essential for precision behaviors like field work",
+          "correctAnswer": "B",
+          "explanation": "Markers provide precise feedback: the click at the exact moment the bottom touches the floor tells the dog which behavior was correct. Without a marker, the dog receives reinforcement several seconds after the behavior — but isn't sure if it was the sit, the waiting still, the looking up, or the tail wag that earned the reward. Precision feedback dramatically accelerates learning."
+        }
+      ]
+    },
+    {
+      "slug": "preventing-puppy-problems",
+      "title": "Preventing Common Puppy Problems",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most puppy behavior problems are not problems — they're normal puppy behaviors directed at inappropriate targets. Biting is normal; biting human skin is the problem. Chewing is normal; chewing furniture is the problem. Jumping is normal; jumping on people is the problem.\n\nThe solution to most puppy problems is: manage to prevent unwanted behavior + teach an alternative + reinforce the alternative enthusiastically. Suppressing the behavior alone (punishment) without providing an outlet leaves a puppy with normal drives and no acceptable outlet — which produces more problems, not fewer."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Bite Inhibition: The Most Important Puppy Lesson",
+          "content": "**Bite inhibition** is the learned skill of controlling the force of biting — understanding how hard to bite to avoid causing harm. This is different from 'no biting' — which is the final goal for adult dogs.\n\nWhy it matters: dogs with poor bite inhibition who bite as adults (due to fear, pain, or mistake) cause serious injuries. Dogs with good bite inhibition who bite as adults cause minimal harm.\n\nBite inhibition is learned through play. In litter play, puppies bite each other and learn from feedback: bite too hard → yelp → play stops. Repeat.\n\nWith humans:\n- When the puppy bites hard: yelp or say 'ouch!' and immediately disengage play for 20-30 seconds\n- Resume play\n- Gradually lower the threshold — yelp for increasingly soft bites\n- Eventually, all tooth-on-skin contact ends play\n\nDon't punish biting. Dogs who are punished for biting sometimes develop bites that are faster and harder — suppressed warning behaviors — which is more dangerous than a dog who bites predictably and soft."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Puppy classes that allow controlled puppy play are not just fun — they're preventive medicine. Research shows that puppies who attend well-run puppy classes have significantly lower rates of aggression, fear, and anxiety as adults compared to puppies who were similarly socialized but lacked structured dog-to-dog play.\n\nThe American Veterinary Society of Animal Behavior (AVSAB) position statement on puppy socialization states that puppies should begin socialization classes — including puppy play — as early as 7-8 weeks of age, even before completing vaccination series. The risk of behavioral problems from missed socialization exceeds the risk of disease from early class attendance in properly managed settings.\n\nThis is a significant departure from older veterinary advice ('wait until fully vaccinated before socializing'). The behavioral cost of delayed socialization — fear, aggression, anxiety — turns out to be greater than the infection risk of early class attendance."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Jumping, Chewing, and Resource Guarding",
+          "content": "Three common puppy problems and their management:\n\n**Jumping up:** Management (keep the puppy on a leash) + teach an incompatible behavior (sit when greeting, which cannot happen simultaneously with jumping) + remove all reinforcement from jumping (all people turn away, no touch, no eye contact, no pushing away — which is attention and therefore reinforcing).\n\n**Destructive chewing:** Management (remove access to inappropriate items) + provide appropriate outlets (bully sticks, Kongs, raw marrow bones) + redirect to appropriate items when caught chewing inappropriate ones. Never leave a puppy unsupervised with access to valuable items.\n\n**Resource guarding:** Early prevention is critical — puppies should learn that a human approaching their food bowl is not a threat (add high-value food when approaching, don't take away). If guarding is already occurring, seek a qualified professional — do not use punishment, which reliably worsens resource guarding."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Lure, Reward, and Jackpot",
+          "content": "**Lure:** A treat or toy used to guide the dog into a position or behavior before it's reliably performed on cue. The lure is a training tool — it should be faded (gradually reduced) once the behavior is established, so the dog eventually performs without needing to see the treat first.\n\n**Reward:** The reinforcer delivered after the behavior — can be food, play, social attention, or access to something desirable. The best rewards are whatever the dog values most in that moment — context-dependent.\n\n**Jackpot:** A large, unexpected delivery of high-value rewards given for an exceptional performance — believed by many trainers to mark 'breakthrough' moments. Research is mixed on whether jackpots work differently from regular rewards — but varying reward size and type prevents satiation and maintains motivation."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Implement a 'nothing in life is free' (NILF) approach for one week:\n\nNILF means: before the puppy receives anything they want (food, attention, play, going outside, toy), they must offer a behavior you've asked for.\n\n**Implement:**\n- Before putting down the food bowl: 'sit' → bowl goes down\n- Before clipping on the leash: 'sit' → leash clips on\n- Before opening the door: 'sit' → door opens\n- Before petting: 'sit' → petting begins\n\nThis approach:\n1. Gives you 50+ training repetitions per day without dedicated training sessions\n2. Teaches the puppy that polite behavior (sitting) produces good things\n3. Creates a dog who offers sits automatically when they want something — the opposite of jumping\n\nThe puppy learns: sitting is the password that unlocks good things. This is much more sustainable than constantly telling them 'no.'"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is bite inhibition and why is developing it more important than eliminating all biting?",
+          "optionA": "Bite inhibition is training dogs never to put teeth on skin — it's the process of eliminating biting entirely through consistent correction",
+          "optionB": "Bite inhibition is the learned ability to control biting force — dogs with good bite inhibition that bite as adults cause minimal harm. This is more important than eliminating all biting because suppressing biting without teaching inhibition can produce faster, harder bites that don't warn before causing injury",
+          "otionC": "Bite inhibition is the puppy's ability to discriminate appropriate biting targets (toys) from inappropriate ones (skin) — it's about targeting, not force",
+          "otionD": "Bite inhibition refers to the puppy's self-restraint in not initiating biting — teaching the puppy to wait for the person to initiate play before offering any mouth contact",
+          "correctAnswer": "B",
+          "explanation": "Bite inhibition = controlling force, not eliminating biting. Dogs with poor bite inhibition who bite as adults cause serious injury. Dogs with excellent bite inhibition who bite as adults cause minimal harm. Puppies who are punished for biting often develop suppressed warning behaviors — they skip growling/air snapping and go straight to full bites — which is more dangerous. Teach soft bites first, then gradually reduce tolerance."
+        },
+        {
+          "question": "Why does jumping up on humans reinforce itself even when humans try to stop it?",
+          "otionA": "Jumping produces an adrenaline response in dogs that is reinforcing regardless of the human's reaction",
+          "optionB": "Most human responses to jumping (pushing away, saying 'no,' making eye contact, even pushing down) constitute attention — and attention is reinforcing. The dog may learn that jumping produces the desirable outcome of interaction, even negative interaction",
+          "otionC": "Jumping is a self-reinforcing behavior driven by social greeting instincts that are too strong to be affected by human responses",
+          "otionD": "Humans instinctively pet dogs that jump on them before correcting — the brief tactile reward outweighs the correction",
+          "correctAnswer": "B",
+          "explanation": "Jumping produces social interaction — even negative interaction (pushing away, looking at the dog, saying 'no') counts as attention and can reinforce the behavior. The solution: all four paws on floor → dog gets what they want; jumping → human immediately turns away, no touch, no eye contact, no verbal response. The absence of social interaction is aversive; its presence (even negative) is reinforcing."
+        },
+        {
+          "question": "What does the American Veterinary Society of Animal Behavior (AVSAB) say about early puppy socialization class attendance?",
+          "otionA": "Puppies should wait until 16 weeks and full vaccination before attending any group classes — the disease risk outweighs socialization benefits",
+          "optionB": "Puppies should begin socialization classes as early as 7-8 weeks, even before completing vaccination series, because the behavioral risk of missed socialization (fear, aggression, anxiety) exceeds the disease risk of well-managed early class attendance",
+          "otionC": "Puppy classes should focus on controlled human socialization only — dog-to-dog play poses too great a behavioral risk for puppies not yet fully socialized",
+          "otionD": "The AVSAB recommends individualized socialization plans rather than group classes, since puppy play poses both disease and behavioral risks",
+          "correctAnswer": "B",
+          "explanation": "AVSAB's position: begin socialization classes at 7-8 weeks, before completing vaccinations, in properly managed settings. The behavioral cost of missed socialization during the critical window (3-12 weeks) — fear, anxiety, aggression that is difficult to remediate — exceeds the disease risk from well-managed early classes. This reversed older 'wait until fully vaccinated' advice."
+        }
+      ]
+    },
+    {
+      "slug": "puppy-health-foundations",
+      "title": "Puppy Health and Wellbeing",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "A healthy puppy is not just one that is physically well — it is one whose behavioral, social, and physical needs are consistently met. These needs overlap significantly: a puppy who is bored becomes destructive. A puppy who is anxious becomes reactive. A puppy who is overstimulated becomes dysregulated.\n\nUnderstanding what puppies need — beyond food and veterinary care — transforms a good puppy owner into a great one. The investments you make in a puppy's physical and mental health in the first year pay dividends for the entire life of the dog."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Five Freedoms of Animal Welfare",
+          "content": "The Five Freedoms framework — developed by the UK's Farm Animal Welfare Council in the 1960s and now applied broadly to all domesticated animals — provides a comprehensive standard for animal welfare:\n\n**1. Freedom from hunger and thirst:** Access to fresh water and appropriate nutrition.\n\n**2. Freedom from discomfort:** Appropriate shelter and resting areas.\n\n**3. Freedom from pain, injury, and disease:** Prevention through vaccination and prompt treatment.\n\n**4. Freedom to express normal behavior:** Enough space, appropriate facilities, and company of the animal's own kind.\n\n**5. Freedom from fear and distress:** Conditions and treatment that avoid mental suffering.\n\nMost conscientious pet owners easily achieve the first three freedoms. The fourth and fifth are often overlooked — particularly freedom to express normal behavior (play, sniff, explore, socialize) and freedom from fear (which requires the positive approach to training that this course advocates)."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Dogs have a dramatically superior sense of smell — with 100 times (or more, depending on breed) the olfactory receptor cells of humans, and a brain area dedicated to processing smell that is proportionally 40 times larger than the corresponding human brain area.\n\nResearchers at the Monell Chemical Senses Center have shown that dogs can detect the equivalent of one teaspoon of sugar in a million gallons of water. They can detect some diseases (certain cancers, diabetic episodes, epileptic seizures) before symptoms are obvious to humans or even clinical tests.\n\nFor dog wellbeing, this matters: sniffing is one of the most enriching activities available to dogs. A 20-minute 'sniff walk' where the dog is allowed to follow their nose exhausts many dogs more thoroughly than a 45-minute structured exercise session. Allowing dogs to sniff — rather than constantly asking them to walk in a heel — is one of the simplest and most overlooked enrichment practices."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Exercise, Enrichment, and Rest",
+          "content": "Puppy physical exercise requires careful calibration — too much impact exercise on developing joints causes lasting damage:\n\n**The 5-minute rule:** Physical exercise is limited to 5 minutes per month of age, twice daily. A 3-month-old puppy can have 15 minutes of structured walking twice daily. This protects developing growth plates.\n\n**Mental enrichment compensates:** Puzzle feeders, sniff games, training sessions, and novel environments tire puppies dramatically without physical impact. A puppy who works for their food (puzzle toys) and does 20 minutes of training is often calmer than one who runs for an hour.\n\n**Sleep requirements:** Puppies need 16-20 hours of sleep per day. This surprises many owners, who try to keep puppies engaged when they need rest. An overtired puppy becomes hyperactive, nippy, and unable to learn — paradoxically similar to an under-exercised puppy.\n\n**The behavioral pattern:** Overtired puppy → dysregulated behavior → owner interprets as needing more exercise → more stimulation → worse behavior. The answer is often a crate and a nap."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Enrichment",
+          "content": "**Enrichment** is the provision of stimulation that allows animals to express natural behaviors — it is the practical application of the Fourth Freedom (freedom to express normal behavior).\n\nFor dogs, enrichment includes:\n- **Food enrichment:** Kong toys, puzzle feeders, lick mats, scatter feeding (hiding kibble in grass for sniffing), bones. Turns eating from a 30-second event into a 30-minute activity.\n- **Sensory enrichment:** Novel smells (items from pet stores, from nature), different surfaces, sniff walks, dog-safe herbs.\n- **Social enrichment:** Appropriate dog-dog interaction, varied human interaction, training sessions with engaged trainers.\n- **Cognitive enrichment:** Learning new behaviors, trick training, problem-solving games.\n- **Physical enrichment:** Age-appropriate exercise, exploration of different environments.\n\nEnrichment is not a luxury — it is essential for behavioral health. Dogs without adequate enrichment develop maladaptive behaviors (excessive barking, destruction, anxiety) as expressions of unmet behavioral needs."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Upgrade your puppy's enrichment with one of these strategies:\n\n**Food enrichment (easiest start):** Instead of feeding kibble from a bowl, stuff it into a Kong or scatter it in the grass. For the Kong: moisten kibble slightly, pack into Kong, freeze. The frozen Kong extends the enrichment experience to 30+ minutes.\n\n**Sniff walk:** On your next walk, allow the puppy to sniff freely for at least 50% of the walk. Let them choose direction and pace when sniffing. Note the difference in their behavior after a sniff-led walk vs. a structured heel walk.\n\n**Training as enrichment:** 5 minutes of positive reinforcement training that involves problem-solving (shaping a new behavior by rewarding successive approximations) is enriching in a way that drilling known commands isn't. Try shaping 'roll over' by rewarding small movements in the right direction.\n\nA puppy whose enrichment needs are consistently met is a calmer, more trainable, more confident dog."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 5-minute rule for puppy exercise and why is it important?",
+          "otionA": "Training sessions should be limited to 5 minutes to match puppy attention spans — longer sessions reduce learning retention",
+          "optionB": "Physical exercise (structured walking, running) should be limited to 5 minutes per month of age, twice daily — excessive impact on developing joints damages growth plates and causes lasting skeletal problems",
+          "otionC": "Puppies should exercise at maximum intensity for 5-minute bursts with rest periods to match their natural play cycle",
+          "otionD": "The 5-minute rule refers to the minimum exercise requirement — puppies need at least 5 minutes of exercise per hour of waking time",
+          "correctAnswer": "B",
+          "explanation": "The 5-minute per month of age rule protects developing growth plates (the cartilage areas where bones grow). Too much impact exercise on these soft areas causes damage that can produce lifelong joint problems. A 3-month-old gets 15 minutes of structured walk twice daily. Mental enrichment compensates without physical impact — puzzle feeders and training sessions tire puppies mentally without skeletal risk."
+        },
+        {
+          "question": "Why is sniffing one of the most important enrichment activities for dogs?",
+          "otionA": "Sniffing is calming because it activates the parasympathetic nervous system — it's essentially a canine meditation practice",
+          "optionB": "Dogs have 100+ times the olfactory receptors of humans and a proportionally much larger brain area for smell — sniffing is how they experience and understand the world most richly. A sniff walk provides mental enrichment that can tire dogs more than equivalent physical exercise",
+          "otionC": "Sniffing is important because it fulfills the territorial marking instinct — sniffing and counter-marking is essential for psychological health",
+          "otionD": "Sniffing during walks serves as an exercise equivalent through the extensive muscular engagement of the dog's neck and nose-following movements",
+          "correctAnswer": "B",
+          "explanation": "Dogs experience the world primarily through smell — their olfactory system vastly exceeds humans'. Sniffing is one of the richest cognitive experiences available to dogs. A 20-minute sniff walk often exhausts dogs more thoroughly than 45 minutes of structured walking — because mental/sensory processing is more tiring than physical exertion. Restricting sniffing (constant heel) is a significant form of sensory deprivation."
+        },
+        {
+          "question": "Why does an overtired puppy often look like an under-exercised one?",
+          "otionA": "Sleep deprivation activates stress hormones that produce hyperactivity, nippiness, and inability to learn — exactly the behaviors owners associate with under-exercise. The behavioral pattern is identical; the cause and solution are opposite",
+          "optionB": "Overtired puppies whine and seek attention from their owners, which owners misinterpret as a demand for play",
+          "otionC": "Overtired puppies become hyperactive because adrenaline overrides fatigue — the same mechanism that keeps human infants awake when overtired",
+          "otionD": "The behaviors look similar because both states involve the puppy being disconnected from training cues — whether tired or stimulated, the puppy cannot focus",
+          "correctAnswer": "A",
+          "explanation": "Overtired puppy → dysregulation (hyperactivity, nippiness, inability to focus, exaggerated responses to stimuli). This looks like the behavior of an under-exercised dog needing more activity. Owners respond with more exercise → more overstimulation → worse dysregulation. The actual solution is often a crate and a nap. Puppies need 16-20 hours of sleep per day and cannot self-regulate rest without management support."
+        }
+      ]
+    }
+  ]
+}

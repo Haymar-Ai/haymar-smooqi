@@ -1,0 +1,365 @@
+{
+  "courseSlug": "smart-investing",
+  "lessons": [
+    {
+      "slug": "investing-fundamentals",
+      "title": "The Fundamentals of Investing",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Investing sounds complicated because the financial industry profits from making it sound complicated. The jargon, the constant news flow, the dizzying array of products — these exist not to help you invest better, but to justify high fees and encourage unnecessary activity.\n\nThe underlying principles of successful long-term investing are actually simple. They're not exciting. They don't require following markets or picking stocks. They require understanding a handful of concepts and then having the discipline to execute a boring strategy consistently.\n\nThis course strips away the complexity and teaches what actually works."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Risk and Return: The Fundamental Trade-off",
+          "content": "Every investment involves a trade-off between risk (the variability and possibility of loss) and expected return (what you expect to earn over time). Higher expected returns don't come without higher risk — that's not pessimism, it's how markets price assets.\n\nThe major asset classes, roughly ordered by historical risk and return:\n\n**Cash/savings accounts:** Lowest risk, lowest return (often below inflation).\n**Bonds:** Lower risk than stocks, lower return. Provide income and stability.\n**Stocks (equities):** Higher risk, historically higher long-term return (~7% after inflation for diversified US stocks over the long term).\n**Real estate:** Depends on leverage and market; generally between bonds and stocks.\n**Alternative investments:** Wide variance; often illiquid and high-fee.\n\nYour appropriate mix depends on your time horizon (how long until you need the money) and your actual risk tolerance — not what you think it is, but how you'd respond to a 30% portfolio decline."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "DALBAR's annual 'Quantitative Analysis of Investor Behavior' study consistently finds that the average investor significantly underperforms the market over time — even though the market return is available to anyone through index funds.\n\nOver the 20-year period ending in 2020, the S&P 500 returned approximately 7.47% annually. The average equity investor returned approximately 2.9% annually during the same period.\n\nThe gap isn't due to bad investment choices — it's primarily due to bad timing: investors tend to buy after markets rise (when stocks are expensive) and sell after markets fall (when stocks are cheap). Behavioral bias, not intelligence, is the primary driver of investing underperformance."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Time in Market Beats Timing the Market",
+          "content": "Virtually every credible study on market timing reaches the same conclusion: it doesn't work reliably, and attempting it dramatically reduces returns.\n\nA famous JPMorgan analysis found that if you missed the 10 best trading days of the S&P 500 over a 20-year period, your return dropped from approximately 9.5% to 5.6%. Miss the 20 best days, and you're at 3.5%. Miss the 40 best days, and you've lost money.\n\nThe cruel irony: the best market days cluster around the worst ones — they often occur during panics, when investors are most tempted to sell or stay out.\n\nThe most evidence-backed investing strategy: invest regularly, regardless of market conditions, and stay invested. Not because it's exciting, but because the alternative — trying to be clever about when to get in and out — has an overwhelmingly poor track record."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Diversification",
+          "content": "**Diversification** is the practice of spreading investments across multiple assets, asset classes, sectors, and geographies to reduce the impact of any single investment's poor performance on the overall portfolio.\n\nDiversification works because different assets don't move in perfect correlation — when some fall, others may be flat or rising. This reduces portfolio volatility without necessarily reducing expected return, which is why it's often described as 'the only free lunch in investing' (Markowitz, Nobel Prize in Economics, 1990).\n\nPractically: a globally diversified index fund (like a total world stock market fund) automatically provides thousands of holdings across countries and sectors. Owning one such fund is more diversified than most individual stock portfolios — and requires no ongoing management."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Assess your current investment situation:\n\n1. Do you have retirement accounts (401k, IRA) with any investments in them — or is the money sitting in a 'money market' or 'stable value' fund earning near zero? (Many people open accounts and never select actual investments.)\n\n2. What is your time horizon? Investments you won't touch for 20+ years can handle much more volatility than money you'll need in 5 years.\n\n3. If you don't have a brokerage or retirement account started: research opening a Roth IRA at Fidelity, Vanguard, or Schwab — all are low-cost, reputable, and offer target-date index funds that automatically diversify and rebalance. That's a complete investment strategy in one fund."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does the DALBAR study reveal about why average investors underperform the market?",
+          "optionA": "Average investors choose higher-fee funds that drag returns below the market average",
+          "optionB": "Behavioral bias — buying after rises and selling after falls — accounts for the performance gap, not investment selection quality",
+          "optionC": "Investors diversify too little, concentrating in underperforming sectors",
+          "optionD": "Tax inefficiency from frequent trades reduces net returns below the index",
+          "correctAnswer": "B",
+          "explanation": "DALBAR consistently finds the investor-vs-market performance gap is driven by behavior: buying high (after markets rise) and selling low (after markets fall). The market return is available to anyone through index funds — the gap is a behavioral problem, not an information problem."
+        },
+        {
+          "question": "What did JPMorgan's analysis of missing the best trading days reveal about market timing?",
+          "optionA": "Avoiding the worst days of the market produces larger gains than capturing the best days",
+          "optionB": "Missing the 10 best days over 20 years cut returns from ~9.5% to 5.6% — and the best days cluster around the worst, when investors are most tempted to exit",
+          "optionC": "The market's best and worst days are unpredictable, making both market entry and exit timing unreliable",
+          "optionD": "The 10 best trading days over 20 years each produced returns greater than 5%, making them uniquely important",
+          "correctAnswer": "B",
+          "explanation": "Missing just 10 of the best days over 20 years cut returns nearly in half. The problem: those best days cluster around market panics — precisely when frightened investors are most likely to be in cash. Timing the market requires being right twice (exit and re-entry) which is extremely difficult."
+        },
+        {
+          "question": "Why is diversification described as 'the only free lunch in investing'?",
+          "optionA": "Diversified portfolios consistently outperform concentrated ones in all market conditions",
+          "optionB": "Spreading investments across uncorrelated assets reduces volatility without necessarily reducing expected return — risk reduction without a return cost",
+          "optionC": "Index funds are free to invest in, while actively managed funds charge significant fees",
+          "optionD": "Diversification protects against all types of market risk including inflation and currency risk",
+          "correctAnswer": "B",
+          "explanation": "Markowitz's modern portfolio theory showed that because different assets don't move in perfect correlation, combining them reduces portfolio volatility. This risk reduction doesn't require sacrificing expected return — hence the 'free lunch' characterization."
+        }
+      ]
+    },
+    {
+      "slug": "index-funds-and-etfs",
+      "title": "Index Funds: The Evidence-Based Approach",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "In 1976, John Bogle at Vanguard launched the first index fund available to retail investors — a product so boring that it was mocked as 'Bogle's Folly.' The idea was simple: instead of paying analysts to pick stocks, just buy all the stocks in an index and match the market return.\n\nFifty years later, index funds have captured the majority of new investment dollars, outperformed most active managers over most time periods, and made Bogle one of the most consequential figures in financial history — because his boring product put more money in ordinary investors' pockets than any fancy strategy.\n\nThis lesson is about why index funds work — and how to actually use them."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Expense Ratio: The One Number That Matters Most",
+          "content": "Every investment fund charges a fee for managing your money, expressed as an expense ratio — the annual percentage of your investment taken as fees.\n\nThis number matters enormously over long time horizons:\n\n- $100,000 at 7% return over 30 years, 0.03% expense ratio → ~$749,000\n- $100,000 at 7% return over 30 years, 1.00% expense ratio → ~$574,000\n- Difference: ~$175,000 — from fees alone\n\nVanguard, Fidelity, and Schwab offer broad market index funds with expense ratios of 0.03-0.04%. Many actively managed funds charge 0.5-1.5%. The actively managed fund needs to outperform the index by the difference in fees — every year — just to break even. Most don't.\n\nFinding the expense ratio of any fund is the first thing to do before investing in it."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Warren Buffett — widely regarded as the greatest investor of all time — has repeatedly recommended index funds over active management for most investors, including in his company's annual letters and his famous $1 million bet.\n\nIn 2007, Buffett bet $1 million that a simple S&P 500 index fund would outperform a group of hedge funds over 10 years. He won easily: the index fund returned about 7.1% annually, while the hedge funds averaged 2.2% annually — net of their substantial fees.\n\nThe world's best investor recommending index funds isn't modesty — it's the honest recognition that markets are hard to beat, fees are certain, and compounding with low fees outperforms expensive active management for most people over most time periods."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Three Funds to Rule Them All",
+          "content": "The three-fund portfolio — a staple of the Bogleheads investing community — provides a complete, globally diversified portfolio using three index funds:\n\n1. **Total US Stock Market Index Fund** — exposure to thousands of US companies, large and small.\n2. **Total International Stock Market Index Fund** — exposure to developed and emerging markets outside the US.\n3. **Total Bond Market Index Fund** — US bonds for stability and income.\n\nTypical allocations: younger investors heavy in stocks (80-90%), older investors gradually shifting toward more bonds as retirement approaches.\n\nThis portfolio requires no stock picking, no market timing, no analysis of individual companies. It can be maintained with one rebalancing session per year. It outperforms most professionally managed portfolios over 20+ year horizons. It is boring. It works."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Dollar-Cost Averaging",
+          "content": "**Dollar-cost averaging (DCA)** is the practice of investing a fixed amount at regular intervals regardless of market conditions — buying more shares when prices are low and fewer when prices are high.\n\nDCA's primary benefit is behavioral rather than mathematical: it removes the psychological paralysis of 'is now a good time to invest?' and replaces it with a consistent, automatic system. Over time, the average cost per share is typically lower than if you had tried to time purchases at market peaks.\n\nDCA is what happens automatically when you contribute to a 401(k) with each paycheck — a significant part of why automatic retirement contributions produce better outcomes than equivalent manual investing. The automaticity removes the behavioral variables that cause most investor underperformance."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "If you have money to invest — even a small amount:\n\n1. Open an account at Vanguard, Fidelity, or Schwab if you don't have one (all are free and reputable)\n2. Look up a target-date index fund for your retirement year (e.g., 'Target Date 2055 Fund') — it automatically provides the three-fund diversification and rebalances over time\n3. Check the expense ratio — it should be under 0.20%. Anything above 0.50% deserves scrutiny.\n4. Set up an automatic monthly contribution — even $25 — so DCA works automatically\n\nYou don't need $10,000 to start. Most major brokerages have no minimum investment requirement for index funds. Starting small and consistent is infinitely better than waiting for the 'right' time or amount."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does a 1% difference in expense ratio produce such a large difference in long-term wealth?",
+          "optionA": "1% per year compounds on an increasingly large base — over 30 years, it compounds into a significant fraction of total portfolio value",
+          "optionB": "High-fee funds invest in higher-risk assets that underperform over time",
+          "optionC": "The management fees reduce reinvestable income, which slows the compounding curve",
+          "optionD": "Both A and C — fees compound against you the same way returns compound for you",
+          "correctAnswer": "D",
+          "explanation": "The 1% fee reduces your effective annual return by 1% every year. Because returns compound, a smaller annual return produces an increasingly large gap over time — the $175,000 difference in the example comes entirely from this compounding effect of a 0.97% fee difference."
+        },
+        {
+          "question": "What was the result of Warren Buffett's 10-year, $1 million bet against hedge funds?",
+          "optionA": "The hedge funds slightly outperformed the index, but not enough to justify their fees",
+          "optionB": "The S&P 500 index fund returned ~7.1% annually vs. ~2.2% for the hedge funds — Buffett won easily",
+          "optionC": "Both performed similarly, proving that market exposure — not strategy — determines returns",
+          "optionD": "The hedge funds outperformed in the first 5 years but underperformed in the second half",
+          "correctAnswer": "B",
+          "explanation": "Buffett's index fund returned ~7.1% annually vs. the hedge funds' ~2.2% net of fees — a massive gap that accumulated over 10 years. The world's best investor recommending index funds over professional management is a significant data point for most investors."
+        },
+        {
+          "question": "What is the primary benefit of dollar-cost averaging (DCA)?",
+          "optionA": "It guarantees a lower average cost per share than lump-sum investing in all market conditions",
+          "optionB": "It is primarily behavioral — it removes the paralysis of 'is now the right time?' and replaces it with an automatic, consistent system that eliminates the timing decisions that cause most investor underperformance",
+          "optionC": "It protects against market downturns by avoiding large purchases at peaks",
+          "optionD": "It maximizes returns by automatically investing more when stocks are cheap",
+          "correctAnswer": "B",
+          "explanation": "DCA's main advantage is behavioral: it replaces timing decisions with automaticity. Research shows lump-sum investing actually outperforms DCA mathematically in rising markets — but the behavioral benefit of DCA (removing decisions that cause bad timing) makes it the better real-world strategy for most investors."
+        }
+      ]
+    },
+    {
+      "slug": "understanding-stock-market",
+      "title": "Understanding the Stock Market",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The stock market is one of the most written-about and least understood systems in modern life. The nightly news treats it as a scoreboard that tells you how the economy is doing. Financial media treats every movement as news. Most people treat it as either a casino or an incomprehensible system best left to professionals.\n\nIt is none of these things. The stock market is a mechanism for owning pieces of businesses — and over long time horizons, owning pieces of growing businesses is one of the most reliable wealth-building tools humans have ever created.\n\nUnderstanding what it actually is makes it much less intimidating — and much more useful."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "What a Stock Actually Is",
+          "content": "A stock (also called an equity or share) is a fractional ownership stake in a company. When you buy one share of Apple, you own a tiny piece of Apple — its assets, earnings, and future growth.\n\nStocks earn returns in two ways:\n\n**Capital appreciation:** The price increases as the company becomes more valuable.\n**Dividends:** The company distributes a portion of its profits directly to shareholders.\n\nOver the long term, stock returns reflect the underlying performance of businesses: earnings growth, profitability, and competitive advantage. In the short term, prices are driven by sentiment, expectations, news, and investor psychology — which is why short-term price movements are essentially unpredictable, and long-term trends are more reliable.\n\nThis distinction — noisy short-term, signal long-term — is the conceptual foundation of sound investing."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The S&P 500 — the most widely tracked index of US large-cap stocks — has experienced an intraday decline of 20% or more in about 5% of trading sessions since 1928. Yet it has delivered approximately 10% average annual returns over that entire period (about 7% after inflation).\n\nEqually striking: the index has recovered from every major crash in history. The 2000 dot-com bust, the 2008 financial crisis, the 2020 COVID crash — each produced panic, headlines predicting permanent decline, and massive investor outflows. Each was followed by recovery and new highs.\n\nThis doesn't guarantee the future will mirror the past. But it does suggest that the correct historical response to market crashes was staying invested — not selling."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Volatility Is Not Loss",
+          "content": "One of the most important conceptual distinctions in investing: volatility (price movement) is not the same as loss.\n\nA 30% portfolio decline is painful to watch. It is not a loss unless you sell. The loss is only realized when you convert declining assets to cash. If you hold through the decline — as history suggests you should — the assets may recover fully and then some.\n\nSelling during a downturn turns a temporary decline into a permanent one. This is the mechanism behind most investor underperformance: the psychological discomfort of watching a portfolio fall produces the behavioral response (selling) that makes the paper loss real.\n\nThe investor who survives a 30% decline without selling and holds to recovery has lost nothing — except a few stressful nights. The investor who sells at the bottom has locked in the loss and must also time the re-entry correctly, which most don't."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Market Capitalization",
+          "content": "**Market capitalization** (market cap) is the total market value of a company's outstanding shares — calculated as share price × number of shares outstanding. It's the most common metric for measuring a company's size.\n\nCompanies are typically categorized as:\n- **Large-cap:** Market cap above $10 billion (Apple, Microsoft, Amazon)\n- **Mid-cap:** $2-10 billion\n- **Small-cap:** $300 million - $2 billion\n\nSmall-cap stocks historically offer higher potential returns with higher volatility. Large-cap stocks are more stable with typically lower growth. Diversified index funds hold stocks across all cap sizes in proportion to their market weight — providing automatic exposure to growth opportunities without concentrated risk in any size category."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "When you next encounter market news — a headline about the market being up or down — run this three-question filter:\n\n1. Is this short-term noise or a fundamental change in the underlying businesses? (It's usually noise.)\n2. How does this affect my investment horizon? (If you're 20+ years from needing the money, most short-term moves are irrelevant.)\n3. Am I feeling an impulse to sell? (That impulse, historically, is one of the most reliable indicators to stay put — not to act.)\n\nBuilding these reflexes before you encounter your first significant market decline is better than trying to develop them while watching your portfolio drop 25%."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the distinction between volatility and loss in investing, and why does it matter?",
+          "optionA": "Volatility measures temporary price movements; loss is permanent — but both reduce portfolio value equally over time",
+          "optionB": "A portfolio decline is only a realized loss when you sell — if you hold through the decline, it may fully recover. Selling converts temporary decline into permanent loss",
+          "optionC": "Volatility is a measure of risk; loss is a measure of performance — managing volatility is how you prevent loss",
+          "optionD": "Volatility and loss are equivalent in liquid investments — the market price is always your true portfolio value",
+          "correctAnswer": "B",
+          "explanation": "Paper losses from market declines only become real when you sell. The S&P 500 has recovered from every major historical crash. Investors who sold during downturns locked in permanent losses; those who held recovered and often profited. The behavioral challenge — staying put — is what most investing success depends on."
+        },
+        {
+          "question": "In the long run, what do stock returns primarily reflect?",
+          "optionA": "Investor sentiment and media coverage of economic conditions",
+          "optionB": "The underlying performance of businesses — earnings growth, profitability, and competitive advantage",
+          "optionC": "Interest rates and monetary policy set by central banks",
+          "optionD": "Supply and demand dynamics driven by institutional buying and selling",
+          "correctAnswer": "B",
+          "explanation": "Short-term prices are driven by sentiment and news — which is why they're unpredictable. Long-term returns reflect underlying business performance — earnings growth, competitive position, and profitability. This distinction explains why long-term investing is fundamentally different from short-term trading."
+        },
+        {
+          "question": "What does market cap tell you about a stock, and how do index funds use it?",
+          "optionA": "Market cap measures a company's revenue and profitability relative to its sector",
+          "optionB": "Market cap is total market value (share price × shares outstanding), measuring size; diversified index funds hold stocks across all cap sizes weighted by market value, providing automatic broad exposure",
+          "optionC": "Market cap is a valuation metric — high market cap means overvalued; low means undervalued",
+          "optionD": "Market cap determines the dividend yield of a stock — larger companies pay more predictable dividends",
+          "correctAnswer": "B",
+          "explanation": "Market cap simply measures company size (price × shares). Broad index funds weight holdings by market cap — larger companies represent larger portions of the fund, reflecting their actual market weight and providing automatic diversification across size categories."
+        }
+      ]
+    },
+    {
+      "slug": "investing-for-retirement",
+      "title": "Investing for Retirement",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Retirement planning is the most consequential long-term financial decision most people make — and the one with the most lead time to get right.\n\nThe math is unforgiving: a dollar invested at 25 in a diversified portfolio is worth roughly 15-20 times as much at 65 as a dollar invested at 45. The cost of starting late is enormous. The benefit of starting early — even with small amounts — is even larger than most people intuit.\n\nThe good news: retirement investing doesn't require skill, luck, or specialized knowledge. It requires understanding a few accounts, a simple investment choice, and the patience to leave it alone."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Retirement Account Hierarchy",
+          "content": "Three account types form the backbone of most retirement plans, in order of priority:\n\n**401(k) up to employer match first:** Free money. Always take the full match before anything else.\n\n**Roth IRA (or traditional IRA):** $7,000 annual limit (2024). Roth is usually better when you're younger and in a lower bracket — tax-free growth forever is powerful when time horizon is long.\n\n**401(k) beyond the match:** Tax-deferred growth on up to $23,000 annually (2024). Higher limits than IRA.\n\n**HSA if eligible:** Triple tax advantage; use for medical but can invest the rest.\n\n**Taxable brokerage:** After all tax-advantaged space is filled.\n\nThis hierarchy maximizes the tax advantages of each account type. Investing in the wrong order — like a taxable brokerage before filling an IRA — leaves legal, accessible tax benefits unclaimed."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The difference between starting retirement savings at 25 vs. 35 — just 10 years — is dramatic.\n\nPerson A invests $5,000/year from age 25-35 (10 years, $50,000 total), then stops and never adds another dollar. At 7% annual return, at age 65: approximately $602,000.\n\nPerson B invests $5,000/year from age 35-65 (30 years, $150,000 total). At 7% annual return, at age 65: approximately $472,000.\n\nPerson A invested $100,000 less than Person B — and ends up with $130,000 more. The early decade of compounding, left alone, outgrows three decades of continued investment.\n\nThis is not a trick. It is compound interest, and it is why starting matters more than the amount."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Target-Date Funds: The Default That Works",
+          "content": "The single most appropriate investment choice for most retirement savers — including many sophisticated ones — is a target-date index fund.\n\nA target-date fund (like 'Vanguard Target Retirement 2055') automatically provides:\n- Broad diversification across US and international stocks and bonds\n- An age-appropriate allocation (more stocks when young, shifting toward bonds as retirement approaches)\n- Automatic annual rebalancing\n- Extremely low expense ratio (Vanguard, Fidelity, and Schwab versions are typically 0.10-0.15%)\n\nThis is a complete, professionally managed, self-adjusting investment strategy in one fund — requiring no monitoring, no rebalancing decisions, and no ongoing management.\n\nIf you're not sure what to invest in for retirement, a target-date fund is the correct default answer."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The 4% Rule",
+          "content": "The **4% rule** (also called the 'safe withdrawal rate') is a retirement planning guideline suggesting that you can withdraw 4% of your portfolio value in year one of retirement, adjust for inflation annually, and have a high probability of your portfolio lasting 30 years.\n\nDeveloped from the 'Trinity Study' (Cooley, Hubbard, and Walz, 1998), which backtested withdrawal rates across historical market conditions, the 4% rule provides a rough target for how much you need to retire:\n\n**Retirement nest egg target = Annual expenses × 25**\n\nIf you need $60,000/year in retirement: $60,000 × 25 = $1.5 million target portfolio.\n\nThe rule has been debated — some researchers prefer 3.3-3.5% for longer retirements or uncertain markets — but it remains the most useful first-order estimate for retirement planning."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Three retirement actions, ranked by impact:\n\n**Most impactful if you haven't started:** Open a Roth IRA today. It takes 15 minutes at Vanguard, Fidelity, or Schwab. Pick a target-date index fund. Contribute anything — even $50.\n\n**Most impactful if you have a 401(k):** Check your contribution rate. Are you getting the full employer match? If not, increase your contribution by 1% this week.\n\n**Most impactful if you're on track:** Run the 4% rule calculation. Annual expenses × 25 = your retirement target. Know how far away you are. Then calculate: if you continue at your current savings rate, when do you get there? The number is usually surprising in one direction or the other."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does the 10-year early investor (Person A) end up with more money than the 30-year late investor (Person B), despite investing less total?",
+          "optionA": "Early investors benefit from lower market prices before major run-ups in stock valuations",
+          "optionB": "Compound interest on an early decade of investment, left untouched, outgrows three decades of later contributions — time in market is the dominant variable",
+          "optionC": "Person A's higher-risk early portfolio produced outsized returns in their 20s and 30s",
+          "optionD": "The tax advantages of Roth accounts in early decades provide a compounding tax benefit that later savers miss",
+          "correctAnswer": "B",
+          "explanation": "Person A's $50,000 invested from 25-35 compounds for 40 years (25 to 65). Person B's $150,000 invested from 35-65 averages only 15 years of compounding. Early money has far more time to multiply — which is why starting matters more than the amount."
+        },
+        {
+          "question": "What makes target-date index funds an appropriate default investment for most retirement savers?",
+          "optionA": "They guarantee a minimum return based on the target retirement date",
+          "optionB": "They automatically provide broad diversification, an age-appropriate allocation that shifts over time, automatic rebalancing, and low expense ratios — a complete, self-managing strategy in one fund",
+          "optionC": "They outperform custom-built portfolios by optimizing asset allocation using current market conditions",
+          "optionD": "They are insured by the FDIC up to the target retirement date, providing principal protection",
+          "correctAnswer": "B",
+          "explanation": "Target-date funds are complete retirement strategies: diversified across US/international stocks and bonds, automatically shifting toward more conservative allocation as retirement approaches, self-rebalancing, with low fees from major providers. They require no ongoing decision-making."
+        },
+        {
+          "question": "What does the 4% rule help you calculate, and what is the resulting formula?",
+          "optionA": "The annual return needed on your portfolio to retire by your target date",
+          "optionB": "A sustainable withdrawal rate from a retirement portfolio — and through inversion, the retirement savings target: annual expenses × 25",
+          "optionC": "The percentage of annual income to save in order to retire within 30 years",
+          "optionD": "The inflation-adjusted growth rate needed to maintain purchasing power in retirement",
+          "correctAnswer": "B",
+          "explanation": "The 4% rule suggests you can withdraw 4% of a portfolio annually and have high probability of 30-year portfolio survival. Inversely, your target portfolio = annual expenses × 25. It's the most widely used first-order retirement savings target."
+        }
+      ]
+    },
+    {
+      "slug": "investor-psychology",
+      "title": "The Psychology of Investing",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The biggest obstacle to successful investing is not lack of information. It's not poor fund selection, bad market timing, or insufficient capital.\n\nIt's you.\n\nMore specifically: it's the predictable ways that human psychology produces investing behavior that destroys returns — buying high, selling low, chasing performance, overestimating knowledge, and under-estimating risk.\n\nEvery investor — including sophisticated professionals — is vulnerable to these patterns. The difference between average investors and the ones who actually build wealth is largely their ability to recognize and manage their own psychology. This lesson teaches you how."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Emotional Market Cycle",
+          "content": "Markets move in cycles — and investor emotions move with them, predictably and counterproductively:\n\n**Rising market:** Optimism → Excitement → Thrill → Euphoria (point of maximum financial risk — when investors buy most)\n\n**Peak to decline:** Anxiety → Denial → Fear → Desperation → Panic (point of maximum financial opportunity — when investors sell most)\n\n**Bottom to recovery:** Depression → Disbelief → Hope → Relief → Optimism\n\nThe problem: human buying and selling behavior tends to peak at exactly the wrong moments. Euphoria drives buying when prices are highest. Panic drives selling when prices are lowest.\n\nInvestor psychology doesn't align with market cycles — it's systematically inverted relative to optimal timing. Understanding this doesn't make you immune, but it creates a frame for recognizing when your instincts are most likely to be wrong."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "In 2020, during the COVID market crash, millions of first-time investors opened accounts on Robinhood and other trading apps. Research by Brad Barber and Terrance Odean — who have studied investor behavior for decades — found that retail investors' frantic trading during this period significantly underperformed the index.\n\nBut here's the more interesting finding: the accounts that fared best were accounts whose owners had forgotten about them, or had died. Literally. Inactive accounts outperformed active ones.\n\nThis is not entirely surprising — the research consistently shows that investor activity, especially during volatile markets, is negatively correlated with returns. The best investing strategy often looks identical to doing nothing."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Recency Bias: The Investor's Worst Enemy",
+          "content": "Recency bias — the tendency to assume that recent market trends will continue — is the cognitive bias most responsible for investor underperformance.\n\nWhen markets have been rising for five years, investors feel confident that markets will continue rising. Fund flows into stocks peak. When markets have been falling for six months, investors feel certain they will continue falling. Fund flows out of stocks peak.\n\nBoth instincts are wrong at the moment they're strongest — because markets mean-revert, and the sentiment that feels most certain near the peak (or trough) is precisely when the trend is most likely to reverse.\n\nThe structural defense against recency bias: a pre-committed investment plan that doesn't respond to market conditions. Automatic monthly contributions, rebalancing on a schedule, and a written investment policy that you read before making any changes are all tools that externalize the discipline you need most when your instincts are worst."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Loss Aversion in Investing",
+          "content": "**Loss aversion** in investing is the documented tendency to feel losses approximately twice as intensely as equivalent gains — which produces predictable investment errors: holding losers too long (avoiding the pain of realizing a loss), selling winners too soon (taking the pleasure of a confirmed gain), and being too conservative after experiencing a loss.\n\nKahneman and Tversky's foundational work showed that the pain of a $10,000 loss is roughly equivalent to the pleasure of a $20,000 gain. This asymmetry means that a portfolio that is down 20% produces more psychological pain than a 20% gain produces pleasure — which creates pressure to change strategy precisely when holding would be optimal.\n\nUnderstanding loss aversion doesn't eliminate it. But knowing it predicts specific errors — especially in declining markets — gives you a framework for recognizing when your instincts are being driven by loss aversion rather than rational analysis."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Write an investment policy statement — a one-page document that captures your investing strategy when you're calm, which you'll read before making any changes when markets are volatile.\n\nInclude:\n1. My investment goal and time horizon\n2. My target allocation (e.g., 80% stocks, 20% bonds)\n3. My chosen funds (e.g., Vanguard Target Date 2055)\n4. My rebalancing schedule (e.g., annually in January)\n5. My commitment: 'I will not make portfolio changes because of short-term market moves'\n\nThis document sounds simple. It is simple. And it's one of the most effective tools for overriding the psychological impulses that cause most investor underperformance — because you made the decision in advance, before your emotions were in charge."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does research on forgotten and deceased investor accounts reveal about the relationship between activity and investing returns?",
+          "optionA": "Passive investors miss buying opportunities during volatility that active managers capture",
+          "optionB": "Inactive accounts outperformed active ones — investor activity, especially during volatile markets, is negatively correlated with returns",
+          "optionC": "Accounts with automatic rebalancing performed better than both active and forgotten accounts",
+          "optionD": "Performance differences are random and reflect the market's unpredictability rather than investor behavior",
+          "correctAnswer": "B",
+          "explanation": "Research by Barber and Odean consistently finds that investor activity is negatively correlated with returns — the more trading, the worse the outcome. Inactive (including forgotten) accounts consistently outperformed active ones, especially during volatile periods."
+        },
+        {
+          "question": "How does recency bias systematically harm investor returns?",
+          "optionA": "Investors overvalue recent earnings growth and pay too much for trending stocks",
+          "optionB": "Recent trends feel most certain at the moment they're most likely to reverse — driving buying at peaks and selling at troughs, which is exactly backwards from optimal timing",
+          "optionC": "Recency bias causes investors to hold assets that performed recently but aren't suitable for their long-term goals",
+          "optionD": "Investors extrapolate recent volatility as permanent, avoiding stocks after volatile periods when returns are typically higher",
+          "correctAnswer": "B",
+          "explanation": "Recency bias peaks precisely when markets peak — the trend that feels most certain at the top is closest to reversal. This drives buying high (euphoria) and selling low (panic) — the systematic inversion of optimal investing behavior."
+        },
+        {
+          "question": "What is an Investment Policy Statement, and why is writing one when calm more effective than relying on in-the-moment judgment?",
+          "optionA": "A legal document required for professional investment advice that outlines fiduciary responsibilities",
+          "optionB": "A personal document capturing your strategy, allocation, and commitment when rational — to read and follow when markets are volatile and emotional impulses (especially loss aversion) would otherwise override sound strategy",
+          "optionC": "A performance benchmark that tracks your portfolio against appropriate market indices",
+          "optionD": "A diversification plan that specifies which assets to hold across different economic conditions",
+          "correctAnswer": "B",
+          "explanation": "An IPS is a commitment device — a decision made when calm that governs behavior when emotions are high. It externalizes the discipline needed most precisely when psychological biases (loss aversion, recency bias) are most actively pushing toward destructive behavior."
+        }
+      ]
+    }
+  ]
+}

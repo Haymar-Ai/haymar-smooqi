@@ -1,0 +1,365 @@
+{
+  "courseSlug": "money-basics",
+  "lessons": [
+    {
+      "slug": "how-money-works",
+      "title": "How Money Actually Works",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most people spend most of their lives interacting with money without ever understanding how it works. They earn it, spend it, and occasionally worry about it — but the underlying mechanics remain a mystery.\n\nThis isn't your fault. Personal finance isn't taught in school. The concepts that determine your financial life — inflation, interest, compounding, taxes — get treated as specialized knowledge for bankers and accountants.\n\nThey're not. They're the vocabulary of financial reality. And once you have the vocabulary, decisions that used to feel overwhelming become much simpler."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Income, Expenses, and the Gap Between Them",
+          "content": "Every personal financial situation comes down to one fundamental equation:\n\n**Net Worth = What You Own − What You Owe**\n\nAnd net worth changes through one mechanism:\n\n**Cash Flow = Income − Expenses**\n\nIf your cash flow is positive — you earn more than you spend — net worth grows over time. If it's negative — you spend more than you earn — net worth shrinks.\n\nThis sounds obvious. But most people optimize for income (get a better job, earn more) without optimizing for cash flow (what happens to the money after it arrives). Research consistently shows that higher income does not reliably produce greater wealth — the critical variable is the gap, not the total, and what you do with the gap."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "A survey by the Federal Reserve found that roughly 37% of Americans would struggle to cover an unexpected $400 emergency expense. Not 37% of low-income Americans — 37% of all Americans surveyed, across income levels.\n\nSeparately, research on lottery winners found that the majority were in worse financial shape within five years of winning than they were before — because high income without financial literacy and systems produces high spending, not high wealth.\n\nThis is why financial literacy — understanding how money works — matters more than income level in predicting long-term financial health."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Power of Compounding",
+          "content": "Albert Einstein reportedly called compound interest the 'eighth wonder of the world.' Whether he said it or not, the math justifies the claim.\n\nCompounding means earning returns on your returns — not just on the original amount. The result is exponential, not linear, growth:\n\n- $10,000 invested at 7% annual return for 10 years → $19,671\n- $10,000 invested at 7% annual return for 30 years → $76,123\n- $10,000 invested at 7% annual return for 40 years → $149,745\n\nThe same money, the same return rate — but time transforms the outcome. The key variable isn't the return rate or even the amount. It's the time in the market.\n\nCompounding also works against you — on debt, especially high-interest debt. The same exponential math that builds wealth when you save is what makes credit card debt so destructive."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Inflation",
+          "content": "**Inflation** is the general increase in prices over time — which means the purchasing power of money decreases. $100 today does not buy what $100 bought 20 years ago, and won't buy what it buys today in 20 years.\n\nThe US Federal Reserve targets 2% annual inflation as a benchmark for a stable economy. At 2% inflation, money loses half its purchasing power in about 36 years.\n\nThis means cash savings alone are not neutral — they are slowly declining in real value. Keeping money in a savings account earning 0.5% while inflation runs at 3% means your purchasing power is shrinking by 2.5% per year, even as the nominal number sits unchanged.\n\nUnderstanding inflation is why 'just save money' is incomplete advice — and why investing (beating inflation) is necessary for real financial progress, not just optional for the wealthy."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Calculate your basic financial picture in 15 minutes:\n\n1. **Monthly income (after tax):** What actually hits your account?\n2. **Monthly fixed expenses:** Rent/mortgage, utilities, subscriptions, loan payments\n3. **Monthly variable expenses:** Food, transport, entertainment, miscellaneous\n4. **Monthly gap:** Income minus total expenses\n\nIs the gap positive or negative? Is it going toward savings, investments, or disappearing?\n\nYou don't need a budget app. A napkin works. The act of calculating the number — even roughly — creates the clarity that most people avoid. Clarity is the first tool."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does high income not reliably produce high wealth?",
+          "optionA": "High earners pay more in taxes, which significantly reduces their net advantage",
+          "optionB": "The critical variable is the gap between income and expenses — and what you do with that gap — not the income level itself",
+          "optionC": "High earners tend to invest in higher-risk assets that reduce overall returns",
+          "optionD": "Social expectations of lifestyle inflation make it difficult to save at higher income levels",
+          "correctAnswer": "B",
+          "explanation": "Lottery winner research and Federal Reserve surveys confirm that income alone doesn't produce wealth. The gap (income minus expenses) and what happens to that gap — saved, invested, or spent — is the decisive variable."
+        },
+        {
+          "question": "What makes compounding so powerful over long time horizons?",
+          "optionA": "Compound interest rates are typically higher than simple interest rates",
+          "optionB": "Returns are earned on returns, not just the original principal — producing exponential rather than linear growth, where time is the key variable",
+          "optionC": "Compounding reduces tax liability because gains are reinvested rather than withdrawn",
+          "optionD": "The compounding rate increases over time as the account grows larger",
+          "correctAnswer": "B",
+          "explanation": "Compounding earns returns on returns — exponential, not linear growth. The same $10,000 at 7% produces $19,671 over 10 years but $149,745 over 40 years. The rate and amount matter; time matters most."
+        },
+        {
+          "question": "Why is keeping money in a low-interest savings account not financially neutral?",
+          "optionA": "Banks charge hidden fees that reduce savings balances over time",
+          "optionB": "Inflation erodes purchasing power — if inflation exceeds your savings rate, your real wealth is shrinking even as the nominal number is stable",
+          "optionC": "Opportunity cost means there is always a better investment that makes cash savings relatively worse",
+          "optionD": "Savings account balances are not protected from bank fees and economic cycles",
+          "correctAnswer": "B",
+          "explanation": "Inflation at 3% and savings at 0.5% means your purchasing power declines 2.5% per year. The nominal balance looks the same — the real value shrinks. This is why investing to beat inflation is necessary for financial progress, not a luxury."
+        }
+      ]
+    },
+    {
+      "slug": "budgeting-that-works",
+      "title": "Budgeting That Actually Works",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most people fail at budgeting not because they lack discipline, but because traditional budgeting is designed wrong for human psychology.\n\nThe standard approach — track every dollar, set rigid category limits, feel guilty when you miss — is high-friction, shame-inducing, and doesn't account for the reality that life is variable. It treats you like a budget line item rather than a person.\n\nEffective budgeting works with human psychology rather than against it. It automates what can be automated, gives you permission to spend freely within defined space, and requires minimum ongoing maintenance. This lesson shows you what that looks like."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The 50-30-20 Framework",
+          "content": "The most widely recommended and research-supported budgeting framework is the 50-30-20 rule, popularized by Senator Elizabeth Warren and her daughter Amelia Warren Tyagi in 'All Your Worth':\n\n**50% — Needs:** Housing, utilities, groceries, transportation, minimum debt payments, health insurance. The non-negotiables.\n\n**30% — Wants:** Dining out, entertainment, subscriptions, clothing, hobbies. Enjoyable but optional.\n\n**20% — Savings and debt repayment:** Emergency fund, retirement, investments, extra debt payments.\n\nThis isn't meant to be mathematically precise — it's a pressure-test. If your Needs exceed 60%, your lifestyle isn't financially sustainable regardless of income. If your Savings is near zero, you're one emergency away from debt.\n\nThe framework gives you permission to spend the 30% freely — without guilt — once the 50% and 20% are covered."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Behavioral economists have studied why people fail at financial self-control and identified a counterintuitive finding: mental accounting — treating different pools of money differently based on their source or designated purpose — can actually help financial behavior.\n\nRichard Thaler (Nobel Prize, Economics, 2017) found that people spend windfall income (tax refunds, bonuses) very differently than regular income — usually on 'discretionary' categories. This irrationality can be harnessed: people who pre-designate a bonus as 'emergency fund' or 'vacation savings' before receiving it follow through at much higher rates than those who receive it as general income and plan to save some.\n\nThe practical tool: separate bank accounts for different purposes. 'Fun money' feels different from 'savings' even if they're mathematically identical."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Pay Yourself First",
+          "content": "The most powerful single change in personal finance is automating savings before spending — 'paying yourself first.'\n\nMost people's savings approach: earn money → pay bills → spend on life → save whatever is left. The problem: whatever is left is almost always close to zero, regardless of income.\n\nThe alternative: earn money → automatically transfer a fixed amount to savings/investment → spend the rest. This single change — automatic transfer on payday, before you see or have access to the money — is the mechanism underlying virtually every study on successful savers.\n\nWhen savings is manual and optional, it competes with immediate desires and usually loses. When it's automatic and invisible, it happens consistently. The rate matters less than the habit: saving 10% automatically beats saving 20% 'when you get around to it' by a wide margin over time."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Emergency Fund",
+          "content": "An **emergency fund** is a pool of cash savings kept in a liquid, accessible account (not invested) specifically for unexpected necessary expenses — job loss, medical bills, car repair, home emergency.\n\nThe standard recommendation is 3-6 months of essential expenses (Needs category from the 50-30-20 framework). This number has strong empirical support: the vast majority of financial emergencies are resolved within six months, and the psychological security of having the fund measurably reduces financial anxiety even before any emergency arises.\n\nThe emergency fund is not a savings goal — it's a prerequisite for financial stability. Without it, every unexpected expense becomes debt. With it, you can stop using a credit card as your emergency fund — which is one of the most expensive financial habits possible."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Set up one automatic transfer today:\n\n1. Decide a percentage of your take-home pay you'll save — even 5% to start\n2. Set it as an automatic transfer from your checking account to a savings account on your payday\n3. Open a separate savings account labeled 'Emergency Fund' if you don't have one\n\nThe automation is the entire mechanism. You don't need discipline to save if the saving happens before you see the money. Start small if necessary — $25/paycheck is better than $0/paycheck with a plan to save more 'someday.'"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "In the 50-30-20 framework, what does the 20% cover — and why is it prioritized?",
+          "optionA": "Discretionary spending — things that don't have a fixed monthly cost",
+          "optionB": "Savings and debt repayment — because without intentional savings allocation, it competes with spending and usually loses",
+          "optionC": "Variable expenses — costs that change month to month based on circumstances",
+          "optionD": "Investment accounts — money set aside specifically for long-term wealth building",
+          "correctAnswer": "B",
+          "explanation": "The 20% covers savings, emergency fund, investment, and extra debt payments. It's prioritized structurally (not just as a guideline) because savings left to compete with spending consistently loses. Paying yourself first is the mechanism."
+        },
+        {
+          "question": "What did Richard Thaler's mental accounting research reveal about financial self-control?",
+          "optionA": "People make worse financial decisions when they think carefully about money than when they use intuition",
+          "optionB": "Pre-designating money before receiving it (e.g., 'this bonus is for my emergency fund') significantly increases follow-through compared to receiving money as general income and planning to save some",
+          "optionC": "People who track spending in categories spend less than those who track total amounts only",
+          "optionD": "Separate accounts for different goals reduce overall saving by making people feel they have less available for general expenses",
+          "correctAnswer": "B",
+          "explanation": "Thaler's mental accounting research showed that pre-designation before receipt dramatically improves follow-through. Separate accounts labeled by purpose harness this 'irrationality' productively — 'fun money' and 'savings' feel different even when mathematically identical."
+        },
+        {
+          "question": "Why is an emergency fund described as a 'prerequisite' rather than a 'goal'?",
+          "optionA": "It must be established before any other financial planning is worth pursuing",
+          "optionB": "Without it, every unexpected expense becomes debt — which makes all other financial goals harder or impossible to achieve",
+          "optionC": "It is required by most financial institutions before you can open investment accounts",
+          "optionD": "The psychological security it provides is foundational to making rational financial decisions in all other areas",
+          "correctAnswer": "B",
+          "explanation": "Without an emergency fund, every financial emergency creates debt — which compounds and undermines every other financial goal. It's a prerequisite because without it, you're one unexpected expense away from the debt spiral that makes wealth-building impossible."
+        }
+      ]
+    },
+    {
+      "slug": "understanding-taxes",
+      "title": "Taxes: What You Actually Need to Know",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Taxes are one of the most misunderstood — and most consequential — elements of personal finance. Most people know taxes exist and vaguely know they're complicated. Fewer understand the basic concepts that determine how much they pay and how to legally minimize it.\n\nTax illiteracy is expensive. Research suggests that most taxpayers pay more than required simply because they don't know the strategies available to them — not through any sophisticated scheme, but through basic, legal, and widely available tools.\n\nThis lesson covers what you need to know to stop paying more than you legally have to."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How Tax Brackets Actually Work",
+          "content": "One of the most common and costly tax misconceptions: 'If I earn more, I'll move into a higher tax bracket and take home less.'\n\nThis is wrong. The US uses a **marginal** (progressive) tax system — each bracket's rate applies only to income within that range, not to all income.\n\nExample: if the 22% bracket starts at $41,775 (married filing jointly, 2023 approximation), earning $42,000 doesn't mean 22% on all $42,000. It means 10% on the first portion, 12% on the next portion, and 22% only on the $225 that falls in the 22% bracket.\n\nYour 'marginal rate' is the rate on your last dollar earned. Your 'effective rate' is the actual percentage you pay on total income — which is always lower than your marginal rate.\n\nFear of tax brackets has caused real people to decline raises and bonuses. It shouldn't."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The IRS estimates that Americans leave billions of dollars of unclaimed tax benefits on the table each year — through failure to claim deductions they're entitled to, failure to contribute to tax-advantaged accounts, and failure to claim credits they qualify for.\n\nOne study by the Government Accountability Office found that 20-25% of eligible taxpayers don't claim the Earned Income Tax Credit — one of the largest refundable credits available — leaving an average of over $2,400 per household unclaimed.\n\nThis isn't unique to low-information filers — research shows that even sophisticated professionals often miss significant tax optimization because they don't know what's available or didn't think it applied to them."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Tax-Advantaged Accounts Are Your Most Powerful Tool",
+          "content": "The most accessible, legal, and high-impact tax reduction strategies available to most people are not exotic — they're accounts: 401(k), IRA, HSA, 529.\n\n**401(k)/IRA (traditional):** Contributions are pre-tax, reducing taxable income now. Taxes paid later, in retirement, when your bracket is likely lower.\n\n**Roth 401(k)/Roth IRA:** Contributions are post-tax, but all growth and withdrawals are tax-free. Best if you expect your future tax rate to be higher.\n\n**HSA (Health Savings Account):** Triple tax advantage — contributions are pre-tax, growth is tax-free, withdrawals for medical expenses are tax-free. Available with high-deductible health plans.\n\nA person in the 22% bracket who contributes $6,500 to a traditional IRA saves $1,430 in taxes that year — immediately. And those returns compound tax-deferred for decades. This is the least complicated and most widely available wealth-building tool most people leave on the table."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Tax Deduction vs. Tax Credit",
+          "content": "A **tax deduction** reduces your taxable income — which then reduces the tax you owe based on your marginal rate. If you're in the 22% bracket and claim a $1,000 deduction, your tax bill drops by $220.\n\nA **tax credit** directly reduces your tax bill dollar-for-dollar. A $1,000 credit reduces your tax bill by exactly $1,000 — regardless of bracket. Credits are therefore more valuable than deductions of the same size.\n\nA **refundable tax credit** can reduce your tax bill below zero — producing a refund even if you owed no taxes. The Earned Income Tax Credit and Child Tax Credit are partially or fully refundable.\n\nKnowing the difference matters for prioritizing: if you have to choose, chase credits before deductions. They're not equivalent."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Three immediate actions that could reduce your tax burden:\n\n1. **Check your 401(k) contribution:** Are you contributing at least enough to get your employer match? If not, you're leaving free money — pre-tax free money — on the table.\n\n2. **Check if you have an HSA:** If you have a high-deductible health plan and aren't contributing to an HSA, you're missing the only triple-tax-advantaged account available.\n\n3. **Estimate your effective tax rate:** Look at last year's return — what was total tax paid ÷ total income? This is your effective rate. Understanding it reframes most tax anxiety from vague worry to a specific number you can actually improve."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "If someone in the 22% tax bracket earns $500 more and moves into that bracket's threshold, do they pay 22% on their entire income?",
+          "optionA": "Yes — once you enter a higher bracket, the new rate applies to all income",
+          "optionB": "No — the US uses a marginal (progressive) system where the higher rate applies only to income within that bracket, not all income",
+          "optionC": "It depends on whether the income is earned, investment, or self-employment income",
+          "optionD": "The 22% applies only if the entire income is above the threshold",
+          "correctAnswer": "B",
+          "explanation": "The marginal tax system means each rate applies only to income in that range. Your last dollar is taxed at your marginal rate; your effective rate (total tax ÷ total income) is always lower. This is why declining raises to 'avoid' a higher bracket is almost always mathematically wrong."
+        },
+        {
+          "question": "What is the triple tax advantage of an HSA?",
+          "optionA": "Contributions are pre-tax, growth is tax-deferred, and withdrawals for any purpose after 65 are tax-free",
+          "optionB": "Contributions are pre-tax, growth is tax-free, and withdrawals for medical expenses are tax-free",
+          "optionC": "Contributions earn a tax credit, growth is tax-deferred, and withdrawals are deductible",
+          "optionD": "Contributions and employer matches are both tax-free, and growth compounds without capital gains tax",
+          "correctAnswer": "B",
+          "explanation": "The HSA triple advantage: contributions are pre-tax (reduce taxable income), growth is completely tax-free, and qualified medical withdrawals are tax-free. It's the only account structure with all three benefits, making it uniquely powerful for those with high-deductible health plans."
+        },
+        {
+          "question": "Why is a $1,000 tax credit more valuable than a $1,000 tax deduction?",
+          "optionA": "Credits can be carried forward to future years; deductions expire annually",
+          "optionB": "A credit reduces your tax bill by exactly $1,000 regardless of bracket; a deduction only reduces taxable income, so its actual savings depends on your marginal rate (e.g., $220 savings in the 22% bracket)",
+          "optionC": "Credits are applied before deductions in the tax calculation, so they reduce the base that deductions apply to",
+          "optionD": "Tax credits are available to all taxpayers; deductions are subject to income phase-outs",
+          "correctAnswer": "B",
+          "explanation": "A deduction reduces taxable income — its tax savings is the deduction amount × your marginal rate (e.g., $220 on a $1,000 deduction at 22%). A credit reduces your tax bill dollar-for-dollar — $1,000 saves $1,000. Credits are always more valuable than equivalent deductions."
+        }
+      ]
+    },
+    {
+      "slug": "debt-and-credit",
+      "title": "Debt, Credit, and What They Actually Cost You",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Debt is not inherently bad. A mortgage on a home that appreciates in value can be a wealth-building tool. A student loan that produces a significantly higher-earning career can be a reasonable investment. A business loan that generates returns exceeding its interest cost is rational.\n\nBad debt — borrowing at high interest rates to buy things that depreciate or disappear — is a wealth destroyer. The math is unambiguous: paying 24% APR on a credit card balance while earning 7% on investments means you're losing 17% on every dollar of debt carried.\n\nUnderstanding what debt actually costs — and which kinds to avoid versus strategically use — is one of the most important financial skills."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How Interest Works Against You",
+          "content": "The same compounding math that makes investments grow powerfully works against you on debt.\n\nA $5,000 credit card balance at 20% APR, with minimum payments only, takes approximately 27 years to pay off — and costs over $12,000 in interest. You pay more than three times the original balance.\n\nThis is not unusual. It's the designed behavior of minimum-payment credit cards.\n\nThe fastest debt reduction strategies:\n\n**Avalanche method:** Pay minimums on all debts. Apply all extra payment capacity to the highest-interest debt first. Mathematically optimal — you pay least total interest.\n\n**Snowball method:** Pay minimums on all debts. Apply all extra to the smallest-balance debt first. Psychologically powerful — early wins build momentum. Studies show higher completion rates than avalanche.\n\nEither method beats paying minimum on everything. Choose the one you'll actually stick to."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Your credit score — the three-digit number that determines borrowing costs, rental eligibility, and sometimes employment prospects — is calculated from five factors with very different weights:\n\n- **Payment history:** 35% (most important — one missed payment can drop your score significantly)\n- **Credit utilization:** 30% (the percentage of available credit you're using — below 30% is recommended, below 10% is ideal)\n- **Length of credit history:** 15%\n- **Credit mix:** 10%\n- **New credit inquiries:** 10%\n\nThe two factors accounting for 65% of your score — payment history and utilization — are directly controllable through consistent behavior: pay on time, keep balances low. There's no secret to credit building."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Good Debt vs. Bad Debt",
+          "content": "The most useful heuristic for evaluating debt is return on investment:\n\n**Good debt** borrows money to purchase something that produces a return higher than the interest rate. A mortgage at 6% on a home that appreciates at 4-5% per year in a growing market — plus the rent savings — may be net positive. A student loan at 5% that raises your lifetime earnings by hundreds of thousands is likely net positive.\n\n**Bad debt** borrows money to purchase something that depreciates or disappears: a car you can't afford on a 7% loan, dining out on a 24% credit card, consumer electronics on store financing at 18%.\n\nThe critical question for any debt: is the cost of borrowing (interest rate) less than the return on what I'm buying? If yes, it can be rational debt. If no — especially if the 'return' is zero because it's consumption — it's an expensive way to spend future income."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "APR vs. APY",
+          "content": "**APR (Annual Percentage Rate)** is the yearly interest rate on a loan or credit card, not accounting for compounding within the year. It's the headline number lenders advertise.\n\n**APY (Annual Percentage Yield)** accounts for compounding — interest calculated and added to the balance more than once per year. For credit cards that compound monthly, the actual cost is higher than the APR suggests.\n\nExample: A credit card with 20% APR compounding monthly has an effective APY of approximately 21.94%. Over time, that difference is meaningful.\n\nFor savings accounts and investments: APY is better — it tells you what you'll actually earn accounting for compounding. For loans and credit cards: always look for APY if available, since it reflects the true cost. Lenders sometimes advertise APR because it sounds lower."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Map your current debt landscape:\n\n1. List every debt you have: balance, interest rate, minimum payment\n2. Order them by interest rate (highest first for avalanche, lowest balance first for snowball)\n3. Calculate: if you paid an extra $50-100/month toward the top debt on your list, when would it be paid off?\n\nFree calculators (Google 'debt payoff calculator') can run this in 30 seconds. Most people are surprised by both how long debt lasts with minimum payments — and how dramatically an extra $100/month changes that timeline."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the mathematical difference between the avalanche and snowball debt repayment methods?",
+          "optionA": "Avalanche is faster; snowball is safer if income fluctuates",
+          "optionB": "Avalanche (highest interest first) is mathematically optimal — you pay less total interest. Snowball (smallest balance first) is psychologically effective — early wins drive higher completion rates",
+          "optionC": "Avalanche works for credit card debt; snowball works for student loans",
+          "optionD": "They produce identical results over time — the difference is only in the sequence of payments",
+          "correctAnswer": "B",
+          "explanation": "Avalanche minimizes total interest paid — it's the mathematically optimal strategy. Snowball generates early wins that research shows produce higher follow-through rates. The best method is the one you'll actually complete — for many people, that's snowball."
+        },
+        {
+          "question": "What two factors account for 65% of a credit score, and how do you directly improve them?",
+          "optionA": "Credit age and credit mix — by keeping old accounts open and diversifying loan types",
+          "optionB": "Payment history (35%) and credit utilization (30%) — improved by paying on time and keeping credit card balances below 30% of available credit",
+          "optionC": "New inquiries (35%) and account diversity (30%) — managed by limiting applications and maintaining various credit types",
+          "optionD": "Income level (35%) and employment stability (30%) — which determine lender confidence in repayment",
+          "correctAnswer": "B",
+          "explanation": "Payment history (35%) and credit utilization (30%) are the two dominant factors and the most directly controllable. Pay on time, every time. Keep balances low relative to limits. These two habits account for nearly two-thirds of the score."
+        },
+        {
+          "question": "What is the key question to distinguish good debt from bad debt?",
+          "optionA": "Is the borrowed amount less than 20% of annual income?",
+          "optionB": "Does the debt have a fixed or variable interest rate?",
+          "optionC": "Is the cost of borrowing (interest rate) less than the return on what you're purchasing? If yes, it can be rational; if no — especially for consumption — it's expensive future income spending",
+          "optionD": "Is the loan from an established bank or credit union rather than a consumer finance company?",
+          "correctAnswer": "C",
+          "explanation": "The ROI test: is what you're buying returning more than the cost to borrow? A mortgage that appreciates faster than the interest rate can be net positive. A 24% credit card for dining out is guaranteed negative return. The math defines the distinction."
+        }
+      ]
+    },
+    {
+      "slug": "building-your-financial-foundation",
+      "title": "Building Your Financial Foundation",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most financial advice skips the foundation and goes straight to optimization: what stocks to buy, which index funds to choose, how to save on taxes in retirement.\n\nBut optimization without a foundation is building floors on sand. The foundation — a financial plan that covers the basics in the right order — determines whether every other financial decision works or doesn't.\n\nThis lesson puts it together: the right sequence, the right priorities, and the simple checklist that ensures nothing important gets missed."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Financial Order of Operations",
+          "content": "Not all financial priorities are equal, and the order matters:\n\n**Step 1 — Emergency fund:** 1 month minimum, build to 3-6 months. Without this, every financial plan is fragile.\n\n**Step 2 — Employer match:** Contribute enough to your 401(k) to get the full employer match. This is an immediate 50-100% return on contribution — nothing else competes.\n\n**Step 3 — High-interest debt:** Pay off credit cards and any debt above ~7% APR. Guaranteed tax-free return equal to the interest rate.\n\n**Step 4 — Tax-advantaged accounts:** Max out IRA and HSA before moving to taxable investing.\n\n**Step 5 — Invest in index funds:** Once the above are covered, broad market index funds for long-term wealth building.\n\n**Step 6 — Other goals:** Taxable brokerage, real estate, other investments.\n\nEach step only makes sense after the previous one is handled."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Index fund investing — buying a fund that mirrors a market index like the S&P 500 rather than picking individual stocks — has outperformed actively managed funds (funds run by professional stock pickers) in 85-90% of cases over 15-year periods, according to the S&P Indices Versus Active (SPIVA) scorecard.\n\nAnd the ones that do outperform are not predictable in advance — last decade's winning fund manager is no better than random at predicting this decade's outperformer.\n\nThe implication: for most individual investors, the best strategy is the most boring one — buy and hold a diversified index fund. This is not a compromise or a beginner strategy. It's the approach most evidence supports for the most people."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Net Worth Is the Scoreboard — Not Income",
+          "content": "The measure of financial progress is net worth, not income. This distinction matters more than most people realize.\n\nNet worth is simple: total assets (what you own) minus total liabilities (what you owe). A $90,000 salary person with $0 savings and $50,000 in debt has a lower net worth than a $60,000 salary person with $100,000 in savings and no debt.\n\nTracking net worth — even just once a year — changes behavior because it makes the relationship between income, spending, and wealth accumulation visible. It also creates a motivating metric: each time you pay down debt or grow savings, the number moves. Income is about earning; net worth is about building.\n\nMost wealthy people became wealthy by building net worth intentionally, not by earning exceptionally high income."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Opportunity Cost",
+          "content": "**Opportunity cost** is the value of the best alternative you give up when making a choice. Every financial decision has an opportunity cost — the next-best thing you could have done with that money.\n\nWhen you spend $500 on something discretionary, the opportunity cost is what that $500 would have been worth invested over time. At 7% annual return over 30 years, $500 becomes approximately $3,800. Understanding opportunity cost doesn't mean never spending — it means spending intentionally, with awareness of what you're trading.\n\nOpportunity cost is also relevant for debt: every dollar going toward interest on consumer debt is a dollar that isn't compounding in an investment account. The real cost of a credit card habit isn't just the interest paid — it's the wealth not built."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Calculate your net worth right now — it takes less than ten minutes:\n\n**Assets (what you own):**\n- Checking + savings account balances\n- Retirement account balances (401k, IRA)\n- Other investments\n- Approximate home value if you own\n\n**Liabilities (what you owe):**\n- Total credit card balances\n- Car loans\n- Student loans\n- Mortgage balance\n\n**Net Worth = Assets − Liabilities**\n\nWhatever the number — positive, negative, or zero — write it down. Then check where you are on the Financial Order of Operations. One step forward, clearly identified, is more valuable than an optimized strategy you haven't started."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does getting an employer 401(k) match rank so high in the Financial Order of Operations?",
+          "optionA": "401(k) contributions lower your tax bracket, which creates immediate savings that compound over time",
+          "optionB": "An employer match is an immediate 50-100% return on your contribution — no other legal, risk-free investment comes close",
+          "optionC": "401(k) funds are protected from bankruptcy and creditors, making them the safest financial asset",
+          "optionD": "Contributing enough for the match establishes the habit of automatic savings before other expenses",
+          "correctAnswer": "B",
+          "explanation": "An employer who matches 50% of your contribution gives you an immediate 50% return before any market performance. This is guaranteed and risk-free — literally no other financial instrument provides comparable immediate returns. Not taking it is leaving free money on the table."
+        },
+        {
+          "question": "What does SPIVA research reveal about actively managed funds vs. index funds?",
+          "optionA": "Index funds outperform active funds only in bull markets — active management protects better in downturns",
+          "optionB": "In 85-90% of cases over 15-year periods, index funds outperform actively managed funds — and last decade's winning managers don't reliably predict future outperformance",
+          "optionC": "Active management outperforms in niche markets; index funds are better only for large-cap stocks",
+          "optionD": "The gap has narrowed significantly as active managers have adopted more quantitative approaches",
+          "correctAnswer": "B",
+          "explanation": "SPIVA (S&P Indices Versus Active) scorecard consistently finds index funds outperform active management in 85-90% of cases over 15-year periods. Past outperforming managers don't predict future ones — which means index investing isn't a beginner compromise, it's what evidence supports."
+        },
+        {
+          "question": "What does opportunity cost reveal about consumer debt beyond the interest rate?",
+          "optionA": "The psychological burden of debt reduces decision quality in other areas, creating hidden costs",
+          "optionB": "Every dollar going toward interest is a dollar not compounding in investments — the real cost is the wealth not built over time, not just the interest paid",
+          "optionC": "Consumer debt establishes spending patterns that compound spending increases over time",
+          "optionD": "Debt reduces borrowing capacity for future opportunities like mortgages and business loans",
+          "correctAnswer": "B",
+          "explanation": "Opportunity cost of debt: $1 in credit card interest isn't just $1 lost — it's $1 not invested. At 7% over 30 years, each dollar of opportunity cost becomes $7.61 of foregone wealth. The real cost of a debt habit is measured in wealth not built."
+        }
+      ]
+    }
+  ]
+}

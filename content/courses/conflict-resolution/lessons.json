@@ -1,0 +1,365 @@
+{
+  "courseSlug": "conflict-resolution",
+  "lessons": [
+    {
+      "slug": "understanding-conflict",
+      "title": "Understanding Conflict",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Conflict is not the problem. Unmanaged conflict is.\n\nResearch consistently shows that teams with no conflict tend to produce inferior outcomes compared to teams with well-managed conflict. Disagreement surfaces assumptions, reveals blind spots, and forces ideas to earn their place. The goal of conflict resolution isn't to eliminate friction — it's to ensure that friction produces heat rather than fire.\n\nThis course starts where most conflict resolution advice fails: with understanding what conflict actually is, and why it unfolds the way it does."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Three Types of Conflict",
+          "content": "Not all conflict is the same. Researchers distinguish three types, each requiring a different approach:\n\n**Task conflict** — disagreement about what should be done or how. Often productive when managed well. It can surface better options and test ideas.\n\n**Process conflict** — disagreement about how work is organized, who does what, and how decisions are made. Often disruptive if not addressed structurally.\n\n**Relationship conflict** — personal tension, dislike, or mutual distrust between people. Consistently destructive and the hardest to resolve because it isn't really about the work — it's about identity and emotion.\n\nIdentifying which type you're in is the first step. Most people try to solve relationship conflict with logic, and task conflict with emotion — the exact wrong tool in each case."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Organizational psychologist Amy Edmondson at Harvard Business School found that teams in hospitals with the highest reported error rates weren't actually making more mistakes — they were in environments with higher psychological safety, so they felt comfortable reporting errors.\n\nThe same dynamic appears in conflict: teams that surface and discuss disagreements outperform teams that suppress them, because suppressed conflict doesn't go away — it goes underground, emerging as passive resistance, disengagement, or sudden blow-ups at the worst possible moments."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Positions vs. Interests",
+          "content": "The most important framework in conflict resolution comes from Harvard negotiation research: the distinction between positions and interests.\n\nA **position** is what someone says they want: 'I want this project done my way.' An **interest** is why they want it: 'I'm worried that the alternative approach will reflect badly on my team.'\n\nMost conflict gets stuck at the level of positions — two people defending what they want. Resolution almost always requires dropping to the level of interests — understanding why each person wants what they want. Once you understand the real interests, solutions that satisfy both are usually possible. Without that understanding, you're just negotiating over positions, and someone has to lose."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Psychological Safety",
+          "content": "**Psychological safety** is the shared belief within a group that speaking up — with ideas, questions, concerns, or mistakes — will not result in punishment, ridicule, or rejection.\n\nCoined and extensively researched by Amy Edmondson at Harvard, psychological safety is now recognized as one of the strongest predictors of team effectiveness, creative output, and constructive conflict resolution. It's not the same as comfort: psychologically safe environments can be highly challenging. The distinction is whether people believe it's safe to be honest.\n\nTeams with high psychological safety resolve conflicts faster, learn from mistakes more effectively, and retain members at higher rates. Creating it requires leaders who visibly reward candor rather than punishing it."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Think of a current or recent conflict in your life — at work or personally.\n\n1. What type is it? Task, process, or relationship?\n2. What is your position? (what you say you want)\n3. What is your real interest? (why you want it)\n4. What do you think the other person's real interest might be — not what they're saying, but why they might actually care?\n\nWriting this out creates clarity before the conversation. Most conflicts look different — and more solvable — once you can articulate the underlying interests on both sides."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What are the three types of conflict distinguished by researchers?",
+          "optionA": "Internal, external, and interpersonal",
+          "optionB": "Task, process, and relationship conflict",
+          "optionC": "Productive, destructive, and neutral conflict",
+          "optionD": "Individual, team, and organizational conflict",
+          "correctAnswer": "B",
+          "explanation": "Task conflict (what/how to do something) can be productive. Process conflict (how work is organized) needs structural solutions. Relationship conflict (personal tension) is consistently destructive and the hardest to resolve."
+        },
+        {
+          "question": "What is the distinction between positions and interests in conflict?",
+          "optionA": "Positions are long-term; interests are immediate",
+          "optionB": "Positions are what someone says they want; interests are why they want it — the underlying need or concern",
+          "optionC": "Positions are held by individuals; interests are held by teams",
+          "optionD": "Positions are negotiable; interests are non-negotiable",
+          "correctAnswer": "B",
+          "explanation": "Harvard negotiation research shows that conflict stuck at the position level is a zero-sum standoff. Dropping to the interest level (the underlying why) reveals solutions that satisfy both parties — because interests are more flexible than stated positions."
+        },
+        {
+          "question": "What did Amy Edmondson's hospital research reveal about error reporting and team performance?",
+          "optionA": "High-error teams had lower safety scores because mistakes caused more accidents",
+          "optionB": "Teams that reported more errors weren't making more mistakes — they had more psychological safety to speak up",
+          "optionC": "Error reporting was only correlated with team performance in medical settings, not business teams",
+          "optionD": "Suppressing conflict increased short-term performance at the cost of long-term cohesion",
+          "correctAnswer": "B",
+          "explanation": "Edmondson found that high-reporting teams weren't more error-prone — they were in psychologically safe environments where speaking up was normalized. The same applies to conflict: surface disagreements prevent underground dysfunction."
+        }
+      ]
+    },
+    {
+      "slug": "de-escalation",
+      "title": "The Art of De-escalation",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Escalation is a spiral. One heated exchange triggers a more heated response, which triggers a stronger reaction, until what started as a disagreement about something minor has become a test of wills where neither person can back down without losing face.\n\nDe-escalation is the art of interrupting that spiral — slowing, softening, and redirecting a charged interaction before it reaches the point of no return. It's not capitulation. It's not agreeing with the other person. It's a set of specific behaviors that lower the emotional temperature and make resolution possible."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Biology of Escalation",
+          "content": "When people feel attacked — emotionally or physically — the amygdala fires a threat response that sends cortisol and adrenaline into the bloodstream within milliseconds. This is what John Gottman calls 'flooding.'\n\nIn a flooded state, the prefrontal cortex (the rational, language-processing, empathy part of your brain) goes offline. Flooded people can't reason clearly, can't hear nuance, and can't de-escalate on their own. They are in survival mode.\n\nThis is why trying to 'win' an argument with someone who is flooded never works — there's no one home to hear you. De-escalation, then, isn't about argument — it's about biology. You're helping the other person get back to a state where conversation is possible."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "John Gottman's research at the University of Washington tracked 700 couples over decades and could predict divorce with 93.6% accuracy — based not on how much couples fought, but on how they fought. The most destructive patterns were what he called the 'Four Horsemen': contempt, criticism, defensiveness, and stonewalling.\n\nOf the four, contempt was the single strongest predictor of relationship breakdown — more than any other behavior. Contempt is the expression of disgust or moral superiority: eye-rolling, sneering, dismissiveness. Eliminating contempt from conflict is the single highest-leverage change most people can make."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Validate Before You Rebut",
+          "content": "The most powerful de-escalation tool is also the most counterintuitive: validation.\n\nValidation doesn't mean agreeing. It means acknowledging that the other person's experience makes sense from their perspective. 'I can understand why you'd feel that way, given what you've seen' is not a concession — it's a signal that you're engaging with their reality rather than dismissing it.\n\nWhen people feel dismissed, they escalate. When they feel heard — even by someone who disagrees with them — they calm down. The phrase 'You're not wrong' is one of the most disarming sentences in the English language. It doesn't concede the point; it acknowledges the validity of their perspective, which is enough to lower the temperature."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Flooding",
+          "content": "**Flooding** is a state of emotional overwhelm caused by physiological activation — elevated heart rate (typically above 100 bpm), stress hormone release, and reduced access to rational thought — triggered by perceived threat in an interpersonal conflict.\n\nIdentified and named by John Gottman, flooding is the biological reason why 'talking it out' during a heated argument often makes things worse rather than better. A flooded person cannot reason, empathize, or problem-solve effectively. They can only react.\n\nThe solution to flooding is a genuine pause — not a timeout used to plan a better attack, but a break of at least 20 minutes during which neither person rehearses arguments. After 20 minutes, physiological activation typically drops enough for productive conversation to resume."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Before your next potentially heated conversation, set this as your one commitment:\n\n**Validate first.** Before you state your position, acknowledge something true about theirs.\n\n'I understand this has been frustrating for you...' → then your point.\n'I can see why that felt unfair...' → then your perspective.\n'You're not wrong that X is a problem...' → then how you see it differently.\n\nYou don't have to do anything else differently. Just lead with one genuine validation before making your case. Notice how much the other person's defensiveness drops — and how much easier the rest of the conversation becomes."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'flooding' in the context of conflict, and why does it make 'talking it out' impossible in the moment?",
+          "optionA": "When a conversation becomes too detailed for either party to track",
+          "optionB": "A physiological overwhelm state where the rational brain goes offline — the person is in survival mode and cannot reason or empathize",
+          "optionC": "When one person dominates the conversation with too many points at once",
+          "optionD": "The buildup of unresolved grievances that eventually explodes in a single conflict",
+          "correctAnswer": "B",
+          "explanation": "Flooding (Gottman) is a physiological state triggered by perceived threat. Heart rate spikes, stress hormones flood the system, and rational thinking becomes inaccessible. Arguing with a flooded person doesn't work — there's no reasoning capacity available."
+        },
+        {
+          "question": "According to Gottman's research, which behavior was the single strongest predictor of relationship breakdown?",
+          "optionA": "Frequent arguing",
+          "optionB": "Stonewalling — refusing to engage",
+          "optionC": "Contempt — expressing disgust or moral superiority",
+          "optionD": "Criticism — attacking character rather than behavior",
+          "correctAnswer": "C",
+          "explanation": "Of Gottman's Four Horsemen, contempt was the most destructive — more predictive of relationship failure than criticism, defensiveness, or stonewalling. Eliminating contemptuous behavior is the highest-leverage change in conflict patterns."
+        },
+        {
+          "question": "What does validation mean in conflict, and what doesn't it mean?",
+          "optionA": "Agreeing with the other person's position to lower tension",
+          "optionB": "Acknowledging that their experience makes sense from their perspective — not agreeing, but signaling you're engaging with their reality",
+          "optionC": "Repeating back their words to confirm you understood",
+          "optionD": "Complimenting them before delivering criticism",
+          "correctAnswer": "B",
+          "explanation": "Validation is not agreement — it's acknowledgment. 'I can understand why you'd feel that way' doesn't concede the point; it signals you're taking their perspective seriously, which reduces defensiveness and makes productive dialogue possible."
+        }
+      ]
+    },
+    {
+      "slug": "finding-common-ground",
+      "title": "Finding Common Ground",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Every conflict has common ground. Not necessarily common positions — people can have genuinely different views of what should happen. But there is almost always shared interest underneath: both people want the project to succeed, the relationship to work, the outcome to be fair.\n\nFinding that common ground isn't a compromise technique. It's a reorientation — moving from an adversarial frame ('us versus them') to a collaborative one ('us versus the problem'). This shift changes everything about how a conflict unfolds."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Shared-Goal Reset",
+          "content": "One of the most effective moves in a stalled conflict is to name what both parties are actually trying to achieve — often out loud.\n\n'We both want this project to ship on time and in good shape. That's not in question. What we're disagreeing about is the best way to get there.'\n\nThis simple restatement does several things: it interrupts the adversarial framing, it puts both parties on the same side relative to the problem, and it anchors the conversation to a shared interest rather than competing demands.\n\nMany conflicts persist because the people involved have forgotten that they actually want the same outcome. Naming it returns both parties to the same team."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Muzafer Sherif's famous 'Robbers Cave' experiment in the 1950s took groups of boys who had been turned into adversaries through competitive games and created reconciliation by introducing challenges that required cooperation to solve — like a broken water supply that both groups had to fix together.\n\nSherif found that common enemies (shared external problems) resolved intergroup conflict more effectively than any other intervention — more than simply exposing the groups to each other, more than controlled positive interactions. The implication: make the problem the adversary, not the other person."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Ask Questions Before You State Positions",
+          "content": "In most conflicts, both people are in a hurry to state their position. They wait — impatiently — for a moment to say their piece. The result is two position statements delivered in sequence, each more entrenched than the last.\n\nA more effective sequence: questions first, positions later.\n\nBefore stating what you think, spend two to three minutes asking genuine questions about the other person's view: 'Help me understand how you see this.' 'What would a good outcome look like from your side?' 'What's the part that concerns you most?'\n\nThis does two things: you learn information that might change your position, and the other person feels heard enough to actually listen when you state yours. Sequence matters. In conflict, the person who asks first tends to get more of what they want."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Integrative Negotiation",
+          "content": "**Integrative negotiation** (also called 'win-win negotiation') is an approach to conflict resolution that seeks solutions that satisfy the core interests of all parties, rather than simply dividing a fixed set of outcomes between them.\n\nDeveloped formally in the Harvard Negotiation Project and described in the landmark book 'Getting to Yes' by Fisher, Ury, and Patton, integrative negotiation rests on the distinction between positions (what people say they want) and interests (why they want it).\n\nWhen parties negotiate over interests rather than positions, creative solutions often emerge that neither party had originally proposed — because interests are more flexible and varied than fixed demands. Most conflicts have more options than the parties see when they're locked in positional stances."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Think of a current disagreement — with a colleague, partner, friend, or family member.\n\nBefore your next conversation, write down:\n1. What do we actually both want? (the shared goal)\n2. What questions can I ask to understand their interests better?\n3. What creative solution might satisfy both our interests that isn't just 'your way' or 'my way'?\n\nGo into the conversation with at least two genuine questions ready — and a commitment to ask them before stating your position. You'll be surprised how often the other person has the same underlying interest you do."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did the Robbers Cave experiment find was the most effective way to resolve intergroup conflict?",
+          "optionA": "Controlled positive interactions between the groups",
+          "optionB": "A mediator who facilitated structured dialogue",
+          "optionC": "Introducing shared challenges that required cooperation to solve — making the problem the adversary",
+          "optionD": "Separating the groups until tensions cooled, then reintroducing them",
+          "correctAnswer": "C",
+          "explanation": "Sherif found that superordinate goals — challenges requiring both groups to cooperate — resolved conflict more effectively than any other approach. Making a shared external problem the adversary reframes 'us vs. them' to 'us vs. the problem.'"
+        },
+        {
+          "question": "What is integrative negotiation, and what makes it different from typical compromise?",
+          "optionA": "It involves multiple rounds of negotiation rather than a single session",
+          "optionB": "It seeks solutions that satisfy the underlying interests of all parties, rather than dividing fixed outcomes — often producing options neither party originally saw",
+          "optionC": "It is mediated by a neutral third party rather than negotiated directly",
+          "optionD": "It prioritizes relationship preservation over outcome quality",
+          "correctAnswer": "B",
+          "explanation": "Integrative negotiation (Harvard Negotiation Project) negotiates over interests rather than positions. This often reveals creative solutions that satisfy both parties more fully than splitting the difference — because interests are more flexible than fixed demands."
+        },
+        {
+          "question": "Why is asking questions before stating your position more effective in conflict?",
+          "optionA": "It gives you more time to prepare your arguments while they speak",
+          "optionB": "It forces the other person to commit to their position first, giving you a negotiating advantage",
+          "optionC": "You learn information that might shift your view, and the other person feels heard enough to actually listen when you speak",
+          "optionD": "It signals weakness, which makes the other person more likely to concede",
+          "correctAnswer": "C",
+          "explanation": "Questions first has two payoffs: you may learn something that genuinely changes your view, and you make the other person feel heard — which creates the openness needed for them to actually receive your position rather than just wait to rebut it."
+        }
+      ]
+    },
+    {
+      "slug": "difficult-personalities",
+      "title": "Navigating Difficult Personalities",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Not all conflict is symmetrical. Sometimes you're dealing with someone who is hostile by default, someone who refuses to engage, someone who agrees in the room and undermines you outside it, or someone who makes every conversation about power.\n\nDifficult personalities require a different approach than ordinary conflict — not because these people are broken, but because standard conflict resolution assumes both parties want resolution. That assumption sometimes doesn't hold. This lesson gives you tools for situations where it doesn't."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Four Most Difficult Types",
+          "content": "Researcher Robert Bramson identified four common difficult personality patterns in professional settings:\n\n**The Hostile-Aggressive** — attacks, intimidates, or steamrolls. Typically fears being wrong or losing control. Respond by standing firm without escalating, naming the behavior calmly: 'Let me finish, and then you'll have the floor.'\n\n**The Silent-Unresponsive** — refuses to engage, gives monosyllabic answers. Respond by asking open questions and waiting — silence is uncomfortable for them too.\n\n**The Complainer** — chronic grievance mode with no solutions. Respond by asking them what they want done about it: 'What would you like to see happen?' — it short-circuits the spiral.\n\n**The Know-It-All** — dismisses others' input, positions every conversation as a competition of expertise. Respond by asking for their opinion, then adding yours as a 'possibility': 'What do you think about this? I've been considering...' reduces threat."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research on 'dark triad' personality traits — narcissism, Machiavellianism, and psychopathy — suggests that roughly 1-3% of the general population has high enough scores on these traits to affect organizations significantly. But studies on executives specifically have found much higher rates — some estimates put subclinical narcissism in senior leadership at 18%.\n\nThis doesn't mean leaders are bad people — it means that certain personality traits that create interpersonal difficulty (confidence, strategic thinking, willingness to take risks) are also traits that organizations select for. Knowing this means that 'difficult person' encounters aren't a personal failure or an anomaly — they are a structural feature of professional life."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Don't Take Bait",
+          "content": "Difficult personalities — particularly hostile-aggressive ones — frequently use bait: statements designed to trigger an emotional reaction that shifts the conversation to your response rather than their behavior.\n\n'That idea is terrible.' 'You always do this.' 'I expected more from you.'\n\nThe bait works when you respond to the emotional content rather than the underlying issue. When you get angry, you become the problem. When you stay calm and return to substance, the dynamic changes.\n\nThe discipline of not taking bait can be practiced as a single sentence: 'Let's focus on what we're trying to solve.' Said calmly and consistently, it repositions the conversation without engaging the provocation. It's not passivity — it's a refusal to let someone else control your state."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Gray Rock Method",
+          "content": "The **gray rock method** is a strategy for managing chronic manipulative or hostile behavior: make yourself as uninteresting and unreactive as possible — like a gray rock. Give minimal, neutral responses. Don't share personal information. Don't react emotionally. Don't take bait.\n\nOriginally developed as a strategy for managing interactions with high-conflict personalities in personal relationships, the gray rock method has been adapted into professional settings for managing colleagues or stakeholders whose behavior is chronic rather than situational.\n\nThe principle: manipulative or hostile behavior typically escalates in response to engagement and emotion, and de-escalates in the absence of them. A gray rock gives them nothing to work with."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Think of a difficult person in your current life. Before your next interaction with them, prepare:\n\n1. **Identify their type:** Hostile-aggressive, silent, complainer, or know-it-all?\n2. **Prepare your anchor:** One calm, neutral sentence you can return to when they escalate. 'Let's focus on what we're trying to solve' works for most types.\n3. **Decide in advance:** What's the one thing you want to accomplish in this interaction? (Keep it small and specific.)\n\nGoing in with a plan — especially knowing in advance that you won't take bait — changes the interaction from reactive to strategic."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the most effective response when a 'Complainer' type raises grievances without solutions?",
+          "optionA": "Validate their complaints fully before addressing any business",
+          "optionB": "Redirect to problem-solving: 'What would you like to see done about it?'",
+          "optionC": "Acknowledge the complaint and escalate to management",
+          "optionD": "Offer solutions immediately to show you take them seriously",
+          "correctAnswer": "B",
+          "explanation": "Asking 'What would you like to see happen?' short-circuits the chronic complaint spiral. It requires the Complainer to shift from grievance mode to solution mode — which is usually not where they're comfortable, and often ends the spiral."
+        },
+        {
+          "question": "What does 'taking bait' mean in a difficult personality interaction, and why should you avoid it?",
+          "optionA": "Accepting a compromise that doesn't actually solve the conflict",
+          "optionB": "Responding emotionally to a provocative statement — which makes you the problem rather than addressing their behavior",
+          "optionC": "Disclosing personal information that can be used against you later",
+          "optionD": "Agreeing to meet again when no progress was made",
+          "correctAnswer": "B",
+          "explanation": "Bait is a statement designed to trigger an emotional reaction. When you react, the conversation shifts to your response rather than their behavior. Staying calm and returning to substance — 'Let's focus on what we're trying to solve' — refuses the dynamic."
+        },
+        {
+          "question": "What is the principle behind the 'gray rock method'?",
+          "optionA": "Present a neutral, expressionless demeanor to signal authority",
+          "optionB": "Manipulative or hostile behavior escalates in response to engagement — so becoming unreactive and uninteresting removes what it feeds on",
+          "optionC": "Avoid conflict by becoming less visible in professional settings",
+          "optionD": "Focus only on facts rather than emotions in difficult conversations",
+          "correctAnswer": "B",
+          "explanation": "The gray rock method is based on the observation that hostile or manipulative behavior thrives on emotional reaction and engagement. By providing neutral, minimal responses, you give them nothing to work with — and the behavior typically de-escalates or redirects."
+        }
+      ]
+    },
+    {
+      "slug": "repair-and-forward",
+      "title": "Repair and Moving Forward",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Resolving a conflict is not the same as repairing a relationship. Resolution ends the immediate disagreement. Repair restores the trust, connection, and mutual respect that conflict erodes.\n\nMost people stop at resolution — they reach agreement, shake hands (literally or figuratively), and assume things are back to normal. They're often not. The conversation that led to agreement may have included moments of contempt, accusation, or emotional flooding that leave a residue. Repair is what clears that residue.\n\nThis lesson is about what comes after the conflict — and why it's as important as the conflict itself."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Anatomy of a Good Apology",
+          "content": "A genuine apology has three components — and without all three, it tends to land poorly:\n\n**1. Acknowledgment** — You name specifically what you did, without qualifications or deflection. 'I interrupted you repeatedly and didn't give you space to make your point.'\n\n**2. Impact** — You acknowledge the effect of your behavior, as the other person experienced it. 'I can see how that made you feel dismissed.'\n\n**3. Commitment** — You say specifically what you'll do differently. 'I'm going to make sure I listen to your full argument before responding next time.'\n\nThe version most people offer — 'I'm sorry if you felt that way' — contains none of the three. It apologizes for a feeling (yours) not a behavior (mine), and makes no commitment. It often makes things worse."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Gottman's research identified a specific ratio that predicts whether a relationship will thrive or deteriorate: for every one negative interaction, five positive ones are needed to maintain relational health — a finding known as the 5:1 ratio.\n\nIn teams, the ratio is similar. High-performing teams studied by Marcial Losada and Barbara Fredrickson showed approximately 6:1 positive-to-negative interaction ratios. This is why repair matters: a single conflict handled badly can require significant positive investment to rebalance. And repair doesn't just mitigate damage — it can actually generate positive credit that wasn't there before."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Follow-Up Conversation",
+          "content": "One of the most overlooked repair tools is the follow-up conversation — a brief check-in hours or days after a conflict resolution, specifically to confirm that the resolution actually landed and that any relational damage is being addressed.\n\n'Hey — I want to make sure we're actually good after yesterday. I know things got heated. Is there anything I didn't address that I should have?'\n\nThis does several things: it reopens the door for anything left unsaid, it signals that you're invested in the relationship beyond the immediate resolution, and it creates an explicit confirmation that allows both parties to genuinely move on.\n\nWithout the follow-up, people often assume things are fine when they're not — and unexpressed residue becomes the seed of the next conflict."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Repair Attempts",
+          "content": "A **repair attempt** is any statement or behavior that tries to de-escalate tension or restore positive connection during or after a conflict — before full resolution has been reached.\n\nFirst described by John Gottman, repair attempts can be small: a brief touch, a self-deprecating joke, a moment of genuine acknowledgment. ('I know I'm being defensive right now. Give me a moment.') They signal that both people are still invested in the relationship even while in disagreement.\n\nGottman found that repair attempts succeed not based on how clever or eloquent they are — but based on the underlying quality of the relationship. In healthy relationships, even clumsy repair attempts work. In distressed ones, even perfect ones fail. Which means the best investment in future conflict repair is the quality of the relationship now."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Think of a recent conflict that reached some form of resolution but left you feeling like things weren't quite back to normal.\n\nTry one repair action today:\n\n**Option A:** Send a follow-up message: 'I just want to make sure we're good after the other day — anything you'd want me to do differently?'\n\n**Option B:** Make a specific, genuine repair attempt in person: 'I know I got defensive in that conversation. I want to try again — can I hear your perspective without interrupting this time?'\n\n**Option C:** Simply make a positive investment: do something kind, generous, or thoughtful for the person — not as a bribe, but as a genuine statement that the relationship matters more than the conflict.\n\nRepair is not a weakness. It's the most efficient path back to a functional, trusting relationship."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What are the three essential components of a genuine apology?",
+          "optionA": "Sincerity, timing, and follow-through",
+          "optionB": "Acknowledgment (what you did), impact (effect on them), and commitment (what you'll do differently)",
+          "optionC": "Explanation, apology, and question",
+          "optionD": "Empathy, validation, and resolution",
+          "correctAnswer": "B",
+          "explanation": "An effective apology names the specific behavior (acknowledgment), recognizes its effect as the other person experienced it (impact), and commits to specific change (commitment). Without all three, it often lands as hollow or, worse, as a non-apology."
+        },
+        {
+          "question": "What is Gottman's 5:1 ratio, and why does it matter for conflict repair?",
+          "optionA": "For every five criticism moments, one compliment is needed to maintain balance",
+          "optionB": "Five positive interactions are needed for every one negative to maintain relational health — meaning a badly handled conflict requires significant positive investment to rebalance",
+          "optionC": "Conflict should be addressed within five minutes for every one hour of buildup",
+          "optionD": "Five agreement points are needed to overcome one point of disagreement in negotiation",
+          "correctAnswer": "B",
+          "explanation": "The 5:1 positive-to-negative ratio means a single damaging conflict can require significant positive investment to restore relational balance. Repair isn't just damage control — it's a proactive investment that builds relational credit for the future."
+        },
+        {
+          "question": "What did Gottman find determines whether repair attempts succeed or fail?",
+          "optionA": "The quality and specificity of the repair attempt itself",
+          "optionB": "How much time has passed since the conflict occurred",
+          "optionC": "The underlying quality of the relationship — in healthy relationships even clumsy attempts work; in distressed ones even perfect ones fail",
+          "optionD": "Whether the repair attempt is made verbally or through action",
+          "correctAnswer": "C",
+          "explanation": "Gottman's research showed that success of repair attempts depends more on baseline relational quality than on the attempt itself. This means investing in the relationship during non-conflict times is the best preparation for repair when conflicts occur."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "courseSlug": "energy-and-waves",
+  "lessons": [
+    {
+      "slug": "electromagnetic-spectrum",
+      "title": "Light and the Electromagnetic Spectrum",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Light is the most familiar form of electromagnetic radiation — but it's just a tiny sliver of a vast spectrum. Radio waves that carry your phone calls, X-rays that reveal your bones, microwaves that heat your food, infrared that warms you from the sun, gamma rays from nuclear reactions — all are the same fundamental phenomenon: oscillating electric and magnetic fields propagating through space.\n\nThe electromagnetic spectrum is unified by the same physics. Understanding it reveals why sunscreen works, why cell phones work, why we can see in color but not at night, and how astronomers learn about distant stars by analyzing their light."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "What All EM Waves Have in Common",
+          "content": "All electromagnetic (EM) waves share fundamental properties:\n\n- All travel at the speed of light in vacuum (c ≈ 3 × 10⁸ m/s — 186,000 miles per second)\n- All are transverse waves — electric and magnetic field oscillations are perpendicular to the direction of travel\n- All carry energy\n- All can travel through vacuum (unlike sound, which requires a medium)\n\nWhat distinguishes different EM waves is their frequency (cycles per second, measured in hertz) and wavelength (distance between wave crests): **c = frequency × wavelength**\n\nThe spectrum from low to high frequency / high to low wavelength:\n**Radio → Microwave → Infrared → Visible light → Ultraviolet → X-rays → Gamma rays**\n\nEnergy increases with frequency: gamma rays carry much more energy per photon than radio waves — which is why gamma rays are dangerous to tissue and radio waves are harmless."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The visible light spectrum — the tiny portion of EM radiation human eyes can detect — spans wavelengths from approximately 380 nm (violet) to 700 nm (red). This represents less than 1% of the electromagnetic spectrum by frequency range.\n\nWhy do we see only this range? Probably because the Sun's peak output is in the visible range, and Earth's atmosphere is transparent to visible light but absorbs much of the infrared and UV. Eyes that evolved on Earth under solar illumination evolved sensitivity to the available spectrum.\n\nInterestingly, bees can see ultraviolet — flower patterns that are invisible to humans are vivid ultraviolet guides for pollinators. Pit vipers and pythons have heat-sensing pit organs that detect infrared — allowing them to hunt warm-blooded prey in complete darkness. Our 'visible' spectrum is biologically tuned, not physically special."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Wave-Particle Duality",
+          "content": "Light is one of physics' most profound conceptual challenges: it behaves as both a wave and a particle depending on how it's observed.\n\nAs a wave: light diffracts (bends around edges), interferes (waves can cancel or reinforce each other), and travels as continuous oscillations. The wave model explains colors, interference patterns, and how lenses focus light.\n\nAs a particle (photon): light comes in discrete energy packages. The photoelectric effect — Einstein's Nobel Prize in 1921 — showed that light hits metal and ejects electrons only above a minimum frequency, regardless of intensity. This only makes sense if light arrives in discrete chunks (photons) with energy proportional to frequency.\n\nWave-particle duality is not a contradiction — it's a feature of quantum reality. What we observe depends on how we observe it. This counterintuitive fact is one of the foundations of modern physics and technology: lasers, LEDs, solar cells, and digital cameras all exploit the particle nature of light."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Doppler Effect",
+          "content": "The **Doppler effect** is the change in observed frequency of a wave (sound or light) caused by relative motion between source and observer.\n\nFor sound: when an ambulance approaches, its siren sounds higher-pitched (compressed wavelengths, higher frequency). As it passes and recedes, the pitch drops (stretched wavelengths, lower frequency). The siren frequency is constant — only the observed frequency changes.\n\nFor light: the same effect occurs as **redshift** and **blueshift**. Objects moving away from the observer have their light shifted toward longer wavelengths (red end). Objects moving toward the observer are blueshifted.\n\nAstronomers use redshift to measure the universe's expansion: galaxies show redshift proportional to their distance — discovered by Edwin Hubble in 1929, confirming that the universe is expanding. Redshift is how we know the Big Bang happened and how fast the universe is expanding today."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Observe the electromagnetic spectrum in daily life:\n\n1. **Infrared:** Aim a TV remote at your phone camera and press a button. Many phone cameras can detect near-infrared that human eyes can't — you'll see the LED flash.\n\n2. **UV:** If you have a UV flashlight (cheap and common), shine it on white clothing or fluorescent materials. The UV excites fluorescent molecules that then emit visible light — you're seeing UV absorption and light re-emission.\n\n3. **Doppler effect in sound:** Next time an ambulance or train passes, actively listen to the pitch change. Before it reaches you, the pitch is higher. After it passes, immediately lower. This is a direct experience of the same physics that reveals the universe's expansion."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why do gamma rays damage tissue while radio waves don't, even though both are electromagnetic radiation?",
+          "optionA": "Gamma rays penetrate deeper into tissue and deposit their energy in vital organs, while radio waves reflect off the skin",
+          "optionB": "Energy of EM radiation increases with frequency — gamma rays have extremely high frequency and thus high energy per photon, enough to ionize atoms and break DNA. Radio waves have low frequency and low energy per photon — insufficient to cause ionization",
+          "optionC": "Gamma rays are produced by nuclear reactions and carry radioactive particles that damage tissue — the radiation type, not just the energy, determines biological harm",
+          "optionD": "Gamma rays damage tissue through heating — they are absorbed and converted to heat, causing burns. Radio waves pass through tissue without being absorbed",
+          "correctAnswer": "B",
+          "explanation": "EM energy per photon = h × frequency (Planck's relation). High-frequency gamma rays carry enough energy per photon to ionize atoms and break chemical bonds (including DNA). Low-frequency radio wave photons carry insufficient energy for ionization — they can't do the same damage regardless of intensity. The frequency-energy relationship is fundamental."
+        },
+        {
+          "question": "What does the photoelectric effect (Einstein's Nobel Prize work) demonstrate about light?",
+          "optionA": "Light can transfer energy to electrons through continuous wave interactions, as the wave model predicts",
+          "optionB": "Light must arrive as discrete energy packages (photons) — below a threshold frequency, no electrons are ejected regardless of light intensity, which only makes sense if energy comes in minimum-sized chunks proportional to frequency",
+          "optionC": "The photoelectric effect demonstrates that electrons have wave properties — their emission wavelength correlates with light frequency",
+          "optionD": "High-intensity light beams create enough wave pressure to push electrons out of metal surfaces — intensity, not frequency, determines whether ejection occurs",
+          "correctAnswer": "B",
+          "explanation": "The photoelectric effect's key observation: below a threshold frequency, NO electrons are ejected regardless of light intensity. This violates wave theory (which predicts sufficient intensity should always work). Einstein's explanation: light arrives as photons with energy ∝ frequency. Below threshold frequency, each photon has insufficient energy to eject any electron — intensity just means more photons, each still too weak."
+        },
+        {
+          "question": "How does the cosmological redshift of distant galaxies demonstrate that the universe is expanding?",
+          "optionA": "Distant galaxies appear redder because their stars have cooled over the billions of years it took their light to reach us",
+          "optionB": "By the Doppler effect, light from galaxies moving away is stretched to longer (redder) wavelengths. Hubble found redshift proportional to distance — all galaxies moving away, faster with distance — indicating universe-wide expansion from a common origin (Big Bang)",
+          "optionC": "Distant galaxies have absorbed shorter-wavelength light during their longer journey through intergalactic gas, resulting in reddened spectra",
+          "optionD": "The gravitational field of the entire universe stretches light wavelengths as they travel — the further the journey, the more the stretching",
+          "correctAnswer": "B",
+          "explanation": "Hubble observed that distant galaxy light is redshifted (Doppler effect for recession), and the amount of redshift scales with distance. This means all galaxies are moving away from us — and from each other — with velocity proportional to distance. This pattern is what expansion looks like: not galaxies moving through space, but space itself expanding."
+        }
+      ]
+    },
+    {
+      "slug": "sound-and-acoustics",
+      "title": "Sound: Waves in Motion",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Sound is a mechanical wave — a disturbance that propagates through a medium (solid, liquid, or gas) by causing particles to vibrate. Unlike light, sound cannot travel through a vacuum: 'In space, no one can hear you scream' is literally correct.\n\nBut in ordinary environments, sound is one of our primary channels for experiencing the world — speech, music, warning signals, the soundscape of nature. Understanding how sound works explains why concert halls are designed the way they are, how noise-canceling headphones work, why your voice sounds different in a bathroom, and how bats navigate in the dark."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Properties of Sound Waves",
+          "content": "Sound waves are longitudinal: the particles vibrate in the same direction as the wave travels (unlike light's transverse vibration). As sound travels through air, particles alternately compress (high pressure) and expand (low pressure) — pressure waves.\n\n**Frequency** → Pitch: higher frequency = higher pitch. Human hearing range: approximately 20 Hz - 20,000 Hz. Dogs hear up to 65,000 Hz; bats up to 200,000 Hz.\n\n**Amplitude** → Volume: larger amplitude pressure changes = louder sound. Measured in decibels (dB) — a logarithmic scale. Every 10 dB increase = 10× the intensity (not just twice as loud). 60 dB (normal conversation) is 10× more intense than 50 dB, but 30 dB more intense than 30 dB = 1000× more intense.\n\n**Speed of sound:** ~343 m/s in air at room temperature. Faster in denser media: ~1,480 m/s in water, ~5,120 m/s in steel. This is why whales can communicate across ocean basins — water transmits sound much more efficiently than air."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Noise-canceling headphones work through a remarkable principle called destructive interference — one of the most elegant applications of wave physics in consumer electronics.\n\nA microphone on the headphone picks up incoming sound. Electronics process the sound and generate a new sound wave that is exactly out of phase — the peaks of the noise's pressure wave correspond to the troughs of the canceling wave. When these waves combine, they cancel each other (destructive interference), producing silence.\n\nThis works best for regular, low-frequency sounds (engine noise, air conditioning) where the electronics can predict and match the wave pattern. It's less effective for sudden, random sounds (voices, sneezes) because the electronics can't anticipate them. Noise-canceling headphones are essentially analog computers solving wave interference equations in real time."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Resonance: Why Things Vibrate at Particular Frequencies",
+          "content": "Every object has a natural resonant frequency — a rate at which it naturally vibrates when disturbed. When a driving force matches an object's natural frequency, energy transfers efficiently and the amplitude of vibration grows dramatically — resonance.\n\nResonance explains:\n- **Musical instruments:** Guitar strings, columns of air in pipes, drumheads — all produce standing waves at their resonant frequencies. The note you hear is the resonant frequency of the vibrating object.\n- **Shattering glass with a voice:** Opera singers can shatter wine glasses by singing at the glass's resonant frequency — if sustained at the right frequency with enough amplitude, the vibration grows until the glass breaks.\n- **Structural engineering disasters:** The Tacoma Narrows Bridge (1940) collapsed when wind drove it to resonate — oscillations grew until the structure failed. Bridge engineers now carefully design structures to avoid resonant frequencies of expected loads.\n- **MRI machines:** Nuclear magnetic resonance (NMR) exploits the resonant frequencies of atomic nuclei — the basis of MRI scanning."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Echolocation",
+          "content": "**Echolocation** is the biological use of reflected sound (ultrasound) to locate objects and navigate — used by bats, dolphins, some whales, and some blind humans.\n\nBats emit high-frequency sound pulses (20-200 kHz — far above human hearing) and detect the returning echoes. By analyzing the time delay (distance), frequency shift (Doppler — relative motion), and intensity (size and material of object), bats can construct a detailed three-dimensional acoustic image of their environment — capable of detecting a wire 0.1 mm in diameter in complete darkness.\n\nDolphin echolocation is equally sophisticated and operates over longer distances in water. Technology derived from the same principle — SONAR (Sound Navigation and Ranging) — was developed independently for submarine detection in WWI and now maps the ocean floor, detects submarines, and guides ships.\n\nMedical ultrasound imaging works on the same principle: sound pulses sent into tissue, reflections detected and mapped to create images of internal structures."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Experience sound wave properties directly:\n\n**Resonance in a bottle:** Blow across the mouth of a glass bottle. The pitch changes with the amount of liquid inside — less liquid, larger air column, lower resonant frequency. Fill it to different levels and listen to the pitch change.\n\n**Speed of sound:** During a thunderstorm, count the seconds between the lightning flash and the thunderclap. Divide by 3 to get the approximate distance in kilometers (sound travels ~343 m/s in air). A 3-second delay = 1 km distance from the lightning.\n\n**Doppler with a reference tone:** If you have a way to create a continuous tone (app on a phone, a tuning fork), walk past a friend holding it while they note the pitch change. You'll perceive higher pitch approaching, lower pitch receding — even at walking speed."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does the decibel scale increase by 10 dB represent a 10x increase in sound intensity rather than 2x?",
+          "optionA": "The decibel scale was designed by acoustical engineers to match the perceived loudness of human hearing, which is linear rather than exponential",
+          "optionB": "The decibel is a logarithmic unit — 10 dB represents a 10-fold increase in physical intensity (power per unit area). This scale matches both the enormous range of sound intensities humans encounter and how our perception works (we perceive intensity on a roughly logarithmic scale)",
+          "otionC": "A 10 dB increase represents a doubling of sound pressure — since intensity scales with pressure squared, 10 dB equals approximately 10× intensity",
+          "optionD": "The 10 dB = 10x relationship applies only to outdoor measurements — indoor acoustics with reverb change the relationship",
+          "correctAnswer": "B",
+          "explanation": "Decibels are logarithmic: 10 dB = 10× intensity (energy per unit area). This is appropriate because sound intensities span an enormous range (the threshold of hearing to a jet engine differs by a factor of 10¹²) and because human hearing is approximately logarithmic in perception. 20 dB above threshold = 100× intensity; 60 dB = 1,000,000× threshold intensity."
+        },
+        {
+          "question": "How do noise-canceling headphones use destructive wave interference?",
+          "optionA": "They use sound-absorbing materials that physically prevent sound waves from reaching the ears by converting them to heat",
+          "optionB": "A microphone captures incoming sound; electronics generate an exact phase-inverted replica (peaks → troughs, troughs → peaks); when the two waves combine at the ear, they cancel through destructive interference, producing silence or greatly reduced noise",
+          "optionC": "They create a standing wave pattern around the ear that cancels noise through constructive interference at points of high amplitude",
+          "otionD": "Noise-canceling technology uses frequency filtering to remove known noise frequencies from the sound before it reaches the ear",
+          "correctAnswer": "B",
+          "explanation": "Destructive interference: two waves of equal amplitude and exactly opposite phase (one is inverted) combine to zero. Noise-canceling headphones capture ambient noise, invert it precisely, and play the inverted version — it cancels the original noise. Most effective for predictable, sustained, low-frequency sounds where the electronics can track the wave pattern."
+        },
+        {
+          "question": "What caused the Tacoma Narrows Bridge collapse, and what does it demonstrate about resonance?",
+          "optionA": "The bridge's concrete deteriorated due to water damage — the resonance observation was coincidental to structural failure from material degradation",
+          "otionB": "Wind drove the bridge at its natural resonant frequency — energy input matched the structure's natural oscillation frequency, causing amplitudes to grow until structural failure. It demonstrates that any periodic force at an object's resonant frequency can cause catastrophic amplitude buildup",
+          "optionC": "The bridge was built with structural asymmetry that created differential wind loading — the collapse was from poor design rather than resonance physics",
+          "optionD": "Resonance was one of several factors — the primary cause was that the bridge deck was too flexible for the span length, and resonance amplified an already problematic design",
+          "correctAnswer": "B",
+          "explanation": "Tacoma Narrows collapsed when wind-induced vortices drove oscillations at the bridge's natural resonant frequency. Energy input at resonant frequency causes amplitude to grow each cycle until structural limits are exceeded. This is why engineers must design structures to avoid resonance with expected loading frequencies — wind, traffic, or seismic."
+        }
+      ]
+    },
+    {
+      "slug": "optics",
+      "title": "Optics: How Light Interacts with Matter",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Optics is the study of light's behavior as it travels, reflects, refracts, and interacts with materials. It's the physics behind your eyeglasses, microscopes, telescopes, cameras, fiber optic cables, rainbows, and the blue color of the sky.\n\nTwo models describe light depending on the context: the ray model (light travels in straight lines, useful for lenses and mirrors) and the wave model (light diffracts and interferes, useful for colors and fine optical phenomena). Modern quantum optics incorporates both as limiting cases of the full quantum picture.\n\nThis lesson covers the practical phenomena that shape the visual world — reflection, refraction, and dispersion."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Reflection and Refraction",
+          "content": "**Reflection:** When light hits a surface and bounces back. The law of reflection: angle of incidence = angle of reflection (both measured from the normal to the surface). Smooth surfaces produce specular reflection (mirrors, calm water); rough surfaces produce diffuse reflection (white paper scatters light in all directions).\n\n**Refraction:** When light passes from one medium to another and changes speed — which bends its direction. Light is faster in less optically dense media (like air) and slower in more dense media (like glass or water). The amount of bending is described by Snell's Law: n₁ sin(θ₁) = n₂ sin(θ₂), where n is the refractive index.\n\nRefraction explains: why a straw in water appears bent (light bends at the air-water interface), how eyeglass lenses correct vision (controlled refraction at curved surfaces), how mirages form (hot air near a surface refracts light upward, creating an image that appears to be reflected water), and how rainbows form (different wavelengths of light refract at slightly different angles in water droplets)."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Fiber optic cables — which carry the vast majority of internet traffic worldwide — work through a phenomenon called total internal reflection.\n\nWhen light tries to exit a medium at too steep an angle (greater than the 'critical angle'), it is completely reflected back inside the medium — no light escapes. A glass fiber can conduct light around curves and over vast distances with minimal loss by keeping light bouncing inside through total internal reflection.\n\nA single hair-thin fiber optic cable can carry 100 gigabits of data per second — equivalent to streaming thousands of HD movies simultaneously. The global fiber optic network, if all the cables were laid end to end, would circle the Earth thousands of times. The modern internet is built on light bouncing inside glass fibers through a simple application of refraction physics."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Lenses and Image Formation",
+          "content": "Lenses work by controlled refraction: a transparent material shaped to bend light rays so that parallel incoming rays converge at a focal point (convex lens) or diverge as if coming from a focal point (concave lens).\n\n**Convex (converging) lens:** Thicker in the middle. Bends parallel rays toward a focal point — magnifying glass, camera lens, human eye lens. Forms real, inverted images when the object is beyond the focal length. Corrects farsightedness.\n\n**Concave (diverging) lens:** Thinner in the middle. Spreads parallel rays as if they came from a focal point behind the lens. Forms virtual, upright, smaller images. Corrects nearsightedness.\n\nThe human eye combines a fixed cornea (provides ~70% of refraction) with a variable lens (provides the remainder, adjusted by ciliary muscles for different distances). Nearsightedness: eye is too long, or lens too powerful — image forms in front of retina. Farsightedness: eye too short, or lens too weak — image forms behind retina."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Dispersion",
+          "content": "**Dispersion** is the separation of light into its component wavelengths (colors) because different wavelengths travel at slightly different speeds in a medium — and therefore refract at slightly different angles.\n\nWhen white light (which contains all visible wavelengths) enters a glass prism, different colors refract at different angles: violet bends most (slowest in glass), red bends least (fastest in glass). The result is the visible spectrum — the colors of the rainbow spread across a surface.\n\nRainbows form through dispersion in water droplets: sunlight enters each droplet, disperses by wavelength, reflects off the back of the droplet, and refracts again on the way out — different colors emerge at different angles, and you see each color from the set of droplets at the right angle from the sun relative to your position.\n\nThe reason different colors refract differently in glass or water but not in vacuum: the speed of light in vacuum is the same for all frequencies, but in material media, different frequencies interact differently with the medium's electrons."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Observe three optical phenomena today:\n\n**Refraction:** Half-submerge a pencil or straw in a glass of water. Notice the apparent bend at the interface — the refraction of light changing speed at the air-water boundary.\n\n**Dispersion:** Hold a glass prism or CD in sunlight and observe the rainbow. A CD's fine grooves act as a diffraction grating, separating colors through interference rather than refraction — but produces the same visual spectrum.\n\n**Reflection angle:** Shine a flashlight at a mirror at an angle. Note that the beam reflects at the same angle on the other side. Now try a rough white surface — notice the beam scatters in all directions (diffuse reflection). The difference between a mirror and a painted wall is surface roughness at the scale of light's wavelength."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "How do fiber optic cables use total internal reflection to transmit data with minimal loss?",
+          "optionA": "The cable's metallic cladding reflects light from outside the core back into it, keeping the signal within the fiber",
+          "otionB": "When light travels through glass and strikes the boundary with less-dense cladding at an angle greater than the critical angle, it is completely reflected back inside — light 'bounces' along the fiber indefinitely rather than escaping, allowing long-distance transmission with minimal loss",
+          "optionC": "The fiber optic cable has a vacuum core — since light travels fastest in vacuum, it experiences no refraction losses at the core-cladding interface",
+          "optionD": "Amplifiers spaced along fiber optic cables regularly boost the signal — the actual light transmission is imperfect but signal degradation is compensated by electronic amplification",
+          "correctAnswer": "B",
+          "explanation": "Total internal reflection: light inside a denser medium hitting the boundary with a less dense medium at an angle exceeding the critical angle is completely reflected — none escapes. Glass fiber's geometry keeps light below the critical angle at every point, allowing it to bounce from wall to wall along the entire cable length with minimal loss — the basis of modern fiber optic communication."
+        },
+        {
+          "question": "Why does a straw appear bent when placed in a glass of water?",
+          "optionA": "Pressure from the water physically bends the straw at the surface — an optical illusion caused by the actual deformation",
+          "optionB": "Light from the submerged portion of the straw refracts (bends) as it crosses the water-air interface — the light changes speed and direction, making the submerged portion appear displaced from its actual position",
+          "optionC": "Diffuse reflection from the water surface around the straw creates an overlapping image that appears offset from the actual straw position",
+          "otionD": "The refractive index of glass distorts images viewed through the side of the glass — the apparent bending is a property of the glass container, not the water",
+          "correctAnswer": "B",
+          "explanation": "Light from the submerged straw travels through water, hits the water-air interface, and bends (refracts) as it enters the less-dense air. The brain extends the ray backward to find where it appears to come from — which is different from the straw's actual position. The apparent bend is where the brain's assumption of straight-line travel meets refracted light."
+        },
+        {
+          "question": "How does a rainbow form, and why does red appear at the top and violet at the bottom?",
+          "optionA": "Red light has longer wavelength and is reflected from larger raindrops higher in the sky; violet reflects from smaller drops lower",
+          "optionB": "White light enters each water droplet, disperses by wavelength (different refraction angles for different colors), reflects off the droplet's back, and exits at slightly different angles for each color. Red (refracted least) exits at shallower angles, reaching eyes from drops higher in the sky; violet (refracted most) reaches eyes from lower drops",
+          "optionC": "Gravity separates water droplets by size during falling — larger drops at the top (red) and smaller at the bottom (violet), creating the color gradient",
+          "optionD": "The red-to-violet gradient from top to bottom results from the Doppler shift of light from falling raindrops — drops approaching show blue shift (violet) and drops receding show red shift",
+          "correctAnswer": "B",
+          "explanation": "Each droplet disperses white light into a spectrum; different colors exit at different angles. From your eye position, you see red from droplets at a specific elevation (angle ~42° from the antisolar point) and violet from droplets at a slightly lower elevation (~40°). The rainbow is the set of droplets at exactly the right angle to send each color to your eyes."
+        }
+      ]
+    },
+    {
+      "slug": "electricity-and-magnetism",
+      "title": "Electricity and Magnetism",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Electricity and magnetism seem like separate phenomena — sparks and magnets don't obviously have the same nature. But James Clerk Maxwell's equations (1860s) revealed that they are two aspects of a single force — electromagnetism — with each generating the other when charges or magnets are in motion.\n\nThis unification was one of the greatest achievements in physics, predicted the existence of electromagnetic waves (light), and set the stage for Einstein's special relativity and the revolution of modern physics.\n\nMore practically: electricity and magnetism together underpin virtually all of modern technology — electric motors, generators, transformers, computers, radio communication, and MRI machines all work through Maxwell's unified electromagnetic theory."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Electric Charge and Current",
+          "content": "Electric charge is a fundamental property of matter. Two types: positive (protons) and negative (electrons). Like charges repel; opposite charges attract. The force between charges follows Coulomb's Law — an inverse-square law similar in form to gravity.\n\n**Electric current** is the flow of electric charge — typically electrons moving through a conductor. Measured in amperes (A). One ampere = one coulomb of charge passing a point per second.\n\n**Voltage** (electric potential difference): the 'pressure' that drives current — measured in volts (V).\n\n**Resistance:** Opposition to current flow — measured in ohms (Ω).\n\n**Ohm's Law:** V = IR (Voltage = Current × Resistance)\n\nOhm's Law is the foundational relationship for circuit analysis: doubling voltage doubles current (for fixed resistance); doubling resistance halves current (for fixed voltage). This simple relationship underlies every circuit from a flashlight to a supercomputer."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The 'War of Currents' between Thomas Edison (DC, direct current) and Nikola Tesla/George Westinghouse (AC, alternating current) in the 1880s-90s was one of history's great technology battles — with massive financial stakes and real public safety implications.\n\nEdison had built his DC electrical distribution infrastructure in New York and aggressively opposed AC, claiming it was too dangerous. He demonstrated this by publicly electrocuting animals with AC current — including an elephant named Topsy in 1903 (after the war was effectively over).\n\nAC won because it can be efficiently transformed to high voltage for long-distance transmission and stepped back down for household use (transformers only work with AC). DC cannot be easily transformed, severely limiting distribution distance.\n\nAlmost all global electricity distribution is AC. DC makes a comeback in modern applications because electronics (computers, LEDs, batteries) require DC — and conversion is now efficient and cheap."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Electromagnetism: Why Electricity and Magnetism Are One",
+          "content": "Maxwell's greatest achievement was showing that electricity and magnetism are two manifestations of the same underlying force:\n\n- **Moving electric charges create magnetic fields** (the basis of electromagnets, electric motors, and MRI machines)\n- **Changing magnetic fields create electric fields** (the basis of generators and transformers — Faraday's law)\n\nAn electric motor uses the first principle: current in a coil creates a magnetic field that interacts with a permanent magnet, producing torque — electrical energy to mechanical motion.\n\nA generator uses the second: a rotating magnet (or coil) creates a changing magnetic field that induces a current — mechanical motion to electrical energy.\n\nThe generator and motor are the same device run in reverse — a profound symmetry. A car's alternator is a generator; its starter motor is an electric motor. Regenerative braking in electric vehicles runs the motor as a generator to capture kinetic energy as electricity.\n\nMaxwell also showed that accelerating charges produce EM waves — the prediction of radio waves, confirmed by Hertz in 1887."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Series and Parallel Circuits",
+          "content": "**Series circuit:** Components are connected end-to-end — the same current flows through all components. If one component fails (opens), the entire circuit breaks. Total resistance = sum of individual resistances.\n\n**Parallel circuit:** Components are connected side-by-side, sharing the same voltage. Current divides between paths. If one component fails, others continue functioning. Total resistance is less than the smallest individual resistance.\n\nHousehold wiring is parallel: each outlet shares the same voltage (120V in the US) and operates independently — turning off one light doesn't extinguish others. Older Christmas light strings were series — one failed bulb broke the whole circuit.\n\nSeries circuits are useful for: current-limiting resistors (to protect LEDs), voltage dividers, and battery stacks (voltages add in series). Parallel circuits are useful for: distributing power to multiple loads, load balancing, and redundancy."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Observe electricity and magnetism working together:\n\n**Electric motor / generator experiment:** Hold a small electric motor from a craft store (or examine a battery-powered fan). Connect it to a battery — it spins (motor). Spin it by hand — it generates a small voltage (generator). Same device, two modes of operation.\n\n**Electromagnet:** Wrap 20-30 turns of copper wire around an iron bolt. Connect the ends to a 9V battery. The bolt becomes an electromagnet capable of picking up small metal objects. Disconnect — the magnetism (mostly) disappears. This is Maxwell's principle: current creates magnetic field.\n\n**Circuit parallel test:** Connect two small LED lights in parallel vs. series to a battery. In parallel, both glow at full brightness; remove one, the other continues. In series, both glow dimmer; remove one, the other goes out."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is Ohm's Law and what does it predict about current when resistance doubles?",
+          "optionA": "Ohm's Law states V = IR; if resistance doubles with constant voltage, current halves (I = V/R). Resistance and current are inversely proportional at constant voltage",
+          "optionB": "Ohm's Law states that current and resistance are directly proportional — doubling resistance doubles current",
+          "optionC": "Ohm's Law applies only to resistors — other components (capacitors, inductors) don't follow this relationship",
+          "optionD": "Ohm's Law states that voltage equals current divided by resistance — doubling resistance would halve voltage with constant current",
+          "correctAnswer": "A",
+          "explanation": "Ohm's Law: V = IR. Rearranged: I = V/R. If R doubles and V stays constant, I = V/(2R) — current halves. Resistance and current are inversely proportional at constant voltage. This is why resistors 'limit' current: higher resistance reduces current flow for the same voltage."
+        },
+        {
+          "question": "Why did AC (alternating current) win over DC (direct current) for electrical power distribution?",
+          "otionA": "AC is safer than DC at equivalent voltages — the shock hazard is lower because of the alternating direction of current flow",
+          "optionB": "AC can be efficiently transformed to high voltages for long-distance transmission (reducing resistive losses) and back down for household use through transformers — DC cannot be easily transformed, severely limiting distribution distance",
+          "optionC": "AC is more compatible with lighting technology — Edison's DC bulbs were less efficient than AC designs that Westinghouse developed",
+          "optionD": "AC generators are mechanically simpler than DC generators — the technological advantage was in generation efficiency rather than distribution",
+          "correctAnswer": "B",
+          "explanation": "Transformers only work with AC (they rely on changing magnetic flux). High-voltage transmission over long distances reduces resistive losses (P_loss = I²R — high voltage means low current for the same power). AC can be stepped up for efficient transmission and stepped down for safe household use. DC's inability to be efficiently transformed was its fatal disadvantage."
+        },
+        {
+          "question": "Why does regenerative braking in electric vehicles work — and what physical principle does it exploit?",
+          "otionA": "Regenerative braking uses the vehicle's momentum to pressurize hydraulic reservoirs that drive generators when the vehicle accelerates again",
+          "optionB": "The electric motor is reversed to act as a generator — Faraday's law: the rotating wheels drive the motor mechanically, and the changing magnetic field in the motor induces current (electrical energy). This captures kinetic energy as electricity rather than converting it to useless heat",
+          "otionC": "Regenerative braking captures energy from the vehicle's suspension compression during deceleration — piezoelectric materials convert mechanical pressure to electricity",
+          "optionD": "Capacitors attached to the braking system store electrical charge generated by friction between brake pads and rotors during normal braking",
+          "correctAnswer": "B",
+          "explanation": "Faraday's law: changing magnetic field induces current. The electric motor, run as a generator, converts the wheels' rotational kinetic energy (from vehicle momentum) into electrical current that charges the battery. The same device is a motor (electricity → motion) or generator (motion → electricity) depending on which way energy flows — a fundamental electromagnetic symmetry."
+        }
+      ]
+    },
+    {
+      "slug": "nuclear-energy",
+      "title": "Nuclear Energy and Radiation",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The nucleus of an atom is held together by the strong nuclear force — one of the four fundamental forces, acting only at extremely short ranges (femtometer scale) but with enormous strength. The energy stored in nuclear bonds is vastly greater than the energy in chemical bonds — which is why nuclear reactions release millions of times more energy per atom than chemical reactions.\n\nThis energy has two faces: the most destructive weapons ever created, and one of the most energy-dense, low-carbon electricity generation methods available. Understanding nuclear physics is essential for informed engagement with one of the most consequential energy policy decisions of the 21st century."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Fission and Fusion",
+          "content": "**Nuclear fission:** Splitting a heavy nucleus (like uranium-235 or plutonium-239) into smaller nuclei, releasing enormous amounts of energy plus neutrons that can trigger additional fissions — a chain reaction.\n\nFission powers nuclear power plants: controlled chain reactions heat water to steam that drives turbines. Uncontrolled chain reactions are nuclear weapons.\n\n**Nuclear fusion:** Joining light nuclei (like hydrogen isotopes deuterium and tritium) into heavier nuclei, releasing even more energy per unit mass than fission. This is the reaction powering the Sun and stars — and hydrogen bombs.\n\nFusion's appeal for power generation: abundant fuel (deuterium from seawater), no long-lived radioactive waste, no chain-reaction runaway risk. The challenge: maintaining the conditions needed (temperatures exceeding 100 million degrees) long enough to produce net energy. Commercial fusion power has been 'thirty years away' for sixty years — but ITER (currently under construction in France) and several private ventures represent the most serious engineering efforts yet."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "E = mc² — Einstein's most famous equation — quantifies the enormous energy contained in mass. The 'c²' term (speed of light squared, approximately 9 × 10¹⁶ m²/s²) means that even a tiny amount of mass converts to an enormous amount of energy.\n\nIn nuclear reactions, a small percentage of mass is converted to energy. In uranium fission, about 0.1% of the mass converts to energy. Yet this produces millions of times more energy than burning the same mass of fossil fuel.\n\nIn the Sun, hydrogen fusion converts about 0.7% of the mass of hydrogen nuclei to energy — which is why the Sun has been shining for 4.6 billion years and will continue for another 5 billion.\n\nThe amount of mass in a single kilogram of matter, if completely converted to energy, would equal the total energy output of approximately 85 Hiroshima nuclear bombs. Matter is extraordinarily compressed energy — a fact that modern physics revealed and nuclear technology partially exploits."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Radioactive Decay and Half-Life",
+          "content": "Unstable atomic nuclei spontaneously decay, emitting radiation and transforming into more stable nuclei. This is radioactive decay — a quantum mechanical process that cannot be predicted for a specific nucleus but follows precise statistical laws for large numbers.\n\nThe **half-life** is the time required for half of a sample of radioactive material to decay. Half-lives range from nanoseconds to billions of years:\n- Carbon-14: 5,730 years (the basis of radiocarbon dating of organic material)\n- Uranium-238: 4.47 billion years (similar to Earth's age)\n- Iodine-131: 8 days (used in thyroid cancer treatment, decays quickly)\n\nThree types of radiation:\n- **Alpha (α):** Helium nucleus (2 protons, 2 neutrons). Stopped by paper or skin — dangerous if inhaled or ingested.\n- **Beta (β):** Electron (or positron). Stopped by aluminum or thick plastic. More penetrating than alpha.\n- **Gamma (γ):** High-energy photon. Requires lead or several feet of concrete to block. Most penetrating."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Nuclear Power Generation",
+          "content": "**Nuclear power generation** uses controlled fission chain reactions to produce heat, which generates steam, which drives turbines connected to electrical generators — the same thermodynamic cycle as coal or gas plants, but with a different heat source.\n\nGlobal nuclear power: provides approximately 10% of world electricity and about 25% of low-carbon electricity. France generates ~70% of its electricity from nuclear; the US generates ~20%.\n\nSafety: Nuclear power has the lowest deaths-per-kilowatt-hour of any major energy source in historical terms — including renewable energy. Coal is approximately 1,000× more deadly per unit of energy (air pollution deaths, mining accidents). The Chernobyl disaster killed ~31-60 directly; WHO estimates eventual radiation-caused deaths in the hundreds to thousands. Fukushima: no confirmed radiation deaths. The fear of nuclear power exceeds its statistical danger relative to alternatives.\n\nWaste: High-level nuclear waste (spent fuel) is the significant remaining challenge — it remains radioactive for thousands of years and requires secure long-term storage."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Calculate a half-life decay problem:\n\nCarbon-14 has a half-life of 5,730 years. If an organic sample contains 100% of original C-14 when an organism dies:\n- After 5,730 years: 50% remains\n- After 11,460 years (2 half-lives): 25% remains\n- After 17,190 years (3 half-lives): 12.5% remains\n\nQuestion: An ancient wood sample contains 6.25% of its original C-14. How old is it?\n\nSolution: 6.25% = (1/2)⁴ — four half-lives have elapsed. 4 × 5,730 = 22,920 years old.\n\nThis is the logic of radiocarbon dating — one of archaeology's most powerful tools. The same half-life math applies to medical radioactive tracers (doses timed to decay by the time they leave the body) and nuclear waste management (storage times based on when material decays to safe levels)."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What distinguishes nuclear fission from nuclear fusion?",
+          "otionA": "Fission joins light nuclei; fusion splits heavy nuclei — they are opposite reactions with the same energy outcome",
+          "optionB": "Fission splits heavy nuclei (releasing energy and neutrons that sustain chain reactions — the basis of nuclear power and weapons). Fusion joins light nuclei (releasing even more energy per unit mass — the reaction powering stars and hydrogen bombs)",
+          "optionC": "Fission produces long-lived radioactive waste; fusion produces no radioactive products at all",
+          "optionD": "Fission occurs naturally in uranium deposits; fusion only occurs in engineered plasma conditions and cannot be initiated by natural processes",
+          "correctAnswer": "B",
+          "explanation": "Fission: heavy nucleus (U-235) splits → smaller nuclei + neutrons + energy. The neutrons can trigger more fissions — chain reaction. Fusion: light nuclei (H isotopes) combine → heavier nucleus + even more energy per unit mass. Stars run on fusion. Both exploit the binding energy difference between nuclei — the mass 'lost' in the reaction becomes energy via E=mc²."
+        },
+        {
+          "question": "What does the half-life concept tell us about radioactive decay, and why can't we predict when a specific nucleus will decay?",
+          "otionA": "Half-life tells us the average decay rate for a specific isotope — individual nuclei follow this average because they interact and synchronize their decay timing",
+          "optionB": "Radioactive decay is a quantum mechanical process — truly random at the individual nucleus level, with no predictable trigger. But statistical laws describe large numbers precisely: the half-life is when statistically half have decayed, though we cannot predict any individual nucleus",
+          "otionC": "Half-life can predict individual nuclear decay — it gives the probability that a specific nucleus will decay in a given time interval, which can be calculated precisely",
+          "optionD": "The individual decay timing can be predicted from the nucleus's internal quantum state — half-life is simply the average of these individually predictable events",
+          "correctAnswer": "B",
+          "explanation": "Quantum mechanics predicts probabilities, not individual events. Each unstable nucleus has a fixed probability of decaying per unit time — but exactly when any specific nucleus decays is fundamentally unpredictable, not just unknown. For large numbers, the law of large numbers produces precise statistical behavior: exactly half decay in each half-life period."
+        },
+        {
+          "question": "What does the statistical safety comparison of nuclear vs. fossil fuel power reveal?",
+          "optionA": "Nuclear and fossil fuel power have comparable death rates per unit energy — the perception that nuclear is more dangerous is accurate",
+          "otionB": "Nuclear power has historically produced the lowest deaths-per-kilowatt-hour of any major energy source — coal is approximately 1,000x more deadly per unit energy through air pollution and mining accidents. Public fear of nuclear substantially exceeds its statistical danger relative to alternatives",
+          "optionC": "Nuclear power is safer in developed countries with modern reactor designs but more dangerous in developing countries — the global average obscures this geographic variation",
+          "optionD": "Safety comparisons are inappropriate because nuclear accidents have small probabilities but catastrophic consequences — expected value comparisons underweight tail risks",
+          "correctAnswer": "B",
+          "explanation": "Deaths per terawatt-hour: coal ~25, oil ~18, gas ~3, hydro ~1.5, wind ~0.04, nuclear ~0.03. Coal's air pollution kills millions globally each year; nuclear accidents (even major ones) kill hundreds to thousands. The perception gap — nuclear feels uniquely dangerous — reflects availability bias (memorable accidents) rather than statistical reality."
+        }
+      ]
+    }
+  ]
+}

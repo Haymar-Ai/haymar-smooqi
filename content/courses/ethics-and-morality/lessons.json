@@ -1,0 +1,365 @@
+{
+  "courseSlug": "ethics-and-morality",
+  "lessons": [
+    {
+      "slug": "moral-frameworks",
+      "title": "The Major Moral Frameworks",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Every time you make a moral decision — how to treat someone, whether to be honest, how to weigh competing obligations — you're implicitly using a moral framework, whether you know it or not.\n\nMaking that framework explicit has two benefits: it makes your reasoning more consistent, and it reveals when different frameworks give different answers — which is usually where the most important moral thinking happens.\n\nThis lesson introduces the four major ethical frameworks that have shaped moral philosophy for centuries — not to memorize, but to use as lenses."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Four Frameworks",
+          "content": "**Consequentialism** (most associated with Bentham and Mill): An action is right if it produces the best overall consequences — the greatest good for the greatest number. Outcomes determine morality. The ends can justify the means.\n\n**Deontology** (Kant): An action is right if it follows from a universal duty or rule — regardless of consequences. Some actions are wrong no matter what they produce. Rights and duties are absolute.\n\n**Virtue Ethics** (Aristotle): An action is right if it's what a virtuous person would do in the circumstances. The focus is on character — not rules or outcomes, but who you are and who you're becoming.\n\n**Contractualism** (Rawls, Scanlon): An action is right if it could be justified to everyone it affects — if the principle behind it couldn't reasonably be rejected by anyone who it's applied to. Fairness and agreement are the bedrock."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The trolley problem — introduced by philosopher Philippa Foot in 1967 and developed by Judith Jarvis Thomson — is one of the most widely used thought experiments in ethics precisely because different moral frameworks give different answers to the same situation.\n\nShould you pull a lever to redirect a runaway trolley from killing five people to killing one? Most people say yes (consequentialist answer: five lives vs. one). Should you push a large man off a bridge to stop the trolley and save five? Most people say no — even though the logic is structurally similar.\n\nThis divergence reveals that our moral intuitions aren't purely consequentialist — something about being the direct cause of harm triggers a different moral response than allowing equivalent harm. The trolley problem doesn't have a right answer; it reveals the structure of moral reasoning."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "When Frameworks Conflict",
+          "content": "Real moral complexity typically emerges when frameworks give different answers. This conflict is productive — it identifies where the genuinely hard moral work needs to happen.\n\nExample: Should you lie to spare someone's feelings?\n- Consequentialist: yes, if the lie produces more wellbeing than the truth\n- Deontological: no, lying violates a universal duty of honesty\n- Virtue: it depends — is this the kind of lie a person of compassion and honesty would tell?\n- Contractualist: could you justify this principle to the person being lied to?\n\nNoticing the conflict forces you to decide which framework you're giving priority — and why. That decision, made consciously, is moral philosophy in practice.\n\nThe best moral thinkers don't commit entirely to one framework. They use all four as complementary checks — and take seriously any situation where multiple frameworks converge on the same answer."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Moral Intuitions",
+          "content": "**Moral intuitions** are immediate judgments about the rightness or wrongness of an action — responses that arise before reasoning begins and often without explicit justification.\n\nPhilosopher John Rawls argued that moral intuitions ('considered judgments') are important data points in ethical reasoning — not infallible, but not dismissible either. His method of 'reflective equilibrium' involves adjusting both principles and intuitions until they cohere.\n\nResearch in moral psychology by Jonathan Haidt suggests that moral intuitions arise first (often from emotional, social, or evolutionary sources) and reasoning follows to justify them — a process he calls 'moral dumbfounding': people often have strong moral reactions but can't articulate why.\n\nThe implication: moral intuitions are not just feelings to be dismissed in favor of 'pure' reasoning — they often encode accumulated wisdom. But they also contain biases, cultural assumptions, and evolutionary remnants that sometimes lead us astray. The task is to take them seriously while subjecting them to critical scrutiny."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Take a real moral decision you've faced recently or are facing now — something where you felt genuinely uncertain or conflicted.\n\nRun it through all four frameworks:\n1. **Consequentialist:** What action produces the best outcomes overall?\n2. **Deontological:** What duties or rules apply — and does any action violate them regardless of outcome?\n3. **Virtue:** What would a person of good character do in this situation?\n4. **Contractualist:** Could you justify the principle behind your action to everyone it affects?\n\nNote where the frameworks agree — that convergence is a signal of a more robust moral conclusion. Note where they diverge — that's where your moral reasoning needs to do the most work."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the fundamental difference between consequentialism and deontology?",
+          "optionA": "Consequentialism is secular; deontology is based on religious law",
+          "optionB": "Consequentialism evaluates actions by their outcomes (greatest good); deontology evaluates actions by whether they follow universal duties/rules regardless of consequences",
+          "optionC": "Consequentialism applies to personal decisions; deontology applies to political ones",
+          "optionD": "Consequentialism is more modern; deontology was primarily a medieval framework",
+          "correctAnswer": "B",
+          "explanation": "Consequentialism: ends can justify means if outcomes are good enough. Deontology: some actions are wrong regardless of outcomes because they violate absolute duties. The trolley problem exposes this tension — both frameworks give different answers to structurally similar situations."
+        },
+        {
+          "question": "What is virtue ethics' primary focus, and how does it differ from rule-based ethics?",
+          "optionA": "Virtue ethics focuses on outcomes while rule-based ethics focuses on intentions",
+          "optionB": "Virtue ethics focuses on character — who you are and who you're becoming — rather than on rules or outcomes. The question is 'what would a virtuous person do?' not 'what rule applies?' or 'what produces the best result?'",
+          "optionC": "Virtue ethics is agent-relative (focused on the individual) while deontology is agent-neutral (applying to everyone equally)",
+          "optionD": "Virtue ethics emerged from Eastern philosophy while rule-based ethics is distinctly Western",
+          "correctAnswer": "B",
+          "explanation": "Virtue ethics (Aristotle) centers on character development rather than applying rules or calculating outcomes. It asks what kind of person you want to be — and judges actions by whether they express or develop virtue in that person, in the specific circumstances they face."
+        },
+        {
+          "question": "What is 'moral dumbfounding,' and what does it reveal about the relationship between intuition and reasoning in ethics?",
+          "optionA": "The paralysis that occurs when two equally strong moral principles conflict",
+          "optionB": "The phenomenon where people have strong moral reactions but can't articulate a justification — suggesting moral intuitions arise first and reasoning is often post-hoc justification",
+          "optionC": "The tendency to apply moral rules in familiar situations but abandon them in novel ones",
+          "optionD": "The confusion that arises when different cultural moral systems produce incompatible judgments about the same act",
+          "correctAnswer": "B",
+          "explanation": "Haidt's moral psychology research shows that people often have immediate, strong moral judgments they cannot justify — and when their usual justifications are systematically refuted, they say 'I can't explain it but it's still wrong.' This suggests intuitions are often primary and reasoning secondary, which has major implications for moral philosophy."
+        }
+      ]
+    },
+    {
+      "slug": "applied-ethics",
+      "title": "Applied Ethics: Moral Questions That Matter Now",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Ethics isn't just abstract philosophy. It's the field that tries to answer the hardest live questions facing individuals, organizations, and societies.\n\nBioethics asks: should you be allowed to sell a kidney? How do we allocate scarce organs? What rights do embryos have?\n\nAI ethics asks: who is responsible when an algorithm makes a discriminatory decision? Can an AI have rights?\n\nBusiness ethics asks: what do companies owe employees, communities, and the environment beyond profit?\n\nEach of these fields applies the philosophical frameworks to specific decisions with real consequences. This lesson introduces the method of applied ethics — and walks through several live questions."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Method of Applied Ethics",
+          "content": "Applied ethics doesn't just pick a framework and apply it mechanically. The method involves several layers:\n\n**1. Identify the morally relevant features:** What's actually at stake? Who is affected and how? What rights, duties, harms, and goods are in play?\n\n**2. Apply multiple frameworks:** What does each give as an answer? Where do they agree? Where do they conflict?\n\n**3. Weight strong intuitions:** If an argument's conclusion strikes virtually everyone as monstrous, that's evidence against a premise — not just a feeling to override with logic.\n\n**4. Look for the most defensible position:** The one that survives the most scrutiny, generates the fewest serious objections, and can be publicly justified to all affected parties.\n\nGood applied ethics doesn't produce comfortable answers to every question. It produces more carefully reasoned answers to the hardest ones."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Peter Singer's 1972 essay 'Famine, Affluence, and Morality' made one of the most consequential — and uncomfortable — arguments in modern applied ethics:\n\nIf you can prevent something bad (a child dying of starvation) without sacrificing anything of comparable moral importance, you are morally required to do it. Distance and proximity don't change this — a drowning child near you and a dying child in another country create the same moral obligation if you have the means to help.\n\nSinger's argument implies that most wealthy people in wealthy countries are morally required to give significantly more than they do. Most philosophers find his argument logically valid even if they — and their students — find the conclusion uncomfortable.\n\nThe essay is still one of the most assigned texts in applied ethics courses worldwide, precisely because it forces confrontation with a conclusion most people resist."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Moral Progress Is Real",
+          "content": "One of the most important empirical facts about ethics: moral views have changed — significantly, directionally, and often in ways that most people now recognize as improvements.\n\nThe abolition of slavery. The expansion of voting rights to women and racial minorities. The recognition of LGBTQ+ rights. The growing recognition of animal welfare. These are moral changes — changes in what people believe is right — not just political or social changes.\n\nThis fact has two implications. First: moral relativism (the view that all moral beliefs are equally valid within their own culture) has difficulty explaining why we should regard these changes as improvements rather than just differences. Second: humility about current moral beliefs is warranted — our descendants may look back at some of our current practices with the same moral horror we direct at historical ones.\n\nThe question 'what will future generations find morally troubling about how we live now?' is one of the most productive questions in applied ethics."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Doctrine of Double Effect",
+          "content": "The **Doctrine of Double Effect** is an ethical principle holding that an action with both good and harmful effects may be permissible if: (1) the action itself isn't morally wrong, (2) the agent intends only the good effect, not the harmful one, (3) the harmful effect isn't the means to the good, and (4) there's proportionate reason for taking the action despite the harm.\n\nOriginally developed in Catholic moral theology (Aquinas) and widely used in bioethics and just war theory, it addresses situations like: giving a dying patient pain medication that may hasten death (intended effect: pain relief; foreseen but unintended: hastening death — permissible under doctrine) versus giving medication specifically to end life (the death is intended — not permissible under doctrine).\n\nThe distinction between intended and merely foreseen harm is widely debated — some consequentialists reject it entirely — but it captures a moral intuition many people share: there's a moral difference between killing someone and letting them die."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Pick one live ethical issue you have opinions about — climate, AI, animal welfare, economic inequality, privacy, genetic engineering.\n\nApply the applied ethics method:\n1. What are the morally relevant features — who is affected, what's at stake?\n2. What does each major framework say about it?\n3. What does your strong moral intuition say? Does it align with the framework analysis?\n4. Ask the future-generations question: is there anything about how you or your society currently treats this issue that might look morally troubling in 50 years?\n\nThe goal isn't to change your position — it's to hold it more honestly, knowing its basis and its limits."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the core argument of Peter Singer's 'Famine, Affluence, and Morality'?",
+          "optionA": "Wealthy nations are morally required to provide international aid equal to their military budgets",
+          "optionB": "If you can prevent something bad without sacrificing anything of comparable moral importance, you are morally required to do it — distance and proximity don't affect the obligation",
+          "optionC": "The marginal utility of money means that wealthy individuals' moral obligation scales with their excess above basic needs",
+          "optionD": "Foreign aid is more morally effective than domestic charity because the need is greater and the impact per dollar is higher",
+          "correctAnswer": "B",
+          "explanation": "Singer's argument is structurally simple: preventing bad things is obligatory when you can do so without comparable moral cost. Distance doesn't change this — a drowning child nearby and a starving child far away create identical obligations if you have means to help. The uncomfortable conclusion follows logically from widely shared premises."
+        },
+        {
+          "question": "What does the historical reality of moral progress imply about moral relativism?",
+          "optionA": "Moral progress confirms relativism — each era's moral framework is valid within its own historical context",
+          "optionB": "Moral progress undermines relativism — if all moral views are equally valid within their culture, we can't call the abolition of slavery an improvement rather than just a change",
+          "optionC": "Moral progress is illusory — what appears as progress is just the replacement of one set of cultural preferences with another",
+          "optionD": "Moral progress supports a limited form of relativism — progress happens within cultures, but cross-cultural comparison remains impossible",
+          "correctAnswer": "B",
+          "explanation": "If moral relativism is true — all views equally valid within their culture — we can't describe abolition as progress, only as change. But most people recognize it as progress. This creates a problem for relativism: it can't explain why we should prefer abolition to slavery, only that they differ."
+        },
+        {
+          "question": "What are the four conditions of the Doctrine of Double Effect?",
+          "optionA": "The action must be beneficial, proportionate, necessary, and minimal in harm",
+          "optionB": "The action must not be intrinsically wrong; the agent must intend only the good effect; the harm must not be the means to the good; and there must be proportionate reason for accepting the harm",
+          "optionC": "The intended effect must outweigh the foreseen harm by at least 2:1 in any reasonable measure of value",
+          "optionD": "The agent must be acting from duty, not self-interest; the harm must be foreseen; alternatives must have been considered; and consent must be sought where possible",
+          "correctAnswer": "B",
+          "explanation": "The Doctrine of Double Effect's four conditions: (1) the action isn't inherently wrong, (2) the agent intends only the good effect, (3) the harm isn't the means to the good (it's a side effect), (4) there's proportionate reason. All four must be satisfied for the action to be permissible under the doctrine."
+        }
+      ]
+    },
+    {
+      "slug": "personal-ethics",
+      "title": "Building Your Own Moral Character",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Moral philosophy tells you how to reason about ethics. Character development determines whether you'll actually act on what you reason.\n\nKnowing that honesty is a virtue doesn't automatically make you honest. Understanding that fairness is important doesn't mean you'll be fair when it costs you something. The gap between moral knowledge and moral action is where character lives — and where the most important ethical work happens.\n\nThis lesson is about how you build moral character — not through rules, but through practices, habits, and the ongoing work of becoming the kind of person whose actions you respect."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Integrity: The Core of Moral Character",
+          "content": "Integrity — from the Latin 'integer,' meaning whole or complete — is often defined as consistency between values and actions: you do what you say you believe is right, even when no one is watching and even when it costs you.\n\nPhilosopher Stephen Carter identifies three components of integrity:\n\n**1. Discernment:** Figuring out what's right — doing the moral reasoning.\n**2. Acting on that discernment:** Doing what you've concluded is right — even at personal cost.\n**3. Saying openly that you're acting on your moral reasoning:** Being transparent about it — not hiding behind convenience or neutrality.\n\nMost people manage the first step. Fewer consistently manage the second. The third — being publicly transparent about acting on principle — is the rarest and, Carter argues, the most important, because it's what connects moral reasoning to moral culture."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Philip Zimbardo, who conducted the famous Stanford Prison Experiment in 1971, spent decades studying what he called 'the Lucifer Effect' — the process by which ordinary people come to do evil things.\n\nHis conclusion after studying situational factors in both his experiment and in real-world atrocities (Abu Ghraib, genocide): the situational context is far more powerful than most people assume. Ordinary people in the wrong situations behave in ways they — and we — find unimaginable.\n\nThe defense against this isn't willpower — it's moral preparation: knowing your values so clearly in advance, and having practiced acting on them in low-stakes situations, that they're available as automatic responses in high-pressure ones. Character, in other words, is built before the crisis — not during it."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Practice of Moral Courage",
+          "content": "Moral courage is the disposition to act on your moral convictions in the face of social disapproval, personal cost, or fear. It's not the same as physical courage — and most ethical failures are failures not of reasoning but of courage.\n\nResearch on moral courage in organizational settings (researchers Cynthia Pury and Sharon Koller) found that it requires: a clear perception of a moral issue, conviction about the right response, the willingness to act despite fear of consequences, and a belief that the action matters.\n\nThe most reliable way to develop moral courage is the same way you develop other forms of courage: graduated exposure. Practice being honest in low-stakes situations before you need to be honest in high-stakes ones. Practice saying 'I disagree' in safe environments before you need to say it in dangerous ones. The habit of acting on convictions builds the capacity for it."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Moral Luck",
+          "content": "**Moral luck** is the philosophically disturbing observation that moral judgments about people's character depend significantly on factors outside their control — factors that are, in some sense, just luck.\n\nPhilosophers Thomas Nagel and Bernard Williams identified four types: constitutive luck (the character you're born with), circumstantial luck (the situations you're placed in), resultant luck (whether your actions succeed or fail), and causal luck (whether your choices are truly free given determinism).\n\nA straightforward example: two drunk drivers. One makes it home without incident. One hits a pedestrian. Both made the same moral choice with the same recklessness — but one is a tragic figure and the other goes home unaware of how close it was.\n\nMoral luck doesn't resolve cleanly — but thinking about it produces important humility: your moral character may owe more to circumstances than to personal virtue, and those who failed morally may have done so partly from bad luck rather than worse character."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Three practices for moral character development:\n\n**Daily reflection (5 minutes before sleep):** Ask: 'Did I act with integrity today — or was there a moment where I avoided the honest or fair thing?' Not for self-punishment, but to notice patterns.\n\n**Low-stakes courage practice:** Identify one small situation this week where honesty or fairness would cost you something minor. Practice the action — not the grand gesture, but the small consistent one.\n\n**Moral hero identification:** Identify one person — historical or in your life — whose moral character you admire. What specifically do they do that you admire? Is it reasoning, action, or courage? Which of those is your strongest gap?\n\nCharacter is built before the crisis. What you do in small moments is who you are."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What are Stephen Carter's three components of integrity?",
+          "optionA": "Honesty, reliability, and consistency across public and private behavior",
+          "optionB": "Discernment (figuring out what's right), acting on that judgment even at cost, and being transparent about acting on moral reasoning",
+          "optionC": "Self-knowledge, moral courage, and commitment to truth-telling",
+          "optionD": "Knowing your values, following them in private, and modeling them for others",
+          "correctAnswer": "B",
+          "explanation": "Carter's three components: discernment (do the moral reasoning), action (do what you concluded is right, even at cost), and transparency (be openly acting on principle, not hiding behind neutrality). Most manage the first; fewer the second; the third is the rarest and most publicly important."
+        },
+        {
+          "question": "What did Zimbardo's research on the Lucifer Effect reveal about the relationship between character and situation?",
+          "optionA": "Character is fixed by early childhood and situational factors have minimal influence on adults with established moral frameworks",
+          "optionB": "Situational context is far more powerful than commonly assumed — ordinary people in the wrong situations behave in unimaginable ways — which means moral preparation before the crisis is the primary defense",
+          "optionC": "The most important factor in moral behavior is knowing right from wrong — people with clear moral knowledge resist situational pressure better",
+          "optionD": "Authority figures and peer pressure are the primary situational factors — removing either eliminates most situational moral failures",
+          "correctAnswer": "B",
+          "explanation": "Zimbardo's conclusion from the Stanford Prison Experiment and Abu Ghraib analysis: ordinary people do terrible things in certain situational conditions. The defense isn't willpower under pressure — it's character built through habit before the pressure arrives."
+        },
+        {
+          "question": "What is moral luck, and why does it challenge conventional moral assessment?",
+          "optionA": "The randomness of moral dilemmas — whether you face them at all depends on circumstances beyond your control",
+          "optionB": "The fact that moral judgments depend partly on factors outside people's control — two people making identical reckless choices may face very different moral assessments based purely on outcome, which challenges the idea that moral character alone determines judgment",
+          "optionC": "The luck of being raised with good moral values — those with good upbringings are luckier than those without in developing strong character",
+          "optionD": "The unpredictable nature of moral reasoning — even well-intentioned people may reason incorrectly in novel situations",
+          "correctAnswer": "B",
+          "explanation": "Moral luck (Nagel and Williams): two identical drunk drivers face radically different moral judgment based purely on outcome (one hits someone, one doesn't). This challenges pure character-based moral assessment — circumstance and result, both beyond our control, significantly shape how we're judged."
+        }
+      ]
+    },
+    {
+      "slug": "ethics-in-the-digital-age",
+      "title": "Ethics in the Digital Age",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Technology has always created ethical challenges — printing presses, nuclear weapons, birth control. But digital technology raises moral questions at an unprecedented scale and speed.\n\nAlgorithms make consequential decisions about loans, jobs, bail, and medical treatment — often in ways that can't be explained or contested. Social platforms shape political beliefs, amplify misinformation, and affect mental health. AI is creating autonomous agents capable of actions with consequences that outpace our regulatory and ethical frameworks.\n\nThese aren't abstract future problems. They're happening now. And the people designing, regulating, and living within these systems need to think clearly about them."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Privacy and Surveillance",
+          "content": "Privacy is a foundational value in most ethical and political frameworks — not because people have things to hide, but because the ability to control information about yourself is foundational to autonomy.\n\nPhilosopher Charles Fried argued that privacy is necessary for the existence of meaningful relationships: intimacy involves selective sharing of personal information — and if all information is perpetually public, intimacy becomes impossible.\n\nThe modern surveillance economy creates a different kind of privacy problem: vast aggregations of behavioral data that reveal more about you than you know about yourself — and that are used to influence your decisions in ways you're not aware of.\n\nFour ethical questions worth asking about any technology you use: What data does it collect? Who has access to it? How is it used? Could that use harm you or others — directly or indirectly?"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "A 2018 study published in Nature showed that Facebook's emotional contagion experiment — conducted in 2012 on 689,003 users without their knowledge or consent — demonstrated that manipulating what content appeared in people's news feeds changed their emotional state and subsequent behavior.\n\nThe experiment produced a backlash not primarily because of its findings (that emotional states can be influenced through feed curation) but because users hadn't consented to being subjects in a psychological experiment.\n\nThe case highlighted a tension at the heart of digital ethics: platforms routinely conduct behavioral experiments on users at massive scale. The ethical question — what consent should be required, and what information should be disclosed — remains largely unresolved, despite being directly addressed in the 1979 Belmont Report that governs human subjects research in medicine."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Algorithmic Bias Is an Ethical Problem",
+          "content": "Machine learning algorithms are trained on historical data — and if that data reflects past discrimination (in lending, hiring, policing, healthcare), the algorithm will often reproduce and sometimes amplify that discrimination.\n\nA widely studied case: the COMPAS recidivism prediction algorithm used in US courts to assess likelihood of reoffending was found by ProPublica in 2016 to incorrectly flag Black defendants as high-risk at nearly twice the rate of white defendants.\n\nThe algorithm's designers argued it was accurate (predictive of actual recidivism rates) — but critics noted that using predictions based on discriminatory historical data to make current decisions perpetuates the cycle.\n\nThe philosophical question: can an algorithm be 'fair' when the world it learned from isn't? And if accuracy and fairness conflict — how do we decide which takes priority? These are genuinely hard ethical questions that statistical models don't resolve on their own."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Trolley Problem for Self-Driving Cars",
+          "content": "The **trolley problem for autonomous vehicles** describes the class of ethical decisions that must be programmed into self-driving car software: when an accident is unavoidable, how should the vehicle prioritize whose safety to protect?\n\nShould it protect its passengers? Minimize total casualties? Obey traffic laws regardless of outcomes? Prioritize vulnerable road users?\n\nMIT's Moral Machine project collected moral judgments from millions of people across 130 countries and found significant cross-cultural variation in how people prioritized different victims — by age, gender, social status, and species.\n\nThe deep issue: when an algorithm must encode a moral decision, the question of whose moral framework is encoded becomes unavoidable. And whoever writes the code answers the ethical question — whether they intend to or not. Technology design is always also ethics in practice."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Choose one technology you use daily and apply an ethical audit:\n\n1. **Data:** What does this technology collect about you, and what is it used for?\n2. **Influence:** Is it designed to influence your behavior? If so, in whose interest — yours, or the platform's?\n3. **Fairness:** Are there people who are treated differently by this technology? Could you be among them?\n4. **Power:** Who controls this technology and what accountability exists for its decisions?\n\nYou don't need to delete the app. But knowing the ethical dimensions of the technology you use changes the relationship from passive consumption to informed engagement — which is the minimum ethical responsibility in a world increasingly shaped by algorithmic decisions."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is privacy considered foundational to autonomy and intimate relationships, beyond simply 'having something to hide'?",
+          "optionA": "Privacy protects people from the legal consequences of private behavior that may not align with public standards",
+          "optionB": "Privacy is necessary for selective information sharing, which is foundational to intimacy — and autonomy requires controlling information about yourself to make genuine choices free from surveillance-induced conformity",
+          "optionC": "Privacy enables freedom of thought by providing mental space unobserved by others",
+          "optionD": "Privacy is valuable primarily because surveillance creates security risks through data aggregation",
+          "correctAnswer": "B",
+          "explanation": "Fried's argument: intimacy requires selective disclosure — you share different things with different people at different levels of closeness. Universal publicity eliminates this, making intimacy impossible. Autonomy also requires privacy: acting freely under constant surveillance produces conformity, not genuine choice."
+        },
+        {
+          "question": "What was the ethical problem with Facebook's 2012 emotional contagion experiment?",
+          "optionA": "The experiment showed that emotions could be manipulated, which was psychologically harmful to participants",
+          "optionB": "689,003 users were subjected to a psychological experiment without informed consent — violating the same research ethics principles that govern human subjects research in medicine",
+          "optionC": "The experiment data was shared with third parties without appropriate data protection safeguards",
+          "optionD": "The experiment targeted vulnerable populations including people with existing mental health conditions",
+          "correctAnswer": "B",
+          "explanation": "The backlash was primarily about consent: users hadn't agreed to be subjects in a psychological experiment. The Belmont Report (1979) requires informed consent for human subjects research — a standard routinely applied in medicine but essentially ignored in platform behavioral experimentation."
+        },
+        {
+          "question": "What makes algorithmic bias an ethical problem rather than just a technical one?",
+          "optionA": "Algorithms make decisions faster than humans can review them, which means errors compound before they can be identified",
+          "optionB": "When algorithms trained on historically discriminatory data make consequential decisions, they reproduce and can amplify discrimination — and the question of whether to prioritize statistical accuracy or equal treatment across groups is a moral decision, not a technical one",
+          "optionC": "Algorithms are not transparent about their decision criteria, which violates the right to know how consequential decisions are made",
+          "optionD": "The companies that deploy algorithms have financial incentives to deny bias, creating a conflict of interest that technical solutions alone can't resolve",
+          "correctAnswer": "B",
+          "explanation": "The COMPAS case illustrates: an algorithm can be 'accurate' (predict recidivism correctly in aggregate) while being unfair (flag Black defendants as high-risk at twice the rate of white ones for the same actual risk). Resolving this tension requires a moral choice about which value to prioritize — not a technical fix."
+        }
+      ]
+    },
+    {
+      "slug": "morality-across-cultures",
+      "title": "Morality Across Cultures",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Are moral truths universal — the same for all people in all cultures? Or are they relative — valid only within the culture that holds them?\n\nThis is one of the oldest and most consequential questions in ethics. It has practical implications everywhere: in international human rights law, in cross-cultural business ethics, in debates about cultural practices that outsiders find troubling.\n\nThis lesson examines moral relativism and its critics — including the uncomfortable middle ground where most careful thinkers end up."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Case for Moral Relativism",
+          "content": "Anthropologists in the early 20th century — most influentially Ruth Benedict and Margaret Mead — observed dramatically different moral practices across cultures and drew a conclusion: moral norms are cultural constructions, not universal truths. There is no external standpoint from which one culture's morality can be judged superior to another's.\n\nThis position — cultural moral relativism — has intuitive appeal:\n- It explains moral diversity without assuming one culture's superiority\n- It generates tolerance — if morality is culturally relative, who are we to judge?\n- It's consistent with how moral norms actually develop — through cultural transmission and socialization\n\nBut the position faces serious problems. If morality is purely relative, we can't say that slavery was wrong even within a society that practiced it with broad consensus. We can't call genocide evil — only inconsistent with our own cultural norms. Most people find these conclusions unacceptable."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Moral psychologist Jonathan Haidt's cross-cultural research on moral foundations identified six foundational moral concerns that appear across virtually all human cultures — though cultures differ dramatically in how much they weight each:\n\n1. Care/harm (protecting the vulnerable)\n2. Fairness/reciprocity\n3. Loyalty/betrayal\n4. Authority/subversion\n5. Sanctity/degradation\n6. Liberty/oppression\n\nHaidt found that Western liberal cultures weight care, fairness, and liberty most heavily, while many traditional cultures weight loyalty, authority, and sanctity more heavily — leading to dramatically different moral profiles.\n\nThis suggests a middle path: a set of universal moral concerns, but significant cultural variation in their weighting and expression — which is neither full relativism nor simple universalism."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Universal Human Rights and Cultural Variation",
+          "content": "The Universal Declaration of Human Rights (1948) — adopted by the newly formed United Nations in the aftermath of the Holocaust — represents the most significant modern attempt to identify universal moral standards.\n\nThe declaration asserts rights that belong to all people regardless of culture, nationality, or government: the right to life, freedom from torture, equality before the law, freedom of thought and belief.\n\nCritics from cultural relativist perspectives have argued that the declaration reflects Western liberal values rather than universal ones. Defenders argue that while cultural expression varies, certain basic protections against arbitrary killing, torture, and enslavement are cross-culturally recognizable as minimum requirements for human dignity.\n\nThe debate remains live — but the basic fact is this: most people, across cultures, can recognize that some acts (genocide, torture of innocents) are wrong, even if they can't agree on a theoretical basis. Moral intuitions at the extremes converge even when theories don't."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Moral Universalism",
+          "content": "**Moral universalism** is the position that some moral principles are objectively valid and apply to all people across all cultures — that there are moral truths that hold regardless of cultural variation.\n\nMoral universalism doesn't require that all moral questions have universal answers — it only requires that some do. Most universalists acknowledge vast cross-cultural variation in how universal principles are expressed and weighted, while maintaining that a core of moral truths — minimally, prohibitions against arbitrary killing, torture, and extreme exploitation — are not merely culturally relative.\n\nThe primary arguments for some form of moral universalism: the fact of moral progress (some past cultural practices can now be recognized as wrong, not just different), the near-universal condemnation of the most extreme acts (genocide, child abuse), and the philosophical problems with full relativism (it prevents us from criticizing any cultural practice)."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Reflect on a cultural practice — from your own culture or another — that you find morally troubling.\n\nApply a careful relativism test:\n1. Is your discomfort based on genuine moral concern (harm, exploitation, denial of autonomy) or on cultural unfamiliarity?\n2. If genuine moral concern: would this practice be wrong even if the culture endorses it? What's your basis for that claim?\n3. If primarily unfamiliarity: is there a charitable interpretation of the practice that reveals a moral purpose you weren't initially seeing?\n\nThe goal is neither cultural imperialism (assuming your culture is always right) nor moral paralysis (refusing to make any cross-cultural moral judgments). It's careful discrimination: knowing which judgments are well-founded moral concerns and which are cultural chauvinism."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the most serious objection to full cultural moral relativism?",
+          "optionA": "It implies that minority moral positions within a culture have no standing against majority norms",
+          "optionB": "It prevents any cross-cultural moral judgment — including calling genocide, slavery, or child abuse wrong rather than just culturally different — which most people find an unacceptable conclusion",
+          "optionC": "It is self-refuting — the claim that morality is relative is itself presented as a universal truth",
+          "optionD": "It provides no guidance for members of a culture who disagree with their own cultural moral norms",
+          "correctAnswer": "B",
+          "explanation": "Full moral relativism prevents calling any cultural practice wrong from an external standpoint — only 'inconsistent with our norms.' Most people are unwilling to say that historical slavery, genocide, or torture of innocents were merely culturally different rather than genuinely wrong. This intuition is evidence against full relativism."
+        },
+        {
+          "question": "What did Haidt's cross-cultural moral foundations research reveal about the relationship between universal concerns and cultural variation?",
+          "optionA": "All cultures share the same six moral foundations but express them through different behaviors",
+          "optionB": "A set of universal moral concerns (care, fairness, loyalty, authority, sanctity, liberty) appears across cultures, but cultures differ dramatically in how they weight each — suggesting neither full universalism nor full relativism",
+          "optionC": "Moral diversity is primarily a function of economic development — wealthier cultures converge on more universal moral standards",
+          "optionD": "Eastern and Western cultures share moral foundations but derive them from different philosophical traditions (duty vs. virtue)",
+          "correctAnswer": "B",
+          "explanation": "Haidt's moral foundations theory identifies universal concerns that appear across cultures, but finds dramatic variation in weighting. Western liberal cultures weight care/fairness/liberty; traditional cultures weight loyalty/authority/sanctity more. This is a middle path: universal moral concerns, culturally variable weighting."
+        },
+        {
+          "question": "What is the significance of the Universal Declaration of Human Rights in the debate between relativism and universalism?",
+          "optionA": "It resolved the philosophical debate by establishing legally enforceable universal moral standards",
+          "optionB": "It represents the most significant modern attempt to identify universal moral standards — establishing protections (against torture, arbitrary killing) that most people across cultures can recognize as minimum requirements for human dignity, even without agreeing on theoretical foundations",
+          "optionC": "It demonstrates that moral universalism is a Western construct that requires global legal institutions to enforce",
+          "optionD": "It failed to achieve true universalism because it was adopted without full participation from all cultural traditions",
+          "correctAnswer": "B",
+          "explanation": "The UDHR's practical significance: it asserts that some minimum protections (against torture, genocide, enslavement) apply universally — and these protections have proven remarkably cross-culturally recognizable even among cultures that reject Western liberal political theory in other respects."
+        }
+      ]
+    }
+  ]
+}

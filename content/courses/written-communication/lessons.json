@@ -1,0 +1,365 @@
+{
+  "courseSlug": "written-communication",
+  "lessons": [
+    {
+      "slug": "architecture-of-clear-writing",
+      "title": "The Architecture of Clear Writing",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Writing is not talking with fingers. The rules are different, the contract with the reader is different, and the consequences of confusion are different — because the reader can't ask you to clarify in real time.\n\nMost professional writing is harder to read than it needs to be. Not because the ideas are complex, but because the writing hasn't been organized to serve the reader. Clarity is an act of generosity: you've already done the thinking so your reader doesn't have to.\n\nThis lesson is about the structural habits that make writing clear — before you touch a single sentence."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Inverted Pyramid",
+          "content": "Journalists use a structure called the inverted pyramid: the most important information goes first, then supporting context, then background detail. The logic is simple — readers quit before they finish, so the most critical content has to come early.\n\nMost non-journalists do the opposite: they build up context and explanation, arriving at the main point near the end. This works in mystery novels. It fails in professional writing, because busy readers skim to find the point — and if they can't find it quickly, they stop.\n\nThe discipline of leading with your conclusion — every email, every report, every proposal — is one of the highest-leverage habits in professional writing. If the reader reads only your first two sentences, have they gotten the essential information? If not, reorder."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by the Nielsen Norman Group — who studies how people actually read online — found that on an average web page, users read only about 20-28% of the words during a typical visit. They scan, looking for the relevant parts, rather than reading linearly.\n\nThis scanning behavior applies to email, reports, and documents too — especially on screens. The implication for writers: your formatting is as important as your content. Headers, bullet points, bold key terms, and short paragraphs aren't aesthetic choices — they're navigation systems for a reader who is almost certainly not reading every word."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "One Idea Per Paragraph",
+          "content": "The single most common structural error in professional writing is stuffing multiple ideas into one paragraph. This forces the reader to do extra work — separating ideas that have been conflated — and obscures the logic of your argument.\n\nEvery paragraph should have one central idea. The first sentence states it. The following sentences support, illustrate, or develop it. The last sentence either closes it or transitions to the next idea.\n\nThis discipline — sometimes called the 'topic sentence first' rule — makes writing dramatically easier to read and follow. If you can't identify the one central idea in a paragraph, that's the signal: the paragraph needs to be split, rewritten, or clarified.\n\nA paragraph that tries to do too much usually does nothing well."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Cognitive Load in Writing",
+          "content": "**Cognitive load** in reading is the mental effort required to extract meaning from text. High cognitive load writing demands that the reader track complex sentence structures, hold multiple threads simultaneously, decode unclear antecedents, and rebuild logic that hasn't been made explicit.\n\nLow cognitive load writing serves the reader's comprehension rather than displaying the writer's intelligence. It uses shorter sentences, active voice, clear transitions, and explicit connections between ideas rather than leaving them implicit.\n\nResearch by cognitive psychologist John Sweller shows that when cognitive load exceeds working memory capacity, comprehension fails — not because the reader is incapable, but because the writing has exceeded the brain's processing bandwidth. The best writers make reading feel effortless — which is the hardest thing to write."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Take any email or document you've written in the last week. Test it for structure:\n\n1. Is your main point in the first two sentences — or buried toward the end?\n2. Does each paragraph have one clear central idea?\n3. Is there any paragraph you couldn't summarize in one sentence? (If so, it probably needs to be split.)\n\nRewrite one section using the inverted pyramid: put the conclusion first, then the supporting details. Compare how it reads. Nine times out of ten, the reader-first version is clearer and more compelling — even if it feels counterintuitive to write."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the inverted pyramid structure, and why is it effective in professional writing?",
+          "optionA": "Starting with background context and building to the conclusion — it earns the reader's trust before making claims",
+          "optionB": "Leading with the most important information first, then supporting detail — because readers often stop before finishing, so critical content must come early",
+          "optionC": "A visual formatting technique that uses large headers and shrinks content size as the document progresses",
+          "optionD": "A structure borrowed from legal writing that places conclusions before evidence",
+          "correctAnswer": "B",
+          "explanation": "The inverted pyramid leads with the most important information because readers (especially online and in professional settings) often don't finish. If you build to your conclusion, many readers never reach it."
+        },
+        {
+          "question": "What did Nielsen Norman Group research find about how people actually read online content?",
+          "optionA": "People read digital content more carefully than printed content",
+          "optionB": "Most readers only scroll to the bottom of a page if the opening paragraph engages them",
+          "optionC": "Users read only about 20-28% of words on a typical web page — they scan rather than read linearly",
+          "optionD": "Readers retain more from formatted lists than from paragraphs",
+          "correctAnswer": "C",
+          "explanation": "Nielsen Norman Group found that users read roughly 20-28% of words on a page. This scanning behavior makes formatting (headers, bullets, bold text) as important as the content itself — they're the navigation system for a non-linear reader."
+        },
+        {
+          "question": "What does 'one idea per paragraph' discipline accomplish?",
+          "optionA": "It makes documents shorter and easier to skim",
+          "optionB": "It separates ideas that readers need to distinguish, reduces cognitive load, and makes the logic of an argument easy to follow",
+          "optionC": "It matches how most readers' attention spans work — one idea before moving on",
+          "optionD": "It forces writers to prioritize which ideas are essential",
+          "correctAnswer": "B",
+          "explanation": "Multiple ideas per paragraph forces the reader to do the separation work the writer should have done. One idea per paragraph reduces cognitive load, makes each idea stand clearly, and makes the document's argument easy to trace."
+        }
+      ]
+    },
+    {
+      "slug": "persuasive-writing",
+      "title": "Persuasive Writing That Moves People",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Every piece of professional writing is trying to do something to its reader — change a belief, prompt an action, convey a recommendation, secure approval. Even the most informational writing is designed to land somewhere.\n\nPersuasive writing is writing that succeeds at that goal. It's not manipulation — it's clarity about what you want the reader to do or think, combined with the most honest and compelling case for why they should.\n\nThe bad news: most professional writing is persuasive in intent but not in execution. This lesson changes that."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Aristotle's Triad Still Works",
+          "content": "Aristotle identified three modes of persuasion in the fourth century BCE. They have not been improved upon:\n\n**Ethos** — the credibility and character of the person making the argument. Readers ask: why should I trust this person's judgment on this? Establish ethos with evidence of expertise, relevant experience, or demonstrated care for the reader's interests.\n\n**Pathos** — the emotional resonance of the argument. Readers aren't purely rational. Stories, vivid examples, and language that makes the stakes feel real drive more decisions than abstract logic.\n\n**Logos** — the logical strength of the argument. Data, reasoning, and evidence. Logos without pathos convinces no one. Pathos without logos doesn't hold up to scrutiny. The combination of all three is what makes a genuinely persuasive case."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Behavioral economist Dan Ariely's research on decision-making found that people rarely make decisions based on absolute value — they make decisions based on relative value, context, and how options are framed.\n\nIn one famous experiment, adding a 'decoy' option to a pricing menu shifted the majority of choices toward the more expensive option — not because people suddenly wanted to spend more, but because the framing made the expensive option seem like the better deal.\n\nWriters who understand framing know that the same information presented differently produces dramatically different responses. 'Only 3 units remain' and '97 units have sold' describe the same fact — but the first drives action more urgently. Frame deliberately."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Address the Objection Before It Arrives",
+          "content": "The most underused move in persuasive writing is preemptive objection handling: identifying the strongest argument against your position and addressing it yourself, before the reader can raise it.\n\n'You might be wondering why we're recommending X given the cost. Here's the case...' beats having the reader mentally dismiss your argument at that exact point without giving you a chance to respond.\n\nThis technique does two things: it signals that you've thought carefully about the issue from multiple angles (which builds credibility), and it defuses the objection at the moment it's most likely to arise — before it can become a full rejection.\n\nThe best persuasive writing steelmans the opposing view and then shows why the proposed position is still better. Ignoring counterarguments doesn't make them disappear — it makes your argument look weak."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Loss Aversion Framing",
+          "content": "**Loss aversion** is the cognitive bias, documented extensively by Daniel Kahneman and Amos Tversky, that losses feel approximately twice as psychologically powerful as equivalent gains.\n\nIn writing, loss aversion framing presents the cost of not acting rather than only the benefit of acting. 'This approach could save the company $2M' is compelling. 'Without this change, the company risks losing $2M' is often more compelling — because the prospect of loss activates a stronger motivational response than the prospect of equivalent gain.\n\nThis isn't manipulation — it's presenting real risk accurately. But knowing that 'what you stand to lose' tends to move people more than 'what you stand to gain' is a significant tool for persuasive writing."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Take a document, proposal, or email where you're trying to persuade someone of something.\n\nRun this checklist:\n1. **Ethos:** Have you established why you're worth listening to on this topic?\n2. **Pathos:** Have you included one vivid example or story that makes the stakes feel real?\n3. **Logos:** Have you provided at least one specific piece of supporting data?\n4. **Objection:** What's the strongest argument against your position? Have you addressed it?\n5. **Frame:** Are you only showing the gain — or are you also showing what's at stake if they don't act?\n\nRevise with these five questions. The version that passes all five will be materially more persuasive than the original."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'ethos' in Aristotle's triad, and how is it established in writing?",
+          "optionA": "The emotional appeal of an argument — making readers feel what's at stake",
+          "optionB": "The credibility and character of the writer — established through demonstrated expertise, relevant experience, or visible care for the reader's interests",
+          "optionC": "The logical structure of an argument — using data and evidence to build a case",
+          "optionD": "The moral dimension of an argument — whether the writer's position is ethically defensible",
+          "correctAnswer": "B",
+          "explanation": "Ethos is the reader's trust in the writer's judgment. Without it, logos and pathos have no foundation — readers dismiss even a logical, emotionally resonant argument from a source they don't trust."
+        },
+        {
+          "question": "What is preemptive objection handling, and why does it strengthen persuasive writing?",
+          "optionA": "Listing all the weaknesses of your argument before the reader finds them",
+          "optionB": "Addressing the strongest counterargument yourself before the reader raises it — which signals thorough thinking and defuses rejection at the moment it's most likely to occur",
+          "optionC": "Asking the reader to hold their objections until the end of the document",
+          "optionD": "Citing sources that have already addressed common counterarguments",
+          "correctAnswer": "B",
+          "explanation": "Handling objections preemptively signals that you've considered multiple angles (builds credibility) and defuses the reader's mental dismissal before it becomes a full rejection. Ignoring counterarguments makes your case look incomplete."
+        },
+        {
+          "question": "How does loss aversion framing affect the persuasive power of writing?",
+          "optionA": "It is more effective for technical audiences who weigh risk precisely",
+          "optionB": "Presenting the cost of inaction ('what you stand to lose') moves people more than equivalent gain framing — because losses feel approximately twice as psychologically powerful as gains",
+          "optionC": "It only works when the loss is concrete and quantifiable",
+          "optionD": "Loss framing is manipulative and should be avoided in professional writing",
+          "correctAnswer": "B",
+          "explanation": "Kahneman and Tversky's research established that losses feel roughly twice as powerful as equivalent gains. 'Without this change, you risk losing X' often motivates action more strongly than 'this change could gain you X' — not because it's more dramatic, but because it's more psychologically accurate."
+        }
+      ]
+    },
+    {
+      "slug": "email-mastery",
+      "title": "Email Mastery",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The average professional sends and receives over 120 emails per day. Most of them are badly written — unclear about what they want, too long, buried in context before the point, and frustrating to receive.\n\nEmail is the highest-volume written communication medium in most careers. The ability to write emails that are clear, brief, and actionable is one of the most immediately high-value writing skills you can develop. It affects how you're perceived, how quickly you get responses, and how much time you save — both your own and the people you communicate with."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Anatomy of a High-Impact Email",
+          "content": "Every effective professional email has the same basic anatomy:\n\n**Subject line** — tells the reader exactly what the email is about and what action (if any) is required. 'Quick question re: Q3 proposal' vs. 'Question'\n\n**Opening sentence** — states the purpose immediately. Not 'I hope this email finds you well.' But: 'I'd like your approval on the attached proposal by Thursday.'\n\n**Body** — provides only the context needed to act. If context is complex, use bullets. If it's long, reconsider whether email is the right medium.\n\n**Clear ask** — makes explicit what you need and when. 'Can you review and reply by Friday?' vs. 'Let me know what you think.'\n\n**Close** — brief. 'Thanks, [name]' is enough. Long sign-offs waste time and dilute the close."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research from the Radicati Group found that the average professional spends 28% of their workweek managing email — roughly 11 hours per week. That's over 500 hours a year spent reading, writing, sorting, and responding to messages.\n\nOf that time, a significant portion is wasted on unnecessary back-and-forth — follow-ups asking for clarification, requests that weren't specific enough, responses asking 'what do you need exactly?' An email that is clear the first time eliminates one or more rounds of back-and-forth. Across a career, the time savings compound significantly."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "If You Can't Read It in 30 Seconds, Rewrite It",
+          "content": "The hardest rule to apply — and the one that changes email most dramatically — is the 30-second rule: if a reader can't identify the purpose and required action of your email in 30 seconds, it needs to be shorter.\n\nThis is not about brevity for its own sake. It's about respecting the attention of someone who may have 80 other emails to process. When you make them work hard to extract your ask, you're imposing your disorganization on their time.\n\nThe 30-second test: hand your email to someone and time them. If they can't tell you what you want by the 30-second mark, revise. Then hand it to someone else and time them again. Repeat until they can."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The 5-Sentence Rule",
+          "content": "The **5-sentence rule** is a self-imposed email constraint popularized by investor Mike Davidson: every email is no longer than five sentences. Any context that requires more than five sentences to explain is either too complex for email (use a call or document) or hasn't been sufficiently organized (rewrite).\n\nThe rule is intentionally extreme — not literally every email should be five sentences. But adopting it as a default target dramatically reduces average email length, forces clarity before sending, and eliminates the most common padding: 'I hope this finds you well,' lengthy context-building, and over-hedged closes.\n\nThe constraint produces insight: if you can't say what you need in five sentences, it often reveals that you haven't figured out what you need yet."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Before you send your next email, run this five-point check:\n\n1. Does the subject line describe exactly what this email is about?\n2. Is the purpose of the email clear in the first sentence?\n3. Is the specific ask explicit — not implied?\n4. Is there any sentence that doesn't serve the ask? (Delete it.)\n5. Can it be read and understood in 30 seconds?\n\nIf it fails any of these, revise before sending. One well-written email eliminates two or three follow-up rounds. That's a better return on five minutes of editing than almost anything else you can do."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 30-second rule for email, and what does it test?",
+          "optionA": "An email should take no longer than 30 seconds to write if you know the subject well",
+          "optionB": "If a reader can't identify the purpose and required action within 30 seconds, the email needs to be shorter and clearer",
+          "optionC": "Emails should be read within 30 seconds of receipt to maintain professional responsiveness",
+          "optionD": "Wait 30 seconds before sending any important email to check for errors",
+          "correctAnswer": "B",
+          "explanation": "The 30-second rule tests whether an email serves the reader's time. If a busy person can't extract the purpose and ask in 30 seconds, the email is imposing your disorganization on their attention. Revise until they can."
+        },
+        {
+          "question": "According to Radicati Group research, how much of the average professional's workweek is spent managing email?",
+          "optionA": "About 10%",
+          "optionB": "About 20%",
+          "optionC": "About 28% — roughly 11 hours per week",
+          "optionD": "About 40%",
+          "correctAnswer": "C",
+          "explanation": "The Radicati Group found professionals spend roughly 28% of their workweek on email — over 500 hours a year. A significant portion involves unnecessary back-and-forth from unclear initial emails. Clear emails the first time eliminate multiple follow-up rounds."
+        },
+        {
+          "question": "What insight does the 5-sentence rule often reveal when you can't fit an email into five sentences?",
+          "optionA": "The topic requires a meeting or document instead of an email",
+          "optionB": "You haven't yet figured out what you actually need — the constraint forces clarity of thinking before writing",
+          "optionC": "The email contains multiple asks that should be separated into different messages",
+          "optionD": "The subject matter is too complex for written communication",
+          "correctAnswer": "B",
+          "explanation": "The 5-sentence rule reveals that difficulty compressing an email often signals that the writer hasn't organized their thinking yet. The constraint produces the insight — forcing clarity before you write, not just shorter text."
+        }
+      ]
+    },
+    {
+      "slug": "writing-compelling-stories",
+      "title": "Writing Compelling Stories",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Narrative is the oldest human technology for transferring experience. Before writing, before cities, before formal knowledge systems — there were stories. They evolved because they work: stories are processed differently by the brain than data, retained longer, and shared more readily.\n\nIn professional contexts, stories are often treated as the 'soft' add-on to the 'real' content. This is backwards. The case study that opens a proposal, the anecdote that introduces a report, the character who anchors a pitch — these aren't decoration. They are the mechanism that makes the rest of the content stick."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Character Is the Entry Point",
+          "content": "Every story that works has a specific person — or specific people — at its center. Not 'a customer.' Not 'an organization.' A named, particularized person with a situation, a problem, and a stake in what happens.\n\nVivid specificity is the mechanism. Research by Paul Bloom at Yale on 'identified victim effect' shows that people respond far more generously and emotionally to the story of one specific named individual than to statistics about thousands. The statistic overwhelms. The specific person invites empathy.\n\nWhen you write a case study, don't write about 'a mid-sized company in the manufacturing sector.' Write about Marcus, who ran a team of 40 and was watching his margins erode 2% per quarter, and didn't know why. The specificity is not dishonesty — it's humanity."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Uri Hasson's neuroscience research at Princeton showed that a well-told story can produce 'neural coupling' — the listener's brain activity begins to mirror the storyteller's across multiple regions, including sensory cortex, emotional centers, and motor areas.\n\nThis means a story isn't just information transfer — it's a shared experience constructed in the reader's or listener's mind. The more specific and vivid the story, the more complete the simulation. When you write 'the smell of coffee in the morning' versus 'a pleasant morning,' different neural areas activate. Specificity is the activation mechanism."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Tension Is What Keeps People Reading",
+          "content": "The only reason a reader continues reading is because something is unresolved. Tension — the gap between what is and what might be — is the engine of narrative.\n\nIn fiction, tension is life-or-death stakes. In professional writing, tension can be much smaller and still work: a decision that could go either way, a problem that hasn't been solved, a plan with a key uncertainty.\n\nMost professional writing eliminates tension in the opening sentence by assuring the reader that everything is fine and will be resolved shortly. This is structurally catastrophic for readability. Instead, open with tension: 'By Q2 of last year, Northpoint had six months of runway and no clear path to revenue. Here's what changed.'\n\nThat opening creates a gap that the reader's brain wants closed. The rest of the story fills it."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Scene",
+          "content": "A **scene** in narrative writing is a specific, grounded moment: a particular place, time, and set of characters doing something — not a summary of what generally happens, but what happened at 2:17 PM on a Tuesday when two specific people sat across from each other.\n\nScenes work because they trigger sensory and emotional processing rather than abstract reasoning. 'The team struggled with communication for months' is abstract. 'The Thursday morning stand-up where no one made eye contact, and three people were checking their phones simultaneously, and the product lead said nothing for six minutes' is a scene.\n\nScenes are the building blocks of compelling narrative. They slow the reader down, create immersion, and make abstract situations feel real. The skill is knowing when to zoom into a scene and when to summarize — and generally, the rule is: zoom in on the moments that matter most."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Find a piece of professional writing you've done recently — a proposal, a case study, a report — and add one story element:\n\n1. Find one abstract claim ('our approach improved customer satisfaction') and replace it with a scene ('When Jenna called support for the third time about the same issue, she was ready to cancel. Here's what happened next...')\n\n2. Make the character specific: give them a name, a situation, and a stake\n\n3. Add one moment of tension: what was at risk, what could have gone wrong, what was unresolved\n\nYou don't need to rewrite the document. One story-converted section will demonstrate the technique — and if it reads better, convert the rest."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'identified victim effect,' and how does it apply to professional writing?",
+          "optionA": "People are more likely to feel sympathy for those they can personally relate to based on shared experiences",
+          "optionB": "People respond far more emotionally and generously to one specific named individual than to statistics about thousands — specificity activates empathy",
+          "optionC": "Readers identify with victims more than heroes because vulnerability is more relatable",
+          "optionD": "Naming a specific person in writing creates legal liability that statistics avoid",
+          "correctAnswer": "B",
+          "explanation": "Paul Bloom's research on the identified victim effect shows that one specific person outperforms statistics in driving emotional response. The named, particularized character activates empathy in a way that 'thousands of people' cannot."
+        },
+        {
+          "question": "Why does tension — the gap between what is and what might be — keep readers reading?",
+          "optionA": "Tension signals that the content is newsworthy and worth attention",
+          "optionB": "The brain has an unresolved-information seeking drive — something unresolved creates a gap the reader's mind wants closed",
+          "optionC": "Tension prevents readers from skimming because they fear missing the resolution",
+          "optionD": "Dramatic tension activates adrenaline, which increases focus and retention",
+          "correctAnswer": "B",
+          "explanation": "Narrative tension works because the brain seeks closure on unresolved information. Opening with tension — a problem, an uncertainty, a risk — creates a gap that compels continued reading. Resolving tension immediately removes the engine of readability."
+        },
+        {
+          "question": "What is a 'scene' in narrative writing, and when should you use one?",
+          "optionA": "A visual description of a setting that orients the reader before introducing characters",
+          "optionB": "A specific, grounded moment (particular time, place, characters, action) rather than a summary — used to slow readers down at the moments that matter most",
+          "optionC": "A scene is the narrative equivalent of a case study — a contained story within a larger document",
+          "optionD": "Any paragraph that contains dialogue or direct quotation",
+          "correctAnswer": "B",
+          "explanation": "Scenes are specific moments — not summaries of what generally happens, but what happened at a particular time. They trigger sensory and emotional processing, create immersion, and make abstract situations feel real. Use scenes at the moments of highest importance in your narrative."
+        }
+      ]
+    },
+    {
+      "slug": "editing-like-a-pro",
+      "title": "The Edit: Where Good Writing Becomes Great",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Writing is rewriting. Almost nothing good was written in a single draft — it was written in multiple iterations, each one clarifying, tightening, and improving on the last.\n\nMost people treat editing as proofreading: they scan for spelling errors and call it done. Professional-level editing is something else — it's a fundamental rethinking of structure, logic, clarity, and economy. It's asking 'does this serve the reader?' about every sentence, every paragraph, every word.\n\nThis lesson is about what the editing process actually involves, and how to develop the habits that separate effective writers from the rest."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Four Editing Passes",
+          "content": "Effective editing works best in passes — each pass focused on a different level:\n\n**Pass 1 — Structure:** Does the logic flow? Is the main point early? Does each section earn its place? Cut or reorder before you refine anything.\n\n**Pass 2 — Paragraphs:** Does each paragraph do one thing? Is there one clear topic sentence? Are transitions clear? Fix at the paragraph level before the sentence level.\n\n**Pass 3 — Sentences:** Cut passive voice, eliminate redundancy, shorten where possible. Every sentence should earn its presence.\n\n**Pass 4 — Words:** Cut unnecessary qualifiers ('very,' 'really,' 'just,' 'quite'). Replace vague words with specific ones. Cut anything that isn't doing work.\n\nAttempting all four passes simultaneously is how editing fails. Sequence them."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Ernest Hemingway reportedly said, 'The first draft of anything is shit.' His manuscripts show extensive revision — not polishing, but fundamental restructuring, elimination of entire characters, and complete rewrites of opening chapters.\n\nScreenwriter William Goldman, who wrote Butch Cassidy and the Sundance Kid and All the President's Men, estimated that professional writing is roughly 20% writing and 80% rewriting. Researchers studying expert writers versus novice writers find the same pattern: experts spend significantly more time revising at the structural level, while novices spend more time proofreading at the word level.\n\nThe revision process is where expertise lives."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Kill Your Darlings",
+          "content": "The hardest edit is deleting something you worked hard on — a phrase you're proud of, a section that took you time to research, an opening you love.\n\nWriter William Faulkner coined the phrase 'kill your darlings' to describe this discipline: the attachment you feel to a piece of writing is no indication of whether it serves the reader. Sometimes the best sentence you've ever written needs to go because it belongs to a different document, a different tone, or a different purpose.\n\nThe test is not 'is this good?' but 'does this serve the reader right now?' A useful practice: create a 'cuts' document where you put everything deleted. Nothing is truly lost — it's in the cuts file. This removes the psychological resistance to deleting."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Active vs. Passive Voice",
+          "content": "**Active voice** places the subject before the action: 'The team launched the product.' The actor does the action.\n\n**Passive voice** reverses the construction: 'The product was launched by the team.' — or, more commonly, omits the actor entirely: 'The product was launched.'\n\nPassive voice is not grammatically wrong. But it consistently produces weaker, longer, more abstract writing. It removes accountability (who did what?), requires more words to say the same thing, and creates distance between the reader and the action.\n\nActive voice is direct, clear, and shorter. The rule of thumb: write in active voice by default, use passive voice only when the actor is genuinely unknown or when you deliberately want to de-emphasize it."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Take a piece of writing you care about — a recent email, a proposal, anything.\n\nDo one targeted editing pass — sentences only:\n1. Find every passive voice sentence (hint: look for 'was,' 'were,' 'been,' followed by a past participle) and rewrite in active voice.\n2. Find every sentence over 25 words and cut it in half.\n3. Delete every 'very,' 'really,' 'just,' 'quite,' and 'basically' — these almost never add meaning.\n\nWord count will drop 10-20%. Clarity will increase dramatically. This is not about shorter for the sake of shorter — it's about removing everything that isn't doing work, so what remains does its job better."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why should editing be done in sequential passes rather than all at once?",
+          "optionA": "Editing by pass allows multiple people to review different aspects",
+          "optionB": "Attempting all edits simultaneously causes writers to miss errors at the word level",
+          "optionC": "Each pass operates at a different level (structure, paragraph, sentence, word) — mixing them leads to refining sentences that will be cut when structure is addressed",
+          "optionD": "Sequential passes match how editors are trained in professional publishing",
+          "correctAnswer": "C",
+          "explanation": "Editing structure first prevents the mistake of refining sentences that will be cut in structural revision. Sequencing from large (structure) to small (words) ensures you don't waste effort polishing content that doesn't survive the earlier passes."
+        },
+        {
+          "question": "What is the principle behind 'kill your darlings' in editing?",
+          "optionA": "The most memorable phrases should be cut because they distract from the main message",
+          "optionB": "Your attachment to a piece of writing doesn't determine whether it serves the reader — and what doesn't serve the reader should be cut regardless",
+          "optionC": "Strong emotional writing should be edited out for professional contexts",
+          "optionD": "Editors should prioritize structure over individual sentences, even when sentences are strong",
+          "correctAnswer": "B",
+          "explanation": "Kill your darlings means detaching from emotional investment in your own writing. The test isn't 'is this good?' but 'does this serve the reader right now?' Often your favorite sentence belongs somewhere else — or nowhere."
+        },
+        {
+          "question": "What is the primary weakness of passive voice in professional writing?",
+          "optionA": "It is grammatically incorrect and appears unprofessional",
+          "optionB": "It removes accountability, requires more words to say the same thing, and creates distance between reader and action",
+          "optionC": "It slows reading speed by requiring more cognitive processing",
+          "optionD": "Passive voice is ambiguous about timing, which creates confusion in time-sensitive documents",
+          "correctAnswer": "B",
+          "explanation": "Passive voice consistently produces weaker, longer, more abstract writing — primarily by removing the actor from the sentence (who did this?), adding words, and creating distance. Active voice is more accountable, direct, and efficient."
+        }
+      ]
+    }
+  ]
+}

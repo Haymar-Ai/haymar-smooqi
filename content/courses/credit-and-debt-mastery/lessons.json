@@ -1,0 +1,365 @@
+{
+  "courseSlug": "credit-and-debt-mastery",
+  "lessons": [
+    {
+      "slug": "understanding-credit-score",
+      "title": "Understanding Your Credit Score",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "A three-digit number follows you through your financial life, determining the interest rate on your mortgage, whether your apartment application gets approved, and in some states even affecting your employment prospects. Most people know credit scores exist. Far fewer understand how they work or how to systematically improve them.\n\nCredit scores are not mysterious. They're calculated from a known formula, weighted by factors that you can directly influence. Once you understand the mechanics, improving your score becomes a straightforward project rather than a vague aspiration."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How FICO Scores Work",
+          "content": "The FICO score — the most widely used credit scoring model — runs from 300 to 850 and is built from five factors:\n\n**Payment history (35%):** Have you paid on time? One 30-day late payment can drop your score 50-100 points. This is the most impactful factor — and the most recoverable over time.\n\n**Credit utilization (30%):** The percentage of your available revolving credit being used. Below 30% is recommended; below 10% is optimal for maximum score impact.\n\n**Length of credit history (15%):** How long your oldest account has been open, and the average age of all accounts. Keeping old accounts open matters.\n\n**Credit mix (10%):** Having different types of credit (credit cards, installment loans, mortgage) is slightly positive.\n\n**New credit (10%):** Recent applications create 'hard inquiries' that temporarily lower your score. Multiple applications in a short period can compound this."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The difference between a 620 and a 760 credit score on a $300,000, 30-year mortgage can be over $100,000 in total interest paid — from the same bank, for the same house.\n\nAt the time of this writing, borrowers with scores below 620 may be offered rates 2-3 percentage points higher than those with excellent credit. On a $300,000 loan over 30 years, each percentage point difference costs approximately $60,000 in total interest.\n\nCredit score improvement is one of the highest financial ROI activities available — because it doesn't just affect one purchase; it affects every borrowing decision for the rest of your financial life."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Utilization Is the Fastest Lever",
+          "content": "Of the five FICO factors, credit utilization is the one that can change your score the most dramatically in the shortest time — because it's reported monthly and has no memory of past behavior.\n\nIf your credit card balance is $8,000 on a $10,000 limit (80% utilization), paying it down to $500 (5% utilization) will produce a significant score increase — often within one billing cycle.\n\nFour utilization strategies:\n1. Pay balances in full monthly\n2. If carrying a balance, request a credit limit increase (without spending more)\n3. Make a mid-cycle payment before the statement closes\n4. Spread spending across multiple cards to reduce per-card utilization\n\nUtilization resets every month — which means the fastest credit improvement always starts with paying down card balances."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Hard Inquiry vs. Soft Inquiry",
+          "content": "A **hard inquiry** occurs when a lender checks your credit as part of a loan or credit card application. It temporarily lowers your score by a few points and remains on your report for two years (though it only affects the score for one year). Multiple hard inquiries in a short period compound the impact.\n\nA **soft inquiry** occurs when you check your own credit, or when lenders pre-screen you for offers. Soft inquiries have zero impact on your credit score.\n\nImportant exception: rate shopping for a mortgage, auto loan, or student loan within a 14-45 day window (depending on the FICO version) is treated as a single inquiry — you won't be penalized for comparing rates during a focused shopping period. Don't let fear of inquiries stop you from comparing rates on major loans."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Get your free credit report and score today:\n\n1. **AnnualCreditReport.com** — the only federally authorized free credit report source, from all three bureaus (Equifax, Experian, TransUnion)\n2. **Credit Karma or Credit Sesame** — free scores with monitoring alerts (soft inquiries — no score impact)\n3. **Your credit card's app** — many major cards (Chase, Capital One, Discover) now show free FICO scores\n\nReview for:\n- Any accounts you don't recognize (possible fraud)\n- Any incorrect late payments\n- Your overall utilization ratio\n\nDisputing errors on your credit report is free and can produce significant score improvements."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is credit utilization one of the fastest levers for improving a credit score?",
+          "optionA": "Utilization changes are reported immediately and lenders prioritize current utilization over historical patterns",
+          "optionB": "Utilization accounts for 30% of the FICO score and resets monthly — paying down balances can produce measurable score improvement within one billing cycle",
+          "optionC": "The FICO algorithm heavily weights utilization changes as evidence of improving financial behavior",
+          "optionD": "Utilization improvements offset the negative effects of hard inquiries and late payments faster than time-based recovery",
+          "correctAnswer": "B",
+          "explanation": "Utilization has no memory — it's calculated fresh from the current balance each billing cycle. This means paying down a high balance can produce a rapid score increase, unlike payment history improvements (which take months to counterbalance negative marks)."
+        },
+        {
+          "question": "How does rate shopping for a mortgage or auto loan affect credit inquiries?",
+          "optionA": "Each lender's inquiry is counted separately, which is why you should apply to only one lender",
+          "optionB": "Multiple applications for the same loan type within a 14-45 day window are treated as a single inquiry — you can compare rates without additional score penalty",
+          "optionC": "Pre-qualification checks are treated as soft inquiries even when submitted for a mortgage",
+          "optionD": "Mortgage inquiries are exempt from credit score impact, while auto loan inquiries still count",
+          "correctAnswer": "B",
+          "explanation": "FICO recognizes rate shopping behavior: multiple mortgage, auto, or student loan applications within a 14-45 day window (depending on version) count as one inquiry. This lets you compare rates from multiple lenders without being penalized for doing so."
+        },
+        {
+          "question": "Why can a single 30-day late payment drop a credit score by 50-100 points?",
+          "optionA": "Late payments indicate to lenders that income has recently declined, triggering a risk recalibration",
+          "optionB": "Payment history accounts for 35% of the FICO score — the highest single factor — and a missed payment creates a significant negative mark on the most predictive element of creditworthiness",
+          "optionC": "Most people who miss one payment miss additional ones, so lenders treat a single late payment as a predictor of future default",
+          "optionD": "Credit bureaus apply a one-time penalty to late payments that disproportionately affects the score to discourage future lateness",
+          "correctAnswer": "B",
+          "explanation": "Payment history is the single largest FICO factor at 35%. A 30-day late payment is a significant negative on the metric lenders weight most heavily — because it directly predicts whether you'll repay future obligations."
+        }
+      ]
+    },
+    {
+      "slug": "strategic-debt-payoff",
+      "title": "Strategic Debt Payoff",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Not all debt is created equal — and not all debt payoff strategies are equally effective.\n\nThe person who treats all debt as equally urgent, making equal payments across everything, is leaving money on the table. The person who strategically directs extra payment capacity toward the highest-return payoff first produces dramatically different results over the same time period with the same income.\n\nThis lesson is about understanding your debt landscape and choosing the strategy that works both mathematically and psychologically for your situation."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Mapping Your Debt Landscape",
+          "content": "Before you can pay down debt strategically, you need a complete picture. Most people know roughly how much debt they have — but not the specific interest rates, minimum payments, and balances that determine the optimal payoff strategy.\n\nDebt inventory:\n- List every debt with: balance, interest rate (APR), minimum monthly payment, and type (revolving credit vs. installment)\n- Calculate total minimum payments\n- Calculate total interest cost if you only pay minimums\n\nFree tools (Google 'debt payoff calculator,' or use Undebt.it) will generate the payoff timeline for both avalanche and snowball approaches with your actual numbers. Most people are shocked by two things: how long minimum payment strategies take, and how much interest compounds over that period.\n\nKnowing the numbers converts an abstract problem into a concrete one — which is solvable."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by professors at Harvard Business School and Northwestern's Kellogg School found that the debt snowball method (paying lowest balance first) produces significantly higher debt elimination rates than the avalanche method (paying highest interest first) — even though the avalanche method costs less in total interest.\n\nThe explanation: progress motivation. Paying off a small balance completely — even if it's a low-interest debt — produces a psychological 'win' that increases commitment and motivation to continue. Behavior research shows that a completed goal feels more motivating than a partially completed goal, regardless of the relative size.\n\nThe best debt payoff strategy is not the one that minimizes mathematical interest — it's the one you'll actually finish."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Debt-Investment Decision",
+          "content": "One of the most common financial questions: should I pay off debt or invest?\n\nThe answer is mathematical but requires a nuance most advice misses:\n\n**High-interest debt (above ~7%):** Always pay off before investing beyond employer match. A guaranteed 20% return from eliminating 20% APR credit card debt beats any investment.\n\n**Moderate-interest debt (4-7%):** This is the gray zone. Either direction is defensible — but getting the employer match first, then splitting remaining resources between both, is often optimal.\n\n**Low-interest debt (below ~4%):** Investing beats paying this down early. A 3% mortgage is cheaper than the expected return on a diversified portfolio. Paying it down early is emotionally satisfying but mathematically suboptimal.\n\nThe nuance: this analysis assumes emotional comfort with carrying debt while investing. If the psychological weight of debt reduces your overall wellbeing, paying it down first has real value that the spreadsheet doesn't capture."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Refinancing and Consolidation",
+          "content": "**Debt refinancing** is replacing existing debt with new debt at a lower interest rate — maintaining the same balance but reducing the ongoing cost. This is most commonly used for mortgages, student loans, and auto loans.\n\n**Debt consolidation** is combining multiple debts into a single debt — often through a personal loan, balance transfer card, or home equity loan — to simplify payments and ideally reduce the blended interest rate.\n\nBoth strategies can produce significant savings when done correctly. Key considerations: check total costs (fees + new interest rate), confirm the new rate is genuinely lower after fees, and be cautious about extending the term significantly (lower monthly payment with a much longer term can cost more in total interest).\n\nFor student loans specifically: federal loans have income-based repayment and forgiveness options that are lost if refinanced into private loans — check carefully before refinancing federal student debt."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Build your debt inventory:\n\n1. Open your bank and credit card apps and list every debt: name, balance, interest rate, minimum payment\n2. Add up total minimums. What's left after minimums from your monthly income?\n3. Plug your numbers into a free debt calculator (Undebt.it or PowerPay.org)\n4. Compare avalanche vs. snowball outputs: how many months does each take? How much total interest?\n\nThen make one decision: pick a method and identify your first extra payment target. Even $50/month directed strategically to the right debt changes your payoff timeline significantly."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does the debt snowball produce higher completion rates than the mathematically optimal avalanche?",
+          "optionA": "The snowball reduces total monthly payments faster, making it easier to sustain",
+          "optionB": "Progress motivation: completely eliminating a debt — even a small one — creates a psychological win that increases commitment to continuing, regardless of the debt's interest rate",
+          "optionC": "Most people have more small debts than large ones, so the snowball eliminates more accounts faster",
+          "optionD": "The snowball reduces the number of minimum payments faster, freeing up more money for extra payments sooner",
+          "correctAnswer": "B",
+          "explanation": "Harvard/Kellogg research found that completing any goal — regardless of its size — produces stronger motivation than partially completing a larger one. Paying off a $500 debt completely is more motivating than reducing a $5,000 debt by $500, even though the math favors the high-interest larger debt."
+        },
+        {
+          "question": "At what interest rate does paying off debt generally beat investing (beyond the employer match)?",
+          "optionA": "Any debt above 3% — the expected investment return after inflation",
+          "optionB": "Debt above approximately 7% APR — which exceeds the expected long-term return of a diversified stock portfolio",
+          "optionC": "All consumer debt above 5%, which represents the historical bond return",
+          "optionD": "Only debt above 15% — credit card rates — because mortgage and student loan debt is tax-deductible",
+          "correctAnswer": "B",
+          "explanation": "The ~7% threshold matches the historically expected return on a diversified stock portfolio after inflation. Above that rate, paying off debt produces a guaranteed return greater than expected investment returns. Below that rate, the expected investment return exceeds the guaranteed debt return."
+        },
+        {
+          "question": "What is the key risk of refinancing federal student loans into private loans?",
+          "optionA": "Private loan interest rates are variable and can rise above the original federal rate",
+          "optionB": "Federal income-based repayment plans and forgiveness programs are lost when federal loans are refinanced into private — options that can be worth thousands in certain situations",
+          "optionC": "Private lenders report to credit bureaus differently, potentially reducing the credit benefit of on-time payments",
+          "optionD": "Refinancing resets the loan term, extending the total repayment period even if the rate improves",
+          "correctAnswer": "B",
+          "explanation": "Federal student loans offer income-driven repayment (IDR) plans and Public Service Loan Forgiveness (PSLF) that can be worth substantial amounts. These options disappear if federal loans are converted to private — making the rate reduction potentially less valuable than it appears."
+        }
+      ]
+    },
+    {
+      "slug": "credit-cards-mastered",
+      "title": "Mastering Credit Cards",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Credit cards are simultaneously one of the most useful financial tools and one of the most dangerous consumer products ever created.\n\nFor the person who pays in full every month, a credit card is a free short-term loan, a fraud protection layer, a record of expenses, and a rewards generator. For the person who carries a balance, it's a 20-29% APR debt machine that extracts wealth reliably.\n\nThe difference between these two experiences isn't income — it's behavior. This lesson teaches the behaviors that make credit cards work for you rather than against you."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How Credit Cards Make Money",
+          "content": "Credit card companies have two primary revenue sources:\n\n**Interchange fees:** 1.5-3.5% of every transaction paid by merchants. This is why merchant 'cash discount' programs exist — the credit card isn't free for the merchant.\n\n**Interest and fees:** Charged to cardholders who carry balances, pay late, exceed limits, or use cash advances. The average credit card APR is 21-28%. Cardholders who carry balances are enormously profitable.\n\nCredit card rewards programs (cash back, points, miles) are funded primarily by interchange fees from merchants — and also, importantly, by the interest paid by balance carriers. In effect, people with revolving debt are partially subsidizing the rewards of people who pay in full.\n\nThis is why paying your full balance monthly is not just good for your finances — it means you're capturing value from the system rather than being captured by it."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research in behavioral economics has found that paying with a credit card — compared to cash — increases willingness to pay for the same item by 12-18%. Studies using brain imaging (fMRI) found that paying with cash activates the 'pain of paying' centers in the brain; credit card payment largely bypasses this response.\n\nThis is not a quirk — it's a designed feature. The physical and psychological separation between the purchase and payment (you pay the bill later) reduces the friction that would otherwise regulate spending. Even aware of this, most people still spend more with cards than with cash.\n\nThe practical implication: if you're trying to reduce spending in a specific category, using cash (or a category-specific debit card) for that category produces measurable reduction in spending — beyond what budgeting alone achieves."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Never Pay Interest If You Can Avoid It",
+          "content": "Credit card interest is one of the most expensive forms of debt available — and it compounds monthly. The single most important credit card rule is also the simplest: pay your full statement balance every month, not just the minimum.\n\nPaying the minimum is designed to maximize bank profit — it minimizes your monthly payment while maximizing the interest you pay over time. A $3,000 balance at 22% APR with minimum payments of 2% of the balance takes approximately 18 years to pay off and costs roughly $5,500 in interest.\n\nAutomatic full-balance payment is the defense: set your credit card account to automatically pay the full statement balance on the due date each month. This single automation eliminates all interest charges, all late fees, and all the credit card math that makes balances so destructive."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Grace Period",
+          "content": "The **grace period** on a credit card is the time between the end of your billing cycle (statement date) and the payment due date — typically 21-25 days — during which you can pay your balance in full without incurring any interest.\n\nThe grace period is what makes credit cards a 'free short-term loan' for people who pay in full: you can make purchases throughout the month, receive the statement, and pay in full by the due date with zero interest charged.\n\nImportant: if you carry any balance from one month to the next (don't pay in full), the grace period disappears entirely, and new purchases immediately begin accruing interest from the transaction date. This is why a single month of not paying in full can initiate an interest cycle that's hard to break — new charges never have a grace period until the full balance is cleared."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Set up the two most important credit card automations:\n\n1. **Auto-pay full statement balance:** Log into your credit card account and set the autopay to pay the full statement balance (not the minimum, not a fixed amount) on or before the due date each month.\n\n2. **Set up purchase alerts:** Enable text or email notifications for all purchases above $0. This creates immediate awareness of each transaction — a behavioral check that cash-equivalent immediacy.\n\nIf you're currently carrying a balance, the first priority is paying it off — and while doing so, stop using that card to prevent new interest accrual. Treat it as an installment debt rather than revolving credit until the balance is zero."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does paying with a credit card increase spending compared to cash, even for people aware of the effect?",
+          "optionA": "Credit cards offer rewards that make purchases feel like a discount",
+          "optionB": "The separation between purchase and payment bypasses the brain's 'pain of paying' response that regulates spending — fMRI research shows cash activates these centers while credit card payment largely does not",
+          "optionC": "Credit cards enable larger purchases by removing the constraint of available cash on hand",
+          "optionD": "The checkout process is faster with cards, reducing time for the deliberative thinking that limits spending",
+          "correctAnswer": "B",
+          "explanation": "Behavioral economics and fMRI research show that cash payment activates brain regions associated with pain, regulating how much we're willing to spend. Credit card payment bypasses this mechanism. Even knowing about the effect, most people still spend more with cards than with cash."
+        },
+        {
+          "question": "What happens to the credit card grace period if you carry a balance from one month to the next?",
+          "optionA": "The grace period is reduced proportionally based on the percentage of the balance paid",
+          "optionB": "The grace period disappears entirely — new purchases immediately begin accruing interest from the transaction date until the full balance is cleared",
+          "optionC": "The grace period remains but applies only to new purchases, not the carried balance",
+          "optionD": "The grace period extends to 45 days to give more time for balance payoff",
+          "correctAnswer": "B",
+          "explanation": "When you carry a balance, the grace period vanishes: new purchases accrue interest immediately from the transaction date. This is why a single month of not paying in full initiates an interest cycle — you lose the grace period on new charges until the entire balance is cleared."
+        },
+        {
+          "question": "What are the two primary revenue sources for credit card companies?",
+          "optionA": "Annual fees and foreign transaction fees",
+          "optionB": "Interchange fees from merchants (1.5-3.5% per transaction) and interest/fees from cardholders who carry balances",
+          "optionC": "Balance transfer fees and cash advance charges",
+          "optionD": "Data licensing fees and penalty charges for late payments",
+          "correctAnswer": "B",
+          "explanation": "Interchange fees (paid by merchants on every transaction) fund the rewards programs and base card operations. Interest from balance carriers is the highest-margin revenue — and effectively subsidizes the rewards earned by people who pay in full."
+        }
+      ]
+    },
+    {
+      "slug": "negotiating-better-rates",
+      "title": "Negotiating Better Financial Terms",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most people accept the financial terms they're offered as fixed. They assume that interest rates, fees, and payment terms are set by systems too large to negotiate with — that these are institutional rules, not proposals.\n\nThey are proposals. And negotiating them works more often than almost anyone expects.\n\nA five-minute phone call can lower a credit card interest rate, waive an annual fee, remove a late fee, or generate a balance transfer offer. The same leverage applied to a mortgage, a car loan, or a medical bill can save thousands. This lesson teaches what actually works."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Creditor Incentive to Work With You",
+          "content": "Understanding why creditors sometimes negotiate is key to doing it effectively:\n\n**Retention is expensive for them.** Acquiring a new customer costs financial institutions roughly 5-10x what retaining an existing one costs. Losing a good customer to a competitor for the sake of a $39 annual fee is a poor trade for them.\n\n**Bad debt is more expensive than reduced rates.** If you're struggling to make payments, a creditor offered reduced terms gets something rather than nothing — which is better than default.\n\n**You have leverage when you're a good customer.** A long history of on-time payments, high credit score, and large balance (for a mortgage or auto loan) creates genuine negotiating leverage — the creditor wants to keep your business.\n\nThe most effective negotiating posture: polite, clear, with an alternative ready. 'I've been a customer for five years and always paid on time. I've received an offer from [competitor] with a lower rate. I'd prefer to stay — can you match it?'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "A study by CreditCards.com found that 89% of cardholders who asked for a late fee waiver received one. Among those who asked for a lower interest rate, 69% received one. Among those who asked for a credit limit increase, 89% received one.\n\nThe catch: most people never ask. The primary barrier to better financial terms is not eligibility — it's the assumption that asking is pointless.\n\nThe ask itself costs nothing. A 10-minute phone call that saves $200 in annual fees or reduces a credit card rate by 5 percentage points — which over a year of a $3,000 balance saves $150 in interest — produces an effective hourly rate most jobs don't match."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Balance Transfer as a Debt Payoff Tool",
+          "content": "A balance transfer moves high-interest credit card debt to a new card with a promotional 0% APR period — typically 12-21 months. During this period, every dollar you pay reduces principal rather than paying interest.\n\nFor someone with $8,000 at 22% APR, a 0% balance transfer for 18 months means: every payment directly reduces debt rather than going mostly to interest, and $8,000 paid at a rate of ~$445/month clears the debt entirely within the promotional period — with zero interest.\n\nKey considerations: balance transfer fee (typically 3-5% of the balance — worth it for high-rate debt), must pay down the full balance before the promotional period ends (rate spikes to standard rate after), and new purchases on the same card may not have the same 0% rate.\n\nA balance transfer is not a debt solution — it's a debt payoff accelerator. It only works if you actually pay down the balance, not just move it."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Debt Management Plan (DMP)",
+          "content": "A **Debt Management Plan (DMP)** is a structured repayment program arranged through a nonprofit credit counseling agency (such as those affiliated with the National Foundation for Credit Counseling) that negotiates reduced interest rates with creditors on your behalf and consolidates payments into a single monthly payment to the agency.\n\nDMPs are appropriate when someone has significant unsecured debt (credit cards) that they cannot manage with standard repayment — but wants to repay in full (as opposed to debt settlement, which involves negotiating reduced balances and has serious credit score consequences).\n\nTypically DMPs run 3-5 years, often with interest rates reduced to 5-9% from 20%+. The agency charges a small monthly fee (typically $25-50) and may require closing the enrolled credit cards. This is a legitimate last-resort tool — not something to pursue unless you genuinely cannot manage payments on your own."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Make one negotiation call today. Pick one of these:\n\n**Option A — Late fee waiver:** 'I noticed a late fee on my account — this was my first late payment and I'd like to request a one-time waiver. I've been a customer for X years.'\n\n**Option B — Interest rate reduction:** 'I'd like to discuss my interest rate. I've had this card for X years and always paid on time. I'm considering transferring my balance — is there anything you can do on my rate?'\n\n**Option C — Annual fee waiver:** 'I'm considering canceling this card because of the annual fee. Is there anything you can offer — a waiver, a statement credit, or an upgrade — to make it worth keeping?'\n\nCall in the morning, have your account number ready, stay calm and polite. What you ask for, you frequently get."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does CreditCards.com research reveal about the success rate of asking for financial concessions?",
+          "optionA": "Success rates vary widely by credit score — only people with excellent credit have meaningful negotiating leverage",
+          "optionB": "89% who asked for a late fee waiver received one; 69% who asked for a rate reduction received one — the primary barrier is assuming asking is pointless, not actually being ineligible",
+          "optionC": "Creditors are more likely to negotiate during economic downturns when they want to retain customers",
+          "optionD": "Online negotiations via chat are more successful than phone calls for financial concessions",
+          "correctAnswer": "B",
+          "explanation": "The data shows that asking works at surprisingly high rates — because most people never ask. The barrier is assumption, not eligibility. A polite, specific request with a reason frequently succeeds, and the cost of asking is essentially zero."
+        },
+        {
+          "question": "What is the key condition for a balance transfer to function as a debt payoff tool rather than just moving debt?",
+          "optionA": "The new card must have a credit limit at least 120% of the transferred balance",
+          "optionB": "You must actually pay down the full balance before the 0% promotional period ends — otherwise the rate spikes to standard and the strategy fails",
+          "optionC": "The balance transfer fee must be less than one month's interest at the original rate",
+          "optionD": "You must freeze or close the original card to prevent new spending while paying off the transfer",
+          "correctAnswer": "B",
+          "explanation": "A balance transfer accelerates payoff by eliminating interest during the promotional period. But if the balance remains when the promo ends, the rate returns to standard (often 25%+). The strategy only works if you actually eliminate the debt in the promo window — otherwise it just delays the interest."
+        },
+        {
+          "question": "Why do financial institutions often accommodate negotiation requests from existing customers?",
+          "optionA": "Regulatory requirements mandate that creditors offer reduced rates to customers experiencing financial hardship",
+          "optionB": "Customer acquisition costs 5-10x retention costs — losing a good customer over a fee or rate is a poor economic trade for the institution",
+          "optionC": "Competition from fintech companies has forced traditional institutions to be more flexible to retain customers",
+          "optionD": "Long-term customer data allows institutions to identify customers who are loyal and offer them incentives proactively",
+          "correctAnswer": "B",
+          "explanation": "Retention economics explain creditor flexibility: a good customer with on-time payment history, high balance, and long tenure is significantly cheaper to retain than to replace. An annual fee waiver or rate reduction costs far less than the customer acquisition cost for a replacement."
+        }
+      ]
+    },
+    {
+      "slug": "medical-and-student-debt",
+      "title": "Navigating Medical and Student Debt",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Medical and student debt are the two largest sources of debt for Americans under 40 — and the two least well understood. Both come with unique rules, options, and leverage that most borrowers don't know exist.\n\nMedical debt is the leading cause of bankruptcy in the US — yet most medical debt is negotiable, eligible for financial assistance programs, or able to be placed on an affordable payment plan. Student debt has an entire suite of federal programs that can reduce, defer, or eventually forgive balances — but only for borrowers who know how to navigate them.\n\nIgnorance of these options is expensive. This lesson fills the gap."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Secret of Medical Debt",
+          "content": "Medical bills are almost never the final price — they're the opening ask in a negotiation most patients don't know they're allowed to have.\n\nFour things almost no one knows about medical debt:\n\n**1. Hospitals have financial assistance programs (charity care):** Most nonprofit hospitals are legally required to offer financial assistance — and the income thresholds are often higher than you'd expect (up to 200-400% of the federal poverty level).\n\n**2. The chargemaster rate is fictional:** The 'list price' on a medical bill is what uninsured patients without negotiating savvy pay. Insurance companies negotiate dramatically lower rates. You can too.\n\n**3. You can negotiate bills down, often significantly:** Calling billing and saying 'I can't pay this amount — what can we work out?' produces results more often than not.\n\n**4. Medical debt has different credit rules:** As of 2023, medical debt under $500 is excluded from credit reports, and paid medical debt no longer appears. The consequences of not paying immediately are less severe than with other debt types."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "A study by the Health Care Cost Institute found that for identical hospital procedures, prices charged to insured patients range by as much as 10:1 depending on which insurer they have — and uninsured cash-pay prices were sometimes higher and sometimes lower than insured rates.\n\nBut here's what surprised researchers: hospitals frequently accept cash payments at rates substantially below the chargemaster rate when patients simply ask. In one patient advocacy study, 72% of patients who negotiated their medical bill received a reduction — averaging 26% off the original bill.\n\nMedical billing is not a fixed system. It's a starting position."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Student Loan Repayment: Federal Options",
+          "content": "Federal student loans come with options that private loans don't — and that many borrowers never take advantage of:\n\n**Income-Driven Repayment (IDR) plans:** Caps monthly payments at a percentage of discretionary income (10-20% depending on the plan). After 20-25 years, any remaining balance is forgiven.\n\n**Public Service Loan Forgiveness (PSLF):** Borrowers working for qualifying government or nonprofit employers, making 120 qualifying payments (10 years) on an IDR plan, receive full loan forgiveness — tax-free.\n\n**Deferment and forbearance:** Allows temporary suspension of payments during financial hardship — though interest typically continues accruing.\n\n**SAVE plan (2024):** The newest IDR plan, potentially the most generous — interest subsidies prevent balances from growing, and low-balance borrowers can achieve forgiveness faster.\n\nFederal loan management happens through StudentAid.gov — free to use, no third-party help needed."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Debt Validation",
+          "content": "**Debt validation** is a legal right under the Fair Debt Collection Practices Act (FDCPA) that allows you to request written verification of a debt from a collection agency within 30 days of initial contact.\n\nWhen you request validation, the collector must:\n1. Stop collection activity until validation is provided\n2. Provide proof that the debt is yours and the amount is accurate\n3. Provide the name of the original creditor\n\nThis matters because: collection accounts sometimes contain errors (wrong amount, wrong person, statute of limitations expired), and collectors sometimes cannot provide adequate validation — in which case the collection activity must stop.\n\nDebt validation doesn't make the debt disappear if legitimate — but it ensures you're only paying debts that are accurately documented and legally collectible. Always request validation in writing, send via certified mail with return receipt."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "If you have medical debt:\n1. Call the hospital or provider billing department and ask specifically: 'Do you have a financial assistance or charity care program?' Get the application regardless of whether you think you'll qualify.\n2. Ask: 'Is this the discounted rate, or the chargemaster rate?' — and request the self-pay discount.\n\nIf you have federal student loans:\n1. Log into StudentAid.gov — verify your loans are there, confirm your repayment plan, and check if you qualify for PSLF (if you work for a government or nonprofit employer).\n2. Use the Loan Simulator tool on the site to compare repayment plans — it shows you exactly what you'd pay under each plan over time.\n\nBoth actions are free and can produce significant relief for people managing these specific debt types."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'charity care' in the context of medical debt?",
+          "optionA": "Volunteer medical services provided by healthcare professionals at no cost",
+          "optionB": "Financial assistance programs — legally required at most nonprofit hospitals — that reduce or eliminate medical bills for patients below certain income thresholds, often up to 200-400% of the federal poverty level",
+          "optionC": "Donation programs where patients who cannot pay are matched with community donors",
+          "optionD": "Insurance supplemental coverage that kicks in when primary insurance doesn't cover a procedure",
+          "correctAnswer": "B",
+          "explanation": "Most nonprofit hospitals are required to maintain charity care (financial assistance) programs as a condition of their tax-exempt status. Income thresholds are often higher than patients expect — and many patients who qualify never apply because they don't know the programs exist."
+        },
+        {
+          "question": "What is Public Service Loan Forgiveness (PSLF), and who qualifies?",
+          "optionA": "A program that reduces federal student loan balances by 50% after 15 years of repayment",
+          "optionB": "A federal program offering full tax-free loan forgiveness to borrowers who work for qualifying government or nonprofit employers and make 120 qualifying payments on an income-driven repayment plan",
+          "optionC": "A state-administered program that forgives student debt for teachers and healthcare workers after 10 years of service",
+          "optionD": "A forgiveness program for borrowers who have paid more in interest than the original loan principal",
+          "correctAnswer": "B",
+          "explanation": "PSLF forgives the remaining balance of federal student loans — tax-free — after 10 years (120 qualifying payments) of public service employment (government, nonprofit) while on an income-driven repayment plan. Only federal loans qualify; private loans are not eligible."
+        },
+        {
+          "question": "What right does debt validation give you under the FDCPA?",
+          "optionA": "The right to negotiate a reduced settlement with a collection agency",
+          "optionB": "The right to request written verification of a debt from a collector — which halts collection activity until proof is provided, and which collectors sometimes cannot furnish",
+          "optionC": "The right to a 60-day payment extension before a collection agency can report a debt to credit bureaus",
+          "optionD": "The right to dispute any debt that is more than three years old as outside the statute of limitations",
+          "correctAnswer": "B",
+          "explanation": "The FDCPA gives you 30 days from initial contact to request debt validation. Once requested, all collection activity must stop until proper verification is provided. If the collector cannot validate the debt, they cannot continue collection — which occasionally results in unverifiable debts being abandoned."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "courseSlug": "the-human-body",
+  "lessons": [
+    {
+      "slug": "the-body-as-system",
+      "title": "Your Body as a Living System",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "You are walking around in one of the most complex systems in the known universe. The human body contains approximately 37 trillion cells, each one a living unit performing thousands of chemical reactions per second. These cells organize into tissues, organs, and organ systems that coordinate without conscious direction to keep you alive, moving, thinking, and feeling.\n\nMost people have only a vague sense of how their own body works — which means they struggle to interpret symptoms, make health decisions, or understand medical advice. This course gives you the literacy to understand your own biology."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Major Organ Systems",
+          "content": "The human body is organized into 11 major organ systems that work in coordinated integration:\n\n**Cardiovascular:** Heart and blood vessels circulate blood, delivering oxygen and nutrients, removing waste.\n\n**Respiratory:** Lungs exchange oxygen from air for carbon dioxide from blood — the gas exchange that powers cellular energy.\n\n**Digestive:** Breaks down food into nutrients the body can absorb — from the mouth through the 25-foot alimentary canal to elimination.\n\n**Nervous:** Brain, spinal cord, and nerve network — control, sensation, thought, and coordination.\n\n**Endocrine:** Hormone-secreting glands (thyroid, adrenals, pancreas) that regulate metabolism, growth, stress response, and reproduction.\n\n**Immune:** White blood cells, lymph nodes, and antibodies — defense against pathogens.\n\n**Musculoskeletal:** 206 bones and over 600 muscles — structure, movement, and protection."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The human gut contains approximately 100 trillion microorganisms — bacteria, viruses, and fungi — collectively called the gut microbiome. This microbial community outnumbers your own cells roughly 3:1 and is now understood to influence not just digestion and immunity, but mood, brain function, and potentially even personality.\n\nResearch on the gut-brain axis has found bidirectional communication between gut microbiome and brain through the vagus nerve, immune signaling, and neurotransmitter production. Approximately 90% of the body's serotonin — a key mood-regulating neurotransmitter — is produced in the gut, not the brain.\n\nThe microbiome is increasingly understood as a functional 'organ' in its own right — and its disruption (through antibiotics, poor diet, or illness) has been linked to conditions ranging from inflammatory bowel disease to depression."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Homeostasis: The Body's Constant Balancing Act",
+          "content": "The most fundamental concept in human physiology is homeostasis: the body's continuous active maintenance of stable internal conditions despite changing external environments.\n\nBody temperature: maintained at 37°C (98.6°F) within half a degree, regardless of whether you're in a sauna or a snowstorm — through sweating, shivering, blood vessel dilation and constriction.\n\nBlood sugar: maintained within a narrow range through insulin (lowers glucose) and glucagon (raises it) — disrupted in diabetes.\n\nBlood pH: maintained at 7.35-7.45 — even a small deviation is life-threatening and triggers immediate compensatory responses from lungs and kidneys.\n\nHomeostasis is not a passive equilibrium — it requires constant energy expenditure and coordination across multiple systems. Most disease can be understood as failure of homeostatic mechanisms — and most medical treatment as support for restoring them."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Cellular Respiration",
+          "content": "**Cellular respiration** is the biochemical process by which cells convert glucose and oxygen into energy (ATP — adenosine triphosphate), carbon dioxide, and water. It is the fundamental energy-generating process of life.\n\nThe equation: Glucose + Oxygen → Energy (ATP) + Carbon Dioxide + Water\n\nThis is why you breathe: to deliver oxygen to cells for energy production and remove carbon dioxide. It's why your heart beats: to circulate oxygen-carrying red blood cells to every tissue. It's why you eat: to provide glucose fuel.\n\nATP is often called the 'energy currency' of the cell — it's produced in cellular respiration and 'spent' to power every cellular process: muscle contraction, protein synthesis, DNA replication, ion transport. Understanding cellular respiration connects breathing, eating, and movement into a single coherent picture."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Do a quick body systems audit of something happening in your body right now:\n\nPick one current experience — a muscle ache, a feeling of hunger, fatigue, or the sensation of breathing — and trace which systems are involved:\n\n- Hunger: digestive system (low glucose signals), endocrine system (ghrelin hormone secretion), nervous system (hunger signal to brain)\n- Muscle ache: musculoskeletal (muscle damage/repair), immune system (inflammation response), cardiovascular (delivering repair nutrients)\n- Breathing: respiratory (gas exchange), cardiovascular (transport), cellular respiration (energy use in cells)\n\nThe body's integration is more remarkable when you trace how many systems are involved in any single experience."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is homeostasis and why is it fundamental to understanding health and disease?",
+          "optionA": "The state of complete physical, mental, and social wellbeing — the positive definition of health used by the WHO",
+          "optionB": "The body's continuous active maintenance of stable internal conditions (temperature, blood sugar, pH) despite changing environments — requiring constant energy expenditure; most disease is failure of homeostatic mechanisms",
+          "optionC": "The equilibrium state reached when all body systems are functioning optimally — a temporary condition disrupted by illness and restored by treatment",
+          "optionD": "The balance between anabolic (building) and catabolic (breaking down) processes that determines body composition",
+          "correctAnswer": "B",
+          "explanation": "Homeostasis is the body's continuous active maintenance of stable conditions — temperature, blood sugar, pH — through coordinated multi-system responses. It requires constant energy. Most disease is failure of homeostatic mechanisms (diabetes = blood glucose regulation failure; fever = deliberate disruption for immune function). Understanding homeostasis is understanding health."
+        },
+        {
+          "question": "Why do approximately 90% of the body's serotonin being produced in the gut have significant implications?",
+          "optionA": "It means that dietary tryptophan (serotonin's precursor) has direct effects on brain serotonin levels, validating the 'you are what you eat' idea for mood",
+          "optionB": "It reveals that the gut-brain axis involves bidirectional communication — gut microbiome influences brain function and mood through neurotransmitter production and other signaling — challenging the assumption that brain chemistry is purely controlled in the brain",
+          "optionC": "It explains why selective serotonin reuptake inhibitors (SSRIs) often have gastrointestinal side effects — they affect serotonin production throughout the body, not just the brain",
+          "optionD": "It suggests that gut microbiome disruption (from antibiotics or poor diet) directly reduces brain serotonin levels, which could explain post-antibiotic mood changes",
+          "correctAnswer": "B",
+          "explanation": "If 90% of serotonin is produced in the gut, and gut-brain communication is bidirectional, then gut microbiome health directly affects brain chemistry and mood. This challenges the traditional separation of gut and brain health — explaining why gut microbiome disruption is increasingly linked to depression, anxiety, and cognitive function."
+        },
+        {
+          "question": "What does cellular respiration reveal about the connection between breathing, eating, and movement?",
+          "optionA": "All three are regulated by the same hypothalamic centers, explaining why they are often disrupted together in metabolic conditions",
+          "optionB": "Cellular respiration (glucose + oxygen → energy + CO2 + water) integrates them: eating provides glucose fuel, breathing delivers oxygen and removes CO2, movement burns the ATP produced — they are all aspects of one continuous energy process",
+          "optionC": "Aerobic exercise optimizes cellular respiration efficiency, which is why physically active people have better metabolic health across all three areas",
+          "optionD": "The rate of cellular respiration determines how much of each is needed — high metabolic rate increases hunger, breathing rate, and movement capacity proportionally",
+          "correctAnswer": "B",
+          "explanation": "Cellular respiration is the integrating process: glucose (from eating) + oxygen (from breathing) = ATP (energy for movement) + CO2 (exhaled) + water. All three activities serve this single underlying energy chemistry. Understanding cellular respiration makes the body's basic functions coherent rather than separate."
+        }
+      ]
+    },
+    {
+      "slug": "nervous-system",
+      "title": "The Nervous System: Your Body's Command Center",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The nervous system is the body's most complex organ system — and the one most relevant to who you are. Thought, emotion, memory, sensation, consciousness — everything that makes you you — emerges from neural activity.\n\nThe brain contains approximately 86 billion neurons, each connected to thousands of others through synapses. The total number of synaptic connections in one human brain is estimated at 100-500 trillion — more than the number of leaves in all the Amazon rainforest.\n\nUnderstanding the nervous system doesn't reduce the mind to mechanics — it reveals why the mind works the way it does, and what happens when things go wrong."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Central vs. Peripheral Nervous System",
+          "content": "The nervous system has two major divisions:\n\n**Central Nervous System (CNS):** Brain and spinal cord. The CNS processes information and coordinates the body's responses. The brain is the command center: the cerebral cortex handles conscious thought, sensory processing, and voluntary movement; the cerebellum coordinates balance and precision movement; the brainstem controls unconscious vital functions (breathing, heart rate, swallowing).\n\n**Peripheral Nervous System (PNS):** All nerves outside the brain and spinal cord — running to muscles, organs, and sensory receptors.\n\nThe PNS divides into:\n- **Somatic:** Voluntary — nerves that carry sensory information to the CNS and motor commands to skeletal muscles\n- **Autonomic:** Involuntary — regulates internal organs, heart, glands\n  - **Sympathetic:** Fight-or-flight (stress response)\n  - **Parasympathetic:** Rest-and-digest (recovery state)"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Neural signals travel at speeds up to 120 meters per second — about 270 miles per hour. Yet even at that speed, signals from your foot to your brain take roughly 15-30 milliseconds to arrive.\n\nThis processing delay has interesting implications: by the time you consciously perceive something, the event has already happened. Your conscious experience of the present is actually a slightly reconstructed past.\n\nNeuroscientist Benjamin Libet's famous 1983 experiments found that the brain shows electrical activity (the 'readiness potential') up to 550 milliseconds before a person consciously intends to move their hand. This finding sparked decades of debate about free will — if the brain 'decides' before conscious awareness, what does consciousness actually control?"
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Stress Response System",
+          "content": "The sympathetic nervous system's stress response — fight-or-flight — is one of the most important and most misunderstood aspects of human biology.\n\nWhen the brain perceives a threat (physical or social), the sympathetic system activates within milliseconds: adrenaline floods the bloodstream, heart rate increases, breathing becomes faster and shallower, digestion pauses, muscles receive increased blood flow, pain sensitivity decreases. The body prepares to fight or flee.\n\nThis response evolved for acute physical threats — a predator, a fall. It works perfectly for a 30-second emergency. The problem: modern stressors (deadlines, social anxiety, financial pressure) activate the same response repeatedly and chronically — keeping the body in a low-grade version of emergency mode that over time damages cardiovascular health, immune function, sleep, digestion, and mental health.\n\nChronic stress is essentially the acute stress response deployed against threats it wasn't designed to handle."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Neurotransmitters",
+          "content": "**Neurotransmitters** are chemical messengers that transmit signals between neurons across synapses — the microscopic gaps between nerve cells.\n\nKey neurotransmitters and their functions:\n\n**Dopamine:** Reward, motivation, motor control. Deficiency is associated with Parkinson's disease and depression; dysfunction underlies addiction.\n\n**Serotonin:** Mood regulation, appetite, sleep. Low serotonin is associated with depression; most antidepressants work by increasing serotonin availability.\n\n**GABA** (gamma-aminobutyric acid): The primary inhibitory neurotransmitter — reduces neural activity, promotes calm. Anti-anxiety medications (benzodiazepines) enhance GABA activity.\n\n**Acetylcholine:** Memory, muscle activation. The neurotransmitter at the nerve-muscle junction; Alzheimer's disease involves loss of acetylcholine-producing neurons.\n\n**Glutamate:** The primary excitatory neurotransmitter — increases neural activity. Essential for learning and memory; excessive glutamate activity causes neural damage."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Activate your parasympathetic nervous system deliberately:\n\nThe parasympathetic system (rest-and-digest) can be activated through controlled breathing — specifically, making the exhale longer than the inhale.\n\nTry 4-7-8 breathing:\n1. Inhale for 4 counts\n2. Hold for 7 counts\n3. Exhale for 8 counts\n\nDo this for 3-4 cycles. The extended exhale activates the vagus nerve — the parasympathetic system's main pathway — producing measurable reductions in heart rate and cortisol levels within minutes.\n\nYou have direct control over your autonomic nervous system through your breath. This is one of the most evidence-based and practically useful pieces of neuroscience for everyday life."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the distinction between the sympathetic and parasympathetic nervous systems?",
+          "optionA": "Sympathetic controls voluntary movement; parasympathetic controls involuntary organ functions",
+          "optionB": "Sympathetic activates the fight-or-flight stress response (emergency mode); parasympathetic activates rest-and-digest (recovery mode) — they are complementary systems that balance each other",
+          "optionC": "Sympathetic is the nervous system pathway from brain to body; parasympathetic is the feedback pathway from body to brain",
+          "optionD": "Sympathetic nerves originate in the brain; parasympathetic nerves originate in the spinal cord",
+          "correctAnswer": "B",
+          "explanation": "Sympathetic = fight-or-flight: heart rate up, digestion down, muscles primed, alertness high. Parasympathetic = rest-and-digest: heart rate down, digestion active, recovery processes engaged. They're complementary — chronic sympathetic activation from modern stressors prevents the parasympathetic recovery needed for health."
+        },
+        {
+          "question": "What does Benjamin Libet's experiment showing brain activity before conscious intention suggest about consciousness?",
+          "optionA": "It proves that free will doesn't exist — all 'choices' are predetermined by prior brain states",
+          "optionB": "It shows that conscious awareness is 550ms behind neural activity — raising questions about whether consciousness decides actions or observes them, sparking ongoing debate about free will and the role of conscious experience",
+          "optionC": "It demonstrates that meditation and mindfulness practices can delay the readiness potential, giving conscious control more influence over automatic responses",
+          "optionD": "It reveals that motor planning occurs in the cerebellum before the prefrontal cortex — meaning coordination precedes intention",
+          "correctAnswer": "B",
+          "explanation": "Libet's readiness potential (brain activity up to 550ms before conscious intention) shows conscious awareness lags neural activity. This doesn't necessarily eliminate free will (consciousness might veto actions rather than initiate them), but it does complicate the intuitive picture of consciousness as the body's driver. The debate is genuinely unresolved."
+        },
+        {
+          "question": "Why is dopamine more accurately described as a 'motivation' neurotransmitter than simply a 'pleasure' neurotransmitter?",
+          "optionA": "Dopamine produces anticipatory pleasure (wanting) rather than consummatory pleasure (liking) — it drives pursuit of rewards rather than the enjoyment of them",
+          "optionB": "Dopamine is only produced in response to novel rewards — familiar pleasures produce less dopamine over time, which explains why novelty is more motivating than familiarity",
+          "optionC": "Dopamine is released during both pleasure and pain — what determines its effect is the context and whether the experience was predicted or surprising",
+          "optionD": "Dopamine functions differently in social species like humans than in other animals, where it primarily regulates territorial behavior rather than pleasure",
+          "correctAnswer": "A",
+          "explanation": "Dopamine is primarily associated with anticipation, motivation, and reward-seeking (wanting) rather than the experience of pleasure itself (liking). This distinction, supported by research by Kent Berridge, explains why addictive substances generate compulsive seeking even when the pleasure diminishes — dopamine drives the wanting regardless of the quality of the reward."
+        }
+      ]
+    },
+    {
+      "slug": "immune-system",
+      "title": "The Immune System: Your Body's Defense Force",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Right now, your immune system is conducting thousands of battles you're completely unaware of. Bacteria trying to enter through a minor skin scratch. A virus attempting to replicate in respiratory cells. Abnormal cells that might become cancer. Foreign particles in the lungs.\n\nThe immune system defeats almost all of these attempts, silently, continuously, without conscious direction. It is one of the most sophisticated surveillance and defense systems in biology — with the ability to recognize self from non-self, remember previous invaders, and mount specific targeted attacks against threats it has never encountered before.\n\nUnderstanding immunity gives you a framework for understanding infections, vaccinations, autoimmune diseases, allergies, and the increasingly important field of immunotherapy in cancer treatment."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Innate vs. Adaptive Immunity",
+          "content": "The immune system has two complementary arms:\n\n**Innate immunity:** The first responder — fast (hours), non-specific, present from birth. Physical barriers (skin, mucus), chemical signals (inflammation), and generalist immune cells (neutrophils, macrophages) attack anything that looks foreign — regardless of what it is.\n\nInflammation — redness, heat, swelling, pain — is the innate immune system's initial response: it recruits immune cells to the site, kills pathogens with chemicals, and begins repair.\n\n**Adaptive immunity:** The specialist — slow (days to weeks to build), highly specific, with immunological memory. Two key cell types:\n- **B cells:** Produce antibodies — proteins that bind to specific antigens (foreign molecules) and mark pathogens for destruction\n- **T cells:** Coordinate the immune response and directly kill infected cells\n\nAdaptive immunity remembers previous infections — which is why you can't get chickenpox twice. And why vaccines work."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The Nobel Prize in Physiology or Medicine 2018 was awarded to James Allison and Tasuku Honjo for their discovery of cancer therapy through inhibition of negative immune regulation — the foundation of a treatment approach called 'checkpoint inhibitor' immunotherapy.\n\nAllison's key insight: cancer cells often evade the immune system not by hiding but by expressing proteins that tell T cells to stand down (immune 'checkpoints'). By developing drugs that block these checkpoint proteins, T cells can attack tumors they would otherwise ignore.\n\nCheckpoint inhibitors have produced remarkable, previously impossible long-term remissions in some patients with advanced melanoma, lung cancer, and other malignancies. For some patients, the treatments appear to be cures — for cancers that were previously uniformly fatal. It's one of the most significant advances in cancer treatment in decades."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Autoimmunity: When Defense Becomes Attack",
+          "content": "One of the immune system's most critical tasks is distinguishing self (your body's own cells) from non-self (pathogens, foreign material). When this distinction fails — when the immune system attacks the body's own tissues — the result is an autoimmune disease.\n\nAutoimmune conditions affect roughly 5-10% of the population, and include:\n- **Type 1 diabetes:** Immune system destroys insulin-producing pancreatic cells\n- **Rheumatoid arthritis:** Immune system attacks joint tissue\n- **Multiple sclerosis:** Immune system attacks the myelin sheath around nerve cells\n- **Lupus:** Systemic immune attack on multiple organs\n- **Hashimoto's thyroiditis:** Immune attack on the thyroid gland\n\nAutoimmune diseases are more common in women than men, often run in families, and can be triggered by viral infections that 'confuse' the immune system into recognizing self-proteins as foreign.\n\nTreatment typically involves immunosuppression — reducing immune activity broadly, which requires balancing autoimmune control against increased infection susceptibility."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Vaccination",
+          "content": "**Vaccination** is the introduction of an antigen (or instructions for producing one) into the body to stimulate the adaptive immune system to develop specific memory cells — preparing it to mount a rapid, powerful response if the actual pathogen is encountered later.\n\nEdward Jenner's first vaccine (1796) used cowpox to protect against smallpox — noticing that milkmaids who caught cowpox seemed resistant to the more dangerous smallpox. His observation led to the eventual global eradication of smallpox in 1980 — the only human infectious disease to be fully eradicated.\n\nModern vaccines work through several approaches:\n- **Live attenuated:** Weakened pathogen (MMR vaccine)\n- **Inactivated:** Killed pathogen (flu shot, some versions)\n- **Subunit:** Specific pathogen proteins only\n- **mRNA:** Instructions for cells to produce a specific antigen (COVID-19 vaccines)\n\nAll exploit the same fundamental mechanism: prime the adaptive immune system's memory in advance."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Map your immune system's history:\n\n1. What infections can you remember having as a child? Your adaptive immune system built specific memory for each of them — you're now immune to those specific strains.\n\n2. What vaccines have you received? List the infections your immune system has been primed against without ever experiencing the disease.\n\n3. Do you have any allergies? Allergies are the immune system mounting a response against harmless environmental antigens (pollen, pet dander, foods) — essentially a miscalibrated adaptive immune response.\n\nYour immune history is written in your B cell and T cell populations — the accumulated immunological memory of every exposure, infection, and vaccination. It's the most personal biological record you have."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the fundamental difference between innate and adaptive immunity?",
+          "optionA": "Innate immunity is inherited genetically; adaptive immunity develops through exposure during childhood",
+          "optionB": "Innate immunity responds fast but non-specifically to anything foreign; adaptive immunity responds slowly but with high specificity and immunological memory — building a targeted response and remembering each pathogen for future encounters",
+          "optionC": "Innate immunity operates in the bloodstream; adaptive immunity operates in lymph nodes and other immune organs",
+          "optionD": "Innate immunity protects against bacteria; adaptive immunity protects against viruses",
+          "correctAnswer": "B",
+          "explanation": "Innate: fast (hours), non-specific, no memory — attacks anything foreign. Adaptive: slow (days-weeks), highly specific, builds memory — B cells produce targeted antibodies, T cells coordinate and kill infected cells. Together they provide immediate general defense and learned specific response."
+        },
+        {
+          "question": "What was James Allison's key insight that led to checkpoint inhibitor cancer therapy?",
+          "optionA": "Cancer cells mutate rapidly enough to evade the immune system — targeted therapy must therefore address the mutation rate rather than individual mutations",
+          "optionB": "Cancer cells evade immunity not by hiding but by expressing proteins that tell T cells to stand down — blocking these 'checkpoint' proteins allows T cells to attack tumors they would otherwise ignore",
+          "optionC": "The tumor microenvironment suppresses immune cell function — immune therapy must restore function by supplementing immune cells within the tumor",
+          "optionD": "Cancer cells lack the surface antigens that normal cells display — making them invisible to T cells that recognize antigen-presenting surfaces",
+          "correctAnswer": "B",
+          "explanation": "Allison's insight: cancer exploits existing immune 'checkpoint' proteins (like CTLA-4 and PD-1) that normally prevent autoimmunity by telling T cells to stop. Cancer cells express these proteins to evade immune attack. Blocking the checkpoints removes the 'stop' signal, allowing T cells to recognize and destroy tumors."
+        },
+        {
+          "question": "Why do autoimmune diseases present a treatment dilemma?",
+          "optionA": "The immune system cannot be trained to distinguish self from non-self once it has begun attacking self-tissue — treatment must permanently suppress the immune response",
+          "optionB": "Treatment requires immunosuppression to stop self-attack, but reducing immune activity broadly also reduces protection against genuine infections — each treatment creates a balance between controlling autoimmune damage and accepting increased infection risk",
+          "optionC": "Autoimmune conditions are caused by immune overactivation that cannot be specifically targeted — suppression affects both the aberrant and the normal immune responses equally",
+          "optionD": "The triggers of autoimmune diseases (viral infections) often persist after the autoimmune response begins — treatment must address both the trigger and the immune dysregulation simultaneously",
+          "correctAnswer": "B",
+          "explanation": "Immunosuppression — the standard autoimmune treatment — reduces the self-attacking response but also reduces protection against actual pathogens. This is the fundamental treatment dilemma: controlling the autoimmune destruction means accepting greater vulnerability to infection. Treatments try to balance these competing risks."
+        }
+      ]
+    },
+    {
+      "slug": "hormones-and-health",
+      "title": "Hormones and the Endocrine System",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "While the nervous system sends rapid electrical signals along dedicated pathways, the endocrine system communicates through chemicals — hormones — released into the bloodstream to reach distant target organs.\n\nHormones regulate virtually every aspect of physiology: metabolism, growth, reproduction, stress response, sleep cycles, mood, and blood composition. They act slowly compared to nerves — effects unfold over hours, days, or years — but their reach is body-wide and their influence profound.\n\nHormonal balance is one of the most consequential factors in physical and mental health — and one of the least understood by most people."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Key Hormones and What They Do",
+          "content": "**Insulin and glucagon** (pancreas): Regulate blood sugar. Insulin lowers glucose after meals; glucagon raises it between meals. Disruption produces diabetes — one of the most prevalent chronic diseases globally.\n\n**Cortisol** (adrenal glands): The primary stress hormone. Releases glucose for energy, suppresses inflammation, focuses attention. Essential for acute stress; chronically elevated cortisol is damaging — suppressing immunity, disrupting sleep, promoting fat storage particularly around the abdomen.\n\n**Thyroid hormones** (thyroid gland): Regulate metabolism rate throughout the body. Hypothyroidism (low) causes fatigue, weight gain, cognitive slowing; hyperthyroidism (high) causes weight loss, anxiety, heart rate elevation.\n\n**Testosterone and estrogen** (gonads, adrenal glands): Sex hormones that affect not just reproduction but muscle mass, bone density, mood, cognition, and cardiovascular health in both sexes.\n\n**Melatonin** (pineal gland): Signals darkness and triggers sleep. Disrupted by blue light from screens — a major factor in modern sleep disorders."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Oxytocin — often called the 'love hormone' or 'bonding hormone' — is released during hugging, social touch, eye contact, and breastfeeding. It promotes trust, reduces fear, and strengthens social bonds.\n\nBut oxytocin's effects are considerably more complex than the 'love hormone' label suggests. Research has found that oxytocin also increases in-group favoritism and out-group hostility — the same hormone that makes you trust your partner makes you more suspicious of strangers. It promotes ethnocentrism and 'tend and defend' behavior alongside bonding.\n\nThis complexity is characteristic of many hormones: they evolved for specific ecological functions and have multiple interacting effects. Framing any hormone as purely positive or purely negative misrepresents the biological reality."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The HPA Axis: Stress and Your Health",
+          "content": "The hypothalamic-pituitary-adrenal (HPA) axis is the body's primary stress response system — a cascade of hormonal signals that mobilizes the body for acute stress and, when chronically activated, becomes one of the most damaging physiological patterns.\n\nThe cascade: Perceived threat → hypothalamus releases CRH → pituitary releases ACTH → adrenal glands release cortisol.\n\nAcute cortisol is adaptive. Chronic cortisol is damaging:\n- Suppresses immune function (infections become more likely)\n- Disrupts sleep (cortisol and melatonin compete)\n- Promotes central fat storage (associated with cardiovascular risk)\n- Damages hippocampal neurons (affecting memory and emotional regulation)\n- Dysregulates blood sugar\n\nThe most evidence-based interventions for reducing chronic HPA activation: regular physical exercise, adequate sleep, mindfulness meditation, social connection, and reducing identifiable stressors. These aren't self-help clichés — they're physiologically validated."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Feedback Loops",
+          "content": "**Negative feedback loops** are the control mechanisms through which most hormonal systems maintain homeostasis: when a hormone level rises above a set point, it signals back to suppress its own further production — like a thermostat.\n\nInsulin example: blood glucose rises (after eating) → pancreas releases insulin → insulin enables cells to absorb glucose → blood glucose falls → insulin release decreases → set point maintained.\n\nThyroid hormone example: low thyroid hormone → pituitary releases TSH (thyroid-stimulating hormone) → thyroid produces more hormone → hormone levels rise → pituitary detects rise and reduces TSH → balance restored.\n\nWhen negative feedback loops fail or are disrupted — through disease, toxins, excessive stress, or genetic variation — hormone levels swing outside their set points, producing the symptoms characteristic of endocrine disorders.\n\nMost medical interventions for hormonal disorders attempt to restore feedback loop function or artificially compensate for its failure."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Map your daily hormone cycle — specifically cortisol and melatonin:\n\n**Cortisol** peaks within 30-45 minutes of waking (the Cortisol Awakening Response) — giving you morning energy and alertness. It declines through the day, reaching its lowest point around midnight.\n\n**Melatonin** rises in darkness, typically about 2 hours before your habitual sleep time.\n\nConsider: Are you working with or against these natural cycles?\n- Scheduling demanding cognitive work in the first half of the day uses cortisol's peak\n- Exposing yourself to bright screens at night suppresses melatonin's rise\n- Irregular sleep times prevent the circadian rhythm from establishing a stable cycle\n\nOne small alignment — reducing screen brightness in the last hour before sleep — can measurably improve sleep quality within days. Biology responds to cues."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is chronically elevated cortisol damaging, even though acute cortisol is adaptive?",
+          "optionA": "Chronic cortisol depletes adrenal reserves, eventually leading to adrenal insufficiency and cortisol deficiency",
+          "optionB": "Acute cortisol provides emergency energy and focus; chronic elevation suppresses immunity, disrupts sleep, damages hippocampal neurons, and promotes cardiovascular risk factors — a stress response designed for 30-second emergencies causes organ damage when sustained indefinitely",
+          "optionC": "Cortisol tolerance develops with chronic exposure — the same amounts produce less stress response benefit over time, requiring higher levels to achieve the same effect",
+          "optionD": "Chronic cortisol creates dependency in the HPA axis — when cortisol is artificially reduced, the body experiences withdrawal-like effects",
+          "correctAnswer": "B",
+          "explanation": "Acute cortisol is perfectly adaptive for its designed purpose: a 30-second emergency requiring energy mobilization and pain suppression. Chronically elevated cortisol attacks the same systems it temporarily suppresses: immunity, sleep, memory, glucose regulation. The emergency response, sustained indefinitely, causes the damage it was designed to prevent in the long term."
+        },
+        {
+          "question": "What makes oxytocin's effects more complex than the 'love hormone' label suggests?",
+          "optionA": "Oxytocin promotes bonding in females but has minimal effect in males, making the 'love hormone' label applicable to only half the population",
+          "optionB": "Oxytocin simultaneously promotes in-group bonding and increases out-group suspicion/hostility — the same mechanism that creates trust with partners also increases wariness of strangers, reflecting its evolutionary function of tribal cohesion rather than universal love",
+          "optionC": "Oxytocin's effects depend on context — it promotes positive social outcomes in safe environments but intensifies negative reactions in threatening ones",
+          "optionD": "The popular concept conflates oxytocin with other bonding hormones (vasopressin, endorphins) — oxytocin alone has modest effects that are amplified by these other systems",
+          "correctAnswer": "B",
+          "explanation": "Oxytocin promotes in-group trust and bonding while simultaneously increasing out-group hostility and ethnocentrism. It evolved for group cohesion — 'tend and defend' — not universal love. The same chemical that bonds you to your partner makes you more suspicious of strangers. This complexity is typical of hormones with multiple evolved functions."
+        },
+        {
+          "question": "How do negative feedback loops maintain hormonal homeostasis?",
+          "optionA": "They amplify hormone signals as they move through the body, ensuring adequate levels reach distant target tissues",
+          "optionB": "When a hormone level exceeds its set point, it signals back to suppress its own production — like a thermostat. This keeps levels within the narrow ranges required for normal function",
+          "optionC": "They regulate the production and breakdown rates of hormones simultaneously, keeping total body hormone load constant",
+          "optionD": "They coordinate between multiple hormone systems to prevent any single system from dominating — balancing competing hormonal effects",
+          "correctAnswer": "B",
+          "explanation": "Negative feedback: rising hormone levels signal back to their own producing glands to reduce output — returning to set point. Failing feedback loops are the basis of most endocrine disorders (thyroid disorders, diabetes, cortisol dysregulation). Medical treatments often try to restore or compensate for failed feedback mechanisms."
+        }
+      ]
+    },
+    {
+      "slug": "exercise-and-nutrition",
+      "title": "Exercise, Nutrition, and Your Body",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Of all the factors that influence human health outcomes over a lifetime, the two most evidence-based, most accessible, and most underutilized are exercise and nutrition.\n\nThis is not trivial information. The research on exercise's impact on physical health, mental health, cognitive function, and longevity is among the strongest and most replicated in all of medicine. The research on nutrition — while more contested in specifics — has clear consensus areas.\n\nThis lesson focuses on what the evidence actually shows — the biological mechanisms that make these lifestyle factors so consequential, and the practical conclusions the research supports."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "What Exercise Does to Your Biology",
+          "content": "Exercise is the most potent physiological intervention available without a prescription. Here's what happens biologically:\n\n**Cardiovascular:** Regular aerobic exercise strengthens the heart muscle, lowers resting heart rate, improves arterial flexibility, reduces blood pressure, and increases HDL cholesterol. The risk reduction for cardiovascular events with regular exercise rivals or exceeds most medications.\n\n**Brain:** Exercise increases BDNF (Brain-Derived Neurotrophic Factor) — sometimes called 'Miracle-Gro for the brain' — which promotes neuron growth and synaptic plasticity. It reduces inflammation throughout the brain, grows the hippocampus (memory), and reduces risk of depression and cognitive decline.\n\n**Metabolic:** Increases insulin sensitivity (reducing type 2 diabetes risk), improves mitochondrial function in muscle cells, and regulates body weight through multiple mechanisms beyond simple calorie burning.\n\n**Longevity:** Regular moderate exercise is consistently associated with 3-7 additional years of life expectancy — one of the most reliable longevity predictors available."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research on sitting as a health behavior has produced one of the more alarming findings in recent epidemiology: prolonged sitting is independently associated with increased all-cause mortality — even when people exercise regularly outside of sitting time.\n\nA 2012 study in the Archives of Internal Medicine found that adults who sat for 11+ hours per day had a 40% increased risk of dying within 3 years compared to those who sat for fewer than 4 hours — adjusting for physical activity, weight, and health status.\n\nThe mechanism: prolonged sitting reduces muscle electrical activity, lowers metabolic rate, and alters lipid metabolism in ways that brief exercise bouts don't fully counteract. This doesn't mean sitting is deadlier than smoking — but it does mean that being sedentary for 23 hours and exercising for 1 is not equivalent to being moderately active throughout the day."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Nutrition: What the Evidence Actually Shows",
+          "content": "Nutrition science is frequently contradictory in its specific claims — because individual studies are small, confounded, and funded with various biases. The following have strong, consistent evidence across multiple study types:\n\n**Beneficial patterns:**\n- High vegetable and fruit intake (consistently reduces disease risk)\n- Mediterranean and DASH dietary patterns (cardiovascular benefit, well-studied)\n- Dietary fiber (gut health, cardiovascular, blood sugar regulation)\n- Regular fish consumption (omega-3 fatty acids, cardiovascular benefit)\n\n**Harmful patterns:**\n- Ultra-processed food consumption (independently associated with mortality beyond macronutrient content)\n- Excessive refined sugar and refined carbohydrates (metabolic harm)\n- Excess sodium (blood pressure)\n- Trans fats (now largely banned in many countries — cardiovascular harm clear)\n\n**Most uncertain:** The specific ratios of macronutrients (fat/carb/protein) — the 'diet wars' (keto, low-fat, Mediterranean) show individual variation matters more than universal optimal ratios."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Metabolic Syndrome",
+          "content": "**Metabolic syndrome** is a cluster of conditions that occur together, significantly increasing the risk of heart disease, stroke, and type 2 diabetes:\n\n- Central obesity (waist circumference above ~35 inches for women, ~40 for men)\n- High blood triglycerides\n- Low HDL ('good') cholesterol\n- High blood pressure\n- High fasting blood glucose\n\nHaving three or more of these conditions meets the diagnosis. Metabolic syndrome affects approximately 1 in 3 American adults — and its prevalence has increased dramatically with the rise of sedentary lifestyles and ultra-processed food consumption.\n\nMetabolic syndrome is largely reversible through lifestyle changes (exercise and dietary modification) — it's not a permanent condition. Its significance: it clusters risk factors that individually might be manageable into a pattern that is far more dangerous in combination."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Assess your current exercise and nutrition patterns against the evidence:\n\n**Exercise check:**\n- 150 minutes/week of moderate aerobic activity OR 75 minutes of vigorous? (CDC minimum recommendation)\n- 2+ strength training sessions per week?\n- Average hours sitting per day? Are you breaking it up?\n\n**Nutrition check:**\n- How many servings of vegetables and fruit per day?\n- What percentage of your food is ultra-processed?\n- Are you eating fiber regularly (whole grains, legumes, vegetables)?\n\nYou don't need perfection. You need direction. Pick one improvement in each category and implement it for two weeks before adding another. Behavioral research consistently shows that smaller, sustainable changes produce better long-term outcomes than dramatic short-term overhauls."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is BDNF and why does it explain exercise's cognitive benefits?",
+          "optionA": "Brain-Derived Nutrient Factor — a micronutrient required for neural membrane maintenance, produced more efficiently during exercise",
+          "optionB": "Brain-Derived Neurotrophic Factor — a protein that promotes neuron growth and synaptic plasticity, increased by exercise, explaining improvements in memory, learning, and cognitive function",
+          "optionC": "Brain-Derived Neural Frequency — a measure of neural synchronization that increases during and after aerobic exercise",
+          "optionD": "Brain-Derived Neurotransmitter Factor — a compound that enhances serotonin and dopamine production during exercise",
+          "correctAnswer": "B",
+          "explanation": "BDNF (Brain-Derived Neurotrophic Factor) is a protein that supports neuron growth and synaptic plasticity — increased substantially by aerobic exercise. It grows the hippocampus (memory center), reduces brain inflammation, and provides a biological mechanism for exercise's well-documented effects on mood, memory, and cognitive performance."
+        },
+        {
+          "question": "Why is ultra-processed food consumption specifically associated with mortality beyond its macronutrient content?",
+          "optionA": "Ultra-processed foods are higher in total calories, which is the primary driver of their health harms",
+          "optionB": "Ultra-processed foods contain industrial additives, emulsifiers, and preservatives — plus the processing itself alters food matrices in ways that affect gut microbiome, satiety signaling, and metabolic response independently of basic macronutrient content",
+          "optionC": "Ultra-processed foods are typically low in micronutrients, creating systematic vitamin and mineral deficiencies that drive the health harms",
+          "optionD": "The marketing environment around ultra-processed foods creates harmful eating patterns rather than the foods themselves having biological effects",
+          "correctAnswer": "B",
+          "explanation": "Ultra-processed food harm appears to be independent of macronutrients — studies matching for calories, fat, protein, and carbs still find worse outcomes with ultra-processed versions. Mechanisms include industrial additives, disrupted food matrices affecting gut microbiome and satiety signaling, and metabolic effects beyond what macronutrient counts capture."
+        },
+        {
+          "question": "What is metabolic syndrome and why is the cluster of conditions more dangerous than individual risk factors?",
+          "optionA": "Metabolic syndrome describes a generalized metabolic decline associated with aging — each condition worsens the others, creating an accelerating trajectory",
+          "optionB": "A cluster of conditions (central obesity, high triglycerides, low HDL, high blood pressure, high blood glucose) that together dramatically increase cardiovascular and diabetes risk — the combination is multiplicatively dangerous because these conditions interact and reinforce each other",
+          "optionC": "A newly recognized condition caused by sedentary behavior and poor diet — defined by the combination because no single factor alone is sufficient to diagnose metabolic disease",
+          "optionD": "A genetic predisposition pattern activated by lifestyle factors — the clustering of conditions identifies individuals with inherited metabolic vulnerability",
+          "correctAnswer": "B",
+          "explanation": "Metabolic syndrome's danger comes from the cluster: each condition individually is manageable, but they interact and reinforce each other. Central obesity drives insulin resistance, which worsens blood pressure and lipids, which increases cardiovascular risk. The combination is multiplicatively more dangerous than any single factor — and largely reversible through lifestyle change."
+        }
+      ]
+    },
+    {
+      "slug": "genetics-and-disease",
+      "title": "Your Genes and Your Health",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "You inherited your DNA from your parents, and through them from every ancestor in the history of your lineage. That DNA — 3 billion base pairs wound into 23 chromosome pairs in nearly every cell — contains the instructions for building and maintaining you.\n\nBut DNA is not destiny. The relationship between genes and health is far more complex than popular genetics coverage suggests: most diseases involve dozens or hundreds of genetic variants of small effect, interacting with each other and with environmental factors that can amplify or suppress their expression.\n\nThis lesson gives you a realistic understanding of what your genes do and don't determine — and how to think about genetic health risk."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Genetic Risk: Not Destiny, But Probability",
+          "content": "Most common diseases — heart disease, type 2 diabetes, most cancers, depression, Alzheimer's — are polygenic: influenced by many genes of small effect, not a single gene that 'causes' the disease.\n\nPolygenic risk is probabilistic, not deterministic:\n- Having the APOE4 gene variant increases Alzheimer's risk 3-4x (one copy) or 8-12x (two copies) — but the majority of people with two APOE4 copies never develop Alzheimer's\n- Having a first-degree relative with type 2 diabetes increases your risk roughly 3x — but lifestyle modification can reduce that risk below average\n- BRCA1/2 mutations significantly increase breast and ovarian cancer risk — but not to 100%\n\nThe practical message: genetic risk is one input into a probabilistic calculation that also includes lifestyle, environment, early detection, and treatment. 'Higher risk' means 'worth monitoring and addressing' — not 'inevitable outcome.'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The Human Genome Project, completed in 2003 after 13 years and approximately $3 billion in cost, provided the first complete map of the human genome. Today, your genome can be sequenced for under $300 in a matter of hours.\n\nThis 10,000x cost reduction in two decades is one of the most dramatic technological price drops in history — faster than Moore's Law in computing.\n\nYet the most surprising finding from the Human Genome Project was how few protein-coding genes humans have: approximately 20,000-25,000. Comparable numbers to a fruit fly or roundworm. It turns out that gene count is a poor predictor of biological complexity — much of the complexity comes from regulatory sequences, RNA processing, protein interactions, and epigenetic controls rather than simple gene quantity."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Epigenetics: How Environment Modifies Gene Expression",
+          "content": "Epigenetics is the study of changes in gene expression that don't involve changes to the DNA sequence itself — modifications that affect whether and how genes are 'read' without changing the underlying genetic code.\n\nKey mechanisms: DNA methylation (adding methyl groups to cytosine bases, typically silencing nearby genes) and histone modification (changing how tightly DNA is wound around histone proteins, affecting accessibility for transcription).\n\nWhy this matters: environment directly influences gene expression. Diet, exercise, stress, sleep, toxin exposure, and even social experiences can produce epigenetic modifications that turn genes up or down — sometimes persistently, sometimes across generations.\n\nThis doesn't mean genes don't matter — they do. It means the relationship is bidirectional: genes influence environment responses, and environments influence gene expression. 'Nature vs. nurture' is a false dichotomy; the more accurate framing is nature and nurture constantly interacting."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Pharmacogenomics",
+          "content": "**Pharmacogenomics** is the study of how genetic variation affects individual responses to drugs — including how quickly drugs are metabolized, how effective they are, and what side effects they produce.\n\nMany commonly prescribed medications have dramatically different effects in different people based on genetic variation in drug-metabolizing enzymes (particularly the CYP450 enzyme family in the liver):\n\n- Some people are 'poor metabolizers' of certain drugs — they can't break them down efficiently, leading to toxic accumulation\n- Others are 'ultra-rapid metabolizers' — they process drugs so quickly they receive little therapeutic benefit\n- Standard antidepressant doses that are effective for most patients may be ineffective or harmful for specific genetic profiles\n\nPharmacogenomic testing is increasingly available and can guide drug selection and dosing — reducing the trial-and-error that characterizes much of psychiatric medication, blood thinners, pain medications, and chemotherapy."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Map your personal genetic risk landscape using available information:\n\n1. **Family history:** This is your primary accessible genetic risk information. Create a simple health history of first-degree relatives (parents, siblings). Which conditions appear? Heart disease, cancer, diabetes, Alzheimer's — each cluster indicates elevated polygenic risk worth discussing with a physician.\n\n2. **Lifestyle interaction:** For each familial condition you identified, ask: what is known about lifestyle factors that modify risk for this condition? (Diet and exercise for diabetes; statins and cardiovascular monitoring for heart disease; screening for cancers with familial risk)\n\n3. **If interested:** Consumer genetic testing (23andMe, AncestryDNA) provides health predisposition reports for some conditions — valuable context, but interpret probabilistically, not deterministically.\n\nYour family history is the most immediately practical genetics tool available to most people."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does it mean that most common diseases are 'polygenic'?",
+          "optionA": "They affect multiple body systems simultaneously — making diagnosis and treatment more complex",
+          "optionB": "They are influenced by many genes of small effect, not a single causative gene — producing probabilistic risk rather than deterministic outcomes, and explaining why family history predicts but doesn't guarantee disease",
+          "optionC": "They can be treated by targeting multiple genetic pathways — explaining why combination therapies are often more effective than single-target treatments",
+          "optionD": "They result from gene-gene interactions that aren't captured by sequencing individual genes — requiring whole-genome analysis to understand",
+          "correctAnswer": "B",
+          "explanation": "Polygenic diseases are influenced by dozens or hundreds of genetic variants of small effect, interacting with each other and with environmental factors. This is why APOE4 carriers mostly don't develop Alzheimer's — having high-risk variants increases probability but doesn't determine outcome. Lifestyle modification can meaningfully change the actual risk."
+        },
+        {
+          "question": "What is epigenetics and why does it challenge the simple 'genes determine everything' view?",
+          "optionA": "Epigenetics is the study of genes expressed after birth — as opposed to genes expressed only during prenatal development",
+          "optionB": "Epigenetics studies how environmental factors (diet, exercise, stress, toxins) affect gene expression through DNA methylation and histone modification — without changing the DNA sequence. The relationship is bidirectional: genes influence responses, environments modify which genes are expressed",
+          "optionC": "Epigenetics examines how genes from both parents interact — explaining why genetically identical siblings with the same parents can have different health outcomes",
+          "optionD": "Epigenetics is the study of non-coding DNA regions that regulate gene expression — revealing that most of the genome's significance lies outside protein-coding sequences",
+          "correctAnswer": "B",
+          "explanation": "Epigenetics shows environment directly modifies gene expression without changing DNA sequence — through methylation and histone modification. Stress, diet, exercise, and even social experience can turn genes up or down. This makes 'nature vs. nurture' a false dichotomy: they constantly interact, with each influencing the other's effects."
+        },
+        {
+          "question": "What is pharmacogenomics and what practical problem does it address?",
+          "optionA": "The study of how pharmaceutical companies use genetic data to develop targeted therapies — addressing the problem of developing drugs that work for specific genetic populations",
+          "optionB": "The study of how genetic variation affects drug metabolism and response — addressing the trial-and-error problem in medication selection by predicting which drugs will be effective or harmful for specific genetic profiles",
+          "optionC": "The analysis of genetic mutations in cancer cells to guide chemotherapy selection — the most widespread current clinical application",
+          "optionD": "The development of genetically modified drugs that can be personalized to individual patient genomes",
+          "correctAnswer": "B",
+          "explanation": "Pharmacogenomics addresses why the same drug dose produces wildly different effects in different people: genetic variation in drug-metabolizing enzymes means some people clear drugs too slowly (toxic accumulation) while others clear them too fast (no benefit). Testing can guide drug and dose selection, reducing the trial-and-error especially problematic in psychiatric medication."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "courseSlug": "everyday-math",
+  "lessons": [
+    {
+      "slug": "numbers-in-daily-life",
+      "title": "Numbers That Actually Matter",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most people walk through life quantitatively defenseless — unable to evaluate statistics in news, check whether a sale price is actually a good deal, understand what a 3% annual return means over 20 years, or catch when a number doesn't make sense.\n\nMathematical literacy doesn't require calculus or algebra. It requires a small set of concepts and habits: estimating, thinking about proportions, recognizing when numbers are being used to mislead, and doing back-of-envelope calculations that let you check claims quickly.\n\nThis course builds practical numerical literacy — the skills that matter for real decisions."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Estimation: The Most Useful Math Skill",
+          "content": "Estimation — producing quick, approximate answers without precise calculation — is the most practical mathematical skill most people never develop.\n\nFermi estimation (named for physicist Enrico Fermi) is the technique of making reasonable order-of-magnitude guesses by breaking a problem into smaller, estimable pieces:\n\nHow many piano tuners are in Chicago?\n- Chicago has ~2.7 million people\n- Average household size ~2.5 → ~1 million households\n- Perhaps 1 in 20 households has a piano → ~50,000 pianos\n- Pianos need tuning once a year, taking ~2 hours per piano\n- A tuner works ~250 days × 4 pianos/day = 1,000 pianos/year\n- 50,000 pianos ÷ 1,000 per tuner = ~50 piano tuners\n- Actual answer: around 125\n\nFermi's answer was in the right order of magnitude using only reasonable guesses. The skill: being wrong by a factor of 2 is acceptable; being wrong by a factor of 1,000 is not. Estimation develops the intuition for what 'sounds right.'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The mathematician John Allen Paulos coined the term 'innumeracy' (in his 1988 book of the same name) to describe the mathematical equivalent of illiteracy — widespread inability to deal with numbers that renders people vulnerable to misunderstanding and manipulation.\n\nHis most powerful example: 'If a test to detect a disease whose prevalence is 1/1000 has a false positive rate of 5%, what is the chance that a person found to have a positive result actually has the disease?'\n\nMost people (including many doctors) say '95%.' The correct answer is approximately 2%. Why? Out of 1,000 people: 1 has the disease (true positive), and 50 don't have it but test positive (5% of 999 ≈ 50 false positives). So 51 people test positive but only 1 has the disease — less than 2% of positives are true positives.\n\nThis is why many screening tests require confirmation — the base rate problem makes positive results far less meaningful than they intuitively seem."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Percentages, Proportions, and Relative vs. Absolute Risk",
+          "content": "The most commonly used (and misused) mathematical tool in daily life is the percentage. Understanding two critical distinctions:\n\n**Relative risk vs. absolute risk:** A drug that 'reduces heart attack risk by 50%' sounds impressive. If the base rate of heart attacks in the relevant population is 2% without the drug, a 50% reduction means the rate falls to 1% — from 2 in 100 to 1 in 100. The absolute risk reduction is 1 percentage point.\n\nMedia and pharmaceutical companies prefer relative risk (50% reduction — dramatic). Absolute risk (1 percentage point) is what matters for your individual decision.\n\n**Percentage point vs. percent change:** If interest rates rise from 2% to 3%, they've risen 1 percentage point — but 50% relative to the original rate. Both statements are technically correct; they convey very different impressions.\n\nHealthcare, financial, and political communication routinely exploit this confusion. Reading 'X reduces risk by Y%' always requires the question: relative to what baseline?"
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Compound Interest and the Rule of 72",
+          "content": "**Compound interest** means earning interest on interest — the cumulative growth that makes small differences in rate matter enormously over time.\n\nThe **Rule of 72** is a mental shortcut: divide 72 by the annual interest rate (or growth rate) to find how many years it takes for a value to double.\n\n- At 6% annual return: 72 ÷ 6 = 12 years to double\n- At 8% annual return: 72 ÷ 8 = 9 years to double\n- At 2% inflation: 72 ÷ 2 = 36 years for prices to double\n- At 72% credit card APR (some payday loans): 72 ÷ 72 = 1 year to double what you owe\n\nThe Rule of 72 is accurate to within 1-2% for rates between 6-10%. It's the single most useful mental shortcut in personal finance — allowing quick intuitive grasp of what different growth rates actually mean over time."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply Fermi estimation to one question you can look up afterward:\n\n**Question:** How many commercial flights take off in the US per day?\n\nYour estimation path:\n1. Number of US airports with commercial flights (~450 medium/large)\n2. Average flights per airport per day for a medium airport (guess based on what you know)\n3. Multiply and adjust for the largest airports (JFK, ATL, LAX — each has hundreds of daily flights)\n\nWrite down your estimate before looking. Then check: the actual number is approximately 45,000 daily commercial departures.\n\nHow close were you? Were you within a factor of 2? Factor of 5? Factor of 10?\n\nThe goal isn't to be exactly right — it's to be close enough that your estimate is useful for decision-making. That's what numerical intuition looks like."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is the absolute risk reduction more useful for personal medical decisions than the relative risk reduction?",
+          "optionA": "Absolute risk uses larger numbers, making the comparison easier to understand",
+          "optionB": "Absolute risk tells you the actual change in your probability — a 50% relative reduction sounds dramatic but from a 2% to 1% base rate means only 1 in 100 additional people avoid the event. Absolute risk reveals the real-world magnitude of the benefit",
+          "optionC": "Absolute risk accounts for side effects and costs; relative risk only measures the benefit",
+          "optionD": "Absolute risk applies to an individual; relative risk is a population-level statistic that doesn't apply to any one person",
+          "correctAnswer": "B",
+          "explanation": "Relative risk (50% reduction) tells you how much the rate changes proportionally. Absolute risk (1 percentage point reduction from 2% to 1%) tells you what actually changes in your probability. For decisions about your own life, absolute risk is what matters — it shows whether the benefit justifies the costs, side effects, or tradeoffs."
+        },
+        {
+          "question": "A disease affects 1 in 1000 people. A test has a 5% false positive rate. A person tests positive. What is the approximate probability they actually have the disease?",
+          "optionA": "95% — the test is 95% accurate",
+          "optionB": "Approximately 2% — out of 1000 people, ~50 get false positives and 1 has the disease, so only 1 of ~51 positives is a true positive",
+          "optionC": "0.1% — the prevalence of the disease in the general population",
+          "optionD": "50% — since the test is right and wrong equally for rare conditions",
+          "correctAnswer": "B",
+          "explanation": "The base rate problem: 1 in 1000 has the disease (1 true positive in 1000 people). 5% false positive rate means ~50 of the remaining 999 also test positive. So about 51 people test positive but only 1 has the disease — roughly 2%. This is why positive results on screening tests for rare conditions always require confirmation."
+        },
+        {
+          "question": "What does the Rule of 72 tell you about a 9% annual investment return?",
+          "optionA": "At 9% annual return, you'll earn $72 for every $100 invested in 9 years",
+          "optionB": "72 ÷ 9 = 8 years for your investment to double — a quick mental calculation showing that at 9% annual return, money doubles approximately every 8 years",
+          "optionC": "At 9% return, you need 72% of your income saved to retire",
+          "optionD": "Your investment will increase by 72% over 9 years",
+          "correctAnswer": "B",
+          "explanation": "Rule of 72: divide 72 by the annual rate to find doubling time. At 9%, 72÷9=8 years to double. This quick mental shortcut gives intuitive grasp of compound growth — at 9% return, $10,000 becomes $20,000 in 8 years, $40,000 in 16 years, $80,000 in 24 years. The doubling chain is the power of compounding made visible."
+        }
+      ]
+    },
+    {
+      "slug": "probability-and-risk",
+      "title": "Probability and Risk in Real Life",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Probability is the mathematics of uncertainty — and uncertainty is the constant backdrop of most important decisions. Which route home is faster? Should you accept this job offer or hold out for a better one? Is this chest pain a heart attack or indigestion? Is this investment likely to pay off?\n\nNone of these questions have certain answers. They all involve probability — explicit or implicit. And research consistently shows that humans are terrible intuitive probabilists. We fear plane crashes more than car accidents. We buy lottery tickets. We fail to grasp the difference between 1-in-a-million and 1-in-a-thousand risk.\n\nThis lesson builds the probabilistic intuition that good decision-making under uncertainty requires."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Independent Events and the Gambler's Fallacy",
+          "content": "**Independent events:** Two events are independent if the occurrence of one doesn't affect the probability of the other.\n\nFlipping a fair coin 10 times and getting heads every time does not make tails 'due.' Each flip is independent — the coin has no memory. The probability of tails on flip 11 is still exactly 50%.\n\nThe **Gambler's Fallacy** is the belief that independent random events become 'due' after a run — that a roulette wheel that has come up black 10 times is more likely to come up red next. It's not. The wheel has no memory.\n\nThe inverse error is equally common: if a coin lands heads 10 times in a row, people often conclude the coin is biased toward heads (rather than assuming it's a fair coin on an improbable run). In fact: 10 consecutive heads has about a 1-in-1000 chance with a fair coin — unusual but not evidence of bias. After 100 consecutive heads, you should genuinely suspect the coin.\n\nDistinguishing random variation from meaningful pattern is one of the most practically important probabilistic skills."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The 'birthday problem' produces one of probability's most counterintuitive results: in a room of just 23 people, there's a better than 50% chance that two of them share a birthday. In a room of 70 people, the probability rises to 99.9%.\n\nMost people guess you'd need around 183 people (half of 366 days) before a shared birthday becomes more likely than not. The actual answer (23) shocks almost everyone.\n\nThe reason: the birthday problem isn't asking whether someone shares YOUR birthday — it's asking whether ANY two people share a birthday. With 23 people, there are 23 × 22 / 2 = 253 possible pairs of people. Each pair has a roughly 1/365 chance of sharing a birthday. 253 chances of about 0.27% each compound quickly to over 50% probability.\n\nThis counterintuitive result demonstrates how human probability intuition systematically fails with combinatorial problems — where the number of possible interactions grows much faster than the number of items."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Expected Value: The Decision Framework",
+          "content": "Expected value is the average outcome of a probabilistic situation, weighted by probability:\n\n**Expected Value = Σ (probability of outcome × value of outcome)**\n\nExample: A gamble where you flip a coin and win $100 on heads, lose $50 on tails.\n- EV = (0.5 × $100) + (0.5 × -$50) = $50 - $25 = **$25 per play**\nThis gamble is positive expected value — rational to accept.\n\nLottery: $1 ticket, 1-in-300-million chance of $100 million jackpot.\n- EV = (1/300,000,000 × $100,000,000) + (299,999,999/300,000,000 × -$1)\n- EV = $0.33 - $1.00 = **-$0.67 per ticket**\nThe lottery is negative expected value — not rational to accept (from a pure expected value standpoint; entertainment value is another matter).\n\nExpected value doesn't capture everything — variance matters too. A certain $1 million is preferable to a 50% chance of $3 million for most people (risk aversion). But EV is the essential starting point for evaluating any probabilistic decision."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Bayes' Theorem",
+          "content": "**Bayes' Theorem** is a mathematical formula for updating the probability of a hypothesis given new evidence:\n\n**P(A|B) = P(B|A) × P(A) / P(B)**\n\nIn plain terms: the probability of A given B equals the probability of B given A, multiplied by the prior probability of A, divided by the probability of B.\n\nBayesian reasoning is the formal version of rational belief updating: start with a prior probability (what you believed before), update it in proportion to how consistent the new evidence is with different hypotheses.\n\nWhy it matters practically: humans systematically fail to properly weight prior probabilities (base rates) against new evidence. The positive medical test example shows this — we should update our belief that we have a disease based on both the test accuracy AND the prior probability of having the disease (base rate).\n\nBayesian thinking: 'Given what I already knew and this new information, how much should my belief change?' This is the most rational framework for updating beliefs in the face of evidence."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply expected value thinking to a real decision you face:\n\n1. Identify the possible outcomes and their approximate probabilities\n2. Estimate the value (positive or negative) of each outcome\n3. Calculate: expected value = sum of (probability × value) for each outcome\n4. Compare EV of different options\n\nExample real decision: Should you buy an extended warranty for a $500 appliance at a cost of $80?\n- Probability the appliance breaks in warranty period: ~15%\n- Average repair cost if it breaks: ~$300\n- EV of breaking without warranty: 0.15 × (-$300) = -$45\n- EV of buying warranty: -$80 (you pay this for sure)\n- Conclusion: at these numbers, skip the warranty (expected loss $80 vs. $45)\n\nExpected value thinking doesn't guarantee good outcomes — it maximizes average outcomes. Use it for decisions you'll make many times. For one-time catastrophic risks (your house burning down), insurance makes sense even at negative EV."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the Gambler's Fallacy and why is it factually wrong?",
+          "optionA": "The mistaken belief that professional gamblers have mathematical systems that guarantee profit — wrong because house edge ensures long-term losses",
+          "optionB": "The mistaken belief that independent random events become 'due' after a run — wrong because truly independent events have no memory. A coin that lands heads 10 times still has exactly 50% probability of heads on the next flip",
+          "optionC": "The mistaken belief that large payouts at casinos mean games can be profitable — wrong because rare large payouts are built into the expected value calculations",
+          "optionD": "The mistaken belief that skill improves outcomes in pure chance games — wrong because outcomes are entirely probability-determined",
+          "correctAnswer": "B",
+          "explanation": "The Gambler's Fallacy: assuming independent random events have memory — that a roulette wheel that came up black 10 times is 'due' for red. Independent events have no memory: each spin is independent of all previous spins. The probability is unchanged. 10 consecutive heads is improbable but doesn't change the probability of the 11th flip."
+        },
+        {
+          "question": "What makes the birthday problem counterintuitive, and what mathematical concept explains its surprising result?",
+          "optionA": "The problem is counterintuitive because people think of birthdays as unique identifiers — it's surprising that they repeat so frequently",
+          "optionB": "The problem is counterintuitive because people estimate the number of people needed based on days in a year (183). But the problem asks about any pair sharing a birthday — with 23 people, there are 253 possible pairs, each with a ~0.27% chance of sharing. Many small chances compound quickly to over 50%",
+          "otionC": "The counterintuitive result comes from the 365-day year's non-uniform distribution — some days are more common birthdays than others, compressing the coincidence probability",
+          "otionD": "The problem seems counterintuitive because people confuse probability with coincidence — any result that 'matches' feels meaningful regardless of its actual probability",
+          "correctAnswer": "B",
+          "explanation": "The birthday problem: 23 people × 22 people / 2 = 253 pairs, each with ~1/365 ≈ 0.27% chance of matching. Many small probabilities compound. The correct question isn't 'does someone share MY birthday?' — it's 'do any two people share a birthday?' The combinatorial explosion of pairs makes the probability grow much faster than intuition predicts."
+        },
+        {
+          "question": "When does expected value reasoning produce potentially flawed decisions?",
+          "optionA": "Expected value is flawed when the probabilities are estimated rather than precisely known",
+          "optionB": "Expected value doesn't capture variance or risk aversion — a certain $1M is preferable to 50% chance of $3M for most people despite higher EV; for rare catastrophic one-time events, insurance at negative EV is rational because ruin is irreversible",
+          "optionC": "Expected value only works for financial decisions — non-financial outcomes can't be assigned numerical values that make the calculation valid",
+          "otionD": "Expected value is flawed because it assumes all outcomes have the same probability — in practice, probabilities are rarely equal",
+          "correctAnswer": "B",
+          "explanation": "Expected value is the correct starting framework but doesn't capture everything. Risk aversion (preferring certainty to an equally or more profitable gamble) is rational when variance is high or outcomes are irreversible. You should buy house insurance even at negative EV because financial ruin is irreversible. EV is most reliable for decisions made many times; for one-time high-stakes decisions, risk tolerance and irreversibility matter enormously."
+        }
+      ]
+    },
+    {
+      "slug": "statistics-demystified",
+      "title": "Statistics: Reading Numbers Critically",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Mark Twain (quoting Disraeli) famously noted: 'There are three kinds of lies: lies, damned lies, and statistics.' Statistics can be used honestly to reveal truth — or dishonestly to mislead while technically telling the truth.\n\nStatistical literacy isn't about doing statistics — it's about reading them critically. When a headline says 'Study finds X causes Y,' you should know to ask: what kind of study? how large a sample? was it peer reviewed? what was the actual size of the effect? What alternative explanations exist?\n\nThis lesson gives you the tools to evaluate statistical claims — which are now everywhere in news, health, politics, and science coverage."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Correlation vs. Causation",
+          "content": "The most important statistical distinction for everyday life: correlation doesn't imply causation.\n\n**Correlation:** Two variables tend to occur together or move together. Ice cream sales correlate positively with drowning rates — both rise in summer.\n\n**Causation:** One variable causes another. Smoking causes lung cancer.\n\nCorrelated but not causal:\n- Countries with more chocolate consumption per capita have more Nobel laureates\n- City firefighters make salaries that correlate with property damage — larger fires have more firefighters and more damage\n- Reading ability in elementary school correlates with shoe size — because older children have both larger feet and better reading\n\nThree possible explanations for any correlation:\n1. A causes B\n2. B causes A\n3. A third variable (C) causes both A and B\n\nEstablishing causation requires: controlled experiments (where the cause is manipulated while everything else is held constant), or natural experiments, or careful statistical controls. Observational correlation, however strong, cannot establish causation."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The website 'Spurious Correlations' by Tyler Vigen (which became a popular book) displays real statistical correlations between completely unrelated variables:\n\n- US spending on science, space, and technology correlates at r=0.99 with suicides by hanging, strangulation, and suffocation\n- Per capita cheese consumption correlates at r=0.95 with deaths by becoming tangled in bedsheets\n- Number of films Nicolas Cage appeared in correlates at r=0.87 with drownings in swimming pools\n\nAll of these are real statistical correlations found in real data. None have any plausible causal relationship.\n\nThe lesson: in any sufficiently large database, many variables will correlate by pure chance. With modern statistical tools and big data, it's easy to find thousands of spurious correlations. Statistical significance (p < 0.05) doesn't mean meaningful — it means the result would occur by chance less than 5% of the time. With thousands of tests, 5% 'significant' results is exactly what chance produces."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Mean, Median, and Which Average Matters",
+          "content": "When someone gives you 'the average,' ask: which average?\n\n**Mean:** Sum of all values divided by the number of values. Sensitive to outliers — a single extremely high or low value dramatically shifts the mean.\n\n**Median:** The middle value when all values are arranged in order. Resistant to outliers.\n\n**Mode:** The most common value.\n\nWhy this matters: Consider income in a town of 10 people with salaries of $30,000 × 9 people and one billionaire at $1,000,000,000.\n- Mean income: ~$100,030,000 (dominated by the billionaire)\n- Median income: $30,000 (unaffected by the outlier)\n\nWhich better represents 'typical' income in this town? Clearly median.\n\nPhrase to watch: 'the average American family earns $X per year' — if using mean, this is heavily influenced by extremely wealthy families and doesn't describe a typical family. Median is almost always more appropriate for income and wealth statistics.\n\nThis is one of the most commonly used misleading statistical devices — choosing mean when median better represents reality."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Confidence Intervals and Statistical Significance",
+          "content": "**Statistical significance** (typically p < 0.05) means: if the null hypothesis were true (there's no real effect), there's less than a 5% probability of getting a result this extreme by chance. It does NOT mean:\n- The result is practically important\n- The effect is large\n- The study will replicate\n\n**Confidence interval:** A range of values within which the true value is estimated to fall, with stated probability. '95% CI: 1.2 to 5.8' means: we're 95% confident the true value lies between 1.2 and 5.8. A wide CI indicates high uncertainty; a narrow CI indicates more precision.\n\nCritical failure mode: many research studies in psychology and medicine failed to replicate when tested again — the 'replication crisis.' Studies showing p < 0.05 with small samples are often false positives — effects that appear significant by chance in one study but disappear when the study is repeated with larger samples.\n\nThe replication crisis has forced major changes in scientific practice — pre-registration of studies, larger samples, reporting effect sizes alongside p-values, and meta-analysis (combining results from multiple studies)."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Find one statistical claim in a news story today and apply this critical framework:\n\n1. **What type of study?** Randomized controlled trial (strongest evidence) → natural experiment → observational study → expert opinion (weakest)\n\n2. **What's the sample size?** Larger samples produce more reliable results. A study of 50 people claiming a significant finding should be treated skeptically.\n\n3. **Correlation or causation?** Does the study design allow causal conclusions, or only correlational ones?\n\n4. **What's the actual effect size?** A 10% relative risk reduction from 1% to 0.9% is very different from 10% to 9% — both are 10% relative reductions but one affects 1 in 1000 people and the other 1 in 100.\n\n5. **Has it replicated?** Is this one study or consistent finding across multiple studies?\n\nStatistical literacy turns you from a passive recipient of 'studies show...' into an active evaluator of evidence quality."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What are the three possible explanations for any observed correlation?",
+          "optionA": "Random chance, measurement error, or genuine association",
+          "optionB": "A causes B, B causes A, or a third variable C causes both A and B — correlation itself cannot distinguish which explanation applies",
+          "optionC": "Statistical significance, practical significance, or spurious correlation",
+          "otionD": "Linear relationship, non-linear relationship, or sampling artifact",
+          "correctAnswer": "B",
+          "explanation": "Any correlation has three possible explanations: A causes B (the one people jump to), B causes A (reverse causation), or C causes both A and B (confounding). Establishing causation requires experimental design (holding everything else constant) or natural experiments. Observational correlation, however strong, cannot distinguish these three explanations."
+        },
+        {
+          "question": "When is median income more informative than mean income?",
+          "optionA": "When the income distribution is relatively equal — in high-inequality societies, mean and median are both inadequate",
+          "optionB": "Almost always for income — mean is dramatically skewed by extremely high incomes (billionaires pulling the mean far above what most people earn), while median is resistant to outliers and describes a typical person's income",
+          "otionC": "When comparing income across different countries — median adjusts for differences in cost of living that mean doesn't account for",
+          "otionD": "For household income specifically — mean is more appropriate for individual income",
+          "correctAnswer": "B",
+          "explanation": "For skewed distributions like income, median almost always better describes 'typical.' A few billionaires pull the mean far above what most people earn. The town with 9 people at $30K and one billionaire has a mean of $100M+ and a median of $30K — the median describes the actual typical resident's income. Mean income is routinely used to make things sound better than they are."
+        },
+        {
+          "question": "What does p < 0.05 actually mean and what does it NOT mean?",
+          "optionA": "P < 0.05 means the result is definitely real and will replicate; it does not mean the effect is large",
+          "optionB": "P < 0.05 means there's less than 5% probability of getting this extreme a result by chance if there's no real effect; it does NOT mean the result is practically important, the effect is large, or the study will replicate",
+          "otionC": "P < 0.05 means the study was conducted correctly and the analysis was appropriate; it does not guarantee the hypothesis is true",
+          "otionD": "P < 0.05 means 95% of the effect is explained by the treatment; the remaining 5% is unexplained variation",
+          "correctAnswer": "B",
+          "explanation": "P < 0.05 is a statement about probability of this result under the null hypothesis — not about the truth of the hypothesis. A tiny effect can be statistically significant with a large enough sample. Statistical significance doesn't imply practical importance, large effect size, or replicability. The replication crisis showed that many 'significant' findings (especially from small samples) are false positives."
+        }
+      ]
+    },
+    {
+      "slug": "financial-math",
+      "title": "Financial Math You Actually Need",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Financial math is the set of mathematical concepts that determine whether you're building wealth or being systematically disadvantaged by the financial system. Most people interact with financial products — loans, credit cards, mortgages, investments — without fully understanding the mathematics governing them.\n\nThis ignorance is expensive. The difference between understanding and not understanding compound interest, APR vs. APY, and amortization can amount to hundreds of thousands of dollars over a lifetime.\n\nThis lesson covers the key concepts. None require more than basic arithmetic."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How Mortgages and Loans Actually Work",
+          "content": "Most people understand that loans have interest. Few understand how much of their early loan payments go to interest vs. principal — the 'amortization schedule.'\n\nA $300,000, 30-year mortgage at 7% has a monthly payment of approximately $1,996.\n\nIn the FIRST month:\n- Interest portion: $300,000 × 7% ÷ 12 = **$1,750**\n- Principal portion: $1,996 - $1,750 = **$246**\n\nAfter month 1, you still owe $299,754. You paid $1,996 and reduced your debt by $246.\n\nAfter 1 year of payments (12 × $1,996 = $23,952), your loan balance has reduced by only ~$3,000. You paid almost $21,000 in interest.\n\nIn month 30 of the loan, finally more than half of your payment goes to principal rather than interest.\n\nAmortization front-loads interest. This is why:\n- Refinancing early in a loan saves more money than refinancing late\n- Extra principal payments early have enormous long-term impact\n- The 'total cost' of a house with a 30-year mortgage is far higher than the sticker price"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The total interest paid over the life of a 30-year, $300,000 mortgage at 7% is approximately $418,000 — making the total cost of the house approximately $718,000 for a house that cost $300,000.\n\nAt 3% interest (rates that existed from 2020-2022), the same mortgage costs approximately $155,000 in total interest — less than 40% of what the 7% mortgage costs.\n\nThe difference between 3% and 7% interest rates on a 30-year mortgage: roughly $263,000 in total interest on a $300,000 loan.\n\nThis is why rising interest rates have such dramatic effects on housing affordability: the monthly payment on a $300,000 house at 3% is about $1,265; at 7%, it's $1,996 — a 58% increase in monthly payment for the same house. For the same monthly payment, you can borrow about 46% less at 7% than at 3%."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The True Cost of Credit Card Debt",
+          "content": "Credit card debt at 24% APR, compounding monthly, is one of the most expensive regular financial products available to consumers.\n\nIf you put $3,000 on a credit card at 24% APR and make minimum payments (typically 1% of balance + interest, declining with balance):\n- Time to pay off: approximately 22 years\n- Total interest paid: approximately $7,000\n- Total cost: ~$10,000 for $3,000 of purchases\n\nThe 'minimum payment trap' is designed by card issuers: minimum payments are set low enough that balances decline very slowly while interest accumulates.\n\nThe decision-making version: every $100 you put on a credit card and carry for 5 years at 24% APR costs approximately $200 (you pay $100 back in interest). The true cost of the purchase is double the sticker price.\n\nContrast: $3,000 invested at 8% annual return for 22 years grows to approximately $16,800. The opportunity cost of carrying credit card debt (compared to having that money invested) is enormous."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Time Value of Money",
+          "content": "The **time value of money** is the principle that money available now is worth more than the same amount in the future — because money available now can be invested to earn returns.\n\nThe fundamental equations:\n\n**Future Value:** FV = PV × (1 + r)^n\n- PV = present value, r = interest rate per period, n = number of periods\n- $1,000 today at 7% for 10 years = $1,000 × (1.07)^10 = $1,967\n\n**Present Value:** PV = FV / (1 + r)^n\n- What is $10,000 in 10 years worth today if the discount rate is 7%?\n- PV = $10,000 / (1.07)^10 = $5,083\n\nTime value of money appears in: investment analysis (what is this asset's future cash flow worth today?), insurance settlement decisions (lump sum vs. annuity?), salary decisions (when to take raises vs. bonuses), and any decision involving money at different points in time."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Calculate the true cost of a real financial product you use or might use:\n\n**For credit cards:** Find your current credit card's APR. If you carry a $2,000 balance and make only minimum payments, how long until it's paid off and how much total interest do you pay? (Use an online 'minimum payment calculator' — the numbers will shock most people.)\n\n**For mortgages:** Use an online amortization calculator to see how much of your first year of payments goes to interest vs. principal. What percentage of your year-1 payments was pure interest?\n\n**For investments:** How much is $500/month invested at 7% annual return worth after 30 years? (Answer: approximately $567,000.) How much of that is your actual contributions? (Answer: $180,000.) The rest — $387,000 — is compound growth.\n\nFinancial math literacy is the difference between being subject to these numbers and understanding them."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why do extra mortgage payments early in a loan save more money than the same extra payments later?",
+          "otionA": "Early payments reduce the outstanding balance before the bank calculates interest for the remaining term — later extra payments are applied to a smaller remaining loan",
+          "optionB": "Amortization front-loads interest — early payments are mostly interest (over 87% in the first month of a 7% mortgage). Extra principal payments early reduce the principal that interest is calculated on for all subsequent payments, eliminating more interest than later payments of the same amount",
+          "otionC": "Most mortgages have prepayment clauses that give larger discounts for early payoffs than late ones",
+          "otionD": "Interest compounds on the balance daily — early extra payments interrupt this compounding sooner, preventing more accumulation",
+          "correctAnswer": "B",
+          "explanation": "Amortization front-loads interest: early payments are mostly interest (the first payment on a 7% mortgage is 87.6% interest). Extra principal payments early reduce the base on which future interest is calculated — eliminating interest that would compound for the remaining years. A $1,000 extra payment in month 1 saves far more than $1,000 in month 350, because the month-1 payment eliminates years of compounding interest."
+        },
+        {
+          "question": "What is the minimum payment trap on credit cards?",
+          "otionA": "Minimum payments are set to keep customers perpetually indebted by being just enough to avoid default but too small to meaningfully reduce principal — allowing interest to compound on a large remaining balance for years",
+          "optionB": "Minimum payments are required by regulation to prevent borrowers from skipping payments entirely — the trap is that the regulation isn't strict enough",
+          "otionC": "The minimum payment trap occurs when cardholders use new purchases to fund minimum payments on old balances — creating a self-perpetuating debt cycle",
+          "otionD": "Minimum payments are intentionally set above actual interest charges — the trap is that cardholders pay more than necessary while still accumulating late fees",
+          "correctAnswer": "A",
+          "explanation": "Minimum payments are deliberately designed low — typically 1-2% of balance — just enough to avoid default while ensuring the balance declines extremely slowly. Most of each payment goes to interest, and the balance shrinks by tiny amounts monthly. A $3,000 balance at 24% APR with minimum payments takes ~22 years and costs ~$7,000 in interest. The minimum payment structure maximizes the lender's interest income."
+        },
+        {
+          "question": "What does the time value of money explain about a lump-sum vs. annuity decision?",
+          "otionA": "The time value of money always favors taking the lump sum, since money now is worth more than later",
+          "optionB": "The time value of money provides a framework to compare: the lump sum is worth its face value today; the annuity's stream of future payments must be discounted to present value (PV = FV/(1+r)^n) to find what they're worth today. Which is better depends on the discount rate, the timing, and the amounts",
+          "otionC": "The time value of money favors the annuity when inflation is high, since future payments will be inflated to higher nominal values",
+          "otionD": "The time value of money is irrelevant to this decision — what matters is whether you need money now or can wait for larger future payments",
+          "correctAnswer": "B",
+          "explanation": "Time value of money: future cash flows are worth less today because money now can earn returns. To compare lump sum vs. annuity, discount each future annuity payment to present value (what it's worth today) and sum them. Compare this 'present value of the annuity' to the lump sum. The comparison also depends on your opportunity cost (what you can earn if you take the lump sum and invest it)."
+        }
+      ]
+    },
+    {
+      "slug": "logic-in-daily-decisions",
+      "title": "Logical Thinking for Real Decisions",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Logic — the study of valid reasoning — is often taught as abstract symbolic manipulation disconnected from real life. But the principles of logic are directly applicable to the arguments you encounter every day: in news, in conversations, in advertising, in politics.\n\nLearning to identify when an argument's structure is valid, when a conclusion follows from premises, and when common reasoning errors (fallacies) are occurring is one of the most practically useful intellectual skills available.\n\nThis lesson introduces the core concepts of logical reasoning — applied to everyday contexts."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Deductive and Inductive Reasoning",
+          "content": "**Deductive reasoning:** Conclusions follow necessarily from premises — if the premises are true and the logic is valid, the conclusion must be true.\n\nAll humans are mortal. Socrates is human. Therefore, Socrates is mortal.\n\nDeductive arguments are evaluated on two axes:\n- **Validity:** Does the conclusion follow logically from the premises? (A valid argument with false premises still gives a false conclusion)\n- **Soundness:** Valid + all premises actually true\n\n**Inductive reasoning:** Conclusions are supported by evidence but not guaranteed — they're probable given the evidence, not certain.\n\n'Every swan I've ever seen is white. Therefore, all swans are white' — this was the accepted inductive conclusion until black swans were discovered in Australia in 1697.\n\nInductive arguments are evaluated on strength — how well do the premises support the conclusion? — and cogency — strong + all premises actually true.\n\nMost real-world reasoning is inductive. Science is inductive: evidence supports theories but doesn't prove them with certainty. The goal is strong, well-supported inductive arguments — not impossible certainty."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The term 'Black Swan' has entered the cultural vocabulary largely through Nassim Nicholas Taleb's 2007 book of that name — describing high-impact, low-probability events that are impossible to predict using standard models but seem obvious in hindsight.\n\nTaleb's argument: human history is driven by Black Swan events (World War I, 9/11, the 2008 financial crisis, COVID-19) that standard probability models fail to account for because they're based on past patterns that don't include these outliers.\n\nThe original 'black swan' logical example — inducing 'all swans are white' from never seeing a black swan — is the perfect illustration of inductive reasoning's limitation: no amount of confirming evidence guarantees the conclusion. One disconfirming instance destroys the hypothesis.\n\nThis is the 'problem of induction' (raised by David Hume in the 18th century): we can never verify a universal claim through finite observations, though we can falsify it with a single counterexample — a point that became central to Karl Popper's philosophy of science."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Common Logical Fallacies",
+          "content": "Fallacies are errors in reasoning — arguments that seem compelling but have flawed logic. Recognizing them is essential for critical thinking:\n\n**Ad hominem:** Attacking the person making the argument rather than the argument itself. 'You can't trust his economic analysis — he's been divorced twice.'\n\n**Straw man:** Misrepresenting someone's position to make it easier to attack. 'She wants stricter gun laws — she wants to completely abolish the Second Amendment.'\n\n**False dilemma:** Presenting only two options when more exist. 'You're either with us or against us.'\n\n**Appeal to authority:** Treating someone's endorsement as evidence regardless of their relevant expertise. 'Einstein said God doesn't play dice — so quantum mechanics must be wrong.'\n\n**Slippery slope:** Assuming a small step will inevitably lead to extreme consequences without showing why the chain of events must follow. 'If we allow same-sex marriage, next people will be marrying animals.'\n\n**Post hoc ergo propter hoc:** 'After this, therefore because of this' — assuming causation from temporal sequence. 'I wore my lucky socks and we won — my socks caused the win.'"
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Necessary and Sufficient Conditions",
+          "content": "**Necessary condition:** A condition that must be present for a conclusion to be true — but isn't enough by itself. Being alive is necessary for winning a race, but not sufficient (you also need to run fast).\n\n**Sufficient condition:** A condition whose presence guarantees the conclusion — but may not be the only way to achieve it. Being the only runner in a race is sufficient for winning — but not necessary (you could win with competitors by being fastest).\n\nIn everyday reasoning:\n- 'X is required for Y' → X is necessary but not sufficient for Y\n- 'X guarantees Y' → X is sufficient but not necessarily necessary for Y\n- 'X is required AND sufficient for Y' → X and Y always go together\n\nConfusing necessary and sufficient conditions is one of the most common reasoning errors:\n- 'All good students study hard. She studies hard. So she must be a good student.' → WRONG. Studying hard is necessary but not sufficient for being a good student.\n- 'Diabetes is associated with high blood sugar. He has high blood sugar. So he has diabetes.' → WRONG. High blood sugar is a symptom of diabetes but can have other causes."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply fallacy detection to three real arguments you encounter today:\n\n**In the news:** Find a political argument or editorial. Identify any fallacies present. Is it a straw man of the opposing position? A false dilemma? An appeal to authority?\n\n**In advertising:** Watch or read one advertisement and identify the logical structure. What claim is being made? What evidence is offered? Is the connection between evidence and claim valid?\n\n**In conversation:** The next time someone makes a claim in casual conversation, mentally ask: is this deductive or inductive? What's the evidence? Is there an alternative explanation?\n\nYou're not looking to win arguments. You're looking to evaluate whether arguments actually justify their conclusions — which is what it means to think critically.\n\nFallacy detection is not cynicism — it's the intellectual hygiene that makes belief revision possible when evidence warrants it."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the difference between a valid argument and a sound argument?",
+          "optionA": "Valid arguments use evidence; sound arguments use pure logic",
+          "optionB": "A valid argument is one where the conclusion follows necessarily from the premises — regardless of whether the premises are true. A sound argument is valid AND has all true premises — guaranteeing a true conclusion",
+          "otionC": "Valid arguments are mathematical; sound arguments address real-world claims",
+          "otionD": "Sound arguments are valid and convincing to an audience; valid arguments are logically correct but may not be persuasive",
+          "correctAnswer": "B",
+          "explanation": "Validity is about structure: does the conclusion follow from the premises? You can have a perfectly valid argument with false premises: 'All birds can fly. Penguins are birds. Therefore penguins can fly.' — valid structure, false conclusion because of a false premise. Sound = valid + true premises, guaranteeing a true conclusion."
+        },
+        {
+          "question": "What is the straw man fallacy?",
+          "optionA": "Using a celebrity or authority figure as evidence when they have no relevant expertise",
+          "optionB": "Misrepresenting someone's position (usually weaker or more extreme than their actual view) in order to attack the misrepresentation rather than the actual argument",
+          "otionC": "Appealing to tradition ('we've always done it this way') as a reason not to change",
+          "otionD": "Using emotionally charged language to distract from the logical weakness of an argument",
+          "correctAnswer": "B",
+          "explanation": "The straw man: replace someone's actual argument with a weaker, more extreme, or distorted version — then attack that. 'She wants background checks on gun purchases. She wants to disarm all Americans.' The attack is against the exaggerated position, not the actual one. Straw man arguments are effective politically because the misrepresentation is usually more memorable than the correction."
+        },
+        {
+          "question": "Why is the problem of induction philosophically significant?",
+          "otionA": "Inductive reasoning always produces conclusions less reliable than deductive reasoning — this limits what science can know",
+          "optionB": "No amount of confirming evidence guarantees a universal inductive conclusion — one disconfirming instance destroys it. This shows that science cannot prove theories, only support or falsify them (Popper's falsificationism). All inductive knowledge is provisional",
+          "otionC": "The problem of induction shows that empirical knowledge is circular — you need prior knowledge to evaluate evidence, but that prior knowledge is also empirically based",
+          "otionD": "Induction is unreliable because human memory is selective — we notice confirming evidence more than disconfirming, producing biased inductions",
+          "correctAnswer": "B",
+          "explanation": "Hume's problem of induction: no finite set of observations can guarantee a universal conclusion. Seeing 1 million white swans doesn't prove all swans are white — one black swan falsifies it. Popper used this to argue that science works by falsification, not verification — good theories make risky predictions that could be falsified but aren't. All scientific knowledge is provisional, subject to revision by counterexample."
+        }
+      ]
+    }
+  ]
+}

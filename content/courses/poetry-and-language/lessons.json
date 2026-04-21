@@ -1,0 +1,293 @@
+{
+  "courseSlug": "poetry-and-language",
+  "lessons": [
+    {
+      "slug": "what-poetry-is",
+      "title": "What Poetry Is and Why It Matters",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Poetry is language at its most concentrated, most precise, and most musical — language that does more per word than any other form.\n\nMost people's relationship with poetry stopped at high school — forced analysis of dense texts by long-dead people, reducing poems to extractable messages. This misses poetry entirely. A poem is not a difficult essay that must be decoded. It is an experience — of sound, rhythm, image, and meaning working simultaneously, inseparably.\n\nPoetry is also the oldest literary form. Before the novel, before drama, before prose narrative — there were songs and poems, passed from person to person, generation to generation. Every culture that has ever existed made poetry. It answers some need that prose doesn't."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "How to Read a Poem",
+          "content": "The single most important instruction for reading poetry: read it aloud. Poetry is sound art as much as language art. The rhythm, the line breaks, the sound of specific words — these only become available when heard, not just seen.\n\nAfter the first reading (which should be for sound and sensation, not meaning), try:\n\n**Let confusion be productive:** Don't stop at every difficulty. Read through the whole poem. Your first understanding is usually partial — and partial understanding is fine. Poetry often works on you before you understand how.\n\n**Notice what surprises you:** A word that seems wrong, an image that doesn't fit, a rhythmic break — these are usually where the poem is doing its most important work.\n\n**Look for the turn:** Most poems have a moment of shift — a change in tone, direction, or perspective. This 'volta' (turn) is often where the poem's central insight lives.\n\n**Return:** Good poems reveal more on second, third, tenth reading. The poem's depth appears over time, not all at once."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Emily Dickinson (1830-1886) — now considered one of the greatest American poets — published fewer than a dozen poems in her lifetime. When she died, her sister discovered hundreds of handwritten poems sewn into small books (called fascicles) hidden in her room.\n\nHer posthumously published work revealed a poet of extraordinary originality — slant rhyme instead of full rhyme, dashes that changed rhythm and meaning, compressed thought that anticipated Modernism by decades, and an unflinching engagement with death, consciousness, and faith that was unlike anything else being written in America at the time.\n\nDickinson's most famous poems contain some of literature's most startling opening lines: 'Because I could not stop for Death — / He kindly stopped for me —' and 'I heard a Fly buzz — when I died —' — poems about death and afterlife told from the position of the dead speaker, with a specificity that is deeply strange and deeply moving."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Line Break as a Meaning-Making Tool",
+          "content": "The line break is poetry's most distinctive formal element — where prose ends sentences, poetry ends lines. And the end of a line is not arbitrary.\n\nLine breaks create meaning in three ways:\n\n**Emphasis:** The last word of a line and the first word of the next line carry extra weight — the eye and ear pause there. Poets place their most significant words in these positions.\n\n**Double meaning:** A line break can create two readings of the same phrase. 'I am not resigned / to death' reads first as 'I am not resigned' (full stop) and then continues with its object. Both readings are active simultaneously.\n\n**Rhythm:** Where you break a line determines the poem's breath and pace. A very short line forces the reader to slow. A long line builds momentum. The rhythm of line breaks is the poem's heartbeat.\n\nReading poetry with attention to line breaks — why does the line end here? what does this break do? — opens up dimensions of the poem that prose reading misses entirely."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Metaphor and Image",
+          "content": "Poetry's primary unit of meaning is the **image** — a specific sensory perception, real or imagined, that carries meaning beyond its literal content.\n\nImages create meaning through **metaphor**: saying one thing is another, or implying a comparison that carries meaning across. 'The fog comes on little cat feet' (Carl Sandburg) doesn't describe a cat — it describes fog in terms of how a cat moves, creating a particular quality of arrival that the word 'fog' alone doesn't carry.\n\nPoetry uses metaphor not as decoration but as precision: the comparison finds the exact quality that needs to be expressed, and no other comparison would do as well. When Keats writes of a nightingale's song as 'full-throated ease,' the phrase captures something about the quality of the sound — its effortlessness, its fullness — that 'beautiful song' cannot approach.\n\nThe difference between a great poem and a mediocre one is often in the specificity and aptness of its images. Tired images (red as blood, white as snow) work as shorthand. Fresh images create actual perception — you see or hear something new."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Read one of these poems aloud twice — once for sound, once with attention to images and line breaks:\n\n**William Carlos Williams, 'This Is Just to Say':**\n'I have eaten / the plums / that were in / the icebox // and which / you were probably / saving / for breakfast // Forgive me / they were delicious / so sweet / and so cold'\n\n**Emily Dickinson, poem 712:**\n'Because I could not stop for Death — / He kindly stopped for me — / The Carriage held but just Ourselves — / And Immortality.'\n\nFor each:\n1. What is the image? What do you see, taste, feel, or sense?\n2. Where is the turn or surprise?\n3. What does the poem do to you emotionally — before you try to explain why?\n\nPoetry works on you before you understand how. Notice the effect first; analysis is secondary."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is reading poetry aloud the single most important instruction for engagement with it?",
+          "optionA": "Reading aloud slows comprehension, giving complex language more processing time",
+          "optionB": "Poetry is sound art as much as language art — rhythm, line breaks, the sound of specific words, and the breath required to speak lines are inseparable from the meaning, only available when heard",
+          "optionC": "Poets write with specific vocal performances in mind — reading aloud approximates the intended performance",
+          "optionD": "Silent reading activates primarily visual processing; aloud reading activates auditory processing that is better suited to poetic information density",
+          "correctAnswer": "B",
+          "explanation": "Poetry is simultaneously language and sound art — the rhythm, sonic texture, breath required by line lengths, and musical quality of sounds are part of the meaning. These only become available through sound, not just sight. A poem read silently is like a score never played — you have the notation but not the music."
+        },
+        {
+          "question": "How do line breaks create meaning in poetry?",
+          "optionA": "Line breaks indicate pacing — short lines are read fast, long lines slowly — controlling the reader's experience of time",
+          "optionB": "Line breaks emphasize end words and opening words (which receive extra weight), can create double readings of the same phrase, and establish the poem's rhythmic breath — all three effects are simultaneously active in how the poem is experienced",
+          "optionC": "Line breaks in poetry are primarily visual — they create white space that separates semantic units and prevents confusion between grammatical clauses",
+          "optionD": "Line breaks indicate where rhymes occur — even in free verse, the end of a line is where sound correspondence should be heard",
+          "correctAnswer": "B",
+          "explanation": "Line breaks are a primary meaning-making tool in poetry — not arbitrary or purely visual. They emphasize words at line endings and beginnings (where the eye and ear naturally pause), can create syntactic ambiguity that yields double readings, and establish the poem's rhythmic heartbeat. Attention to why a line ends where it does opens dimensions of the poem that prose reading misses."
+        },
+        {
+          "question": "What distinguishes a fresh poetic image from a tired one?",
+          "optionA": "Fresh images use unusual or rare words; tired images use common vocabulary that readers skim over",
+          "optionB": "Fresh images create actual perceptual experience — you see or hear something new, as the comparison illuminates a quality that no other comparison would capture as precisely. Tired images (red as blood, night as velvet) work as shorthand but don't create genuine perception",
+          "optionC": "Fresh images combine concrete and abstract — the tension between the physical and the conceptual produces the resonance that tired images lack",
+          "otionD": "Fresh images surprise by being unexpected or counterintuitive — the element of surprise is what defines their effectiveness",
+          "correctAnswer": "B",
+          "explanation": "A fresh poetic image creates genuine perception — 'fog comes on little cat feet' makes you actually see something specific about how fog arrives. 'Nightingale's full-throated ease' makes you hear something precise about the quality of that song. Tired images (red as blood) function as codes that readers decode without actually perceiving. The difference between great and mediocre poetry is often in image freshness — specificity that creates experience rather than shorthand that represents it."
+        }
+      ]
+    },
+    {
+      "slug": "forms-of-poetry",
+      "title": "The Forms of Poetry",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Poetry takes forms — structured patterns of meter, rhyme, and line organization that give different kinds of poems their distinctive character.\n\nForms are not constraints in a limiting sense — they're generative. The restrictions of a form force the poet into word choices, line arrangements, and images they wouldn't have found without the formal pressure. The sonnet's 14-line structure and turn have produced Shakespeare's psychological insights; the haiku's 17 syllables have produced moments of perception impossible in longer forms.\n\nUnderstanding the major poetic forms gives you a vocabulary for discussing poems — and reveals what different forms are particularly suited to achieve."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Sonnets, Odes, and Villanelles",
+          "content": "Three of the most important traditional forms:\n\n**The Sonnet (14 lines):** Two main types:\n- Petrarchan: octave (8 lines) + sestet (6 lines), with a turn between them. Problem/solution or tension/resolution structure.\n- Shakespearean: three quatrains (4 lines each) + couplet (2 lines). Three examples + summary structure.\nThe sonnet's 14-line constraint has made it the primary vehicle for psychological complexity and love poetry in Western literature.\n\n**The Ode:** An elaborate lyric poem of exaltation, usually addressed to a person, object, or idea. Keats' great odes ('Ode to a Nightingale,' 'Ode on a Grecian Urn') use the form to examine the relationship between beauty, immortality, and the suffering of mortal experience.\n\n**The Villanelle:** 19 lines, five tercets and a final quatrain, with two refrains that repeat throughout. The most famous is Dylan Thomas' 'Do Not Go Gentle into That Good Night' — 'Do not go gentle into that good night / Old age should burn and rave at close of day / Rage, rage against the dying of the light.' The refrains gain new meaning with each repetition as the poem develops."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Walt Whitman's 'Leaves of Grass' — first published in 1855, continuously revised until his death in 1892 — essentially invented free verse in American poetry and changed what poetry could be.\n\nWhitman abandoned traditional meter and rhyme in favor of long, expansive lines modeled on the Bible's parallel structures — a poetry of inclusion that tried to contain everything: the working laborer and the president, the grass and the stars, the body and the soul, the democratic 'I' who simultaneously was everyone.\n\n'Song of Myself' — the collection's centerpiece — is one of the most ambitious poems in any language: a sustained effort to create a poetic speaker who is at once completely individual and completely universal. 'I celebrate myself, and sing myself / And what I assume you shall assume / For every atom belonging to me as good belongs to you.'\n\nWhitman's influence on subsequent American poetry — on Ginsberg, Hughes, Neruda, and countless others — is immeasurable."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Meter and Rhythm: The Music Beneath the Words",
+          "content": "Meter is the regular pattern of stressed and unstressed syllables that gives formal poetry its musical quality. The most common meters in English:\n\n**Iambic:** da-DUM (unstressed + stressed) — the closest to natural English speech\n**Trochaic:** DUM-da (stressed + unstressed) — falling rhythm, heavier\n**Anapestic:** da-da-DUM — galloping rhythm, used in comic verse\n**Dactylic:** DUM-da-da — like a waltz, associated with elegy\n\nMetric variations — breaking the established pattern — are where meter becomes expressive. A regular iambic line followed by a trochaic opening ('Now is the winter of our discontent') creates emphasis through contrast.\n\n**Free verse:** Poetry without regular meter or rhyme — but not without rhythm. Free verse uses the natural rhythms of speech, the music of sentence length, sound patterns, and line breaks to create a different kind of musicality — more variable, more responsive to content, less formal. Most contemporary poetry is free verse.\n\nThe distinction isn't formal verse (better) vs. free verse (easier) — they're different tools for different effects."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Sound Devices",
+          "content": "Poetry uses the sounds of words, not just their meanings — creating layers of effect through sonic patterns:\n\n**Rhyme:** The repetition of identical or similar sounds. End rhyme (at line endings) is the most familiar. Internal rhyme occurs within a line. Slant rhyme (near-rhyme, as in Dickinson's work) creates a subtle, slightly uncomfortable resonance.\n\n**Alliteration:** Repetition of initial consonant sounds: 'When to the sessions of sweet silent thought' (Shakespeare). Creates sonic cohesion and often emphasis.\n\n**Assonance:** Repetition of vowel sounds within words: 'The crumbling thunder of seas' — the 'u' sounds create a particular sonic weight.\n\n**Consonance:** Repetition of consonant sounds within or at the end of words.\n\n**Onomatopoeia:** Words whose sound imitates their meaning: 'buzz,' 'crack,' 'murmur.'\n\nThese devices aren't decoration — they're meaning. The sound of a poem creates sensory and emotional effects that operate below conscious analysis. A poem of hard consonants (k, t, p) creates different feeling from a poem of soft sounds (l, m, n, w)."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Write a haiku and a free verse poem about the same subject. The contrast will teach you more about both forms than any lecture:\n\n**Haiku (5-7-5 syllables):** Choose a specific moment of perception — something you actually observed. No abstractions. No explanation. Just the moment.\n\nExample: 'A single dry leaf / Falls straight down through still winter air — / The world holds its breath'\n\n**Free verse:** Write 6-8 lines about the same moment. No rhyme requirement. No meter. Let the line breaks happen where the breath or meaning naturally falls.\n\nReflect: What did the haiku form force you to cut? What did the free verse allow you to add? What effects did each form achieve that the other couldn't?\n\nForm and content are inseparable. The discipline of choosing a form — or rejecting it — is itself a poetic decision."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What structural function does the 'volta' (turn) serve in a sonnet?",
+          "otionA": "The turn marks the transition from one speaker to another — sonnets are traditionally dialogues between two voices",
+          "optionB": "The turn is where the sonnet's emotional or intellectual direction shifts — often a resolution of tension introduced in the octave (Petrarchan) or a summary and complication of three examples (Shakespearean). It's where the poem's central insight typically lives",
+          "otionC": "The volta marks the change from present tense to past tense — sonnets move from current situation to reflection",
+          "otionD": "The volta indicates the change from iambic pentameter to a freer meter — the formal release that allows the closing image",
+          "correctAnswer": "B",
+          "explanation": "The volta (Italian: turn) is the pivot in a sonnet — the moment where the poem's direction shifts. In the Petrarchan form (octave + sestet), the turn between the two creates a problem/resolution or question/answer structure. In the Shakespearean form, the couplet often turns from the three quatrains' development to a complication or summary. The turn is typically where the poem's central insight is revealed."
+        },
+        {
+          "question": "What is the distinction between meter and rhythm in poetry?",
+          "otionA": "Meter refers to line length; rhythm refers to the pattern of stressed and unstressed syllables within lines",
+          "optionB": "Meter is the regular pattern of stressed and unstressed syllables (iambic, trochaic, etc.) — the formal structure. Rhythm is the actual sound experience of the poem — which may be created by meter in formal verse, or by other means (sentence length, line breaks, sound patterns) in free verse",
+          "otionC": "Meter applies to classical poetry; rhythm applies to contemporary poetry — they describe the same phenomenon in different historical contexts",
+          "otionD": "Meter is objective (countable syllables); rhythm is subjective (experienced by different readers differently)",
+          "correctAnswer": "B",
+          "explanation": "Meter is the formal pattern — the system of stress patterns (iambic, trochaic, etc.) that creates the poem's musical skeleton. Rhythm is the actual sonic experience — in formal verse, produced primarily by meter; in free verse, produced by sentence length, line breaks, sound patterns, and repetition. All poetry has rhythm; only formal poetry has meter."
+        },
+        {
+          "question": "What did Walt Whitman's 'Leaves of Grass' invent that transformed American poetry?",
+          "otionA": "The confessional mode — poetry based on personal psychological experience rather than public or formal subjects",
+          "optionB": "Free verse in the American tradition — long, expansive lines modeled on biblical parallel structures, abandoning traditional meter and rhyme in favor of a democratic, inclusive poetry that tried to contain everything and speak for everyone",
+          "otionC": "The nature poem as a primary American form — Whitman's attention to the physical landscape created a distinctly American poetic subject matter",
+          "otionD": "Political poetry — Whitman's explicit democratic and abolitionist values established socially engaged poetry as an American tradition",
+          "correctAnswer": "B",
+          "explanation": "Whitman's 'Leaves of Grass' essentially invented American free verse — abandoning traditional meter and rhyme for long, expansive lines modeled on biblical parallelism, creating a poetry that tried to be as capacious and democratic as America itself. His influence on subsequent American and world poetry (Ginsberg, Hughes, Neruda, Ginsberg) is immeasurable. He created a new possibility for what poetry could sound and feel like."
+        }
+      ]
+    },
+    {
+      "slug": "language-and-power",
+      "title": "Language: How Words Shape Reality",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Language is not just a tool for describing reality — it shapes reality. The words available in a language, the metaphors embedded in everyday speech, the terms we use to categorize people and experiences — all of these influence not just how we communicate but how we think.\n\nLinguistics, cognitive science, and philosophy of language have produced a body of knowledge about how language works that challenges everyday intuitions. This lesson explores the relationship between language and thought — and the practical and political implications of that relationship."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Sapir-Whorf Hypothesis",
+          "content": "Linguists Edward Sapir and Benjamin Lee Whorf proposed that the language you speak influences or determines how you think — a claim called 'linguistic relativity' or (in its stronger form) 'linguistic determinism.'\n\nThe strong version (linguistic determinism): your language determines the thoughts you can have — you cannot think thoughts for which your language has no words. This extreme version is generally considered disproven.\n\nThe weak version (linguistic relativity): your language influences how you habitually think, what distinctions you habitually notice, and how readily certain concepts come to mind. This version has considerable empirical support.\n\nExamples of linguistic relativity in action:\n- Russian speakers, who have separate words for light blue (goluboy) and dark blue (siniy), are faster at distinguishing those colors than English speakers who use a single 'blue'\n- Languages that use absolute directions (north, south, east, west) rather than relative ones (left, right) produce speakers with superior spatial orientation\n- Languages with multiple tenses for different temporal relationships may produce different intuitions about time"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "George Orwell's essay 'Politics and the English Language' (1946) — one of the most influential pieces of writing about language ever produced — argued that political prose is designed to defend the indefensible through euphemism, vagueness, and prefabricated phrase.\n\nOrwell's examples of political euphemism: 'Pacification' for bombing villages; 'transfer of populations' for mass deportation; 'liquidation of unreliable elements' for killing dissidents. The language doesn't just describe the actions — it obscures them, making them feel like administrative procedures rather than acts of violence.\n\nOrwell's rules for clear writing are still cited: never use a long word where a short one will do; never use a foreign phrase if an English equivalent exists; if it is possible to cut a word out, cut it out; never use passive where active can be used; never use jargon.\n\nThe connection to 1984 is explicit: Newspeak — a deliberately impoverished language designed to make thoughtcrime impossible — is the political consequence of Orwell's linguistic observations taken to their logical extreme."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Framing: How Language Shapes Perception",
+          "content": "Framing is the selection and emphasis of particular aspects of a perceived reality to promote a particular interpretation. The same fact can be framed in multiple ways — and the framing significantly affects how it's understood and acted upon.\n\nGeorge Lakoff's research on political framing shows how language choices embed assumptions:\n- 'Tax relief' frames taxes as a burden from which people need to be relieved — framing them as inherently negative before any argument is made\n- 'Estate tax' vs. 'death tax' for the same policy produce different public support levels\n- 'Collateral damage' frames civilian deaths as incidental byproduct rather than primary harm\n\nFraming is not lying — the words are technically accurate. But the choice of frame activates different conceptual structures and emotional associations, directing interpretation before reasoning begins.\n\nThis has practical implications: the words you choose when communicating carry frames that either serve or undermine your message. Choosing frames deliberately — and recognizing the frames embedded in others' language — is a fundamental literacy skill."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Metaphor as Cognitive Tool",
+          "content": "George Lakoff and Mark Johnson's 'Metaphors We Live By' (1980) argued that metaphor is not primarily a poetic device — it's the fundamental cognitive mechanism through which we understand abstract concepts by mapping them onto concrete experiences.\n\nExamples of conceptual metaphors structuring everyday thought:\n- **Argument is war:** 'You attacked my position,' 'She destroyed his argument,' 'He shot down my ideas.' We don't just describe argument with war metaphors — we experience it as battle.\n- **Time is money:** 'I spent time,' 'You're wasting my time,' 'Save time.' We don't just describe time with money metaphors — we allocate, budget, and invest time as if it were a financial resource.\n- **Ideas are food:** 'That's hard to digest,' 'He fed us that line,' 'Let me chew on that.'\n\nThe metaphors we use don't just describe — they structure how we experience the thing being metaphorized. If argument is war, we try to win rather than reach truth. If argument is a dance, we try to coordinate. The metaphor changes the goal."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Audit the language around you for hidden frames and conceptual metaphors:\n\n1. **News language:** Find one political or policy story and identify the key framing words. What does calling something a 'crisis' vs. a 'challenge' vs. a 'situation' do to how you read it? What does calling opponents 'extremists' vs. 'hardliners' vs. 'advocates' do?\n\n2. **Work language:** What metaphors structure how your workplace talks about time, work, and success? Is time a resource to be spent or invested? Is work a journey or a battle? Are goals 'targets' (warfare) or 'destinations' (journey)?\n\n3. **Self-talk:** What metaphors do you use when talking to yourself about challenges? Do you 'fight' your problems? Do you 'navigate' them? Does the metaphor affect your experience of the situation?\n\nLanguage awareness doesn't make you immune to framing — but it makes you less automatic about it."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the difference between strong and weak forms of the Sapir-Whorf hypothesis?",
+          "otionA": "The strong form applies to spoken language; the weak form applies to written language — each domain shows different degrees of linguistic influence on thought",
+          "optionB": "Strong linguistic determinism (you can't think thoughts your language has no words for) is generally disproven. Weak linguistic relativity (language influences what you habitually notice, what distinctions feel natural) has empirical support — demonstrated by color distinction, spatial orientation, and time perception differences across languages",
+          "otionC": "The strong form claims language determines emotion; the weak form claims language determines cognition — both have different evidential bases",
+          "otionD": "Strong Whorf applies to isolated languages; weak Whorf applies to languages in contact with other linguistic communities — exposure dilutes the effect",
+          "correctAnswer": "B",
+          "explanation": "Strong linguistic determinism (Whorf's original claim) — language determines thought completely — is generally considered disproven. Speakers of any language can learn to make distinctions their language doesn't initially support. But weak linguistic relativity has empirical support: Russian speakers distinguish light/dark blue faster than English speakers; speakers of absolute-direction languages develop superior spatial orientation. Language influences habitual attention without determining its limits."
+        },
+        {
+          "question": "How does Lakoff's research on political framing demonstrate that language shapes thought before argument begins?",
+          "otionA": "Framing activates emotional responses that override rational evaluation — the emotional association attached to a frame bypasses logic",
+          "optionB": "Word choices like 'tax relief' embed assumptions (taxes are a burden to be relieved) before any argument is made — the frame activates conceptual structures and emotional associations that direct interpretation. This isn't lying; it's the inherent cognitive effect of language choices",
+          "otionC": "Framing works by repeating key words until they become cognitively automatic through conditioning",
+          "otionD": "Political framing operates through false dichotomies — presenting only two options when more exist, forcing choice within a constrained conceptual space",
+          "correctAnswer": "B",
+          "explanation": "Framing embeds assumptions in the choice of language before argument. 'Tax relief' doesn't argue that taxes are bad — it treats it as given (relief is needed from burden). This activates cognitive and emotional structures that are already present from other contexts, directing interpretation before deliberate reasoning begins. Recognition of framing doesn't eliminate it — but makes it less automatic."
+        },
+        {
+          "question": "What was Lakoff and Johnson's argument about conceptual metaphor?",
+          "otionA": "Metaphor is a primarily literary device that skilled writers use to create vivid descriptions, but it's not fundamental to everyday thought",
+          "optionB": "Conceptual metaphors are the cognitive mechanism through which we understand abstract concepts by mapping them onto concrete experience — 'Argument is war' doesn't just describe argument, it structures how we experience it (trying to win rather than reach truth). The metaphors we use shape how we experience what they describe",
+          "otionC": "Metaphor is more common in non-Western languages where abstract concepts are more often expressed through concrete images than in English",
+          "otionD": "Conceptual metaphors are biological — they're built into the brain's structure and reflect universal human experience rather than cultural or linguistic variation",
+          "correctAnswer": "B",
+          "explanation": "'Metaphors We Live By': everyday language is saturated with conceptual metaphors that structure thought, not just describe it. 'Argument is war' means we experience arguments as battles (attack, defend, win, lose) — not just describe them that way. 'Time is money' means we experience time as a financial resource. The metaphor changes the goal and the experience, not just the vocabulary."
+        }
+      ]
+    },
+    {
+      "slug": "writing-poetry",
+      "title": "Writing Your Own Poetry",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Writing poetry is the most direct way to understand it. When you try to compress an experience into 17 syllables, or find the line break that makes a phrase mean two things at once, or discover the one image that carries the emotional weight of a scene — you understand the craft from the inside in a way that reading about it never provides.\n\nYou don't need to publish poetry to write it. You don't need to believe you're a poet. Poetry writing is a practice — like meditation or journaling — that develops attention, precision, and connection to your own experience.\n\nThis lesson is about beginning."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Fundamental Craft: Specificity",
+          "content": "The most important lesson in poetry writing is also the simplest: be specific.\n\nVague poetry produces vague feeling. Specific poetry produces specific feeling — which is to say, real feeling.\n\n**Don't write:** 'I felt sad when she left.'\n**Write:** 'The coffee she left on the counter was still warm when the door closed.'\n\nThe second version doesn't explain the feeling — it creates it. The warmth of the coffee, the closed door — these specific images do the emotional work that the abstract word 'sad' can only point toward.\n\nSpecificity discipline:\n- No abstract nouns unless they're earned by concrete images around them (grief, love, beauty — only after showing what creates them)\n- No general adjectives (beautiful, terrible, wonderful) unless followed by what makes it so\n- The more precise the sensory detail, the more universal the emotional resonance — paradoxically, specificity creates accessibility"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Pablo Neruda — widely regarded as the greatest Spanish-language poet of the 20th century — wrote his first collection at 16, became Chilean consul in various countries, won the Nobel Prize in Literature in 1971, and wrote more than 3,500 published poems before his death in 1973.\n\nHis 'Twenty Love Poems and a Song of Despair' (1924), written at 20, has been one of the best-selling poetry collections in Spanish for nearly a century. His erotic love poetry broke Chilean literary conservatism with its direct, sensory, and sometimes explicitly physical imagery.\n\nNeruda on poetry: 'Poetry is an act of peace. Peace goes into the making of a poet as flour goes into the making of bread.'\n\nHe also wrote 'Odes to My Socks,' 'Ode to the Atom,' 'Ode to French Fries' — celebrating the most ordinary objects with the same seriousness and sensory attention as the most elevated subjects. This democratic embrace of the everyday as worthy of poetic attention is one of the great lessons his work offers."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Generative Constraint",
+          "content": "The most useful poetry writing tip is counterintuitive: restrict yourself.\n\nConstraints force creativity. When you must say something in exactly 17 syllables, you find words and images you would never have found with unlimited space. When you must end a line with a specific rhyme, you discover unexpected connections. When you must write about a tomato (try it), you attend to something you'd never otherwise examine closely enough to write about.\n\nFormal constraints (sonnets, haiku, villanelles) are the oldest kind. But you can create your own:\n- Write only in second person\n- Use no adjectives\n- Write entirely in questions\n- Write a poem made entirely of observations you made in the last hour\n- Write about the least interesting thing you saw today\n\nThe constraint tells you what to say. The poem finds how to say it. Constraints eliminate the paralysis of infinite possibility — one of the most common obstacles to writing."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Workshop Method",
+          "content": "The **workshop method** is the primary pedagogy of creative writing education — a structured process in which writers share work and receive specific, craft-focused feedback from peers and instructors.\n\nThe classic workshop protocol:\n1. Writers submit work in advance for all participants to read\n2. The author remains silent during discussion\n3. Participants describe what the poem does — what effects it produces, what images they notice, what the apparent intention seems to be\n4. Participants discuss what is working and what might be stronger\n5. The author responds at the end\n\nThe 'author silence' rule is crucial: it prevents the author from defending intentions and forces readers to respond to what is actually on the page rather than what was meant to be there. The gap between intention and effect is where the most important feedback lives.\n\nWorkshop can be replicated in any context — with a writing partner, in an informal group, or even (less effectively) as self-critique using a time delay: write, put it away, return later as a reader rather than a writer."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Write three poems in 30 minutes — one for each of these constraints:\n\n**1. The object poem:** Choose one physical object in your immediate environment. Write 8-10 lines about it — describing it precisely, finding its history or meaning or relationship to you. No abstractions — only what you observe and what it implies.\n\n**2. The memory haiku:** Think of one specific memory. Find the single most vivid sensory detail in it. Write a haiku (5-7-5) capturing only that moment — the image, not the explanation.\n\n**3. The question poem:** Write 6-8 lines that are entirely questions — questions about something you don't understand, about a person, about the world. No answers. Only questions.\n\nYou are not trying to write good poems. You are trying to discover what constraints produce — what word choices and images emerge that you didn't know you had.\n\nPoetry begins with showing up to the page with a constraint and seeing what happens."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does specificity in poetry produce stronger emotional resonance than abstract statement?",
+          "otionA": "Specific details activate imagination more than abstract statements, producing richer mental imagery that leads to stronger emotional engagement",
+          "optionB": "Specific images create the emotion by showing exactly what produces it — 'the still-warm coffee when the door closed' creates sadness through precision, rather than stating 'I felt sad' which can only point toward a feeling already understood",
+          "otionC": "Abstract statements are culturally variable while specific sensory details are universal — specificity produces more cross-cultural resonance",
+          "otionD": "Specific details create trust — readers believe specific observations more than abstract claims, producing genuine rather than forced emotional response",
+          "correctAnswer": "B",
+          "explanation": "Specificity creates emotion rather than pointing to it. 'I felt sad' explains; the still-warm coffee demonstrates. The specific image contains the feeling — readers recognize the emotional reality in the precise sensory detail without being told what to feel. Paradoxically, the more specific the detail, the more universal the resonance — precision unlocks shared experience."
+        },
+        {
+          "question": "Why are formal constraints (like haiku's 5-7-5) described as 'generative' rather than limiting?",
+          "otionA": "Constraints limit bad writing more than good writing — they eliminate clichés and forced rhymes that characterize poor poetry",
+          "optionB": "Constraints force word choices and images you wouldn't find with unlimited space — the discipline of exactly 17 syllables produces discoveries that open-ended writing wouldn't. Constraints eliminate the paralysis of infinite possibility and direct attention toward what the form requires",
+          "otionC": "Formal constraints train writers in the fundamental technical skills that free verse poetry then deploys — constraints build the muscles that freedom uses",
+          "otionD": "Constraints make poems more memorable by creating recognizable patterns that readers can hold in working memory",
+          "correctAnswer": "B",
+          "explanation": "Generative constraints: the requirement to say something in exactly 17 syllables, or end a line with a specific sound, forces creative pressure that produces discoveries. You find words, images, and connections you'd never have found without the restriction. The constraint tells you what to do; the poem discovers how. This is why experienced poets often choose formal constraints rather than always working in free verse."
+        },
+        {
+          "question": "What is the purpose of the 'author silence' rule in poetry workshop?",
+          "optionA": "It prevents the author from defending their work prematurely, which would inhibit honest feedback from more reserved participants",
+          "optionB": "It forces readers to respond to what is on the page rather than what was intended — revealing the crucial gap between intention and effect, which is where the most important feedback about how the poem actually works lives",
+          "otionC": "It maintains the conventional power structure of workshop where the instructor is the primary authority — author speech would challenge this",
+          "otionD": "It trains authors to be comfortable receiving critique without reactive defensiveness — a psychological skill necessary for artistic development",
+          "correctAnswer": "B",
+          "explanation": "Author silence prevents the author from explaining what they meant — which shifts focus to what is actually on the page. The gap between intention and effect is the most crucial information a writer can receive: if a poem doesn't achieve its intention, the author needs to know that. If the author can explain, participants lose access to their actual reading experience — which is the feedback that matters."
+        }
+      ]
+    }
+  ]
+}

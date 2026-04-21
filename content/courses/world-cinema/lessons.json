@@ -1,0 +1,365 @@
+{
+  "courseSlug": "world-cinema",
+  "lessons": [
+    {
+      "slug": "european-art-cinema",
+      "title": "European Art Cinema",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "European art cinema — the tradition of films from France, Italy, Germany, Sweden, and beyond that prioritized artistic ambition over commercial formula — created many of the most critically acclaimed and formally innovative films in history.\n\nFrom Bergman's existential meditations to Fellini's dreamlike spectacles to Godard's intellectual provocations, this tradition expanded what cinema could be: not just entertainment, but a medium for philosophical inquiry, psychological exploration, and formal experimentation.\n\nUnderstanding European art cinema requires a willingness to accept different pacing, ambiguous narratives, and films that ask questions rather than provide answers — which is also what makes them rewarding."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Ingmar Bergman and Existential Cinema",
+          "content": "Swedish director Ingmar Bergman (1918-2007) made what many critics consider the deepest body of work in cinema history — films that engaged directly with the most difficult human questions: the existence of God, the nature of death, the possibility of communication between people, the reality of psychological suffering.\n\n'The Seventh Seal' (1957) — a medieval knight playing chess with Death while a plague ravages Europe — used allegory to ask whether God exists and what gives life meaning in the face of inevitable death. 'Wild Strawberries' (1957) examined a man reviewing his life's failures with brutal clarity. 'Persona' (1966) dissolved the boundary between two characters to explore the nature of identity itself.\n\nBergman's films are slow by contemporary standards — demanding patience. They reward it with some of cinema's most profound human insights."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Federico Fellini's '8½' (1963) — his most celebrated film, about a director who can't decide what film to make next — is one of cinema's great self-referential achievements: a film about the inability to make a film, made with extraordinary filmmaking confidence and creativity.\n\nThe title refers to the number of films Fellini had made at that point: six features, two shorts, and one collaborative film = 8½.\n\nThe film begins with its protagonist trapped in a traffic jam, rising through a car roof to float above the landscape — immediately establishing that we're in the border territory between memory, dream, and reality that Fellini explored throughout his career.\n\n'8½' has directly influenced hundreds of films: Bob Fosse's 'All That Jazz,' Woody Allen's 'Stardust Memories,' Charlie Kaufman's 'Synecdoche, New York,' and Rob Marshall's 'Nine' (a direct musical adaptation)."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The German New Wave and Political Cinema",
+          "content": "New German Cinema (Neues Deutsches Kino) emerged in the late 1960s-80s with directors like Rainer Werner Fassbinder, Werner Herzog, Wim Wenders, and Volker Schlöndorff.\n\nThese filmmakers directly confronted Germany's Nazi past — its continued unaddressed presence in German society and family life. Fassbinder's work, in particular, examined how authoritarian structures persisted in postwar German life through melodramatic stories about exploitation, oppression, and longing: 'The Marriage of Maria Braun,' 'Ali: Fear Eats the Soul.'\n\nHerzog's cinema was different in character but equally extreme — pursuing what he called 'ecstatic truth' through extreme documentary subjects (Grizzly Man, Fitzcarraldo) and narrative films shot under genuinely difficult conditions: dragging a real steamship over a real mountain for 'Fitzcarraldo' because Herzog refused to fake it.\n\nNew German Cinema demonstrated that films could engage with history and politics not through propaganda but through artistic complexity."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Art Film Conventions",
+          "content": "European art cinema established a set of conventions that distinguish it from Hollywood narrative norms:\n\n**Ambiguous endings:** Art cinema frequently refuses to resolve the central conflict definitively — leaving interpretation to the viewer.\n\n**Slow pacing:** Extended takes and minimal cutting give the viewer time to observe, think, and feel within each shot — not being rushed to the next narrative event.\n\n**Psychological realism:** Characters have internal contradictions and don't behave according to simple narrative logic — they behave like actual people.\n\n**Self-reflexivity:** Many art films acknowledge their own constructed nature — characters who address the camera, filmmakers appearing in their own work, references to cinema itself.\n\n**Authorial voice:** The director's personal obsessions, themes, and stylistic signatures are visible — auteur cinema as a form of extended self-expression.\n\nThese conventions ask more of the viewer — and offer more in return."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Watch the first 20 minutes of one European art film and track your experience:\n\nSuggested films (all streamable):\n- Bergman's 'Wild Strawberries' (1957) — accessible Bergman\n- Fellini's '8½' (1963) — dreamlike but generous\n- Kieslowski's 'Three Colors: Blue' (1993) — beautiful, accessible European art cinema\n- Haneke's 'Caché' (2005) — contemporary, genuinely unsettling\n\nNote: What Hollywood conventions are absent? Is the pacing different? Does the film use ambiguity where Hollywood would provide clarity?\n\nAlso note: what do you gain from the film's approach that Hollywood's approach couldn't provide?"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What distinguished Ingmar Bergman's cinema from most Hollywood filmmaking?",
+          "optionA": "Bergman used improvisation and naturalistic performance rather than scripted dialogue",
+          "optionB": "Bergman's films directly engaged with existential questions — the existence of God, the nature of death, the possibility of human communication — using allegory and psychological depth rather than genre entertainment",
+          "optionC": "Bergman's films were distinguished primarily by their visual style — a distinctive black-and-white cinematography with extreme lighting contrasts",
+          "optionD": "Bergman pioneered the long-take style that placed demands on actor performance by filming continuous scenes without editing",
+          "correctAnswer": "B",
+          "explanation": "Bergman's distinctive achievement was sustained philosophical depth — using cinema as a vehicle for genuine existential inquiry. 'The Seventh Seal' asks about God's existence; 'Persona' dissolves identity boundaries. This kind of direct philosophical engagement was rare in Hollywood, which tended toward emotional resolution rather than open-ended philosophical questioning."
+        },
+        {
+          "question": "What is the significance of '8½' both as a film and as an influence?",
+          "optionA": "It was the first film to use non-linear narrative structure, directly inspiring every subsequent non-chronological film",
+          "optionB": "As a film about the inability to make a film, it pioneered self-reflexive cinema and directly influenced dozens of subsequent films about creative crisis — from 'All That Jazz' to 'Synecdoche, New York'",
+          "optionC": "It demonstrated that autobiographical filmmaking could achieve commercial success, opening the door for personal filmmaking in the studio system",
+          "optionD": "It was the first film to blend documentary and fiction techniques, creating the 'mockumentary' genre",
+          "correctAnswer": "B",
+          "explanation": "'8½' is self-reflexive cinema at its most accomplished — a film about not being able to make a film, made with extraordinary creative confidence. Its influence is enormous: it established the 'director's creative crisis' as a recognizable film genre and directly inspired many subsequent films about creative process and self-examination."
+        },
+        {
+          "question": "What distinguished New German Cinema's approach to political and historical themes?",
+          "optionA": "New German Cinema made documentary-style investigations of historical events rather than fictional treatments",
+          "optionB": "Rather than addressing Germany's Nazi past through propaganda or direct historical drama, these directors confronted it through melodrama and artistic complexity — examining how authoritarian structures persisted in postwar life",
+          "optionC": "New German Cinema was primarily concerned with present political reality rather than historical reckoning — it addressed the Cold War division and political tensions of the 1970s",
+          "optionD": "These directors avoided political themes entirely, focusing on personal and psychological stories to rebuild German cinema's international reputation",
+          "correctAnswer": "B",
+          "explanation": "New German Cinema — particularly Fassbinder — engaged with the Nazi past through genre (melodrama) and artistic complexity rather than direct historical drama. This oblique approach found how fascist structures persisted in postwar social relationships, family dynamics, and everyday exploitation — more unsettling than direct historical treatment."
+        }
+      ]
+    },
+    {
+      "slug": "asian-cinema",
+      "title": "Asian Cinema: Japan, Korea, China",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Asian cinema has become increasingly central to world film culture over the past three decades — with Korean cinema winning the first non-English-language Best Picture Oscar ('Parasite,' 2019), Chinese-language films dominating global box office, and Japanese cinema recognized for decades as among the world's most sophisticated.\n\nEach national tradition has its own distinctive characteristics rooted in culture, history, and aesthetic inheritance. Understanding them requires moving past the assumption that Asian film is simply Hollywood with different faces — these are genuinely different storytelling traditions with different values, structures, and visual sensibilities."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Japanese Cinema: Three Masters",
+          "content": "Three Japanese directors have had outsized global influence:\n\n**Akira Kurosawa** (1910-1998): The most globally influential non-Hollywood director. His action films (Seven Samurai, Rashomon, Ran) combined Western genre conventions with Japanese samurai tradition and Shakespearean ambition. George Lucas, Francis Ford Coppola, and Steven Spielberg all cite him as a primary influence.\n\n**Yasujiro Ozu** (1903-1963): The opposite of Kurosawa — static camera, low angle, domestic subject matter, elliptical editing. His 'pillow shots' (brief shots of objects or environments between scenes) created mood and meaning through juxtaposition. 'Tokyo Story' (1953) is regularly voted one of the greatest films ever made.\n\n**Hayao Miyazaki** (born 1941): The world's greatest animation director. Studio Ghibli's films — 'Spirited Away,' 'My Neighbor Totoro,' 'Princess Mononoke' — combine stunning hand-drawn animation with emotional depth, environmental themes, and female protagonists who drive their own stories."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Bong Joon-ho's 'Parasite' (2019) became the first non-English-language film to win the Academy Award for Best Picture — after 91 years of Oscar history in which the prize had gone exclusively to English-language films.\n\nBong had been one of Korea's most celebrated directors for nearly two decades before international audiences discovered him. 'Memories of Murder' (2003), 'The Host' (2006), and 'Mother' (2009) are all considered masterpieces in Korea and among cinephiles worldwide.\n\nAt his Oscars acceptance speech, Bong said: 'Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films.' The line became one of the most shared moments of the ceremony — and accurately described the situation: a wealth of brilliant world cinema had always been available, but subtitle resistance had prevented most American audiences from accessing it."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Korean Cinema's Global Rise",
+          "content": "Korean cinema's extraordinary rise from the 1990s to global recognition in the 2010s-2020s is one of the most significant developments in recent film history.\n\nAfter the democratization of South Korea in the late 1980s and the removal of most censorship restrictions, Korean filmmakers had freedom they'd never had — and they exploded with creativity. The Korean film industry developed a distinctive style: intense dramatic realism, black humor, class consciousness, unexpected genre shifts, and extraordinary craft.\n\nKey directors beyond Bong: Park Chan-wook ('Oldboy,' 'The Handmaiden'), Lee Chang-dong ('Poetry,' 'Burning'), Na Hong-jin ('The Wailing'). Korean cinema is distinctive for its willingness to follow dramatic logic to its darkest and most uncomfortable conclusions — refusing the conventional resolutions that Hollywood genre expectations impose."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Wuxia",
+          "content": "**Wuxia** (Chinese: 'martial heroes') is a genre of Chinese-language fiction — in literature, film, and television — featuring martial artists in ancient China who embody a code of chivalry and possess extraordinary physical abilities achieved through dedicated practice.\n\nWuxia films have a history dating to 1920s Chinese silent cinema and reached global audiences through directors like King Hu ('Come Drink With Me,' 1966) and the later international breakthrough of Ang Lee's 'Crouching Tiger, Hidden Dragon' (2000) and Zhang Yimou's 'Hero' (2002).\n\nWuxia combines action choreography (where wirework enables superhuman aerial combat), philosophical themes (duty, honor, justice, sacrifice), and visual grandeur to create a genre that is both popular entertainment and cultural mythology — similar in function to the American Western as a meditation on a romanticized historical period and its values."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Watch one of these Asian films and note specifically what is different from Hollywood:\n\n- Ozu's 'Tokyo Story' (1953) — Japanese domestic drama, minimal plot, maximum emotional depth\n- Miyazaki's 'Spirited Away' (2001) — Studio Ghibli masterpiece, streaming on Max\n- Bong Joon-ho's 'Parasite' (2019) — accessible, brilliantly constructed Korean thriller\n- Wong Kar-wai's 'In the Mood for Love' (2000) — Hong Kong, pure cinematic poetry\n\nFor each: what storytelling conventions differ from Hollywood? What emotions does this film produce that mainstream American films rarely achieve? What does the film assume you'll supply — and what does it give you directly?\n\nGlobal cinema offers perspectives, aesthetics, and emotional registers that Hollywood, for all its craft, simply doesn't provide."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does Ozu's 'Tokyo Story' demonstrate about what cinema can accomplish with minimal plot?",
+          "optionA": "That films with complex visual style can compensate for simple narrative",
+          "optionB": "That ordinary domestic experience — an elderly couple visiting their grown children who are too busy to spend time with them — observed with patience and compassion can produce profound emotional impact without dramatic plot events",
+          "optionC": "That the Japanese theatrical tradition (Noh drama) can be successfully adapted to film through restraint and formalism",
+          "optionD": "That cinema's unique property of duration allows accumulation of small moments into overwhelming emotional experiences impossible in shorter forms",
+          "correctAnswer": "B",
+          "explanation": "Tokyo Story is regularly voted among the greatest films ever made while being, by Hollywood standards, nearly plotless. An elderly couple's visit to their adult children reveals how domestic life distances people from the relationships they value. The profound emotional impact comes from patient, compassionate observation of ordinary life — not dramatic events."
+        },
+        {
+          "question": "What cultural and political conditions enabled Korean cinema's explosive creative rise from the 1990s onward?",
+          "optionA": "Significant government investment in film infrastructure and international co-production agreements created resources for ambitious filmmaking",
+          "optionB": "South Korea's democratization in the late 1980s and removal of most censorship restrictions gave filmmakers unprecedented freedom — combined with a generation of talented directors, this produced extraordinary creative output",
+          "optionC": "Korean film schools' adoption of European art cinema techniques gave Korean directors a distinctive aesthetic that differentiated them from both Hollywood and Japanese cinema",
+          "optionD": "The 1997 Asian financial crisis forced Korean studios to develop low-budget high-quality production models that proved surprisingly effective",
+          "correctAnswer": "B",
+          "explanation": "Democratization and decensorship were the catalysts: Korean filmmakers finally had freedom to tell stories they couldn't previously tell, about a society whose recent authoritarian history and rapid modernization created rich dramatic material. The result was an extraordinary creative explosion still ongoing."
+        },
+        {
+          "question": "What cultural function does wuxia serve in Chinese cinema, analogous to what the Western serves in American cinema?",
+          "optionA": "Both genres use physical violence to explore the moral cost of necessary action in the founding of civilization",
+          "optionB": "Both are action genres that use a romanticized historical period and its warrior figures to explore a culture's values — honor, justice, duty, sacrifice — through mythology rather than literal historical record",
+          "optionC": "Both genres are defined by their landscapes — the American frontier and the ancient Chinese countryside — as much as by their characters or conflicts",
+          "optionD": "Both are male-centered genres that have recently been revised to feature female protagonists who challenge and redefine the genre's traditional values",
+          "correctAnswer": "B",
+          "explanation": "Wuxia and the Western both use a romanticized historical period (ancient China, the American frontier) and its distinctive warrior figures to explore foundational cultural values through myth rather than historical accuracy. Both are genres of cultural mythology — working out through adventure stories what a society believes about honor, justice, and what makes life worth living."
+        }
+      ]
+    },
+    {
+      "slug": "latin-american-cinema",
+      "title": "Latin American and African Cinema",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Latin American and African cinema represent two of the most vital and underexplored traditions in world film culture — and two of the most politically engaged. Both emerged in the context of colonialism, political struggle, and the challenge of developing film industries without the massive resources of Hollywood or European cinema.\n\nWhat both traditions share: a tendency to use cinema as a political and social tool — not just entertainment, but a means of bearing witness, building community identity, and challenging power.\n\nWhat both have produced: some of the world's most vital, innovative, and humanly compelling films of the past 60 years."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Latin American Cinema: Political and Magical",
+          "content": "Latin American cinema has two distinctive registers that sometimes interweave:\n\n**Political cinema:** The 1960s-70s produced 'Third Cinema' (Cinema Novo in Brazil, the New Latin American Cinema movement) — explicitly political filmmaking that used the camera as a weapon against colonialism, economic exploitation, and authoritarian regimes. Fernando Solanas and Octavio Getino's manifesto 'Towards a Third Cinema' (1969) called for a cinema that served revolution rather than entertainment.\n\n**Magical realism in film:** Just as Latin American literature (Márquez, Borges, Allende) blended realistic observation with fantastical elements, Latin American cinema developed films where the supernatural exists alongside the everyday without explanation or apology. Chilean films, Mexican directors like Alfonso Cuarón and Guillermo del Toro, Brazilian and Argentine filmmaking all engage with this tradition.\n\nMexican directors have achieved particular global recognition: Cuarón, del Toro, and Iñárritu won four consecutive Best Director Oscars (2014-2018) — an unprecedented 'three amigos' run."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Alfonso Cuarón's 'Roma' (2018) — a semi-autobiographical film about a domestic worker in 1970s Mexico City, shot in black and white, with no major stars, and mostly in Mixtec (an indigenous Mexican language) — won the Academy Award for Best Director and Best Foreign Language Film.\n\nNetflix financed and distributed the film — creating a controversy about whether Netflix films should be eligible for Oscars when they aren't released theatrically in the traditional sense.\n\nMore significantly: 'Roma' gave global audiences access to a portrait of working-class indigenous Mexican life with a depth, compassion, and intimacy that would have been impossible within a major studio system — both because of subject matter and because Cuarón's vision required refusing the commercial compromises studios typically demand. Streaming distribution made a film of extraordinary artistic ambition reach an audience of millions."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "African Cinema: From Sembène to Nollywood",
+          "content": "African cinema's story spans from pioneering artistic achievement to world-record industrial production:\n\n**Ousmane Sembène** (1923-2007), the 'father of African cinema,' was a Senegalese director and novelist who made politically charged films in local languages (Wolof, Diola) about post-colonial African society, women's experience, and the continued influence of French colonialism: 'Black Girl' (1966), 'Xala' (1975), 'Moolaadé' (2004).\n\n**Nollywood** (Nigerian cinema) became the world's second largest film-producing industry by volume in the 2000s — producing thousands of films annually, primarily direct-to-video, in local languages, for local audiences. Dismissed initially as low-budget and formula-driven, Nollywood has produced a genuine popular cinema that serves Nigerian audiences in ways Hollywood and elite African art cinema don't.\n\nBoth represent opposite poles of an authentic African cinema: artistic auteur work addressing global film culture, and popular entertainment serving local audiences on their own terms."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Third Cinema",
+          "content": "**Third Cinema** is a revolutionary film movement and theory developed primarily in Latin America in the late 1960s, arguing that cinema should be a political weapon — a tool for consciousness-raising, challenging imperialism and economic exploitation, and serving liberation rather than entertainment.\n\nThe 'First Cinema' was Hollywood — commercial entertainment serving the capitalist system. 'Second Cinema' was European art cinema — individual auteur expression that was aesthetically sophisticated but ultimately served bourgeois audiences. 'Third Cinema' rejected both: it aimed to be made by and for oppressed peoples, documenting reality and raising consciousness to serve actual social change.\n\nThird Cinema influenced filmmakers worldwide — including in Africa (Sembène), the Middle East, and Asia. Its legacy includes both films made explicitly in its tradition and a broader argument that cinema's form and content can never be separated from the political context in which they're produced."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Explore one film from outside the Western/Asian traditions you may already know:\n\n- Sembène's 'Moolaadé' (2004) — African cinema confronting female genital mutilation through story and community\n- Cuarón's 'Roma' (2018) — Mexican domestic life, available on Netflix\n- del Toro's 'Pan's Labyrinth' (2006) — Spanish Civil War meets dark fairy tale, a masterwork\n- Iñárritu's 'Amores Perros' (2000) — Mexican urban life through three intersecting stories\n\nFor any of these: what is this film's relationship to political reality? Does it engage with social issues, and if so, how does it balance that engagement with narrative and aesthetic concerns?\n\nThe most interesting political cinema doesn't choose between art and politics — it finds forms where each strengthens the other."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What was Third Cinema's argument against both Hollywood and European art cinema?",
+          "optionA": "Third Cinema argued for local indigenous film industries that rejected all Western influence in favor of authentic cultural expression",
+          "optionB": "Third Cinema rejected Hollywood (commercial entertainment serving capitalism) and European art cinema (bourgeois auteur expression) — arguing for politically engaged filmmaking made by and for oppressed peoples to raise consciousness and serve liberation",
+          "optionC": "Third Cinema advocated for low-budget filmmaking that could be democratically produced by communities rather than industrial studios or individual auteurs",
+          "optionD": "Third Cinema argued that documentary was the only legitimate form for political cinema — fiction necessarily served the interests of whoever controlled production",
+          "correctAnswer": "B",
+          "explanation": "Third Cinema's manifesto argued: First Cinema (Hollywood) serves capitalism. Second Cinema (European art film) serves bourgeois aesthetics. Third Cinema serves the people — made for and often by oppressed communities, using cinema as a consciousness-raising political tool rather than entertainment or individual expression."
+        },
+        {
+          "question": "What does the 'three amigos' (Cuarón, del Toro, Iñárritu) winning four consecutive Best Director Oscars reveal about global cinema?",
+          "optionA": "That Mexican film training produces technically superior directors — Mexico City's CUEC film school became the world's most respected in this period",
+          "optionB": "That extraordinary filmmaking talent exists globally, and when cultural barriers (distribution access, industry bias, language reception) are overcome, that talent produces work that competes with and surpasses Hollywood on the industry's own terms",
+          "optionC": "That Hollywood has become genuinely global — the three directors are best understood as American directors who happen to be Mexican-born",
+          "optionD": "That the Academy Awards have actively sought to diversify their historical English-language and American-director bias",
+          "correctAnswer": "B",
+          "explanation": "The 'three amigos' achievement reveals that extraordinary filmmaking talent exists globally. These directors overcame Hollywood's historical cultural barriers through a combination of access (working in English-language and Hollywood productions) and maintaining artistic vision. Their success opened doors and expanded what American audiences accept from 'foreign' filmmakers."
+        },
+        {
+          "question": "What distinguishes Nollywood from Sembène-style African art cinema?",
+          "optionA": "Nollywood uses digital video while Sembène's tradition worked in 16mm and 35mm film — a technical distinction that became an aesthetic one",
+          "optionB": "Sembène made politically engaged auteur art cinema addressing global film culture; Nollywood makes direct-to-video popular entertainment in local languages for local audiences — opposite poles that both represent authentic African cinema serving different purposes",
+          "optionC": "Nollywood is commercial and pan-African; Sembène's tradition is national and culturally specific — reflecting different approaches to African identity",
+          "optionD": "Sembène's films are critically acclaimed but have small audiences; Nollywood is critically dismissed but financially successful — the familiar art vs. commerce distinction",
+          "correctAnswer": "B",
+          "explanation": "Sembène (elite art cinema) and Nollywood (popular entertainment cinema) represent opposite poles of African cinema — both authentic, both serving their audiences, both worth taking seriously. Sembène addressed global film culture and African intellectual traditions; Nollywood serves Nigerian popular audiences in local languages on local terms. Neither is more 'African' than the other."
+        }
+      ]
+    },
+    {
+      "slug": "documentary-film",
+      "title": "Documentary: Reality as Cinema",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Documentary film has a strange claim: it shows you reality. But every documentary makes choices — about what to film, what to exclude, how to edit, what music to use, whose perspective to center. No documentary is simply reality. Every documentary is a constructed interpretation of reality.\n\nThis isn't a criticism — it's what makes documentary interesting. The great documentary filmmakers are as creative and strategic as narrative fiction directors. The difference is that their raw material is the actual world rather than actors and sets — which creates both greater access to truth and greater ethical responsibility."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Modes of Documentary",
+          "content": "Film scholar Bill Nichols identified six documentary modes — different ways of presenting reality:\n\n**Expository:** Direct address to the viewer, often with narrator. Traditional nature documentary. 'This is what happened.'\n\n**Observational:** Fly-on-the-wall, no narrator, no interviews. Cinema vérité. Camera observes without intervening.\n\n**Participatory:** Filmmaker appears in the film, interacts with subjects. Michael Moore films. The filmmaker's presence shapes what happens.\n\n**Reflexive:** Self-conscious about its own construction — acknowledging that documentary is always a representation, never pure reality.\n\n**Performative:** Emphasizes subjective, evocative experience over objective information. Associative, poetic.\n\n**Poetic:** Prioritizes aesthetic experience over factual reporting — creates mood and association rather than argument or information.\n\nEach mode makes different implicit claims about truth and reality — and different ethical choices about the filmmaker's relationship to subjects."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Robert J. Flaherty's 'Nanook of the North' (1922) — considered the first major feature documentary in film history — staged many of its 'documentary' scenes: the Inuit people were directed to perform traditional practices they no longer actually used.\n\nFlaherty lived with the Inuit for extended periods and created something that felt genuine and powerfully evocative — but it was, by any honest measure, a constructed representation rather than a transparent record.\n\nThis tension has never been resolved in documentary: to make a watchable film, filmmakers must shape, compress, and structure reality. The question of how much shaping is acceptable — and whether viewers know the difference between what they're watching and unmediated reality — remains one of documentary's central ethical debates."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Documentary's Power and Responsibility",
+          "content": "Documentary claims a special relationship with truth that fiction doesn't — and this creates special ethical responsibilities.\n\nWhen a documentary filmmaker films a real person, the subject is implicitly trusting that their story will be told with accuracy and fairness. When that trust is violated — through selective editing that misrepresents positions, staging events as if they were observed, or manipulating audiences through emotional manipulation — the harm is real and can be profound.\n\nThe most criticized contemporary documentaries: Michael Moore's participatory films have been accused of dishonest editing and staging. 'Catfish' (2010) has disputed claims about its 'spontaneous' discovery of a catfishing operation. Many true crime documentaries have been accused of manipulating audiences' perceptions of guilt and innocence in ways that affect real legal proceedings.\n\nViewers have a responsibility too: the emotional impact of documentary should be evaluated with the same critical thinking as any other persuasive media."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Cinema Vérité",
+          "content": "**Cinema vérité** (French: 'cinema truth') is a documentary filmmaking approach that uses lightweight equipment, synchronous sound, minimal crew, and observational filming to capture unstaged, spontaneous reality — aiming for a fly-on-the-wall quality that traditional staged documentary couldn't achieve.\n\nDeveloped in France by Jean Rouch and Edgar Morin ('Chronique d'un été,' 1960) and in the US as 'Direct Cinema' (by filmmakers like Frederick Wiseman), cinema vérité abandoned the narrator, the staged interview, and the conventional documentary structure in favor of immersive observation.\n\nFrederick Wiseman's documentaries — 'Titicut Follies' (1967), 'High School' (1968), and dozens of subsequent institutional portraits — used observational technique to create powerful, often disturbing portraits of American institutions with minimal directorial intervention: no narration, no interviews, no music."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Watch a documentary and apply critical documentary analysis:\n\n1. **What mode is this?** Expository, observational, participatory, reflexive?\n\n2. **What choices were made?** Who was filmed, who wasn't? What was included in the edit, what was left out? What does the music tell you to feel?\n\n3. **What is the implicit argument?** All documentaries argue something, even the most apparently neutral. What is this film trying to convince you of?\n\n4. **Do you trust it?** What would you need to know — or what would you research — to verify the documentary's central claims?\n\nAll media makes choices. Documentaries' claim to reality makes their choices both more powerful and more important to examine critically."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does the staging in 'Nanook of the North' reveal about the fundamental challenge of documentary?",
+          "optionA": "That early documentary filmmakers lacked ethical guidelines that later developed as the form matured",
+          "optionB": "That to make a watchable film, documentary must shape, compress, and structure reality — creating a tension between cinematic effectiveness and transparent truth that has never been resolved",
+          "optionC": "That the relationship between filmmaker and subject always involves power imbalance that distorts the representation",
+          "optionD": "That documentary is fundamentally a fiction genre using non-professional actors and real locations rather than studios",
+          "correctAnswer": "B",
+          "explanation": "Flaherty's staging reveals the core tension: making compelling cinema requires shaping reality. Nanook was made with deep respect for Inuit culture — but it staged traditions. Every documentary since has navigated this tension between cinematic form and truthful representation. It's constitutive of the genre, not a correctable problem."
+        },
+        {
+          "question": "What ethical responsibilities does documentary's claim to truth create that fiction doesn't have?",
+          "optionA": "Documentary filmmakers must disclose their sources and provide equal time to opposing perspectives, as journalistic ethics require",
+          "optionB": "Because documentary films real people who trust their story will be told fairly, manipulation through selective editing, staged events, or emotional manipulation creates real harm — to subjects and to viewers' ability to evaluate truth",
+          "optionC": "Documentary filmmakers are legally liable for false impressions created by their films in ways that fiction filmmakers are not",
+          "optionD": "Documentary's factual claims can be verified and contested in ways that fiction claims cannot — creating accountability but also vulnerability to refutation",
+          "correctAnswer": "B",
+          "explanation": "Documentary's special claim to truth creates special ethical obligations: real people trust filmmakers with their stories; audiences trust they're seeing something real. Violation of this trust — staged events, manipulative editing, selective representation that distorts reality — causes real harm to real people in ways that fiction's fabricated world doesn't."
+        },
+        {
+          "question": "What distinguishes cinema vérité from expository documentary?",
+          "optionA": "Cinema vérité uses color film while expository documentary traditionally used black and white to signal objectivity",
+          "optionB": "Cinema vérité abandons narrator, staged interviews, and conventional structure in favor of observational filming — aiming for spontaneous, unstaged reality capture rather than structured explanation and argument",
+          "optionC": "Cinema vérité is a French tradition while expository documentary is primarily American and British",
+          "optionD": "Cinema vérité focuses on individuals; expository documentary focuses on issues and institutions",
+          "correctAnswer": "B",
+          "explanation": "Expository documentary addresses viewers directly through narrator and structured argument. Cinema vérité (and its American Direct Cinema variant) eliminates all these mediating structures — no narrator, no interviews, observational filming of spontaneous events. Frederick Wiseman's institutional portraits are the purest examples."
+        }
+      ]
+    },
+    {
+      "slug": "film-criticism",
+      "title": "How to Read a Film: Critical Approaches",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Film criticism is not the same as film reviewing. A review evaluates whether you should see a film. Criticism uses a film as a starting point for analysis — examining what a film does, how it does it, what it means, and what it reveals about culture, society, and human experience.\n\nMultiple critical approaches offer different lenses on the same film — each revealing something the others miss. Understanding these approaches gives you a toolkit for engaging with any film at multiple levels simultaneously — and for understanding what professional critics are doing when they write about film."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Four Critical Approaches",
+          "content": "**Auteur criticism:** The film as expression of its director's personal vision and recurring themes. Identifies the director's 'signature' across their work — what makes a Kubrick film look like Kubrick.\n\n**Ideological/political criticism:** The film as cultural product expressing and reproducing (or challenging) ideological positions — about gender, race, class, sexuality, national identity. What assumptions does this film naturalize?\n\n**Psychoanalytic criticism:** The film as expression of unconscious desires, fears, and structures — drawing on Freudian and Lacanian concepts to analyze what the film's imagery reveals beneath its surface content. Laura Mulvey's influential concept of the 'male gaze' is a psychoanalytic/feminist approach.\n\n**Genre criticism:** The film in relation to its genre tradition — how it uses, extends, or subverts genre conventions, and what cultural functions this genre serves at this historical moment."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Roger Ebert — who reviewed films for the Chicago Sun-Times from 1967 until his death in 2013 — was the first film critic to win a Pulitzer Prize for Criticism (1975), and created what became the most widely distributed film criticism in history through the television show 'At the Movies' with Gene Siskel.\n\nEbert famously rated films with a thumbs up or down — a system he acknowledged was crude but effective at communicating the essential recommendation. More significantly, his written reviews were renowned for their humanity: he consistently treated film as a machine that generates empathy, arguing that cinema's power was its ability to make us live inside other people's lives.\n\n'At the movies,' he wrote, 'we are not so much entertained as we are reminded of what it is to be human.' His reviews were as much about life as about films."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Male Gaze",
+          "content": "Laura Mulvey's 1975 essay 'Visual Pleasure and Narrative Cinema' introduced one of film theory's most influential and controversial concepts: the 'male gaze.'\n\nMulvey argued that classical Hollywood cinema is structured to position the viewer in a masculine perspective — the camera tends to observe women's bodies as objects of visual pleasure, from a male viewpoint, whether or not the viewer is male. This gaze is built into the technical apparatus of the medium through camera angles, editing patterns, and how women are typically framed relative to male protagonists.\n\nThe male gaze has become a widely-used analytical tool beyond film: describing how any media positions its viewers in relation to a dominant perspective that often goes unexamined.\n\nCritics of the concept argue it's too monolithic (all viewers are different), that women can take pleasure in these images too, and that the theory doesn't adequately account for films that deliberately subvert the gaze. The debate it generated about who the camera looks at and for whom it looks has enriched film analysis significantly."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Semiotics in Film",
+          "content": "**Semiotics** is the study of signs and sign systems — how meaning is produced through symbols, codes, and conventions. Applied to film, semiotics examines how cinema creates meaning through its specific sign systems: visual images, sound, editing, language, and their cultural codes.\n\nFilm semiotician Christian Metz argued that cinema is not like a language (it doesn't have discrete units like words) but it functions like language — using cultural codes and conventions to produce meaning that audiences decode through learned competence.\n\nPractically: when a film shows a close-up of a hand reaching for a gun, viewers read 'danger' — not because the image contains the word 'danger' but because they've learned the conventions of the thriller code. When a film uses low, minor-key music, they read 'threat' or 'melancholy' through the culturally learned convention of musical emotional coding.\n\nFilm literacy is, in part, semiotic literacy — the accumulated knowledge of cinema's sign systems."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply a critical lens to any film you've seen recently:\n\n**Choose one approach and apply it:**\n\n1. **Auteur:** If you've seen other films by this director, what recurring themes, visual motifs, or character types appear?\n\n2. **Ideological:** What assumptions about gender, race, or class does this film treat as natural and unquestioned? What subject positions does it invite the viewer to occupy?\n\n3. **Genre:** What genre conventions does this film use, subvert, or combine? What cultural anxieties might this genre be processing?\n\n4. **Semiotic:** What visual codes, sound codes, or editing conventions does the film deploy to create meaning — and what assumptions about the viewer's cultural knowledge do they require?\n\nCritical analysis doesn't replace the experience of the film — it deepens it."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'male gaze' as introduced by Laura Mulvey, and why has it been influential beyond film criticism?",
+          "optionA": "The tendency of male directors to cast attractive female leads — a commercial strategy that Mulvey argued reflected gender bias in the industry",
+          "optionB": "The critical concept that classical Hollywood structures its camera to observe women from a masculine perspective as objects of visual pleasure — built into technical apparatus through angle, framing, and editing — applicable to how any media positions viewers in relation to dominant perspectives",
+          "optionC": "The observation that male audiences respond more strongly to action and violence while female audiences respond more strongly to romantic content",
+          "optionD": "The psychoanalytic argument that cinema replicates the voyeuristic dynamics of human scopophilia — pleasure in looking — in ways that mirror gendered social power structures",
+          "correctAnswer": "B",
+          "explanation": "Mulvey's male gaze: classical Hollywood's camera structures viewer position to observe women from a masculine perspective as objects of visual pleasure, built into editing patterns and framing conventions. The concept's broad influence comes from its generalizability: any media can be analyzed for whose perspective is naturalized and whose is objectified."
+        },
+        {
+          "question": "What distinguishes film criticism from film reviewing?",
+          "optionA": "Film reviewing is published quickly after release; film criticism is written with more time for reflection",
+          "optionB": "A review evaluates whether you should see a film; criticism uses the film as a starting point for analysis — examining what it does, how, what it means, and what it reveals about culture, society, and human experience",
+          "optionC": "Criticism appears in academic journals while reviews appear in newspapers — a distinction of venue more than purpose",
+          "optionD": "Reviews are for general audiences; criticism is for film scholars and specialists",
+          "correctAnswer": "B",
+          "explanation": "Reviews answer: should I see this? Criticism analyzes: what does this film do and mean? A review evaluates relative to audience expectation and entertainment value. Criticism uses the film as a lens for examining larger questions — cultural, aesthetic, psychological, political. Both are legitimate; they do different work."
+        },
+        {
+          "question": "What does semiotics reveal about film literacy that isn't captured by simple content analysis?",
+          "optionA": "Semiotics reveals the symbolic system underlying a film's cultural references — the mythological and literary allusions that enrich the work's meaning",
+          "optionB": "Film creates meaning through learned cultural codes and conventions — a close-up of a gun reads as 'danger' not from the image itself but from acquired competence with thriller codes. Film literacy is partly semiotic literacy: knowing how cinema's sign systems produce meaning",
+          "optionC": "Semiotics demonstrates that all films are ideologically coded — the sign systems of cinema inevitably reflect and reproduce dominant cultural assumptions",
+          "optionD": "Film's sign systems can be objectively decoded — semiotics provides a scientific method for determining what any film means",
+          "correctAnswer": "B",
+          "explanation": "Semiotic literacy — knowing cinema's codes and conventions — is part of what makes an experienced viewer see more than a novice. When low minor-key music plays, experienced viewers read 'threat' because they know the musical emotional code. Film understanding is partly knowledge of the cultural sign systems through which films produce meaning."
+        }
+      ]
+    }
+  ]
+}

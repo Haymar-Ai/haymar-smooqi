@@ -1,0 +1,365 @@
+{
+  "courseSlug": "understanding-your-mind",
+  "lessons": [
+    {
+      "slug": "how-your-brain-works",
+      "title": "How Your Brain Actually Works",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "You make about 35,000 decisions per day. You're consciously aware of maybe a few hundred of them.\n\nThe rest happens in a system you barely know exists — a vast, fast, automatic processing engine that runs below the level of awareness and drives most of your behavior, emotions, and beliefs. Understanding this system — how it works, what it's optimized for, and where it goes wrong — is one of the most useful things you can learn about yourself.\n\nThis course starts where most psychology gets it wrong: not with mental illness or extreme behavior, but with the ordinary, everyday machinery of a human mind."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "System 1 and System 2",
+          "content": "Psychologist Daniel Kahneman describes the brain as having two operating systems:\n\n**System 1** — fast, automatic, effortless, unconscious. It recognizes faces, understands sentences, drives a familiar route, and feels fear before you've consciously registered a threat. It runs almost all the time and uses pattern-matching to produce instant responses.\n\n**System 2** — slow, deliberate, effortful, conscious. It's what you use to do long division, plan a trip, or catch a logical error. It's powerful but expensive — it requires energy and attention, so the brain uses it as rarely as possible.\n\nThe critical insight: most of what you believe and decide is System 1 output — fast, pattern-based, and often wrong in predictable ways. System 2 exists to check it, but often endorses it instead. Understanding this changes how you think about thinking."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The human brain contains approximately 86 billion neurons, each capable of forming thousands of synaptic connections. The total number of possible neural connections is estimated to be greater than the number of atoms in the observable universe.\n\nBut here's the more practically interesting fact: your brain consumes roughly 20% of your body's total energy while making up only 2% of your body weight. Most of that energy goes to maintaining baseline neural activity — keeping the lights on — not to the deliberate thinking you're actually aware of.\n\nThis energy cost is why the brain is so aggressively efficient: shortcuts, patterns, and automatic processing exist because they cost far less than deliberate reasoning."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Brain Is a Prediction Machine",
+          "content": "The most useful way to understand your brain isn't as a passive receiver of information — it's as an active prediction machine.\n\nRather than waiting for sensory input and then processing it, your brain constantly generates predictions about what it's about to experience — and perception is largely the process of comparing incoming data to those predictions. When reality matches prediction, you barely notice. When it doesn't, you pay attention.\n\nThis prediction architecture means that what you experience as 'seeing' or 'hearing' is actually your brain's best guess, based on past experience, about what's out there — not a direct read of reality. Your expectations shape your perceptions. Your beliefs influence what you see. This isn't a flaw; it's the system's core design. But it has profound implications for how reliably you can trust your own experience."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Neuroplasticity",
+          "content": "**Neuroplasticity** is the brain's ability to reorganize itself by forming new neural connections throughout life — in response to learning, experience, injury, or environmental change.\n\nFor most of the 20th century, scientists believed the adult brain was largely fixed: you were born with your neurons, and lost them over time. Research since the 1990s has demolished this view. The brain changes structurally in response to experience — London cab drivers develop enlarged hippocampi (the memory-navigation region) from memorizing the city. Musicians develop enlarged motor cortex regions for their instrument hand. Meditation practice changes gray matter density in regions associated with attention and emotional regulation.\n\nNeuroplasticity means that skills, habits, and even emotional patterns are not fixed — they are, to a significant degree, malleable through deliberate practice and repeated experience."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Pick one decision you make today — a small one is fine — and notice the process:\n\n1. Did you decide it with System 1 (instant, automatic, felt obvious) or System 2 (deliberate, took effort)?\n2. Was there a moment where you could have paused to engage System 2 on something you handled automatically?\n3. What assumption was baked into your instant reaction?\n\nYou don't need to second-guess every decision — System 1 is often right. The goal is developing the habit of noticing when you're on automatic — because that's when you're most likely to be wrong in a predictable way."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the key difference between System 1 and System 2 thinking?",
+          "optionA": "System 1 is emotional; System 2 is rational",
+          "optionB": "System 1 is fast, automatic, and unconscious; System 2 is slow, deliberate, and effortful — and the brain uses System 2 as rarely as possible due to its energy cost",
+          "optionC": "System 1 handles learned skills; System 2 handles instincts",
+          "optionD": "System 1 is unreliable and prone to error; System 2 is accurate",
+          "correctAnswer": "B",
+          "explanation": "System 1 is the fast, automatic processing mode running most of the time. System 2 is the deliberate, energy-expensive mode used for complex reasoning. Because System 2 costs energy, the brain defaults to System 1 — which means most beliefs and decisions are pattern-based, not fully reasoned."
+        },
+        {
+          "question": "What does it mean that the brain is a 'prediction machine'?",
+          "optionA": "The brain is especially good at forecasting future events based on past patterns",
+          "optionB": "The brain actively generates predictions about what it's about to experience — and perception is largely comparing incoming data to those predictions, meaning expectations shape what you see",
+          "optionC": "The brain uses predictive algorithms similar to artificial intelligence",
+          "optionD": "Most of the brain's activity is devoted to predicting danger and reward",
+          "correctAnswer": "B",
+          "explanation": "The brain doesn't passively receive sensory data — it generates predictions first and updates when data doesn't match. This means perception is partly a construction based on prior expectations, not a pure read of reality. Beliefs and expectations literally shape what you experience."
+        },
+        {
+          "question": "What does neuroplasticity research reveal about skills and emotional patterns?",
+          "optionA": "They are mostly fixed by early childhood experiences",
+          "optionB": "They can change in youth but solidify in adulthood",
+          "optionC": "The brain changes structurally in response to experience throughout life — skills, habits, and emotional patterns are malleable through deliberate practice",
+          "optionD": "Plasticity primarily affects memory and navigation, not personality or emotion",
+          "correctAnswer": "C",
+          "explanation": "Neuroplasticity means the adult brain is not fixed — it reorganizes structurally in response to experience. Studies of London cabbies, musicians, and meditators show measurable brain structure changes from deliberate practice, including in emotional regulation regions."
+        }
+      ]
+    },
+    {
+      "slug": "cognitive-biases",
+      "title": "Cognitive Biases: Your Mind's Blind Spots",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "A cognitive bias is a systematic error in thinking — a predictable way the brain gets things wrong. They're not signs of stupidity or laziness. They're features of the human cognitive architecture: shortcuts and adaptations that work well enough in most situations but fail in specific, predictable ways.\n\nThere are over 180 documented cognitive biases. You don't need to know all of them. But knowing the dozen or so that affect the biggest decisions — money, relationships, career, health — can meaningfully change how you navigate your life."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Big Four Biases",
+          "content": "Four cognitive biases affect more decisions than almost any others:\n\n**Confirmation bias** — you seek, notice, and remember information that confirms what you already believe, while discounting contradictory evidence. It's the most pervasive bias in human judgment.\n\n**Availability heuristic** — you judge the likelihood of an event based on how easily an example comes to mind. Plane crashes feel more dangerous than driving because they get more news coverage — not because they are.\n\n**Sunk cost fallacy** — you continue investing in something (time, money, relationship) because of what you've already put in, rather than its future value. Past costs are gone — only future value should drive decisions.\n\n**Dunning-Kruger effect** — people with limited knowledge in a domain systematically overestimate their competence; people with genuine expertise often underestimate theirs."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Daniel Kahneman, who won the Nobel Prize in Economics for his work on cognitive biases, was asked in an interview whether studying biases had made him less susceptible to them. His answer: 'Not really.'\n\nKnowing a bias exists doesn't automatically protect you from it. Confirmation bias, availability heuristic, and anchoring still affect expert judgment even after people know they operate. The research suggests that biases are reduced — not eliminated — by awareness, specific debiasing techniques, and external accountability (like checklists or advisors who disagree with you)."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Anchoring: The First Number Wins",
+          "content": "Of all the cognitive biases with immediate practical impact, anchoring is one of the most powerful — and most exploitable.\n\nAnchoring is the tendency to rely too heavily on the first piece of information encountered when making subsequent judgments. In salary negotiation, the first number offered becomes the anchor — and final outcomes cluster around it, regardless of what either party's true position is. In retail, a 'was $200, now $99' anchor makes $99 feel like a deal even if the item is worth $60.\n\nThe debiasing strategy: before any negotiation or significant decision where a number will be offered to you, decide what you think the right value is before the anchor arrives. Write it down. Then evaluate the anchor relative to your independent assessment — not relative to itself."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Heuristic",
+          "content": "A **heuristic** is a mental shortcut — a practical, rule-of-thumb approach to decision-making that sacrifices some accuracy for speed and efficiency. Heuristics are the basis of most System 1 thinking.\n\nNot all heuristics are wrong — in fact, research by Gerd Gigerenzer shows that simple heuristics often outperform complex statistical models in real-world decisions, because they are robust to noise and require less information. The problem isn't heuristics themselves: it's applying them in contexts where they don't fit.\n\nA heuristic that works in a dangerous social environment ('don't trust strangers who approach quickly') can fail in a modern professional one (a fast-approaching conference networking contact isn't a threat). Context-mismatch is when heuristics become liabilities."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Pick one decision you're currently making or about to make — something with real stakes.\n\nRun it through the Big Four:\n1. **Confirmation bias:** Are you mostly finding evidence that supports what you already think? Have you actively looked for the strongest counterargument?\n2. **Availability heuristic:** Are you basing the perceived probability of something on how easily a vivid example comes to mind, rather than actual frequency?\n3. **Sunk cost:** Are you staying in something (a project, a plan, a relationship) primarily because of what you've already invested?\n4. **Anchoring:** Is there a first number or first framing that's affecting your range of options?\n\nOne check from this list will likely reveal something useful."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is confirmation bias, and why is it considered the most pervasive cognitive bias?",
+          "optionA": "The tendency to agree with authority figures to avoid conflict",
+          "optionB": "The tendency to seek, notice, and remember information that confirms existing beliefs while discounting contradictory evidence — it affects virtually every belief we hold",
+          "optionC": "The bias toward confirming first impressions regardless of later evidence",
+          "optionD": "The tendency to overconfidently confirm decisions once they're made",
+          "correctAnswer": "B",
+          "explanation": "Confirmation bias operates across virtually every belief domain — politics, relationships, health, professional judgments. Because it's search-level (affecting what information you look for) rather than just evaluation-level, it shapes the entire evidence base that informs your beliefs."
+        },
+        {
+          "question": "What is the sunk cost fallacy, and what is the rational alternative?",
+          "optionA": "Overvaluing future costs relative to past ones — the rational approach is to weight all costs equally",
+          "optionB": "Continuing to invest in something because of what you've already spent — the rational alternative is to evaluate only future value, since past costs are irrecoverable",
+          "optionC": "Underestimating how much something will eventually cost — the rational approach is to plan for cost overruns",
+          "optionD": "Assuming that expensive things are higher quality — the rational alternative is to evaluate quality independently",
+          "correctAnswer": "B",
+          "explanation": "Sunk costs are gone — they should not influence future decisions. The rational approach is to ask: 'If I were starting fresh today, would I choose this?' If the answer is no, past investment is not a reason to continue."
+        },
+        {
+          "question": "Why does knowing about cognitive biases not protect you from them, according to Kahneman?",
+          "optionA": "Biases are too fast to consciously intercept",
+          "optionB": "Most people know about biases intellectually but believe they are exceptions",
+          "optionC": "Biases are built into System 1 — they still operate even with awareness; debiasing requires specific techniques and external accountability, not just knowledge",
+          "optionD": "Studying biases can ironically increase susceptibility by making you overconfident about your objectivity",
+          "correctAnswer": "C",
+          "explanation": "Kahneman himself said studying biases didn't make him immune. Awareness reduces susceptibility — it doesn't eliminate it. Debiasing requires structured techniques (checklists, pre-mortems, advisors who disagree) that externalize the correction rather than relying on internal awareness alone."
+        }
+      ]
+    },
+    {
+      "slug": "emotions-and-decision-making",
+      "title": "Emotions and Decision-Making",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "For most of the 20th century, science treated emotion and reason as opposites — and the implicit recommendation was to remove emotion from decisions as much as possible.\n\nThat model is wrong. Neuroscientist Antonio Damasio's research on patients with damage to the emotional centers of the brain showed that they couldn't make simple decisions — not because they were too emotional, but because emotion provides the signal that makes decision-making possible in the first place.\n\nEmotions and reason are not opponents. They are partners — and understanding how they interact is one of the most practically useful things you can learn about your own mind."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Emotions as Information",
+          "content": "The most useful reframe for understanding your emotions is this: emotions are information — not commands.\n\nFear is information about perceived threat. Guilt is information about a violated value. Anger is information about a perceived injustice or boundary violation. Excitement is information about perceived opportunity.\n\nWhen you treat an emotion as a command ('I feel afraid, so I must stop'), you're letting the information dictate the action without examining whether the emotion accurately represents the situation. When you treat it as information ('I feel afraid — what's actually being threatened, and how accurate is that assessment?'), you can use the signal without being controlled by it.\n\nThis doesn't mean suppressing emotion — suppression backfires. It means creating a moment between the signal and the response to ask: what is this emotion telling me, and is that assessment accurate?"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Antonio Damasio's 'somatic marker hypothesis' — developed from studying patients with prefrontal cortex damage who had intact IQ but impaired decision-making — proposed that the body tags decision options with emotional signals (somatic markers) that guide choices.\n\nWithout these markers, patients had to reason through every option from scratch. As a result, they couldn't prioritize, couldn't close decisions, and often made very poor choices despite being able to articulate them correctly.\n\nThe implication: emotion doesn't corrupt rational decision-making — it enables it. What we experience as 'gut feeling' is often the brain's rapid emotional tagging of options based on past experience — a compressed form of learning made accessible through feeling rather than language."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Mood-Congruence Effect",
+          "content": "Your current emotional state doesn't just affect how you feel — it affects what you perceive, what you remember, and what you expect.\n\nResearch on the mood-congruence effect shows that people in positive moods are more likely to recall positive memories, perceive ambiguous situations as benign, and make optimistic estimates about the future. People in negative moods show the opposite pattern.\n\nThis creates a vicious cycle: bad mood → negative recall → pessimistic assessment → more bad mood. And a virtuous one: good mood → positive memory access → optimistic outlook → good mood.\n\nThe practical implication: high-stakes decisions — financial, relational, professional — should be made as much as possible in a neutral or stable emotional state, not during a spike of strong emotion in either direction. Decisions made in fear tend to over-restrict. Decisions made in euphoria tend to over-extend."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Affect Labeling",
+          "content": "**Affect labeling** is the practice of putting emotional experience into words — describing what you feel, specifically — as a way of reducing its intensity and regaining cognitive control.\n\nResearched by psychologist Matthew Lieberman at UCLA, affect labeling was found to reduce activity in the amygdala (the brain's threat and fear center) while increasing activity in the right ventrolateral prefrontal cortex — the region associated with controlled processing. In simple terms: naming the feeling literally dampens it.\n\nThis is the neurological basis for why talking about what you feel (in therapy, journaling, or good conversation) reliably helps. But the mechanism doesn't require a therapist — even silently labeling your emotion ('I'm feeling anxious about this meeting') measurably reduces its intensity and increases the space between feeling and response."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "The next time you notice a strong emotion — frustration, anxiety, excitement, irritation — run this two-step process:\n\n**Step 1 — Label it:** Name it specifically. Not just 'I feel bad' but 'I feel anxious' or 'I feel insulted' or 'I feel disappointed.' Specificity matters — the more precise the label, the stronger the dampening effect.\n\n**Step 2 — Ask:** What is this emotion telling me? Is the assessment accurate, or is my current state (tired, stressed, hungry) amplifying it?\n\nYou're not suppressing the emotion. You're treating it as information — using it rather than being used by it."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did Damasio's somatic marker hypothesis reveal about the role of emotion in decision-making?",
+          "optionA": "Emotions override rational decision-making in high-stakes situations",
+          "optionB": "Emotion doesn't corrupt rational decisions — it enables them, by tagging options with gut-level signals that prioritize and guide choices",
+          "optionC": "The best decisions are made when emotional signals are identified and controlled",
+          "optionD": "People with higher emotional intelligence make better decisions because they process emotions faster",
+          "correctAnswer": "B",
+          "explanation": "Damasio's patients with emotional center damage had intact IQ but couldn't make functional decisions — they had to reason through everything from scratch, leading to paralysis and poor choices. Emotion is not a bias to eliminate — it's the tagging system that makes choice possible."
+        },
+        {
+          "question": "What is affect labeling, and why does it reduce emotional intensity?",
+          "optionA": "Writing emotions in a journal to process them over time",
+          "optionB": "The practice of naming a specific emotion — which reduces amygdala activation and increases controlled processing, literally dampening the emotional signal",
+          "optionC": "Assigning a number (1-10) to emotional intensity to track patterns over time",
+          "optionD": "The therapeutic technique of linking current feelings to past emotional events",
+          "correctAnswer": "B",
+          "explanation": "Lieberman's UCLA research found that specifically naming an emotion reduces amygdala activation (the threat/fear center) while increasing prefrontal (controlled) processing. The naming itself creates the space between feeling and response — even when done silently."
+        },
+        {
+          "question": "What is the mood-congruence effect, and why does it matter for major decisions?",
+          "optionA": "People make decisions that match their mood — they choose activities they expect to feel consistent with how they currently feel",
+          "optionB": "Emotional state affects what you perceive, recall, and expect — creating distorted optimism in positive moods and distorted pessimism in negative ones — so high-stakes decisions should be made in a stable, neutral state",
+          "optionC": "Consistent moods produce consistent decisions — emotional variability leads to inconsistent judgment",
+          "optionD": "People remember decisions made in strong emotional states more vividly, whether positive or negative",
+          "correctAnswer": "B",
+          "explanation": "The mood-congruence effect means your emotional state shapes your entire information environment — what you remember, perceive, and expect. This can systematically skew decisions made during emotional spikes. Neutral states produce less biased assessments."
+        }
+      ]
+    },
+    {
+      "slug": "memory-and-attention",
+      "title": "Memory and Attention: How Your Brain Stores the World",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Memory feels like a recording. It isn't.\n\nEvery time you recall a memory, you are reconstructing it — assembling fragments with new material, shaped by your current knowledge, beliefs, and emotional state. The memory you access today is not identical to the one you accessed last month. And the original event was already filtered through the limited bandwidth of attention.\n\nUnderstanding how memory and attention actually work — not how we intuitively think they work — changes how you learn, how you think about past events, and how much you trust your own recollection."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Attention Is Selective and Limited",
+          "content": "Attention is not a spotlight that illuminates everything in a scene. It's a highly selective filter that admits a fraction of available information while blocking out most of everything else.\n\nDaniel Simons and Christopher Chabris demonstrated this dramatically with the 'invisible gorilla' experiment: subjects watching a video told to count basketball passes missed a person in a gorilla suit walking through the scene — because their attention was fully allocated to a specific task.\n\nInattentional blindness — the failure to notice visible, unexpected stimuli when attention is focused elsewhere — is the rule, not the exception. Your perception is not comprehensive. It's a story about a small, targeted slice of reality, with gaps filled in by assumptions.\n\nPractical implication: multitasking doesn't actually happen. You can rapidly switch attention, but the switching costs are real — and you miss more than you think when your attention is divided."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Psychologist Elizabeth Loftus's research on eyewitness memory demonstrated that leading questions asked after an event can implant entirely false details into people's recollection of what happened.\n\nIn one study, people who watched a video of a car accident and were asked 'how fast were the cars going when they smashed into each other?' estimated speeds 36% higher than those asked 'how fast were the cars going when they hit?' — and were significantly more likely to 'remember' seeing broken glass that was never in the video.\n\nThe implications extend well beyond courtrooms. Memories of conversations, arguments, and past events are all subject to post-event distortion — especially when you've reviewed them multiple times, each time slightly changing the stored version."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Encoding Is Everything",
+          "content": "The single most important variable in memory is not how hard you try to remember — it's how deeply you process information when you first encounter it.\n\nThe 'levels of processing' framework (Craik and Lockhart) showed that information processed more deeply — connected to meaning, emotion, prior knowledge, or personal experience — is retained far more effectively than information processed superficially (like reading passively without engaging with it).\n\nThis is why highlighting text while studying is nearly useless — it creates the feeling of engagement without the neural processing required for memory. And why teaching something to someone else dramatically improves your own retention: explaining requires you to construct meaning, not just recognize it.\n\nFor anything you actually want to remember: engage with the material. Ask questions. Connect it to something you already know. Summarize it in your own words. The depth of processing at the moment of encoding determines what survives."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Spaced Repetition",
+          "content": "**Spaced repetition** is a learning technique that exploits the 'spacing effect' — the robust finding that information reviewed at increasing intervals over time is retained far more effectively than information reviewed in a single concentrated session (cramming).\n\nFirst documented by Hermann Ebbinghaus in the 1880s, the spacing effect has been replicated across hundreds of studies and domains. The mechanism is well-understood: forgetting is necessary for stronger recall — the act of retrieving a slightly faded memory strengthens it more than reviewing a fresh one.\n\nPractical applications: reviewing notes 24 hours, 3 days, 1 week, and 2 weeks after initial learning produces dramatically better retention than re-reading immediately. Many flashcard apps (Anki is the most widely used) automate this schedule. It's one of the most evidence-backed learning techniques available."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply the depth of processing principle to something you're learning right now:\n\n1. Take any concept from this course (or something else you want to remember)\n2. Write it down in your own words — not a copy of the definition, but your interpretation\n3. Connect it to something you already know or something in your personal experience\n4. Explain it to someone — out loud, even if briefly\n\nYou've now processed it at a significantly deeper level than a first read. Set a calendar reminder to review it in 3 days. Then in a week. That spacing is what converts a one-time encounter into long-term retention."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did Loftus's eyewitness memory research reveal about the reliability of recall?",
+          "optionA": "Emotional events are remembered more accurately than neutral ones",
+          "optionB": "Leading questions asked after an event can implant false details into memory — memories are reconstructions, not recordings, and are vulnerable to post-event distortion",
+          "optionC": "Multiple witnesses to the same event tend to converge on accurate accounts over time",
+          "optionD": "Memory accuracy declines linearly with time — older memories are always less reliable",
+          "correctAnswer": "B",
+          "explanation": "Loftus showed that simply changing the wording of a question asked after an event could implant entirely false memories (like seeing broken glass that wasn't there). Memory is reconstructive — each recall is a new assembly, susceptible to contamination by current information."
+        },
+        {
+          "question": "Why is highlighting text while studying nearly useless for memory retention?",
+          "optionA": "It interrupts reading flow and reduces comprehension",
+          "optionB": "The highlighted material is reviewed too frequently, causing over-familiarity",
+          "optionC": "Highlighting creates a feeling of engagement without the deep processing (meaning-making, connection, explanation) that actual memory encoding requires",
+          "optionD": "Most people highlight too much, diluting the signal of what's important",
+          "correctAnswer": "C",
+          "explanation": "The levels of processing framework (Craik & Lockhart) shows that retention is determined by depth of processing at encoding. Highlighting is surface-level recognition — it doesn't build the meaning-connections that make memories stick. Explaining or connecting to prior knowledge does."
+        },
+        {
+          "question": "What is the spacing effect, and why does it outperform cramming?",
+          "optionA": "Spreading study sessions over multiple days reduces fatigue and improves focus",
+          "optionB": "Information reviewed at increasing intervals is retained more effectively — because the act of retrieving a slightly faded memory strengthens it more than reviewing a fresh one",
+          "optionC": "The brain consolidates memories during sleep, so spreading learning across nights improves retention",
+          "optionD": "Spaced practice creates multiple contextual cues for recall that cramming doesn't produce",
+          "correctAnswer": "B",
+          "explanation": "The spacing effect works because retrieval of a partially faded memory requires more effort — and that effort is what strengthens the memory. Cramming reviews fresh material that doesn't need retrieval effort, producing recognition without durable recall."
+        }
+      ]
+    },
+    {
+      "slug": "what-makes-you-happy",
+      "title": "The Science of What Actually Makes You Happy",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Humans are consistently, predictably wrong about what will make them happy.\n\nNot a little wrong — dramatically, systematically wrong. The things we most urgently pursue — more money, a different relationship status, external recognition, a better living situation — have far smaller long-term effects on happiness than we predict. And many of the things we persistently underinvest in — social connection, meaningful work, physical health, presence — have far larger effects than we expect.\n\nThe science of wellbeing, which has developed rapidly over the past 30 years, has produced a remarkably consistent picture of what actually moves the happiness needle. This lesson is about that picture."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Hedonic Treadmill",
+          "content": "The hedonic treadmill is the psychological mechanism that explains why achieving goals rarely produces lasting happiness: you adapt.\n\nGetting the promotion feels great. Then it becomes the baseline. The new apartment feels wonderful. Then it's just home. The research is strikingly consistent across different types of positive events: within a few months to a couple of years, people return to their baseline level of life satisfaction — regardless of the magnitude of the positive change.\n\nThe same adaptation applies in reverse: people with serious injuries or major losses typically return to near their baseline within two years — a finding that surprises most people significantly.\n\nThe implication isn't nihilistic — it's clarifying. Lasting wellbeing comes less from reaching new peaks and more from the quality of ordinary daily experience, relationships, and meaning. These don't adapt away as quickly because they are renewed daily."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Harvard's longest-running study on adult development — the Grant and Glueck studies, which have tracked the health and wellbeing of 268 Harvard graduates and 456 inner-city Boston youth for over 80 years — found one factor more predictive of wellbeing in old age than any other: the quality of relationships.\n\nNot income. Not fame. Not professional success. Not even health behaviors (though those mattered too). The people who were most satisfied in late life were those who had warm, connected relationships at midlife.\n\nStudy director Robert Waldinger summarized the findings simply: 'Good relationships keep us happier and healthier. Period.'"
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Experiences Over Things",
+          "content": "One of the most robust findings in the psychology of happiness is that spending money (or time) on experiences consistently produces more and more durable wellbeing than spending on material goods.\n\nThree mechanisms explain this:\n\n1. **Adaptation:** We adapt more slowly to experiences (which are unique and time-limited) than to objects (which become background).\n\n2. **Social currency:** Experiences are more easily shared — both during and after — which multiplies their social and emotional value.\n\n3. **Identity:** Experiences become part of who you are. 'The year I hiked in Patagonia' becomes a story you carry. 'The year I bought a better sofa' does not.\n\nThis doesn't mean material purchases are worthless. It means that at the margin — when deciding where to invest discretionary resources — experiences tend to produce better returns for wellbeing."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Affective Forecasting",
+          "content": "**Affective forecasting** is the process of predicting how you will feel in the future — specifically, how an anticipated event will affect your emotional state.\n\nResearch by Daniel Gilbert and Timothy Wilson has documented systematic errors in affective forecasting. People consistently overestimate the intensity and duration of both positive emotions (how good getting X will feel) and negative emotions (how bad losing Y will feel) — a phenomenon Gilbert calls the 'impact bias.'\n\nThe reason: we fail to account for our own psychological immune system — the constellation of cognitive mechanisms (rationalization, adaptation, meaning-making) that helps us cope with bad events and normalize good ones.\n\nPractically: the thing you're dreading probably won't be as bad as you think, and the thing you're desperately pursuing probably won't feel as good — for as long — as you're imagining."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Reflect on two things you're currently pursuing or dreading and apply affective forecasting correction:\n\n1. **Something you're pursuing:** 'When I get X, I'll feel ___.' Now honestly ask: will I still feel that way in a year? In two? Or will I have adapted and set a new target?\n\n2. **Something you're dreading:** 'When X happens, I'll feel ___.' Now ask: in a year, looking back on this — is it likely to feel as catastrophic as it does today? What would I have figured out by then?\n\nAnd one proactive question: what in your current life — relationships, work, experiences — actually produces genuine wellbeing? Are you investing enough in those things relative to the things you're working to acquire?"
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the hedonic treadmill, and what does it reveal about goal-achievement and happiness?",
+          "optionA": "The tendency to set increasingly difficult goals as each previous goal is achieved",
+          "optionB": "The mechanism by which people adapt to positive and negative changes, returning to a baseline satisfaction level — meaning lasting wellbeing comes less from peak achievements than from quality of daily experience",
+          "optionC": "The finding that people run harder toward goals than the goals are worth",
+          "optionD": "The psychological toll of pursuing too many goals simultaneously, leading to burnout",
+          "correctAnswer": "B",
+          "explanation": "The hedonic treadmill describes how humans adapt to both positive and negative life changes, returning to their baseline satisfaction level. This means single achievements rarely produce lasting happiness — but quality of daily relationships, meaning, and experience does, because it's renewed continuously."
+        },
+        {
+          "question": "What was the single strongest predictor of wellbeing in old age in Harvard's 80-year adult development study?",
+          "optionA": "Professional achievement and financial stability",
+          "optionB": "Physical health habits maintained from midlife onward",
+          "optionC": "The quality of warm, connected relationships at midlife",
+          "optionD": "Having a clear sense of purpose and meaning in work",
+          "correctAnswer": "C",
+          "explanation": "The Harvard Grant and Glueck studies — 80+ years of longitudinal tracking — found relationship quality more predictive of late-life wellbeing than income, fame, or even health behaviors. Director Waldinger summarized: 'Good relationships keep us happier and healthier. Period.'"
+        },
+        {
+          "question": "What is the 'impact bias' in affective forecasting?",
+          "optionA": "The tendency to overestimate how much external events (versus internal character) affect happiness",
+          "optionB": "The systematic overestimation of the intensity and duration of both positive and negative emotional reactions to anticipated events — because we underestimate our own psychological coping mechanisms",
+          "optionC": "The bias toward believing that current mood will persist indefinitely into the future",
+          "optionD": "The tendency to overweight dramatic events and underweight gradual improvements in wellbeing assessments",
+          "correctAnswer": "B",
+          "explanation": "Gilbert and Wilson's research shows people systematically overpredict both how good good things will feel and how bad bad things will feel — and for how long. The psychological immune system (adaptation, rationalization, meaning-making) is far more robust than we expect when forecasting our own futures."
+        }
+      ]
+    }
+  ]
+}

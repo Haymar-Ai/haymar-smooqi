@@ -1,0 +1,221 @@
+{
+  "courseSlug": "advanced-training",
+  "lessons": [
+    {
+      "slug": "advanced-skill-building",
+      "title": "Advanced Skills: Taking Training Further",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Advanced dog training is not about teaching more complex tricks — it's about deepening the communication and partnership between human and dog until the relationship itself becomes the reward.\n\nThe most advanced skill in dog training is not a specific behavior — it's the ability to train any behavior: the understanding of learning principles, dog communication, and training mechanics that makes you capable of teaching your dog anything.\n\nThis course covers advanced training concepts for those who have mastered the basics and want to take their dog — and their own skills — further."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Shaping: Teaching Without Showing",
+          "content": "Shaping is the most powerful and most misunderstood training technique: rewarding successive approximations toward a final behavior, with the dog figuring out each step through trial and feedback — no luring, no guiding.\n\nThe process:\n1. Decide what you want to train (final behavior)\n2. Click and reward any small movement toward that behavior\n3. Wait for the dog to repeat or offer more — reward the better version\n4. Gradually raise the criteria — only reward responses that more closely approximate the final behavior\n5. Continue until the full behavior is complete\n\nExample: teaching 'put a toy in a box'\n- Click for looking at the box\n- Then only for moving toward it\n- Then only for touching it\n- Then only for touching the toy\n- Then only for picking up the toy\n- Then only for moving toward the box with the toy\n- Then only for dropping the toy in the box\n\nThe dog figures out each step through feedback — which produces a much more engaged, creative learner than luring ever does. Shaped behaviors are typically more fluent and more generalized than lured behaviors."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Chaser, a Border Collie trained by retired psychology professor John Pilley at Wofford College, learned the proper names of over 1,022 different objects — a vocabulary larger than any non-human animal has been documented to have.\n\nMore remarkably, Chaser demonstrated 'exclusion' learning — when shown a familiar group of objects with one unknown object, and asked to fetch the object with a name she didn't know, she correctly selected the novel object by process of elimination. She inferred that the unknown name must refer to the unknown object.\n\nThis capacity — understanding that new words refer to new things through exclusion reasoning — was previously thought to be uniquely human. Chaser's abilities suggest dogs can understand human language in more sophisticated ways than previously recognized.\n\nBeyond the research: Pilley trained Chaser through positive reinforcement, game-based learning, and was never rough or demanding. Their relationship — described as collaborative play — produced extraordinary results. The quality of the human-dog relationship matters as much as the training method."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Scent Work: Engaging the Dog's Superpower",
+          "content": "Nose work (scent detection training) is one of the fastest-growing dog sports and one of the highest-quality enrichment activities available.\n\nThe premise: dogs are trained to find a specific scent (often birch, anise, or clove oil — used in competitive nose work) and alert the handler to its location.\n\n**Why scent work is extraordinary:**\n- It engages the dog's primary sense — the one they use to understand the world\n- The dog is always right — they go where the scent is, following their nose rather than responding to handler guidance\n- It's appropriate for dogs of all ages, physical abilities, and behavioral profiles — anxious dogs, fearful dogs, elderly dogs, dogs with physical limitations can all excel\n- It's mentally exhausting — one 20-minute nose work session tires most dogs more than an hour of physical exercise\n\n**Getting started:**\n- Begin with a sealed tin containing birch oil, placed under one of three boxes\n- When the dog investigates the correct box: click and deliver high-value treats\n- The dog quickly learns that following their nose to that specific scent produces rewards\n- Gradually increase complexity: hide in multiple locations, outdoors, elevated, among distractors"
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Dog Sports: Agility, Herding, and More",
+          "content": "**Dog sports** provide structured activities that simultaneously exercise dogs physically and mentally, build human-dog teamwork, and give dogs an outlet for breed-specific drives.\n\n**Agility:** Dogs run obstacle courses (tunnels, weaves, jumps, A-frames, seesaws) directed by the handler — one of the most popular dog sports worldwide. Develops communication, confidence, and physical conditioning.\n\n**Herding:** Breeds with herding instincts (border collies, Australian shepherds, Belgian Malinois) work livestock under handler direction — deeply fulfilling for dogs with this drive.\n\n**Flyball:** Relay race where dogs jump hurdles, trigger a box that releases a ball, catch the ball, and return over the jumps — high-energy, high-reward team sport.\n\n**Rally Obedience:** Dog and handler navigate a course with obedience exercises at each station — more forgiving and communicative than formal competition obedience.\n\n**Protection sports (IPO/Schutzhund, French Ring):** Advanced sports including tracking, obedience, and controlled protection work — only appropriate for dogs with stable temperament and handlers with expert guidance.\n\nThe right sport for your dog depends on breed drives, energy level, physical capacity, and the handler's interests. The most important criterion: does the dog enjoy it?"
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Introduce nose work with this simple starting exercise:\n\n**Materials:** 3-5 identical containers (small cardboard boxes, plastic containers), high-value treats\n\n**Session:**\n1. While dog watches, place a treat under one container\n2. Release dog: 'Find it!'\n3. When dog investigates the correct container: 'Yes!' and lift the container to let them eat the treat\n4. Repeat 5-6 times, varying which container hides the treat\n\n**Next session:**\n1. Use more containers (up to 10)\n2. Place treats while dog is out of the room\n3. Release with 'Find it!'\n\n**Advanced:** Introduce a scented item (cotton pad with a drop of birch oil, available online) instead of treats. The dog follows the scent to find the cotton pad, then is rewarded with treats when they indicate the pad.\n\nNote your dog's behavior: most dogs immediately and enthusiastically engage with nose work because it lets them use their dominant sense. Watch for the body language of a dog on a scent — focused, slightly crouched, methodical — very different from unfocused exploration."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What makes shaping more powerful than luring for creating fluent, generalizable behaviors?",
+          "otionA": "Shaping produces faster initial learning because the dog doesn't need to follow a treat through complex motions",
+          "optionB": "Shaping requires the dog to problem-solve and discover each step through trial and feedback — producing more engaged, creative learners whose behaviors are more fluent and generalizable than lured behaviors where the dog follows the treat rather than thinking through the solution",
+          "otionC": "Shaping is more efficient because it requires fewer repetitions — the absence of a lure means the dog focuses on behavior rather than food tracking",
+          "otionD": "Shaped behaviors are more fluent because the dog owns them — having figured out the behavior independently, they perform it more confidently",
+          "correctAnswer": "B",
+          "explanation": "Shaping's power: the dog figures out each step through feedback rather than following a physical prompt. This produces cognitive engagement — the dog is actively problem-solving. Lured behaviors depend on the presence of the lure; shaped behaviors exist independently. The thinking, problem-solving dog is also more likely to generalize behaviors to new contexts than one who has only followed a food prompt through a sequence."
+        },
+        {
+          "question": "Why is nose work particularly valuable for anxious or fearful dogs?",
+          "otionA": "Nose work is performed at low arousal levels — the calming effect of sniffing directly reduces anxiety through neurological pathways",
+          "optionB": "Nose work lets the dog always be right by following their primary sense — the dog is in control and cannot fail. This builds confidence and engagement in dogs who may have learned helplessness through other training methods or anxiety",
+          "otionC": "Nose work is an independent activity — fearful dogs can work without close proximity to other dogs or unfamiliar people",
+          "otionD": "All of the above — nose work builds confidence through self-directed success, allows independence from social stressors, and produces calming neurological effects",
+          "correctAnswer": "D",
+          "explanation": "Nose work is ideal for anxious/fearful dogs for multiple reasons: the dog always wins (they find what their nose says is there), builds self-directed confidence, can be done independently from social stressors, and the focused sniffing itself has calming neurological effects. Dogs with behavioral challenges (reactivity, fear, anxiety) often thrive in nose work in ways they don't in social or competitive activities."
+        },
+        {
+          "question": "What should be the primary criterion for choosing a dog sport?",
+          "otionA": "The handler's interest and skill level — dogs can be trained for any sport given sufficient handler commitment",
+          "optionB": "The dog's enjoyment — the right sport engages the dog's natural drives and produces enthusiasm. A dog performing an activity they don't enjoy is at risk for stress, behavioral issues, and damaged relationship with the handler",
+          "otionC": "Breed compatibility — choosing sports that match the breed's original purpose produces the best results",
+          "otionD": "Accessibility — choosing sports with local clubs and competitions allows consistent training and competitive goals",
+          "correctAnswer": "B",
+          "explanation": "The primary criterion: does the dog enjoy it? A sport perfectly matched to breed history is worthless if the individual dog doesn't engage. Conversely, a dog who discovers nose work loves it regardless of breed, or who finds agility irresistible despite not being a typical agility breed. Handler interest matters (you'll train more if you enjoy it), but the dog's enthusiasm is the most important factor for success and welfare."
+        }
+      ]
+    },
+    {
+      "slug": "behavior-modification",
+      "title": "Behavior Modification Principles",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Behavior modification — changing established patterns of behavior — is different from teaching new behaviors. Training a dog to sit is relatively simple. Changing a dog who has been lunging at strangers for three years requires a different approach: understanding what drives the behavior, what maintains it, and how to systematically change both the emotional response and the behavioral pattern.\n\nThis lesson covers the principles of behavior modification that apply to fear, anxiety, aggression, compulsive behaviors, and other established patterns that resist simple training."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Behavior Modification Protocol",
+          "content": "Effective behavior modification follows a consistent protocol:\n\n**Assessment:** Identify the problem behavior, its triggers, its history, and its function (what does the dog get from the behavior?). A functional assessment answers: what is this behavior FOR?\n\n**Antecedent management:** Change the environment to reduce or eliminate the triggers. This is not a permanent solution but prevents the behavior from being practiced while modification proceeds.\n\n**Replacement behavior:** Identify an incompatible behavior to teach — something the dog can do instead of the problematic behavior that serves some of the same function.\n\n**Emotional modification:** For fear and anxiety-driven behaviors, counter-conditioning is essential — changing the emotional association with the trigger.\n\n**Gradual exposure:** Through desensitization, gradually introduce the trigger at manageable levels.\n\n**Maintenance:** Ongoing management and reinforcement after the behavior is changed — behavior modification is rarely permanent without continued support."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The study of canine emotions — a field that has exploded in the past decade — has produced strong evidence that dogs experience a rich emotional life including fear, joy, sadness, anxiety, and even something resembling grief.\n\nGregory Berns at Emory University became the first researcher to scan dogs' brains while awake using fMRI — training dogs to voluntarily enter and hold still in an MRI machine. His findings: dogs show activity in the caudate nucleus (associated with positive anticipation in humans) in response to familiar human scents and to signals that predict rewards — similar patterns to what humans show.\n\nBerns' research suggests that dogs experience genuine emotional responses, not just behavioral conditioning. This has profound implications for how we think about training, management, and the dog's wellbeing.\n\nThe emotional dog — not just the behaviorally conditioned dog — is what we're working with. Behavior modification that addresses the underlying emotion produces more durable change than behavior modification that only addresses the behavioral symptom."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "When to Seek Professional Help",
+          "content": "There are situations where owner-directed behavior modification is insufficient or potentially dangerous:\n\n**Aggression toward people or other animals:** Any behavior that has resulted in bites, or that appears likely to result in bites, requires a qualified professional. This is a safety issue that goes beyond typical owner management.\n\n**Separation anxiety:** Significant separation anxiety (destruction, self-injury, non-stop vocalization when alone) typically requires a combination of behavior modification and sometimes medication — and should be assessed by both a behaviorist and a veterinarian.\n\n**Compulsive behaviors (OCD):** Tail chasing, repetitive barking patterns, light or shadow chasing, excessive licking — these may have an anxiety/neurological component requiring veterinary assessment alongside behavioral support.\n\n**Failure to progress:** If systematic CC/DS protocols aren't producing improvement after 4-8 weeks of consistent implementation, professional assessment may reveal factors you're missing.\n\nHow to find qualified help: Certified Applied Animal Behaviorist (CAAB), Veterinary Behaviorist (DACVB), or Certified Professional Dog Trainer with Knowledge and Skills assessment (CPDT-KA) credentials indicate evidence-based training."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Extinction and Extinction Bursts",
+          "content": "**Extinction** is the process by which a behavior decreases and eventually stops when reinforcement is consistently withheld. If jumping on people reliably produces no attention, jumping will eventually extinguish.\n\n**Extinction burst:** Before a behavior extinguishes, it often temporarily increases in frequency and intensity — the dog 'tries harder' because the previously reliable reinforcement has stopped. A dog whose jumping used to get attention who is now being ignored may initially jump higher and more frantically.\n\nThis is a critical concept for two reasons:\n1. Owners who see the behavior getting worse interpret it as failure and return to managing the behavior inconsistently — which reinforces the increased behavior and makes it harder to extinguish later\n2. The extinction burst means 'this is working' — the behavior is increasing before it decreases. Persist through it.\n\n**The critical warning:** Extinction is not appropriate for fear-based behaviors or aggression. Ignoring a growling dog hoping the growl will extinguish is dangerous — and won't work because the growl is maintained by fear relief, not social reinforcement. Extinction only applies to behaviors maintained by social reinforcement (attention, access)."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Conduct a functional assessment of one problematic behavior your dog shows:\n\n**The behavior:** What specifically does the dog do? (not 'misbehaves' — what exact behavior?)\n\n**The trigger:** What reliably precedes the behavior? Time of day, specific people, specific locations, specific sounds?\n\n**The function:** What does the dog get from this behavior? What happens immediately after that might be reinforcing?\n- Attention from people (even negative attention)\n- Access to something\n- Removal of something unpleasant (escape/avoidance)\n- Sensory stimulation\n\n**History:** How long has this been happening? Has it been getting better or worse?\n\n**What you've tried:** What interventions have you attempted, and what happened?\n\nA completed functional assessment gives you far more information for developing an effective modification plan than any general 'dog training tips.' The function of the behavior determines the approach."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is an extinction burst and why do owners need to persist through it?",
+          "otionA": "An extinction burst is the initial period of rapid learning at the beginning of a new reinforcement schedule — behavior increases as the dog discovers the reward",
+          "optionB": "An extinction burst is the temporary increase in behavior frequency and intensity that occurs just before extinction — the dog 'tries harder' when reinforcement stops. Owners who stop because it seems to be getting worse may inadvertently reinforce the increased behavior, making future extinction harder",
+          "otionC": "An extinction burst is the buildup of unreleased behavioral energy — suppressed behaviors burst out when suppression is removed",
+          "otionD": "An extinction burst is a medical emergency — rapid behavior increase indicates neurological distress requiring veterinary attention",
+          "correctAnswer": "B",
+          "explanation": "Extinction burst: before a behavior extinguishes, it temporarily increases in frequency/intensity — the dog escalates before giving up. This is normal and expected. Owners who see the behavior intensify often interpret it as failure and return to inconsistent management — which reinforces the escalated behavior and makes extinction harder next time. The extinction burst means the process is working; persist through it."
+        },
+        {
+          "question": "What is the most important reason to seek professional help for aggression specifically?",
+          "otionA": "Aggression requires specialized equipment and protocols not available to owners — professional trainers have access to tools that make modification safe",
+          "optionB": "Any behavior that has resulted in bites or appears likely to result in bites is a safety issue — incorrect modification attempts can escalate aggression. Qualified professionals (CAAB, Veterinary Behaviorist) have the expertise to safely assess risk and implement protocols while protecting both the dog and the people involved",
+          "otionC": "Aggression requires medication management alongside behavioral modification — only veterinary professionals can prescribe the medications that make modification effective",
+          "otionD": "Owner emotional involvement with their dog prevents objective assessment of aggressive behavior — professional distance is required for accurate evaluation",
+          "correctAnswer": "B",
+          "explanation": "Aggression toward people or animals is a safety issue. Incorrect modification (punishment approaches, forced exposure) can escalate aggression to more dangerous levels. Even well-intentioned owners may miss signs of imminent biting or inadvertently reinforce problematic patterns. Qualified professionals (CAAB, DACVB) assess risk levels, identify underlying causes, and implement evidence-based protocols while maintaining safety."
+        },
+        {
+          "question": "Why is extinction not appropriate for fear-based behaviors?",
+          "otionA": "Extinction is too slow for fear responses — fear requires immediate intervention to prevent conditioning from deepening",
+          "optionB": "Fear-based behaviors are maintained by the removal of the feared stimulus (escape/avoidance), not by social reinforcement. Withholding social attention has no effect on behaviors reinforced by fear relief. Attempting extinction may also prevent the dog from communicating their discomfort, increasing risk",
+          "otionC": "Fear responses activate automatic nervous system responses that are not under voluntary control and therefore cannot be extinguished through operant procedures",
+          "otionD": "Extinction requires the behavior to be performed without reinforcement — but fear-based behaviors often reinforce themselves through physiological arousal that isn't controllable",
+          "correctAnswer": "B",
+          "explanation": "Extinction only works for behaviors maintained by specific reinforcers that can be withheld. Fear-based behaviors (growling, fleeing) are maintained by escape/avoidance of the feared stimulus — relief from fear, which the owner cannot control by withholding attention. Ignoring a fearful dog doesn't extinguish the fear or the behavior. Counter-conditioning and desensitization, which change the emotional association, are the appropriate tools."
+        }
+      ]
+    },
+    {
+      "slug": "building-lifelong-partnership",
+      "title": "The Lifelong Human-Dog Partnership",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The most advanced dog training is not a set of behaviors — it's a relationship. A dog who has a deep, trusting relationship with their human learns faster, performs more reliably, and is more resilient in challenging situations than a dog who has been trained through force or whose relationship with humans is ambivalent.\n\nThis final lesson is about building and maintaining the kind of relationship that makes everything else possible — the human-dog partnership at its highest expression."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Trust as the Foundation of Advanced Training",
+          "content": "Trust in the human-dog relationship means the dog confidently approaches new situations because experience has taught them: 'when my human is here, things work out.'\n\nTrust is built through:\n**Predictability:** The dog can predict what will happen in response to their behavior. Consistent reinforcement of desired behaviors and consistent consequences for unsafe behaviors (appropriate management, not punishment).\n\n**Advocacy:** The human protects the dog from overwhelming situations. When the dog signals discomfort, the human responds — increasing distance, removing from the situation, redirecting. The dog learns their communication is effective.\n\n**Respect:** The dog's emotional state is taken seriously. Forced interactions, alpha rolls, or flooding are the antithesis of trust — they communicate that the dog's communication and wellbeing are irrelevant.\n\n**Positive history:** The majority of interactions between human and dog are positive — enriching, rewarding, playful. The relationship itself is reinforcing.\n\nA dog with this trust base will work through fear and confusion because they've learned: 'my human is a source of safety and good things.'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by Miho Nagasawa at Azabu University in Japan found that when dogs and their owners gaze into each other's eyes, both dogs and owners experience a spike in oxytocin — the same bonding hormone released between parents and infants.\n\nThis is remarkable because it's the only documented instance of an oxytocin feedback loop between two different species. The mutual gaze creates a positive feedback loop: human looks at dog → dog's oxytocin rises → dog looks back → human's oxytocin rises → human continues looking.\n\nWolves raised with humans don't show this oxytocin response to mutual gaze — the capacity emerged during domestication, suggesting that the co-evolutionary process between humans and dogs produced a neurobiological bonding system that works across species.\n\nThe practical implication: eye contact between dog and owner is not just communication — it's a direct channel to the bonding hormone that underlies social attachment. Relationship-centered training practices (positive reinforcement, attunement to the dog's state, mutual enjoyment of shared activity) are literally supported by the same neurochemistry that supports human social bonds."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Aging Dogs: Adapting Training and Care",
+          "content": "Dogs are living longer, and the care they need changes across the lifespan.\n\n**Senior dogs (7+ years, earlier for large breeds):** Cognitive decline (Canine Cognitive Dysfunction — similar to Alzheimer's disease) can begin as early as 8-10 years. Signs: disorientation, changes in sleep-wake cycles, house-training accidents, reduced interaction, appearing 'lost.'\n\n**Physical changes:** Arthritis, reduced mobility, vision and hearing loss. The dog who used to jog may need gentle walks. The deaf dog needs hand signals rather than verbal cues.\n\n**Training adjustments:** Shorter, gentler sessions. Lower physical demands. More mental enrichment (nose work, food puzzles) relative to physical exercise. Patience with slower response times.\n\n**Enrichment for cognitive health:** Research suggests that continued mental stimulation (puzzle toys, training, scent work) may slow cognitive decline in dogs — similar to findings in human aging. The use-it-or-lose-it principle applies.\n\n**End-of-life care:** One of the most difficult aspects of dog ownership — recognizing when quality of life has declined enough that the kindest choice is euthanasia. Behavioral signs of pain include withdrawal, reduced interaction, changes in elimination habits, and loss of enjoyment in previously loved activities."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Human Emotional Support Function",
+          "content": "Dogs provide measurable psychological benefits to their humans — and the research is robust:\n\n**Stress reduction:** Pet owners show lower cardiovascular stress responses to challenging tasks when their pet (but not a friend) is present — and lower baseline cortisol levels on average than non-pet owners.\n\n**Physical health:** Dog owners walk more, have better cardiovascular outcomes, and show lower rates of depression and loneliness in several population-level studies.\n\n**Social facilitation:** Dogs are social lubricants — dog owners have more social interactions with strangers. Dog walking increases social connection in neighborhoods.\n\n**Mental health:** Therapy dogs and emotional support animals have documented positive effects on anxiety, PTSD symptoms, and depression in clinical populations.\n\nThis relationship is reciprocal: the care we give dogs — the walks, the play, the attention and training — is also good for us. The investment in a well-trained, well-socialized dog pays back in wellbeing dividends throughout the dog's life."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Strengthen your human-dog bond with a relationship-building session:\n\n**Free shaping session:** Without a plan, set a timer for 10 minutes. Click and reward any behavior your dog offers that you find interesting. Don't try to shape anything specific — just reward whatever you notice and value. Let the dog lead.\n\nThis exercise:\n1. Shows the dog that offering behaviors produces good things — builds operant confidence\n2. Reveals what your dog finds interesting and tends to offer\n3. Requires you to pay close attention to your dog — which is itself a relationship activity\n4. Is play rather than work — the shared engagement is intrinsically valuable\n\nAfter 10 minutes, reflect: what did your dog offer that surprised you? What do you know about their behavioral repertoire now that you didn't before?\n\nThe human-dog relationship is the container for all training. Invest in it directly, not just indirectly through obedience. Play together, observe each other, and appreciate what your dog actually is — not just what you want them to be."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does the oxytocin mutual gaze research reveal about the human-dog bond?",
+          "otionA": "Dogs learned to make eye contact during domestication specifically to manipulate human bonding chemistry",
+          "optionB": "Mutual gaze between dogs and owners creates an oxytocin feedback loop in both species — the only documented cross-species oxytocin feedback loop — suggesting co-evolution produced a biological bonding system that operates across species boundaries",
+          "otionC": "The oxytocin response to dogs is unique to the specific dog — humans don't show the same response to unfamiliar dogs, only to their own",
+          "otionD": "Oxytocin during mutual gaze is a byproduct of the social behavior, not a cause of bonding — the actual bonding mechanism is behavioral reciprocity",
+          "correctAnswer": "B",
+          "explanation": "Nagasawa's research: dog-human mutual gaze creates an oxytocin feedback loop in both species — the same bonding hormone that operates between parents and infants. Wolves raised with humans don't show this response — it emerged during domestication. This is the only known cross-species oxytocin feedback loop, suggesting co-evolution produced a genuine neurobiological bonding system between humans and dogs."
+        },
+        {
+          "question": "What does Canine Cognitive Dysfunction (CCD) resemble and how should training adapt?",
+          "otionA": "CCD resembles canine depression — it primarily affects motivation and energy rather than cognitive function, and training should focus on stimulating activities to combat the mood disorder",
+          "optionB": "CCD resembles Alzheimer's disease — producing disorientation, sleep changes, house-training regression, and reduced interaction. Training adaptations: shorter, gentler sessions; lower physical demands; more mental enrichment relative to physical exercise; patience with slower responses",
+          "otionC": "CCD resembles anxious arousal — it produces hyperactivity, vocalization, and disrupted sleep. Training should focus on calm-inducing activities and reducing stimulation",
+          "otionD": "CCD resembles hearing loss — the primary symptom is reduced responsiveness to verbal cues. Training should transition to hand signals and tactile communication",
+          "correctAnswer": "B",
+          "explanation": "CCD resembles Alzheimer's: disorientation, changes in sleep-wake cycles, house-training accidents, reduced interaction, appearing 'lost.' Training adaptations: shorter, gentler sessions; reduced physical demands (arthritis is also common); more mental enrichment (nose work, food puzzles) vs. physical exercise; patience with slower response times. Research suggests continued mental stimulation may slow cognitive decline — the 'use it or lose it' principle applies to dogs."
+        },
+        {
+          "question": "What distinguishes a trust-based relationship from a compliance-based one in dog training?",
+          "otionA": "Trust-based relationships produce faster learning; compliance-based ones produce more durable behavior under pressure",
+          "optionB": "Trust-based relationships produce dogs who approach new challenges because experience has taught them 'my human is a source of safety and good things' — they work through fear and confusion because of the relationship itself. Compliance-based relationships may produce reliable behavior but not the resilience and generalization that trust produces",
+          "otionC": "Trust-based relationships require more training time to establish but require less maintenance; compliance-based relationships require constant reinforcement to maintain",
+          "otionD": "The distinction is primarily ethical — trust-based training produces the same behavioral outcomes but is more humane in the process",
+          "correctAnswer": "B",
+          "explanation": "Trust-based relationships produce dogs who work through challenging situations because the human's presence itself is reassuring — the dog has learned through consistent experience that the human predicts good outcomes and responds to their communication. This produces resilience, generalization, and willingness to engage with unfamiliar situations. Compliance produces reliable behavior within familiar contexts without the same resilience in novel or challenging ones."
+        }
+      ]
+    }
+  ]
+}

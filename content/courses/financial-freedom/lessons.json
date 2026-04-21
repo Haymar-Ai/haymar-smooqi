@@ -1,0 +1,293 @@
+{
+  "courseSlug": "financial-freedom",
+  "lessons": [
+    {
+      "slug": "what-financial-freedom-means",
+      "title": "What Financial Freedom Actually Means",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Financial freedom means different things to different people. For some, it's early retirement. For others, it's the ability to quit a bad job without panic, or to take a six-month sabbatical, or to say yes to an opportunity that pays less but matters more.\n\nThe common thread: financial freedom is fundamentally about optionality — the ability to make choices based on what you want rather than what you must do to keep the lights on. Money, at a certain level, stops being about consumption and becomes about time and choice.\n\nThis course is about building that level of financial independence — systematically, practically, and regardless of your starting point."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The FIRE Framework",
+          "content": "FIRE (Financial Independence, Retire Early) is a movement that gained significant traction in the 2010s, based on rigorous application of a few core principles:\n\n**High savings rate:** FIRE practitioners typically save 40-70% of income — dramatically higher than the conventional 10-15% recommendation. The higher the savings rate, the shorter the path to independence.\n\n**Lean living:** Not deprivation, but deliberate alignment of spending with genuine priorities. Reducing the 'lifestyle inflation' that expands spending with income.\n\n**Investment in index funds:** Passive, low-cost, broad market exposure.\n\n**The 4% rule as target:** Build to 25x annual expenses. Draw 4% annually. The math, historically, sustains indefinitely.\n\nYou don't have to pursue extreme FIRE to benefit from its principles. Even moving from a 10% to a 25% savings rate — without the extreme version — compresses the timeline to financial options by years."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Vicki Robin and Joe Dominguez's book 'Your Money or Your Life' (1992) first articulated the mathematical relationship between money and time in a way that changed how its readers thought about financial independence.\n\nThe core insight: money is trading your life energy (time) for resources. At any given income level, you can calculate the 'real hourly wage' — income after taxes and work-related expenses, divided by hours including commute and decompression time. Many people find this number is significantly lower than they expected.\n\nThis reframe — from 'how much do I earn?' to 'how much of my life am I trading for this?' — is what prompts people to recalibrate spending in ways that feel natural rather than forced."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Savings Rate Is the Master Variable",
+          "content": "Of all the variables in the path to financial independence, the savings rate is the most powerful — and the most within your control.\n\nA simple table illustrates:\n- 10% savings rate: ~40 years to financial independence\n- 25% savings rate: ~32 years\n- 50% savings rate: ~17 years\n- 75% savings rate: ~7 years\n\nThis assumes 7% real return and 4% safe withdrawal rate. The math is from Mr. Money Mustache's foundational post on the topic.\n\nTwo observations: even a small increase in savings rate produces meaningful acceleration. And the savings rate is determined primarily by expenses, not income — which means it's partially within your control regardless of what you earn.\n\nThe question isn't 'how do I earn more?' (though that helps). It's 'how do I increase the gap between what I earn and what I spend?' Both sides of the equation are levers."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Passive Income",
+          "content": "**Passive income** is income generated from assets rather than active labor — money that flows without requiring proportional time input. The most commonly accessible forms for individual investors:\n\n**Dividends:** Payments from stocks or funds to shareholders, proportional to holdings.\n**Rental income:** Cash flow from property after expenses. Can be management-intensive unless outsourced.\n**Bond interest:** Interest payments from bonds held in a portfolio.\n**Index fund distributions:** Automatic income from dividends across all holdings in the fund.\n\nThe path to financial independence through passive income is building enough assets that their passive yield covers your expenses. At a 4% withdrawal rate, this requires 25x annual expenses in assets.\n\nPassive income is not magical — it requires significant asset accumulation first. But it is real, it is achievable, and it is what underlies the math of every financial independence calculation."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Calculate your personal financial independence number:\n\n1. **Annual expenses:** What do you actually spend per year? (Or estimate monthly × 12)\n2. **FI number:** Annual expenses × 25\n3. **Current net worth:** From your earlier calculation\n4. **Gap:** FI number minus current net worth\n5. **Timeline estimate:** Use a compound interest calculator — at your current savings rate and 7% returns, when do you close the gap?\n\nIf the number feels overwhelming — good. Clarity about the size of the goal is what turns vague aspiration into a specific plan. Then ask: what would it take to increase my savings rate by 5% this year? Even that single shift changes the timeline significantly."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'real hourly wage' concept from 'Your Money or Your Life,' and why is it useful?",
+          "optionA": "Your hourly earnings adjusted for inflation — the real purchasing power of your income",
+          "optionB": "Income after taxes and work-related expenses, divided by total time including commute and decompression — which reveals how much life energy each dollar actually costs",
+          "optionC": "The total compensation value including benefits and equity, divided by hours worked",
+          "optionD": "The income you would need to earn to match your current lifestyle in a different job or location",
+          "correctAnswer": "B",
+          "explanation": "The 'real hourly wage' reframe (from Robin and Dominguez) calculates the true cost in life energy of each dollar earned. Many people find the number lower than expected — which prompts recalibration of spending toward things worth the life energy trade, and away from things that aren't."
+        },
+        {
+          "question": "How does doubling the savings rate from 25% to 50% affect the timeline to financial independence?",
+          "optionA": "It approximately halves the timeline — from 32 years to 17 years",
+          "optionB": "It has minimal impact because investment returns dominate the timeline over savings rate at higher income levels",
+          "optionC": "It extends the timeline slightly because the higher savings rate reduces compound growth on spending",
+          "optionD": "It reduces the timeline by about 5 years — from 32 to approximately 27 years",
+          "correctAnswer": "A",
+          "explanation": "According to the savings rate math: 25% savings rate ≈ 32 years; 50% savings rate ≈ 17 years. The relationship is nonlinear but dramatic. Higher savings rates are powerful because they simultaneously increase investment contributions and decrease the target (lower expenses = smaller 25x number)."
+        },
+        {
+          "question": "Why do expenses matter more than income in determining the path to financial independence?",
+          "optionA": "Tax advantages of lower income make the path shorter for lower earners in many brackets",
+          "optionB": "Expenses determine two things: the savings rate (income minus expenses) and the FI target number (expenses × 25) — reducing expenses improves both simultaneously, while income increases only improve the savings rate",
+          "optionC": "Income is less controllable than expenses — expenses can be reduced immediately while income requires years of career development",
+          "optionD": "Financial independence requires a specific ratio of assets to income, not assets to expenses",
+          "correctAnswer": "B",
+          "explanation": "Expenses are uniquely powerful because they affect both sides of the FI equation: reducing expenses increases the savings rate (less spending = more saved) AND reduces the target (lower expenses × 25 = smaller FI number). A $1,000 reduction in monthly expenses saves $1,000/month AND reduces the FI target by $300,000."
+        }
+      ]
+    },
+    {
+      "slug": "building-wealth-systematically",
+      "title": "Building Wealth Systematically",
+      "estimatedMinutes": 10,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Wealth is not built in dramatic moments. It's built through systematic, consistent behavior over long periods — a series of unremarkable decisions that compound into remarkable outcomes.\n\nThe people who successfully build financial independence almost universally share a set of habits and systems: automatic savings, consistent investing, deliberate lifestyle choices, and the patience to let time do its work. None of these are complex. All of them require consistency.\n\nThis lesson assembles the complete system — and names the behavioral habits that make the system actually run."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Wealth Building Stack",
+          "content": "A complete wealth building system operates in layers, each one enabling the next:\n\n**Layer 1 — Income:** Earn enough to have a positive gap after essential expenses. This is the floor. If income isn't there, building wealth requires increasing it — through career development, negotiation, skills, or additional income streams.\n\n**Layer 2 — Protection:** Emergency fund (3-6 months expenses), adequate insurance (health, disability, life if dependents). Without protection, wealth can be wiped out by a single event.\n\n**Layer 3 — Debt elimination:** High-interest debt paid off before meaningful wealth accumulation begins. You can't build wealth at 7% while paying debt at 22%.\n\n**Layer 4 — Automated savings and investment:** Automatic contributions to tax-advantaged accounts. Index funds. Regular contributions regardless of market conditions.\n\n**Layer 5 — Optimization:** Tax efficiency, refinancing when beneficial, lifestyle calibration. Fine-tuning the engine that's already running."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Thomas Stanley and William Danko's research for 'The Millionaire Next Door' (1996) found that most American millionaires share counterintuitive characteristics:\n\n- They live in average neighborhoods, drive used cars, and don't display wealth\n- They became wealthy through decades of systematic saving and investing, not inheritance or dramatic income events\n- Their most common occupations: business owner, accountant, engineer, attorney — not finance professional or technology executive\n- The average millionaire in their study was first-generation wealthy — their parents were not wealthy\n\nThe conclusion: the typical American millionaire isn't recognizable because they don't look like what we imagine. They built wealth gradually, without conspicuous consumption, and the invisibility of their wealth is partly responsible for its growth."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The 1% Raise Goes to Savings",
+          "content": "One of the most powerful and painless wealth-building habits is also one of the simplest: every time you get a raise, immediately increase your savings rate by at least half the increase before adjusting your lifestyle.\n\nMost people receive a raise and expand their lifestyle to match — a phenomenon called lifestyle inflation or 'hedonic adaptation.' Within a few months, the higher income feels like the new normal, and financial progress stalls.\n\nThe alternative: a $5,000 annual raise → $2,500 extra per year to savings, $2,500 to lifestyle improvement. The lifestyle still improves — but half the raise is permanently directed to future wealth rather than current consumption.\n\nDone consistently across a career, this practice alone can add hundreds of thousands of dollars to a retirement portfolio compared to the lifestyle-inflation alternative — without requiring any reduction in current living standards."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Net Worth Milestones",
+          "content": "**Net worth milestones** are specific accumulation markers that track financial progress — and have psychological significance beyond the math.\n\nResearch on goal achievement shows that milestone markers increase motivation and persistence. Common net worth milestones in the financial independence community:\n\n- **$0:** Debt-free (or assets > liabilities) — the baseline of positive net worth\n- **First $100K:** Called the hardest milestone — takes the longest but creates significant compounding momentum\n- **1x annual salary:** Basic financial stability\n- **3x annual salary:** True financial security — enough to weather major disruptions\n- **25x annual expenses:** Financial independence — the 4% rule target\n\nFirst millionaire is psychologically significant but not the marker that matters — 25x expenses is. A person with $1M but $80,000 in annual expenses needs more; a person with $750,000 and $25,000 in annual expenses is financially independent."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Run the full wealth building audit:\n\n1. **What layer are you on?** Income floor → Protection → Debt elimination → Automated savings → Optimization. Identify your current layer and the specific gap.\n\n2. **Is your savings automated?** If not, set up one automatic transfer to savings or investment today — even $50.\n\n3. **What's your savings rate?** Monthly savings ÷ monthly net income. If it's under 15%, identify one expense you could reduce to increase it.\n\n4. **Identify your next milestone:** Which of the net worth markers above is your next? What would it take to reach it — and by when?\n\nThe goal of today is clarity: a specific picture of where you are and what the next move is. The system works. The question is whether it's running."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did 'The Millionaire Next Door' research find about how most American millionaires built their wealth?",
+          "optionA": "Most leveraged real estate to build equity, then diversified into stocks and bonds",
+          "optionB": "They built wealth through decades of systematic saving, modest lifestyle, and investment — not inheritance or dramatic events — and are typically unrecognizable because they don't display wealth",
+          "optionC": "Most achieved millionaire status through equity in their own businesses rather than investment accounts",
+          "optionD": "They benefited from significant income advantages in high-paying professions like medicine and law",
+          "correctAnswer": "B",
+          "explanation": "Stanley and Danko found that most millionaires in America are first-generation wealthy, live modestly, and built wealth through systematic saving and investing over decades. The typical millionaire doesn't look like what popular culture imagines — and the invisibility of their lifestyle is part of why wealth accumulated."
+        },
+        {
+          "question": "What is lifestyle inflation, and how does the '1% raise to savings' rule counteract it?",
+          "optionA": "The tendency to spend more on status goods as income rises — countered by limiting luxury purchases to a fixed percentage of income",
+          "optionB": "The tendency to expand spending to match a higher income, eliminating financial progress — counteracted by immediately committing at least half of each raise to savings before adjusting lifestyle",
+          "optionC": "The general increase in cost of living that erodes purchasing power — countered by investing in inflation-protected assets",
+          "optionD": "Peer pressure to maintain lifestyle parity with higher-earning friends — counteracted by choosing peer groups with similar financial values",
+          "correctAnswer": "B",
+          "explanation": "Lifestyle inflation is the automatic expansion of spending with income increases — which is why income increases don't reliably produce wealth. The '1% to savings' rule (or half of each raise) captures part of each increase before lifestyle adapts, building wealth without reducing current living standards."
+        },
+        {
+          "question": "Why is $25x annual expenses — not $1 million — the correct financial independence target?",
+          "optionA": "$1 million is an arbitrary round number while 25x is calibrated to investment returns",
+          "optionB": "The 4% withdrawal rate applies to the portfolio — someone with $1M needing $80,000/year needs more; someone with $750K needing $25,000/year has already reached FI",
+          "optionC": "Tax brackets mean that $1 million produces different after-tax income for different people, making expenses the better denominator",
+          "optionD": "$1 million is too small to sustain modern living expenses without continued income from part-time work",
+          "correctAnswer": "B",
+          "explanation": "FI is defined by the relationship between assets and expenses, not a single number. 25x expenses generates 4% annually — equal to your expenses — from a sustainable withdrawal rate. $1M means FI for someone spending $40K/year; it doesn't mean FI for someone spending $100K/year."
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-basics",
+      "title": "Real Estate and Your Financial Plan",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Real estate is the most commonly cited path to wealth in America — and one of the most frequently misunderstood. The cultural narrative is simple: buy a house, it goes up in value, you get rich. The reality is considerably more nuanced.\n\nReal estate can be a powerful wealth-building tool. It can also be a wealth trap — locking money into an illiquid, management-intensive, expensive-to-maintain asset at the wrong time, wrong price, or wrong place.\n\nThis lesson examines real estate honestly — when it makes financial sense, when it doesn't, and how to think about it in the context of your overall financial plan."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Buy vs. Rent: The Real Math",
+          "content": "The 'renting is throwing money away' argument is one of the most persistent and mathematically incorrect pieces of financial advice in circulation.\n\nA comprehensive buy vs. rent calculation includes costs most people ignore:\n- Mortgage interest (typically the majority of early payments)\n- Property taxes (often 1-2% of value annually)\n- Insurance\n- Maintenance (1-2% of value annually on average)\n- HOA fees where applicable\n- Transaction costs (2-5% to buy, 5-7% to sell)\n- Opportunity cost of down payment invested elsewhere\n\nThe New York Times rent vs. buy calculator remains the most comprehensive public tool for running this math honestly. In many markets, especially high-cost cities, renting and investing the difference produces greater wealth over a 5-10 year horizon than buying.\n\nBuying makes most financial sense when: you plan to stay 7+ years, the price-to-rent ratio is reasonable, and you're financially stable."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Yale economist Robert Shiller, who shared the 2013 Nobel Prize in Economics, analyzed over 100 years of US home price data and found that inflation-adjusted home prices have risen at an average rate of approximately 0.6% per year.\n\nThis is dramatically lower than the cultural perception — and it's the after-inflation real return. Compare to stocks: roughly 7% after inflation over the same long period.\n\nThe reason many people perceive real estate as more profitable is leverage: a $50,000 down payment on a $250,000 home gives 5:1 leverage — a 10% home price increase produces a 50% return on equity. But leverage amplifies losses equally. The 2008 housing crash demonstrated what happens when leverage works in reverse."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Investment Property: Cash Flow Is King",
+          "content": "If you're considering real estate as an investment rather than a primary residence, the only metric that matters initially is cash flow: does the property generate positive monthly income after all expenses?\n\nExpenses to include: mortgage principal and interest, property tax, insurance, vacancy rate (typically 5-10%), maintenance and repairs (1-2% of value annually), property management (8-12% of rent if outsourced).\n\nThe '1% rule' is a rough screen: if monthly rent ≥ 1% of purchase price, the property may generate positive cash flow. ($200,000 home → needs $2,000/month rent minimum to pass the screen.)\n\nRental income that looks profitable without accounting for vacancy, maintenance, and management frequently turns negative when reality hits. Underestimate expenses in your projections and the cash flow math will deceive you."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Cap Rate",
+          "content": "The **capitalization rate (cap rate)** is a measure of real estate investment yield — the ratio of net operating income to property value:\n\n**Cap Rate = Net Operating Income ÷ Property Value × 100%**\n\nNet operating income (NOI) = annual rental income minus all operating expenses (excluding mortgage).\n\nExample: a property generating $18,000 NOI and worth $200,000 has a 9% cap rate.\n\nCap rates allow comparison across properties and markets. Higher cap rates indicate higher yield (and typically higher risk or less desirable location). Lower cap rates indicate lower yield (typically safer, more desirable markets like NYC or San Francisco, where appreciation is the primary return thesis).\n\nCap rates in many US markets range from 3-9%. A property with a 3% cap rate is essentially betting on appreciation — rent alone doesn't justify the price."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "If you're evaluating renting vs. buying:\n1. Search 'NYT rent vs. buy calculator' — run your specific numbers with honest assumptions\n2. Include transaction costs and a realistic time horizon\n3. Compare the output to what investing the down payment would produce\n\nIf you're evaluating a rental property:\n1. Find a property you're considering on Zillow or Realtor\n2. Look up comparable rents in the area\n3. Apply the 1% rule: is monthly rent ≥ 1% of asking price?\n4. Subtract estimated expenses (tax + insurance + 10% vacancy + 2% maintenance): is there positive cash flow?\n\nThe math should drive the decision — not the cultural script about what smart people do."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did Robert Shiller's 100-year analysis of US home prices find about real estate returns?",
+          "optionA": "Real estate returns approximately 5% annually after inflation — comparable to bonds but less than stocks",
+          "optionB": "Inflation-adjusted home price appreciation averages approximately 0.6% per year — far below the cultural perception and well below long-term stock market returns",
+          "optionC": "Real estate outperforms stocks in most historical periods when leverage is accounted for",
+          "optionD": "Home prices track inflation closely — producing no real return but preserving purchasing power",
+          "correctAnswer": "B",
+          "explanation": "Shiller's data shows ~0.6% real annual appreciation — dramatically below the 7% real stock return over the same period. The perceived profitability of real estate often comes from leverage (amplifying returns on equity) — which also amplifies losses, as 2008 demonstrated."
+        },
+        {
+          "question": "Why is the statement 'renting is throwing money away' financially incorrect?",
+          "optionA": "Rental payments build credit history and tenant rights that have financial value",
+          "optionB": "Homeownership has large hidden costs (interest, taxes, maintenance, transaction costs) and the opportunity cost of down payment — which, when included honestly, often make renting plus investing the difference more profitable over 5-10 years",
+          "optionC": "Property values don't always appreciate, so homeownership can result in negative equity",
+          "optionD": "Rent payments provide housing services just as mortgage payments do — there's no inherent financial difference between the two",
+          "correctAnswer": "B",
+          "explanation": "Rent buys housing — just as mortgage interest, taxes, insurance, and maintenance do. The 'throwing away' framing ignores the very large costs of ownership. When all costs are included honestly, renting + investing the difference frequently outperforms buying in high-cost markets, especially over short time horizons."
+        },
+        {
+          "question": "What does the cap rate tell you about a real estate investment?",
+          "optionA": "The maximum allowable return on a property before tax is owed",
+          "optionB": "The yield on a property based on net operating income — allowing comparison across properties and indicating whether the return thesis is income (high cap) or appreciation (low cap)",
+          "optionC": "The maximum financing percentage a bank will provide on a property",
+          "optionD": "The percentage of rent that represents profit after all mortgage costs are paid",
+          "correctAnswer": "B",
+          "explanation": "Cap rate = NOI ÷ Property Value. Higher cap rates indicate higher income yield; lower cap rates indicate reliance on appreciation for returns. A 3% cap rate property in NYC essentially bets on price appreciation — rent alone doesn't justify the price. Comparing cap rates lets you see this clearly across properties."
+        }
+      ]
+    },
+    {
+      "slug": "protecting-your-wealth",
+      "title": "Protecting What You Build",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most financial education focuses on building wealth — saving, investing, compounding. Far less attention goes to the other side: protecting it.\n\nA single uninsured medical emergency, a lawsuit, an unplanned death without proper estate planning, or a scam targeting life savings — any of these can destroy years of wealth building in a short period.\n\nInsurance and legal protection aren't exciting. They're also not optional if you're serious about financial independence. This lesson covers the protection layer that most financially literate people underinvest in."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Insurance You Actually Need",
+          "content": "Insurance is risk transfer — you pay a premium to transfer catastrophic financial risk to an insurer. The key principle: insure against what you can't afford to absorb, not against everything.\n\n**Health insurance:** Non-negotiable. Medical debt is the leading cause of bankruptcy in the US. Even imperfect coverage is better than none.\n\n**Disability insurance:** Your most underinsured risk. A 35-year-old has a roughly 25% chance of becoming disabled before retirement. Disability typically pays 60-70% of income — get enough to cover essential expenses.\n\n**Life insurance:** Only needed if others depend on your income. Term life (not whole life or universal life) is the appropriate product for most people — 10-20 year term, coverage of 10-12x annual income.\n\n**Liability umbrella policy:** $1-2 million coverage for ~$150-300/year. Protects against lawsuits exceeding your auto or home policy limits. Cheap for the protection provided."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "A 2022 survey by LIMRA (an insurance research association) found that 48% of Americans have no disability insurance beyond what Social Security might provide — and Social Security disability is notoriously difficult to qualify for and pays only about 40-50% of prior earnings for most recipients.\n\nMeanwhile, the Social Security Administration reports that roughly 1 in 4 of today's 20-year-olds will become disabled before retirement age.\n\nDisability insurance is consistently identified by financial planners as the most under-purchased and most needed protection — especially for people in early wealth-building phases, where the loss of earned income would be catastrophic and the portfolio isn't large enough to self-insure."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Estate Planning Is Not Just for the Old or Rich",
+          "content": "Estate planning sounds like something wealthy retirees do. It's actually relevant for anyone who has assets, debts, dependents, or preferences about what happens to them if they become incapacitated or die.\n\nThree documents everyone over 25 should have:\n\n**Will:** Directs who receives your assets and, if you have children, who becomes their guardian. Without one, the state decides.\n\n**Durable power of attorney:** Authorizes someone to manage your financial affairs if you're incapacitated. Without it, family members may need to go to court — expensive and time-consuming — to gain access to your accounts.\n\n**Healthcare directive / living will:** Specifies your medical wishes and designates who makes healthcare decisions for you if you cannot. Without it, these decisions go to whoever the hospital finds — which may not align with your wishes.\n\nOnline services (Trust & Will, LegalZoom) make basic estate documents accessible for $100-500. This is one of the highest-value-per-dollar legal purchases most people will ever make."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Beneficiary Designations",
+          "content": "A **beneficiary designation** is a legal instruction on a financial account or insurance policy specifying who receives the assets upon the account holder's death — overriding whatever a will says.\n\nBeneficiary designations take precedence over wills for accounts that have them: retirement accounts (401k, IRA), life insurance policies, and often bank accounts with TOD (transfer on death) designations.\n\nThis is a critical and commonly misunderstood point: if you list your ex-spouse as beneficiary on a life insurance policy, update the designation immediately — your will does not override it. Ex-spouse gets the money.\n\nReviewing beneficiary designations whenever you have a major life change (marriage, divorce, birth, death of a previously named beneficiary) is one of the most important estate planning maintenance tasks — and takes ten minutes online."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Complete this protection audit:\n\n1. **Insurance inventory:** Do you have health coverage? Disability insurance (beyond employer-provided if self-employed)? Life insurance if you have dependents? If any gap exists, research closing it.\n\n2. **Beneficiary review:** Log into your 401(k) and any IRAs. Who is listed as primary and contingent beneficiary? Is it current? Update if needed.\n\n3. **Estate documents:** Do you have a will, power of attorney, and healthcare directive? If not, research Trust & Will or a local estate attorney. The documents themselves take an afternoon — not having them can cost your family years of legal complexity.\n\nProtection isn't building wealth. But it's what prevents wealth from disappearing unexpectedly — which is the other half of the same goal."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is disability insurance described as the most underinsured risk for working-age adults?",
+          "optionA": "Disability affects more people than death during working years, but most people don't consider it until it's too late",
+          "optionB": "Roughly 1 in 4 of today's 20-year-olds will become disabled before retirement, but 48% have no disability insurance — and losing earned income during the wealth-building phase is catastrophic without a large existing portfolio",
+          "optionC": "Disability insurance is expensive relative to its coverage, making it the hardest protection to justify financially",
+          "optionD": "Social Security disability replacement rates are too low to sustain living expenses, creating a coverage gap for most recipients",
+          "correctAnswer": "B",
+          "explanation": "The LIMRA survey and SSA data together highlight the gap: 1 in 4 will be disabled before retirement, but nearly half have no coverage. During wealth-building years, earned income is the primary asset — its loss without disability insurance can be financially catastrophic."
+        },
+        {
+          "question": "Why is a will insufficient on its own for estate planning?",
+          "optionA": "Wills are frequently contested in probate and may be overridden by family members",
+          "optionB": "Beneficiary designations on retirement accounts and insurance policies override wills — so accounts with outdated beneficiary designations transfer to the wrong people regardless of what the will says",
+          "optionC": "Wills only cover financial assets and don't address medical decision-making or business succession",
+          "optionD": "Without a trust, a will must go through probate which can take years and reduce the estate's value",
+          "correctAnswer": "B",
+          "explanation": "Beneficiary designations on financial accounts (401k, IRA, life insurance) override the will. An ex-spouse listed as beneficiary receives the account even if the will directs otherwise. This is why reviewing and updating beneficiary designations is as important as having the will itself."
+        },
+        {
+          "question": "What is the core principle for deciding how much insurance to purchase?",
+          "optionA": "Insure everything to provide complete coverage and eliminate all financial risk",
+          "optionB": "Insure against what you cannot afford to absorb — catastrophic risks — not against everything, since small losses can be absorbed and insurance on them isn't cost-effective",
+          "optionC": "The goal is to insure enough to maintain your current lifestyle through any adverse event",
+          "optionD": "Insurance should cover 80% of potential loss — the self-insurance portion maintains incentives to minimize risk",
+          "correctAnswer": "B",
+          "explanation": "Insurance is risk transfer — it makes financial sense to transfer risks you can't absorb (catastrophic health, disability, liability) and to self-insure against risks you can (small appliance damage, minor medical costs). Insuring everything is expensive; insuring only catastrophic risk is efficient."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "courseSlug": "problem-solving-mastery",
+  "lessons": [
+    {
+      "slug": "problem-solving-frameworks",
+      "title": "How to Actually Solve Problems",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most problems that resist solution are resisting it for one reason: you're not solving the right problem. You're solving the stated problem, or the symptom of the problem, or the problem as you first understood it — not the underlying problem.\n\nProblem-solving mastery begins with the discipline of problem definition: spending time making sure you understand exactly what problem needs to be solved before attempting to solve it. Most people skip this and go straight to solutions — which is why they often solve the wrong thing brilliantly.\n\nThis course teaches systematic problem-solving: approaches that apply across domains, that force careful problem definition, and that generate solutions more reliably than random brainstorming."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Define the Problem First",
+          "content": "Einstein reportedly said that if given an hour to save the world, he'd spend 55 minutes defining the problem and 5 minutes solving it. The ratio is extreme but the principle is sound.\n\nProblem definition techniques:\n\n**The 5 Whys:** Ask 'why?' five times to get from symptom to root cause. 'Our website is slow' → Why? → 'Database queries are slow' → Why? → 'Indexes aren't optimized' → Why? → 'We added 10x the data without updating queries' → Why? → 'No performance review process existed.' Now you're solving the real problem: the missing process.\n\n**Reframe the problem:** State the problem from multiple perspectives. A design problem ('make a better can opener') reframed as a need ('help people access canned food easily') opens solution space dramatically — maybe the solution is pull-tab cans, not a better opener.\n\n**Separate symptoms from causes:** The presenting problem is almost always a symptom. Trace it backward: what would have to be true for this symptom to exist? What's the most parsimonious explanation?"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The Elevator Problem is a classic example of creative problem reframing. In the 1950s, tenants of a high-rise apartment building complained bitterly about excessively slow elevators. The building management considered obvious solutions: installing new elevator shafts (expensive), adding mechanical upgrades (costly), and adjusting schedules.\n\nOne consultant reframed the problem: 'The tenants aren't actually upset about slow elevators — they're upset about waiting.' These are different problems with different solutions.\n\nThe solution: install mirrors in the elevator lobbies. People occupied with looking at themselves stopped noticing the wait. Complaints disappeared — at negligible cost.\n\nThe original problem statement ('make the elevators faster') was technically accurate but solvable only with expensive engineering. The reframed problem ('reduce the perceived experience of waiting') had a cheap, elegant solution that the original framing made invisible."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "First Principles Thinking",
+          "content": "First principles thinking is the technique of breaking a problem down to its most fundamental truths — stripping away assumptions, conventional wisdom, and analogy — and reasoning up from those foundations.\n\nElon Musk's frequently-cited example: conventional wisdom said battery packs cost $600/kWh and would remain expensive. Instead of accepting this as given, he broke it to first principles:\n- What are batteries made of? Lithium, cobalt, nickel, aluminum, carbon\n- What do those materials cost on commodity markets? ~$80/kWh\n- Why are batteries expensive? Manufacturing processes and industry convention, not fundamental material costs\n\nThis first-principles analysis made Tesla's battery cost reduction strategy feasible — recognizing that conventional pricing reflected industry structure, not physical constraints.\n\nFirst principles thinking is hard because it requires abandoning the comfort of reasoning by analogy — 'we do it this way because everyone does it this way.' But it's essential for genuine innovation and for escaping false constraints that are conventional rather than physical."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Inversion",
+          "content": "**Inversion** is the problem-solving technique of attacking a problem backward — instead of asking 'how do I achieve X?' asking 'what would guarantee the failure of X?' and then avoiding those things.\n\nCharlie Munger (Berkshire Hathaway) credits the Prussian mathematician Carl Jacobi's principle: 'Invert, always invert.'\n\nInversion applications:\n- Instead of 'how do I make customers happy?' ask 'what would make customers miserable?' — then systematically avoid those things\n- Instead of 'how do I build a successful relationship?' ask 'what behaviors would definitely destroy a relationship?' — then don't do those\n- Instead of 'how do I stay healthy?' ask 'what habits guarantee poor health?' — then eliminate them\n\nInversion is useful because:\n1. Humans are better at identifying failures than predicting successes\n2. Negative knowledge (what to avoid) is often more reliable and actionable than positive prescriptions\n3. Many problems are better solved by avoiding stupidity than by seeking brilliance"
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply the 5 Whys to a recurring problem in your life:\n\n1. State the problem symptom: 'I am consistently [late / overwhelmed / running out of money / in conflict with X]'\n\n2. Ask 'why?' five times. Write down each answer. Each answer becomes the next 'why' question.\n\n3. Notice when you reach a level that feels like a root cause — where asking 'why?' again would take you outside the problem domain.\n\n4. Then ask: is the solution to the root cause different from the solution to the surface symptom?\n\nFor most recurring problems, surface-level solutions (being more disciplined, trying harder) have already been tried. Root-cause solutions (changing a process, environment, or relationship) produce durable change. The 5 Whys finds the root."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did the Elevator Problem demonstrate about problem reframing?",
+          "otionA": "Engineering solutions are usually more expensive than they need to be — cost analysis should always precede technical problem-solving",
+          "optionB": "The stated problem ('slow elevators') was solvable only expensively; the reframed underlying need ('reduce perceived waiting') had a cheap elegant solution (lobby mirrors). Problem reframing opens solution space that the original framing makes invisible",
+          "otionC": "Human psychology should be considered in engineering solutions — the psychological experience of using a system is as important as its technical performance",
+          "otionD": "Property managers should consult behavioral scientists — adding multidisciplinary expertise to problem-solving teams produces better solutions",
+          "correctAnswer": "B",
+          "explanation": "The Elevator Problem is a canonical example of solution space expanding through reframing: 'slow elevators' (technical problem) → 'perceived waiting experience' (behavioral problem) reveals a completely different and much cheaper solution. The framing 'make elevators faster' made cheap solutions invisible. Reframing to 'reduce the experience of waiting' made them obvious."
+        },
+        {
+          "question": "What does first principles thinking require that makes it difficult but powerful?",
+          "otionA": "Extensive domain expertise — you can only reason from first principles if you understand the fundamental science of the field",
+          "optionB": "Abandoning reasoning by analogy — 'we do it this way because everyone does' — and questioning every assumption to identify whether constraints are physical (truly unavoidable) or conventional (modifiable through different approaches)",
+          "otionC": "Mathematical modeling — first principles thinking requires quantitative analysis of fundamental physical constraints",
+          "otionD": "External perspective — first principles thinking is only possible when you're not embedded in a field's conventional assumptions, explaining why outsiders often innovate what insiders miss",
+          "correctAnswer": "B",
+          "explanation": "First principles thinking requires abandoning analogy (how everyone does it) and assumptions (what constraints exist) to reason from fundamental truths. Musk's battery example: conventional $600/kWh pricing reflected industry structure, not material cost ($80/kWh). First principles reveals that conventional constraints are often conventional rather than physical — which is difficult (it requires questioning what everyone accepts) but opens solution space analogy-based thinking closes."
+        },
+        {
+          "question": "What is inversion as a problem-solving technique, and why is negative knowledge sometimes more reliable than positive prescription?",
+          "optionA": "Inversion means considering the problem from the opposite stakeholder's perspective — solving for the other side's needs",
+          "optionB": "Inversion means asking what would guarantee failure rather than what would guarantee success — then avoiding those things. Humans are better at identifying failures than predicting successes; avoiding stupidity is often more achievable than seeking brilliance",
+          "otionC": "Inversion means reversing the cause-and-effect chain — starting from the desired outcome and working backward through required conditions",
+          "otionD": "Inversion is the mathematical technique of inverting a matrix or function — applied to business problems, it means finding the opposite of each variable's contribution",
+          "correctAnswer": "B",
+          "explanation": "Inversion (Jacobi/Munger): instead of 'how do I achieve X?' ask 'what would guarantee X fails?' — then avoid those things. This works because humans are better at identifying failure modes than predicting success paths; negative knowledge (what kills you) is often more reliable and actionable than positive prescriptions. Many of Munger's mental models are inverted: 'don't do stupid things' produces better results than 'try to be brilliant.'"
+        }
+      ]
+    },
+    {
+      "slug": "creative-problem-solving",
+      "title": "Creative Problem Solving",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Creativity is not a mysterious gift distributed unequally by fortune — it is a set of learnable practices and cognitive habits that systematically increase the quality and quantity of novel solutions to problems.\n\nResearch on creativity by Mihaly Csikszentmihalyi, Keith Sawyer, and others has found that creative insight follows recognizable patterns, emerges from specific conditions, and can be cultivated through deliberate practice.\n\nThis lesson covers what research shows about creative problem-solving — not inspiration as magic, but insight as a process."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Four-Stage Creative Process",
+          "content": "Graham Wallas (1926) identified a four-stage model of the creative process that remains influential:\n\n**1. Preparation:** Immerse in the problem. Research, gather information, define the constraints, try conventional approaches. This stage is often frustrating — the solution doesn't emerge.\n\n**2. Incubation:** Step away from conscious work on the problem. The brain continues processing below the level of awareness. This is why solutions often arrive in the shower, on a walk, or during sleep — not because relaxation is magic but because backing off from conscious effort allows unconscious associative processing.\n\n**3. Illumination:** The insight appears — often suddenly, often while doing something unrelated. 'Eureka' moments are real but are almost never random: they occur to people who have done the preparation work and given the incubation time.\n\n**4. Verification:** The insight is evaluated, refined, and implemented. Initial creative ideas are rarely complete or immediately workable — this stage is where most creative work actually happens."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by Mark Jung-Beeman at Northwestern University used brain imaging to study the 'aha moment' — the subjective experience of sudden insight.\n\nIn the seconds before a creative insight (as reported by subjects), EEG showed a distinctive neural signature: a burst of alpha waves (associated with internal focus) followed by a burst of gamma waves (associated with high-level neural integration — the moment when distant parts of the brain suddenly connect).\n\nMoreover: before the alpha-gamma burst, subjects' visual cortex showed reduced activity — essentially, they momentarily stopped processing external visual information and turned inward. The brain literally looked away from the world in the moments before an insight.\n\nThis suggests that insight literally requires momentary disengagement from external focus — which explains why forcing attention on a problem can sometimes prevent rather than produce creative solutions."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Combinatorial Creativity: Where New Ideas Come From",
+          "content": "Steve Jobs observed: 'Creativity is just connecting things.' Research on creativity supports a more sophisticated version of this intuition: creative ideas are almost never genuinely new — they are novel combinations of existing ideas.\n\nArthur Koestler's concept of 'bisociation': creativity occurs when two previously unconnected matrices of thought are suddenly connected — producing insight that wasn't available in either matrix alone. \n\nImplications:\n**The more you know, the more you can connect:** Creativity is not the absence of knowledge — it requires rich knowledge across multiple domains. The most creative people have wide interests and connect things others haven't combined.\n\n**Creative environments expose you to more matrices:** Travel, reading across disciplines, conversations with different kinds of people — these expand the combinatorial space available.\n\n**Constraints force unusual combinations:** Creative constraint (write a poem in exactly 17 syllables; design within these budget limits) forces combinations that unconstrained work wouldn't produce.\n\nCreativity is not the possession of special people — it's the result of rich inputs, cross-domain exposure, and the practice of looking for unexpected connections."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Divergent and Convergent Thinking",
+          "content": "**Divergent thinking** is the capacity to generate many possible solutions to a problem — to branch outward from a starting point into multiple possibilities. It is associated with creativity, brainstorming, and generating options.\n\n**Convergent thinking** is the capacity to evaluate and select among options — to converge from many possibilities to the best solution. It is associated with analysis, evaluation, and implementation.\n\nBoth are essential for creative problem-solving — and they cannot run simultaneously. Attempting to evaluate ideas while generating them kills divergent thinking (premature criticism suppresses idea generation).\n\nThe practical protocol:\n1. Separate divergent and convergent phases\n2. During divergent: no judgment, build on ideas rather than criticizing, aim for quantity, consider wild or impossible ideas (which sometimes contain the seed of feasible ones)\n3. During convergent: evaluate ideas against criteria, select the most promising, develop them further\n\nMost meetings combine these phases randomly — the best creative sessions separate them explicitly."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply divergent-convergent separation to a real problem:\n\n**Choose a problem** you're currently facing — professional or personal.\n\n**Divergent phase (10 minutes):**\n- Generate 20 possible solutions — not necessarily good ones\n- Include silly, impossible, and expensive options\n- No criticism, no evaluation\n- If you run out after 10, push to 20 anyway — the later ideas are often more original\n\n**Convergent phase (5 minutes):**\n- Review your list\n- Identify the 3 most promising — not just 'most realistic' but 'most worth exploring'\n- Note if any 'impossible' ideas contain a kernel that could be made feasible\n\nThe explicit separation — generate first, evaluate second — typically produces solutions that combined generating-and-evaluating would never find. The forced quantity requirement during divergence is especially important: most of the best ideas appear after the obvious ones have been exhausted."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does research on the 'aha moment' reveal about the neural basis of creative insight?",
+          "otionA": "Insight occurs when maximum cognitive resources are directed at a problem — concentration is the neural mechanism of creativity",
+          "optionB": "In the moments before insight, the brain shows a burst of alpha waves (internal focus) followed by gamma waves (neural integration), and visual processing briefly reduces — suggesting insight requires momentary disengagement from external focus",
+          "otionC": "Insights are distributed evenly throughout the day — the subjective feeling that they cluster in relaxed moments is a memory bias",
+          "otionD": "The neural signature of creative insight is identical to the neural signature of memory recall — insight is essentially recognizing a previously learned connection",
+          "correctAnswer": "B",
+          "explanation": "Jung-Beeman's research: before the 'aha' moment, EEG shows alpha waves (internal focus) → gamma waves (high-level integration). Briefly before, visual cortex activity decreases — the brain turns away from external input. This explains why insights come in the shower or on walks — not magic, but the relaxation of external focus that allows distant brain regions to connect. Forcing attention can prevent rather than produce insight."
+        },
+        {
+          "question": "What is 'bisociation' and why does it explain where creative ideas come from?",
+          "otionA": "Bisociation is the simultaneous processing of two contradictory perspectives — holding both produces insights that neither perspective alone could generate",
+          "optionB": "Koestler's concept: creative insight occurs when two previously unconnected matrices of thought suddenly connect — producing something neither matrix contained. This explains why cross-domain knowledge, diverse exposure, and constraints (forcing unusual combinations) all increase creativity",
+          "otionC": "Bisociation is the merging of two existing solutions — creative problem-solving is fundamentally about adapting and combining known approaches rather than generating genuinely new ones",
+          "otionD": "Bisociation describes the split attention needed for insight — creativity requires simultaneously attending to both the problem and one's own cognitive processes",
+          "correctAnswer": "B",
+          "explanation": "Bisociation: creativity occurs when two previously disconnected thought matrices suddenly connect — neither matrix contained the insight; their connection creates it. This is why creativity correlates with breadth of knowledge and diverse experience (more matrices → more possible connections), why constraints help (force unusual combinations), and why creative people often work across domains (more unusual matrices to connect)."
+        },
+        {
+          "question": "Why can't divergent and convergent thinking run simultaneously?",
+          "otionA": "They require different parts of the brain — engaging one inhibits the other through competing resource demands",
+          "optionB": "Evaluation (convergent thinking) suppresses idea generation (divergent thinking) — premature criticism kills options before they can develop. The two phases require different cognitive modes and different social norms (no judgment vs. selective judgment), so mixing them produces worse outcomes than separating them",
+          "otionC": "Simultaneous divergent-convergent thinking is only possible for expert-level problem solvers — novices must separate the phases explicitly",
+          "otionD": "Convergent thinking consumes cognitive resources that would otherwise be available for divergent thinking — they're in competition for the same limited attentional capacity",
+          "correctAnswer": "B",
+          "explanation": "Divergent thinking requires suspension of judgment — the threat of evaluation suppresses idea generation (people self-censor, fail to pursue unusual directions). Convergent thinking requires exactly the opposite: careful evaluation and selection. Mixing them produces mediocre outcomes in both directions: evaluation kills generativity, and the generative impulse disrupts careful evaluation. Explicit separation enables each mode to function well."
+        }
+      ]
+    },
+    {
+      "slug": "systems-thinking",
+      "title": "Systems Thinking: Seeing the Whole",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most of the important problems humans face are systems problems — complex, interdependent, with feedback loops, delays, and unintended consequences. Traditional problem-solving approaches — identify the problem, find the cause, implement the fix — fail badly on systems problems because they address one part of the system without understanding how the whole works.\n\nSystems thinking is a framework for understanding complex adaptive systems: how elements interact, how feedback loops create stability or instability, and how leverage points — the places where a small change can have large effects — can be identified.\n\nDonella Meadows' 'Thinking in Systems' (2008) is the most accessible introduction to a field that applies to ecology, economics, organizations, health, and social dynamics."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Feedback Loops: The Engine of Systems",
+          "content": "Systems are governed by feedback loops — connections where changes in one element affect others, which in turn affect the first element.\n\n**Reinforcing feedback loops (positive feedback):** The more of X, the more of X. Growth loops. Examples:\n- More savings → more interest income → more savings (compound growth)\n- More users → more content → more attractive to new users → more users (network effects)\n- Rising prices → investor excitement → more buying → rising prices (asset bubble)\n\n**Balancing feedback loops (negative feedback):** Deviation from a goal triggers action to return to the goal. Stability loops. Examples:\n- Thermostat: temperature deviates → heater activates → temperature returns to set point\n- Blood sugar: rises → insulin released → glucose absorbed → returns to normal\n- Population overshoot: more population → more consumption → resource depletion → population decline\n\nMost persistent problems have balancing feedback loops that resist the solution you're trying to implement — every push produces a counterpush. Understanding which loops are active is the key to identifying why interventions fail."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The 'Cobra Effect' is the name given to a phenomenon where well-intentioned solutions make the problem they address worse — through unintended feedback effects.\n\nThe original example: the British colonial government in India, concerned about the large number of venomous cobras in Delhi, offered a bounty for every dead cobra. People began farming cobras to collect the bounty. When the government realized what was happening and cancelled the program, the cobra farmers released their now-worthless cobras — leaving Delhi with far more cobras than before the program.\n\nSimilar 'cobra effects' appear throughout policy history:\n- Paying hospitals for patient days → hospitals kept patients longer than necessary\n- Paying financial advisors on commission → advisors sold products that generated commissions, not clients' best interests\n- Rewarding teachers on standardized test scores → 'teaching to the test,' not learning\n\nThe cobra effect occurs when an intervention creates incentives that generate the opposite of the intended behavior — through feedback loops that weren't considered."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Leverage Points: Where to Intervene",
+          "content": "Donella Meadows identified hierarchy of leverage points — places in a system where small changes can produce large effects — ranging from least to most powerful:\n\n**Numbers (least powerful):** Changing constants and parameters (tax rates, subsidy levels). These have limited impact because the system's structure remains.\n\n**Feedback loop strength:** Changing how strongly a balancing or reinforcing loop operates — more effective than numbers.\n\n**Feedback loop structure:** Adding or removing feedback connections — significantly more powerful.\n\n**Rules (laws, regulations):** The rules of the system determine who is allowed to do what.\n\n**Goals:** What the system is trying to optimize for. Changing the goal is highly powerful.\n\n**Paradigm (most powerful):** The shared assumptions that generate the rules, goals, and structures — the worldview that the system emerges from. Changing the paradigm changes everything. This is why social movements that shift cultural assumptions produce changes that policy interventions alone cannot.\n\nThe insight: most political and social interventions operate at the level of numbers (subsidies, tax rates) — the least powerful level. The most powerful leverage is rarely where resources are deployed."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Unintended Consequences",
+          "content": "**Unintended consequences** are outcomes of an intervention that were not intended and often were not predicted — occurring because interventions operate in complex systems where feedback effects were not fully considered.\n\nSociologist Robert Merton identified five sources of unintended consequences:\n1. **Ignorance:** Not knowing all the relevant factors\n2. **Error:** Incorrect analysis even with complete information\n3. **Short-term thinking:** Focusing on immediate consequences without considering long-term effects\n4. **Perverse incentives:** Solutions that create incentives for unintended behaviors (the cobra effect)\n5. **Self-defeating prophecy:** The intervention changes behavior in ways that undermine the prediction it was based on (if you predict traffic will be bad and people avoid the route, traffic won't be bad — your prediction was wrong because it was acted upon)\n\nUnintended consequences are not accidental — they follow predictably from insufficient systems thinking. Modeling the full feedback effects of an intervention before implementation significantly reduces (though never eliminates) their frequency."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply systems thinking to a problem you're trying to solve:\n\n1. **Map the feedback loops:** What are the reinforcing loops (things that self-amplify)? What are the balancing loops (things that return to equilibrium after deviation)?\n\n2. **Identify the balancing loops that resist your solution:** Every intervention that's been tried and failed has faced countervailing balancing loops. What are they?\n\n3. **Ask about delays:** Where are time delays in the system? Delays are a major source of oscillation — thermostat that takes 30 minutes to heat a room will overshoot and undershoot because you can't see the feedback quickly enough.\n\n4. **Identify the leverage point:** Which level of the hierarchy are you intervening at? Are you changing numbers (least powerful) or goals and paradigms (most powerful)?\n\nSystems problems require systems solutions. Most persistent problems persist because they're being addressed at the wrong level of the hierarchy."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'Cobra Effect' and what general systems principle does it illustrate?",
+          "otionA": "It illustrates that colonial policies were systematically counterproductive — a critique of specific historical governance failures",
+          "optionB": "The Cobra Effect occurs when an intervention creates incentives that generate the opposite of the intended behavior through unintended feedback loops — illustrating that complex systems respond to incentives in ways that often undermine the intervention's goal",
+          "otionC": "The Cobra Effect illustrates that market mechanisms (incentives and prices) produce better outcomes than regulatory solutions in most domains",
+          "otionD": "It illustrates the limits of empirical policy — without testing interventions first, perverse effects are inevitable regardless of intentions",
+          "correctAnswer": "B",
+          "explanation": "The Cobra Effect: the incentive (bounty for dead cobras) created an unintended feedback loop (people farming cobras). When the incentive was removed, the previously-farmed cobras were released. The general principle: interventions in complex systems create incentives that participants respond to in ways that may work against the intervention's goal. Understanding the full feedback effects before implementing is essential."
+        },
+        {
+          "question": "Why are 'numbers' (tax rates, subsidies) the least powerful leverage points according to Meadows?",
+          "otionA": "Numbers are too easy to change — political systems that can easily change numbers are also easily subject to counter-lobbying that reverses them",
+          "optionB": "Changing numbers operates within the existing system structure — the rules, goals, feedback loops, and paradigm remain, so the system tends to adapt around the numerical change while maintaining its underlying behavior",
+          "otionC": "Numbers are least powerful because they affect only the quantity of system outputs without affecting the quality or direction",
+          "otionD": "Numbers are the most visible and most contested — political opposition to numerical changes absorbs resources that could be directed at more fundamental interventions",
+          "correctAnswer": "B",
+          "explanation": "Numbers (tax rates, subsidy levels) are least powerful because they operate within the system's existing structure. The underlying feedback loops, rules, goals, and paradigm remain — and systems are robust. Change the tax rate and the system adapts. Change the goal (what the system is trying to optimize) and everything changes. The hierarchy of leverage reflects how deeply an intervention goes into the system's generative structure."
+        },
+        {
+          "question": "What is the difference between a reinforcing and a balancing feedback loop?",
+          "optionA": "Reinforcing loops increase system output; balancing loops maintain stable output — one drives growth, the other prevents it",
+          "optionB": "Reinforcing loops amplify change (more X → more X — compound growth, bubbles, network effects). Balancing loops resist change and return systems to a goal state (temperature deviates → heater fires → returns to setpoint). Both types coexist in all complex systems",
+          "otionC": "Reinforcing loops are beneficial (growth, learning); balancing loops are problematic (they prevent desired change)",
+          "otionD": "Reinforcing loops operate over long time periods; balancing loops operate rapidly — the distinction is in temporal scale",
+          "correctAnswer": "B",
+          "explanation": "Reinforcing loops (positive feedback): amplify change — more savings generates more interest generates more savings. Balancing loops (negative feedback): resist change and maintain setpoints — blood sugar rises, insulin released, blood sugar returns to normal. Complex systems have both types operating simultaneously. Persistent problems often have strong balancing loops resisting the desired change — which is why the same solution fails repeatedly."
+        }
+      ]
+    },
+    {
+      "slug": "decision-making-under-uncertainty",
+      "title": "Making Decisions Under Uncertainty",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The hardest decisions are made under uncertainty — when you don't know the outcomes, can't fully control the variables, and must act despite incomplete information.\n\nPerfect information is rarely available. The relevant question is not 'how do I make decisions with complete information?' but 'how do I make the best possible decisions with the information available — and how do I think about the information I still need to acquire?'\n\nThis lesson covers the frameworks and habits of skilled decision-makers under uncertainty — particularly from the worlds of investing, military strategy, and scientific research."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Decision Process vs. The Outcome",
+          "content": "One of the most important distinctions in decision-making: the quality of a decision process is separate from the quality of its outcome.\n\nA good decision process can produce a bad outcome if you're unlucky. A bad decision process can produce a good outcome if you're lucky. Evaluating a decision by its outcome (outcome bias) is one of the most common decision-making errors.\n\nPoker player and decision scientist Annie Duke calls this 'resulting' — judging decisions by results rather than by the quality of thinking that produced them. Examples:\n- A surgeon who performs a successful high-risk operation that had a 90% chance of failure didn't make a good decision — they got lucky. A different surgeon who performed the same operation on 10 patients was reckless.\n- An investor who made a quick profit on a bet they couldn't rationally justify didn't make a good investment decision — they got lucky.\n\nThe implication: to improve decision-making, evaluate your process rather than your results. Ask 'given what I knew at the time, was this the best decision I could have made?' — not 'did it work out?'"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Jeff Bezos coined a useful framework for differentiating decision types: Type 1 decisions vs. Type 2 decisions.\n\n**Type 1 decisions:** Irreversible and high-consequence — 'one-way doors.' Require careful deliberation because they're hard to undo.\n\n**Type 2 decisions:** Reversible and lower-consequence — 'two-way doors.' Can be made quickly because you can reverse course if wrong.\n\nBezos' observation: large organizations tend to apply Type 1 decision processes to Type 2 decisions — slowing everything down with excessive deliberation on reversible choices. The result: slow organizations that lose competitive speed.\n\nThe framework for fast-moving organizations: identify whether you're at a one-way or two-way door. Two-way door decisions should be made quickly and reversed if wrong. One-way door decisions deserve the full deliberative process.\n\nMost decisions in most people's lives are two-way doors. We apply Type 1 process to Type 2 decisions and suffer the productivity cost without corresponding quality benefit."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Reversibility, Speed, and Good Enough",
+          "content": "The optimal decision-making approach depends on reversibility:\n\n**For reversible decisions:** 'Satisficing' — Herbert Simon's concept — is the rational approach. Find the first option that meets your criteria rather than optimizing exhaustively. For a reversible decision, the cost of deliberation often exceeds the cost of a slightly suboptimal choice that can be corrected.\n\n**For irreversible decisions:** Deliberate carefully, seek more information, use structured decision tools, and be willing to wait for key information. The asymmetry of loss (you can't undo this) justifies additional cost of deliberation.\n\nThe framework:\n1. Is this reversible or irreversible?\n2. Irreversible → deliberate, get information, use structured process\n3. Reversible → satisfice, decide, implement, observe, adjust\n\nAdditional principle: 'Two-pizza rule' for team decisions (Bezos again) — if a team can't be fed by two pizzas, it's too large for fast decisions. Decision quality often doesn't improve with more committee members; decision speed reliably decreases."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Opportunity Cost",
+          "content": "**Opportunity cost** is the value of the best alternative foregone when making a decision — what you give up by choosing one option over others.\n\nEvery decision has an opportunity cost because resources (time, money, attention) are finite. Choosing to spend an evening in one way means not spending it another way. Investing in one asset means not investing in an alternative. Hiring one candidate means not hiring another.\n\nOpportunity cost is consistently underweighted in decision-making — people evaluate options against their absolute value rather than their comparative value:\n- 'Should I take this job?' is less well-formed than 'Should I take this job relative to my alternatives?'\n- 'Is this worth $100?' is less well-formed than 'Is this worth more than what else I could do with $100?'\n\nInvestor Charlie Munger's formulation: always evaluate decisions against your next best alternative — what you're giving up by making this choice rather than the next-best one."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply the Type 1/Type 2 framework to a pending decision in your life:\n\n1. **Identify the decision:** What are you deciding?\n\n2. **Classify it:** Is this a one-way door (irreversible, high-consequence) or a two-way door (reversible, adjustable)?\n\n3. **Calibrate your process:**\n   - If Type 2 (two-way): give yourself 24 hours maximum. Make a decision. Implement. Observe. Adjust if needed. Stop deliberating.\n   - If Type 1 (one-way): list what information would change your decision. Go get it. Identify the pre-mortem failure modes. Only then decide.\n\n4. **Identify the opportunity cost:** What is the actual next-best alternative? Are you choosing this option relative to that alternative — or just relative to an abstract 'doing nothing'?\n\nMost agonized deliberation is spent on two-way door decisions that should be made quickly and adjusted. Recognizing this pattern frees cognitive resources for the one-way doors that actually deserve careful deliberation."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'resulting' (outcome bias) and why does it undermine decision improvement?",
+          "optionA": "The tendency to accept outcomes without questioning the decisions that produced them — passive acceptance of results rather than critical evaluation",
+          "optionB": "Judging decision quality by outcomes rather than by the quality of the process — a good decision with bad luck (or bad decision with good luck) looks the same as its opposite. Evaluating by outcomes rather than process prevents identifying and improving flawed decision habits",
+          "otionC": "The tendency to explain results as inevitable in hindsight — resulting blinds people to the uncertainty that existed at the time of the decision",
+          "otionD": "Focusing on results rather than activities — a management error of rewarding outcomes rather than behaviors",
+          "correctAnswer": "B",
+          "explanation": "Resulting/outcome bias: judging a decision by its outcome rather than by the quality of thinking given available information. Good process + bad luck = bad outcome that looks like a bad decision. Bad process + good luck = good outcome that looks like a good decision. This prevents learning — you can't improve if you evaluate the wrong thing. The question to ask is: 'Given what I knew at the time, was this the best process available?'"
+        },
+        {
+          "question": "What is the significance of the Type 1/Type 2 (one-way/two-way door) framework for decision-making?",
+          "otionA": "It ensures all decisions get appropriate consideration — matching deliberation to decision type produces the right level of rigor",
+          "optionB": "It reveals that most decisions are reversible two-way doors that should be made quickly and adjusted if wrong. Applying Type 1 (irreversible) processes to Type 2 (reversible) decisions wastes deliberation without improving outcomes — Bezos identified this as a primary cause of organizational slowness",
+          "otionC": "The framework primarily helps with team decisions — it identifies who should be involved based on decision type rather than organizational hierarchy",
+          "otionD": "It's most useful for investment decisions where the distinction between reversible and irreversible outcomes is explicit and quantifiable",
+          "correctAnswer": "B",
+          "explanation": "Bezos' insight: most decisions are two-way doors (reversible) but get Type 1 (irreversible) deliberation — wasting time without improving quality. Reversible decisions should be made fast, implemented, observed, and adjusted. Irreversible decisions deserve careful deliberation. Most organizational slowness and personal decision paralysis comes from applying heavy processes to decisions that could and should be made quickly and corrected if wrong."
+        },
+        {
+          "question": "What is opportunity cost and how should it change how you frame decisions?",
+          "otionA": "Opportunity cost is the risk of missing a better option in the future — decisions should be made with awareness of potential future alternatives",
+          "optionB": "Opportunity cost is the value of the best alternative foregone — decisions should be evaluated not against their absolute value but against what you're giving up by not choosing the next-best alternative. 'Is this worth $100?' is less useful than 'Is this worth more than my next-best use of $100?'",
+          "otionC": "Opportunity cost is the lost productivity during decision deliberation — the time spent deciding could have been used productively",
+          "otionD": "Opportunity cost applies only to financial decisions — for time and relationship decisions, alternatives can't be meaningfully valued",
+          "correctAnswer": "B",
+          "explanation": "Opportunity cost: what you give up by choosing one option over the next-best alternative. 'Should I take this job?' is imprecise. 'Should I take this job rather than my next-best alternative?' is the right question. Evaluating options against their absolute value (is this worth it?) systematically underweights what you're giving up. Munger: always evaluate against the next-best alternative, not against doing nothing."
+        }
+      ]
+    }
+  ]
+}

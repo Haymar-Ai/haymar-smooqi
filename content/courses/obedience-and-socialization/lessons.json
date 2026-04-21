@@ -1,0 +1,293 @@
+{
+  "courseSlug": "obedience-and-socialization",
+  "lessons": [
+    {
+      "slug": "advanced-obedience",
+      "title": "Building Reliable Obedience",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "There is a significant difference between a dog who knows a command and a dog who reliably performs it. Most dogs 'know' sit — they do it in the kitchen for treats. Far fewer dogs have a sit reliable enough to work in a park with other dogs running past, or across the street, or when excited.\n\nThis course is about building genuine reliability — the behavior that holds up not just in training but in life. It requires understanding how dogs generalize (and fail to generalize) learning, how to proof behaviors against distractions, and how to maintain behaviors over time without constant food rewards."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Generalization: The Challenge of Real-World Reliability",
+          "content": "Dogs are 'context-specific' learners — they learn in the specific context where training occurs and don't automatically transfer that learning to new contexts. This is why a dog who sits perfectly in the living room fails to sit in the park.\n\nThis is not disobedience — it's how animal learning works. The dog learned 'sit in the kitchen when the owner is holding a treat at 7pm' and that is not the same cue as 'sit in the park when other dogs are present.'\n\nGeneralization requires systematic training across varied contexts:\n\n**Rule:** New context = starting over from the beginning. When you take a reliable kitchen behavior outside for the first time, start as if you're teaching from scratch — lure again, reward heavily, expect some failure.\n\n**Building generalization:** Train in 5+ different rooms of the house. Train outside in 5+ different locations. Train with different family members giving cues. Train with different clothing, different times of day, different levels of distraction.\n\nThe more contexts where a behavior has been successfully reinforced, the more reliably the dog responds across all contexts."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The concept of 'Clever Hans' — a horse in early 20th century Germany who appeared to solve mathematical problems by tapping his hoof — became a cautionary tale in animal cognition research.\n\nCareful investigation revealed that Hans was responding to subtle unconscious cues from his questioners — tiny changes in posture or breathing that signaled 'the answer is coming soon' — rather than actually computing mathematics. He was extraordinarily sensitive to human social signals but not doing what observers assumed.\n\nThe Clever Hans effect is relevant to dog training: dogs are enormously sensitive to human body language, breathing, and unconscious signals. When testing whether your dog 'knows' a command, it's worth asking whether they're responding to the verbal cue or to your unconscious physical cues (positioning, lean, hand tension) that have become accidentally trained signals. True reliability requires that the verbal cue alone is sufficient — which is why working with different people and varying your own body posture is an important proofing step."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Variable Reinforcement: The Power of Unpredictability",
+          "content": "Once a behavior is reliably performed, the reinforcement schedule should shift from continuous (every correct response rewarded) to variable (some correct responses rewarded, unpredictably).\n\nB.F. Skinner's research: variable reinforcement schedules produce the most resistant-to-extinction behavior. This is the same principle behind slot machines — the unpredictability of the reward keeps the behavior going long after a continuous schedule would have produced extinction.\n\nHow to implement variable reinforcement:\n1. Ensure the behavior is solid on continuous reinforcement first\n2. Begin randomly skipping some treats — reward 70%, then 50%, then randomly\n3. Reward the best responses with big rewards (jackpots); skip rewards for mediocre responses\n4. Continue varying — never make rewards predictable\n\nThe result: the dog continues to perform because 'there might be a reward this time.' The behavior becomes more persistent, not less.\n\nImportant: don't skip too early or too often, or the behavior will deteriorate. Increase the variability gradually as reliability increases."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Leash Manners and Loose-Leash Walking",
+          "content": "**Loose-leash walking** is walking politely on a leash — maintaining a J-shape in the leash (no tension) without pulling in any direction. It is one of the most commonly requested and most poorly trained skills in pet dogs.\n\nThe most effective teaching protocol (engagement-based method):\n1. Start in a low-distraction environment\n2. Reward heavily for any attention directed toward you (eye contact, checking in)\n3. When the dog begins to pull ahead: stop walking. Do not follow the pull.\n4. When the leash goes slack (dog looks back): mark and reward, then walk forward\n5. Gradually increase distraction as the behavior improves\n\nThe critical insight: pulling is self-reinforcing — the dog gets where they want to go. Breaking this reinforcement (stopping when pulling occurs) is essential. The dog learns: tension in the leash = forward movement stops. Loose leash = forward movement continues.\n\nTools that manage but don't train: front-clip harnesses and head halters prevent pulling mechanically but don't teach the behavior. Use them for safety while training loose-leash walking separately."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Test your dog's behavioral generalization by conducting a training session in a new location:\n\n1. Choose a location where you haven't trained before — a friend's yard, a quiet parking lot, a new room\n\n2. Ask for three behaviors your dog 'knows' well at home\n\n3. Note: how many repetitions does it take for the behavior to be reliable in the new location? How much higher does the reward need to be to maintain engagement?\n\n4. Return to the familiar location and note the difference\n\nThe results quantify your dog's current level of generalization. If reliable behaviors break down significantly in new locations, you need more context variation in your training before real-world reliability is expected.\n\nAfter testing, do a short (5-minute) training session in that new location, heavily rewarding correct responses. You've just added a new context to the dog's behavioral repertoire."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why do dogs fail to perform in new contexts despite appearing to know a behavior well at home?",
+          "otionA": "Dogs are testing limits in new environments — they 'know' the behavior but choose not to perform it when authority figures seem less present",
+          "optionB": "Dogs are context-specific learners — they learn behaviors in specific contexts and don't automatically generalize them to new ones. A dog who learned 'sit' in the kitchen hasn't learned 'sit in the park' — these are neurologically different learned associations",
+          "otionC": "New environments produce anxiety that disrupts learned behavior patterns — the dog is willing but psychologically unable to perform in stressful contexts",
+          "otionD": "Dogs are distracted in new environments — performance returns when distractions are removed",
+          "correctAnswer": "B",
+          "explanation": "Context-specific learning is fundamental to how dogs (and most animals) learn. The dog learned 'sit in context A' — this doesn't automatically transfer to context B. New context = need to train from scratch, starting with heavy reinforcement and low difficulty. Systematic training across many contexts (rooms, locations, people, distraction levels) builds genuine generalization."
+        },
+        {
+          "question": "What makes variable reinforcement schedules produce more persistent behavior than continuous reinforcement?",
+          "otionA": "Variable reinforcement keeps the dog alert because they must pay attention to which responses will be rewarded",
+          "optionB": "The unpredictability of variable reinforcement produces more resistant-to-extinction behavior — the dog continues performing because 'there might be a reward this time.' This is the same principle that makes gambling compulsive",
+          "otionC": "Variable reinforcement is more engaging because receiving a reward is surprising and surprising events are more memorable than expected ones",
+          "otionD": "Variable schedules allow the dog to eventually perform without external reinforcement because the behavior pattern becomes self-sustaining",
+          "correctAnswer": "B",
+          "explanation": "Skinner's variable ratio schedule produces the most extinction-resistant behavior: the very unpredictability of reinforcement maintains behavior. A dog on continuous reinforcement stops working when rewards stop (they've learned 'every behavior → reward → no reward means stop'). A dog on variable reinforcement keeps working because 'this might be the one that gets rewarded.' It's the slot machine principle — applied to dog training."
+        },
+        {
+          "question": "What is loose-leash walking and why is it self-reinforcing for dogs to pull?",
+          "otionA": "Pulling is self-reinforcing because dogs are pack animals who need to lead — it satisfies a hierarchical drive",
+          "optionB": "Pulling is self-reinforcing because it gets the dog where they want to go — the reinforcement is forward movement toward interesting smells, people, or destinations. Breaking this by stopping when pulling occurs removes the reinforcer that maintains the behavior",
+          "otionC": "Pulling is self-reinforcing because the physical resistance of the leash tension provides tactile stimulation that dogs find pleasurable",
+          "otionD": "Pulling is self-reinforcing because owners typically follow when dogs pull — the attention of the human following constitutes social reinforcement",
+          "correctAnswer": "B",
+          "explanation": "Pulling is naturally reinforced: the dog pulls → gets closer to what they want. Every walk on a tight leash where the dog gets where it wants to go reinforces pulling. Breaking this requires removing the reinforcer: dog pulls → forward movement stops completely. Dog eases → forward movement resumes. The dog learns that the leash rule is instrumental: loose leash = get where you want to go."
+        }
+      ]
+    },
+    {
+      "slug": "dog-socialization",
+      "title": "Socializing Your Dog",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Socialization is the lifelong process of exposing a dog to varied stimuli in ways that produce neutral or positive associations. The critical window is puppyhood (3-12 weeks) — but socialization doesn't stop there.\n\nAdult dogs who have been well-socialized as puppies still need ongoing social experience to maintain their comfort with the range of people, dogs, and situations they encounter. Dogs who were well-socialized as puppies but then spent years in limited environments often show regression — fearful or reactive behavior toward stimuli they previously handled well.\n\nThis lesson covers socialization as an ongoing practice — not a one-time achievement."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Reading Dog Body Language",
+          "content": "The most important socialization skill for owners is reading dog body language — understanding what the dog is communicating before problems escalate.\n\n**Calming signals (stress indicators):** Lip licking, yawning outside of tiredness, turning head away, sniffing the ground, blinking slowly. These signal mild discomfort or a request to de-escalate.\n\n**Fear body language:** Low body posture, tail tucked, ears back, whites of eyes showing (whale eye), avoiding approach. The dog is communicating 'I am uncomfortable.'\n\n**Arousal/excitement (can become problematic):** High tail, stiff body, focused stare, raised hackles. May be play excitement or predatory arousal — context determines which.\n\n**Play signals:** Play bow (front down, rear up), soft body, bouncy loose movement, play face (open mouth relaxed).\n\nThe key principle: if the dog is showing stress signals, remove from the situation or increase distance. Don't force interaction with something stressing the dog — this doesn't teach them it's safe, it teaches them that avoidance fails to provide relief."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Norwegian dog trainer Turid Rugaas coined the term 'calming signals' in her influential work to describe the communication behaviors dogs use to de-escalate tension — both in dog-to-dog and dog-to-human interactions.\n\nHer observation: dogs use subtle body language (yawning, slow blinking, turning away, sniffing the ground, curving the body during approach) specifically to communicate peaceful intent and request de-escalation. These signals are used with other dogs and with humans — dogs often yawn not because they're tired but because they're communicating 'I'm not a threat' or 'I need a break.'\n\nOwners who learn to recognize and respond to calming signals — by giving the dog space when they signal discomfort — find that their dogs become less reactive over time. The dog learns that signaling discomfort actually produces relief (the owner increases distance), which reduces the escalation to growling, snapping, or biting that occurs when early signals are ignored."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Reactive Dogs: Understanding and Managing",
+          "content": "Reactivity — excessive barking, lunging, or displaying aggression at specific triggers (dogs, strangers, cars) — is one of the most common problems in adult dogs. It is almost always driven by fear, anxiety, or frustration — not 'dominance' or 'bad behavior.'\n\nThe mechanics of reactivity:\n1. Dog encounters trigger at too-close distance\n2. Dog experiences fear/frustration\n3. Dog displays reactive behavior (barking, lunging)\n4. In most cases: trigger goes away (owner retreats, other dog passes)\n5. Dog's reactive behavior was reinforced — it made the scary thing leave\n\nThe reactive dog is often right that their behavior 'worked' to increase distance from the scary thing.\n\nModifying reactivity requires:\n- **Threshold management:** Never allowing the dog to encounter triggers at close enough range to react (below threshold)\n- **Counter-conditioning:** Pairing the trigger at a safe distance with high-value rewards, changing the emotional association from fear to anticipation\n- **Desensitization:** Gradually decreasing distance as the dog's emotional response changes\n\nReactivity is manageable but requires consistency, patience, and often professional guidance."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Counter-Conditioning and Desensitization",
+          "content": "**Counter-conditioning (CC):** Changing the emotional association with a stimulus — from negative (fear, anxiety) to positive (anticipation of good things). Implemented by pairing the feared stimulus with high-value food at a distance where the dog is not yet reactive.\n\nDog sees trigger at safe distance → immediate high-value treat delivery → trigger disappears → dog looks for more treats\n\nOver many repetitions: trigger sight → dog looks for treats (anticipation replaces fear)\n\n**Desensitization (DS):** Gradually decreasing the intensity of the feared stimulus — typically by decreasing distance, increasing duration, or increasing magnitude — as the dog's emotional response improves.\n\nCC and DS are almost always combined — the emotional change from CC enables the reduced reactivity threshold that DS tracks.\n\nCommon error: proceeding too fast. If the dog is reacting (barking, lunging, hard staring), they're over threshold — the emotional learning doesn't occur in this state. The protocol only works when the dog remains below their reactive threshold. Reduce distance, intensity, or duration until the dog can observe the trigger without reacting."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Practice reading your dog's stress signals in a normal daily situation:\n\n1. Take your dog on a walk in an area where you'll encounter mild stress opportunities (other dogs at a distance, unfamiliar people, traffic)\n\n2. Watch specifically for: lip licking, yawning, turning away, sniffing suddenly, slowing down, stiffening body\n\n3. When you see a stress signal, immediately do one of: increase distance from the trigger, remove from the situation, or redirect with a familiar behavior followed by treats\n\n4. Note: how does the dog's behavior change when you respond to their stress signals vs. when you miss them?\n\nDogs who learn that their calming signals produce relief (owner increases distance when the dog yawns or looks away) display fewer escalated stress responses. You're teaching the dog that communication works — which reduces their need to escalate to more dramatic displays."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What does a dog's lip lick, yawn, or sudden ground sniffing typically signal in a social context?",
+          "otionA": "The dog is thirsty, tired, or distracted by a smell — these are purely physical responses without communicative function",
+          "optionB": "Calming signals indicating mild discomfort or a request to de-escalate — the dog is communicating 'I'm stressed' or 'please calm down.' Responding by increasing distance or reducing intensity prevents escalation to more dramatic stress responses",
+          "otionC": "The dog is displaying dominance — these signals indicate confidence and a claim to space",
+          "otionD": "The dog is processing information — these signals occur during cognitive effort and indicate the dog is actively problem-solving the social situation",
+          "correctAnswer": "B",
+          "explanation": "Rugaas identified these as 'calming signals' — communicative behaviors dogs use to de-escalate tension. Lip licking, yawning outside of fatigue, turning away, sudden ground sniffing — these signal mild discomfort or peaceful intent. Owners who respond (increasing distance when these signals appear) teach the dog that communication works, which reduces escalation to growling, snapping, or biting."
+        },
+        {
+          "question": "Why does a reactive dog's lunging and barking behavior persist despite the owner's efforts to stop it?",
+          "otionA": "The behavior is reinforced by the owner's attention and correction — the reaction to the behavior is itself rewarding",
+          "optionB": "The trigger typically retreats or passes after the reactive display — the dog's behavior 'worked' to increase distance from the scary thing. This negative reinforcement (removal of feared stimulus) maintains the reactive behavior",
+          "otionC": "Reactivity is a genetic trait that doesn't respond to environmental modification — behavior management can only suppress it temporarily",
+          "otionD": "Punishment of reactive behavior strengthens it through arousal — the correction produces more stress, which produces more reactivity in a positive feedback loop",
+          "correctAnswer": "B",
+          "explanation": "Reactivity is maintained by negative reinforcement: dog reacts → scary thing goes away. From the dog's perspective, their barking and lunging 'worked' to produce relief. This is why the behavior persists despite corrections — the natural consequence of the behavior (scary thing retreats) outweighs owner corrections. Effective modification changes the emotional association with the trigger, not just the behavioral response."
+        },
+        {
+          "question": "Why is it critical to keep the dog below threshold during counter-conditioning?",
+          "otionA": "Threshold reactions produce excessive cortisol that interferes with treat motivation — dogs won't take treats when over threshold",
+          "optionB": "Emotional learning (counter-conditioning) only occurs in a calm or mildly aroused state — when the dog is reacting (over threshold), they're in a stress state where the fear response dominates and cannot be simultaneously paired with a positive emotional association. The protocol only works below threshold",
+          "otionC": "Over-threshold exposure accelerates desensitization through flooding — staying below threshold slows progress",
+          "otionD": "Reacting increases the strength of the fear memory consolidation — over-threshold exposures create stronger fears rather than neutral ones",
+          "correctAnswer": "B",
+          "explanation": "Counter-conditioning requires the dog to be below threshold — able to notice the trigger without reacting — because emotional learning (fear → neutral/positive) requires a receptive state. When the dog is reacting, they're in active fear/stress and cannot simultaneously form positive associations. Training above threshold doesn't achieve counter-conditioning; it may worsen sensitivity. The mantra: if the dog is reacting, you're too close — increase distance until below threshold."
+        }
+      ]
+    },
+    {
+      "slug": "canine-communication",
+      "title": "Understanding Canine Communication",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The most significant gap between dog owners who struggle and those who succeed is understanding what their dog is communicating. Dogs are extraordinarily expressive — they communicate continuously through body posture, facial expression, vocalizations, and behavioral patterns. The problem is that humans are trained to read human communication, which is structured very differently.\n\nThis lesson builds the fluency to 'read' a dog accurately — to understand what they're feeling and communicating before problems escalate."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Language of the Body",
+          "content": "Dog communication is primarily postural — it's the overall picture of the body that conveys meaning, not isolated signals:\n\n**Loose and wiggly body:** Relaxed, happy, socially engaged. Open mouth, wagging tail with full body involvement.\n\n**Stiff and still body:** Serious attention — could be alerting, assessing, or tense. Combined with staring: a warning.\n\n**Low, slow:** Fear or submission. Tail tucked, ear back, body low to ground.\n\n**High and rigid:** High arousal, confidence (or overconfidence), potential predatory arousal. Tail high and stiff, forward lean.\n\n**Whale eye (whites of eyes showing):** The dog is stressed enough to have a wide-eyed fear response — something is making them uncomfortable. Not anger; fear.\n\nImportant: evaluate the whole picture, not isolated signals. A wagging tail alone tells you nothing — a stiff dog wagging its tail may be displaying displacement behavior, not happiness. The wag combined with loose, wiggly body means happy; combined with stiff body means aroused or tense."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by Giorgio Vallortigara at the University of Trento found that dogs wag their tails differently depending on their emotional state — and that other dogs can detect and respond to these differences.\n\nWhen a dog sees something it wants to approach (like its owner), the tail wags more to the right side. When it sees something it wants to avoid or is uncertain about, the tail wags more to the left. This asymmetry reflects the fact that approach motivation is primarily controlled by the left hemisphere of the brain (which controls the right side of the body) and avoidance motivation by the right hemisphere.\n\nWhen other dogs observed these asymmetric wags, their heart rate and anxiety levels increased when they saw left-biased wags (another dog's avoidance state) — suggesting dogs read this communication. Humans cannot detect this asymmetry without slow-motion video.\n\nThe lesson: dog communication contains information that is not accessible to human perception but is being actively read by other dogs."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Growling: Never Punish the Warning",
+          "content": "Growling is the dog's warning system — it says 'I am uncomfortable enough to escalate if you don't stop.' It is the equivalent of someone saying 'please stop.'\n\nThe critical mistake: punishing growling. Many owners, understandably alarmed, punish the growl — which either suppresses it (the dog learns not to warn) or increases it (the dog learns the warning must be stronger).\n\n**Suppressing growling is dangerous:** A dog who no longer growls still bites — they just do so without warning. The bite seems 'out of nowhere' because the warning was trained away.\n\nThe appropriate response to growling:\n1. Honor the warning — increase distance, stop the interaction\n2. Identify what caused the growl (what was happening? what was the dog experiencing?)\n3. Address the underlying cause — is the dog in pain? Is an interaction threatening them? Is a resource being threatened?\n4. Work on the underlying discomfort, not the symptom\n\nA growl is information. It is telling you something important about your dog's state. Use it."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Appeasement and Dominance Theory",
+          "content": "**Appeasement behaviors** are submissive signals — behaviors that communicate 'I'm not a threat' and seek to de-escalate tension. Rolling onto the back, exposing the belly, licking at another's mouth, tucking the tail, averting the gaze — all are appeasement.\n\nThese behaviors evolved to reduce conflict in social species. A lower-status dog can appease a higher-status one; a frightened dog can appease an approaching dog; a fearful dog can appease a scary human.\n\n**Dominance theory:** The outdated view that dogs operate in strict dominance hierarchies and that behavioral problems stem from dogs 'challenging' for leadership — requiring humans to 'dominate' them.\n\nModern behavioral science has largely rejected this model as applied to pet dogs:\n- Dominance hierarchies in wolves are more flexible and contextual than originally reported\n- Dog packs (even when they form) show different social structures than wolf packs\n- 'Dominant' behavior problems (jumping, pulling, not listening) are almost always explained better by reinforcement history and insufficient training than by dominance\n- 'Dominating' dogs through alpha rolls and physical intimidation suppresses behavior and damages the relationship without addressing the actual behavioral need"
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Body language observation exercise:\n\n1. Watch a video of two dogs meeting and interacting — YouTube has many examples of dog-to-dog greetings. Watch with the sound off.\n\n2. For each dog, note:\n   - Body posture: high/low, stiff/loose?\n   - Tail position and movement: high, low, neutral, wagging (loose or stiff)?\n   - Facial expression: open/closed mouth, whale eye present?\n   - Approaching or avoiding movement?\n\n3. What does each dog seem to feel about the interaction? Who initiates, who defers?\n\n4. Now watch with sound on — do the vocalizations add information, or was the body language already telling the full story?\n\nMost experienced dog trainers can predict the outcome of a dog-dog interaction from the first 2-3 seconds of visual observation — because the body language tells them everything. This skill is learnable through observation."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why is a wagging tail not sufficient evidence that a dog is happy or safe to approach?",
+          "otionA": "Some dogs wag their tails more than others based on breed and personality — the tail tells you about individual variation, not current mood",
+          "optionB": "A wag must be evaluated in context of the whole body — a loose, wiggly body with a wag signals happiness; a stiff, rigid body with a wag signals arousal or tension. The wag alone conveys no reliable emotional information",
+          "otionC": "Tail wags are learned behaviors that dogs use to manipulate human responses — they don't reliably indicate actual emotional state",
+          "otionD": "The direction of wag (left vs. right) is the key variable — tail direction, not simply the presence of a wag, indicates the dog's emotional orientation",
+          "correctAnswer": "B",
+          "explanation": "The tail wag must be read in context of the whole body. Loose, wiggly body + wag = happy. Stiff, rigid body + wag = aroused or tense (possibly a warning). The wag alone provides no reliable information about the dog's emotional state or safety. This is why 'but the dog was wagging its tail' does not indicate the dog was safe before a bite."
+        },
+        {
+          "question": "Why is punishing growling dangerous?",
+          "otionA": "Punishing growling is dangerous because it escalates the dog's arousal state, which can trigger biting",
+          "optionB": "Growling is the dog's warning system. Punishing it either suppresses the warning (dog still bites but without warning, making bites seem 'out of nowhere') or makes warnings stronger. Either outcome increases danger",
+          "otionC": "Punishment of any vocalization is counterproductive because it suppresses communication while the underlying emotion remains",
+          "otionD": "Punishing growling damages the human-dog trust relationship, making it more difficult to identify future stress signals",
+          "correctAnswer": "B",
+          "explanation": "Growling is information — 'I'm uncomfortable enough to escalate if this continues.' Punishing it teaches the dog not to growl — but doesn't address the underlying discomfort. The dog still feels the same discomfort; they just don't warn anymore. This produces dogs who bite without warning — bites that seem 'unprovoked' because the warning was trained away. A dog who growls is giving you information. Honor the warning; address the cause."
+        },
+        {
+          "question": "What is the main problem with applying 'dominance theory' to explain common dog behavioral problems?",
+          "otionA": "Dominance theory is only applicable to interactions between dogs, not between dogs and humans",
+          "optionB": "Dominance theory overcomplicates simple problems — jumping, pulling, and not listening are explained better by reinforcement history and insufficient training than by dogs 'challenging for leadership.' 'Dominance-based' interventions suppress behavior through fear while failing to teach what to do instead",
+          "otionC": "Dominance theory is scientifically valid for wolf packs but doesn't account for the differences in dog-human vs. dog-dog dynamics",
+          "otionD": "Dominance theory is useful for large breeds but misapplied to small dogs who don't form hierarchical social structures",
+          "correctAnswer": "B",
+          "explanation": "Modern behavioral science rejects dominance theory as an explanation for most pet dog problems. A dog who jumps, pulls, or doesn't respond to commands is almost always operating from reinforcement history — these behaviors were reinforced, and/or incompatible behaviors were never trained. Dominance-based interventions (alpha rolls, physical confrontation) suppress behavior through intimidation without teaching alternatives, and damage the human-dog relationship — a costly approach for problems that positive training readily resolves."
+        }
+      ]
+    },
+    {
+      "slug": "beyond-basics",
+      "title": "Taking Your Dog Beyond the Basics",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "A dog who reliably sits, stays, comes when called, and walks politely on a leash is a dog who can participate fully in your life — who can go to outdoor cafes, visit friends, hike, and be trusted in most situations. That's the goal: not a dog who performs tricks, but a dog who is genuinely well-integrated into your world.\n\nThis lesson covers the behaviors that take you there — the recall, the stay, and the practical applications of training in real-world contexts."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Reliable Recall: The Most Important Behavior",
+          "content": "A reliable recall — coming when called in any situation — is the single most important safety behavior a dog can have. It can literally save a dog's life if they're running toward traffic or approaching a dangerous dog.\n\nBuilding a bombproof recall:\n\n**Never call the dog for anything unpleasant:** The 'come' cue must predict wonderful things. If you call the dog to trim nails, give medicine, or end playtime, the cue becomes associated with unpleasant outcomes — and the dog begins ignoring it.\n\n**Call for good things:** Call the dog to receive a high-value treat, for dinner, for play. Make coming to you one of the best things that ever happens.\n\n**Never punish a returned dog:** Even if the dog was doing something wrong — if they come, they get rewarded. Punishing a returned dog teaches the dog that coming = bad things happen.\n\n**Recall training sequence:**\n1. Say the dog's name + 'come!'\n2. Immediately back up (movement away triggers following)\n3. When dog arrives: massive reward — jackpot treat, excited praise, play\n4. Practice in increasingly distracting environments\n5. Never call unless 95%+ sure the dog will come — use a long line otherwise"
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The AKC's Canine Good Citizen (CGC) program — established in 1989 and now recognized by all 50 US states — tests dogs and owners on ten practical skills including sitting politely for petting, walking on a loose leash, reacting appropriately to other dogs, and basic commands.\n\nOver 800,000 dogs have earned their CGC certification. Many landlords, insurance companies, and community organizations use CGC certification as evidence of a well-trained dog. The test is open to all dogs — mixed breeds, purebreds, and rescue dogs — and is designed to represent the practical skills of a 'good citizen' dog in the community.\n\nBeyond CGC, dogs trained for specific work — service dogs, search and rescue, therapy dogs — represent the pinnacle of human-dog partnership. The cognitive demands placed on service dogs are extraordinary: medical alert dogs train to detect specific biomarkers in breath or sweat and respond with precise, life-saving behaviors — demonstrating the remarkable depth of human-canine cooperation when training and relationship are at their best."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Building a Stay",
+          "content": "Stay — or 'wait,' which some trainers prefer because it implies patience rather than permanence — is built in three components:\n\n**Duration:** How long the dog holds the position. Build duration first. Ask for 1 second of stay, reward, release. Gradually increase to 5, 15, 30, 60 seconds before adding any other element.\n\n**Distance:** How far away you can move while the dog holds position. Only add distance after duration is reliable. Move one step away, return, reward before the dog moves. Gradually increase.\n\n**Distraction:** Maintaining the stay while distractions are present. Only add distraction after duration and distance are reliable.\n\nThe release cue is as important as the stay cue. Dogs must be explicitly released from a stay — 'okay' or 'free.' Without a release cue, the dog has to guess when the stay is over, which makes stays unreliable.\n\nCommon error: only practicing short stays, then expecting long ones in high-distraction environments. The stay that holds for 5 minutes at home takes 5-10 minutes of daily training for 4-8 weeks to achieve reliably."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Trick Training and Canine Enrichment",
+          "content": "**Trick training** is the practice of teaching dogs complex, novel behaviors beyond the standard obedience repertoire — spinning, playing dead, fetching specific items by name, identifying objects, and more.\n\nTrick training's value goes beyond performance:\n- It provides cognitive enrichment — the problem-solving involved in learning new behaviors is mentally exhausting in the best way\n- It builds the human-dog training relationship — shared activity, communication, and positive reinforcement\n- It improves the dog's 'operant behavior' — their ability to try new things and learn — which accelerates all subsequent training\n- It gives shy or fearful dogs confidence — learning that they can produce consequences through behavior is empowering\n\nThe technique of 'shaping' — rewarding successive approximations of a final behavior — is the most powerful tool for trick training. The dog figures out what to do rather than being lured or guided, producing a more engaged, confident learner.\n\nTrick training 15 minutes a day is one of the highest-quality enrichment activities available for most dogs."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Begin recall training with the following 5-minute protocol:\n\n1. Get 15 high-value treats (small pieces of real meat or cheese)\n\n2. In your house, when the dog is not looking at you, say their name + 'come!' in a happy, inviting tone\n\n3. When they look at you: immediately back up (move away from the dog) while saying 'come!'\n\n4. When they reach you: deliver ALL 15 treats, one at a time, with enthusiastic praise\n\n5. Repeat twice with 5 treats each\n\nThe massive reward for the first few recalls is critical — you're establishing that coming when called is the best thing that ever happens. \n\nFor the next month: call the dog 3-5 times per day for wonderful things. Keep a treat pouch accessible. Track: how many times did you call and reward vs. how many times did you call for something the dog might find unpleasant? Adjust until the ratio is 10:1 positive."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why should you never punish a dog that comes to you when called — even if they were doing something wrong?",
+          "otionA": "Punishment at the wrong moment is confusing — the dog doesn't connect the punishment to the original wrong behavior",
+          "optionB": "Punishing a returned dog teaches that coming = bad things happen — which undermines the recall. The dog will begin ignoring or avoiding the 'come' cue. Even if the dog was misbehaving, rewarding them for coming maintains the recall's reliability, which may save their life",
+          "otionC": "Physical proximity to the dog makes punishment unnecessarily stressful — corrections should be delivered from a distance during the behavior, not after the dog has returned",
+          "otionD": "Dogs cannot connect punishment to past behavior once they've moved to a new activity — all punishment of returned dogs is simply punishment for approaching the human",
+          "correctAnswer": "B",
+          "explanation": "If the dog comes when called and receives punishment, they learn: 'coming to owner = bad things happen.' This directly undermines the most important safety behavior. Even if the dog was doing something wrong, rewarding them for coming maintains the recall's reliability. Address the previous misbehavior separately (management, training). Never, ever punish a dog that comes to you."
+        },
+        {
+          "question": "What order should the Three Ds be added when building a reliable stay?",
+          "optionA": "Distance, then distraction, then duration — start by moving away from the dog, then add environmental challenges, then extend the duration",
+          "optionB": "Duration first (how long), then distance (how far the owner moves), then distraction (environmental challenges) — each added only after the previous is reliable. Adding all three simultaneously almost always results in failure",
+          "otionC": "Distraction first — because real-world stays always occur in distracting environments, training distraction first prepares the dog for actual use",
+          "otionD": "The three Ds should be added simultaneously from the beginning — progressive challenges produce faster learning than sequential ones",
+          "correctAnswer": "B",
+          "explanation": "Stay is built: Duration first (hold for increasing time in one spot), then Distance (owner moves away while dog holds), then Distraction (environmental challenges while holding). Adding all three simultaneously at the beginning produces failure — the dog doesn't know which element to focus on and can't succeed at any. Sequential development produces a reliable stay that can handle all three elements."
+        },
+        {
+          "question": "What makes trick training valuable beyond entertainment?",
+          "optionA": "Tricks provide physical exercise that supplements walks — the movement involved in learning and performing tricks contributes to daily fitness",
+          "optionB": "Trick training provides cognitive enrichment, builds the human-dog training relationship, improves the dog's willingness to try new behaviors (operant conditioning), and builds confidence in shy or fearful dogs — all beyond entertainment value",
+          "otionC": "Tricks establish communication protocols that transfer to real-world obedience — trick dogs are generally more obedient because they have more behavioral vocabulary",
+          "otionD": "Trick training is primarily valuable as a demonstration of training ability — it signals to other dog owners that the dog is well-trained and approachable",
+          "correctAnswer": "B",
+          "explanation": "Trick training's value: cognitive enrichment (problem-solving during learning), relationship building (positive shared activity), improved operant ability (dogs who learn tricks become better learners generally), and confidence building (knowing you can produce consequences through behavior is empowering for fearful dogs). 15 minutes of trick training/shaping is one of the richest enrichment activities for most dogs."
+        }
+      ]
+    }
+  ]
+}

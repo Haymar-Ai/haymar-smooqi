@@ -1,0 +1,293 @@
+{
+  "courseSlug": "style-essentials",
+  "lessons": [
+    {
+      "slug": "understanding-personal-style",
+      "title": "What Style Is and Why It Matters",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Clothing is communication. Before you say a word, your appearance has already told the room something about who you are, how you see yourself, and what you expect from the interaction. This communication happens whether you intend it or not — the only question is whether you're sending the message you want.\n\nStyle isn't about fashion — following trends for their own sake. Style is about developing a visual language that authentically represents you while serving your goals in specific contexts. Done well, it's invisible — people respond positively without knowing exactly why. Done poorly, it creates friction that undermines everything else.\n\nThis course builds that visual language from the ground up."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Psychology of Appearance",
+          "content": "Research on first impressions consistently finds that appearance significantly influences initial judgments — and those judgments shape subsequent interactions:\n\n**The halo effect:** Positive appearance cues generate positive assumptions across unrelated traits. Well-dressed people are rated as more intelligent, competent, and trustworthy — before they've said or done anything.\n\n**Context-appropriateness matters most:** Research by Adam Galinsky at Columbia found that people wearing 'doctor's coats' performed better on attention tasks than those wearing 'painter's smocks' — identical white coats, different perceived contexts. The clothes didn't just signal to others; they influenced the wearer's own cognition and confidence.\n\n**Comfort and authenticity:** Clothing that feels genuinely chosen and congruent with self-perception produces different self-presentation than clothing that feels like performance or costume. Authentic style produces genuine confidence; forced or uncomfortable style produces self-consciousness."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Albert Mehrabian's research found that first impressions are formed within the first 7-17 seconds of meeting someone — and that visual information (appearance, body language) dominates these initial assessments.\n\nMore practically: research by Princeton psychologists Janine Willis and Alexander Todorov found that people make judgments about trustworthiness, attractiveness, and competence from a face in as little as 100 milliseconds — before conscious processing.\n\nThese rapid judgments are then updated by contextual cues — including clothing. A person in clean, context-appropriate clothing who makes a faux pas is more quickly forgiven than a person whose appearance created a negative initial impression and then committed the same error.\n\nThe practical lesson isn't to obsess over appearance — it's to understand that appearance creates context in which everything else you do is interpreted. Appropriate, considered dress creates a favorable context that makes everything else work better."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Building Blocks of Style",
+          "content": "Style is built on four foundations:\n\n**Fit:** The single most important element of clothing. A moderately priced garment in perfect fit looks better than an expensive one that fits poorly. Fit means: shoulders sit on the actual shoulder; sleeves end at the correct length; the body is neither swimming in fabric nor straining against it; trousers or skirts hit the correct length.\n\n**Quality:** In key wardrobe pieces (suits, shoes, outerwear), quality matters more than quantity. One excellent blazer outperforms four mediocre ones. Quality shows in construction, fabric, and how the garment maintains its shape after wearing and washing.\n\n**Color:** Understanding which colors work with your skin tone, hair, and eye color, and how to build a coherent color palette that creates harmony rather than visual noise.\n\n**Proportion and silhouette:** The relationship between clothing shapes and your body shapes. Clothing should either mirror your proportions (fitting your actual shape) or create the optical illusion of proportions you prefer."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Dress Codes Decoded",
+          "content": "Understanding dress codes saves significant anxiety and creates the right impression:\n\n**Business formal/Black tie:** Tuxedo (men) or formal gown (women). Reserved for evening formal events.\n\n**Business professional:** Traditional suits in conservative colors (navy, charcoal, black), conservative shirts/blouses. Standard in law, finance, corporate environments.\n\n**Business casual:** Smart separates, blazers without full suit, polished without being formal. Common in most corporate environments.\n\n**Smart casual:** Elevated casual — tailored trousers or dark jeans, button shirts, sweaters, quality shoes. Most social events, casual professional settings.\n\n**Casual:** Whatever's comfortable. NOT applicable to most professional contexts despite employees sometimes wishing otherwise.\n\nThe rule: when in doubt, dress one level higher than you think is necessary. It is significantly easier to dress down (remove a blazer) than to dress up (you can't add formality that isn't there). Overdressing reads as effort; underdressing reads as disrespect."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Conduct a wardrobe audit in three steps:\n\n**Step 1 — Pull everything out.** Physically remove all clothing from your closet and drawers. You need to see what you actually have.\n\n**Step 2 — Sort into three piles:**\n- Keep: you wear it regularly, it fits well, it reflects who you are\n- Repair/tailor: you'd wear it if it fit better or needed a button replaced\n- Release: hasn't been worn in 6+ months, doesn't fit, doesn't represent you\n\n**Step 3 — Identify gaps:** What occasions do you regularly need clothing for that aren't covered by your 'keep' pile? What would a complete, functional wardrobe for your life actually include?\n\nThe goal is not a smaller closet — it's a more useful one. Most people have many clothes and nothing to wear because they have many poorly fitting, poorly coordinated items rather than fewer well-chosen ones."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did Galinsky's 'enclothed cognition' research find about clothing's effect on the wearer?",
+          "optionA": "Clothing affects how others perceive you but not how you perceive yourself",
+          "optionB": "People wearing 'doctor's coats' performed better on attention tasks than those in 'painter's smocks' — identical white coats with different perceived meanings. Clothing influences not just how others perceive you but your own cognition, confidence, and performance",
+          "optionC": "Formal clothing consistently improves cognitive performance by signaling professionalism to the unconscious mind",
+          "optionD": "Wearing comfortable clothing improves performance by reducing physical distraction — the enclothed effect is actually about physical comfort",
+          "correctAnswer": "B",
+          "explanation": "Galinsky's enclothed cognition: the same white coat had different cognitive effects depending on whether participants were told it was a 'doctor's coat' or 'painter's smock.' The symbolic meaning of clothing affects the wearer's own behavior and performance — not just others' perceptions. Clothes you believe represent competence can actually improve your performance on tasks associated with that competence."
+        },
+        {
+          "question": "Why is fit described as the single most important element of style?",
+          "optionA": "Fit is most important because poorly fitting clothes are physically uncomfortable and create distraction",
+          "optionB": "A moderately priced garment in perfect fit consistently looks better than an expensive one that fits poorly — fit determines whether clothing looks intentional and appropriate or sloppy and careless, regardless of brand or price",
+          "optionC": "Fit is prioritized because it's the easiest element to control — unlike color or quality, fit can be adjusted through tailoring",
+          "optionD": "Fit is most important because it signals body awareness and self-care — it communicates that you pay attention to yourself",
+          "correctAnswer": "B",
+          "explanation": "Fit is the foundation because it determines whether clothing looks intentional. A $50 shirt in perfect fit looks better than a $500 one that fits poorly. Good fit shows shoulders sitting correctly, sleeves at proper length, body neither swimming in fabric nor straining against it. No amount of quality or good color can compensate for poor fit — and almost any item can look better with tailoring."
+        },
+        {
+          "question": "What is the rule when you're uncertain about a dress code?",
+          "optionA": "Default to business casual — it bridges most occasions appropriately without risk of significant over or underdressing",
+          "optionB": "Dress one level higher than you think is necessary — overdressing reads as effort and respect; underdressing reads as disrespect or carelessness. It's much easier to dress down (remove a blazer) than to dress up from insufficient formality",
+          "optionC": "Ask the host or check with other attendees — presumption about dress codes without checking is the most common source of style errors",
+          "optionD": "Match what you've observed others wearing at similar events with the same host or organization — consistency with established norms is safest",
+          "correctAnswer": "B",
+          "explanation": "When uncertain, dress one level higher. Overdressing signals effort and respect. Underdressing signals you didn't think the occasion worth preparation. More practically: overdressing has a solution (remove the blazer, unbutton the top button) — underdressing does not. The cost of overdressing is minor self-consciousness; the cost of underdressing is the impression that undermines your goals in that interaction."
+        }
+      ]
+    },
+    {
+      "slug": "building-a-wardrobe",
+      "title": "Building a Functional Wardrobe",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Most people's wardrobes are the result of accumulated individual purchases — items bought for specific occasions without a coherent plan. The result: closets full of clothes that don't work together.\n\nA functional wardrobe is built intentionally: a curated collection where most items work with most other items, covering your actual life occasions with enough variety to avoid repetition.\n\nThis lesson covers the concept of the capsule wardrobe — a small, versatile, cohesive collection — and how to build one for your life."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Capsule Wardrobe",
+          "content": "The capsule wardrobe concept (popularized by Susie Faux in the 1970s, later by fashion designer Donna Karan) is a small collection of essential, timeless items that can be combined in many ways.\n\nA classic men's capsule (30-40 items):\n- 2-3 suits (navy, charcoal, gray)\n- 5-7 dress shirts\n- 2-3 quality jeans\n- 4-5 quality t-shirts and casual shirts\n- 1-2 versatile sweaters/pullover\n- 1-2 blazers (navy, gray)\n- Quality outerwear appropriate for climate\n- 3-4 pairs of shoes covering formal to casual\n- 10+ belts, socks, accessories\n\nA classic women's capsule:\n- 2-3 blazers\n- 3-5 blouses/tops in neutral and one or two accent colors\n- 2-3 trousers/skirts\n- 1-2 dresses (one formal, one casual)\n- Quality jeans\n- Versatile shoes (heels, flats, boots)\n- Key accessories (watch, belt, bag)\n\nThe principle: most items are neutrals (navy, gray, white, black, camel) that pair with everything; 20-30% are accent colors or patterns that add personality."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Decision fatigue — the deterioration of decision quality after a long session of decisions — is why Barack Obama, Mark Zuckerberg, and Steve Jobs became famous for wearing the same or nearly identical outfits daily.\n\nObama was quoted: 'You'll see I wear only gray or blue suits. I'm trying to pare down decisions. I don't want to make decisions about what I'm eating or wearing. Because I have too many other decisions to make.'\n\nThis reflects a real cognitive phenomenon: Roy Baumeister's research shows that decision-making depletes a limited cognitive resource. By automating daily clothing choices, these individuals preserved cognitive capacity for higher-stakes decisions.\n\nFor most people, the answer isn't a uniform — it's a well-organized, coherent wardrobe where combinations are obvious. When most items work with most other items, the 'what to wear' decision requires minimal cognitive effort."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Cost-Per-Wear: The Real Measure of Value",
+          "content": "The price tag of a garment is almost never the right way to evaluate its value. Cost-per-wear (CPW) is a more accurate measure:\n\n**CPW = Purchase price ÷ Number of times worn**\n\nA $300 blazer worn 100 times has a CPW of $3. A $30 trendy piece worn twice has a CPW of $15.\n\nInvestment categories (high spend, long wear, high CPW):\n- Quality shoes: touch the ground and are visible — buy the best you can afford\n- Outerwear: worn over everything, seen in all contexts\n- Suits (if you wear them): foundational formal pieces\n- Key everyday items: the dress shirt you wear 3x/week\n\nSave money on:\n- Trendy pieces (short lifespan regardless of price)\n- Gym and loungewear\n- Seasonal items (summer dresses, winter-only pieces)\n- Items where fit is the main variable (basics that can be tailored)\n\nThe best wardrobe strategy: buy fewer, better things in the high-investment categories and be strategic about the rest."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Color Theory for Clothing",
+          "content": "**Warm vs. cool tones** divide most skin tones and most colors:\n\n**Warm skin tones** (golden, peachy, olive undertones) are generally flattered by warm colors: camel, rust, warm brown, gold, olive green, warm whites (cream), warm reds, coral.\n\n**Cool skin tones** (pink, blue, or neutral undertones) are generally flattered by cool colors: navy, charcoal, true black, cool grays, pure white, jewel tones (sapphire, emerald), cool pinks.\n\n**Building a color palette:** Most wardrobe experts recommend:\n- 2-3 neutral bases (navy + gray, navy + camel, black + gray, etc.)\n- 1-2 accent colors that complement your skin tone\n- Pattern and texture as variety tools within this palette\n\nA coherent color palette means pieces naturally go together. A random collection of colors means each purchase requires finding exact matches rather than being inherently compatible."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Identify your wardrobe's three biggest gaps:\n\n**Step 1:** List the 10 situations/contexts you dress for most regularly (work meetings, casual weekends, formal events, gym, etc.) in order of frequency.\n\n**Step 2:** For each of the top 5 situations, note: does your current wardrobe fully handle this context? Is there a specific gap?\n\n**Step 3:** Identify the 3 items that would most dramatically improve your wardrobe's functionality. These are your next purchases — in order of priority.\n\n**Buying protocol:**\n- Before each purchase, ask: does this work with at least 3 things I already own?\n- Touch it; look at it critically; consider fit first\n- If buying online: read the return policy before purchasing\n\nA strategic 'shopping list' prevents impulse purchases and directs spending to where it actually improves wardrobe function."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is cost-per-wear (CPW) and how should it change purchasing decisions?",
+          "optionA": "Cost-per-wear is the price divided by the number of years you expect to own the garment — a measure of durability value",
+          "optionB": "CPW = purchase price ÷ number of times worn. An expensive item worn frequently has lower CPW than a cheap item worn rarely — directing investment to high-frequency wardrobe staples and allowing economy on trend-driven or occasion-specific pieces",
+          "optionC": "CPW is the social cost of wearing an item repeatedly in the same contexts — more visible items have higher social CPW costs",
+          "otionD": "CPW is used primarily by professional stylists to justify high-end purchases — it's a marketing concept more than a practical financial tool",
+          "correctAnswer": "B",
+          "explanation": "CPW = price ÷ times worn. A $300 blazer worn 100 times costs $3/wear. A $30 trendy piece worn twice costs $15/wear. This reframes what 'expensive' means: frequency of use is as important as price. Invest heavily in high-frequency staples (great shoes, quality outerwear, everyday basics); be strategic with trendy or occasion-specific pieces regardless of their price."
+        },
+        {
+          "question": "What is the principle of the capsule wardrobe?",
+          "optionA": "A wardrobe limited to the minimum number of items needed — extreme minimalism applied to clothing",
+          "optionB": "A small, curated collection where most items work with most other items, covering actual life occasions in a coherent color palette — producing many outfit combinations from a smaller number of pieces, reducing decision fatigue and increasing coherence",
+          "otionC": "A wardrobe built around one signature color or style that creates a recognizable personal brand",
+          "otionD": "A travel-focused wardrobe of highly packable, wrinkle-resistant pieces that work across multiple contexts in limited luggage",
+          "correctAnswer": "B",
+          "explanation": "The capsule wardrobe: a curated set of essentials where most items pair naturally with most others — primarily neutrals with some accents — covering your life occasions. The goal is outfit flexibility from fewer pieces, reduced decision fatigue, and visual coherence. Most items are timeless rather than trendy, producing a stable foundation supplemented by seasonal or personal accent pieces."
+        },
+        {
+          "question": "Why do warm skin tones and cool skin tones generally look better in different color palettes?",
+          "otionA": "Warm and cool colors reflect different light wavelengths that interact differently with melanin and hemoglobin in skin — the optical contrast creates harmony or dissonance",
+          "optionB": "Colors have undertones (warm/cool) that contrast with or complement the undertones in skin, hair, and eyes — matching undertones create visual harmony while mismatching creates a washed-out or clashing appearance that draws attention to the garment rather than the person",
+          "otionC": "Cultural associations with warm and cool colors affect how they're perceived on different skin tones — social meaning rather than optical effect drives the preference",
+          "otionD": "Warm skin tones absorb warm colors well and cool skin tones absorb cool colors — the absorption affects how vivid the color appears on different people",
+          "correctAnswer": "B",
+          "explanation": "Colors have undertones — warm (golden, orange-based) or cool (blue, purple-based). When a garment's undertones match the skin's undertones, the combination creates visual harmony — the person 'glows.' When they conflict, attention goes to the discordance rather than the person. This is the basis of 'seasonal color analysis' and personal color consultation — finding which undertone ranges flatter a specific individual."
+        }
+      ]
+    },
+    {
+      "slug": "grooming-and-accessories",
+      "title": "Grooming, Fit, and the Details That Matter",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The most beautifully chosen outfit is undermined by unpolished shoes, an ill-fitting collar, or unattended grooming. Style is not only what you wear — it's the overall presentation, including your grooming, your fit precision, and the accessories that complete the look.\n\nThese details are where most people stop investing attention. And it's exactly where their style is undermined. The person who masters the details always looks more put-together than the person who focuses only on the garments themselves."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Grooming: The Foundation Under the Clothes",
+          "content": "Grooming is the context in which all clothing is read. Great clothing on an ungroomed person still reads as careless.\n\n**Skin care:** Clean, moisturized skin as a baseline. For men who shave: a clean shave or well-maintained beard. For everyone: attention to the skin as the most visible surface.\n\n**Hair:** Regular cuts or consistent styling. Hair that looks intentionally styled vs. hair that hasn't been addressed are dramatically different signals.\n\n**Hands and nails:** In professional interactions, hands are frequently visible. Clean, trimmed nails and smooth hands are noticed more in their absence than their presence.\n\n**Clothing maintenance:** Clean, pressed (or appropriate for casual), free of pills, stains, and damage. A great garment that hasn't been cared for reads worse than a mediocre garment in perfect condition.\n\n**Scent:** Light, appropriate fragrance (or none) vs. overwhelming fragrance. The principle: the fragrance should be noticed when someone enters your personal space, not across the room."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Shoe care is considered by many style experts to be the single most revealing grooming indicator — and research on first impressions partially supports this.\n\nA 2012 study published in the Journal of Research in Personality found that observers could correctly predict 90% of personality traits (income, age, political affiliation, emotional stability) from photographs of shoes alone — with accuracy well above chance.\n\nShoe quality and condition are among the most economically significant signals in professional environments: studies of job interview outcomes consistently find that shoe quality and cleanliness positively correlate with interviewer ratings of professional competence, even controlling for other appearance factors.\n\nThe style community's emphasis on shoes ('you can tell everything about a person by their shoes') turns out to have some empirical support — shoes are disproportionately informative, perhaps because they're chosen semi-automatically and often reveal unconscious priorities."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Accessories: The Style Amplifiers",
+          "content": "Well-chosen accessories do three things that garments alone cannot:\n\n**They express personality within a conservative framework:** A navy suit is conservative; the tie, pocket square, watch, and cufflinks express individuality. A classic black dress is versatile; the jewelry, shoes, and bag transform it into a personal statement.\n\n**They can significantly upgrade or downgrade the impression of the whole outfit:** A quality watch and leather belt upgrade even casual clothing. A plastic belt and fashion watch undermine even quality clothing.\n\n**They're the most flexible part of a wardrobe:** 10 scarves, ties, or jewelry pieces can create 10 very different looks from the same core outfit — the most economical way to create variety.\n\nKey rules for accessories:\n- Match metals: gold hardware and gold watch, not mixed\n- Match leathers: brown shoes and brown belt\n- Fewer pieces, higher quality — one excellent watch is better than five cheap ones\n- Appropriate scale: jewelry and accessories should be proportionate to the rest of the outfit and the wearer's scale"
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Tailoring: The Style Multiplier",
+          "content": "**Tailoring** is the alteration of garments to fit a specific body — transforming a 'good enough' fit into a precise one. For most people, off-the-rack clothing is designed for average measurements that may not match their specific proportions.\n\nMost commonly needed tailoring:\n- **Sleeve length:** Shirt and jacket sleeves that are too long or short\n- **Trouser break:** The amount of fabric resting on the shoe — one break (slight fold at the shoe) vs. no break vs. full break dramatically changes the silhouette\n- **Shirt body:** Taking in the sides of a shirt to reduce excess fabric\n- **Jacket body:** Suppressing the waist of a suit jacket to create better silhouette\n\nCost: most basic alterations cost $15-50 and are available at local tailors or dry cleaning establishments.\n\nThe calculation: a $150 suit that fits perfectly after $50 in tailoring is better value than a $300 suit that fits poorly and is left unaltered. Tailoring is the highest-return investment in wardrobe quality."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Conduct a grooming and accessories audit:\n\n**Grooming:**\n- When did you last have a haircut? Is it time?\n- Skin care routine: are you moisturizing after washing? Do you need anything else?\n- Shoes: identify your most-worn pair. Polished? Any visible damage? Could they be resoled or cleaned?\n\n**Accessories:**\n- Lay out all your accessories (watches, belts, ties or scarves, jewelry)\n- Do your belts and shoes match? (Brown with brown, black with black)\n- Are there items that have better, more elegant alternatives you could invest in?\n\n**Tailoring:**\n- Pull out two or three garments that you like but don't wear because they fit 'almost' right\n- Bring one to a local tailor for an estimate\n\nIf you fix only one thing today: polish or clean your most-worn shoes. The return on that 15 minutes of effort is disproportionate."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why are shoes disproportionately informative as style signals according to research?",
+          "otionA": "Shoes are expensive and their price is therefore a reliable indicator of socioeconomic status and personal investment",
+          "optionB": "Shoes are chosen somewhat automatically and reveal unconscious priorities — research found observers could predict 90% of personality traits from shoe photographs alone with above-chance accuracy. In professional contexts, shoe quality and condition correlate with competence ratings",
+          "otionC": "Shoes are the only wardrobe element that must be functional before being stylish — their form-function relationship reveals character",
+          "otionD": "Shoes are assessed last in first impressions and therefore linger in memory — recency effects make them disproportionately memorable",
+          "correctAnswer": "B",
+          "explanation": "The 2012 Journal of Research in Personality study found observers could correctly infer personality traits from shoes alone with 90% accuracy. In professional settings, shoe quality and care correlate with competence ratings. Possibly because shoes are selected somewhat automatically (revealing unconscious priorities) and are among the most honest signals of how much attention someone pays to their overall presentation."
+        },
+        {
+          "question": "What is the role of tailoring in a wardrobe strategy?",
+          "optionA": "Tailoring is for formal garments only — casual clothing doesn't benefit from alterations",
+          "optionB": "Tailoring transforms good-enough off-the-rack fit into precise fit — a $150 suit tailored for $50 is better value than a $300 suit worn as-is. It's the highest-return investment in wardrobe quality",
+          "otionC": "Tailoring is primarily for people with unusual body proportions — those with standard measurements don't need alterations",
+          "otionD": "Tailoring is appropriate only after purchasing the highest-quality version of a garment — alterations can't compensate for poor construction",
+          "correctAnswer": "B",
+          "explanation": "Tailoring is the highest-return wardrobe investment: modest alterations transform adequate fit into precise fit, dramatically improving how any garment looks. The calculation — $150 garment + $50 tailoring vs. $300 garment unaltered — consistently favors the tailored option. Most people should have the basic alterations (sleeve length, trouser break, body suppression) done on their key wardrobe pieces."
+        },
+        {
+          "question": "What three functions do accessories serve that garments alone cannot?",
+          "optionA": "Protection, comfort, and decoration — the functional elements that clothing doesn't fully address",
+          "optionB": "Expressing personality within conservative frameworks, upgrading or downgrading the impression of the whole outfit, and providing the most flexible variety at the lowest cost — 10 accessories can create 10 different looks from the same outfit",
+          "otionC": "Establishing authority, signaling wealth, and communicating cultural affiliation — the social signaling functions that extend beyond pure aesthetics",
+          "otionD": "Adding color, adding texture, and adding scale — the visual elements that complete compositions that garments begin",
+          "correctAnswer": "B",
+          "explanation": "Accessories uniquely: (1) express individuality within conservative contexts (suit is traditional; watch, tie, cufflinks are personal); (2) significantly upgrade or downgrade the whole outfit's impression; (3) create variety most economically — same core outfit, many different looks through accessory changes. They're the style system's highest-leverage, most flexible element."
+        }
+      ]
+    },
+    {
+      "slug": "style-confidence",
+      "title": "Developing Style Confidence",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "The most stylish people are not those who follow every trend or own the most clothes. They're those who have a clear sense of who they are and dress consistently with that self-understanding — with a quality, ease, and intention that makes their clothing feel natural rather than performed.\n\nStyle confidence is the outcome of knowing what works for you and having the courage to wear it consistently, regardless of what's trending. It comes from practice, from paying attention to your own reactions to what you wear, and from gradually refining until your external presentation feels genuinely like you."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Finding Your Style Identity",
+          "content": "Style identity emerges from honest self-assessment and experimentation:\n\n**What lifestyle do I actually have?** Not aspirational — actual. A wardrobe for the life you live, not the life you imagine. If you work in a creative industry and are rarely in formal settings, a collection of crisp suits is aspirational noise.\n\n**What values does my clothing communicate?** Understated quality? Playful creativity? Professional seriousness? Environmental consciousness? These values don't need to be fully explicit — but they should be coherent with who you actually are.\n\n**What colors and silhouettes have people complimented me on?** Pattern recognition from genuine feedback is one of the most reliable guides to what works.\n\n**What historical styles or references do I return to?** What eras, films, public figures, or subcultures do you find aesthetically compelling? These attraction patterns reveal something true about your aesthetic sensibility.\n\nStyle is self-expression through a visual medium. The self being expressed must be authentic for the result to feel right."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The 'red sneaker effect' — a phenomenon studied by Silvia Bellezza, Francesca Gino, and Anat Keinan at Harvard Business School — found that deliberate, unconventional dress in contexts that call for conventional dress is sometimes interpreted as a signal of high status and confidence.\n\nIn their experiments, a professor who taught class in gym clothes was perceived by students as more confident and higher-status than one who dressed conventionally — because violating norms in that way signals the confidence to do so.\n\nThe red sneaker effect has important limits: it only works when the deviation appears deliberate and when the person has other competence signals. An unknown person in gym clothes reads differently than a known expert in gym clothes.\n\nThe broader insight: rules are starting points, not ceilings. Understanding conventions deeply enough to know when breaking them communicates confidence rather than carelessness is the hallmark of advanced style."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Shopping Strategically",
+          "content": "Most people shop in two problematic modes:\n\n**Impulse shopping:** Buying what catches the eye in the moment without considering how it works with the existing wardrobe. Results in disconnected pieces and buyer's remorse.\n\n**Sale shopping:** Buying because something is discounted rather than because it's needed. A 70% discount on something you don't need is not a deal.\n\nStrategic shopping:\n1. **Shop from a list:** Know what gaps you're filling before you enter a store\n2. **Buy in multiples when you find something that works:** If a specific t-shirt fits and feels right, buy 3-4 in different colors\n3. **Try before committing to a brand:** Most quality brands have consistent sizing — once you find your size in a brand, you can shop their online sales more confidently\n4. **Set a 24-hour rule for non-essentials:** If you're still thinking about a purchase 24 hours later, it was genuinely wanted; if you've forgotten it, it was impulse\n5. **Return regularly and ruthlessly:** If it doesn't work at home with your existing wardrobe, return it"
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Sustainable Fashion",
+          "content": "**Sustainable fashion** encompasses clothing practices that minimize environmental and social harm — including material sourcing, manufacturing conditions, and garment longevity.\n\nKey sustainable practices:\n- **Buy less, buy better:** A high-quality garment worn 10 years produces less environmental impact than five low-quality garments replaced annually\n- **Natural fibers:** Wool, cotton, linen, and silk biodegrade; polyester and synthetic fibers persist for centuries\n- **Secondhand and vintage:** Extends the lifecycle of existing garments\n- **Care properly:** Follow care instructions; repair rather than replace; dry-clean only when genuinely necessary (dry cleaning chemicals are harsh)\n- **Brand research:** Many brands now publish supply chain information, labor practices, and environmental commitments — accessible through directories like Good On You\n\nThe capsule wardrobe concept is inherently more sustainable: fewer, higher-quality pieces worn more frequently produce less overall environmental impact than fast fashion consumption patterns."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Create a 'style vision' — a concrete image of how you want to look:\n\n1. Collect 10-15 images of clothing, outfits, or people whose style you find compelling. Pinterest, Instagram, or magazines work. Any source is fine.\n\n2. Look at the images together: what patterns emerge? Are they classic or casual? Colorful or neutral? Structured or relaxed? What do the compelling elements have in common?\n\n3. Write 3-5 words that describe the style aesthetic you're drawn to.\n\n4. Compare to your current wardrobe: where does your current wardrobe reflect this aesthetic? Where does it diverge?\n\n5. Identify one specific piece that would move you closer to this vision — and make it your next purchase.\n\nA style vision doesn't have to be aspirational or unrealistic — it should be a honest-but-enhanced version of who you actually are. The best style feels like more of yourself, not like someone else."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the 'red sneaker effect' and under what conditions does it work?",
+          "otionA": "The effect of distinctive footwear on perceived approachability — casual shoes signal informality that makes social interactions easier",
+          "optionB": "Deliberate unconventional dress in formal contexts can signal high status and confidence — but only when the deviation appears intentional and the person has other competence signals. It signals 'I can afford to break the rules'",
+          "otionC": "The tendency for distinctive style choices to create memorable first impressions — red and other vivid colors are remembered disproportionately",
+          "otionD": "The effect of athletic footwear on perceived youth and energy — casual shoes in formal contexts make older individuals appear younger and more dynamic",
+          "correctAnswer": "B",
+          "explanation": "Bellezza, Gino, and Keinan found that deliberate norm-violation in dress (professor in gym clothes) was perceived as higher status and confidence than conventional dress — because it signals you can afford to break the rules. Critical limits: it only works when the deviation appears intentional (not accident or poverty) and when other competence signals are present. An unknown person in gym clothes reads as underprepared, not confident."
+        },
+        {
+          "question": "What is the most common problem with 'sale shopping' and how should it be avoided?",
+          "otionA": "Sale items are often lower quality — manufacturers sometimes produce specifically lower-quality items for sale racks",
+          "optionB": "A discount on something you don't need is not a deal — buying from need and a shopping list rather than from sale opportunity prevents accumulating disconnected pieces that don't serve a wardrobe function",
+          "otionC": "Sale shopping disrupts planned purchasing — unexpected sale items displace budget that was earmarked for strategic needs",
+          "otionD": "Sales create artificial urgency that causes impulsive decisions — the time pressure prevents the thoughtful evaluation that strategic shopping requires",
+          "correctAnswer": "B",
+          "explanation": "70% off on something you don't need is still 30% wasted — not a saving. Strategic shopping starts with identifying needs (the gap list) and buys to fill those needs. Sale shopping starts with available deals and purchases items that may not fit the wardrobe's needs. The result of sale shopping: discounted items that don't work with existing pieces, sit unworn, and represent net waste despite apparent savings."
+        },
+        {
+          "question": "How does the capsule wardrobe approach support sustainable fashion?",
+          "otionA": "Capsule wardrobes are built from only sustainable brands — the curation process involves ethical sourcing research",
+          "optionB": "Fewer, higher-quality pieces worn more frequently produce less environmental impact than fast fashion consumption — buy-less-buy-better reduces raw material use, manufacturing emissions, and textile waste compared to frequent low-quality replacement cycles",
+          "otionC": "Capsule wardrobes emphasize timeless over trendy pieces, reducing participation in trend cycles that accelerate fashion industry waste",
+          "otionD": "Both B and C — capsule wardrobes produce sustainability through reduced volume and extended wear cycles, and by emphasizing timeless pieces that don't participate in trend-driven consumption",
+          "correctAnswer": "D",
+          "explanation": "Capsule wardrobes are inherently more sustainable through two mechanisms: (B) fewer, better items worn more produce less environmental impact than constant fast-fashion replacement; (C) timeless over trendy reduces participation in trend cycles that drive overproduction. Both mechanisms together make the capsule wardrobe approach significantly more sustainable than typical consumption patterns."
+        }
+      ]
+    }
+  ]
+}

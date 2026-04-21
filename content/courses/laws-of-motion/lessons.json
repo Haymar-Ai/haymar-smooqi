@@ -1,0 +1,365 @@
+{
+  "courseSlug": "laws-of-motion",
+  "lessons": [
+    {
+      "slug": "newton-first-law",
+      "title": "Inertia: Why Things Keep Doing What They're Doing",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Physics is the study of how the universe works at the most fundamental level — the rules governing matter, energy, space, and time. Isaac Newton, working in the 1660s-80s, derived three laws that describe the motion of objects with such precision that they guided spacecraft to the moon, explained planetary orbits, and enabled the Industrial Revolution — all from first principles derived by a 23-year-old who retreated to his family farm during a plague.\n\nNewton's three laws of motion are the foundation of classical mechanics. Understanding them means understanding why your coffee stays in place when you accelerate but slides when you brake, why a bicycle is hard to push from a standstill but easy to keep going, and why you feel pressed into your seat when a plane takes off."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Newton's First Law: The Law of Inertia",
+          "content": "**Newton's First Law:** An object at rest stays at rest, and an object in motion stays in motion at the same speed and in the same direction, unless acted upon by an unbalanced force.\n\nThis seems obvious for the first part — things don't move unless pushed. The revolutionary part was the second: an object in motion stays in motion. Before Newton, people thought moving objects naturally slow down and stop. Newton recognized that motion is the natural state — objects only stop because forces (primarily friction and air resistance) act on them.\n\nIn the frictionless vacuum of space, this becomes vivid: the Voyager 1 probe, launched in 1977, is still moving at 38,000 mph away from Earth — no engine, no fuel, no acceleration. It will continue doing so essentially forever unless something exerts a force on it.\n\nInertia is the property of matter that resists changes in its state of motion. More mass = more inertia = more force needed to change its motion."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "When you're in a car that brakes suddenly, you lurch forward — a commonly misunderstood experience. You are NOT being pushed forward. You are continuing forward at your original velocity while the car slows around you. Newton's First Law: your body wants to keep moving at the speed you were going until a force (the seatbelt) acts on it.\n\nThis is also why seatbelts exist: they provide the force needed to decelerate your body at the same rate as the car. Without a seatbelt, your body continues at crash speed until the windshield or dashboard provides that force — much less gently.\n\nBefore Newton formalized the law, this was intuited but not understood mechanically. Aristotle had argued that objects need continuous force to keep moving — which seemed to explain everyday experience (things slow down) but missed the invisible forces (friction, air resistance) that were actually causing the slowing."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Newton's Second Law: F = ma",
+          "content": "**Newton's Second Law:** The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\n**F = ma** (Force = mass × acceleration)\n\nThis single equation encodes enormous predictive power:\n- Double the force on the same object → double the acceleration\n- Double the mass with the same force → half the acceleration\n- Apply zero net force → zero acceleration (constant velocity — confirming the First Law)\n\nPractically: pushing a shopping cart (low mass) is easy. Pushing a car (high mass) with the same force produces much less acceleration. A rocket engine with constant thrust produces less acceleration as it gains speed (wait — mass decreases as fuel burns, actually increasing acceleration).\n\nF = ma is why engineers can calculate exactly how powerful a rocket must be to lift a payload to orbit, how long a car's brakes need to bring it to a stop from a given speed, and how structural beams must be sized to support a bridge's weight."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Newton's Third Law",
+          "content": "**Newton's Third Law:** For every action, there is an equal and opposite reaction.\n\nMore precisely: when object A exerts a force on object B, object B exerts an equal and opposite force on object A simultaneously.\n\nKey clarification: these forces act on different objects — they never cancel each other. When you push a wall, the wall pushes back on you with equal force. When a gun fires a bullet forward, the gun recoils backward with equal momentum. When rocket exhaust shoots backward, the rocket is pushed forward.\n\nWalking works through Newton's Third Law: your foot pushes backward on the ground; the ground pushes your foot forward. Without a surface to push against (or fluid to push against for swimming/flying), forward motion is impossible — which is why you can't walk on ice with nothing to push against.\n\nRockets work in the vacuum of space because they push exhaust backward — the exhaust doesn't need air or a surface; it just needs to be expelled in the opposite direction of intended travel."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Identify Newton's three laws in action today:\n\n**First Law (inertia):** Notice the next time you accelerate or brake in a vehicle. Which way do loose objects slide? Why? What's providing the force to change their motion?\n\n**Second Law (F=ma):** Compare lifting two objects of different weights with the same muscular effort. The heavier one accelerates more slowly — same force, more mass = less acceleration.\n\n**Third Law (action-reaction):** Stand on a skateboard or wheeled chair. Push against a wall. Notice the equal and opposite reaction that propels you backward.\n\nNewton's laws aren't abstractions — they're active in every physical experience you have. Once you know them, you see them everywhere."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does a passenger lurch forward when a car brakes suddenly — according to Newton's First Law?",
+          "optionA": "The braking force pushes the passenger forward from behind",
+          "optionB": "The passenger continues forward at their original velocity due to inertia while the car decelerates around them — not pushed forward, but maintaining previous motion while the car slows",
+          "optionC": "The car's deceleration creates a forward force through the seatback that pushes the passenger",
+          "optionD": "The friction between the seat and the passenger is insufficient to decelerate the passenger at the same rate as the car",
+          "correctAnswer": "B",
+          "explanation": "Newton's First Law: objects in motion stay in motion unless acted upon by a force. During braking, the car decelerates but the passenger's inertia keeps them at original velocity — they 'lurch forward' relative to the slowing car. The seatbelt provides the decelerating force. Without it, the windshield provides that force."
+        },
+        {
+          "question": "What does F=ma predict about what happens to rocket acceleration as fuel burns off?",
+          "optionA": "Acceleration decreases as thrust decreases when fuel runs low",
+          "optionB": "As fuel burns, the rocket's mass decreases while thrust remains constant — so the same force (F) acts on less mass (m), producing increasing acceleration (a = F/m) even with no increase in engine power",
+          "optionC": "Acceleration stays constant as mass decrease and thrust decrease cancel each other out",
+          "optionD": "Acceleration increases initially then decreases as the rocket leaves the atmosphere and loses air resistance",
+          "correctAnswer": "B",
+          "explanation": "F=ma: if F stays constant and m decreases (as fuel burns), then a = F/m increases. Rockets accelerate faster as they burn fuel — not slower. The Tsiolkovsky rocket equation formalizes this: most of a rocket's mass is fuel, and efficiency improves as that mass depletes during the burn."
+        },
+        {
+          "question": "How do rockets move in the vacuum of space if there's nothing to push against?",
+          "optionA": "Rockets in space use magnetic fields generated by onboard systems to push against Earth's magnetosphere",
+          "optionB": "Newton's Third Law: the rocket expels exhaust backward — the exhaust exerts an equal and opposite force pushing the rocket forward. No external surface or medium is needed; the exhaust itself is the reaction mass",
+          "optionC": "Rockets in space actually coast on momentum from their launch — their engines primarily function in atmosphere where thrust can oppose gravity",
+          "optionD": "In space, rockets use gravitational slingshot maneuvers rather than engine thrust — planetary gravity provides the forward propulsion",
+          "correctAnswer": "B",
+          "explanation": "Newton's Third Law doesn't require a surface to push against — it requires that a force be exerted on something. Rockets expel exhaust backward; by Newton's Third Law, the exhaust exerts an equal forward force on the rocket. The rocket pushes on the exhaust; the exhaust pushes on the rocket. No air or surface needed."
+        }
+      ]
+    },
+    {
+      "slug": "gravity-and-circular-motion",
+      "title": "Gravity: The Force That Shapes the Universe",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Gravity is the most familiar force in daily experience — and one of the least understood. It holds you to Earth, keeps Earth orbiting the Sun, holds galaxies together, and governs the large-scale structure of the universe. And yet it's the weakest of the four fundamental forces — so weak that a small magnet can overcome Earth's entire gravitational pull on a paperclip.\n\nNewton described gravity mathematically with extraordinary precision. Einstein later explained it as the curvature of spacetime — a fundamentally different picture that reduces to Newton's equations for most everyday situations. Both perspectives are revealing."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Newton's Law of Universal Gravitation",
+          "content": "Newton's Law of Universal Gravitation: every object with mass attracts every other object with mass, with a force proportional to the product of their masses and inversely proportional to the square of the distance between them.\n\n**F = G × (m₁ × m₂) / r²**\n\nWhere G is the gravitational constant, m₁ and m₂ are the masses, and r is the distance between them.\n\nThe key implications:\n- Gravity is universal — every mass attracts every other mass\n- It decreases with the square of the distance (inverse square law) — double the distance, one-quarter the force\n- It increases with mass — more massive objects attract more strongly\n\nNewton's equation allowed the first precise prediction of planetary orbits, explained Kepler's empirically derived laws, and eventually enabled engineers to calculate spacecraft trajectories with enough precision to aim for moons around other planets decades in advance."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The moon is actually falling toward Earth — constantly. It just keeps missing.\n\nThe moon orbits Earth because it's moving forward fast enough that as it falls toward Earth (due to gravity), Earth's surface curves away beneath it at the same rate. The result is continuous free fall that never reaches the surface.\n\nNewton famously illustrated this concept with a thought experiment: imagine firing a cannonball horizontally from a very tall mountain. Fire it slowly and it lands nearby. Fire it faster and it travels farther. Fire it at just the right speed — about 8 km/s at Earth's surface — and it falls toward the horizon exactly as fast as Earth's surface curves away. The cannonball is now in orbit: a satellite.\n\nThis insight — that orbital motion is just free fall in a curved path — is one of the most elegant revelations in physics. Astronauts feel weightless not because there's no gravity but because they're falling freely alongside their spacecraft."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Weight vs. Mass",
+          "content": "Mass and weight are constantly conflated in everyday language but are physically distinct concepts:\n\n**Mass** is the amount of matter in an object — its resistance to acceleration (inertia). It is constant regardless of location. Measured in kilograms (kg).\n\n**Weight** is the gravitational force acting on an object's mass. It depends on both mass and the gravitational field strength (g). W = mg. Measured in Newtons (N).\n\nOn Earth: g ≈ 9.8 m/s². On the Moon: g ≈ 1.6 m/s². In deep space: g ≈ 0.\n\nPractically: a 70 kg person has the same mass everywhere in the universe. On Earth, they weigh ~686 N (about 154 lbs force). On the Moon, they weigh ~112 N (about 25 lbs force) — they feel much lighter. In free-fall orbit, they are weightless — but their mass (inertia) is completely unchanged.\n\nThis distinction matters for astronauts: their muscles weaken not because of reduced mass, but because the constant force of Earth's gravity (which keeps our muscles working) is no longer acting on them."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Centripetal Force",
+          "content": "**Centripetal force** is the net inward force required to keep an object moving in a circular path. Without this inward force, the object would travel in a straight line (First Law).\n\nCentripetal force is not a special new force — it's whatever force happens to be providing the inward acceleration in each situation:\n- Orbiting moon: gravity provides centripetal force\n- Car turning: friction between tires and road provides centripetal force\n- Ball on a string: tension in the string provides centripetal force\n- Electron in an atom: electromagnetic force provides centripetal force\n\nThe common confusion: 'centrifugal force' — the apparent outward force when turning. There is no centrifugal force; what you experience when turning is your body's inertia continuing forward while the car turns. The centripetal force (friction) acts on the car — your body continues in a straight line until the seatbelt or door provides an inward force on you."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Observe gravity and circular motion today:\n\n**Inverse square law:** Notice how your phone signal weakens with distance from a router — electromagnetic waves follow the same inverse square relationship as gravity. Double the distance, one-quarter the signal strength.\n\n**Centripetal force:** When you're in a car turning a corner, notice the force you feel pushing you outward. Remind yourself: that's not a real outward force — you're feeling your inertia resisting the turning while the car pushes you inward. The centripetal force is the seat and door pushing you inward.\n\n**Orbital intuition:** Look up at the moon tonight. Remind yourself: it's falling. Continuously. It just keeps missing Earth because it's moving forward fast enough. That's all an orbit is."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why do astronauts feel weightless in Earth orbit even though gravity still acts on them?",
+          "optionA": "They are far enough from Earth that gravity is negligibly weak — the inverse square law reduces it to near zero at orbital altitude",
+          "optionB": "Astronauts are in continuous free fall alongside their spacecraft — they feel weightless because gravity acts equally on them and the spacecraft, with no supporting surface pushing up on them",
+          "optionC": "The vacuum of space prevents gravity from transmitting between masses — it requires a medium like air to propagate",
+          "optionD": "Orbital velocity counteracts gravity — the centrifugal force exactly cancels gravitational force, producing effective weightlessness",
+          "correctAnswer": "B",
+          "explanation": "At orbital altitude (~400 km for ISS), gravity is still ~90% of surface strength. Weightlessness comes from free fall: astronauts and spacecraft fall toward Earth at the same rate, so no surface pushes up on them. They're not beyond gravity — they're falling with it. The orbit is the path their fall takes as Earth's surface curves away."
+        },
+        {
+          "question": "What is the physical difference between mass and weight?",
+          "optionA": "Mass is measured in grams; weight is measured in kilograms — they measure the same property in different units",
+          "optionB": "Mass is the amount of matter (constant everywhere, measured in kg); weight is the gravitational force on that mass (W = mg, varies with gravitational field strength, measured in Newtons)",
+          "optionC": "Mass is what a scale measures; weight is the force your muscles exert to lift an object against gravity",
+          "optionD": "Mass applies to stationary objects; weight applies to objects being accelerated — a falling object loses its weight while retaining its mass",
+          "correctAnswer": "B",
+          "explanation": "Mass = resistance to acceleration (inertia), constant everywhere. Weight = gravitational force (W = mg), varies with g. Same 70 kg person weighs 686 N on Earth, 112 N on the Moon, 0 N in free fall — same mass throughout. This distinction explains why astronauts are weightless in orbit but still have the same inertia (mass) that makes moving objects in space just as hard."
+        },
+        {
+          "question": "Why is there no actual 'centrifugal force' when turning in a car?",
+          "optionA": "Centrifugal force is real but only experienced in non-inertial (rotating) reference frames — in the car's reference frame, it is real",
+          "optionB": "The 'outward push' felt when turning is inertia — your body continues forward in a straight line while the car turns around you. The real force is centripetal (inward), provided by friction and the door. Centrifugal force is a fictitious force — an artifact of being in a turning frame of reference",
+          "otionC": "Centrifugal force exists but cancels centripetal force — the net result is circular motion rather than either inward or outward acceleration",
+          "optionD": "Centrifugal force only appears in high-speed rotation — at typical car turning speeds, it's too small to be perceptible and is considered negligible",
+          "correctAnswer": "B",
+          "explanation": "When a car turns, your body's inertia keeps you moving forward (straight line) while the car turns. The door/seat provides the centripetal (inward) force needed to curve your path. The sensation of being 'pushed out' is your body's inertia continuing straight while the car curves — not an outward force. Centrifugal force is a fictitious force used in rotating reference frames."
+        }
+      ]
+    },
+    {
+      "slug": "momentum-and-collisions",
+      "title": "Momentum, Energy, and Collisions",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "When objects interact — collide, push against each other, explode apart — two conserved quantities govern the outcome: momentum and energy. These conservation laws are among the most powerful tools in physics: regardless of how complex a collision or interaction seems, certain quantities remain constant before and after, constraining what outcomes are physically possible.\n\nConservation of momentum and energy are not just theoretical tools — they're the principles behind vehicle crash design, sports science, rocket propulsion, and nuclear physics. Understanding them reveals why billiard balls behave as they do, why car crumple zones save lives, and why atomic nuclei release energy when split."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Momentum and Its Conservation",
+          "content": "Momentum is a measure of 'quantity of motion' — how much motion an object has based on both its mass and its velocity.\n\n**Momentum (p) = mass × velocity** (p = mv)\n\nA heavy, slow-moving truck and a light, fast-moving bullet can have similar momenta — different combinations of mass and speed that produce the same 'punch.'\n\n**Conservation of Momentum:** In any closed system (where no external forces act), total momentum is conserved. Before an interaction equals after:\n\n**p₁_before + p₂_before = p₁_after + p₂_after**\n\nThis is why a gun recoils when fired: the gun and bullet together have zero momentum before (both at rest). After, the bullet has large momentum in one direction — so the gun must have equal momentum in the opposite direction (Newton's Third Law expressed in terms of momentum).\n\nCar crash reconstruction uses momentum conservation: from skid marks and final positions, police can calculate pre-impact speeds even without witnesses or video."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The principle of conservation of momentum is what makes a whiplash injury possible — and why head restraints in cars save lives.\n\nIn a rear-end collision, the struck car accelerates forward. The seat pushes the driver's body forward. But the head — connected to the body by the neck's soft tissue — continues at its original velocity (zero relative to the ground) while the body moves forward underneath it. The resulting neck hyperextension is whiplash.\n\nHead restraints work by transferring force to the head at the same time as the seat transfers force to the body — accelerating them together rather than allowing the head to lag. This simple application of momentum physics prevents serious neck injuries in millions of collisions annually.\n\nCar safety engineering is, fundamentally, applied physics: using the principles of momentum, impulse, energy, and material deformation to protect fragile biological systems from the inevitable consequences of large masses decelerating rapidly."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Elastic vs. Inelastic Collisions",
+          "content": "Collisions are classified by what happens to kinetic energy during the interaction:\n\n**Elastic collisions:** Both momentum AND kinetic energy are conserved. In a perfectly elastic collision, objects bounce off each other with no energy lost to heat, sound, or deformation. Billiard ball collisions approximate this — but no real collision is perfectly elastic.\n\n**Inelastic collisions:** Momentum is conserved, but kinetic energy is NOT — some energy converts to heat, sound, or structural deformation. All real-world collisions are at least slightly inelastic.\n\n**Perfectly inelastic collisions:** The maximum kinetic energy loss — objects stick together after impact. A bullet embedding in a block of wood is perfectly inelastic.\n\nCrumple zones in cars are deliberately inelastic: they convert kinetic energy into plastic deformation of metal rather than transmitting it to the occupants. The energy has to go somewhere — better into bending steel than into a human body."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Impulse",
+          "content": "**Impulse** is the product of force and the time over which it acts: **Impulse = F × t**. Impulse equals the change in momentum of an object.\n\nThis relationship — the impulse-momentum theorem — explains why increasing the time of contact during a collision reduces the force experienced for the same change in momentum.\n\nPractical examples:\n- **Airbags:** Increase the time over which the driver decelerates, reducing peak force on the body\n- **Padding in helmets:** Extends deceleration time for head impacts\n- **Foam in shoe soles:** Extends foot impact time, reducing peak force on joints\n- **Rolling with a punch** (martial arts): Moving in the direction of the punch extends the contact time, reducing force\n- **Catching a baseball:** Pulling your hand back as you catch extends the stopping time, reducing force on your hand\n\nThe total momentum change is the same — what changes is how long it takes to happen. Longer time = smaller force."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Notice impulse and momentum in everyday situations:\n\n**Catching:** Try catching a ball two ways — letting your hand stop at the contact point versus drawing your hand back as you catch. Feel the difference in impact force. Drawing back extends the time, reducing the force (same impulse, longer time).\n\n**Walking on hard vs. soft surfaces:** Notice how hard floors produce sharp impacts while carpet or cushioned soles soften them. Same momentum change, longer deceleration time = less force on joints.\n\n**High-heeled shoes vs. flat shoes:** A narrow heel concentrates the impact force on a small area — the short stopping time and small contact area produce much higher pressure than a wide flat sole.\n\nImpulse physics is everywhere in daily movement. Noticing it gives you a new framework for understanding why injury prevention works the way it does."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does a gun recoil when fired — in terms of conservation of momentum?",
+          "optionA": "The explosion in the barrel creates a pressure wave that pushes backward against the shooter's hand",
+          "optionB": "Before firing, total momentum is zero (gun and bullet at rest). After, the bullet has large momentum forward — by conservation, the gun must have equal momentum backward. The momentum that one object gains, the other must lose by equal amount",
+          "optionC": "Newton's Third Law: the bullet pushes backward on the gun as it accelerates forward through the barrel",
+          "optionD": "Both B and C — conservation of momentum and Newton's Third Law are two ways of expressing the same physical principle",
+          "correctAnswer": "D",
+          "explanation": "Conservation of momentum and Newton's Third Law are equivalent principles. Before: total momentum = 0. After: bullet momentum forward = gun momentum backward. And: the explosive force on the bullet forward = equal force on the gun backward (Third Law). Both descriptions are correct and consistent — they're the same physics expressed differently."
+        },
+        {
+          "question": "Why do car crumple zones reduce injury even though the car deforms more severely?",
+          "optionA": "Crumple zones absorb kinetic energy into plastic deformation of metal, converting it to heat and structural work rather than transmitting it to occupants",
+          "optionB": "Crumple zones extend the stopping distance, reducing deceleration and thus the forces on occupants — the energy goes into bending steel rather than human bodies",
+          "optionC": "Both A and B describe the same phenomenon from different physics perspectives — reduced force (less impulse per unit time) comes from extending the deceleration time",
+          "optionD": "Crumple zones redirect crash forces around the passenger compartment rather than through it",
+          "correctAnswer": "C",
+          "explanation": "Crumple zones work through both energy conversion (kinetic energy → heat + deformation) and impulse extension (longer stopping time = smaller force for the same momentum change). Both perspectives are valid and consistent. The 'energy has to go somewhere' principle and the impulse-momentum theorem give complementary descriptions of why controlled deformation protects occupants."
+        },
+        {
+          "question": "What distinguishes an elastic from a perfectly inelastic collision?",
+          "optionA": "Elastic collisions conserve momentum but not energy; inelastic collisions conserve neither",
+          "optionB": "Elastic collisions conserve both momentum and kinetic energy (objects bounce). Inelastic collisions conserve only momentum (some KE converts to heat/deformation). Perfectly inelastic collisions maximize KE loss — objects stick together",
+          "otionC": "Elastic collisions occur only between equal masses; inelastic collisions can occur between any masses",
+          "optionD": "Elastic collisions involve contact forces only; inelastic collisions can involve contact or field forces",
+          "correctAnswer": "B",
+          "explanation": "All collisions conserve momentum (in a closed system). What varies is kinetic energy: elastic = both momentum and KE conserved (ideal, approximated by billiard balls). Inelastic = momentum conserved, KE partially converted to heat/sound/deformation. Perfectly inelastic = maximum KE loss, objects stick together. The distinction reflects how much energy 'leaks' out of mechanical form."
+        }
+      ]
+    },
+    {
+      "slug": "simple-machines-and-work",
+      "title": "Work, Energy, and Simple Machines",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Work, energy, and power are concepts that most people use colloquially — but physics gives them precise, quantitative meanings that reveal a coherent underlying picture of how the universe operates.\n\nPhysics 'work' is not effort — it's force applied through a distance. Energy is the capacity to do work. Power is the rate of doing work. These three concepts, along with the conservation of energy principle, form the mechanical framework that engineers use to design everything from simple machines to jet engines.\n\nSimple machines — lever, wheel and axle, pulley, inclined plane, screw, wedge — are the building blocks from which all mechanical advantage is derived. Understanding how they work reveals the fundamental trade-off at the heart of all mechanical systems."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Work and Energy",
+          "content": "**Work (W) = Force × Distance × cos(θ)**: Work is done when a force causes displacement in the direction of the force. Lifting a box does work; holding a heavy box stationary does none (in physics terms — despite what your muscles feel).\n\n**Kinetic Energy (KE) = ½mv²**: The energy of motion. A car moving at twice the speed has four times the kinetic energy — this is why high-speed crashes are so much more destructive than low-speed ones (energy scales with velocity squared).\n\n**Potential Energy (PE)**: Stored energy due to position or configuration. Gravitational PE = mgh (mass × gravity × height). The water at the top of a dam has potential energy; as it falls, PE converts to KE, then to electrical energy in turbines.\n\n**Conservation of Energy:** Energy is never created or destroyed — only converted between forms. A roller coaster at the top of a hill (PE) converts to speed at the bottom (KE) and back to PE on the next hill, minus energy lost to friction (heat)."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The reason speed limits after rain are especially important isn't just reduced visibility or wet roads — it's the physics of kinetic energy.\n\nAt 30 mph, your car has a certain kinetic energy. At 60 mph, it has FOUR times that kinetic energy (KE ∝ v²). At 90 mph, NINE times.\n\nThis means stopping distance doesn't double when speed doubles — it approximately quadruples. And the severity of a crash scales similarly: twice the speed = four times the energy to be absorbed by the collision.\n\nSafety engineers call this the 'square law of speed.' It's why reducing speed limits in high-pedestrian areas from 30 mph to 20 mph reduces pedestrian fatality risk by approximately 80% — not 33%. The energy reduction is proportional to the speed squared."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Simple Machines: Trading Force for Distance",
+          "content": "A simple machine doesn't create energy — it redirects or transforms it. The fundamental principle: you can always trade force for distance, or distance for force, but the work done (energy transferred) stays the same.\n\n**Lever:** A long lever arm exerts a large force over a small distance at one end by applying a small force over a large distance at the other. Archimedes: 'Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.'\n\n**Inclined plane (ramp):** Push something up a long, gentle ramp (less force, more distance) rather than lifting it straight up (more force, less distance). Same work; different force-distance trade-off.\n\n**Pulley:** A system of pulleys reduces the force needed to lift something by increasing the length of rope you must pull. One pulley changes direction only. Multiple pulleys provide mechanical advantage — pulling with half the force through twice the rope.\n\nMechanical efficiency: real machines lose some energy to friction. Efficiency = (useful work out / work in) × 100%."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Power",
+          "content": "**Power** is the rate at which work is done or energy is transferred.\n\n**Power (P) = Work / Time = Force × velocity**\n\nUnit: watt (W) = 1 joule per second. Horsepower = 745.7 watts.\n\nA powerful machine does the same amount of work faster — it doesn't necessarily exert more force or move more distance, but it accomplishes the task in less time.\n\nExamples:\n- A 100-watt light bulb converts 100 joules of electrical energy to light and heat every second\n- A 100-horsepower car engine produces about 75,000 watts — capable of doing 75,000 joules of work per second\n- A human cycling hard produces approximately 200-400 watts\n- The average human basal metabolic rate (energy used just to stay alive) is approximately 80-100 watts — the power of a light bulb, running all day and night\n\nUnderstanding power helps compare very different energy consumption rates — why electric motors feel more powerful than their rated output suggests (instant maximum torque) and how human effort compares to mechanical systems."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Find simple machines in your home:\n\n1. **Lever:** A door handle, a nutcracker, scissors (two levers sharing a fulcrum), a bottle opener\n2. **Inclined plane:** A ramp, a wedge (knife blade), a screw (inclined plane wrapped around a cylinder)\n3. **Pulley:** Window blinds, many exercise machines, flagpoles\n4. **Wheel and axle:** Door knob, steering wheel, faucet handle\n\nFor each, identify:\n- Where the input force is applied\n- Where the output force acts\n- How the machine trades force for distance (mechanical advantage)\n\nEvery machine you interact with is a combination of these six simple machines. Once you can see them, the mechanical world becomes legible in a new way."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "Why does doubling speed quadruple stopping distance rather than doubling it?",
+          "optionA": "Braking friction also increases with speed, requiring more force to stop — the force increase accounts for the quadrupled distance",
+          "optionB": "Kinetic energy scales with the square of velocity (KE = ½mv²) — double speed means four times the kinetic energy to remove. Since stopping force is roughly constant, removing four times the energy requires approximately four times the distance",
+          "optionC": "Reaction time at higher speeds means more distance is covered before brakes engage — this initial distance scales with speed and dominates the total stopping distance",
+          "optionD": "At higher speeds, brake pads lose efficiency due to heat — the effective braking force decreases, requiring more distance to stop",
+          "correctAnswer": "B",
+          "explanation": "KE = ½mv². Double v → KE quadruples. The work done by braking (force × distance) must equal the kinetic energy. With roughly constant braking force, removing 4x the energy requires 4x the distance. This 'square law of speed' is why high-speed crashes are exponentially more severe and why small speed reductions save many lives."
+        },
+        {
+          "question": "What is the fundamental principle that all simple machines share?",
+          "otionA": "All simple machines amplify force by converting potential energy to kinetic energy through a mechanical linkage",
+          "optionB": "Simple machines don't create energy — they trade force for distance (or vice versa), allowing the same work to be done with less force over more distance. Mechanical advantage comes at the cost of distance traveled",
+          "optionC": "All simple machines reduce friction by distributing force over a larger surface area — their advantage comes from reduced energy loss",
+          "optionD": "Simple machines amplify either force or speed, depending on the direction of the mechanical advantage — they can't amplify both simultaneously",
+          "correctAnswer": "B",
+          "explanation": "Simple machines trade force for distance: a lever lets you exert less force over more distance to do the same work as more force over less distance. Energy is conserved — you don't get something for nothing. A pulley system halving the required force requires pulling twice the rope length. The work (F × d) stays the same; the machine redistributes it."
+        },
+        {
+          "question": "What does it mean in physics terms that a person 'works hard' holding a heavy bag stationary?",
+          "optionA": "Physics and colloquial usage agree — holding a weight is physical work because muscles are exerting force",
+          "optionB": "In physics, work = force × displacement. Holding a bag with no displacement means zero physics work — despite the muscular effort. The metabolic work done by the muscles is real, but it doesn't match the physics definition because no displacement occurs in the force direction",
+          "optionC": "Holding a bag is considered 'static work' in physics — a category separate from kinetic work that applies when force prevents motion rather than causing it",
+          "optionD": "The weight is being supported by the skeleton — muscles do work only during changes in posture. Holding still requires no muscular work either physically or in the physics sense",
+          "correctAnswer": "B",
+          "explanation": "Physics work = force × displacement in the force direction. Holding a bag stationary: force is applied, but displacement is zero → zero work. Muscles doing isometric contractions (no shortening) still consume energy metabolically — but this energy goes to heat, not to mechanical work in the physics sense. The distinction between metabolic 'work' and physics work is real and important."
+        }
+      ]
+    },
+    {
+      "slug": "fluid-mechanics",
+      "title": "Fluids: Pressure, Flow, and Buoyancy",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Fluid mechanics — the study of how liquids and gases behave — governs an extraordinary range of phenomena: why ships float, how aircraft generate lift, why hurricanes form, how blood circulates, and why your shower pressure drops when someone else uses hot water.\n\nFluids (liquids and gases) are different from solids in a fundamental way: they flow. They take the shape of their container. They transmit pressure in all directions equally. These properties, combined with the forces they exert, produce some of physics' most counterintuitive and practically important principles.\n\nThree names define fluid mechanics: Archimedes (buoyancy), Pascal (pressure transmission), and Bernoulli (flow and pressure)."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Pressure and Pascal's Principle",
+          "content": "**Pressure** is force per unit area: **P = F/A**\n\nFluids exert pressure in all directions simultaneously — the weight of the fluid above creates pressure that pushes equally in every direction at any given depth. This is why submarines must be built to withstand equal pressure on all sides, and why dams must be thicker at the base (more water above = more pressure).\n\n**Pascal's Principle:** A change in pressure at any point in an enclosed fluid is transmitted equally throughout the fluid.\n\nThis is what makes hydraulic systems possible. A small force applied to a small piston creates pressure (P = F/A). That pressure transmits to a larger piston — where the same pressure acts on a larger area, producing a larger force (F = P × A).\n\nHydraulic brakes, hydraulic jacks, and construction equipment all use Pascal's Principle: small forces on small pistons creating large forces on large pistons through pressure transmission. The trade-off: more force at the output, but over a smaller distance — work is conserved."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Archimedes supposedly discovered the principle of buoyancy — that the upward force on a submerged object equals the weight of the fluid it displaces — while stepping into a bath and noticing his bathwater overflow. He reportedly ran through the streets of Syracuse shouting 'Eureka!' ('I have found it!')\n\nThe story may be apocryphal, but the principle is absolutely real and extraordinarily useful. It explains why ships made of dense steel can float (they displace a large volume of water) while a steel ball sinks (it displaces less water weight than its own weight).\n\nArchimedes' principle also reveals why dead fish float (gases in their decomposing bodies reduce their density below water), why diving submarines must carefully manage their buoyancy, and why weather balloons rise until they reach an altitude where the displaced air weighs the same as the balloon."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Bernoulli's Principle: Fast Flow, Low Pressure",
+          "content": "Bernoulli's Principle: where fluid flows faster, pressure is lower. This counterintuitive relationship arises from energy conservation — in a continuous flow, the total energy (pressure + kinetic + gravitational potential) is constant.\n\nWhere a pipe narrows, fluid speeds up (conservation of mass — same amount of fluid must pass through in the same time). As speed increases, pressure must decrease to conserve total energy.\n\nThis principle explains:\n- **Aircraft lift:** Wing shape causes air to flow faster over the top surface than the bottom, creating lower pressure above and higher pressure below — net upward force (lift)\n- **Carburetors and atomizers:** Fast-moving air over a tube opening creates low pressure that draws fluid up\n- **Curveball pitches:** Spinning ball creates differential airflow, creating pressure difference that curves the trajectory\n- **Shower curtain inward pull:** Fast shower water creates low pressure that draws the curtain in\n\nBernoulli's equation is one of the most widely applied principles in engineering — in aerodynamics, piping design, weather prediction, and blood flow."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Archimedes' Principle and Buoyancy",
+          "content": "**Archimedes' Principle:** The buoyant force on an object submerged in (or floating on) a fluid equals the weight of fluid displaced by the object.\n\n**Buoyant Force (F_b) = ρ_fluid × g × V_displaced**\n\nWhere ρ is fluid density, g is gravitational acceleration, and V is the volume of fluid displaced.\n\nAn object floats when its average density is less than the fluid's density — when the weight of displaced fluid exceeds the object's weight. A submarine controls buoyancy by changing its average density: ballast tanks fill with water (increasing weight) to sink, or blow air in (decreasing weight) to rise.\n\nThe density comparison is what matters: ice floats on water (ice density ~917 kg/m³ < water density 1000 kg/m³). Steel sinks (density ~7,800 kg/m³). A steel ship floats because its average density (including the air inside) is less than water — it displaces more water weight than its own total weight."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Explore fluid mechanics at home:\n\n**Archimedes' Principle:** Fill a container with water to the brim. Carefully place an object — a small glass, an apple, a piece of fruit — in the water. Measure the overflow. That volume of water weighs approximately what the buoyant force is. Does the object float? If so, the water it displaced weighs more than the object.\n\n**Bernoulli:** Hold a piece of paper by its near edge so it hangs in front of your face. Blow across the top surface. Watch the paper rise — lower pressure above (fast air) creates lift below (slow or still air). This is why airplanes fly.\n\n**Pascal:** Press gently in the center of a sealed plastic bag of water. Notice that the pressure transfers through the liquid and pushes on all sides — the bag bulges equally everywhere."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "How does a steel ship float when steel is denser than water?",
+          "optionA": "The ship's engine provides enough upward thrust to compensate for the excess weight of steel over water",
+          "optionB": "A steel ship displaces enough water volume (because of its hollow shape including enclosed air) that the displaced water weighs more than the total ship — average density (including air inside) is less than water, so buoyant force exceeds weight",
+          "optionC": "Ships float because the surface tension of water can support the distributed weight of the hull",
+          "optionD": "The shape of the hull creates Bernoulli lift as water flows past — ships float through hydrodynamic lift, not buoyancy",
+          "correctAnswer": "B",
+          "explanation": "Archimedes' principle: buoyancy = weight of displaced fluid. A steel ship's hull shapes enclose enormous volumes of air — the average density of ship + enclosed air is less than water. The displaced water volume weighs more than the total ship weight → net upward force → the ship floats. Filled with water (no air), the same steel would sink."
+        },
+        {
+          "question": "What is Bernoulli's Principle and how does it explain aircraft lift?",
+          "optionA": "Faster fluid flow creates more pressure — aircraft engines direct high-pressure air downward, creating an upward reaction force",
+          "optionB": "Where fluid flows faster, pressure is lower (energy conservation in flowing fluid). Wing shape causes air to flow faster over the top surface → lower pressure above. Higher pressure below → net upward force (lift) without requiring engine thrust in the upward direction",
+          "optionC": "Aircraft wings push air downward as they move forward — Newton's Third Law creates equal and opposite upward force",
+          "optionD": "Bernoulli's Principle is one explanation for lift; Newton's Third Law (downwash) is the more complete explanation — Bernoulli is a simplification often used in elementary physics",
+          "correctAnswer": "B",
+          "explanation": "Bernoulli's Principle: in flowing fluid, faster flow = lower pressure. Wing shape (longer path over top) causes faster flow over the top surface than the bottom → lower pressure above, higher below → net upward force. Note: the complete picture of lift includes both Bernoulli effects and Newton's Third Law from downwash — they're complementary descriptions."
+        },
+        {
+          "question": "How does Pascal's Principle make hydraulic systems amplify force?",
+          "optionA": "Hydraulic fluid stores potential energy that is released when pressure is applied to the larger piston",
+          "otionB": "A small force on a small piston creates pressure (P = F/A). Pascal's Principle transmits this pressure unchanged through the enclosed fluid. At a larger piston, the same pressure acts on a larger area, producing a larger force (F = P × A). Force is amplified; distance is reduced by the same factor",
+          "optionC": "Hydraulic fluid has higher density than air, allowing it to transmit forces more efficiently than pneumatic systems",
+          "optionD": "The incompressibility of liquids means force can be transmitted without energy loss — hydraulic systems are 100% efficient at force multiplication",
+          "correctAnswer": "B",
+          "explanation": "Pascal's Principle: pressure change transmits equally through enclosed fluid. Small piston (small area) → high pressure from small force. Pressure transmits to large piston (large area) → large force from same pressure. F amplification = (Area₂ / Area₁). Work is conserved: more force, less distance — same energy transferred."
+        }
+      ]
+    }
+  ]
+}

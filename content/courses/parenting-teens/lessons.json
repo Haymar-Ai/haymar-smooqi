@@ -1,0 +1,221 @@
+{
+  "courseSlug": "parenting-teens",
+  "lessons": [
+    {
+      "slug": "understanding-teens",
+      "title": "Understanding What's Happening in Your Teen",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Parenting a teenager tests even the most skilled parents — because adolescence genuinely changes the parenting game. The tools that worked in childhood work differently now. The relationship that felt close becomes more complex. The child who wanted to be with you now wants space.\n\nNone of this is failure — it's development. Adolescence is specifically and appropriately about the gradual loosening of parent-child bonds as the young person builds the independence needed for adult life. The challenge for parents is supporting this development rather than fighting it — while maintaining the connection that matters most."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Adolescent's Developmental Agenda",
+          "content": "Understanding the adolescent's actual developmental agenda makes their behavior much more legible:\n\n**Individuation:** Developing a separate identity from the family of origin. This requires, to some degree, pushing back against parental values and testing boundaries — not to reject the parents, but to discover which parts of them the adolescent authentically endorses.\n\n**Peer orientation:** The shift toward peers as the primary social reference group is a developmental feature, not a parental failure. Adolescents need peer relationships to develop social skills, test identity, and practice interdependence outside the family.\n\n**Risk-taking:** The neurological predisposition for risk-taking serves evolutionary purposes — young adults who take controlled risks develop the experience needed for adult autonomy. The developmental task is risk management, not risk elimination.\n\n**Privacy:** Increasing privacy is not secrecy — it's the developmental appropriate building of an internal private world. The adolescent who no longer shares everything is developing appropriate psychological boundaries.\n\n**Future orientation:** Adolescents are increasingly thinking about their future self — what they want to do, who they want to be. Supporting this forward-looking thinking is one of the most valuable parenting contributions during this period."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research on adolescent sleep has produced one of the clearest recommendations — and most widely ignored findings — in developmental science.\n\nAdolescents experience a genuine biological shift in circadian rhythm — a 2-hour delay in the timing of melatonin release and sleep onset. This is not a preference, laziness, or defiance — it is a neurobiological change that makes falling asleep before 11pm genuinely difficult for most adolescents.\n\nYet most US high schools start between 7-8 AM — requiring adolescents who can't fall asleep until 11-12 to wake between 5:30-7:00 AM, producing chronic sleep deprivation.\n\nThe American Academy of Pediatrics, the CDC, and the American Academy of Sleep Medicine all recommend that middle and high schools start no earlier than 8:30 AM. Schools that have made this change show improvements in: academic performance, mental health, attendance, and car crash rates among teen drivers.\n\nFor parents: supporting teen sleep (not fighting the late schedule as laziness, keeping school-night bedtime as late as necessary to get 8-10 hours, limiting early morning commitments) is one of the highest-leverage mental health and academic performance interventions available."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Staying Connected When Teens Pull Away",
+          "content": "The most important and most counterintuitive principle of parenting adolescents: the teens who most need connection are least likely to seek it.\n\nResearch by Judith Rich Harris, Robert Epstein, and others has documented the paradox: adolescents who reject parental involvement most vigorously are often those for whom the parental relationship is most important — because it's the very thing they're working hardest to individuate from.\n\nStrategies for maintaining connection through the distancing:\n\n**Be interested without being intrusive:** Ask questions out of genuine curiosity, not surveillance. 'How was your day?' asked automatically produces 'fine.' 'I heard there was a big game — how did that go for your team?' shows you're paying attention.\n\n**Find shared activities where you can be together without talking:** Driving, cooking, watching a TV show — side-by-side activities without direct focus on the relationship. Teens often talk more in these contexts than in face-to-face conversation.\n\n**Stay available:** The teen who rejects connection during calm periods often seeks it during crisis. Being reliably available — without requiring the connection to happen on your schedule — keeps the door open.\n\n**Stay curious and non-judgmental:** The fastest way to stop a teen sharing is to respond with evaluation, worry, or lecture. 'That's interesting — tell me more' keeps them talking; 'That doesn't sound like a good idea' ends the conversation."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Scaffolded Autonomy",
+          "content": "**Scaffolded autonomy** is the gradual, structured extension of independence — giving adolescents increasing decision-making power and freedom as they demonstrate the capacity to handle it responsibly.\n\nThe developmental task of adolescence is preparing for adult independence. Parents who maintain total control prevent the practice and development of independent judgment. Parents who grant full autonomy before the adolescent has the developmental capacity create dangerous conditions.\n\nScaffolded autonomy gives the adolescent real decisions with real consequences, with decreasing parental involvement as competence is demonstrated:\n- Age 12-13: Choices about extracurricular activities, friendships, room decoration, some clothing choices\n- Age 14-15: More control over social schedule within discussed limits, part-time work decisions, course selections\n- Age 16-17: Increasing control over social life, some financial management, significant academic decisions\n- Age 18+: Adult autonomy with ongoing parental support and guidance by invitation\n\nThe key: expand freedom as trust is earned through responsible choices. Restrict it specifically and temporarily when it's misused. Avoid all-or-nothing ('you're grounded for a month') in favor of specific, related consequences ('you came home at 2am instead of midnight, so next weekend you come home at 11pm')."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Initiate one connecting conversation with your teen using these principles:\n\n**Don't:** 'How was school today?' (too routine, produces 'fine')\n\n**Do:** Pick something specific you actually know about their life — a friend situation they mentioned, a class they complained about, an interest you've observed — and ask a genuine question about it.\n\n**Listen without advising:** When they answer, resist the urge to offer solutions or corrections. Ask a follow-up question. Reflect back what you heard. 'It sounds like that was really frustrating.'\n\n**Don't evaluate:** If they share something you have reservations about, stay curious rather than evaluating. 'Tell me more about that' is more connecting than 'I'm not sure that's a good idea.'\n\n**Time and place:** Many teens talk more in the car (side-by-side, not face-to-face), late at night (before they sleep), or during a shared low-key activity. If face-to-face conversations produce one-word answers, try changing the context.\n\nOne genuinely connected conversation per week, consistently maintained, builds more relationship capital than monthly intensive parent-teen talks. Small, frequent, genuine contact is more effective than attempts at profound connection."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'individuation' in adolescent development and why does it require some degree of pushing back against parents?",
+          "otionA": "Individuation is the cognitive development of abstract reasoning — the ability to think about ideas as independent of context and personal relationship",
+          "optionB": "Individuation is developing a separate identity from the family of origin — discovering which values, interests, and beliefs the adolescent authentically endorses vs. inherited without examination. Some degree of pushing back against parental values is necessary because the adolescent must test what they truly endorse, not just what they absorbed",
+          "otionC": "Individuation is the process of becoming financially and practically independent — the adolescent shift from family resources to self-sufficiency",
+          "otionD": "Individuation in adolescence refers to the differentiation of social roles — learning which relationships call for different aspects of the self",
+          "correctAnswer": "B",
+          "explanation": "Individuation: developing a separate identity from the family of origin. This requires examining inherited values and beliefs — testing which ones the adolescent authentically endorses vs. accepted uncritically. Some degree of pushing back against parents is developmentally necessary because you can't know what you truly believe until you question it. Parents who understand this as healthy developmental testing (vs. rejection) can support it rather than fighting it."
+        },
+        {
+          "question": "Why do adolescents experience genuine biological difficulty falling asleep early — and what are the implications?",
+          "otionA": "Adolescent night-owl tendencies are primarily behavioral — late social media use and screen exposure delay sleep-onset through both content engagement and blue light effects",
+          "optionB": "A neurobiological shift in circadian rhythm (2-hour delay in melatonin release) makes genuinely falling asleep before 11pm difficult for most adolescents. This produces chronic sleep deprivation when school starts early — with documented effects on academic performance, mental health, attendance, and teen driving safety",
+          "otionC": "Adolescent sleep patterns are primarily socially determined — peer norms around late nighttime activity create pressure to stay awake later than optimal",
+          "otionD": "The preference for late sleep is a temporary accommodation to the emotional volatility of early adolescence — the brain delays sleep to allow more processing time for the emotional events of the day",
+          "correctAnswer": "B",
+          "explanation": "The adolescent circadian shift is neurobiological — a genuine delay in melatonin release that makes early sleep onset physiologically difficult. This produces systematic sleep deprivation when school starts early. All major sleep and pediatric organizations recommend school start times no earlier than 8:30 AM. Parents treating late sleep as laziness or defiance are misinterpreting a biological fact — supporting adequate sleep is one of the highest-leverage adolescent health interventions."
+        },
+        {
+          "question": "What is 'scaffolded autonomy' and how should it be calibrated as adolescents develop?",
+          "otionA": "Scaffolded autonomy means giving teens the appearance of choice while maintaining parental control over actual outcomes — providing the experience of decision-making without its risks",
+          "optionB": "Scaffolded autonomy is the gradual, structured extension of real independence as adolescents demonstrate capacity to handle it — expanding freedom as trust is earned, restricting it specifically when misused, calibrating to developmental readiness. Prepares adolescents for adult autonomy rather than either over-controlling (prevents practice) or under-controlling (removes appropriate guardrails)",
+          "otionC": "Scaffolded autonomy applies only to practical decisions (finances, scheduling) — emotional and social decisions should remain fully parent-managed until age 18",
+          "otionD": "Scaffolded autonomy is the parenting approach that distinguishes authoritative from permissive styles — the scaffold refers to the structure of rules and expectations within which freedom operates",
+          "correctAnswer": "B",
+          "explanation": "Scaffolded autonomy: real decisions with real consequences, with decreasing parental involvement as competence is demonstrated. Too much control prevents the developmental practice of independent judgment. Too little structure creates dangerous conditions before the adolescent has the neurological and experiential capacity to handle full autonomy. The calibration — expanding freedom as trust is earned, restricting specifically and temporarily when misused — is what prepares adolescents for adult independence."
+        }
+      ]
+    },
+    {
+      "slug": "teen-communication",
+      "title": "Communication That Actually Works With Teens",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Communication with teenagers is one of the most common parenting challenges — and one of the most improvable with specific skills.\n\nThe communication breakdowns that most parents experience with teens are not primarily the teen's fault — they result from the mismatch between how parents naturally communicate with teenagers and what actually keeps the connection open. Most parents communicate with teens in ways that inadvertently shut down dialogue — without knowing it.\n\nThis lesson teaches the specific communication skills that maintain dialogue and connection with adolescents."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Conversation Killers",
+          "content": "Certain communication patterns reliably shut down teen dialogue. Knowing them allows you to avoid them:\n\n**Lecturing:** Delivering extended explanations of why something is wrong, why you're right, or what they should have done. Teens disengage quickly from lectures — they feel patronized and lectured at rather than listened to.\n\n**Immediate problem-solving:** Jumping immediately to advice ('Here's what you should do') before fully hearing the problem. Teens usually need to feel heard before they can receive help.\n\n**Interrogation:** A rapid sequence of questions that feels like an investigation. Teens often resist this as surveillance even when the questions are well-intentioned.\n\n**Judging or evaluating:** 'That was stupid,' 'You should have known better,' 'Why would you do that?' — these responses make teens afraid to share future problems.\n\n**Dismissing:** 'It's not that big a deal,' 'You'll be fine,' 'Just ignore them' — minimize the teen's experience and signal that their feelings don't matter to you.\n\nReplace these with: listening first, validating the emotion, asking what kind of support they want ('Do you want help solving this or do you just want to vent?'), and offering your perspective only if they want it."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by Andrew Fuligni at UCLA found that one of the strongest predictors of adolescent wellbeing was not the absence of conflict with parents but the presence of a sense that the parent-child relationship was basically close and loving — even when there was frequent surface conflict.\n\nIn other words: teens can fight with you regularly and still feel connected to you, as long as the underlying warmth and respect are intact. And teens can have minimal surface conflict with you and feel disconnected, if the relationship lacks warmth and genuine engagement.\n\nThis finding reframes what 'conflict' means: daily arguments about curfews, homework, and screen time are not evidence of a failing relationship. The quality metric is: does the teenager fundamentally feel loved, respected, and connected to you? If yes, the surface conflicts are manageable developmental negotiations. If no, the absence of conflict is cold silence, not healthy relationship.\n\nThe relationship repair that matters most is not reducing conflict — it's maintaining the underlying warmth and connection that makes conflict merely friction rather than rupture."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Listening for Feelings, Not Just Facts",
+          "content": "The most impactful communication shift parents can make with teens is learning to listen for and respond to the emotional content of what the teen is saying — not just the factual content.\n\nTeen: 'I can't believe Ms. Henderson gave us a test on chapter 12 when we never even discussed it in class. She's the worst.'\n\n**Fact-focused response:** 'Did you read chapter 12? What was on the test? Maybe you should talk to her about it.'\n**Feeling-focused response:** 'That sounds really frustrating — like you were set up to fail on something you couldn't have prepared for.'\n\nThe fact-focused response, while not wrong, misses what the teen was actually seeking — to feel understood in their frustration. The feeling-focused response gives that — and often produces the teen then solving the problem themselves, or asking for help.\n\nThe principle: **feelings first, facts second.** Name and validate the emotional experience before moving to information, solutions, or problem-solving. This is not coddling — it's the communication prerequisite for actually being helpful."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Non-Negotiables and Negotiables",
+          "content": "Effective teen communication requires clarity about which things are genuinely non-negotiable (values, safety) and which are negotiable (preferences, schedules, logistics).\n\n**Non-negotiables** (absolute limits set by parents based on safety and values):\n- No driving under the influence\n- No drug use\n- School attendance\n- Some version of knowing where the teen is\n\nThese are decided by parents with explanation — not by negotiation. Teens need to understand why these are non-negotiable, but the limit itself is not up for debate.\n\n**Negotiables** (many more things than parents typically think):\n- Exact curfew timing\n- When and how homework gets done\n- Room cleanliness (to a large degree)\n- How they spend their free time\n- Many clothing and aesthetic choices\n- Social relationships\n\nMost parent-teen conflict occurs because parents treat too many negotiables as non-negotiables — fighting for control over areas that could be given to the teen without safety or value compromise. Reserving parental authority for genuine non-negotiables is more effective than asserting authority over everything — which produces resistance to everything, including things that actually matter."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Practice feelings-first listening in the next conversation where your teen expresses frustration, complaint, or emotion:\n\n**When they express something negative:**\n1. Suppress the urge to solve, correct, or evaluate\n2. Name the feeling you observe: 'That sounds really frustrating' or 'It makes sense you'd feel hurt by that'\n3. Ask a curious question: 'What happened?' or 'What was that like?'\n4. Listen to the full response before doing anything else\n\n**Only after they feel heard:**\n5. Ask: 'Do you want help thinking through what to do, or did you just need to vent?'\n6. Respect the answer — if they wanted to vent, you're done. If they want help, offer it.\n\nAlso this week: identify one thing you've been treating as non-negotiable that might actually be negotiable. If it doesn't involve safety or core values — is it actually essential that you control it, or is it a preference? Consider what would happen if you offered the teen genuine choice about it.\n\nGiving genuine choice in genuinely negotiable areas produces much more teen cooperation on actual non-negotiables."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is the most impactful communication shift parents can make with teens according to this lesson?",
+          "otionA": "Asking more open-ended questions — moving from yes/no questions to questions that require detailed responses",
+          "optionB": "Listening for and responding to the emotional content of communication (feelings first, facts second) — validating the teen's emotional experience before moving to information, solutions, or problem-solving. This gives teens what they're actually seeking and creates the conditions for them to be receptive to parental input",
+          "otionC": "Reducing the frequency of communication — teens respond better to fewer, more meaningful conversations than to frequent interactions",
+          "otionD": "Matching the teen's emotional tone — responding with equivalent emotional energy maintains the connection that formal, calm responses undermine",
+          "correctAnswer": "B",
+          "explanation": "Feelings first, facts second: teens most often seek to feel understood emotionally before they want problem-solving or information. 'That sounds really frustrating' often leads to the teen solving the problem themselves or asking for help. Jumping straight to advice or facts — while not wrong — misses what the teen actually sought, leaving them feeling unheard and reducing future sharing. The prerequisite to being helpful is being heard."
+        },
+        {
+          "question": "What did Fuligni's research reveal about the relationship between conflict frequency and teen wellbeing?",
+          "otionA": "Regular conflict with parents is the single strongest predictor of adolescent psychological distress — reducing conflict is the primary intervention for teen mental health",
+          "optionB": "What matters for teen wellbeing is not conflict frequency but the underlying sense that the parent-child relationship is fundamentally close and loving — teens can fight with parents regularly and feel connected; can have no conflict and feel disconnected. The quality metric is underlying warmth, not surface harmony",
+          "otionC": "Conflict between parents and teens increases teen social competence — it provides practice in negotiation and conflict resolution that carries forward into peer relationships",
+          "otionD": "The frequency of conflict predicts teen wellbeing during adolescence but not in adulthood — adolescent conflict is a temporary disruption rather than a lasting relational pattern",
+          "correctAnswer": "B",
+          "explanation": "Fuligni: teen wellbeing predicted by underlying relationship quality (warmth, respect, sense of connection), not by conflict frequency. Teens can argue regularly about curfews and homework while feeling fundamentally loved and connected. Teens can have no surface conflict while feeling distant and disconnected. Reducing surface conflict is less important than maintaining the underlying warmth that makes conflict merely developmental friction rather than relationship rupture."
+        },
+        {
+          "question": "Why is treating too many parenting issues as non-negotiable counterproductive?",
+          "otionA": "Treating too many things as non-negotiable is counterproductive because teens will simply choose which rules to follow and which to ignore — overwhelming rule systems produce selective compliance",
+          "optionB": "Asserting parental authority over everything produces resistance to everything — including things that genuinely matter (safety, values). Reserving parental authority for true non-negotiables makes those limits more effective because the teen hasn't developed a pattern of resistance to all parental direction",
+          "otionC": "Over-controlling parents miss the opportunity to teach decision-making skills — teens need practice with consequential choices to develop the judgment needed for adult autonomy",
+          "otionD": "Non-negotiable positions prevent honest dialogue — teens who can't negotiate won't communicate their actual plans, making parental limits less effective at actual risk reduction",
+          "correctAnswer": "B",
+          "explanation": "When everything is non-negotiable, teens develop a generalized resistance to parental direction — making even genuinely important limits harder to maintain. Parents who fight every battle lose influence on the battles that actually matter. Giving genuine autonomy in genuinely negotiable areas (room cleanliness, clothing, social schedules within discussed parameters) preserves parental influence and credibility for actual non-negotiables (safety, core values)."
+        }
+      ]
+    },
+    {
+      "slug": "teens-and-digital-world",
+      "title": "Teens, Technology, and Social Media",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Digital technology and social media represent the most significant environmental shift in adolescent development in recent decades — and one for which parents had no comparable experience to draw on in their own adolescence.\n\nThe research on adolescents and social media is complex, contested, and rapidly evolving. This lesson attempts to provide a balanced, evidence-based framework — acknowledging both the real risks and the genuine benefits, and offering approaches that are calibrated to the specific child rather than based on either technophobic panic or technophilic optimism."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Research Landscape",
+          "content": "What the research actually shows about teen social media use (as of recent years):\n\n**Associated with potential harm:**\n- Heavy passive use (scrolling, viewing) is more consistently associated with reduced wellbeing than active use (creating, connecting)\n- Girls appear more negatively affected than boys — particularly through social comparison mechanisms\n- Use during vulnerable periods (depression, social difficulty) amplifies difficulties\n- Sleep displacement by evening screen use is consistently harmful\n\n**Associated with neutral or positive outcomes:**\n- Maintaining existing friendships and social connection\n- Finding communities for minority or marginalized identities\n- Creative expression and skill development\n- Information access and civic engagement for older teens\n\n**What's contested or unclear:**\n- Whether association between social media use and mental health problems represents causation (does social media cause depression, or do depressed teens use social media more?)\n- The role of algorithmic recommendation in amplifying harmful content\n- Long-term neurodevelopmental effects of early smartphone adoption\n\nThe evidence base is better than for many parenting topics — and suggests a harm-reduction rather than abstinence approach for most teens."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Jonathan Haidt's 'The Anxious Generation' (2024) — the most publicly prominent argument for significant digital restrictions for adolescents — proposes that the smartphone and social media adoption after 2012 is a primary driver of the adolescent mental health crisis documented across multiple countries.\n\nHis evidence: the decline in adolescent wellbeing, particularly in girls, correlates with smartphone adoption timing across different countries. He proposes: no social media before 16, no smartphones before high school.\n\nCritics (including other psychologists and developmental scientists) dispute the causal claims — arguing the correlations don't establish causation and that the mental health trends have multiple contributing factors (economic uncertainty, academic pressure, climate anxiety, COVID effects).\n\nThe genuine lesson: the research is real and the concerns are legitimate, but the picture is more complex than either 'smartphones are destroying a generation' or 'nothing to see here.' A calibrated, evidence-informed approach — not panic and not dismissal — is what the research actually supports."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Practical Guidelines for Parents",
+          "content": "Evidence-informed practical guidelines for digital technology and adolescents:\n\n**Devices out of bedrooms at night:** Sleep displacement by evening screen use is one of the most consistent harms. Device charging in a common area reduces this. This is not about surveillance — it's about sleep health.\n\n**Delay social media introduction:** The research most consistently shows negative effects for early adopters — starting later (13-14 for structured use vs. age 10-11) reduces exposure during the most vulnerable developmental periods.\n\n**Focus on quantity and context of use, not existence:** Heavy passive scrolling vs. moderate active use produce different outcomes. Help teens distinguish these.\n\n**Maintain open, non-judgmental conversation:** The teens most at risk online are those who hide their online activity from parents. A relationship in which they can tell you what they see, who they talk to, and what worries them online is more protective than surveillance software.\n\n**Teach digital literacy:** How algorithms work, how to evaluate information credibility, how social comparison works, how platforms are designed to maximize engagement — these are protective knowledge.\n\n**Model:** Parents' own device use patterns are observed and internalized by teens. Constant parent phone use while with teenagers communicates something about priorities."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Digital Wellbeing",
+          "content": "**Digital wellbeing** is the state of healthy, intentional, and balanced engagement with digital technology — using it in ways that support wellbeing rather than undermining it.\n\nComponents of digital wellbeing for teens:\n- **Intentional use:** Using technology for specific purposes rather than default distraction\n- **Off-time:** Regular periods without digital devices — meals, family time, outdoor activities, before sleep\n- **Awareness:** Understanding how platforms work, including their designed-in engagement mechanisms\n- **Emotional awareness:** Noticing when digital use is associated with worse mood (FOMO, social comparison, cyberbullying) vs. better mood (connection, creativity, information)\n- **Help-seeking:** Knowing who to tell when something uncomfortable or harmful occurs online\n\nDigital wellbeing is a skill to develop — not an all-or-nothing choice between smartphone use and abstinence. The teen who can intentionally engage with digital technology, manage their time with it, and recognize when it's affecting them negatively is better prepared for adult digital life than one who was simply restricted from access."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Have a tech conversation with your teen — not a rules conversation, but a curiosity conversation:\n\n**Questions to ask (genuinely curious, not interrogating):**\n- 'What apps do you spend the most time on? What do you like about them?'\n- 'Have you ever felt worse about yourself after scrolling through [platform]? What was that about?'\n- 'What's the most interesting thing you've seen online this week?'\n- 'Have you ever seen something online that bothered you? Did you tell anyone?'\n\n**Listen without immediately problem-solving.** You're trying to understand their digital life from the inside — not confirm your fears about it.\n\n**Share your own experience:** 'I notice I feel anxious when I scroll through news. Do you ever feel something like that?'\n\n**One practical step together:** Ask your teen to help you identify one area of digital use that might be worth adjusting — for them, for you, or for the family. Teens are more likely to follow through on changes they helped identify than ones imposed from above."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What type of social media use is most consistently associated with reduced wellbeing in adolescents?",
+          "otionA": "All social media use equally — the cumulative time is the primary harm mechanism regardless of what the time is spent doing",
+          "optionB": "Heavy passive use (scrolling, viewing others' content) is more consistently associated with reduced wellbeing than active use (creating, connecting directly with others) — suggesting the type of engagement matters more than simple total screen time",
+          "otionC": "Viewing peers' social content specifically — following strangers and celebrities is more harmful than peer comparison content",
+          "otionD": "Nighttime social media use is the only consistently harmful pattern — daytime use shows no reliable associations with wellbeing outcomes",
+          "correctAnswer": "B",
+          "explanation": "Research consistently distinguishes passive use (scrolling, viewing) from active use (creating, direct messaging, community participation). Passive use activates social comparison mechanisms more strongly and provides less genuine social connection. Active use — particularly maintaining existing friendships and finding communities — shows more neutral or positive wellbeing associations. This suggests interventions targeting usage quality (what you're doing) may be as important as usage quantity (how long)."
+        },
+        {
+          "question": "Why is a relationship where teens can openly discuss their online experiences more protective than monitoring software?",
+          "otionA": "Monitoring software is technically unreliable — teens can easily circumvent it, making open communication the only practical alternative",
+          "optionB": "Teens who hide online activity from parents are more at risk because they lack a trusted adult to process harmful or confusing experiences with. Open relationship → teen discloses problems → parent can help. Surveillance relationship → teen hides problems → teen navigates harm without support",
+          "otionC": "Open communication teaches teens to self-regulate — the skill-building is more protective long-term than the problem-specific protection monitoring provides",
+          "otionD": "Monitoring software signals distrust that damages relationship quality — the relationship damage from surveillance increases risk more than the monitoring reduces it",
+          "correctAnswer": "B",
+          "explanation": "Open communication is protective because it enables disclosure: teens who see something disturbing, encounter predatory contact, or experience cyberbullying need a trusted adult to tell. A relationship where they feel safe disclosing (non-judgmental, not immediately restrictive in response to disclosure) means problems get help. Surveillance software may detect problems but doesn't create the relational safety that produces voluntary disclosure — which is more protective than detection after the fact."
+        },
+        {
+          "question": "What is digital wellbeing and why is it a skill to develop rather than a choice to restrict?",
+          "otionA": "Digital wellbeing is the optimal amount of daily screen time — defined by research as the maximum time that produces no measurable wellbeing effects",
+          "optionB": "Digital wellbeing is healthy, intentional, balanced engagement — using technology in ways that support rather than undermine wellbeing. It is a skill (intentional use, off-time, emotional awareness, help-seeking) that prepares teens for adult digital life, rather than a restriction policy that leaves them unprepared when restrictions are removed",
+          "otionC": "Digital wellbeing is primarily about content rather than time — what platforms teens use and what content they consume matter more than how long they use devices",
+          "otionD": "Digital wellbeing is the psychological state of viewing social media use as neutral rather than positive or negative — reducing the emotional charge of technology decisions",
+          "correctAnswer": "B",
+          "explanation": "Digital wellbeing as a skill: intentional use, off-time practices, awareness of platform design and personal effects, emotional monitoring of tech-mood relationships, help-seeking when needed. Skills rather than restrictions because: teens will eventually have full access to technology; they need the capacity to manage it, not just compliance during restriction periods. A teen who has developed digital wellbeing skills is better prepared for adult digital life than one who was simply restricted and has no self-regulation practice."
+        }
+      ]
+    }
+  ]
+}

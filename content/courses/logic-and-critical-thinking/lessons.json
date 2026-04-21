@@ -1,0 +1,365 @@
+{
+  "courseSlug": "logic-and-critical-thinking",
+  "lessons": [
+    {
+      "slug": "foundations-of-critical-thinking",
+      "title": "The Foundations of Critical Thinking",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Critical thinking is the disciplined practice of evaluating arguments and evidence to form accurate beliefs and make better decisions. It is not skepticism for its own sake — not the reflexive rejection of everything. It is the application of specific intellectual skills: identifying claims and evidence, evaluating argument quality, recognizing bias, and revising beliefs in proportion to evidence.\n\nResearch on critical thinking education shows it is teachable, measurable, and improves across populations with practice. It predicts not just academic performance but career outcomes, quality of decision-making, and resistance to misinformation.\n\nThis course builds these skills systematically."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Claims, Arguments, and Evidence",
+          "content": "Critical thinking begins with basic distinctions:\n\n**Claim:** A statement that something is true. 'Chocolate prevents heart disease.' 'The economy is improving.' 'He's dishonest.'\n\n**Argument:** A set of claims where some (premises) are offered as support for another (the conclusion).\n\n**Evidence:** Information that supports or challenges a claim. Evidence varies in quality:\n- Anecdotal evidence (one person's story) — weakest\n- Survey data — depends on sample size and methodology\n- Observational study — can show correlation, not causation\n- Randomized controlled trial — gold standard for causal claims\n- Meta-analysis (combining multiple studies) — strongest\n\nThe first step in critical thinking: identify what kind of claim is being made. Descriptive claims ('X is the case') require different evaluation than normative claims ('X should be the case') which require different evaluation than conceptual claims ('What does X mean?').\n\nIf you can't identify exactly what claim is being made, you can't evaluate it."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The term 'critical thinking' was first used systematically by the educator John Dewey, who called it 'reflective thinking' in his 1910 book 'How We Think.' He defined it as 'the active, persistent and careful consideration of any belief or supposed form of knowledge in the light of the grounds that support it.'\n\nDecades later, Robert Ennis — whose 1962 paper 'A Concept of Critical Thinking' established the field's modern foundations — defined it as 'reasonable reflective thinking focused on deciding what to believe or do.'\n\nThe irony: despite 100+ years of recognizing critical thinking as essential to education, standardized testing and information environments consistently reward recall over evaluation, compliance over analysis. Studies consistently find that large majorities of students graduate without the ability to distinguish strong from weak arguments in unfamiliar contexts — suggesting that critical thinking is more valued in theory than taught in practice."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Intellectual Humility: The Foundation of Good Thinking",
+          "content": "The most important disposition for a critical thinker is intellectual humility — the recognition that your beliefs might be wrong, your reasoning might be biased, and that being corrected is not an insult but an opportunity.\n\nResearch on intellectual humility (Mark Leary at Duke) finds that people with high intellectual humility:\n- Are better at recognizing the limits of their knowledge\n- Are more willing to update beliefs in the face of evidence\n- Are less defensive when their views are challenged\n- Are better collaborators and decision-makers\n- Are more accurately calibrated about what they actually know vs. don't know\n\nThe opposite — intellectual arrogance — is associated with motivated reasoning (finding arguments for what you already believe), confirmation bias, and resistance to evidence.\n\nIntellectual humility doesn't mean being uncertain about everything. It means being uncertain in proportion to the actual evidence. Strong evidence warrants high confidence. Weak evidence warrants low confidence — not performative uncertainty."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Motivated Reasoning",
+          "content": "**Motivated reasoning** is the tendency to evaluate evidence and construct arguments in ways that support pre-existing conclusions, desires, or identities — rather than following evidence to wherever it leads.\n\nResearcher Ziva Kunda's foundational work: people want to believe what serves their interests, confirms their identity, or validates their prior beliefs — and cognitive processes are recruited in service of reaching those conclusions.\n\nKey symptoms of motivated reasoning:\n- Accepting evidence for preferred conclusions with less scrutiny than evidence against\n- Generating counterarguments for unwelcome evidence while accepting confirming evidence uncritically\n- Interpreting ambiguous evidence as support for your position\n- Experiencing the 'backfire effect' — some research suggests that confronting people with corrections to false beliefs initially strengthens the false belief (though this is contested in recent replication studies)\n\nThe antidote: consider the opposite. Before accepting a conclusion, ask: 'What would I need to see to believe the opposite? Am I applying the same standards of evidence to both sides?'"
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Assess your intellectual humility on a topic you feel strongly about:\n\n1. **Choose a belief** you hold with high confidence — political, moral, factual, anything.\n\n2. **Steel-man the opposition:** What is the STRONGEST argument against your position? Not a straw man, but the most compelling version of the opposing view.\n\n3. **Examine your evidence standards:** What would you accept as evidence that you're wrong? If you cannot name it, you may be reasoning from conclusion backward.\n\n4. **Rate your confidence:** On a scale of 1-100%, how confident are you? What would it take to move that number 10 percentage points in either direction?\n\nIntellectual humility isn't about being wishy-washy. It's about being accurately calibrated — confident where evidence is strong, uncertain where it isn't. Applying this discipline to one belief a day produces significant improvements in thinking over time."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What distinguishes intellectual humility from general uncertainty or wishy-washiness?",
+          "otionA": "Intellectual humility is specifically about social relationships — being open to others' perspectives in conversations rather than about individual belief accuracy",
+          "optionB": "Intellectual humility means being uncertain in proportion to actual evidence — high confidence where evidence is strong, lower confidence where it isn't. It's calibration, not general uncertainty. The intellectually humble can hold very strong views — about things with very strong evidence",
+          "otionC": "Intellectual humility is specifically about admitting past errors — the disposition to publicly acknowledge mistakes when they're pointed out",
+          "otionD": "Intellectual humility requires treating all perspectives as equally valid — it's the epistemic form of respect for diverse viewpoints",
+          "correctAnswer": "B",
+          "explanation": "Intellectual humility = calibration: confident where evidence is strong, uncertain where it isn't. It's not general uncertainty or treating all views as equal. A person with high intellectual humility can be very confident that the Earth is spherical (overwhelming evidence) while being genuinely uncertain about which economic policy would work better (contested evidence). The key is that confidence tracks evidence quality."
+        },
+        {
+          "question": "What is motivated reasoning and how does it undermine critical thinking?",
+          "otionA": "Reasoning that is motivated by wanting to help someone — the good intention undermines objectivity",
+          "optionB": "The tendency to evaluate evidence in ways that support pre-existing conclusions — applying higher scrutiny to unwelcome evidence and accepting confirming evidence uncritically. It undermines critical thinking by corrupting the very evaluative processes that should produce accurate beliefs",
+          "otionC": "Reasoning that is motivated by external rewards — reasoning for money, grades, or praise rather than truth",
+          "otionD": "The motivated use of emotional arguments in place of factual ones — choosing persuasion over accuracy",
+          "correctAnswer": "B",
+          "explanation": "Motivated reasoning (Kunda): cognitive processes are recruited in service of desired conclusions — accepting confirming evidence without scrutiny, scrutinizing disconfirming evidence heavily. This corrupts the evaluative process itself: the same evidence feels more or less convincing depending on whether it supports what you want to believe. The antidote: apply consistent evidential standards to both preferred and dispreferred conclusions."
+        },
+        {
+          "question": "What is the hierarchy of evidence for evaluating causal claims?",
+          "otionA": "Expert opinion → observational study → randomized trial → anecdote — from strongest to weakest authority",
+          "optionB": "Anecdote (weakest) → survey → observational study (correlation) → randomized controlled trial (causal) → meta-analysis combining multiple studies (strongest) — each level provides stronger evidence for causal claims",
+          "otionC": "Qualitative evidence is stronger than quantitative for social claims; quantitative is stronger for scientific claims",
+          "otionD": "Recent evidence always outweighs older evidence regardless of study type",
+          "correctAnswer": "B",
+          "explanation": "Evidence hierarchy for causal claims: anecdote (one person's experience) → survey (self-reported, many people) → observational study (shows correlation, confounded) → randomized controlled trial (controls confounds, establishes causation) → meta-analysis (combines multiple RCTs, most robust). Each step provides stronger grounds for causal conclusions — a critical thinker evaluates claims against the strength of evidence provided."
+        }
+      ]
+    },
+    {
+      "slug": "cognitive-biases",
+      "title": "Cognitive Biases That Distort Thinking",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Cognitive biases are systematic patterns in human thinking — predictable ways the mind departs from strictly rational processing. They're not random errors. They're consistent, predictable tendencies that appear across populations and contexts.\n\nKahneman and Tversky's decades of research established that many biases are features, not bugs — they emerge from mental shortcuts (heuristics) that work well in most situations but fail in specific predictable ways.\n\nYou already know about some biases from the psychology lessons. This lesson focuses specifically on the biases most relevant to critical thinking and argument evaluation — the ones that most commonly distort reasoning about evidence and claims."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Confirmation Bias and Its Consequences",
+          "content": "Confirmation bias — the tendency to seek, notice, and remember information that confirms existing beliefs — is the most pervasive cognitive bias affecting critical thinking.\n\nIt operates at three levels:\n\n**Search:** People selectively search for information consistent with their views. Google searches are shaped by what question you ask; news sources are chosen based on expected agreement.\n\n**Interpretation:** The same piece of evidence is interpreted differently depending on prior beliefs. A study showing gun restrictions correlate with reduced homicide is 'methodologically sound' for gun control supporters and 'full of confounds' for opponents.\n\n**Memory:** People remember confirming evidence better than disconfirming. After an election, partisans remember the scandals about the other party more clearly than the scandals about their own.\n\nThe consequence: people can consume large amounts of information without updating their beliefs — because the information is filtered before reaching evaluation. This is why 'doing research' sometimes strengthens false beliefs rather than correcting them."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Research by Peter Wason (1960) demonstrated confirmation bias with devastating clarity using his '2-4-6 task':\n\nParticipants were told that '2-4-6' fits a rule. They could propose other number triples and be told whether each fits the rule. Their task was to discover the rule.\n\nMost participants proposed series like '6-8-10' or '14-16-18' (even numbers increasing by 2) — and kept getting 'yes, that fits.' They then confidently announced: 'The rule is even numbers increasing by 2.'\n\nThe actual rule was: 'any three numbers in ascending order.' (2-4-6 fits this, as does 1-2-3 or 10-20-30.)\n\nParticipants never proposed triples that would disconfirm their hypothesis (like '1-3-5' — which would have fit the real rule and proved them wrong). They only sought confirming examples.\n\nConfirmation bias operates this way: we seek evidence that confirms rather than evidence that could falsify. Good scientific thinking requires deliberately seeking disconfirmation — which is profoundly counterintuitive."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Planning Fallacy and Overconfidence",
+          "content": "Humans are systematically overconfident — we believe our knowledge is more accurate than it is, our predictions more reliable, and our plans more likely to succeed on schedule.\n\nThe **planning fallacy** (Kahneman and Tversky): plans focus on best-case scenarios and ignore the statistical distribution of past outcomes. Almost every large project runs over time and budget.\n\nResearch on calibration: when people say they're '90% confident' about factual claims, they're wrong about 30-40% of the time. Professional forecasters are somewhat better calibrated than laypeople — but often not dramatically so.\n\nPhilip Tetlock's 'superforecasters' are a rare exception: people who are genuinely well-calibrated, predict near-term events with significantly better-than-chance accuracy, and improve over time with deliberate practice.\n\nWhat makes them different: they think in probabilities (not certainties), actively seek to falsify their own beliefs, update frequently with new evidence, and take the 'outside view' (what's the base rate for this type of event?) before applying specific case reasoning.\n\nThese habits are teachable — which means calibrated thinking is a learnable skill, not an innate talent."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Anchoring Effect",
+          "content": "The **anchoring effect** is the tendency to rely too heavily on the first piece of information encountered (the 'anchor') when making subsequent judgments or decisions.\n\nAmos Tversky and Daniel Kahneman's classic demonstration: participants were shown a random number (generated by spinning a wheel in their presence) and then asked to estimate the percentage of African countries in the UN. Participants who saw a higher random number estimated higher percentages — even though the random number was obviously irrelevant.\n\nAnchoring appears in:\n- Salary negotiations (the first number offered anchors the entire negotiation)\n- Real estate pricing (listing price anchors buyer offer expectations)\n- Estimating project duration (initial estimate anchors revision even when clearly wrong)\n- Legal sentencing (prosecutors' sentencing requests anchor judges' sentences)\n\nAnchoring is resistant to awareness — knowing about it doesn't fully protect you from it. The best defenses: generate your own estimate before seeing any anchor; deliberately consider whether the anchor is relevant to your judgment; consider extreme opposite anchors to destabilize the original."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Practice Wason's 2-4-6 task in reverse — use falsification rather than confirmation:\n\nTake any belief you're currently confident about. Instead of looking for examples that confirm it, deliberately seek:\n\n1. **What would falsify this belief?** What evidence would convince you it's wrong? If you can't name it, this is a warning sign.\n\n2. **The most compelling counterexample:** Find the strongest real case against your belief. Can your belief survive it?\n\n3. **The base rate check:** What's the 'outside view'? How often do situations like this turn out as you're predicting?\n\n4. **The devil's advocate:** Make the strongest possible case for the opposite conclusion. Which is more persuasive — your belief or the devil's advocate?\n\nFalsification thinking is uncomfortable but calibrating. The beliefs that survive deliberate falsification attempts are the ones worth holding with confidence."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What made Peter Wason's 2-4-6 task a classic demonstration of confirmation bias?",
+          "optionA": "Participants couldn't remember which triples they had tried, demonstrating how memory affects reasoning",
+          "optionB": "Participants only proposed triples that would confirm their hypothesis (never triples that would disconfirm it) — revealing that people naturally seek confirmation rather than falsification, even when falsification would be faster and more informative",
+          "otionC": "Participants consistently guessed the wrong rule, demonstrating that intuitive pattern recognition fails with abstract number tasks",
+          "otionD": "Participants who knew the concept of confirmation bias performed no better than those who didn't — showing the bias is automatic and knowledge doesn't protect against it",
+          "correctAnswer": "B",
+          "explanation": "Wason's task: the real rule ('ascending order') could be discovered by trying a disconfirming example (like '1-3-5'). Participants only tried confirming examples. Even when their proposed rule was clearly narrower than the actual rule (they assumed 'increasing by 2' rather than just 'ascending'), they failed to probe. Confirmation bias means we search for confirmation, not disconfirmation — which is exactly backwards from good scientific reasoning."
+        },
+        {
+          "question": "What distinguishes 'superforecasters' from typical forecasters in Tetlock's research?",
+          "otionA": "Superforecasters have specialized domain expertise — their advantage comes from deep knowledge in the specific areas they forecast",
+          "optionB": "Superforecasters think in calibrated probabilities, actively seek to falsify their own beliefs, take the 'outside view' before case-specific reasoning, and update frequently — habits that are learnable through deliberate practice",
+          "otionC": "Superforecasters use formal statistical models rather than intuitive judgment — their advantage is methodological rather than cognitive",
+          "otionD": "Superforecasters are simply more intelligent — measured IQ is the primary predictor of forecasting accuracy",
+          "correctAnswer": "B",
+          "explanation": "Tetlock found that superforecasters share specific cognitive habits (not domain expertise or IQ): calibrated probability thinking, active self-falsification, 'outside view' base rate thinking, and frequent updating with new evidence. These habits are learnable — which means calibrated thinking is a skill, not talent. Domain experts were not significantly better forecasters than well-calibrated generalists."
+        },
+        {
+          "question": "Why does anchoring affect judgments even when people know the anchor is irrelevant?",
+          "otionA": "Anchoring only affects people who are uncertain — those with strong prior knowledge are unaffected",
+          "optionB": "Anchoring appears to be somewhat automatic — the anchor activates related concepts and associations that influence subsequent estimates even when people are explicitly told it's random. Awareness reduces but doesn't eliminate the effect",
+          "otionC": "Anchoring is primarily a social conformity phenomenon — people adjust their estimates toward the anchor to avoid seeming unreasonable",
+          "otionD": "Anchoring works because people trust that a number was provided for a reason — even random numbers are unconsciously treated as potentially informative",
+          "correctAnswer": "B",
+          "explanation": "Even when told an anchor is randomly generated, participants show partial anchoring effects. The anchor appears to activate related mental content that influences subsequent estimates semi-automatically. Awareness reduces the effect somewhat; deliberate consideration of why the anchor might be wrong or irrelevant helps further. The best defense is generating your own estimate before seeing any anchor."
+        }
+      ]
+    },
+    {
+      "slug": "argument-evaluation",
+      "title": "Evaluating Arguments in the Wild",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Arguments appear everywhere — in news articles, in political speeches, in advertisements, in conversations, in scientific papers. Most of them are presented in ways that are not obviously structured as 'here is my premise, here is my reasoning, here is my conclusion.'\n\nApplied argument evaluation means: extracting the implicit argument structure, evaluating whether the reasoning is valid, assessing whether the evidence is credible, and judging whether the conclusion follows.\n\nThis is the skill of consuming media, doing research, and participating in public discourse as an informed rather than manipulated participant."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Breaking Arguments Apart",
+          "content": "To evaluate any argument, first reconstruct it:\n\n1. **Find the conclusion:** What is the speaker/writer trying to get you to believe or do? This is usually (but not always) stated near the beginning or end.\n\n2. **Find the premises:** What reasons are offered in support of the conclusion? These are often introduced by words like: 'because,' 'since,' 'given that,' 'the evidence shows,' 'as demonstrated by.'\n\n3. **Find the assumptions:** What does the argument assume without stating? These are implicit premises that the argument requires but doesn't defend.\n\nExample: 'Restaurant X has a long wait on Friday nights; it must be good.'\n- Conclusion: Restaurant X is good\n- Explicit premise: It has a long wait on Friday nights\n- Implicit assumption: Long waits indicate quality (this is the assumption to interrogate — long waits might indicate limited capacity, famous location, or one popular dish)\n\nMost fallacious or weak arguments are weak not at the stated premise level but at the implicit assumption level — the things the argument takes for granted without defending."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "In 2016, researchers at Stanford found that 82% of middle schoolers couldn't distinguish between a news article and sponsored advertising on a website. College students could rarely assess the reliability of tweets, often citing the number of followers as credibility evidence.\n\nThe researchers' term: 'civic online reasoning' — the ability to evaluate digital information for credibility, source reliability, and potential bias. They concluded that most students, regardless of academic level, were 'easily duped.'\n\nThe research led to significant educational initiatives and is one of the empirical foundations for teaching critical thinking as a core skill rather than an elective supplement.\n\nSubsequent research has found that adults are not dramatically better than students: a study of professional fact-checkers vs. historians vs. Stanford students found that professional fact-checkers were most accurate — not because they knew more, but because they used different reading strategies (quickly scanning off-site to identify sources rather than reading the site itself)."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "The Source Evaluation Framework",
+          "content": "Professional fact-checkers and skeptics use a consistent framework for source evaluation:\n\n**Lateral reading:** Don't read a source to evaluate its credibility — read other sources about that source. Google the organization; look for reviews, criticisms, or endorsements from third parties; check who funds them.\n\n**Authority check:** Is the claimed expertise relevant? A doctor's opinion on vaccine safety is relevant. The same doctor's opinion on economic policy is not specially authoritative.\n\n**Conflict of interest:** Who benefits if the claim is true? A pharmaceutical company funding a study showing their drug is effective has an obvious conflict. This doesn't automatically invalidate the research, but it requires higher scrutiny.\n\n**Claims vs. evidence:** Does the article present evidence for its claims, or just make assertions? Are the cited sources accessible and accurately characterized?\n\n**Date and context:** Is the information current? Is the quote taken in context? Headlines often misrepresent the studies they describe.\n\nA quick 3-minute lateral reading check catches most misinformation before it spreads."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Epistemic Bubbles and Echo Chambers",
+          "content": "**Epistemic bubble:** An information environment where a person only encounters viewpoints consistent with their own — not because contrary views are actively excluded but because they're never encountered. Social media algorithms create epistemic bubbles by serving content similar to what users already engage with.\n\n**Echo chamber:** An environment where not only are contrary views absent, but the views present are amplified and reinforced by repetition and social pressure. Echo chambers actively discourage exposure to outside perspectives through social sanction.\n\nC. Thi Nguyen (University of Utah philosopher) makes this distinction important: the fix for an epistemic bubble is exposure — introducing people to good sources they're not currently seeing. The fix for an echo chamber is more difficult — trust in outside sources has been actively undermined, so simply exposing people to outside information doesn't help.\n\nBoth phenomena degrade epistemic quality — but through different mechanisms requiring different solutions. Recognizing which you're in (if either) is a prerequisite for addressing it."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply lateral reading to one piece of information you encounter today:\n\n1. When you see a claim from a source you're not fully familiar with, don't evaluate it by reading the source itself\n2. Open a new tab and search: '[organization name] review,' '[organization name] funding,' '[organization name] criticism'\n3. What do you find? Who funds them? Do reliable third parties vouch for their credibility?\n\nAlso try this diagnosis: map your information diet for one day. What sources do you read? Watch? Listen to? Are they predominantly aligned with your existing views, or do you regularly encounter strong versions of different perspectives?\n\nIf predominantly aligned: you're in at least a mild epistemic bubble. The fix is not consuming bad sources — it's finding the best sources from different perspectives and engaging them seriously."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What is 'lateral reading' as used by professional fact-checkers, and why is it more effective than reading the source itself?",
+          "otionA": "Reading the source from multiple angles — starting with conclusions, then evidence, then assumptions, rather than linearly",
+          "optionB": "Reading other sources about the source being evaluated — quickly searching for third-party reviews, funding information, and credibility assessments. More effective because it's harder for misleading sources to control their reputation off their own site",
+          "otionC": "Reading multiple articles on the same topic simultaneously to identify where sources agree and disagree",
+          "otionD": "Reading the citations and supporting sources within an article rather than just the main text",
+          "correctAnswer": "B",
+          "explanation": "Lateral reading: don't evaluate a source by reading it — read other sources about it. Credible organizations have third-party reviews, established track records, and identifiable funding. Misleading sites often look professional but fail the lateral reading test — the off-site search reveals funding sources, owner identities, or consistent patterns of misinformation. It's faster and more accurate than trying to evaluate internal credibility."
+        },
+        {
+          "question": "What is the critical distinction between an epistemic bubble and an echo chamber?",
+          "otionA": "Epistemic bubbles are online phenomena; echo chambers are offline community phenomena — the distinction is the medium",
+          "optionB": "Epistemic bubbles exclude contrary views passively (never encountered); echo chambers actively discourage them through social sanction and undermine trust in outside sources. The fix for a bubble is exposure; the fix for an echo chamber is more difficult because exposure alone doesn't work when external sources are distrusted",
+          "otionC": "Epistemic bubbles are larger and more diffuse; echo chambers are smaller and more intense — size and intensity distinguish them",
+          "otionD": "Epistemic bubbles involve the passive reception of biased information; echo chambers involve the active creation and sharing of biased content",
+          "correctAnswer": "B",
+          "explanation": "Nguyen's distinction: bubbles passively exclude (algorithm shows only agreeing views — you never encounter the other side). Echo chambers actively exclude and immunize against outside sources (outsiders are dismissed as biased, corrupt, or conspiring). Exposure fixes bubbles; it may not fix chambers because the chamber has pre-emptively discredited the incoming sources. Different mechanisms require different interventions."
+        },
+        {
+          "question": "What is a conflict of interest in argument evaluation, and why doesn't it automatically invalidate a conclusion?",
+          "otionA": "A conflict of interest invalidates any argument — conclusions produced by parties with a stake in the outcome cannot be trusted",
+          "optionB": "A conflict of interest is when a source has incentives to reach a particular conclusion — it raises legitimate questions about objectivity but doesn't automatically invalidate the research. It's grounds for higher scrutiny and seeking independent replication, not automatic rejection",
+          "otionC": "Conflicts of interest are only problematic when the financial interests are undisclosed — disclosed conflicts of interest are not a critical thinking concern",
+          "otionD": "Conflicts of interest are primarily an ethical concern about honesty rather than an epistemic concern about the reliability of conclusions",
+          "correctAnswer": "B",
+          "explanation": "Conflict of interest is a signal for higher scrutiny — not automatic rejection. Pharma-funded studies on pharma drugs deserve more scrutiny than independent ones, but they can still be valid research. The questions are: was the study pre-registered? Were methods independent? Have findings been independently replicated? Industry-funded research that survives independent replication is credible despite the conflict."
+        }
+      ]
+    },
+    {
+      "slug": "epistemic-practices",
+      "title": "Building Better Epistemic Habits",
+      "estimatedMinutes": 8,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Critical thinking is not a set of rules applied mechanically to arguments. It's a set of habits — practices cultivated over time that become automatic responses to encountering claims and evidence.\n\nThe habits that distinguish good thinkers from poor ones aren't complex. They're consistent applications of a small set of practices: actively seeking disconfirmation, calibrating confidence to evidence, updating beliefs when new evidence arrives, maintaining genuine epistemic humility.\n\nThis final lesson focuses on the practices that build these habits."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "The Pre-Mortem Technique",
+          "content": "The pre-mortem is a decision-making technique developed by psychologist Gary Klein that significantly improves planning and reduces overconfidence.\n\nStandard planning: imagine the project succeeding. What needs to happen? What resources are needed? This produces optimistic plans that underweight failure modes.\n\nPre-mortem: before executing a plan, imagine it has already failed — 6 months or a year from now, the project was a disaster. Without being asked why it might fail, ask: given that it has failed, what went wrong?\n\nThis subtle reframing — imagining failure as a fact rather than a possibility — removes the social pressure to be positive and unlocks creative identification of risks. In studies by Klein and colleagues, pre-mortems significantly improve identification of project failure modes that weren't surfaced in conventional planning.\n\nThe pre-mortem is a practical implementation of falsification thinking — deliberately seeking the ways a plan could be wrong — that yields concrete, actionable information for improving the plan."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "The philosopher Charles Peirce (1839-1914), founder of American pragmatism, proposed what he called 'the scientific method' of belief fixation — and contrasted it with three other methods:\n\n**The method of tenacity:** Believing whatever you're used to believing and resisting change — 'a man may go through life systematically keeping out of the way of contradictory evidence.'\n\n**The method of authority:** Believing what the authoritative institution tells you to believe — safe as long as the authority is right.\n\n**The a priori method:** Believing what seems reasonable or agreeable to reason — but what seems reasonable to one person differs from another.\n\n**The scientific method:** Forming beliefs through an ongoing process of hypothesis formation, testing, and revision — driven by external reality rather than internal preference or social authority.\n\nPeirce's insight: the first three methods can maintain any belief indefinitely. Only the scientific method has a self-correcting mechanism — it eventually drives toward truth regardless of starting point."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Steel-Manning and Productive Disagreement",
+          "content": "Steel-manning is the practice of reconstructing an opposing argument in its strongest possible form before responding to it — the opposite of straw-manning.\n\nWhy it matters:\n- You can only know if your position is correct if you've genuinely tested it against the best version of the opposing view\n- You might discover the opposing view is actually stronger than you thought — information worth having\n- You become a better interlocutor — people trust someone who genuinely tries to understand their view\n\nProcedure:\n1. State the opposing view as accurately as possible\n2. Identify the strongest versions of its arguments — the ones that actually challenge your view\n3. Respond to those, not to weak versions\n\nAdditional practice: the Ideological Turing Test (coined by economist Bryan Caplan) — can you argue for the opposing view so convincingly that an observer can't tell whether you're a genuine believer? If you can't, you probably don't understand it well enough to have a fully informed opinion on the matter."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "Calibrated Uncertainty",
+          "content": "**Calibrated uncertainty** is the practice of holding beliefs with confidence proportional to the strength of evidence and reasoning behind them — neither overconfident nor underconfident.\n\nA well-calibrated person:\n- States beliefs as probabilities, not certainties: '70% confident' rather than 'certain'\n- Updates these probabilities in proportion to new evidence: +10% from weak evidence, +50% from strong evidence\n- Tracks their prediction accuracy over time and adjusts future confidence based on how often past confidence levels were accurate\n\nAnnie Duke's work on calibrated uncertainty in decision-making: decisions made with calibrated uncertainty produce better outcomes than decisions made with binary ('certain' or 'uncertain') thinking — because calibrated thinking preserves the information about degree of confidence that binary thinking discards.\n\nCalibration can be trained: keep a prediction journal where you write your confidence in specific future events, then track how often things happened when you said you were 90% confident vs. 70% confident vs. 50% confident. Over time, your calibration improves."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Start a belief journal — a practice that builds calibrated thinking over time:\n\n1. Write down three specific beliefs you hold with varying confidence levels:\n   - One you're 90%+ confident in\n   - One you're 60-70% confident in\n   - One you're 40-50% confident in\n\n2. For each, write: what evidence would increase your confidence? What would decrease it?\n\n3. For any prediction-type beliefs (elections, economic outcomes, personal plans), write down the specific claim and your confidence. Return in 3, 6, or 12 months and check whether your confidence levels were accurate.\n\nThis practice, done consistently, produces the calibration improvement that separates superforecasters from typical thinkers — not natural talent but deliberate tracking and updating.\n\nThe critical thinker's goal: believe things to the degree that evidence warrants — no more, no less."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What makes the pre-mortem technique effective for identifying planning failures?",
+          "otionA": "It engages pessimistic thinking that is suppressed in normal planning — giving pessimists equal influence in planning discussions",
+          "optionB": "Imagining failure as a fact (rather than a possibility) removes social pressure to be positive and unlocks creative identification of failure modes — it's a practical implementation of falsification thinking applied to plans",
+          "otionC": "The pre-mortem forces explicit probability assignment to failure scenarios — the quantification process reveals risks that qualitative discussion misses",
+          "otionD": "It creates psychological commitment to preventing failure by making failure imaginatively vivid — the emotional impact motivates more careful risk mitigation",
+          "correctAnswer": "B",
+          "explanation": "The pre-mortem's power: 'the project has already failed — what went wrong?' vs. 'what might go wrong?' The first reframing removes optimism pressure and asks for post-hoc explanation of a fait accompli. This unlocks failure mode identification that forward-looking questions suppress. It's falsification thinking applied practically — treating the failure as real and working backward reveals things that possibility-framing misses."
+        },
+        {
+          "question": "What is the Ideological Turing Test and what does it reveal about understanding opposing views?",
+          "otionA": "A test of how well people can identify which political party someone belongs to based on their statements",
+          "optionB": "A test of whether you can argue for an opposing view so convincingly that an observer can't distinguish you from a genuine believer — if you can't, you probably don't understand the opposing view well enough to have a fully informed opinion",
+          "otionC": "A test of whether people can identify genuine statements from AI versus humans — an analogy for how people identify 'genuine' versus 'faked' beliefs",
+          "otionD": "A test of whether beliefs can survive cross-cultural exposure — adapting an argument for an ideologically different audience as a test of its universal persuasiveness",
+          "correctAnswer": "B",
+          "explanation": "Caplan's Ideological Turing Test: can you argue the opposing view convincingly enough that an observer can't tell you're not a genuine believer? If not, you don't fully understand it — and understanding it is a prerequisite for being fully confident your own position is right. Steel-manning requires this level of understanding. It's a test of epistemic charity and intellectual thoroughness."
+        },
+        {
+          "question": "What is calibrated uncertainty and how does maintaining a prediction journal improve it?",
+          "optionA": "Calibrated uncertainty means expressing all beliefs as explicit percentages — keeping a journal records these percentages for later review",
+          "optionB": "Calibrated uncertainty means holding beliefs with confidence proportional to evidence — tracking predictions and outcomes reveals whether your stated confidence levels actually match your accuracy rate, allowing you to adjust future confidence accordingly",
+          "otionC": "Calibrated uncertainty is the recognition that all uncertainty is irreducible — keeping a journal helps accept this rather than seeking false certainty",
+          "otionD": "Calibrated uncertainty means updating beliefs immediately with each new piece of evidence — a journal ensures you don't forget the evidence that should have changed your views",
+          "correctAnswer": "B",
+          "explanation": "Calibration: confidence should match accuracy rate. If you're right 90% of the time when you say '90% confident,' you're well-calibrated. A prediction journal tracks your confidence levels against actual outcomes — revealing systematic over or under-confidence by domain. This feedback loop is how superforecasters improve: they know whether their confidence was accurate and adjust future estimates accordingly."
+        }
+      ]
+    },
+    {
+      "slug": "applied-critical-thinking",
+      "title": "Critical Thinking in Real Situations",
+      "estimatedMinutes": 9,
+      "slides": [
+        {
+          "slideOrder": 1,
+          "slideType": "lesson",
+          "title": "Introduction",
+          "content": "Critical thinking is most valuable — and most difficult — in high-stakes, emotionally charged situations where your own interests, identity, or values are implicated in the conclusions.\n\nIt's easy to think critically about claims you don't care about. The challenge is applying the same rigor to claims about things you do care about — your political tribe, your professional field, your personal relationships, your health choices.\n\nThis lesson applies critical thinking to the domains where it's most needed and most difficult."
+        },
+        {
+          "slideOrder": 2,
+          "slideType": "lesson",
+          "title": "Health Information: Where Bad Thinking Costs Lives",
+          "content": "Health information is one of the domains where critical thinking most directly affects life outcomes — and where misinformation is most prevalent and most dangerous.\n\nThe framework for evaluating health claims:\n\n**Who benefits if this claim is true?** A company selling a supplement making health claims has obvious incentive to generate favorable research or cherry-pick results.\n\n**What type of study supports this?** A headline saying 'X linked to Y' is almost always from an observational study — which can only show correlation. Dietary claims are especially vulnerable to confounding.\n\n**What's the effect size?** Even if true, is it clinically significant? A food that 'reduces cancer risk by 8%' from a 2% to a 1.84% base rate — the absolute reduction is 0.16 percentage points.\n\n**Has it replicated?** Many dietary, nutritional, and behavioral health findings fail to replicate. The 'replication crisis' is severe in nutrition science specifically.\n\n**What's the mainstream medical consensus?** One study against a large consensus body of evidence should be treated very differently than one study establishing a new consensus."
+        },
+        {
+          "slideOrder": 3,
+          "slideType": "fun_fact",
+          "title": "Did You Know?",
+          "content": "Researcher John Ioannidis published a landmark paper in 2005 titled 'Why Most Published Research Findings Are False' — arguing that in many fields, particularly those with small studies, many outcomes, flexible analyses, and high prior probability of null results, the majority of published positive findings are false positives.\n\nHis specific claims: the smaller the study, the higher the pre-publication bias, the more flexible the analytical methods, the hotter the field (more researchers working on similar questions), and the greater the financial interests — the less likely a published finding is to be true.\n\nThe paper was controversial but accurate: subsequent replication studies in psychology, nutritional science, and some areas of medicine confirmed that a substantial fraction (30-50% in some areas) of published positive findings do not replicate.\n\nIoannidis' work catalyzed the 'replication crisis' conversation and has led to significant reforms: pre-registration, larger samples, open data and materials, and more skepticism about single-study findings."
+        },
+        {
+          "slideOrder": 4,
+          "slideType": "key_insight",
+          "title": "Political Reasoning: When Thinking Feels Like Cheering",
+          "content": "Political reasoning is the domain where motivated reasoning and tribal cognition most comprehensively compromise critical thinking — because political beliefs are often tied to group identity, which makes challenges to beliefs feel like challenges to the self.\n\nResearch by Dan Kahan (Yale) on 'cultural cognition': highly educated, intelligent people are not better at evaluating political evidence — they are better at rationalizing it. More intelligent partisan thinkers construct better-quality motivated reasoning, not more accurate beliefs.\n\nThe insight: intelligence is a tool that can be applied toward either truth-seeking or rationalization. Without the motivation to use it for truth, intelligence improves motivated reasoning more than it improves accuracy.\n\nSigns you're in political motivated reasoning mode:\n- You find arguments from your side compelling and arguments from the other side obviously flawed\n- You attribute bad faith to all people on the other side\n- You feel emotional discomfort or defensiveness when encountering counter-evidence\n- You've never in recent memory updated a political belief because of evidence (though you've updated others' beliefs in your own mind)\n\nThe antidote isn't political balance for its own sake — it's applying the same evidence standards to both sides."
+        },
+        {
+          "slideOrder": 5,
+          "slideType": "definition",
+          "title": "The Modus Ponens and Modus Tollens",
+          "content": "Two foundational deductive argument forms essential for all critical thinking:\n\n**Modus Ponens (affirming the antecedent):**\n- If P, then Q\n- P\n- Therefore, Q\n\nExample: If it rains, the ground will be wet. It is raining. Therefore, the ground is wet.\n\n**Modus Tollens (denying the consequent):**\n- If P, then Q\n- Not Q\n- Therefore, not P\n\nExample: If it rains, the ground will be wet. The ground is not wet. Therefore, it is not raining.\n\nTwo common fallacies:\n**Affirming the Consequent (INVALID):** If P then Q; Q; therefore P. The ground is wet — therefore it must have rained. (WRONG: the ground could be wet for other reasons)\n\n**Denying the Antecedent (INVALID):** If P then Q; not P; therefore not Q. It's not raining — therefore the ground isn't wet. (WRONG: the ground might be wet for other reasons)\n\nScientific falsification runs on modus tollens: if a theory is true, we should observe X; we don't observe X; therefore the theory isn't true (at least not in its stated form)."
+        },
+        {
+          "slideOrder": 6,
+          "slideType": "practice",
+          "title": "Try This Today",
+          "content": "Apply critical thinking to a health or political claim you currently believe:\n\n**Health claim audit:**\n1. State a health belief you currently hold ('X is good/bad for you')\n2. What evidence is it based on — anecdote, observational study, RCT, meta-analysis?\n3. Has it been replicated by independent researchers?\n4. What's the actual effect size — relative or absolute risk?\n\n**Political claim audit:**\n1. State a political belief you currently hold\n2. Identify the strongest argument against it (the actual strongest version, not a straw man)\n3. What evidence would change your mind?\n4. Am I applying the same evidentiary standards to claims from my preferred party vs. opposing party?\n\nThe questions are the same in both domains. The resistance you feel applying them to politics vs. health is a measure of how much tribal reasoning is active in your political cognition."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "question": "What did Dan Kahan's 'cultural cognition' research find about intelligence and political reasoning?",
+          "otionA": "More intelligent people are less susceptible to political misinformation — higher intelligence predicts better-calibrated political beliefs",
+          "optionB": "Intelligence is not a reliable predictor of political accuracy — more intelligent partisans construct better-quality motivated reasoning, rationalizing pre-existing beliefs more effectively rather than forming more accurate ones",
+          "otionC": "Intelligence predicts accuracy in non-partisan domains but not political ones — the tribal context blocks the normal benefits of cognitive ability",
+          "otionD": "Higher intelligence predicts more accurate political beliefs, but only when combined with exposure to diverse information sources",
+          "correctAnswer": "B",
+          "explanation": "Kahan's finding: in political reasoning, intelligence amplifies motivated reasoning rather than correcting it. Smarter partisans are better at rationalizing — finding higher-quality arguments for conclusions they're already motivated to reach. This is why political accuracy doesn't scale with IQ. Intelligence without truth-seeking motivation is a tool for better motivated reasoning."
+        },
+        {
+          "question": "What is the logical error in 'affirming the consequent'?",
+          "otionA": "It assumes that a sufficient condition is also necessary — concluding that if Y is true then X must be true when X could have many causes",
+          "optionB": "It reverses the valid modus ponens form — from 'if P then Q; P; therefore Q' to 'if P then Q; Q; therefore P.' The ground being wet doesn't mean it rained — other causes are possible. A valid consequent doesn't uniquely identify which antecedent caused it",
+          "otionC": "It denies the antecedent when the antecedent should be affirmed — a category error in applying the conditional",
+          "otionD": "It affirms the consequent when the antecedent is unknown — an epistemically unjustified logical move",
+          "correctAnswer": "B",
+          "explanation": "Affirming the consequent: if P then Q; Q; therefore P — INVALID. 'If it rains, the ground is wet; the ground is wet; therefore it rained' — wrong, because the ground might be wet for other reasons. In science: 'if my theory is true, I should observe X; I observe X; therefore my theory is true' — invalid. A true observation is consistent with multiple theories. You cannot confirm a theory by its predictions — only falsify it by their absence."
+        },
+        {
+          "question": "Why does Ioannidis' paper 'Why Most Published Research Findings Are False' have practical implications for health information consumers?",
+          "otionA": "It means all published research should be treated as misinformation until independently confirmed",
+          "optionB": "Published single findings, especially in fields with small studies, many outcomes, and financial interests, have significant probability of being false positives. Practically: health consumers should weight consensus over single studies, independent replication over initial findings, and large samples over small ones",
+          "otionC": "It applies specifically to pharmaceutical research — basic science findings are significantly more reliable",
+          "otionD": "It means the peer review system has failed and cannot be trusted as a credibility indicator",
+          "correctAnswer": "B",
+          "explanation": "Ioannidis identified factors that inflate false positive rates: small studies (under-powered), many outcomes (multiple comparisons inflate chance of a 'hit'), flexible analysis (p-hacking), financial interests (publication bias). These are common in nutrition, psychology, and some medical research. Practically: weight meta-analyses and replicated findings heavily; treat single-study headlines with significant skepticism; ask 'has this been independently replicated?'"
+        }
+      ]
+    }
+  ]
+}
