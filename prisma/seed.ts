@@ -372,185 +372,230 @@ async function seedAchievements() {
 async function seedWordGames() {
   console.log('Seeding word games...');
 
-  // ---- Clean Write (formerly Word Hunter) ----
+  // ---- Fill the Blank (slug kept as word-hunter) ----
   const wordHunterRounds = [
     {
       content: {
-        optionA: 'Please revert back to me at your earliest convenience.',
-        optionB: 'Please get back to me when you can.',
-        effectiveOption: 'B',
-        explanation: '"Revert back" is redundant \u2014 revert already means go back. Option B is direct and natural.',
+        sentence: "She spoke with great ___ , choosing each word carefully to avoid offending anyone.",
+        options: ["aggression", "diplomacy", "haste", "confusion"],
+        correctIndex: 1,
+        explanation: "Diplomacy means tactful, careful communication — the other options contradict the context."
       },
       difficulty: 'easy',
     },
     {
       content: {
-        optionA: 'I would like to personally invite you to our upcoming event.',
-        optionB: 'I would like to personally invite you yourself to our upcoming future event.',
-        effectiveOption: 'A',
-        explanation: '"Yourself" is redundant when you\'re already addressing the person. "Upcoming future" repeats the same idea.',
+        sentence: "The new policy will ___ all employees, regardless of their department.",
+        options: ["ignore", "affect", "create", "remove"],
+        correctIndex: 1,
+        explanation: "Affect means to have an impact on — the sentence describes a policy that applies to everyone."
       },
       difficulty: 'easy',
     },
     {
       content: {
-        optionA: 'The result was unexpected.',
-        optionB: 'The end result of the final outcome was completely and totally unexpected.',
-        effectiveOption: 'A',
-        explanation: 'Results are always at the end. Outcomes are always final. "Completely and totally" are synonyms stacked twice.',
+        sentence: "A good leader knows how to ___ their team during difficult times.",
+        options: ["abandon", "motivate", "confuse", "isolate"],
+        correctIndex: 1,
+        explanation: "Motivate means to inspire action and keep morale high — essential during difficult periods."
       },
       difficulty: 'easy',
     },
     {
       content: {
-        optionA: 'Feel free to contact me anytime.',
-        optionB: 'Please do not hesitate to feel free to reach out and contact me at any time.',
-        effectiveOption: 'A',
-        explanation: '"Don\'t hesitate" and "feel free" say the same thing. "Reach out" and "contact" are redundant together.',
+        sentence: "The scientist made a ___ discovery that changed our understanding of the universe.",
+        options: ["trivial", "groundbreaking", "routine", "delayed"],
+        correctIndex: 1,
+        explanation: "Groundbreaking means revolutionary or pioneering — fitting for a discovery that changes understanding."
       },
       difficulty: 'easy',
     },
     {
       content: {
-        optionA: 'We should consider this innovation carefully.',
-        optionB: 'We need to think about whether or not we should consider this new innovation.',
-        effectiveOption: 'A',
-        explanation: '"Whether or not" \u2014 "whether" already covers both sides. "New innovation" is redundant; all innovations are new.',
+        sentence: "To ___ effectively, you must listen as much as you speak.",
+        options: ["argue", "communicate", "interrupt", "compete"],
+        correctIndex: 1,
+        explanation: "Communication is a two-way process — listening is just as important as speaking."
       },
       difficulty: 'easy',
     },
     {
       content: {
-        optionA: "I'm certain this is true.",
-        optionB: 'I am absolutely certain that this is definitely true beyond any doubt.',
-        effectiveOption: 'A',
-        explanation: 'Three certainty qualifiers ("absolutely", "definitely", "beyond any doubt") pile on. One is enough.',
+        sentence: "The contract was ___ after both parties agreed to the new terms.",
+        options: ["cancelled", "amended", "ignored", "printed"],
+        correctIndex: 1,
+        explanation: "Amended means formally changed or revised — the correct word when updating agreed terms."
+      },
+      difficulty: 'easy',
+    },
+    {
+      content: {
+        sentence: "She felt ___ after finishing the marathon — tired but proud.",
+        options: ["energized", "exhausted", "bored", "anxious"],
+        correctIndex: 1,
+        explanation: "Exhausted means completely drained of energy — consistent with finishing a marathon and feeling tired."
+      },
+      difficulty: 'easy',
+    },
+    {
+      content: {
+        sentence: "The team reached a ___ after weeks of disagreement, finally agreeing on a plan.",
+        options: ["conflict", "consensus", "crisis", "competition"],
+        correctIndex: 1,
+        explanation: "Consensus means general agreement — the result of resolving weeks of disagreement."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'Move to the next page and continue the exercise.',
-        optionB: 'Please advance forward to the next page and continue on with the exercise.',
-        effectiveOption: 'A',
-        explanation: '"Advance forward" is redundant \u2014 advance already means moving forward. "Continue on" is the same.',
+        sentence: "His ___ approach to problem-solving helped the team find creative solutions.",
+        options: ["rigid", "analytical", "careless", "passive"],
+        correctIndex: 1,
+        explanation: "Analytical means breaking problems into parts to understand them — leads to creative, structured solutions."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'The consensus is that this plan will work.',
-        optionB: 'The general consensus of opinion among most people is that this plan is viable.',
-        effectiveOption: 'A',
-        explanation: 'Consensus already means general agreement of opinion among people. Every word in B adds nothing.',
+        sentence: "The company decided to ___ its product line to reach new markets.",
+        options: ["reduce", "expand", "copy", "delay"],
+        correctIndex: 1,
+        explanation: "Expand means to grow or extend — the correct word when a company is reaching new markets."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: "We'll meet at 2pm to discuss the problem.",
-        optionB: 'We will meet together at 2pm to discuss and talk about the current existing problem.',
-        effectiveOption: 'A',
-        explanation: 'Meeting is already together. Discuss and talk about overlap. Existing problems are current by definition.',
+        sentence: "Reading regularly can ___ your vocabulary and improve your writing.",
+        options: ["weaken", "enrich", "limit", "replace"],
+        correctIndex: 1,
+        explanation: "Enrich means to enhance or add value — regular reading adds depth to vocabulary."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'Each candidate has unique qualities.',
-        optionB: 'Each and every individual candidate has their own unique personal qualities.',
-        effectiveOption: 'A',
-        explanation: '"Each and every" is one idea. "Individual" and "personal" add no new information. "Own unique" is doubly redundant.',
+        sentence: "The professor asked students to ___ their essays before submitting them.",
+        options: ["delete", "revise", "forget", "copy"],
+        correctIndex: 1,
+        explanation: "Revise means to review and improve — standard advice before submitting written work."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'We joined forces and collaborated on the project.',
-        optionB: 'We worked jointly together in close collaboration as a unified team.',
-        effectiveOption: 'A',
-        explanation: '"Jointly", "together", and "collaboration" all say the same thing. Option A uses two distinct ideas.',
+        sentence: "A ___ mindset helps you grow from failure instead of being defeated by it.",
+        options: ["fixed", "growth", "passive", "closed"],
+        correctIndex: 1,
+        explanation: "A growth mindset, coined by Carol Dweck, means believing abilities can be developed through effort."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'This decision will affect future generations.',
-        optionB: 'This decision will impact and affect future generations yet to come.',
-        effectiveOption: 'A',
-        explanation: '"Impact and affect" are synonyms used together. "Future generations yet to come" is triple redundancy.',
+        sentence: "The new manager worked hard to ___ trust with her team in the first month.",
+        options: ["destroy", "build", "avoid", "hide"],
+        correctIndex: 1,
+        explanation: "Build trust is the standard phrase — establishing confidence through consistent actions."
       },
       difficulty: 'medium',
     },
     {
       content: {
-        optionA: 'The author intentionally repeated the phrase for effect.',
-        optionB: 'The author repeated the phrase again intentionally on purpose for effect.',
-        effectiveOption: 'A',
-        explanation: '"Repeated again" \u2014 repeated already implies again. "Intentionally on purpose" says the same thing twice.',
+        sentence: "To stay healthy, it's important to ___ a balanced diet and regular exercise.",
+        options: ["ignore", "maintain", "replace", "avoid"],
+        correctIndex: 1,
+        explanation: "Maintain means to keep up consistently — the correct word for sustaining healthy habits."
+      },
+      difficulty: 'medium',
+    },
+    {
+      content: {
+        sentence: "The report was ___ with data that supported the team's conclusions.",
+        options: ["empty", "filled", "replaced", "hidden"],
+        correctIndex: 1,
+        explanation: "Filled with data means packed or loaded — the sentence describes a report rich in supporting evidence."
+      },
+      difficulty: 'medium',
+    },
+    {
+      content: {
+        sentence: "When giving feedback, be ___ and focus on specific behaviors, not personality.",
+        options: ["vague", "constructive", "harsh", "silent"],
+        correctIndex: 1,
+        explanation: "Constructive feedback aims to improve — specific and behavior-focused, not personal attacks."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: "She's a skilled expert in her field.",
-        optionB: 'She is a highly skilled expert professional with expertise in her specialized field of work.',
-        effectiveOption: 'A',
-        explanation: '"Expert" and "professional with expertise" repeat the same idea. "Specialized field of work" is three words for one.',
+        sentence: "The film received ___ reviews — critics and audiences loved it.",
+        options: ["poor", "glowing", "mixed", "delayed"],
+        correctIndex: 1,
+        explanation: "Glowing reviews means extremely positive — consistent with both critics and audiences loving it."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'The project was cancelled due to budget constraints.',
-        optionB: 'The project was cancelled and called off due to a lack of sufficient funding in the budget.',
-        effectiveOption: 'A',
-        explanation: '"Cancelled and called off" are synonyms. "Lack of sufficient funding in the budget" \u2014 pick one.',
+        sentence: "She ___ her idea clearly, making sure everyone in the room understood the plan.",
+        options: ["hid", "articulated", "forgot", "copied"],
+        correctIndex: 1,
+        explanation: "Articulated means expressed clearly and coherently — the right word for clear communication of an idea."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'Attach your r\u00e9sum\u00e9 to the application.',
-        optionB: 'Please enclose and attach your r\u00e9sum\u00e9 along with and together with the application.',
-        effectiveOption: 'A',
-        explanation: '"Enclose and attach" overlap. "Along with and together with" are the same phrase used twice.',
+        sentence: "The children were ___ to learn that the school trip had been cancelled.",
+        options: ["thrilled", "disappointed", "confused", "relieved"],
+        correctIndex: 1,
+        explanation: "Disappointed is the natural emotional response to a cancellation of something anticipated."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'We need a new approach.',
-        optionB: 'We need a new and novel fresh approach that has never been tried before.',
-        effectiveOption: 'A',
-        explanation: '"New", "novel", and "fresh" are near-synonyms. "Never been tried before" is implied by calling it new.',
+        sentence: "Good writing is ___ — every word earns its place.",
+        options: ["verbose", "concise", "repetitive", "vague"],
+        correctIndex: 1,
+        explanation: "Concise means brief and clear — the hallmark of good writing where every word is necessary."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'He apologised and asked to meet again.',
-        optionB: 'He apologised for his past mistakes of the past and requested that they meet again at a future date.',
-        effectiveOption: 'A',
-        explanation: '"Past mistakes of the past" \u2014 past appears twice. "At a future date" adds nothing; if they\'re meeting again, it\'s in the future.',
+        sentence: "The negotiations were ___ , with both sides refusing to compromise.",
+        options: ["productive", "tense", "brief", "friendly"],
+        correctIndex: 1,
+        explanation: "Tense means strained and uneasy — the right word when both sides refuse to compromise."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'The team made a final decision.',
-        optionB: 'The team arrived at a final and conclusive decision that was decisive and binding.',
-        effectiveOption: 'A',
-        explanation: '"Final", "conclusive", and "decisive" are near-synonyms. "Binding" adds a different nuance but doesn\'t save the sentence.',
+        sentence: "He ___ his mistake immediately and apologized to the team.",
+        options: ["denied", "acknowledged", "repeated", "ignored"],
+        correctIndex: 1,
+        explanation: "Acknowledged means admitted or recognized — followed naturally by an apology."
       },
       difficulty: 'hard',
     },
     {
       content: {
-        optionA: 'Send me the report by Friday.',
-        optionB: 'Kindly be so good as to send me the report no later than the end of business on Friday.',
-        effectiveOption: 'A',
-        explanation: '"Kindly be so good as to" is five words for "please". "No later than the end of business on" is seven words for "by".',
+        sentence: "The new law was designed to ___ the rights of all citizens equally.",
+        options: ["remove", "protect", "ignore", "limit"],
+        correctIndex: 1,
+        explanation: "Protect means to safeguard — laws are designed to uphold and defend rights, not remove them."
+      },
+      difficulty: 'hard',
+    },
+    {
+      content: {
+        sentence: "A strong argument is built on ___ evidence, not assumptions.",
+        options: ["weak", "credible", "vague", "outdated"],
+        correctIndex: 1,
+        explanation: "Credible evidence means reliable and trustworthy — the foundation of any strong argument."
       },
       difficulty: 'hard',
     },
@@ -558,8 +603,8 @@ async function seedWordGames() {
 
   const wordHunter = await prisma.wordGame.upsert({
     where: { slug: 'word-hunter' },
-    update: { name: 'Clean Write', description: 'Pick the cleaner, more direct sentence', iconEmoji: '\u270F\uFE0F' },
-    create: { slug: 'word-hunter', name: 'Clean Write', description: 'Pick the cleaner, more direct sentence', iconEmoji: '\u270F\uFE0F' },
+    update: { name: 'Fill the Blank', description: 'Complete the sentence by choosing the right word', iconEmoji: '\u270F\uFE0F' },
+    create: { slug: 'word-hunter', name: 'Fill the Blank', description: 'Complete the sentence by choosing the right word', iconEmoji: '\u270F\uFE0F' },
   });
 
   // Delete existing rounds to avoid duplicates, then re-create

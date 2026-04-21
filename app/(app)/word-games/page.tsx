@@ -6,8 +6,8 @@ import { BackButton } from '@/components/ui/BackButton'
 const GAMES = [
   {
     slug: 'word-hunter',
-    name: 'Clean Write',
-    description: 'Pick the cleaner, more direct sentence and sharpen your writing.',
+    name: 'Fill the Blank',
+    description: 'Complete the sentence by choosing the right word.',
     icon: '✏️',
     gradient: 'from-violet-500 to-purple-600',
   },

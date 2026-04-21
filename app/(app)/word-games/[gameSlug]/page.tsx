@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db'
 import { BackButton } from '@/components/ui/BackButton'
 import { CommSense } from '@/components/word-games/CommSense'
 import { WordSearch } from '@/components/word-games/WordSearch'
+import { FillBlank } from '@/components/word-games/FillBlank'
 
 type Props = {
   params: Promise<{ gameSlug: string }>
@@ -37,15 +38,15 @@ export default async function GamePage({ params }: Props) {
   if (gameSlug === 'word-hunter') {
     const mapped = rounds.map((r) => {
       const c = r.content as {
-        optionA: string
-        optionB: string
-        effectiveOption: 'A' | 'B'
+        sentence: string
+        options: [string, string, string, string]
+        correctIndex: number
         explanation: string
       }
       return {
-        optionA: c.optionA,
-        optionB: c.optionB,
-        effectiveOption: c.effectiveOption,
+        sentence: c.sentence,
+        options: c.options,
+        correctIndex: c.correctIndex,
         explanation: c.explanation,
       }
     })
@@ -53,7 +54,7 @@ export default async function GamePage({ params }: Props) {
     return (
       <div className="max-w-2xl mx-auto py-4">
         <BackButton href="/word-games" />
-        <CommSense rounds={mapped} />
+        <FillBlank rounds={mapped} />
       </div>
     )
   }
