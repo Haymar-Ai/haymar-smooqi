@@ -41,14 +41,20 @@ export async function POST(req: Request) {
       const referrer = await prisma.user.findFirst({ where: { referralCode: ref } })
       if (referrer) {
         referredById = referrer.id
-        // Grant 7 days premium trial to referrer
-        await prisma.user.update({
-          where: { id: referrer.id },
-          data: {
-            subscriptionStatus: 'trialing',
-            trialEndsAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
-          },
-        })
+        const newTrialEnd = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
+        // Only grant if referrer is not already on active paid subscription
+        if (referrer.subscriptionStatus !== 'active') {
+          await prisma.user.update({
+            where: { id: referrer.id },
+            data: {
+              subscriptionStatus: 'trialing',
+              // Never shorten an existing trial — take the later date
+              trialEndsAt: referrer.trialEndsAt && referrer.trialEndsAt > newTrialEnd
+                ? referrer.trialEndsAt
+                : newTrialEnd,
+            },
+          })
+        }
       }
     }
 
