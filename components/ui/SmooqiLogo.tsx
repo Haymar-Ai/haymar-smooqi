@@ -22,7 +22,7 @@ export function SmooqiLogo({ size = 'default' }: { size?: 'default' | 'small' | 
         </svg>
       </div>
       <span className={`${textSize} font-bold tracking-tight`}>
-        <span style={{ color: '#111827' }}>Sm</span>
+        <span className="text-gray-900 dark:text-gray-100">Sm</span>
         <span style={{ color: wordmarkColor }}>ooqi</span>
       </span>
     </div>

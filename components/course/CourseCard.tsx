@@ -77,12 +77,12 @@ export function CourseCard({ course, isSaved, progress }: CourseCardProps) {
               <LevelBadge level={course.level} />
             </div>
             <h3
-              className="text-sm font-bold line-clamp-2 leading-snug flex-1"
-              style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+              className="text-sm font-bold line-clamp-2 leading-snug flex-1 text-gray-900 dark:text-gray-100"
+              style={{ fontFamily: 'var(--font-playfair)' }}
             >
               {course.title}
             </h3>
-            <p className="text-xs line-clamp-2" style={{ color: '#57534E' }}>
+            <p className="text-xs line-clamp-2 dark:text-gray-300" style={{ color: '#57534E' }}>
               {course.description}
             </p>
 

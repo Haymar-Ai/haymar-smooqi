@@ -118,6 +118,32 @@
   border-color: #2a2a2a !important;
 }
 
+/* ── Inline hex color overrides — covers components using these exact values in style attrs ── */
+
+/* #1C1917, #111827, #374151 — near-black text */
+.dark [style*="color: rgb(28, 25, 23)"],
+.dark [style*="color:#1C1917"],
+.dark [style*="color: #1C1917"],
+.dark [style*='color: "#1C1917"'],
+.dark [style*="color: rgb(17, 24, 39)"],
+.dark [style*="color:#111827"],
+.dark [style*="color: #111827"],
+.dark [style*="color: rgb(55, 65, 81)"],
+.dark [style*="color:#374151"],
+.dark [style*="color: #374151"] {
+  color: #f0f0f0 !important;
+}
+
+/* #57534E, #6B7280 — warm gray medium text */
+.dark [style*="color: rgb(87, 83, 78)"],
+.dark [style*="color:#57534E"],
+.dark [style*="color: #57534E"],
+.dark [style*="color: rgb(107, 114, 128)"],
+.dark [style*="color:#6B7280"],
+.dark [style*="color: #6B7280"] {
+  color: #b0b0b0 !important;
+}
+
 @layer base {
   :root {
     /* iOS / Android safe area exposure */

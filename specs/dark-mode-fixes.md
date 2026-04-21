@@ -330,3 +330,110 @@ Add `course-overview` class to the root div:
 .dark .course-overview .text-green-600 { color: #4ade80 !important; }
 .dark .course-overview .border-green-200 { border-color: #2a5a3a !important; }
 ```
+
+---
+
+## Fix 7 — Course card titles unreadable in dark mode
+
+**File:** `components/course/CourseCard.tsx`
+
+The card title uses `style={{ color: '#1C1917' }}` — hardcoded inline, CSS can't reach it.
+
+**Fix:** Remove the inline color and use a Tailwind class instead:
+```tsx
+// Change:
+style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+// To:
+className="text-sm font-bold line-clamp-2 leading-snug flex-1 dark:text-gray-100"
+style={{ fontFamily: 'var(--font-playfair)' }}
+```
+
+Do the same for the description and metadata text that use `style={{ color: '#57534E' }}` and `style={{ color: '#A8A29E' }}`:
+- `#57534E` → add `dark:text-gray-300` via className
+- `#A8A29E` → add `dark:text-gray-400` via className
+
+For the vA card title (`text-gray-900`) — the global CSS already handles this via `.dark .text-gray-900`.
+
+---
+
+## Fix 8 — Smooqi logo "Sm" invisible in dark mode
+
+**File:** `components/ui/SmooqiLogo.tsx`
+
+The "Sm" part uses `style={{ color: '#111827' }}` — pure near-black, unreadable on dark backgrounds.
+
+**Fix:** Use a dynamic color based on dark mode, or use a CSS class:
+```tsx
+// Change:
+<span style={{ color: '#111827' }}>Sm</span>
+// To:
+<span className="text-gray-900 dark:text-gray-100">Sm</span>
+```
+
+The `dark:text-gray-100` Tailwind class will make it near-white in dark mode.
+
+---
+
+## Fix 9 — Global inline color sweep (ALL remaining hardcoded dark text)
+
+Rather than touching 15+ files, add these to `globals.css` dark mode block. These target the specific hex values used throughout as inline styles. CSS `color` property can be overridden by a more specific selector when using `!important`.
+
+**Add to the `.dark` block in `globals.css`:**
+
+```css
+/* ── Inline hex color overrides — covers all components using these exact values ── */
+/* These are the dark text colors used throughout in inline styles */
+
+/* #1C1917, #111827, #374151 — near-black text */
+.dark [style*="color: rgb(28, 25, 23)"],
+.dark [style*="color:#1C1917"],
+.dark [style*="color: #1C1917"],
+.dark [style*='color: "#1C1917"'],
+.dark [style*="color: rgb(17, 24, 39)"],
+.dark [style*="color:#111827"],
+.dark [style*="color: #111827"],
+.dark [style*="color: rgb(55, 65, 81)"],
+.dark [style*="color:#374151"],
+.dark [style*="color: #374151"] {
+  color: #f0f0f0 !important;
+}
+
+/* #57534E — warm gray medium text */
+.dark [style*="color: rgb(87, 83, 78)"],
+.dark [style*="color:#57534E"],
+.dark [style*="color: #57534E"],
+.dark [style*="color: rgb(107, 114, 128)"],
+.dark [style*="color:#6B7280"],
+.dark [style*="color: #6B7280"] {
+  color: #b0b0b0 !important;
+}
+```
+
+**Also fix `SmooqiLogo.tsx` and `Header.tsx` directly** — CSS attribute selectors won't catch React-rendered inline styles reliably in all browsers. For these two files, swap to Tailwind `dark:` classes:
+
+**`components/ui/SmooqiLogo.tsx`:**
+```tsx
+// Change:
+<span style={{ color: '#111827' }}>Sm</span>
+// To:
+<span className="text-gray-900 dark:text-gray-100">Sm</span>
+```
+
+**`components/layout/Header.tsx`** (marketing header, same logo):
+```tsx
+// Change:
+<span style={{ color: '#111827' }}>Sm</span>
+// To:
+<span className="text-gray-900 dark:text-gray-100">Sm</span>
+```
+
+**`components/course/CourseCard.tsx`** — title line:
+```tsx
+// Change:
+style={{ color: '#1C1917', fontFamily: 'var(--font-playfair)' }}
+// To:
+className="text-gray-900 dark:text-gray-100 text-sm font-bold line-clamp-2 leading-snug flex-1"
+style={{ fontFamily: 'var(--font-playfair)' }}
+```
+
+For all other files (dashboard components, lesson components, page files) — the CSS attribute selector approach above handles them without touching individual files.

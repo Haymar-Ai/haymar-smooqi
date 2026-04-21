@@ -28,7 +28,7 @@ export function Header({ isLoggedIn }: { isLoggedIn?: boolean }) {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <Link href="/" className="text-xl font-bold tracking-tight">
-          <span style={{ color: '#111827' }}>Sm</span>
+          <span className="text-gray-900 dark:text-gray-100">Sm</span>
           <span style={{ color: isVB ? '#1A6B4A' : '#7C3AED' }}>ooqi</span>
         </Link>
 
