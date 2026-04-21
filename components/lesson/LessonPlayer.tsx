@@ -291,9 +291,9 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
   // ─── Slide animation variants ────────────────────────────────────
 
   const slideVariants = {
-    enter: (d: number) => ({ x: d > 0 ? 300 : -300, opacity: 0 }),
+    enter: (d: number) => ({ x: d > 0 ? 60 : -60, opacity: 0 }),
     center: { x: 0, opacity: 1 },
-    exit: (d: number) => ({ x: d > 0 ? -300 : 300, opacity: 0 }),
+    exit: (d: number) => ({ x: d > 0 ? -60 : 60, opacity: 0 }),
   }
 
   // ─── Render ──────────────────────────────────────────────────────
@@ -309,7 +309,7 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
         {/* ── Slides phase ── */}
         {state.phase === 'slides' && (
           <div className="relative">
-            <AnimatePresence mode="wait" custom={direction}>
+            <AnimatePresence mode="popLayout" custom={direction} initial={false}>
               <motion.div
                 key={state.currentSlide}
                 custom={direction}
@@ -317,7 +317,10 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
                 initial="enter"
                 animate="center"
                 exit="exit"
-                transition={{ duration: 0.25, ease: 'easeInOut' }}
+                transition={{
+                  x: { type: 'spring', stiffness: 260, damping: 30, mass: 0.8 },
+                  opacity: { duration: 0.2, ease: 'easeOut' },
+                }}
               >
                 {state.mode === 'audio' ? (
                   <AudioPlayer
