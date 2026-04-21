@@ -31,7 +31,6 @@ const navItems = [
 
 export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDrawerProps) {
   const pathname = usePathname()
-  const drawerBg = '#FFFFFF'
   const drawerBorder = themeConfig.isVA ? 'rgb(243 244 246)' : '#E8E4DC'
 
   return (
@@ -54,8 +53,7 @@ export function NavDrawer({ isOpen, onClose, userName, userImage, level }: NavDr
             animate={{ x: 0 }}
             exit={{ x: 280 }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="fixed top-0 right-0 z-50 flex h-full w-[280px] flex-col shadow-xl"
-            style={{ background: drawerBg, backgroundColor: drawerBg }}
+            className="nav-drawer-panel fixed top-0 right-0 z-50 flex h-full w-[280px] flex-col shadow-xl bg-white"
           >
             {/* Close button */}
             <div className="flex h-14 items-center justify-end px-4">

@@ -19,7 +19,7 @@ interface AppHeaderProps {
 export function AppHeader({ streak, level, notifications, onMenuOpen }: AppHeaderProps) {
   return (
     <header
-      className="app-header-root fixed top-0 left-0 right-0 z-50 flex h-14 md:h-16 items-center justify-between px-4 md:px-6 border-b shadow-sm"
+      className="app-header-root app-header-bar fixed top-0 left-0 right-0 z-50 flex h-14 md:h-16 items-center justify-between px-4 md:px-6 border-b shadow-sm"
       style={
         themeConfig.isVA
           ? {

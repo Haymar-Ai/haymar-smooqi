@@ -10,7 +10,7 @@ const schema = z.object({
   newPassword: z.string().min(8),
 })
 
-export async function PATCH(req: Request) {
+export async function POST(req: Request) {
   try {
     const session = await getServerSession(authOptions)
     if (!session?.user?.id) {

@@ -1,11 +1,61 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+# Spec: Lesson Scroll, Animation, Dark Mode Global Fix
 
-.safe-area-bottom {
-  padding-bottom: env(safe-area-inset-bottom, 0px);
+---
+
+## Fix 1 — Quiz scroll-to-top on question advance
+
+**File:** `components/lesson/LessonPlayer.tsx`
+
+The `scrollTo` effect only tracks `state.phase` and `currentSlideIdx`. When user advances to next quiz question, phase stays `'quiz'` — no scroll.
+
+Add `currentQuestion` to the scroll effect:
+
+```ts
+const currentQuestionIdx = state.phase === 'quiz' ? state.currentQuestion : -1
+
+useEffect(() => {
+  window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior })
+}, [state.phase, currentSlideIdx, currentQuestionIdx])
+```
+
+---
+
+## Fix 2 — Slide animation laggy on desktop
+
+**File:** `components/lesson/LessonPlayer.tsx`
+
+Current: `transition={{ duration: 0.25, ease: 'easeInOut' }}` with pixel-offset variants.
+
+Replace with spring physics — feels natural on both mobile and desktop:
+
+```ts
+const slideVariants = {
+  enter: (d: number) => ({ x: d > 0 ? 60 : -60, opacity: 0 }),
+  center: { x: 0, opacity: 1 },
+  exit: (d: number) => ({ x: d > 0 ? -30 : 30, opacity: 0 }),
 }
+```
 
+```tsx
+transition={{
+  x: { type: 'spring', stiffness: 300, damping: 30, mass: 0.8 },
+  opacity: { duration: 0.15 },
+}}
+```
+
+Small offsets (60px enter, 30px exit) + spring = snappy and smooth without layout shift on desktop. Keep `AnimatePresence mode="wait"`.
+
+---
+
+## Fix 3 — Dark mode: global approach instead of component-by-component
+
+**The problem:** Dozens of components use hardcoded hex colors in inline `style` props. CSS class overrides can't reach inline styles. A component-by-component approach will take forever and miss things.
+
+**The solution:** Use CSS `color-scheme` + override the CSS custom properties at the `:root.dark` level, combined with a broad `*` selector sweep.
+
+**File:** `app/globals.css` — replace the current dark mode block entirely with:
+
+```css
 /* ═══════════════════════════════════════════
    DARK MODE — Global override
    ═══════════════════════════════════════════ */
@@ -117,83 +167,45 @@
   background-color: rgba(18, 18, 18, 0.95) !important;
   border-color: #2a2a2a !important;
 }
+```
 
-@layer base {
-  :root {
-    /* iOS / Android safe area exposure */
-    --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+**File:** `components/layout/NavDrawer.tsx`
 
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
-    --radius: 0.5rem;
-  }
+Replace the hardcoded inline style on `<motion.aside>`:
+```tsx
+// Remove: style={{ background: drawerBg, backgroundColor: drawerBg }}
+// Replace with className addition:
+className="nav-drawer-panel fixed top-0 right-0 z-50 flex h-full w-[280px] flex-col shadow-xl bg-white"
+```
 
-  * {
-    @apply border-border;
-  }
+**File:** `components/layout/AppHeader.tsx`
 
-  body {
-    @apply bg-background text-foreground;
-  }
-}
+Add `app-header-bar` class to the header's outermost element.
 
-/* ─── vB full-screen lesson reader ────────────────────────────────
-   When VbLessonShell is mounted it adds .vb-reader-active to <body>.
-   Hide the app header and background dots, and neutralize the
-   app-layout padding so the reader truly fills the viewport. */
-body.vb-reader-active header.app-header-root {
-  display: none !important;
-}
-body.vb-reader-active .bg-dots {
-  display: none !important;
-}
-body.vb-reader-active main {
-  padding: 0 !important;
-}
-body.vb-reader-active main > div {
-  padding: 0 !important;
-}
+**File:** `components/ui/NotificationPopover.tsx`
 
-/* Hide scrollbars on horizontal scroll containers (vB pill rows, etc.) */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
+Add `notification-popover` class to the dropdown `<motion.div>` (already in spec, confirm it's present).
 
-/* vB micro-interactions */
-@layer utilities {
-  .vb-btn-press {
-    @apply active:scale-[0.97] transition-transform duration-100;
-  }
-}
+---
 
-@keyframes vb-stamp {
-  0%   { transform: scale(0.5) rotate(-3deg); opacity: 0; }
-  70%  { transform: scale(1.05) rotate(1deg); opacity: 1; }
-  100% { transform: scale(1.0) rotate(0deg); opacity: 1; }
-}
-.vb-stamp {
-  animation: vb-stamp 350ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-  transform-origin: center;
-  display: inline-block;
-}
+## Fix 4 — Celebrations confirmed present (verify only)
+
+`LessonComplete`, `QuizSummary`, and `CourseComplete` all exist and have confetti/animation. No code change needed — just verify in testing that:
+- Completing a lesson shows `LessonComplete` with confetti ✅
+- Passing a quiz shows `QuizSummary` with confetti ✅
+- Completing the last lesson of a course shows `CourseComplete` ✅
+
+If any are missing, check that `phase` transitions are firing correctly in `LessonPlayer`.
+
+---
+
+## Constraints
+- No changes to vB layout, API routes, auth, or DB
+- The dark mode CSS should be a single consolidated block in `globals.css` — remove the old piecemeal overrides and replace with this complete version
+- TypeScript must compile clean
+
+## Verification
+- Answering quiz question + clicking Next → scrolls to top of next question
+- Slide transitions smooth on desktop (spring, small offset)
+- All pages readable in dark mode: home, explore, lessons, quiz, course overview, settings, profile, word games, nav drawer, notification popover
+- No white-on-white or dark-on-dark text anywhere visible

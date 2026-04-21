@@ -8,7 +8,7 @@ const schema = z.object({
   name: z.string().min(1).max(60),
 })
 
-export async function PATCH(req: Request) {
+export async function POST(req: Request) {
   try {
     const session = await getServerSession(authOptions)
     if (!session?.user?.id) {
