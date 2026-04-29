@@ -30,4 +30,4 @@ COPY content ./content
 EXPOSE 3000
 ENV NODE_ENV=production
 ENV PORT=3000
-CMD ["sh", "-c", "npx prisma migrate deploy && node_modules/.bin/tsx scripts/import-content.ts && node_modules/.bin/next start -p 3000"]
+CMD ["sh", "-c", "npx prisma db push --skip-generate --accept-data-loss && node_modules/.bin/tsx scripts/import-content.ts && node_modules/.bin/next start -p 3000"]
