@@ -42,7 +42,7 @@ export default async function InvitePage() {
         {[
           { step: '1', icon: '\u{1F4E8}', title: 'Share', desc: 'Send your referral link to friends' },
           { step: '2', icon: '\u{1F44B}', title: 'Sign Up', desc: 'They create a free account' },
-          { step: '3', icon: '\u{1F381}', title: 'You Get 500 XP', desc: 'You earn 500 XP, they get a free trial' },
+          { step: '3', icon: '\u{1F381}', title: 'Earn Rewards', desc: 'You earn 500 XP when they sign up. When they subscribe monthly, you get a free month.' },
         ].map((s) => (
           <Card key={s.step} className="text-center">
             <CardContent className="p-5">

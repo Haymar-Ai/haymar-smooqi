@@ -15,7 +15,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: 'What is Smooqi Premium?',
-    a: 'Premium unlocks every course in the library, removes lesson limits, and supports the team. Free users still get a steady stream of lessons across core topics.',
+    a: 'Premium unlocks every course in the library and supports the team. Start with a free 7-day trial — no credit card required. After your trial, a subscription is required to continue learning.',
   },
   {
     q: 'How do I cancel Premium?',
@@ -23,7 +23,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: 'How does the referral program work?',
-    a: 'Share your referral link from the Invite page. When a friend signs up and completes their first lesson, you both get 7 days of Premium, plus a small XP bonus.',
+    a: 'Share your referral link from the Invite page. When a friend signs up, you earn 500 XP. When that friend becomes a paying monthly subscriber, you get your first month free — plus more XP for every referral after that.',
   },
   {
     q: 'How do I change the topics I see?',

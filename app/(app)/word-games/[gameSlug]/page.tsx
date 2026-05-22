@@ -43,10 +43,13 @@ export default async function GamePage({ params }: Props) {
         correctIndex: number
         explanation: string
       }
+      const correctAnswer = c.options[c.correctIndex]
+      const shuffledOptions = shuffle([...c.options]) as [string, string, string, string]
+      const newCorrectIndex = shuffledOptions.indexOf(correctAnswer)
       return {
         sentence: c.sentence,
-        options: c.options,
-        correctIndex: c.correctIndex,
+        options: shuffledOptions,
+        correctIndex: newCorrectIndex,
         explanation: c.explanation,
       }
     })
@@ -67,10 +70,13 @@ export default async function GamePage({ params }: Props) {
         effectiveOption: 'A' | 'B'
         explanation: string
       }
+      const shouldSwap = Math.random() < 0.5
       return {
-        optionA: c.optionA,
-        optionB: c.optionB,
-        effectiveOption: c.effectiveOption,
+        optionA: shouldSwap ? c.optionB : c.optionA,
+        optionB: shouldSwap ? c.optionA : c.optionB,
+        effectiveOption: shouldSwap
+          ? (c.effectiveOption === 'A' ? 'B' : 'A')
+          : c.effectiveOption,
         explanation: c.explanation,
       }
     })

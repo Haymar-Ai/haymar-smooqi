@@ -1,5 +1,10 @@
+import Stripe from 'stripe'
 import { prisma } from './db'
 import { getLevelFromXp } from './xp'
+
+function getStripe() {
+  return new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-12-18.acacia' as any })
+}
 
 const REFERRAL_XP = 500
 
@@ -53,5 +58,47 @@ export async function grantReferralReward(referrerId: string) {
     }
   } catch (err) {
     console.error('[referrals] grantReferralReward failed:', err)
+  }
+}
+
+/**
+ * Called when a referred user converts to a paid monthly subscription.
+ * Grants XP for every conversion. Grants a $9.99 Stripe balance credit
+ * only once ever (first monthly conversion). Swallows errors.
+ */
+export async function grantPaidReferralReward(referrerId: string) {
+  try {
+    const referrer = await prisma.user.findUnique({
+      where: { id: referrerId },
+      select: { stripeCustomerId: true, referralFreeMonthGranted: true, xp: true, level: true },
+    })
+    if (!referrer) return
+
+    // XP for every paid conversion
+    const updated = await prisma.user.update({
+      where: { id: referrerId },
+      data: { xp: { increment: REFERRAL_XP } },
+      select: { xp: true, level: true },
+    })
+    const newLevel = getLevelFromXp(updated.xp)
+    if (newLevel !== updated.level) {
+      await prisma.user.update({ where: { id: referrerId }, data: { level: newLevel } })
+    }
+
+    // Free month credit — only once, only for monthly plan conversions
+    if (!referrer.referralFreeMonthGranted && referrer.stripeCustomerId) {
+      const stripe = getStripe()
+      await stripe.customers.createBalanceTransaction(referrer.stripeCustomerId, {
+        amount: -999, // -$9.99 in cents
+        currency: 'usd',
+        description: 'Referral reward — 1 free month',
+      })
+      await prisma.user.update({
+        where: { id: referrerId },
+        data: { referralFreeMonthGranted: true },
+      })
+    }
+  } catch (err) {
+    console.error('[referrals] grantPaidReferralReward failed:', err)
   }
 }

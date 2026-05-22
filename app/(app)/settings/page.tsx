@@ -419,7 +419,7 @@ export default function SettingsPage() {
           <button
             onClick={handleNotificationsToggle}
             className={cn(
-              'flex-shrink-0 relative h-6 w-11 rounded-full transition-colors',
+              'flex-shrink-0 self-center relative h-6 w-11 rounded-full transition-colors overflow-hidden',
               notifications ? 'bg-[var(--color-primary)]' : 'bg-gray-300'
             )}
           >
