@@ -3,6 +3,7 @@ import { prisma } from './db'
 import { getLevelFromXp } from './xp'
 
 function getStripe() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-12-18.acacia' as any })
 }
 
