@@ -1,5 +1,6 @@
 import { prisma } from '@/lib/db'
 import { redis } from '@/lib/redis'
+import { grantPaidReferralReward } from '@/lib/referrals'
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 
@@ -72,6 +73,21 @@ export async function POST(req: Request) {
               : null,
           },
         })
+
+        // Reward referrer when referred user converts to paid monthly plan
+        if (subscription.status === 'active') {
+          const priceId = subscription.items.data[0]?.price?.id
+          const isMonthly = priceId === process.env.STRIPE_MONTHLY_PRICE_ID
+          if (isMonthly) {
+            const user = await prisma.user.findUnique({
+              where: { stripeCustomerId: customerId },
+              select: { referredById: true },
+            })
+            if (user?.referredById) {
+              await grantPaidReferralReward(user.referredById)
+            }
+          }
+        }
         break
       }
 
