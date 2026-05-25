@@ -12,36 +12,47 @@ const plans = [
     name: "Premium Monthly",
     price: "$9.99",
     period: "/mo",
-    cta: "Start 7-Day Free Trial",
+    cta: "Start Free Trial",
     href: "/signup",
     highlighted: false,
     features: [
       "Full course access",
-      "Audio mode",
+      "XP & leveling system",
+      "Daily streaks & challenges",
       "Word games",
-      "Progress reports",
+      "Community leaderboard",
+      "Spaced repetition",
+      "Priority support",
+      "Ad-free experience",
     ],
   },
   {
     name: "Premium Annual",
     price: "$59.99",
     period: "/yr",
-    cta: "Start 7-Day Free Trial",
+    cta: "Get Best Value — Start Free",
     href: "/signup",
     highlighted: true,
     badge: "Most Popular — Save 50%",
     features: [
       "Full course access",
-      "Audio mode",
+      "XP & leveling system",
+      "Daily streaks & challenges",
       "Word games",
-      "Progress reports",
+      "Community leaderboard",
+      "Spaced repetition",
+      "Ad-free experience",
+      "Save 50% vs. monthly",
+      "Early access to new courses",
+      "Exclusive achievements",
+      "Premium support",
     ],
   },
 ];
 
 export function CtaSection() {
   return (
-    <section className="bg-muted/40 py-20 sm:py-24">
+    <section className="bg-muted/40 py-14 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
