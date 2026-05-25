@@ -6,7 +6,7 @@ import { z } from 'zod'
 import bcrypt from 'bcryptjs'
 
 const schema = z.object({
-  currentPassword: z.string().min(1),
+  currentPassword: z.string().min(1).optional(),
   newPassword: z.string().min(8),
 })
 
@@ -26,22 +26,39 @@ export async function POST(req: Request) {
     const { currentPassword, newPassword } = parsed.data
 
     const user = await prisma.user.findUnique({ where: { id: session.user.id } })
-    if (!user?.passwordHash) {
+    if (!user) {
+      return NextResponse.json({ error: 'User not found' }, { status: 404 })
+    }
+
+    if (user.passwordHash) {
+      if (!currentPassword) {
+        return NextResponse.json({ error: 'Current password is required' }, { status: 400 })
+      }
+      const valid = await bcrypt.compare(currentPassword, user.passwordHash)
+      if (!valid) {
+        return NextResponse.json({ error: 'Current password is incorrect' }, { status: 400 })
+      }
+
+      const hashedPassword = await bcrypt.hash(newPassword, 12)
+      await prisma.user.update({
+        where: { id: session.user.id },
+        data: { passwordHash: hashedPassword },
+      })
+      return NextResponse.json({ success: true })
+    }
+
+    if (user.provider === 'email') {
       return NextResponse.json({ error: 'No password set for this account' }, { status: 400 })
     }
 
-    const valid = await bcrypt.compare(currentPassword, user.passwordHash)
-    if (!valid) {
-      return NextResponse.json({ error: 'Current password is incorrect' }, { status: 400 })
-    }
-
     const hashedPassword = await bcrypt.hash(newPassword, 12)
-
     await prisma.user.update({
       where: { id: session.user.id },
-      data: { passwordHash: hashedPassword },
+      data: {
+        passwordHash: hashedPassword,
+        provider: user.provider === 'google' ? 'email+google' : user.provider,
+      },
     })
-
     return NextResponse.json({ success: true })
   } catch {
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })

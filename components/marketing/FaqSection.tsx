@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "What if I miss a day?",
     answer:
-      "Life happens! Your streak will pause, but you can use a streak freeze to protect it. Premium members get automatic streak freezes. Missing a day does not affect your course progress — just pick up where you left off.",
+      "Life happens! Missing a day resets your current streak, but your best streak is always saved. Your course progress is never affected — just pick up where you left off. Streak freezes are coming soon for premium members.",
   },
 ];
 

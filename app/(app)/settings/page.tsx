@@ -12,6 +12,7 @@ import { BackButton } from '@/components/ui/BackButton'
 
 type UserSettings = {
   provider: string
+  hasPassword: boolean
   themeMode: string
   notificationsEnabled: boolean
   subscriptionStatus: string
@@ -78,6 +79,13 @@ export default function SettingsPage() {
   const [confirmPassword, setConfirmPassword] = useState('')
   const [passwordMsg, setPasswordMsg] = useState('')
   const [passwordSaving, setPasswordSaving] = useState(false)
+
+  // Set initial password (OAuth users)
+  const [setPwNew, setSetPwNew] = useState('')
+  const [setPwConfirm, setSetPwConfirm] = useState('')
+  const [setPwMsg, setSetPwMsg] = useState('')
+  const [setPwSaving, setSetPwSaving] = useState(false)
+  const [setPwDone, setSetPwDone] = useState(false)
 
   // Notifications
   const [notifications, setNotifications] = useState(false)
@@ -218,6 +226,42 @@ export default function SettingsPage() {
     }
   }
 
+  async function handleSetInitialPassword() {
+    if (setPwNew !== setPwConfirm) {
+      setSetPwMsg('Passwords do not match.')
+      return
+    }
+    if (setPwNew.length < 8) {
+      setSetPwMsg('Password must be at least 8 characters.')
+      return
+    }
+
+    setSetPwSaving(true)
+    setSetPwMsg('')
+
+    try {
+      const res = await fetch('/api/user/password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ newPassword: setPwNew }),
+      })
+
+      if (res.ok) {
+        setSetPwMsg('Password set! You can now log in with email and password.')
+        setSetPwNew('')
+        setSetPwConfirm('')
+        setSetPwDone(true)
+      } else {
+        const data = await res.json().catch(() => ({}))
+        setSetPwMsg(data.error ?? 'Failed to set password.')
+      }
+    } catch {
+      setSetPwMsg('An error occurred.')
+    } finally {
+      setSetPwSaving(false)
+    }
+  }
+
   async function handleDeleteAccount() {
     if (deleteConfirm !== 'DELETE') return
     setDeleting(true)
@@ -317,6 +361,62 @@ export default function SettingsPage() {
           {'\uD83D\uDCA1'} Theme changes apply instantly.
         </p>
       </div>
+
+      {/* Account - Set initial password (Google users without a password) */}
+      {settings && !settings.hasPassword && settings.provider !== 'email' && !setPwDone && (
+        <div
+          className={`rounded-[var(--card-radius)] p-4 shadow-sm ${
+            themeConfig.isVA ? 'glass-card' : 'bg-white'
+          }`}
+        >
+          <h3 className="mb-1 text-sm font-semibold text-gray-700">
+            Set a password
+          </h3>
+          <p className="mb-3 text-xs text-gray-500">
+            You signed up with Google. Set a password so you can also log in with email — useful if Google is unavailable.
+          </p>
+          <div className="space-y-3">
+            <div>
+              <Label htmlFor="set-new-password" className="text-xs text-gray-600">
+                New Password
+              </Label>
+              <Input
+                id="set-new-password"
+                type="password"
+                value={setPwNew}
+                onChange={(e) => setSetPwNew(e.target.value)}
+                className="mt-1"
+              />
+            </div>
+            <div>
+              <Label htmlFor="set-confirm-password" className="text-xs text-gray-600">
+                Confirm New Password
+              </Label>
+              <Input
+                id="set-confirm-password"
+                type="password"
+                value={setPwConfirm}
+                onChange={(e) => setSetPwConfirm(e.target.value)}
+                className="mt-1"
+              />
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Button
+                onClick={handleSetInitialPassword}
+                disabled={setPwSaving || !setPwNew || !setPwConfirm}
+                size="sm"
+                className="rounded-[var(--button-radius)]"
+              >
+                {setPwSaving ? 'Saving...' : 'Set Password'}
+              </Button>
+              {setPwMsg && (
+                <span className="text-xs text-gray-500">{setPwMsg}</span>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Account - Change Password (email users only) */}
       {settings?.provider === 'email' && (

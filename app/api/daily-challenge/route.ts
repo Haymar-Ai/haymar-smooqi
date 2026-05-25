@@ -23,7 +23,46 @@ export async function GET() {
     })
 
     if (!challenge) {
-      return NextResponse.json({ challenge: null, attempt: null })
+      const recentChallenges = await prisma.dailyChallenge.findMany({
+        orderBy: { date: 'desc' },
+        take: 30,
+        select: { questionId: true },
+      })
+      const recentIds = recentChallenges.map(c => c.questionId)
+
+      const question = await prisma.quizQuestion.findFirst({
+        where: {
+          id: { notIn: recentIds },
+        },
+        orderBy: { id: 'asc' },
+      })
+
+      if (!question) {
+        return NextResponse.json({ challenge: null, attempt: null })
+      }
+
+      try {
+        const newChallenge = await prisma.dailyChallenge.upsert({
+          where: { date: today },
+          update: {},
+          create: { date: today, questionId: question.id },
+          include: { question: true },
+        })
+        const attempt = await prisma.userDailyChallenge.findUnique({
+          where: { userId_challengeId: { userId: session.user.id, challengeId: newChallenge.id } },
+        })
+        return NextResponse.json({ challenge: newChallenge, attempt })
+      } catch {
+        const existing = await prisma.dailyChallenge.findUnique({
+          where: { date: today },
+          include: { question: true },
+        })
+        if (!existing) return NextResponse.json({ challenge: null, attempt: null })
+        const attempt = await prisma.userDailyChallenge.findUnique({
+          where: { userId_challengeId: { userId: session.user.id, challengeId: existing.id } },
+        })
+        return NextResponse.json({ challenge: existing, attempt })
+      }
     }
 
     const attempt = await prisma.userDailyChallenge.findUnique({
