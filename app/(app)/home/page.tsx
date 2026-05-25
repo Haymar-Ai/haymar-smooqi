@@ -175,13 +175,15 @@ export default async function HomePage() {
         slug: ts.topic.slug,
         name: ts.topic.name,
         icon: ts.topic.icon,
-        courses: ts.topic.courses.map((c) => ({
-          id: c.id,
-          slug: c.slug,
-          title: c.title,
-          sortOrder: c.sortOrder,
-          lessons: c.lessons,
-        })),
+        courses: ts.topic.courses
+          .filter((c, i, arr) => arr.findIndex((x) => x.id === c.id) === i)
+          .map((c) => ({
+            id: c.id,
+            slug: c.slug,
+            title: c.title,
+            sortOrder: c.sortOrder,
+            lessons: c.lessons,
+          })),
       },
     }))
 
@@ -343,13 +345,15 @@ export default async function HomePage() {
               slug: ts.topic.slug,
               name: ts.topic.name,
               icon: ts.topic.icon,
-              courses: ts.topic.courses.map((c) => ({
-                id: c.id,
-                slug: c.slug,
-                title: c.title,
-                sortOrder: c.sortOrder,
-                lessons: c.lessons,
-              })),
+              courses: ts.topic.courses
+                .filter((c, i, arr) => arr.findIndex((x) => x.id === c.id) === i)
+                .map((c) => ({
+                  id: c.id,
+                  slug: c.slug,
+                  title: c.title,
+                  sortOrder: c.sortOrder,
+                  lessons: c.lessons,
+                })),
             },
           }))}
         />

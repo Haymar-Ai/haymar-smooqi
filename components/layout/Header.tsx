@@ -32,6 +32,23 @@ export function Header({ isLoggedIn }: { isLoggedIn?: boolean }) {
           <span style={{ color: isVB ? '#1A6B4A' : '#7C3AED' }}>ooqi</span>
         </Link>
 
+        {!isLoggedIn && (
+          <nav className="hidden sm:flex items-center gap-1">
+            <Link
+              href="/pricing"
+              className="px-3 py-1.5 text-sm text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/blog"
+              className="px-3 py-1.5 text-sm text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              Blog
+            </Link>
+          </nav>
+        )}
+
         <div className="flex items-center gap-2">
           {isLoggedIn ? (
             <Button
