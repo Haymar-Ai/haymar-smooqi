@@ -14,6 +14,7 @@ export async function GET() {
     where: { id: session.user.id },
     select: {
       provider: true,
+      passwordHash: true,
       themeColor: true,
       backgroundPattern: true,
       notificationsEnabled: true,
@@ -28,7 +29,8 @@ export async function GET() {
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
-  return NextResponse.json(user)
+  const { passwordHash, ...rest } = user
+  return NextResponse.json({ ...rest, hasPassword: passwordHash !== null })
 }
 
 const patchSchema = z.object({
