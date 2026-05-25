@@ -2,6 +2,7 @@ import { prisma } from '@/lib/db'
 import { redis } from '@/lib/redis'
 import { grantPaidReferralReward } from '@/lib/referrals'
 import { NextResponse } from 'next/server'
+import { Resend } from 'resend'
 import Stripe from 'stripe'
 
 function getStripe() {
@@ -115,6 +116,59 @@ export async function POST(req: Request) {
             where: { stripeCustomerId: customerId },
             data: { subscriptionStatus: 'past_due' },
           })
+        }
+        break
+      }
+
+      case 'customer.subscription.trial_will_end': {
+        const subscription = event.data.object as Stripe.Subscription
+        const customerId = subscription.customer as string
+
+        const user = await prisma.user.findUnique({
+          where: { stripeCustomerId: customerId },
+          select: { email: true, name: true, trialEndsAt: true },
+        })
+
+        if (user?.email) {
+          const trialEnd = user.trialEndsAt
+            ? new Date(user.trialEndsAt).toLocaleDateString('en-US', {
+                weekday: 'long', month: 'long', day: 'numeric'
+              })
+            : 'in 3 days'
+
+          try {
+            const resend = new Resend(process.env.RESEND_API_KEY!)
+            await resend.emails.send({
+              from: 'Smooqi <hello@haymar.ai>',
+              to: user.email,
+              subject: 'Your Smooqi trial ends soon — keep your streak alive',
+              html: `
+                <div style="font-family: Inter, sans-serif; max-width: 520px; margin: 0 auto; padding: 40px 32px;">
+                  <div style="margin-bottom: 32px;">
+                    <span style="font-size: 28px; font-weight: 800; color: #111827;">Sm</span><span style="font-size: 28px; font-weight: 800; color: #7C3AED;">ooqi</span>
+                  </div>
+                  <h1 style="font-size: 22px; font-weight: 700; color: #111827; margin: 0 0 12px;">
+                    Your free trial ends ${trialEnd}
+                  </h1>
+                  <p style="font-size: 15px; color: #374151; line-height: 1.6; margin: 0 0 16px;">
+                    Hi ${user.name ?? 'there'} — your Smooqi trial is ending in 3 days. Subscribe now to keep your streak, XP, achievements, and access to all 54 courses.
+                  </p>
+                  <p style="font-size: 15px; color: #374151; line-height: 1.6; margin: 0 0 32px;">
+                    The annual plan is <strong>$59.99/year</strong> — that's less than $1.15/week for daily learning across 15 topics.
+                  </p>
+                  <a href="${process.env.NEXTAUTH_URL}/pricing?reason=trial_ending"
+                     style="display: inline-block; background: #7C3AED; color: white; padding: 14px 28px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 15px;">
+                    Subscribe and Keep Learning →
+                  </a>
+                  <p style="font-size: 13px; color: #9CA3AF; margin-top: 40px;">
+                    No action needed if you don't want to continue — your account will revert to free after your trial.
+                  </p>
+                </div>
+              `,
+            })
+          } catch (err) {
+            console.error('[webhook] trial_will_end email failed:', err)
+          }
         }
         break
       }
