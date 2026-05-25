@@ -38,7 +38,7 @@ const cardVariants = {
 
 export function BenefitsSection() {
   return (
-    <section className="bg-muted/40 py-20 sm:py-24">
+    <section className="bg-muted/40 py-14 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">

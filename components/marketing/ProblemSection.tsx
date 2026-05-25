@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function ProblemSection() {
   return (
-    <section className="bg-muted/40 py-20 sm:py-24">
+    <section className="bg-muted/40 py-14 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <motion.div
