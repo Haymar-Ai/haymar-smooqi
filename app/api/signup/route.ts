@@ -5,6 +5,7 @@ import { grantReferralReward } from '@/lib/referrals'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
+import { Resend } from 'resend'
 
 const signupSchema = z.object({
   name: z.string().min(1, 'Name is required').max(100, 'Name too long'),
@@ -63,6 +64,39 @@ export async function POST(req: Request) {
 
     if (referredById) {
       await grantReferralReward(referredById)
+    }
+
+    try {
+      const resend = new Resend(process.env.RESEND_API_KEY)
+      await resend.emails.send({
+        from: 'Smooqi <hello@haymar.ai>',
+        to: user.email,
+        subject: 'Welcome to Smooqi 🧠',
+        html: `
+          <div style="font-family: Inter, sans-serif; max-width: 520px; margin: 0 auto; padding: 40px 32px; background: #ffffff;">
+            <div style="margin-bottom: 32px;">
+              <span style="font-size: 28px; font-weight: 800; color: #111827;">Sm</span><span style="font-size: 28px; font-weight: 800; color: #7C3AED;">ooqi</span>
+            </div>
+            <h1 style="font-size: 22px; font-weight: 700; color: #111827; margin: 0 0 12px;">Welcome, ${user.name ?? 'learner'}.</h1>
+            <p style="font-size: 15px; color: #374151; line-height: 1.6; margin: 0 0 16px;">
+              Your 7-day free trial has started. You have full access to all 54 courses across 15 topics — no credit card needed yet.
+            </p>
+            <p style="font-size: 15px; color: #374151; line-height: 1.6; margin: 0 0 32px;">
+              One lesson a day is all it takes. Pick a topic you've always been curious about and start today.
+            </p>
+            <a href="${process.env.NEXTAUTH_URL}/home"
+               style="display: inline-block; background: #7C3AED; color: white; padding: 14px 28px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 15px;">
+              Start Learning →
+            </a>
+            <p style="font-size: 13px; color: #9CA3AF; margin-top: 40px; line-height: 1.5;">
+              Your trial ends in 7 days. After that, continue for $9.99/month or $59.99/year.<br>
+              Questions? Reply to this email or visit <a href="${process.env.NEXTAUTH_URL}/support" style="color: #7C3AED;">our support page</a>.
+            </p>
+          </div>
+        `,
+      })
+    } catch (err) {
+      console.error('[signup] Welcome email failed:', err)
     }
 
     return NextResponse.json({ id: user.id, email: user.email })
