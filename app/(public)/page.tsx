@@ -18,7 +18,7 @@ import { VbTopics } from "@/components/marketing/vb/VbTopics";
 import { VbTestimonials } from "@/components/marketing/vb/VbTestimonials";
 import { VbCta } from "@/components/marketing/vb/VbCta";
 
-export const dynamic = 'force-dynamic'
+export const revalidate = 3600 // revalidate learner count once per hour
 
 export default async function MarketingHomePage() {
   const session = await getServerSession(authOptions)

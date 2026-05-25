@@ -1,3 +1,10 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About — Smooqi',
+  description: 'Learn about Smooqi — the daily micro-learning app that helps curious people build real knowledge across 195+ topics.',
+}
+
 export default function AboutPage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
