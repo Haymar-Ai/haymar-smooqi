@@ -50,6 +50,7 @@ export default async function HomePage() {
         totalMinutes: true,
         notificationsEnabled: true,
         subscriptionStatus: true,
+        trialEndsAt: true,
       },
     }),
     prisma.userProgress.findFirst({
@@ -88,6 +89,26 @@ export default async function HomePage() {
   ])
 
   if (!user) redirect('/login')
+
+  const isTrialExpired =
+    user.subscriptionStatus === 'trialing' &&
+    user.trialEndsAt !== null &&
+    new Date() > new Date(user.trialEndsAt!)
+
+  const trialExpiredBanner = isTrialExpired ? (
+    <div className="mb-4 rounded-2xl bg-amber-50 border border-amber-200 px-5 py-4 flex items-center justify-between gap-4">
+      <div>
+        <p className="font-semibold text-amber-900 text-sm">Your free trial has ended</p>
+        <p className="text-amber-700 text-xs mt-0.5">Subscribe to unlock all lessons and keep your streak alive.</p>
+      </div>
+      <a
+        href="/pricing?reason=trial_expired"
+        className="shrink-0 rounded-full bg-amber-600 px-4 py-2 text-xs font-semibold text-white hover:bg-amber-700 transition-colors"
+      >
+        Subscribe →
+      </a>
+    </div>
+  ) : null
 
   // Daily challenge attempt
   let dailyChallengeAttempt = null
@@ -188,7 +209,9 @@ export default async function HomePage() {
     }))
 
     return (
-      <VbDashboard
+      <>
+        {trialExpiredBanner}
+        <VbDashboard
         user={user}
         continueLesson={
           continueLesson
@@ -236,11 +259,13 @@ export default async function HomePage() {
         xpInLevel={xpInLevel}
         coursesCompleted={coursesCompleted}
       />
+      </>
     )
   }
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      {trialExpiredBanner}
       {/* Greeting */}
       <div>
         <h1 className="text-xl font-bold text-gray-900">
