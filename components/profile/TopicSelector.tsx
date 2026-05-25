@@ -25,6 +25,31 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
   const [selected, setSelected] = useState<Set<string>>(new Set(selectedSlugs))
   const [saving, setSaving] = useState(false)
 
+  // Lock body scroll when sheet is open
+  function lockScroll() {
+    const y = window.scrollY
+    document.body.style.position = 'fixed'
+    document.body.style.top = `-${y}px`
+    document.body.style.width = '100%'
+    document.body.dataset.scrollY = String(y)
+  }
+  function unlockScroll() {
+    const y = parseInt(document.body.dataset.scrollY ?? '0', 10)
+    document.body.style.position = ''
+    document.body.style.top = ''
+    document.body.style.width = ''
+    window.scrollTo(0, y)
+  }
+
+  function openSheet() {
+    lockScroll()
+    setIsOpen(true)
+  }
+  function closeSheet() {
+    unlockScroll()
+    setIsOpen(false)
+  }
+
   function toggleTopic(slug: string) {
     setSelected((prev) => {
       const next = new Set(prev)
@@ -49,6 +74,7 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
     }
 
     setSaving(false)
+    unlockScroll()
     setIsOpen(false)
     router.refresh()
   }
@@ -58,7 +84,7 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
       <Button
         variant="outline"
         size="sm"
-        onClick={() => setIsOpen(true)}
+        onClick={openSheet}
         className="rounded-full text-xs"
       >
         + Add topics
@@ -72,7 +98,8 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               className="fixed inset-0 z-50 bg-black/30"
-              onClick={() => setIsOpen(false)}
+              style={{ touchAction: 'none' }}
+              onClick={closeSheet}
             />
             <motion.div
               initial={{ y: '100%' }}
@@ -84,7 +111,7 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
             >
               <div className="sticky top-0 z-10 flex items-center justify-between border-b border-gray-100 bg-white px-5 py-4">
                 <h2 className="text-lg font-bold text-gray-900">Select Topics</h2>
-                <button onClick={() => setIsOpen(false)} className="flex h-8 w-8 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100">
+                <button onClick={closeSheet} className="flex h-8 w-8 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100">
                   <X className="h-5 w-5" />
                 </button>
               </div>
