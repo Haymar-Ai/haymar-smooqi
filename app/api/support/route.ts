@@ -37,14 +37,25 @@ export async function POST(req: Request) {
     try {
       const resend = new Resend(process.env.RESEND_API_KEY)
       await resend.emails.send({
-        from: 'Smooqi Support <support@haymar.ai>',
+        // TODO: change to 'Smooqi <support@smooqi.com>' once smooqi.com is verified in Resend
+        from: 'Smooqi <support@haymar.ai>',
         to: email,
         subject: `We received your message: ${subject}`,
         html: `
-          <p>Hi,</p>
-          <p>Thanks for reaching out. We received your support request and will get back to you within 24 hours.</p>
-          <p><strong>Your message:</strong><br/>${description}</p>
-          <p>— The Smooqi Team</p>
+          <div style="font-family: Inter, sans-serif; max-width: 520px; margin: 0 auto; padding: 32px;">
+            <p>Hi,</p>
+            <p>Thanks for reaching out. We received your support request and will get back to you within 24 hours.</p>
+            <p><strong>Your message:</strong><br/>${description}</p>
+            <p>— The Smooqi Team</p>
+            <div style="border-top: 1px solid #E5E7EB; margin-top: 40px; padding-top: 20px;">
+              <p style="font-size: 12px; color: #9CA3AF; margin: 0; line-height: 1.6;">
+                Smooqi — a product of Haymar Business Solutions, LLC<br>
+                Los Angeles, California, USA<br>
+                <a href="https://www.smooqi.com/privacy" style="color: #9CA3AF;">Privacy Policy</a> ·
+                <a href="https://www.smooqi.com/terms" style="color: #9CA3AF;">Terms of Service</a>
+              </p>
+            </div>
+          </div>
         `,
       })
     } catch (err) {

@@ -37,13 +37,24 @@ export async function POST(req: Request) {
     try {
       const resend = new Resend(process.env.RESEND_API_KEY)
       await resend.emails.send({
-        from: 'Smooqi Feedback <support@haymar.ai>',
+        // TODO: change to 'Smooqi <support@smooqi.com>' once smooqi.com is verified in Resend
+        from: 'Smooqi <support@haymar.ai>',
         to: 'hello@haymar.ai',
         subject: `App rating: ${rating}/5 from ${userEmail}`,
         html: `
-          <p><strong>Rating:</strong> ${rating} / 5</p>
-          <p><strong>User:</strong> ${userEmail}</p>
-          ${message ? `<p><strong>Message:</strong><br/>${message.replace(/</g, '&lt;')}</p>` : '<p><em>No message provided.</em></p>'}
+          <div style="font-family: Inter, sans-serif; max-width: 520px; margin: 0 auto; padding: 32px;">
+            <p><strong>Rating:</strong> ${rating} / 5</p>
+            <p><strong>User:</strong> ${userEmail}</p>
+            ${message ? `<p><strong>Message:</strong><br/>${message.replace(/</g, '&lt;')}</p>` : '<p><em>No message provided.</em></p>'}
+            <div style="border-top: 1px solid #E5E7EB; margin-top: 40px; padding-top: 20px;">
+              <p style="font-size: 12px; color: #9CA3AF; margin: 0; line-height: 1.6;">
+                Smooqi — a product of Haymar Business Solutions, LLC<br>
+                Los Angeles, California, USA<br>
+                <a href="https://www.smooqi.com/privacy" style="color: #9CA3AF;">Privacy Policy</a> ·
+                <a href="https://www.smooqi.com/terms" style="color: #9CA3AF;">Terms of Service</a>
+              </p>
+            </div>
+          </div>
         `,
       })
     } catch (err) {

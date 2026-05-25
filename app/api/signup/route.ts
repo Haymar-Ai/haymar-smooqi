@@ -69,6 +69,7 @@ export async function POST(req: Request) {
     try {
       const resend = new Resend(process.env.RESEND_API_KEY)
       await resend.emails.send({
+        // TODO: change to 'Smooqi <hello@smooqi.com>' once smooqi.com is verified in Resend
         from: 'Smooqi <hello@haymar.ai>',
         to: user.email,
         subject: 'Welcome to Smooqi 🧠',
@@ -92,6 +93,14 @@ export async function POST(req: Request) {
               Your trial ends in 7 days. After that, continue for $9.99/month or $59.99/year.<br>
               Questions? Reply to this email or visit <a href="${process.env.NEXTAUTH_URL}/support" style="color: #7C3AED;">our support page</a>.
             </p>
+            <div style="border-top: 1px solid #E5E7EB; margin-top: 40px; padding-top: 20px;">
+              <p style="font-size: 12px; color: #9CA3AF; margin: 0; line-height: 1.6;">
+                Smooqi — a product of Haymar Business Solutions, LLC<br>
+                Los Angeles, California, USA<br>
+                <a href="https://www.smooqi.com/privacy" style="color: #9CA3AF;">Privacy Policy</a> ·
+                <a href="https://www.smooqi.com/terms" style="color: #9CA3AF;">Terms of Service</a>
+              </p>
+            </div>
           </div>
         `,
       })

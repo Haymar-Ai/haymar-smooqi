@@ -33,6 +33,7 @@ function SignupForm() {
   const refCode = searchParams.get("ref") ?? undefined
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
+  const [ageConfirmed, setAgeConfirmed] = useState(false)
 
   const {
     register,
@@ -157,9 +158,25 @@ function SignupForm() {
             )}
           </div>
 
+          <div className="flex items-start gap-3 mt-2">
+            <input
+              type="checkbox"
+              id="age-confirm"
+              checked={ageConfirmed}
+              onChange={(e) => setAgeConfirmed(e.target.checked)}
+              className="mt-0.5 h-4 w-4 rounded border-gray-300 text-[var(--color-primary)]"
+            />
+            <label htmlFor="age-confirm" className="text-sm text-gray-600 leading-relaxed">
+              I confirm that I am 13 years of age or older and agree to the{" "}
+              <a href="/terms" className="text-[var(--color-primary)] hover:underline">Terms of Service</a>{" "}
+              and{" "}
+              <a href="/privacy" className="text-[var(--color-primary)] hover:underline">Privacy Policy</a>.
+            </label>
+          </div>
+
           <Button
             type="submit"
-            disabled={loading}
+            disabled={!ageConfirmed || loading}
             className="w-full bg-[var(--color-primary)] text-white rounded-[var(--button-radius)] hover:opacity-90"
           >
             {loading ? "Creating account..." : "Create account"}

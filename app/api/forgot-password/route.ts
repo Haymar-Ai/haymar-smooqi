@@ -52,6 +52,7 @@ export async function POST(req: Request) {
 
     try {
       await resend.emails.send({
+        // TODO: change to 'Smooqi <hello@smooqi.com>' once smooqi.com is verified in Resend
         from: 'Smooqi <noreply@haymar.ai>',
         to: email,
         subject: 'Reset your Smooqi password',
@@ -68,6 +69,14 @@ export async function POST(req: Request) {
             <p style="color: #9CA3AF; font-size: 12px; margin-top: 24px;">
               If you didn't request this, you can safely ignore this email.
             </p>
+            <div style="border-top: 1px solid #E5E7EB; margin-top: 40px; padding-top: 20px;">
+              <p style="font-size: 12px; color: #9CA3AF; margin: 0; line-height: 1.6;">
+                Smooqi — a product of Haymar Business Solutions, LLC<br>
+                Los Angeles, California, USA<br>
+                <a href="https://www.smooqi.com/privacy" style="color: #9CA3AF;">Privacy Policy</a> ·
+                <a href="https://www.smooqi.com/terms" style="color: #9CA3AF;">Terms of Service</a>
+              </p>
+            </div>
           </div>
         `,
       })

@@ -143,6 +143,10 @@ export function PricingCards() {
         </Card>
       ))}
       </div>
+      <p className="mt-8 text-center text-xs text-gray-400 max-w-lg mx-auto leading-relaxed">
+        Subscriptions renew automatically at the end of each billing period. Cancel anytime from Settings.
+        No charge during your 7-day free trial.
+      </p>
     </div>
   )
 }
