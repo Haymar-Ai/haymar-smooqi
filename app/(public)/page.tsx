@@ -1,5 +1,3 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { themeConfig } from "@/lib/theme";
 import { HeroSection } from "@/components/marketing/HeroSection";
@@ -20,8 +18,6 @@ import { VbCta } from "@/components/marketing/vb/VbCta";
 export const revalidate = 3600 // revalidate learner count once per hour
 
 export default async function MarketingHomePage() {
-  const session = await getServerSession(authOptions)
-
   let learnerCount = 0
   try {
     const realCount = await prisma.user.count()
