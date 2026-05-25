@@ -50,6 +50,7 @@ export default async function ProfilePage() {
         provider: true,
         subscriptionStatus: true,
         subscriptionPlan: true,
+        trialEndsAt: true,
         totalLessonsDone: true,
         totalMinutes: true,
         bestStreak: true,
@@ -84,10 +85,15 @@ export default async function ProfilePage() {
   const initials = getInitials(displayName)
   const avatarColor = getAvatarColor(displayName)
 
-  const planLabel =
-    user.subscriptionStatus === 'active' || user.subscriptionStatus === 'trialing'
-      ? 'Premium'
-      : 'Free'
+  let planLabel = 'Free'
+  if (user.subscriptionStatus === 'active') {
+    planLabel = user.subscriptionPlan === 'annual' ? 'Premium Annual' : 'Premium'
+  } else if (user.subscriptionStatus === 'trialing') {
+    const daysLeft = user.trialEndsAt
+      ? Math.max(Math.ceil((new Date(user.trialEndsAt).getTime() - Date.now()) / 86400000), 0)
+      : 7
+    planLabel = `Trial — ${daysLeft}d left`
+  }
 
   const statItems = [
     { label: 'Lessons', value: user.totalLessonsDone },
@@ -123,9 +129,11 @@ export default async function ProfilePage() {
               </h2>
               <Badge
                 className={
-                  planLabel === 'Premium'
+                  user.subscriptionStatus === 'active'
                     ? 'bg-amber-100 text-amber-800 border-0'
-                    : 'bg-gray-100 text-gray-600 border-0'
+                    : user.subscriptionStatus === 'trialing'
+                      ? 'bg-blue-100 text-blue-800 border-0'
+                      : 'bg-gray-100 text-gray-600 border-0'
                 }
               >
                 {planLabel}

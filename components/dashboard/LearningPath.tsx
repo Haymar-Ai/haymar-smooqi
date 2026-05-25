@@ -73,8 +73,11 @@ export function LearningPath({ topicSelections }: LearningPathProps) {
     <div className="space-y-4">
       {topicSelections.map((ts) => {
         const colors = themeConfig.topicColors[ts.topic.slug] ?? { bg: '#F3F4F6', text: '#374151' }
-        const visibleCourses = ts.topic.courses.slice(0, 5)
-        const remainingCount = ts.topic.courses.length - 5
+        const uniqueCourses = ts.topic.courses.filter(
+          (c, idx, arr) => arr.findIndex((x) => x.id === c.id) === idx
+        )
+        const visibleCourses = uniqueCourses.slice(0, 5)
+        const remainingCount = uniqueCourses.length - 5
 
         return (
           <div
@@ -104,7 +107,7 @@ export function LearningPath({ topicSelections }: LearningPathProps) {
                 className="ml-auto rounded-full px-2 py-0.5 text-[11px] font-semibold text-white"
                 style={{ backgroundColor: colors.text }}
               >
-                {ts.topic.courses.length}
+                {uniqueCourses.length}
               </span>
             </div>
 

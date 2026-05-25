@@ -40,7 +40,7 @@ export default async function LeaderboardPage({
   const params = await searchParams
   const tab = (['week', 'month', 'all'].includes(params.tab ?? '')
     ? params.tab
-    : 'week') as TabValue
+    : 'all') as TabValue
 
   let leaderboard: Array<{
     id: string

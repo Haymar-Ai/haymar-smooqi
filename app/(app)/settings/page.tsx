@@ -16,6 +16,8 @@ type UserSettings = {
   notificationsEnabled: boolean
   subscriptionStatus: string
   subscriptionPlan: string | null
+  trialEndsAt: string | null
+  subscriptionEndsAt: string | null
 }
 
 const THEME_COLORS = [
@@ -392,7 +394,14 @@ export default function SettingsPage() {
           {settings?.subscriptionStatus === 'active'
             ? `Premium ${settings.subscriptionPlan ?? ''} plan`
             : settings?.subscriptionStatus === 'trialing'
-              ? 'Free trial active'
+              ? (() => {
+                  if (!settings.trialEndsAt) return 'Free trial active'
+                  const daysLeft = Math.max(
+                    Math.ceil((new Date(settings.trialEndsAt).getTime() - Date.now()) / 86400000),
+                    0
+                  )
+                  return `Free trial — ${daysLeft} day${daysLeft !== 1 ? 's' : ''} remaining`
+                })()
               : 'Free plan'}
         </p>
         <Button
