@@ -36,6 +36,24 @@ export async function POST(req: Request) {
 
     try {
       const resend = new Resend(process.env.RESEND_API_KEY)
+
+      // Internal notification — new support ticket
+      await resend.emails.send({
+        from: 'Smooqi <support@haymar.ai>',
+        to: 'hello@haymar.ai',
+        subject: `[Support] ${issueType}: ${subject}`,
+        html: `
+          <div style="font-family: Inter, sans-serif; max-width: 520px; margin: 0 auto; padding: 32px;">
+            <h2 style="margin-top: 0;">New Support Request</h2>
+            <p><strong>From:</strong> ${email}</p>
+            <p><strong>Type:</strong> ${issueType}</p>
+            <p><strong>Subject:</strong> ${subject}</p>
+            <p><strong>Message:</strong><br/>${description}</p>
+          </div>
+        `,
+      }).catch((err) => console.error('[Support] Internal notification failed:', err))
+
+      // Confirmation to user
       await resend.emails.send({
         // TODO: change to 'Smooqi <support@smooqi.com>' once smooqi.com is verified in Resend
         from: 'Smooqi <support@haymar.ai>',
