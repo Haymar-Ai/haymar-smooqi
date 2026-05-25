@@ -6,7 +6,7 @@ import { BlogContent } from './BlogContent'
 import { BackButton } from '@/components/ui/BackButton'
 import { TopicIllustration } from '@/components/blog/TopicIllustration'
 
-export const dynamic = 'force-dynamic'
+export const revalidate = 3600 // blog revalidates hourly
 
 export default async function BlogPostPage({
   params,
