@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'FAQ — Smooqi',
+  description: 'Answers to common questions about Smooqi — free trial, lessons, mobile app, streaks, and pricing.',
+}
 
 const FAQS: Array<{ q: string; a: string }> = [
   {

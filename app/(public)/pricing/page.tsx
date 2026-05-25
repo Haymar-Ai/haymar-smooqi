@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import { PricingCards } from './PricingCards'
+
+export const metadata: Metadata = {
+  title: 'Pricing — Smooqi',
+  description: 'Start your 7-day free trial. No credit card required. Then $9.99/month or $59.99/year.',
+}
 
 export default function PricingPage() {
   return (

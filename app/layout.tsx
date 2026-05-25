@@ -18,9 +18,45 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Smooqi — Learn Anything, One Lesson at a Time',
-  description: 'One lesson a day across 195+ topics. Build real knowledge, one bite at a time.',
-  icons: { icon: '/icon' },
+  metadataBase: new URL('https://www.smooqi.com'),
+  title: {
+    default: 'Smooqi — Learn Anything, One Lesson at a Time',
+    template: '%s | Smooqi',
+  },
+  description: 'One lesson a day across 195+ topics — from Psychology to Physics. Build real knowledge, one bite at a time.',
+  keywords: ['learning app', 'micro learning', 'daily lessons', 'online courses', 'self improvement', 'education'],
+  authors: [{ name: 'Smooqi' }],
+  creator: 'Smooqi',
+  openGraph: {
+    title: 'Smooqi — Learn Anything, One Lesson at a Time',
+    description: 'One lesson a day across 195+ topics. Build real knowledge, one bite at a time.',
+    url: 'https://www.smooqi.com',
+    siteName: 'Smooqi',
+    images: [
+      {
+        url: '/og',
+        width: 1200,
+        height: 630,
+        alt: 'Smooqi — One lesson a day, 195+ topics',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Smooqi — Learn Anything, One Lesson at a Time',
+    description: 'One lesson a day across 195+ topics. Build real knowledge, one bite at a time.',
+    images: ['/og'],
+    creator: '@smooqi',
+  },
+  icons: {
+    icon: '/icon',
+    apple: '/apple-touch-icon.png',
+  },
+  alternates: {
+    canonical: 'https://www.smooqi.com',
+  },
 }
 
 export const viewport: Viewport = {
