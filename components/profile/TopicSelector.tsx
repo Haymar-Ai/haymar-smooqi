@@ -25,28 +25,12 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
   const [selected, setSelected] = useState<Set<string>>(new Set(selectedSlugs))
   const [saving, setSaving] = useState(false)
 
-  // Lock body scroll when sheet is open
-  function lockScroll() {
-    const y = window.scrollY
-    document.body.style.position = 'fixed'
-    document.body.style.top = `-${y}px`
-    document.body.style.width = '100%'
-    document.body.dataset.scrollY = String(y)
-  }
-  function unlockScroll() {
-    const y = parseInt(document.body.dataset.scrollY ?? '0', 10)
-    document.body.style.position = ''
-    document.body.style.top = ''
-    document.body.style.width = ''
-    window.scrollTo(0, y)
-  }
-
   function openSheet() {
-    lockScroll()
+    document.body.style.overflow = 'hidden'
     setIsOpen(true)
   }
   function closeSheet() {
-    unlockScroll()
+    document.body.style.overflow = ''
     setIsOpen(false)
   }
 
@@ -74,7 +58,7 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
     }
 
     setSaving(false)
-    unlockScroll()
+    document.body.style.overflow = ''
     setIsOpen(false)
     router.refresh()
   }
@@ -98,16 +82,20 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               className="fixed inset-0 z-50 bg-black/30"
-              style={{ touchAction: 'none' }}
               onClick={closeSheet}
             />
             <motion.div
-              initial={{ y: '100%' }}
-              animate={{ y: 0 }}
-              exit={{ y: '100%' }}
-              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-              className="fixed bottom-0 left-0 right-0 z-50 max-h-[80vh] overflow-y-auto overscroll-contain rounded-t-2xl bg-white shadow-xl"
-              style={{ WebkitOverflowScrolling: 'touch' }}
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.15 }}
+              className="fixed inset-0 z-50 flex items-center justify-center p-4"
+              style={{ pointerEvents: 'none' }}
+            >
+            <div
+              className="relative w-full max-w-lg max-h-[80vh] overflow-y-auto overscroll-contain rounded-2xl bg-white shadow-xl"
+              style={{ pointerEvents: 'auto' }}
+              onClick={(e) => e.stopPropagation()}
             >
               <div className="sticky top-0 z-10 flex items-center justify-between border-b border-gray-100 bg-white px-5 py-4">
                 <h2 className="text-lg font-bold text-gray-900">Select Topics</h2>
@@ -149,6 +137,7 @@ export function TopicSelector({ allTopics, selectedSlugs }: TopicSelectorProps) 
                   {saving ? 'Saving...' : 'Save'}
                 </Button>
               </div>
+            </div>
             </motion.div>
           </>
         )}
