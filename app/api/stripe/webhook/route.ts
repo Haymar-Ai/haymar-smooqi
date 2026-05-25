@@ -172,6 +172,33 @@ export async function POST(req: Request) {
         }
         break
       }
+
+      case 'checkout.session.completed': {
+        const checkoutSession = event.data.object as Stripe.Checkout.Session
+        if (checkoutSession.mode === 'subscription' && checkoutSession.customer) {
+          const customerId = checkoutSession.customer as string
+          const subscriptionId = checkoutSession.subscription as string | null
+
+          if (subscriptionId) {
+            const subscription = await stripe.subscriptions.retrieve(subscriptionId)
+            const statusMap: Record<string, string> = {
+              trialing: 'trialing',
+              active: 'active',
+            }
+            const status = statusMap[subscription.status] ?? subscription.status
+            await prisma.user.update({
+              where: { stripeCustomerId: customerId },
+              data: {
+                subscriptionStatus: status,
+                trialEndsAt: subscription.trial_end
+                  ? new Date(subscription.trial_end * 1000)
+                  : null,
+              },
+            })
+          }
+        }
+        break
+      }
     }
 
     return NextResponse.json({ received: true }, { status: 200 })
