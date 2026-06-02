@@ -3,7 +3,7 @@ import { authOptions } from '@/lib/auth'
 import { apiRateLimit } from '@/lib/rateLimit'
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import { Resend } from 'resend'
+import { sendEmail } from '@/lib/email'
 
 const schema = z.object({
   rating: z.number().int().min(1).max(5),
@@ -35,10 +35,8 @@ export async function POST(req: Request) {
     const userEmail = session.user.email ?? 'unknown'
 
     try {
-      const resend = new Resend(process.env.RESEND_API_KEY)
-      await resend.emails.send({
-        // TODO: change to 'Smooqi <support@smooqi.com>' once smooqi.com is verified in Resend
-        from: 'Smooqi <support@haymar.ai>',
+      await sendEmail({
+        from: 'Smooqi <support@smooqi.com>',
         to: 'hello@haymar.ai',
         subject: `App rating: ${rating}/5 from ${userEmail}`,
         html: `

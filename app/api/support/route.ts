@@ -3,7 +3,7 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import { Resend } from 'resend'
+import { sendEmail } from '@/lib/email'
 
 const schema = z.object({
   issueType: z.string().min(1),
@@ -35,11 +35,9 @@ export async function POST(req: Request) {
     })
 
     try {
-      const resend = new Resend(process.env.RESEND_API_KEY)
-
       // Internal notification — new support ticket
-      await resend.emails.send({
-        from: 'Smooqi <support@haymar.ai>',
+      await sendEmail({
+        from: 'Smooqi <support@smooqi.com>',
         to: 'hello@haymar.ai',
         subject: `[Support] ${issueType}: ${subject}`,
         html: `
@@ -51,12 +49,11 @@ export async function POST(req: Request) {
             <p><strong>Message:</strong><br/>${description}</p>
           </div>
         `,
-      }).catch((err) => console.error('[Support] Internal notification failed:', err))
+      }).catch((err: unknown) => console.error('[Support] Internal notification failed:', err))
 
       // Confirmation to user
-      await resend.emails.send({
-        // TODO: change to 'Smooqi <support@smooqi.com>' once smooqi.com is verified in Resend
-        from: 'Smooqi <support@haymar.ai>',
+      await sendEmail({
+        from: 'Smooqi <support@smooqi.com>',
         to: email,
         subject: `We received your message: ${subject}`,
         html: `

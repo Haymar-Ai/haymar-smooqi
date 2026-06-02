@@ -5,7 +5,7 @@ import { grantReferralReward } from '@/lib/referrals'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
-import { Resend } from 'resend'
+import { sendEmail } from '@/lib/email'
 
 const signupSchema = z.object({
   name: z.string().min(1, 'Name is required').max(100, 'Name too long'),
@@ -67,10 +67,8 @@ export async function POST(req: Request) {
     }
 
     try {
-      const resend = new Resend(process.env.RESEND_API_KEY)
-      await resend.emails.send({
-        // TODO: change to 'Smooqi <hello@smooqi.com>' once smooqi.com is verified in Resend
-        from: 'Smooqi <hello@haymar.ai>',
+      await sendEmail({
+        from: 'Smooqi <hello@smooqi.com>',
         to: user.email,
         subject: 'Welcome to Smooqi 🧠',
         html: `

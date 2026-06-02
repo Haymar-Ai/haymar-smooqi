@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/db"
 import { NextResponse } from "next/server"
 import { z } from "zod"
-import { Resend } from "resend"
+import { sendEmail } from "@/lib/email"
 import { resetRateLimit } from "@/lib/rateLimit"
 
 const schema = z.object({
@@ -48,12 +48,9 @@ export async function POST(req: Request) {
 
     const resetUrl = `${process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"}/reset-password?token=${token}`
 
-    const resend = new Resend(process.env.RESEND_API_KEY)
-
     try {
-      await resend.emails.send({
-        // TODO: change to 'Smooqi <hello@smooqi.com>' once smooqi.com is verified in Resend
-        from: 'Smooqi <noreply@haymar.ai>',
+      await sendEmail({
+        from: 'Smooqi <noreply@smooqi.com>',
         to: email,
         subject: 'Reset your Smooqi password',
         html: `

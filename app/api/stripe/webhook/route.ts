@@ -2,7 +2,7 @@ import { prisma } from '@/lib/db'
 import { redis } from '@/lib/redis'
 import { grantPaidReferralReward } from '@/lib/referrals'
 import { NextResponse } from 'next/server'
-import { Resend } from 'resend'
+import { sendEmail } from '@/lib/email'
 import Stripe from 'stripe'
 
 function getStripe() {
@@ -137,10 +137,8 @@ export async function POST(req: Request) {
             : 'in 3 days'
 
           try {
-            const resend = new Resend(process.env.RESEND_API_KEY!)
-            await resend.emails.send({
-              // TODO: change to 'Smooqi <hello@smooqi.com>' once smooqi.com is verified in Resend
-              from: 'Smooqi <hello@haymar.ai>',
+            await sendEmail({
+              from: 'Smooqi <hello@smooqi.com>',
               to: user.email,
               subject: 'Your Smooqi trial ends soon — keep your streak alive',
               html: `
