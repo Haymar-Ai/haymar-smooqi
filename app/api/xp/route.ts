@@ -3,7 +3,7 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { getLevelFromXp } from '@/lib/xp'
 import { checkAndUnlockAchievements } from '@/lib/achievements'
-import { apiRateLimit } from '@/lib/rateLimit'
+import { apiRateLimit, safeLimit } from '@/lib/rateLimit'
 import { z } from 'zod'
 import { NextResponse } from 'next/server'
 
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
-    const { success } = await apiRateLimit.limit(`xp:${session.user.id}`)
+    const { success } = await safeLimit(apiRateLimit, `xp:${session.user.id}`)
     if (!success) {
       return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
     }

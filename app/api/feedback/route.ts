@@ -1,6 +1,6 @@
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
-import { apiRateLimit } from '@/lib/rateLimit'
+import { apiRateLimit, safeLimit } from '@/lib/rateLimit'
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { sendEmail } from '@/lib/email'
@@ -17,7 +17,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
-    const { success } = await apiRateLimit.limit(`feedback:${session.user.id}`)
+    const { success } = await safeLimit(apiRateLimit, `feedback:${session.user.id}`)
     if (!success) {
       return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
     }

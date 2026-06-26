@@ -5,7 +5,7 @@ import { prisma } from './db'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
 import { generateReferralCode } from './utils'
-import { loginRateLimit } from './rateLimit'
+import { loginRateLimit, safeLimit } from './rateLimit'
 import { grantReferralReward } from './referrals'
 import { cookies } from 'next/headers'
 
@@ -34,7 +34,7 @@ export const authOptions: NextAuthOptions = {
 
         const forwarded = (req?.headers?.['x-forwarded-for'] as string | undefined) ?? ''
         const ip = forwarded.split(',')[0].trim() || 'unknown'
-        const { success } = await loginRateLimit.limit(ip)
+        const { success } = await safeLimit(loginRateLimit, ip)
         if (!success) return null
 
         const user = await prisma.user.findUnique({ where: { email: parsed.data.email.toLowerCase() } })

@@ -1,6 +1,6 @@
 import { prisma } from '@/lib/db'
 import { generateReferralCode } from '@/lib/utils'
-import { signupRateLimit } from '@/lib/rateLimit'
+import { signupRateLimit, safeLimit } from '@/lib/rateLimit'
 import { grantReferralReward } from '@/lib/referrals'
 import bcrypt from 'bcryptjs'
 import { z } from 'zod'
@@ -17,7 +17,7 @@ const signupSchema = z.object({
 export async function POST(req: Request) {
   try {
     const ip = req.headers.get('x-forwarded-for')?.split(',')[0] ?? 'unknown'
-    const { success } = await signupRateLimit.limit(ip)
+    const { success } = await safeLimit(signupRateLimit, ip)
     if (!success) {
       return NextResponse.json({ error: 'Too many requests. Try again later.' }, { status: 429 })
     }
@@ -107,7 +107,8 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({ id: user.id, email: user.email })
-  } catch {
+  } catch (err) {
+    console.error('[signup] failed:', err)
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }

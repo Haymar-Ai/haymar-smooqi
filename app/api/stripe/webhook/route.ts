@@ -33,13 +33,18 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 })
   }
 
-  // Idempotency: skip already-processed events
+  // Idempotency: skip already-processed events.
+  // Fail open if Redis is unreachable — better to risk a rare reprocess than drop the webhook.
   const eventId = event.id
-  const existing = await redis.get(`stripe:event:${eventId}`)
-  if (existing) {
-    return NextResponse.json({ received: true, duplicate: true }, { status: 200 })
+  try {
+    const existing = await redis.get(`stripe:event:${eventId}`)
+    if (existing) {
+      return NextResponse.json({ received: true, duplicate: true }, { status: 200 })
+    }
+    await redis.set(`stripe:event:${eventId}`, '1', { ex: 60 * 60 * 24 * 3 })
+  } catch (err) {
+    console.error('[stripe webhook] idempotency store unavailable, proceeding:', err)
   }
-  await redis.set(`stripe:event:${eventId}`, '1', { ex: 60 * 60 * 24 * 3 })
 
   try {
     switch (event.type) {
